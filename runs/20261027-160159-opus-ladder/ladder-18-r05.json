@@ -1,0 +1,123 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Motorchuna",
+    "description": "River in Yakutia (Sakha Republic), Russia",
+    "extract": "The Motorchuna is a river in Yakutia, Russia. It is a left tributary of the Lena with a length of 423 kilometres (263 mi). Its drainage basin area is 9,250 square kilometres (3,570 mi2). Since its river basin is uninhabited, the Motorchuna is one of the most untouched rivers in Yakutia; the waters are clean and there is abundant wildlife.",
+    "url": "https://en.wikipedia.org/wiki/Motorchuna"
+  },
+  "solved": true,
+  "turns_taken": 5,
+  "solved_turn": 5,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 235.5,
+  "usage": {
+    "explainer": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 12459,
+      "cache_read_input_tokens": 30430,
+      "output_tokens": 11416,
+      "thinking_tokens": 10803,
+      "cost_usd": 0.34023600000000004,
+      "calls": 5,
+      "cost_usd_reported": 1.1526714
+    },
+    "guesser": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 6284,
+      "cache_read_input_tokens": 10004,
+      "output_tokens": 6775,
+      "thinking_tokens": 5340,
+      "cost_usd": 0.1898456,
+      "calls": 5,
+      "cost_usd_reported": 0.46859779999999995
+    },
+    "judge": {
+      "input_tokens": 8,
+      "cache_creation_input_tokens": 2827,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 16,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0005742,
+      "calls": 4
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Plan: first establish the category (a river in cold Russia), then build the name Motor-chu-na by sound.\n\n<msg>\n🏔️🟦🟦🟦🟦🟦🟦🟦\n🧸🥃🏰 🌬️🧥🥾🌬️\n🔈 🚙\n</msg>",
+      "delivered": "🏔️🟦🟦🟦🟦🟦🟦🟦\n🧸🥃🏰 🌬️🧥🥾🌬️\n🔈 🚙",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "**My read so far:** 🏔️ = a mountain or hill. 🥃🏰 = whisky + castle, which points to **Scotland**. 🌬️🧥🥾🌬️ = windy hillwalking or hiking. 🔈🚙 = maybe a road or vehicle access, or a sound pun?\n\nQuestions:\n1. Is it a Scottish mountain or hill (Munro, Corbett, etc.)? Or is it in another country?\n2. Do the 8 🟦 mean something specific, like the number of letters, water/lochs, or \"blue\"?\n3. Is 🧸 a sound-alike, like \"Bear\" or \"Ted\"? Or is it part of the name?\n4. Is 🔈 a sound-alike too? Please spell out the name syllable by syllable with sound-alike emojis if you can.\n\nGUESS: Ben Lomond",
+      "guess": "Ben Lomond",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n⛔🏴󠁧󠁢󠁳󠁣󠁴󠁿 ⛔🏔️\n\n🟦🟦🟦🟦🟦 = 🚰🛟🏊🦛\n\n🧸♟️🩰🛰️🥃 🏰\n🌬️🧥⛷️🧥🌬️\n\n🔈🚙 = 📝🔤\n</msg>",
+      "delivered": "⛔🏴󠁧󠁢󠁳󠁣󠁴󠁿 ⛔🏔️\n🟦🟦🟦🟦🟦 🚰🛟🏊🦛\n🧸♟️🩰🛰️🥃 🏰\n🌬️🧥⛷️🧥🌬️\n🔈🚙 📝",
+      "dropped_chars": 3,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Got it: **not Scotland, not a mountain**.\n\n**New read:** 🟦🚰🛟🏊🦛 = a body of water: lake, river or reservoir. 🧸♟️🩰🛰️🥃🏰 = bear, chess, ballet, Sputnik, vodka, Kremlin → **Russia**. 🌬️🧥⛷️🧥🌬️ = cold, snowy winters, skiing. 🔈🚙📝 = still unclear. Is it about the name? 🔈 = \"quiet\" (Russian *Tikhoye*?) or \"sound\"? 🚙 = jeep or road access? 📝 = name or text?\n\nQuestions:\n1. Is it a **lake** (🦛 = big?), a **river**, or a **reservoir**?\n2. Which region: Siberia, the Urals, Karelia, the Far East?\n3. Can you spell the name with sound-alike emojis, one syllable per emoji?\n\nGUESS: Lake Onega",
+      "guess": "Lake Onega",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n🟢 🏔️🟦🟦🟦🟦🟦🟦🟦👉\n⛔ ⭕🟦⭕\n\n🌍👆👆 🌬️🌬️🌬️ 🧥🧥\n\n🔈 🚙🛞🔋 🛤️🚄 🇳🇦\n</msg>",
+      "delivered": "🟢 🏔️🟦🟦🟦🟦🟦🟦🟦👉\n⛔ ⭕🟦⭕\n🌍👆👆 🌬️🌬️🌬️ 🧥🧥\n🔈 🚙🛞🔋 🛤️🚄 🇳🇦",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "**Updated read:** 🌍👆👆 = far north on the globe, so the **Arctic**. 🌬️🌬️🌬️🧥🧥 = extremely windy and cold. 🔈 🚙🛞🔋 🛤️🚄 🇳🇦 = \"no road or rail access\" (N/A). ⛔⭕🟦⭕ = not a lake. 🟢 🏔️🟦🟦🟦🟦👉 = I think \"a mountain/land sticking out of the sea\", so an **island** (or a peninsula or cape)?\n\nQuestions:\n1. Island? Peninsula or cape? Bay or strait?\n2. Still Russia (Novaya Zemlya, Franz Josef Land, Severnaya Zemlya, the Kara or Laptev Sea…)? Or is it Svalbard, Greenland or Canada?\n3. Is it part of an archipelago?\n\nGUESS: Bolshevik Island",
+      "guess": "Bolshevik Island",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>\n⛔🏝️ ⛔🏔️ ⛔🌊\n\n🟩🟩🟩🟩🟩🟩🟩🟩\n🟦🟦🟦🟦🟦🟦🟦👉\n🟩🟩🟩🟩🟩🟩🟩🟩\n🦛🚰🐊 🟢\n\n🟢🧸\n\n🪪🔈 = 🧩🚙 🧩🛤️🚄 🧩🇳🇦\n</msg>",
+      "delivered": "⛔🏝️ ⛔🏔️ ⛔\n🟩🟩🟩🟩🟩🟩🟩🟩\n🟦🟦🟦🟦🟦🟦🟦👉\n🟩🟩🟩🟩🟩🟩🟩🟩\n🦛🚰🐊 🟢\n🟢🧸\n🪪🔈 🧩🚙 🧩🛤️🚄 🧩🇳🇦",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🌊"
+      ],
+      "retried": false,
+      "guesser": "**Big update:** 🟩🟦🟦🟦👉🟩 = water flowing between two banks, so a **RIVER** (🦛🚰🐊 confirms it). Still in Russia (🟢🧸), in the far north / Arctic, very cold and windy, with no road or rail access?\n\nNow the name. Is it built from the pieces 🚙 + 🛤️🚄 + 🇳🇦? Like \"Car / Kar\" + something + \"Na\"? Or do the 🧩s mean something else, like \"missing road and rail\"?\n\nQuestions:\n1. Does the name start with a sound like \"Kar\"? Please send each syllable as a separate line, using sound-alike emojis or letter emojis (🅰️ ℹ️ Ⓜ️ 🅾️ etc.).\n2. Which sea or big river does it flow into: Kara Sea, Laptev, Barents, Pechora, Yenisey, Lena?\n\nGUESS: Kara (river)",
+      "guess": "Kara (river)",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>\n⛔🚙=Kar\n\n⛔⛔⛔⛔⛔🟢\n\n🪪\n🇲🇴🇹🇴 🚙🛞\n🇨🇭\n🇺🇳 🇳🇦\n</msg>",
+      "delivered": "⛔🚙\n⛔⛔⛔⛔⛔🟢\n🪪\n🇲🇴🇹🇴 🚙🛞\n🇨🇭\n🇺🇳 🇳🇦",
+      "dropped_chars": 4,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Decoding your answers:\n- ⛔🚙 = it doesn't start with \"Kar\".\n- ⛔⛔⛔⛔⛔🟢 = it flows into the **Lena**, so it's a tributary of the Lena, in Yakutia.\n- The name: 🇲🇴🇹🇴 + 🚙🛞 (motor) + 🇨🇭 (CH) + 🇺🇳🇳🇦 (UNA) → **MOTOR-CHU-NA**\n\nGUESS: Motorchuna",
+      "guess": "Motorchuna",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "fd7be210-6f55-4337-9603-d75f42cf278e",
+    "guesser": "a5974204-5e24-4699-b4c0-1ef68a85536c"
+  },
+  "ladder": {
+    "article_no": 18,
+    "round": 5,
+    "n_banned": 123,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

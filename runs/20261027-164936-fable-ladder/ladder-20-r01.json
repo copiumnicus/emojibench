@@ -1,0 +1,75 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Franco Cozzo",
+    "description": "Australian businessman (1935–2023)",
+    "extract": "Franco Cozzo was an Italian-Australian businessman. After moving to Melbourne from Sicily in 1955, Cozzo became known for his television advertisements, in which he would speak in English, Greek, and Italian. He later produced Australia's first non-English TV show, Carosello, which was broadcast in Italian.",
+    "url": "https://en.wikipedia.org/wiki/Franco_Cozzo"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 32.4,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 752,
+      "cache_read_input_tokens": 577,
+      "output_tokens": 1421,
+      "thinking_tokens": 1300,
+      "cost_usd": 0.08625425,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1034,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 588,
+      "thinking_tokens": 425,
+      "cost_usd": 0.0501,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n👴💼 🌋🏝️🚢🦘🐨🏙️🚊\n🏬 🛏️🪞🚪🕯️🥇\n🎬📹 🟢⚪🔴 🔵⚪ 💬💬💬\n📣 🛍️🛍️🛍️ 💸💸💸 🪦\n</msg>",
+      "delivered": "👴💼 🌋🏝️🚢🦘🐨🏙️🚊\n🏬 🛏️🪞🚪🕯️🥇\n🎬📹 🟢⚪🔴 🔵⚪ 💬💬💬\n📣 🛍️🛍️🛍️ 💸💸💸 🪦",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The 👴💼 Italian-born (🌋 Sicily/Etna) businessman who sailed to Melbourne (🚊 trams), ran a furniture store 🏬🛏️🪞, and made famous TV ads in Italian 🟢⚪🔴, Greek 🔵⚪ and English — \"Grand sale! Grand sale! Grand sale!\" 🛍️🛍️🛍️ — and died recently 🪦.\n\nGUESS: Franco Cozzo",
+      "guess": "Franco Cozzo",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "4c9ac46b-dd03-481d-bbf4-b50eee15ea1a",
+    "guesser": "5263f1e9-9747-44da-b9b3-c80ac49640de"
+  },
+  "ladder": {
+    "article_no": 20,
+    "round": 1,
+    "n_banned": 15,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

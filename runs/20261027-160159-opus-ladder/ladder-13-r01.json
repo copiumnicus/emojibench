@@ -1,0 +1,88 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Dorothy Cottrell",
+    "description": "Australian writer",
+    "extract": "Ida Dorothy Ottley Cottrell was an Australian writer. Born in Picton, she contracted infantile paralysis as a child and spent the rest of her life in a wheelchair. Cottrell married Walter Mackenzie Cottrell on 23 May 1922. Her first novel, The Singing Gold, was published in 1928. She wrote a story Wilderness Orphan (1936) which was the basis for the feature film Orphan of the Wilderness (1936). She lived for a time in the US and also worked as an artist and cartoonist.",
+    "url": "https://en.wikipedia.org/wiki/Dorothy_Cottrell"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 50.8,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2126,
+      "cache_read_input_tokens": 1996,
+      "output_tokens": 1528,
+      "thinking_tokens": 1223,
+      "cost_usd": 0.0483904,
+      "calls": 2,
+      "cost_usd_reported": 0.0753906
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2192,
+      "cache_read_input_tokens": 944,
+      "output_tokens": 1504,
+      "thinking_tokens": 1195,
+      "cost_usd": 0.0480176,
+      "calls": 2,
+      "cost_usd_reported": 0.07860879999999999
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 700,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00014220000000000001,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "The message needs to convey Australia, a woman, a wheelchair and writing. The first-choice emojis for those are banned, so I'll use substitutes like the koala, boomerang and the manual wheelchair 🦽. I'll also hint at her novel \"The Singing Gold\" and at her first name, Dorothy, through Wizard of Oz imagery.\n\n<msg>\n🐨🪃 💁‍♀️🦽 📝📚\n🎤🥇\n🌪️👠🐕🌈\n</msg>",
+      "delivered": "🐨🪃 💁‍♀️🦽 📝📚\n🎤🥇\n🌪️👠🐕🌈",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Here's how I read it: an Australian woman who uses a wheelchair and is a writer or author. The 🎤🥇 might be a spoken word, slam or singing win. The Wizard of Oz line could stand for \"friend of Dorothy\", meaning LGBTQ+, or for a name like Dorothy or Judy, or for \"Oz\" itself.\n\nFirst guess is a queer, disabled Australian writer and spoken-word performer. If I'm wrong, tell me whether Oz means Dorothy/Judy as a name or LGBTQ+, and whether 🎤 means singing or comedy.\n\nGUESS: Jax Jacki Brown",
+      "guess": "Jax Jacki Brown",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "The guesser read \"Oz\" as LGBTQ+ and the 🎤🥇 as a performance prize. I'll correct both: Dorothy is her name, the singing-gold pair is a book title, and she's historical, not contemporary.\n\n<msg>\n📛 🌪️👠\n🏳️‍🌈❌\n📗 🎤🥇\n⏳⏳⏳ 👵\n</msg>",
+      "delivered": "📛 🌪️👠\n🏳️‍🌈❌\n📗 🎤🥇\n⏳⏳⏳ 👵",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Got it. 📛🌪️👠 means her name is Dorothy, not LGBTQ+. The 📗🎤🥇 points to her book *The Singing Gold*. She was an Australian author who had polio and used a wheelchair.\n\nGUESS: Dorothy Cottrell",
+      "guess": "Dorothy Cottrell",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "2f7c6a1b-095b-4976-b03a-20fd687bc2cb",
+    "guesser": "e8735dae-8661-48ec-be68-b270337b971c"
+  },
+  "ladder": {
+    "article_no": 13,
+    "round": 1,
+    "n_banned": 28,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

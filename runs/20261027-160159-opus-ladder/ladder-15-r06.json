@@ -1,0 +1,113 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Iglesia de Santa Ana (Santiago de Chile)",
+    "description": "National monument of Chile",
+    "extract": "The Iglesia de Santa Ana is a Catholic church in downtown Santiago de Chile. It is located at the northwest corner of Catedral and San Martín streets. The church was declared as a National Monument of Chile in 1970, within the category of Historic Monuments. Santa Ana metro station is named after the church.",
+    "url": "https://en.wikipedia.org/wiki/Iglesia_de_Santa_Ana_(Santiago_de_Chile)"
+  },
+  "solved": false,
+  "turns_taken": 1,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": true,
+  "max_turns": 30,
+  "seconds": 131.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1146,
+      "cache_read_input_tokens": 577,
+      "output_tokens": 10137,
+      "thinking_tokens": 9965,
+      "cost_usd": 0.2120314,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 963,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 717,
+      "thinking_tokens": 453,
+      "cost_usd": 0.022052,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 709,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.000144,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "claude-opus-5-5",
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 1146,
+        "cache_read_input_tokens": 577,
+        "output_tokens": 10137,
+        "thinking_tokens": 9965,
+        "cost_usd": 0.2120314,
+        "duration_ms": 118591
+      }
+    ],
+    "guesser": [
+      {
+        "model": "claude-opus-5-5",
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 963,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 717,
+        "thinking_tokens": 453,
+        "cost_usd": 0.022052,
+        "duration_ms": 8691
+      }
+    ],
+    "judge": [
+      {
+        "model": "claude-haiku-5-5",
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 709,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 0.000144,
+        "duration_ms": 1099
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "I'm signalling Chile with a drawn flag and church with prayer, bells and windows. \"Santa\" comes from elves and gifts, and \"Ana\" from Frozen's princess and snowman. 👍 and 👎 are banned, so I'll answer yes/no with 🟢 and 🔴.\n\n<msg>\n🔵⚪⚪⚪\n🔴🔴🔴🔴\n\n🤲🎶🛎️🪟\n\n🧝🎁🧦🍪🥛\n\n👸⛄\n</msg>",
+      "delivered": "🔵⚪⚪⚪\n🔴🔴🔴🔴\n🤲🎶🛎️🪟\n🧝🎁🧦🍪🥛\n👸⛄",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I'm reading lines 3–5 as **Christmas** (bells, music, window, elves, gifts, stockings, cookies and milk for Santa), plus a princess and a snowman.\n\nQuestions:\n1. Is it a **work** like a song, album, film, TV episode or special? Or is it a person or place?\n2. What do the first two lines mean (🔵⚪⚪⚪ / 🔴🔴🔴🔴)? Are they numbers, like season 1 episode 4, a count of members, or a year? Or are they colors, like a team, a flag, or blue-and-white Hanukkah vs. red Christmas?\n3. Is the princess a performer (a pop princess?) or a character?\n\nI don't have a real candidate yet, so this is a placeholder guess:\nGUESS: Christmas album",
+      "guess": "Christmas album",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": "f1a3b887-8be0-4d51-ae31-2241a6cb3897",
+    "guesser": "d7425071-6903-453d-a8af-8b31c97eeaa9"
+  },
+  "ladder": {
+    "article_no": 15,
+    "round": 6,
+    "n_banned": 110,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

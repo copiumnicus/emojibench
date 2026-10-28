@@ -1,0 +1,65 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "sonnet",
+  "guesser_model_id": "claude-sonnet-5-5",
+  "effort": null,
+  "article": {
+    "title": "Iron(III) sulfate",
+    "description": "Chemical compound",
+    "extract": "Iron(III) sulfate or ferric sulfate is a family of inorganic compounds with the formula Fe2(SO4)3(H2O)n. A variety of hydrates are known, including the most commonly encountered form of \"ferric sulfate\". Solutions are used in dyeing as a mordant and as a coagulant for industrial wastes. Solutions of ferric sulfate are also used in the processing of aluminum and steel.",
+    "url": "https://en.wikipedia.org/wiki/Iron(III)_sulfate"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 15.2,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1173,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 350,
+      "thinking_tokens": 254,
+      "cost_usd": 0.016392,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 945,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 378,
+      "thinking_tokens": 214,
+      "cost_usd": 0.007564,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n⚗️🧪 compound\n\n🧲⛓️🔩 ➕➕➕\n🤝\n🌋🥚💛 (sulfur) ⚛️⚛️⚛️⚛️\n\n💧 → 🎨👕 🚰♻️\n</msg>",
+      "delivered": "⚗️🧪\n🧲⛓️🔩 ➕➕➕\n🤝\n🌋🥚💛 ⚛️⚛️⚛️⚛️\n💧 🎨👕 🚰♻️",
+      "dropped_chars": 17,
+      "retried": false,
+      "guesser": "The clues point to a chemical compound. 🧲⛓️🔩 reads as iron, ➕➕➕ as a 3+ charge, and 🌋🥚💛 as sulfur. The four atoms ⚛️⚛️⚛️⚛️ could be the oxygens in sulfate. 🎨👕 suggests dyeing and 🚰♻️ suggests water treatment, and iron(III) sulfate is used for both.\n\nGUESS: Iron(III) sulfate",
+      "guess": "Iron(III) sulfate",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "5ed4f095-b1e5-4feb-9f16-1ff1711f0bbd",
+    "guesser": "8f91780d-e7ff-4114-ac36-fe5d356c41a8"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

@@ -1,0 +1,81 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Jakob von Washington",
+    "description": "Bavarian general (1778–1848)",
+    "extract": "\nBaron Jacobus von Washington was a lieutenant general in the Bavarian Army and a distant relative of US President George Washington. Born in The Hague, Netherlands, he was christened James Washington. Most of his adult life was shaped by his participation in wars for and against Napoleonic France and his service to Ludwig I of Bavaria.",
+    "url": "https://en.wikipedia.org/wiki/Jakob_von_Washington"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "max_turns": 30,
+  "seconds": 32.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1792,
+      "cache_read_input_tokens": 1140,
+      "output_tokens": 527,
+      "thinking_tokens": 340,
+      "cost_usd": 0.025356,
+      "calls": 2,
+      "cost_usd_reported": 0.041536
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2035,
+      "cache_read_input_tokens": 952,
+      "output_tokens": 1284,
+      "thinking_tokens": 907,
+      "cost_usd": 0.0423648,
+      "calls": 2,
+      "cost_usd_reported": 0.0696784
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 704,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.000143,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n💵👴🇺🇸 ➡️ 🌳👪 ➡️ 👨‍✈️🎖️⚔️\n👶🇳🇱 ➡️ 🥨🍺🇩🇪👑\n⚔️🇫🇷🎩\n</msg>",
+      "delivered": "💵👴🇺🇸 ➡️ 🌳👪 ➡️ 👨‍✈️🎖️⚔️\n👶🇳🇱 ➡️ 🥨🍺🇩🇪👑\n⚔️🇫🇷🎩",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "I'm reading this as: someone related to (perhaps a grandson or descendant of) a famous American on the money (Washington? Franklin? Hamilton?) who became a military officer. They were born in the Netherlands, served the Kingdom of Bavaria (or another German kingdom), and fought in wars against France (Napoleonic era, or maybe 1870?).\n\nQuestions:\n1. Which American is 💵👴🇺🇸? Please send emojis to tell them apart, e.g. 🪁⚡ for Franklin or 🍒🪓 for Washington.\n2. Is the family link a direct descendant (grandson, great-grandson) or another relative?\n3. Was the war against France Napoleonic (early 1800s) or Franco-Prussian (1870)?\n\nNo guess yet. I want to pin down the family first.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n🍒🪓 👍\n👪↔️🌳🍂 (🚫⬇️)\n🎩🇫🇷 ✅ 🕰️⬅️⬅️\n👤📛 🟰 🍒🪓\n</msg>",
+      "delivered": "🍒🪓 👍\n👪↔️🌳🍂 🚫⬇️\n🎩🇫🇷 ✅ 🕰️⬅️⬅️\n👤📛 🟰 🍒🪓",
+      "dropped_chars": 2,
+      "retried": false,
+      "guesser": "So it's someone with the surname Washington from a side branch of George Washington's family, not a direct descendant. Born in the Netherlands, they became an officer in the Bavarian army during the Napoleonic Wars. I think that's the Bavarian general Baron Jacob von Washington.\n\nGUESS: Jacob von Washington",
+      "guess": "Jacob von Washington",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "1204f28a-2a94-431d-a999-88c0f0adbbe2",
+    "guesser": "68f4e9d9-1be6-4c28-a778-fcd779de51ba"
+  },
+  "ladder": {
+    "article_no": 6,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": "runs/20261027-151301-opus/game-06.json"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

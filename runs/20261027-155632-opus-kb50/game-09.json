@@ -1,0 +1,88 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Jovan Hadži-Vasiljević",
+    "description": "Serbian historian, ethnographer, journalist and writer",
+    "extract": "Jovan Hadži-Vasiljević was a Serbian historian, ethnographer, journalist and writer.",
+    "url": "https://en.wikipedia.org/wiki/Jovan_Had%C5%BEi-Vasiljevi%C4%87"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": {
+    "fraction": 0.5,
+    "seed": "v1",
+    "size": 936
+  },
+  "max_turns": 30,
+  "seconds": 38.3,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 6213,
+      "cache_read_input_tokens": 6921,
+      "output_tokens": 684,
+      "thinking_tokens": 506,
+      "cost_usd": 0.0661764,
+      "calls": 2,
+      "cost_usd_reported": 0.11727779999999999
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1570,
+      "cache_read_input_tokens": 978,
+      "output_tokens": 1586,
+      "thinking_tokens": 1344,
+      "cost_usd": 0.044695200000000004,
+      "calls": 2,
+      "cost_usd_reported": 0.0618716
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 718,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0001458,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇷🇸 👨‍🦳 ✍️ 📜 📚 📰\n\n☦️ 🚶 🇮🇱 ➡️ 👨‍🦳 🌿</msg>",
+      "delivered": "🇷🇸 👨‍🦳 ✍️ 📜 📚 📰\n☦️ 🚶 🇮🇱 ➡️ 👨‍🦳 🌿",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Reading this as a Serbian Orthodox writer and old monk who walked on pilgrimage to Jerusalem and wrote a travel account of it. That sounds like the Rača monastery monk who wrote a travelogue of his journey to Jerusalem around 1704.\n\nGUESS: Jerotej Račanin",
+      "guess": "Jerotej Račanin",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🙅 🧓☦️ 🙅 📖🚶\n\n🪪 🟰 🚶🇮🇱 ➕ 🌿👑\n🇷🇸 📜🧑‍🏫 📰 🧑‍🌾👘🔬 🕰️ 🚂</msg>",
+      "delivered": "🙅 🧓☦️ 🙅 📖🚶\n🪪 🟰 🚶🇮🇱 🌿👑\n🇷🇸 📜 📰 👘🔬 🕰️ 🚂",
+      "dropped_chars": 3,
+      "off_keyboard": [
+        "➕",
+        "🧑‍🏫",
+        "🧑‍🌾"
+      ],
+      "retried": false,
+      "guesser": "I'm taking 🪪 = 🚶🇮🇱 + 🌿👑 to mean the name is built from \"Hadži\" (a pilgrim to Jerusalem) plus \"basil\" (the king-herb, i.e. Vasilije). That gives Hadži-Vasiljević, a Serbian writer, historian and ethnographer.\n\nGUESS: Jovan Hadži-Vasiljević",
+      "guess": "Jovan Hadži-Vasiljević",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "3d9b70ec-b7a9-492c-822d-bd061bacade2",
+    "guesser": "c2eac8f5-b183-4b3d-8bef-5b107e5c6329"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

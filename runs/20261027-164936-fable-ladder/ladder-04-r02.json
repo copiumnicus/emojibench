@@ -1,0 +1,75 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Mike Pieciak",
+    "description": "American politician (born 1983)",
+    "extract": "Michael Sullivan Pieciak is an American politician from Vermont. A member of the Democratic Party, Pieciak has served as Vermont State Treasurer since January 2023.",
+    "url": "https://en.wikipedia.org/wiki/Mike_Pieciak"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 62.8,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 772,
+      "cache_read_input_tokens": 577,
+      "output_tokens": 2512,
+      "thinking_tokens": 2408,
+      "cost_usd": 0.14120425,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1013,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1614,
+      "thinking_tokens": 1454,
+      "cost_usd": 0.10098,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🇨🇦⬇️ 💚🗻 🍨 🌲 🏞️\n👨 💙 🙋‍♂️ 📜\n🤑 💶 💴 💳 🏧 🧾 📊\n🔊 🎚️ 🍰 ✔️\n</msg>",
+      "delivered": "🇨🇦⬇️ 💚🗻 🍨 🌲 🏞️\n👨 💙 🙋‍♂️ 📜\n🤑 💶 💴 💳 🧾 📊\n🔊 🎚️ 🍰 ✔️",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The first lines read as: USA (south of Canada) → Vermont (green mountains, ice cream, forests) → male Democratic politician → finance/money/financial regulation → and the last line sounds like a rebus for a name: 🔊🎚️ = \"mic\" → Mike, 🍰✔️ = \"pie\" + \"check\" → Pieciak. That fits the Vermont State Treasurer / former Commissioner of Financial Regulation.\n\nGUESS: Mike Pieciak",
+      "guess": "Mike Pieciak",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "d4e2943c-1743-41f0-89ba-f1a46d3c66b9",
+    "guesser": "bfc05518-4229-4de3-9080-afd83c2ebab5"
+  },
+  "ladder": {
+    "article_no": 4,
+    "round": 2,
+    "n_banned": 33,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

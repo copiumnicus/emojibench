@@ -1,0 +1,90 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Franco Cozzo",
+    "description": "Australian businessman (1935–2023)",
+    "extract": "Franco Cozzo was an Italian-Australian businessman. After moving to Melbourne from Sicily in 1955, Cozzo became known for his television advertisements, in which he would speak in English, Greek, and Italian. He later produced Australia's first non-English TV show, Carosello, which was broadcast in Italian.",
+    "url": "https://en.wikipedia.org/wiki/Franco_Cozzo"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 45.8,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2409,
+      "cache_read_input_tokens": 2199,
+      "output_tokens": 1625,
+      "thinking_tokens": 1438,
+      "cost_usd": 0.0526756,
+      "calls": 2,
+      "cost_usd_reported": 0.0822792
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1768,
+      "cache_read_input_tokens": 964,
+      "output_tokens": 1110,
+      "thinking_tokens": 746,
+      "cost_usd": 0.0367536,
+      "calls": 2,
+      "cost_usd_reported": 0.05778080000000001
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 700,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00014220000000000001,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🌏🚋\n💺💺 🧸 🪟 🛁 🧺 🏚️\n📼📽️ 🗯️🗯️🗯️\n🐋🐋🐋\n</msg>",
+      "delivered": "🌏🚋\n💺💺 🧸 🪟 🛁 🧺 🏚️\n📼📽️ 🗯️🗯️🗯️\n🐋🐋🐋",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Initial read: 🌏🚋 suggests a world/Asia-Pacific train or tram journey. The household items (seats, teddy bear, window, bathtub, basket) next to a derelict house look like junk or abandoned furniture. 📼📽️🗯️ points to a video or film with dialogue, maybe an animated film or TV show. The three whales are a mystery: are they a title word, or a name?\n\nQuestions:\n1. Is it a creative work (film, TV, album, song, book)? If so, send 🎬 for film, 📺 for TV, 🎵 for music, 📖 for book.\n2. Are the 🐋🐋🐋 literally whales or a band/title word? Are the household items a list of junk or props?\n\nGUESS: The Whales",
+      "guess": "The Whales",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n🙅🎵🙅📖\n🤵\n\n🍅🧀🌋... 🛳️ ⏩ 🌏🚋\n💺💺🧸 💵\n📼 🤵🗯️🗯️🗯️\n\n🐋 = 🦣 = 📏⬆️⬆️⬆️\n</msg>",
+      "delivered": "🙅🎵🙅📖\n🤵\n🍅🧀 🛳️ ⏩ 🌏🚋\n💺💺🧸 💵\n📼 🤵🗯️🗯️🗯️\n🐋 🦣 📏⬆️⬆️⬆️",
+      "dropped_chars": 6,
+      "off_keyboard": [
+        "🌋"
+      ],
+      "retried": false,
+      "guesser": "This looks like an Italian (🍅🧀) man who came to Australia (🌏, Melbourne trams 🚋) by ship. He sold furniture and household goods (seats, teddy bears) and became famous for TV ads where he shouted \"Megalo, megalo, megalo!\" (huge ×3).\n\nGUESS: Franco Cozzo",
+      "guess": "Franco Cozzo",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "3a4a0441-1ac4-45d6-946d-fbf05fda7333",
+    "guesser": "266613d0-b06f-4965-849a-815d3cb9430b"
+  },
+  "ladder": {
+    "article_no": 20,
+    "round": 4,
+    "n_banned": 83,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

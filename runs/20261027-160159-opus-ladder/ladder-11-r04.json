@@ -1,0 +1,88 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Ayribobo",
+    "description": "Highest mountain of Turkmenistan",
+    "extract": "Ayribobo or Aýrybaba, officially named the Great Saparmyrat Turkmenbashi Peak in Turkmenistan since 2004, is a mountain in Central Asia. At 3,138 metres (10,295 ft) Aýrybaba is the highest mountain in Turkmenistan. It is located in the Köýtendag Range of the Pamir-Alay chain in the southeast of Turkmenistan on the Uzbekistani border.",
+    "url": "https://en.wikipedia.org/wiki/Ayribobo"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 59.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2443,
+      "cache_read_input_tokens": 2079,
+      "output_tokens": 2028,
+      "thinking_tokens": 1932,
+      "cost_usd": 0.0609596,
+      "calls": 2,
+      "cost_usd_reported": 0.0921272
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1993,
+      "cache_read_input_tokens": 922,
+      "output_tokens": 1562,
+      "thinking_tokens": 1078,
+      "cost_usd": 0.0475768,
+      "calls": 2,
+      "cost_usd_reported": 0.07437640000000001
+    },
+    "judge": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 698,
+      "cache_read_input_tokens": 702,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00015102,
+      "calls": 2
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🌄⏫\n\n🇹🇷🚹 🐫</msg>",
+      "delivered": "🌄⏫\n🇹🇷🚹 🐫",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "**My read so far:** 🌄⏫ could mean \"upper\" or \"highland,\" like the Turkish *Yukarı* or *Yayla*, or \"mountain/peak,\" like *Dağ* or *Tepe*. 🇹🇷 is Turkey. 🚹 suggests a man, or possibly a Turkish male person. 🐫 is a camel, which is *Deve* in Turkish.\n\n**Two readings:**\n1. A Turkish village whose name combines \"upper\" or \"mountain\" with \"camel\" (Deve-something).\n2. A Turkish man linked to mountains and camels, such as a camel wrestler or someone with a mountain-related surname.\n\n**Questions:**\n- Is it a place (👍) or a person (👎)?\n- Does 🐫 stand for part of the name (*Deve*)?\n\nGUESS: Develi",
+      "guess": "Develi",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>📍  🇹🇷🚫\n\n🇹🇷➕🚹🚹🟰 🏳️ 🐫🌍\n\n🏳️ 🌄⏫</msg>",
+      "delivered": "📍 🇹🇷🚫\n🇹🇷➕🚹🚹🟰 🏳️ 🐫🌍\n🏳️ 🌄⏫",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "**Decoded:** 🇹🇷 + 🚹🚹 = **Turk + men = Turkmen**, so the country is Turkmenistan, the camel land 🐫🌍. 📍🇹🇷🚫 says it's a place, but not in Turkey. 🏳️ 🌄⏫ seems to mean a mountain or peak in Turkmenistan, maybe its highest point.\n\nMy best candidate is Turkmenistan's highest mountain. If that's wrong, is it a mountain range (like the Kopet Dag), a village in the mountains, or something else?\n\nGUESS: Aýrybaba",
+      "guess": "Aýrybaba",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "764f01c4-8f7e-44bd-ad18-2c389ffacca2",
+    "guesser": "963b4fed-eb5f-404e-a5f7-5eb039d97041"
+  },
+  "ladder": {
+    "article_no": 11,
+    "round": 4,
+    "n_banned": 49,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

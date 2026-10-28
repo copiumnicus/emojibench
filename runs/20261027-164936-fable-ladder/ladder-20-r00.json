@@ -1,0 +1,72 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Franco Cozzo",
+    "description": "Australian businessman (1935–2023)",
+    "extract": "Franco Cozzo was an Italian-Australian businessman. After moving to Melbourne from Sicily in 1955, Cozzo became known for his television advertisements, in which he would speak in English, Greek, and Italian. He later produced Australia's first non-English TV show, Carosello, which was broadcast in Italian.",
+    "url": "https://en.wikipedia.org/wiki/Franco_Cozzo"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 22.4,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1155,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 433,
+      "thinking_tokens": 340,
+      "cost_usd": 0.04477,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 970,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 356,
+      "thinking_tokens": 285,
+      "cost_usd": 0.03722,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>👨🏻‍💼 🇮🇹➡️🇦🇺 🚋 🛋️🪑👑✨ 📺📢 🗣️🇬🇧🇬🇷🇮🇹 🏷️🏷️🏷️</msg>",
+      "delivered": "👨🏻‍💼 🇮🇹➡️🇦🇺 🚋 🛋️🪑👑✨ 📺📢 🗣️🇬🇧🇬🇷🇮🇹 🏷️🏷️🏷️",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "The tram and the three labels (Footiscray, Brunswick, Nord Melbourne!) plus trilingual TV ads — this is the Melbourne furniture king.\n\nGUESS: Franco Cozzo",
+      "guess": "Franco Cozzo",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "4d104a0f-778d-4f92-8b24-d43b737bd424",
+    "guesser": "6e7d81f1-c117-4e28-a829-ebcff8c50710"
+  },
+  "ladder": {
+    "article_no": 20,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": "runs/20261027-153308-fable/game-20.json"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

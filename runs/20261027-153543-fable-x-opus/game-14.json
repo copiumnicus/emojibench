@@ -1,0 +1,65 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Philadelphia Commercial Museum",
+    "description": "Former museum in Pennsylvania, USA",
+    "extract": "The Philadelphia Commercial Museum was established in Philadelphia, Pennsylvania in 1895. Its permanent home was a neo-classical building situated at 34th Street and Civic Center Blvd, erected as part of the 1899 National Export Exposition. The museum had business offices at 332 South Fourth Street.",
+    "url": "https://en.wikipedia.org/wiki/Philadelphia_Commercial_Museum"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 19.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1168,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 463,
+      "thinking_tokens": 381,
+      "cost_usd": 0.04653,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 938,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 459,
+      "thinking_tokens": 280,
+      "cost_usd": 0.016692,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🇺🇸 🔔 🦅 🥪 👬❤️\n🏛️ 🖼️ 🏺\n💼 💰 📦 🚢 🌍 🤝\n🕰️ ❌\n</msg>",
+      "delivered": "🇺🇸 🔔 🦅 🥪 👬❤️\n🏛️ 🖼️ 🏺\n💼 💰 📦 🚢 🌍 🤝\n🕰️ ❌",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Decoding: 🇺🇸🔔🦅🥪👬❤️ points to Philadelphia (Liberty Bell, cheesesteak, City of Brotherly Love). 🏛️🖼️🏺 suggests a museum. 💼💰📦🚢🌍🤝 suggests commerce, trade and shipping. 🕰️❌ suggests it's defunct or historical.\n\nMy hypothesis is the defunct museum of world trade in Philadelphia.\n\nGUESS: Philadelphia Commercial Museum",
+      "guess": "Philadelphia Commercial Museum",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "f484bad5-e13c-4ae4-9206-a4cc281d948a",
+    "guesser": "f012e9d6-7618-40e1-bd8e-0a44c51de48f"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

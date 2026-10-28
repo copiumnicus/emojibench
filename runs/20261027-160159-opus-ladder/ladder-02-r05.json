@@ -1,0 +1,110 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Iron(III) sulfate",
+    "description": "Chemical compound",
+    "extract": "Iron(III) sulfate or ferric sulfate is a family of inorganic compounds with the formula Fe2(SO4)3(H2O)n. A variety of hydrates are known, including the most commonly encountered form of \"ferric sulfate\". Solutions are used in dyeing as a mordant and as a coagulant for industrial wastes. Solutions of ferric sulfate are also used in the processing of aluminum and steel.",
+    "url": "https://en.wikipedia.org/wiki/Iron(III)_sulfate"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 111.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 6142,
+      "cache_read_input_tokens": 12905,
+      "output_tokens": 4631,
+      "thinking_tokens": 4209,
+      "cost_usd": 0.146974,
+      "calls": 4,
+      "cost_usd_reported": 0.4528342000000001
+    },
+    "guesser": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 3852,
+      "cache_read_input_tokens": 5954,
+      "output_tokens": 3147,
+      "thinking_tokens": 2619,
+      "cost_usd": 0.09619360000000002,
+      "calls": 4,
+      "cost_usd_reported": 0.25451619999999997
+    },
+    "judge": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1402,
+      "cache_read_input_tokens": 701,
+      "output_tokens": 12,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00029401000000000004,
+      "calls": 3
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "I'm opening with \"scientist,\" then a cluster for iron, then a cluster for sulfur.\n\n<msg>\n👨‍🔬\n\n⚓🛠️🏗️🗜️\n\n♨️🎆🐣\n</msg>",
+      "delivered": "👨‍🔬\n⚓🛠️🏗️🗜️\n♨️🎆🐣",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Here's my read: a scientist or engineer who worked on ships or naval engineering and on tools or machines. The ♨️ + 🐣 pair looks like an incubator that hatches eggs with heat, and 🎆 suggests explosives or pyrotechnics. That combination reminds me of the Dutch inventor who built an early submarine, a thermostat-controlled egg incubator and explosive devices.\n\nIf I'm wrong, tell me: is it a person (👍/👎), and roughly what era or country?\n\nGUESS: Cornelis Drebbel",
+      "guess": "Cornelis Drebbel",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "The guesser read my emojis as a person, so I'm saying \"not a person,\" then giving a substance in a jar. I'm hinting iron with ironing a shirt plus an anchor, and sulfur with a smell of eggs at hot springs.\n\n<msg>\n🧍✖️\n\n🫙🧑‍🏫👨‍🔬\n\n👔♨️ ⚓\n\n👃🐣♨️🎆\n</msg>",
+      "delivered": "🧍✖️\n🫙🧑‍🏫👨‍🔬\n👔♨️ ⚓\n👃🐣♨️🎆",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "You're saying it's not a person. I now read it as a chemical substance (jar, lab, chemistry) with industrial, marine and construction uses, a smell of rotten eggs like hot springs, and a role in fireworks. That points to sulfur or a sulfur compound.\n\nIs it an element (👍) or a compound (👎)? If it's a compound, which elements are in it?\n\nGUESS: Hydrogen sulfide",
+      "guess": "Hydrogen sulfide",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "The guesser now has sulfur. This turn I'm confirming it and pushing toward iron through the Eiffel Tower, a train, an anchor and a golf swing. Four red circles hint at the four oxygens in sulfate.\n\n<msg>\n♨️✔️\n\n🤝\n\n🗼🚂⚓🏌️‍♀️\n\n⭕⭕⭕⭕\n</msg>",
+      "delivered": "♨️✔️\n🤝\n🗼🚂⚓🏌️‍♀️\n⭕⭕⭕⭕",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Here's how I'm reading it: sulfur ✔️, bonded with iron (Eiffel Tower, railways, anchor, golf iron), plus four ⭕ for O₄. That gives FeSO₄. If the ⭕ meant something else and it's really iron sulfide or pyrite, tell me.\n\nGUESS: Iron(II) sulfate",
+      "guess": "Iron(II) sulfate",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "They got Iron(II) sulfate, which is one oxidation state off. I'm showing that two is wrong and three is right.\n\n<msg>\n🔴🔴 ✖️\n\n🔴🔴🔴 ✔️\n</msg>",
+      "delivered": "🔴🔴 ✖️\n🔴🔴🔴 ✔️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I'm reading 🔴🔴🔴 as the +3 oxidation state, so it's iron(III) rather than iron(II). I'm keeping the four ⭕ as the four oxygens of sulfate.\n\nGUESS: Iron(III) sulfate",
+      "guess": "Iron(III) sulfate",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "ca21f104-adf6-4cdd-b5c7-9296dad6e357",
+    "guesser": "0cd6bb67-c38d-4fea-b809-1a22a9666184"
+  },
+  "ladder": {
+    "article_no": 2,
+    "round": 5,
+    "n_banned": 96,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

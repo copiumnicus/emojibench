@@ -1,0 +1,99 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Mike Pieciak",
+    "description": "American politician (born 1983)",
+    "extract": "Michael Sullivan Pieciak is an American politician from Vermont. A member of the Democratic Party, Pieciak has served as Vermont State Treasurer since January 2023.",
+    "url": "https://en.wikipedia.org/wiki/Mike_Pieciak"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 202.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 12753,
+      "cache_read_input_tokens": 14790,
+      "output_tokens": 11955,
+      "thinking_tokens": 11656,
+      "cost_usd": 0.34708,
+      "calls": 3,
+      "cost_usd_reported": 0.8616763999999999
+    },
+    "guesser": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 2351,
+      "cache_read_input_tokens": 2395,
+      "output_tokens": 4141,
+      "thinking_tokens": 3634,
+      "cost_usd": 0.102626,
+      "calls": 3,
+      "cost_usd_reported": 0.156664
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Opening with the role (male elected official, treasure → treasurer); Vermont can come next.\n\n<msg>\n🚹 ☑️ 💺\n\n🪎 👝 🏅\n</msg>",
+      "delivered": "🚹 ☑️ 💺\n🪎 👝 🏅",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "My read so far: 🚹 = a man, ☑️💺 = elected to a seat (a politician?), 🪎👝 = treasure/money (treasurer or finance minister?), 🏅 = an award, honour, or medal.\n\nQuestions:\n1. Is this a politician who was elected to a legislature?\n2. Is 🪎👝 about finance, like a treasurer or finance minister?\n3. Is 🏅 an honour or award (like a knighthood or order) rather than a sports medal?\n4. Which country? Please send a flag.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "The 🇺🇸 flags are banned, so I'll point to the US with other emojis and confirm the treasurer reading.\n\n<msg>\n🙂‍↕️\n🙂‍↕️ 🪎 🙂‍↕️\n🙂‍↔️ 🏅 💛\n🤠 🦬 🌽 ⭐\n</msg>",
+      "delivered": "🙂‍↕️\n🙂‍↕️ 🪎 🙂‍↕️\n🙂‍↔️ 🏅 💛\n🤠 🦬 🌽 ⭐",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "So: a male politician, elected, who was a **state treasurer** in a US state. 🤠🦬🌽⭐ reads to me like **Kansas** (bison as state animal, \"Ad astra\" star motto), though Nebraska or Oklahoma are possible too.\n\n🏅💛 is not an award, so I'm reading it as **GOLD**. Is that a hint at his name (surname Gold, Golden, Goldsmith...)?\n\nQuestions:\n1. Is the state Kansas? If not, send a different hint.\n2. Is \"gold\" part of his name? If so, is it the surname or the first name?\n3. Roughly what era? Please send a century or decade hint.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "Not Kansas, and gold isn't in his name. For the state I'll hint the \"Green Mountain State\" with 📗 (green book) and 🚞 (mountain railway). 🎁 means \"present\" for the era.\n\n<msg>\n🙂‍↔️    📗 🚞    ⛄\n🙂‍↔️\n🎁\n</msg>",
+      "delivered": "🙂‍↔️ 📗 🚞 ⛄\n🙂‍↔️\n🎁",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Rereading it: 🤠🦬🌽⭐ meant \"American\". 📗🚞⛄ looks like the **Green Mountain State**, so Vermont, and 🎁 means present day, so a current officeholder. The current Vermont State Treasurer is Mike Pieciak.\n\nGUESS: Mike Pieciak",
+      "guess": "Mike Pieciak",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "74c40315-37f9-4d23-85d6-dc9f0879135c",
+    "guesser": "c4fe1b62-4cf6-4383-a992-a5ddbd45f4d7"
+  },
+  "ladder": {
+    "article_no": 4,
+    "round": 8,
+    "n_banned": 211,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

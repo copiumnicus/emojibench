@@ -1,0 +1,75 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Grande Seca",
+    "description": "Brazilian drought (1877–1878)",
+    "extract": "The Grande Seca, or the Brazilian drought of 1877–1878, was the largest and most devastating drought in Brazilian history. It caused the deaths of between 400,000 and 500,000 people. Of the 800,000 people who lived in the affected Northeastern region, around 120,000 migrated to the Amazon while 68,000 migrated to other parts of Brazil.",
+    "url": "https://en.wikipedia.org/wiki/Grande_Seca"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 44.1,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1148,
+      "cache_read_input_tokens": 577,
+      "output_tokens": 2802,
+      "thinking_tokens": 2732,
+      "cost_usd": 0.0653474,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 960,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 409,
+      "thinking_tokens": 311,
+      "cost_usd": 0.015868,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🟩🟨🔵\n\n🌂 🚰✖️ 🌻🫙🪨\n\n🍚✖️ 😢🕯️🕯️🕯️🕯️\n</msg>",
+      "delivered": "🟩🟨🔵\n🌂 🚰✖️ 🌻🫙🪨\n🍚✖️ 😢🕯️🕯️🕯️🕯️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I read this as Brazil (green-yellow-blue flag colors), no rain and no water, dry sun-baked land, then hunger and many deaths. That sounds like a deadly drought and famine in Brazil's northeast, probably the big one in 1877–78.\n\nGUESS: Grande Seca",
+      "guess": "Grande Seca",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "e13f46da-eb64-48a6-baeb-95d44f937974",
+    "guesser": "2ceccc8d-7914-4a21-a885-0dd0f5dadd0f"
+  },
+  "ladder": {
+    "article_no": 16,
+    "round": 5,
+    "n_banned": 101,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

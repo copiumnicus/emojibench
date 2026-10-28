@@ -1,0 +1,84 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "7's Football League",
+    "description": "Football league",
+    "extract": "The 7's Football League is a seven-a-side football league in the Philippines. Established in 2018, the league already had four seasons. It has a two-tiered men's division, a women's division, and youth divisions. The league is an open tournament with participation from representative sides of the domestic football competition, the Philippines Football League.",
+    "url": "https://en.wikipedia.org/wiki/7's_Football_League"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 46.9,
+  "usage": {
+    "explainer": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 2171,
+      "cache_read_input_tokens": 1136,
+      "output_tokens": 1275,
+      "thinking_tokens": 968,
+      "cost_usd": 0.108346,
+      "calls": 2,
+      "cost_usd_reported": 0.168684
+    },
+    "guesser": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 1989,
+      "cache_read_input_tokens": 985,
+      "output_tokens": 1399,
+      "thinking_tokens": 1108,
+      "cost_usd": 0.11075499999999999,
+      "calls": 2,
+      "cost_usd_reported": 0.16748625
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 691,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 9.11e-06,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🇵🇭 ⚽ 🏆 🏟️\n🧍🧍🧍🧍🧍🧍🧍 ⚔️ 🧍🧍🧍🧍🧍🧍🧍\n🎰 ⚽ 🏆\n👨👨 👩 🧒\n</msg>",
+      "delivered": "🇵🇭 ⚽ 🏆 🏟️\n🧍🧍🧍🧍🧍🧍🧍 ⚔️ 🧍🧍🧍🧍🧍🧍🧍\n🎰 ⚽ 🏆\n👨👨 👩 🧒",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Philippine football (soccer), a trophy/competition, a stadium. The 7 vs 7 — is that a match (two teams facing off), or specifically seven-a-side? The 🎰 — gambling/casino/jackpot/lottery, or \"luck\"/\"random\"? And the four people at the end — a family? a group of founders?\n\nCan you tell me the article type: 1️⃣ a club, 2️⃣ a competition/tournament, 3️⃣ a stadium, 4️⃣ a specific match/season, 5️⃣ a person? Reply with the number.\n\nGUESS: Philippine Football League",
+      "guess": "Philippine Football League",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n✌️\n👍 🧍🧍🧍🧍🧍🧍🧍 ⚽ 🧍🧍🧍🧍🧍🧍🧍 👍\n🎰 ➡️ 🧍🧍🧍🧍🧍🧍🧍 🧍🧍🧍🧍🧍🧍🧍 🧍🧍🧍🧍🧍🧍🧍\n👨 🥇🥈 👩 🏆 🧒 🏆\n🇵🇭 ⚽ 🏟️ 🔁📅\n</msg>",
+      "delivered": "✌️\n👍 🧍🧍🧍🧍🧍🧍🧍 ⚽ 🧍🧍🧍🧍🧍🧍🧍 👍\n🎰 ➡️ 🧍🧍🧍🧍🧍🧍🧍 🧍🧍🧍🧍🧍🧍🧍 🧍🧍🧍🧍🧍🧍🧍\n👨 🥇🥈 👩 🏆 🧒 🏆\n🇵🇭 ⚽ 🏟️ 🔁📅",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Got it: a competition, seven-a-side, with Men's Division 1 & 2, a Women's division, and a Youth division, held annually at a stadium in the Philippines. The 🎰 — maybe a random draw/draft for teams?\n\nGUESS: 7's Football League",
+      "guess": "7's Football League",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "ad109f24-b9dd-44de-9fec-3064397e964f",
+    "guesser": "0bb84494-3c9c-454e-a0af-37ce27452e1d"
+  },
+  "ladder": {
+    "article_no": 17,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": "runs/20261027-153308-fable/game-17.json"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

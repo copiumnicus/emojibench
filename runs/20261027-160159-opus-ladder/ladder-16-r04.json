@@ -1,0 +1,90 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Grande Seca",
+    "description": "Brazilian drought (1877–1878)",
+    "extract": "The Grande Seca, or the Brazilian drought of 1877–1878, was the largest and most devastating drought in Brazilian history. It caused the deaths of between 400,000 and 500,000 people. Of the 800,000 people who lived in the affected Northeastern region, around 120,000 migrated to the Amazon while 68,000 migrated to other parts of Brazil.",
+    "url": "https://en.wikipedia.org/wiki/Grande_Seca"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 58.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2892,
+      "cache_read_input_tokens": 2221,
+      "output_tokens": 2004,
+      "thinking_tokens": 1813,
+      "cost_usd": 0.0641284,
+      "calls": 2,
+      "cost_usd_reported": 0.10284360000000001
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1827,
+      "cache_read_input_tokens": 976,
+      "output_tokens": 2113,
+      "thinking_tokens": 1598,
+      "cost_usd": 0.057290400000000005,
+      "calls": 2,
+      "cost_usd_reported": 0.0798512
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🥅🏆🏆🏆🏆🏆 🎭🥁 ☕\n\n💦⛔ 🌅🌅🌅 🐮😩 🥣\n\n😇😇😇😇😇 👣👣👣\n</msg>",
+      "delivered": "🥅🏆🏆🏆🏆🏆 🎭🥁 ☕\n💦⛔ 🌅🌅🌅 🐮😩 🥣\n😇😇😇😇😇 👣👣👣",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I'm not sure yet. Here's my best reading of your clues:\n- 🥅🏆×5 might mean \"goal\" or a five-time champion.\n- 🎭🥁 might be a play, drama, show or rhythm.\n- 💦⛔🌅🌅🌅 might be three days without water (a fast?), with ☕🥣 as food or drink.\n- 😇×5 👣×3 might be five saints/holy ones and three steps or pilgrimages.\n\nFirst, what kind of thing is it? Please answer with one emoji: 👤 person, 📍 place, 🎬 film or TV, 🎵 music, 📖 book, 🐾 animal or plant, 🎉 event or festival, 🏛️ organization, or ❓ other.\n\nIs it religious or ritual, like a festival, fast or pilgrimage? 👍 or 👎",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n🎉 👎\n\n🥅🏆🏆🏆🏆🏆 = 🗺️ 🦥🦜\n\n⛈️⛔ ☂️⛔ 🌅🌅🌅🌅🌅🌅🌅 🫠 🐮😩 🥣\n</msg>",
+      "delivered": "🎉 👎\n🥅🏆🏆🏆🏆🏆 🗺️ 🦥\n⛈️⛔ ☂️⛔ 🌅🌅🌅🌅🌅🌅🌅 🫠 🐮😩 🥣",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🦜"
+      ],
+      "retried": false,
+      "guesser": "Here's my reading:\n- 🥅🏆×5 🗺️ is the five-time World Cup winner, Brazil. 🎭🥁 is samba or carnival, ☕ is coffee, and 🦥 fits Brazil too.\n- ⛈️⛔ ☂️⛔ 🌅×7 🫠 means no rain for a long time and heat, so a drought.\n- 🐮😩 🥣 means cattle dying and famine.\n- 😇×5 👣×3 means many deaths and people migrating away.\n\nSo my guess is a Brazilian drought. Is it historic (1800s, 🕰️) or modern (2000s, 📱)?\n\nGUESS: Grande Seca",
+      "guess": "Grande Seca",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "405981aa-e256-48a4-9d9f-a3d23ea0a0e2",
+    "guesser": "fb558045-72cd-4793-9609-d1bc3112c6c8"
+  },
+  "ladder": {
+    "article_no": 16,
+    "round": 4,
+    "n_banned": 81,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

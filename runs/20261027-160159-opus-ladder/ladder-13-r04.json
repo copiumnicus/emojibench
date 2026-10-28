@@ -1,0 +1,101 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Dorothy Cottrell",
+    "description": "Australian writer",
+    "extract": "Ida Dorothy Ottley Cottrell was an Australian writer. Born in Picton, she contracted infantile paralysis as a child and spent the rest of her life in a wheelchair. Cottrell married Walter Mackenzie Cottrell on 23 May 1922. Her first novel, The Singing Gold, was published in 1928. She wrote a story Wilderness Orphan (1936) which was the basis for the feature film Orphan of the Wilderness (1936). She lived for a time in the US and also worked as an artist and cartoonist.",
+    "url": "https://en.wikipedia.org/wiki/Dorothy_Cottrell"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 89.3,
+  "usage": {
+    "explainer": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 4411,
+      "cache_read_input_tokens": 6269,
+      "output_tokens": 3578,
+      "thinking_tokens": 3330,
+      "cost_usd": 0.10939560000000001,
+      "calls": 3,
+      "cost_usd_reported": 0.23208260000000003
+    },
+    "guesser": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 3090,
+      "cache_read_input_tokens": 2676,
+      "output_tokens": 2514,
+      "thinking_tokens": 1820,
+      "cost_usd": 0.0761104,
+      "calls": 3,
+      "cost_usd_reported": 0.1499276
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n♀️ 📘 ✏️ 🖌️\n\n🍼 ➜ 🩼 🦿\n\n🐊 🦈 🕷️ 🐍 🏄 🌞 🐑\n</msg>",
+      "delivered": "♀️ 📘 ✏️ 🖌️\n🍼 🩼 🦿\n🐊 🦈 🕷️ 🐍 🏄 🌞 🐑",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "So far I read this as: a **female author/illustrator** (writes and draws, maybe children's books). The baby bottle, crutch and prosthetic leg suggest **a disability from birth or early childhood** (polio? thalidomide? amputation?). The crocodile, shark, spider, snake, surfer, sun and sheep say **Australia**.\n\nQuestions:\n1. Is she Australian? 👍/👎\n2. What was the disability: polio 🦠, thalidomide 💊, amputation 🔪, or a congenital condition 🧬?\n3. Is her work children's picture books 🧸, or something for adults?\n4. Roughly which era was she active in? Show it with digits like 1️⃣9️⃣5️⃣0️⃣, or with 📻 / 📺 / 💻.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n☑️ 🙆‍♀️\n\n🧫 😷 🧊\n\n🧸 ⛔ 📘📘\n\n☎️ 🎷 💃 🎺\n</msg>",
+      "delivered": "☑️ 🙆‍♀️\n🧫 😷 🧊\n🧸 ⛔ 📘📘\n☎️ 🎷 💃 🎺",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Got it: **Australian woman**, not children's books (books for adults?), active around the **1920s–30s jazz age**.\n\nI'm not sure about 🧫😷🧊. Is it:\n- **polio** 🦵,\n- **tuberculosis** 🫁,\n- or something cold-related, like frostbite leading to an amputation ❄️?\n\nMore questions:\n1. Is she mainly a **writer** ✍️, a **painter** 🖼️, or a **cartoonist/illustrator** 📰? Put the main one first.\n2. Which state or city? (e.g. 🌉 for Sydney, 🎾 for Melbourne, 🦘 for elsewhere)\n3. Is her name, or part of it, something you can spell with emojis? A sounds-like clue for her first name or surname would help.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n🫁⛔ ❄️⛔ ➜ 🧫🍼🦿\n\n📘✏️ 🥇 🖼️ 📰\n\n🌉 ↙️\n\n🐶 🌽 💚🏰 🧹 🧙‍♂️ 👡❤️\n</msg>",
+      "delivered": "🫁⛔ ❄️⛔ 🧫🍼🦿\n📘✏️ 🖼️ 📰\n🌉 ↙️\n🐶 🌽 💚🏰 🧹 🧙‍♂️ 👡❤️",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🥇"
+      ],
+      "retried": false,
+      "guesser": "The 🐶🌽💚🏰🧹🧙‍♂️👡❤️ clue is The Wizard of Oz, so her name is **Dorothy**. Infantile paralysis (polio) as a baby, a writer first and artist second, from south-west of Sydney, jazz-age era. That fits Dorothy Cottrell, author of *The Singing Gold* (1928), who was born near Picton and used a wheelchair after childhood polio.\n\nGUESS: Dorothy Cottrell",
+      "guess": "Dorothy Cottrell",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "357a7898-b3ef-46ec-be98-39e3e8afb185",
+    "guesser": "bcc5dad8-e77f-4679-93bd-72bb20f6e4dd"
+  },
+  "ladder": {
+    "article_no": 13,
+    "round": 4,
+    "n_banned": 102,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

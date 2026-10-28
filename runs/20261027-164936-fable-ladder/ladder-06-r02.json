@@ -1,0 +1,91 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Jakob von Washington",
+    "description": "Bavarian general (1778–1848)",
+    "extract": "\nBaron Jacobus von Washington was a lieutenant general in the Bavarian Army and a distant relative of US President George Washington. Born in The Hague, Netherlands, he was christened James Washington. Most of his adult life was shaped by his participation in wars for and against Napoleonic France and his service to Ludwig I of Bavaria.",
+    "url": "https://en.wikipedia.org/wiki/Jakob_von_Washington"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 118.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 4407,
+      "cache_read_input_tokens": 2072,
+      "output_tokens": 3938,
+      "thinking_tokens": 3712,
+      "cost_usd": 0.287152,
+      "calls": 2,
+      "cost_usd_reported": 0.45597225
+    },
+    "guesser": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 4113,
+      "cache_read_input_tokens": 1007,
+      "output_tokens": 3834,
+      "thinking_tokens": 3335,
+      "cost_usd": 0.275007,
+      "calls": 2,
+      "cost_usd_reported": 0.44101175000000004
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 703,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0001428,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🗡️🛡️🌟🌟🌟 👨 ⚫🔴🟡 💙🤍\n🍼 🟠 🔴⚪🔵\n👪 🦅 ☝️ 💲 👨\n🧼🏋️\n</msg>",
+      "delivered": "🗡️🛡️🌟🌟🌟 👨 ⚫🔴🟡 💙🤍\n🍼 🟠 🔴⚪🔵\n👪 🦅 ☝️ 💲 👨\n🧼🏋️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Let me share what I've got so far and check:\n\n1. 🗡️🛡️🌟🌟🌟 👨 — a military man, a general (three stars)? Or a knight / Knight's Cross recipient?\n2. ⚫🔴🟡 💙🤍 — German, and blue-white = Bavarian? (or Luftwaffe/navy?)\n3. 🍼 🟠 🔴⚪🔵 — born in the Netherlands (orange + red-white-blue)?\n4. 👪 🦅 ☝️ 💲 👨 — something about his family: father was... an eagle? a first/rich man? Noble family (\"von\")?\n5. 🧼🏋️ — is this a sound-alike for the surname? (soap/wash/clean + lift/strong/heavy — e.g. \"Washburn\", \"Armstrong\", \"clean and jerk\"?)\n\nPlease answer with ✅/❌ in order for: (a) person, (b) military officer/general, (c) German, (d) Bavarian, (e) born in Netherlands, (f) line 5 is the name sound-alike, (g) 20th century / WWII era.\n\nGUESS: Hermann Balck",
+      "guess": "Hermann Balck",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n✅✅✅✅✅✅❌\n🕰️🔙🔙 🔵⚪🔴 🫅 ⛵🏝️ 💣\n🦅 ☝️ 💲 👨 📛 🧼🏋️\n👪 🧬❌ ↔️❌ 👨 📛 🟰 🦅☝️💲👨 📛\n</msg>",
+      "delivered": "✅✅✅✅✅✅❌\n🕰️ 🔵⚪🔴 🫅 ⛵🏝️ 💣\n🦅 ☝️ 💲 👨 📛 🧼🏋️\n👪 ❌ ❌ 👨 📛 🟰 🦅☝️💲👨 📛",
+      "dropped_chars": 4,
+      "off_keyboard": [
+        "🧬",
+        "↔️"
+      ],
+      "retried": false,
+      "guesser": "Got it — 🧼🏋️ = Wash + ton = \"Washington\", and 🦅☝️💲👨 is the man on the one-dollar bill, George Washington. So a Bavarian general of the Napoleonic era named Washington, born in the Netherlands, but not related to George Washington.\n\nGUESS: Jakob von Washington",
+      "guess": "Jakob von Washington",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "88f2b845-441c-42a4-a01b-5137ee79f7c0",
+    "guesser": "49e5bc97-1b3e-42f0-aa07-77e36c3a8b15"
+  },
+  "ladder": {
+    "article_no": 6,
+    "round": 2,
+    "n_banned": 50,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

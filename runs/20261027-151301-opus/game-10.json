@@ -1,0 +1,74 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Accord Pond",
+    "description": "Lake in Massachusetts, USA",
+    "extract": "Accord Pond is a 100-acre (0.40 km2) reservoir in Hingham, Norwell and Rockland, Massachusetts. The reservoir is located off Route 228 at its terminus with Route 3. The reservoir is visible from Route 3 northbound at Exit 14, the Route 228 off-ramp. The reservoir is a Class A source of water supply for the town of Hingham and Hull Ma. The outflow of the reservoir is Accord Brook, a tributary of the Weir River.",
+    "url": "https://en.wikipedia.org/wiki/Accord_Pond"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "max_turns": 30,
+  "seconds": 36.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1931,
+      "cache_read_input_tokens": 1193,
+      "output_tokens": 1019,
+      "thinking_tokens": 726,
+      "cost_usd": 0.036329200000000006,
+      "calls": 2,
+      "cost_usd_reported": 0.0552626
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1637,
+      "cache_read_input_tokens": 895,
+      "output_tokens": 1184,
+      "thinking_tokens": 835,
+      "cost_usd": 0.037158000000000004,
+      "calls": 2,
+      "cost_usd_reported": 0.057107
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 701,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00014240000000000002,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Plan: \"Accord\" maps to 🤝📜 (agreement). \"Pond\" maps to 🦆💧. A drinking-water reservoir is 🚰. Massachusetts or New England is 🇺🇸🦞.\n\n<msg>🇺🇸🦞\n🏞️💧🚰\n🤝📜 🦆💧</msg>",
+      "delivered": "🇺🇸🦞\n🏞️💧🚰\n🤝📜 🦆💧",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Reading so far: 🇺🇸🦞 = **Maine**. 🏞️💧🚰 = a lake or pond used as a **public drinking-water supply**. 🤝📜 🦆💧 = an agreement or protection deal, maybe for wildlife habitat, or the name contains something like \"Duck.\"\n\nQuestions:\n1. Is it a lake or pond in Maine? (👍/👎)\n2. Does the name itself contain \"Duck\"? If not, can you spell out the name with emoji parts?\n3. Is 🤝📜 a treaty, a conservation easement, or something else?\n\nA first stab:\n\nGUESS: Sebago Lake",
+      "guess": "Sebago Lake",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "Corrections needed: the guesser read the state as Maine, but it's Massachusetts, so I'll point to the Boston Tea Party. 🦆 means \"pond\", not \"duck\". 🤝 is a word in the name, and the Honda car 🇯🇵🚗 should separate \"Accord\" from \"Concord\" and \"Pact\".\n\n<msg>👎 🫖🌊🇺🇸\n🦆 ➡️ 💧🏞️\n🤝 ➡️ 🇯🇵🚗🤝</msg>",
+      "delivered": "👎 🫖🌊🇺🇸\n🦆 ➡️ 💧🏞️\n🤝 ➡️ 🇯🇵🚗🤝",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Here's my reading:\n\n- 👎 🫖🌊 means not Maine, but Boston Tea Party territory: **Massachusetts**.\n- 🤝 ➡️ 🇯🇵🚗🤝 points to the Honda **Accord**.\n- 🦆 ➡️ 💧🏞️ means a **pond**, used as a water supply.\n\nGUESS: Accord Pond",
+      "guess": "Accord Pond",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "350a0953-faea-4392-8bad-c2b448e59828",
+    "guesser": "7a53764a-f2f5-4f0d-956b-eaba40a107bf"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

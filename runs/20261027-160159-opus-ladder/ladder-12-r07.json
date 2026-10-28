@@ -1,0 +1,146 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Dora Akunyili",
+    "description": "Nigerian pharmacist and government official (1954–2014)",
+    "extract": "Dora Nkem Akunyili was a Nigerian pharmacist and politician who served as the director-general of National Agency for Food and Drug Administration and Control (NAFDAC) of Nigeria from 2001 to 2008.",
+    "url": "https://en.wikipedia.org/wiki/Dora_Akunyili"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 87.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 4624,
+      "cache_read_input_tokens": 2414,
+      "output_tokens": 4093,
+      "thinking_tokens": 3954,
+      "cost_usd": 0.1193588,
+      "calls": 2
+    },
+    "guesser": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 2854,
+      "cache_read_input_tokens": 1878,
+      "output_tokens": 1886,
+      "thinking_tokens": 1560,
+      "cost_usd": 0.0609676,
+      "calls": 2
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 710,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0001442,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "claude-opus-5-5",
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 1260,
+        "cache_read_input_tokens": 577,
+        "output_tokens": 3068,
+        "thinking_tokens": 2987,
+        "cost_usd": 0.0715634,
+        "duration_ms": 39888
+      },
+      {
+        "model": "claude-opus-5-5",
+        "input_tokens": 4,
+        "cache_creation_input_tokens": 3364,
+        "cache_read_input_tokens": 1837,
+        "output_tokens": 1025,
+        "thinking_tokens": 967,
+        "cost_usd": 0.0477954,
+        "duration_ms": 16888
+      }
+    ],
+    "guesser": [
+      {
+        "model": "claude-opus-5-5",
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 939,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 839,
+        "thinking_tokens": 665,
+        "cost_usd": 0.024300000000000002,
+        "duration_ms": 10982
+      },
+      {
+        "model": "claude-opus-5-5",
+        "input_tokens": 8,
+        "cache_creation_input_tokens": 1915,
+        "cache_read_input_tokens": 1878,
+        "output_tokens": 1047,
+        "thinking_tokens": 895,
+        "cost_usd": 0.036667599999999995,
+        "duration_ms": 13561
+      }
+    ],
+    "judge": [
+      {
+        "model": "claude-haiku-5-5",
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 710,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 0.0001442,
+        "duration_ms": 1191
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🧕🏿\n\n🚩 📗📄📗\n\n🤧🥄 🤡 👊\n\n👵🏿 ⚰️\n</msg>\n\nOops, ⚰️ is banned and will be deleted. That's fine.",
+      "delivered": "🧕🏿\n🚩 📗📄📗\n🤧🥄 🤡 👊\n👵🏿",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "⚰️"
+      ],
+      "retried": false,
+      "guesser": "Reading so far: a **Nigerian woman** (green-white-green flag), probably Muslim or Hausa (headscarf), elderly. 🤧🥄 might be medicine or illness, 🤡 suggests comedy or acting, and 👊 suggests fighting or action. My guess is an older actress, maybe Kannywood or Nollywood, known for comedy. Is she an actress? What does 🤧🥄 stand for: medicine, sickness, or a sound in her name?\n\nGUESS: Ladin Cima",
+      "guess": "Ladin Cima",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n🎯🤧🥄\n\n🥄😈 🧹\n🍚🥤🤧🥄 🔎🏷️\n\n🪑👆\n</msg>",
+      "delivered": "🎯🤧🥄\n🥄😈 🧹\n🍚🥤🤧🥄 🔎🏷️\n🪑👆",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I read the new clues as follows:\n- 🍚🥤🤧🥄 means **food and drug**.\n- 🔎🏷️ means control or inspection.\n- 🥄😈🧹 means sweeping away bad or fake medicine.\n- 🪑👆 means she headed the agency.\n\nThat points to the head of NAFDAC, Nigeria's food and drug regulator, who fought counterfeit drugs.\n\nGUESS: Dora Akunyili",
+      "guess": "Dora Akunyili",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "a20deea1-ba8a-4b1f-beb6-73124526f146",
+    "guesser": "fc33e484-434c-4a2e-9551-b1f8b7b23723"
+  },
+  "ladder": {
+    "article_no": 12,
+    "round": 7,
+    "n_banned": 139,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

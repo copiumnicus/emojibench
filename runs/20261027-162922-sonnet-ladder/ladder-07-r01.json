@@ -1,0 +1,102 @@
+{
+  "model": "sonnet",
+  "model_id": "claude-sonnet-5-5",
+  "guesser_model": "sonnet",
+  "guesser_model_id": "claude-sonnet-5-5",
+  "effort": null,
+  "article": {
+    "title": "Mad River Mountain",
+    "description": "Ski resort in Ohio, United States",
+    "extract": "Mad River Mountain is a ski and snowboard resort in Valley Hi, Ohio, United States. The elevation of Mad River Mountain is 1,460 feet (450 m) with a vertical drop of 300 ft (91 m), and it has a ski season that runs from approximately mid-December through mid-March. The resort, which opened in 1962 as Valley Hi Ski Area, is owned by EPR Properties and operated by Vail Resorts, who bought the resort from Peak Resorts in 2019.",
+    "url": "https://en.wikipedia.org/wiki/Mad_River_Mountain"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 50.2,
+  "usage": {
+    "explainer": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 2184,
+      "cache_read_input_tokens": 3183,
+      "output_tokens": 581,
+      "thinking_tokens": 409,
+      "cost_usd": 0.015202599999999997,
+      "calls": 3,
+      "cost_usd_reported": 0.0344488
+    },
+    "guesser": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 2086,
+      "cache_read_input_tokens": 2260,
+      "output_tokens": 1130,
+      "thinking_tokens": 846,
+      "cost_usd": 0.020116,
+      "calls": 3,
+      "cost_usd_reported": 0.041568400000000005
+    },
+    "judge": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 1412,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00028680000000000003,
+      "calls": 2
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>😠🚣🗻 🎿⛄🚡</msg>",
+      "delivered": "😠🚣🗻 🎿⛄🚡",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Ski resort or mountain? My first read is a ski area with a cable car, perhaps on a lake, given the rowboat. The angry face might hint at a name like \"Wrath\" or \"Grumpy\".\n\nQuestions:\n1. Is it a place (a resort or mountain), or a person, such as a skier or rower?\n2. Is the angry face part of the name?\n\nGUESS: Mount Fuji",
+      "guess": "Mount Fuji",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👍 👍 😠🚣 🗻 🎿 🇨🇦👎 🌽 ⬅️ 🕳️ 🌆🏭 🚗 🔜 ⬅️ 🧭 🗺️ 🟦⭐ 🐴🌳</msg>",
+      "delivered": "👍 👍 😠🚣 🗻 🎿 🇨🇦 ⬅️ 🕳️ 🌆🏭 🚗 ⬅️ 🧭 🗺️ 🟦⭐ 🐴🌳",
+      "dropped_chars": 3,
+      "off_keyboard": [
+        "👎",
+        "🌽"
+      ],
+      "retried": false,
+      "guesser": "I read this as a Canadian ski hill. The city and industry sit in one direction and the map points to a location. The blue star and the horse with a tree could mean \"Blue Mountain\" or \"Horseshoe\".\n\nGUESS: Blue Mountain (Ontario)",
+      "guess": "Blue Mountain (Ontario)",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>⭕👋⭕ 🎿🗻 😠🚣 🚫🇨🇦</msg>",
+      "delivered": "⭕👋⭕ 🎿🗻 😠🚣 🚫🇨🇦",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Mad (angry) + River (rowboat) + Mountain, and the circles around a wave read as \"O-hi-o\". That points to a ski area in Ohio.\n\nGUESS: Mad River Mountain",
+      "guess": "Mad River Mountain",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "6547a1c5-9093-41d2-8616-1c8108cb9b83",
+    "guesser": "daf8aa85-76e2-42a0-b7f9-82d17b93d507"
+  },
+  "ladder": {
+    "article_no": 7,
+    "round": 1,
+    "n_banned": 15,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

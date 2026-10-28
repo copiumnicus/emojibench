@@ -1,0 +1,65 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Sage Derby",
+    "description": "Variety of cheese",
+    "extract": "Sage Derby is a variety of Derby cheese that is mild, mottled green and semi-hard, and has a sage flavour. The colour is from sage and sometimes other colouring added to the curds, producing a marbling effect and a subtle herb flavour. The colour is formed either by mixing sage leaves into the curd before it is pressed or by the addition of \"green curd\" from green corn or spinach juice. In the latter case, the flavour has to be created with colourless sage extract. Parsley, spinach and marigold leaves, bruised and steeped before use, can also be included instead of the sage leaves. It is aged for one to three months.",
+    "url": "https://en.wikipedia.org/wiki/Sage_Derby"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 10.9,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1228,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 452,
+      "thinking_tokens": 227,
+      "cost_usd": 0.018872,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 952,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 208,
+      "thinking_tokens": 142,
+      "cost_usd": 0.02946,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Sage Derby is a green-marbled English cheese flavoured with sage. My plan for the first message:\n- **The cheese:** 🧀 for cheese, 🟢 for green, 🌿 for herb, and the English flag.\n- **\"Sage\":** 🧙‍♂️ (a wise person) next to 🌿 (the herb), so both meanings point the same way.\n- **\"Derby\":** 🏇 (the horse race) and 🎩 (the hat).\n\n<msg>🧀🟢🌿 🏴󠁧󠁢󠁥󠁮󠁧󠁿\n\n🧙‍♂️🌿 ➕ 🏇🎩</msg>",
+      "delivered": "🧀🟢🌿 🏴󠁧󠁢󠁥󠁮󠁧󠁿\n🧙‍♂️🌿 ➕ 🏇🎩",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Cheese, green, herb, England... and \"sage\" (wise person + herb) plus \"Derby\" (horse race + hat). That's the green marbled English cheese!\n\nGUESS: Sage Derby",
+      "guess": "Sage Derby",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "fe4cd045-5603-40a8-99c3-740fdfdda9dd",
+    "guesser": "eb1e9a6c-ee62-41cb-9908-2df772ecadb4"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

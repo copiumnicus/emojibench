@@ -1,0 +1,122 @@
+{
+  "model": "haiku",
+  "model_id": "claude-haiku-5-5",
+  "guesser_model": "haiku",
+  "guesser_model_id": "claude-haiku-5-5",
+  "effort": null,
+  "article": {
+    "title": "Dora Akunyili",
+    "description": "Nigerian pharmacist and government official (1954–2014)",
+    "extract": "Dora Nkem Akunyili was a Nigerian pharmacist and politician who served as the director-general of National Agency for Food and Drug Administration and Control (NAFDAC) of Nigeria from 2001 to 2008.",
+    "url": "https://en.wikipedia.org/wiki/Dora_Akunyili"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 57.2,
+  "usage": {
+    "explainer": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 4694,
+      "cache_read_input_tokens": 11341,
+      "output_tokens": 2920,
+      "thinking_tokens": 2531,
+      "cost_usd": 0.00251321,
+      "calls": 5,
+      "cost_usd_reported": 0.00831124
+    },
+    "guesser": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 4491,
+      "cache_read_input_tokens": 8803,
+      "output_tokens": 4034,
+      "thinking_tokens": 3047,
+      "cost_usd": 0.0030042299999999997,
+      "calls": 5,
+      "cost_usd_reported": 0.008508710000000001
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🌍 🧪 🙋‍♀️ 🗳️ 🧑‍💼 🍲🧴 🕵️ ⚠️ 🗓️</msg>",
+      "delivered": "🌍 🧪 🙋‍♀️ 🗳️ 🧑‍💼 🍲🧴 🕵️ ⚠️ 🗓️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "My reading so far: 🙋‍♀️ and 🧑‍💼 suggest a woman, possibly a professional or businesswoman. 🗳️ suggests an election or candidate, 🧪 a scientist or chemistry, and 🕵️ with ⚠️ an investigation or whistleblower. 🌍 and 🗓️ may mean an international or dated event. 🍲🧴 is unclear to me.\n\nQuestions:\n1. Is the article about a person?\n2. Is the subject connected to politics or elections?\n3. Is the subject connected to science or chemistry?\n4. What does 🍲🧴 mean to you? Is it a product, a place, or a food-related thing?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>✔️ ✔️ ✔️ 🍲🧴 ➡️ 🏬 🙋‍♀️ ✔️ 🧑‍💼 ✔️ 🇳 ✔️</msg>",
+      "delivered": "✔️ ✔️ ✔️ 🍲🧴 ➡️ 🏬 🙋‍♀️ ✔️ 🧑‍💼 ✔️ ✔️",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Confirmed: it's a person, connected to politics or elections, and to science.\n\n🍲🧴 ➡️ 🏬 may mean a household product (soup or soap, shampoo, detergent) that is sold in stores. Or it may mean a company that makes such products.\n\nNext questions:\n1. Did the person found or run a company that sold a consumer product?\n2. Is the country the United States?\n3. Was the person active in the 20th century rather than the 21st?\n4. Is the person a woman who ran for or held a legislative seat?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>❎ ❎ ❎ ❎ 🍲🧴 ➡️ 🗂️ 🏬 ❎ 🙋‍♀️ 🗳️ ✔️ 🧪 ✔️</msg>",
+      "delivered": "❎ ❎ ❎ ❎ 🍲🧴 ➡️ 🗂️ 🏬 ❎ 🙋‍♀️ 🗳️ ✔️ 🧪 ✔️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Decoding your reply: ❎ means no. So the subject is not a consumer-product company, not American, and not from the 20th century. ✔️ on 🙋‍♀️ 🗳️ and 🧪 confirms a woman who ran in an election, with a science connection.\n\nNext questions:\n1. Is the country in Europe?\n2. Is the country in Asia, Africa, or Latin America?\n3. Did she win the election?\n4. Is the person still alive?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>❎ ❎ 🌍 ✔️ 🌍 ✔️ ❎ 🗳️ ❎ 💀 ✔️ ⚱️ ✔️</msg>",
+      "delivered": "❎ ❎ 🌍 ✔️ 🌍 ✔️ ❎ 🗳️ ❎ 💀 ✔️ ⚱️ ✔️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Decoding: ❎ ❎ means no to Europe and no to Asia/Africa/Latin America. 🌍 ✔️ suggests a different region, most likely North America outside the US (Canada), Oceania, or the Middle East. ❎ on winning means she lost the election. 💀 ✔️ ⚱️ ✔️ means she has died.\n\nNext questions:\n1. Is the country Canada?\n2. Is the country Australia or New Zealand?\n3. Did she die in the 21st century?\n4. Was she a candidate at a national level rather than a local one?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>❎ 🍁 ❎ 🦘 ✔️ 🌍 ✔️ 💀 ✔️ 📆 ❎ 🗳️ 🤝 📜 ✔️ 🇳 ✔️ 🌍</msg>",
+      "delivered": "❎ 🍁 ❎ 🦘 ✔️ 🌍 ✔️ 💀 ✔️ 📆 ❎ 🗳️ 🤝 📜 ✔️ ✔️ 🌍",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Decoding: 🍁 ❎ rules out Canada. 🦘 ✔️ confirms Australia. 🌍 ✔️ may mean Oceania, or Australia itself. 💀 ✔️ confirms she has died. 📆 ❎ suggests she did not die in the 21st century, which fits an earlier death. 🤝 📜 ✔️ ✔️ may point to a treaty, a law, or a deal she helped create, perhaps as part of a government or organization.\n\nNext questions:\n1. Did she serve in a national or federal parliament, or in a state or territory legislature?\n2. Was her main fame as a scientist or doctor rather than as a politician?\n3. Did she die before 1950?\n4. Did she help write or pass a law?",
+      "guess": null,
+      "correct": null
+    }
+  ],
+  "sessions": {
+    "explainer": "fbefb758-f09b-4d65-b1e3-8ed287bd3047",
+    "guesser": "8c7ca245-1e6b-4fff-bb39-e77048a56768"
+  },
+  "ladder": {
+    "article_no": 12,
+    "round": 1,
+    "n_banned": 21,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

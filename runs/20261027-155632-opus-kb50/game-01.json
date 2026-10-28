@@ -1,0 +1,109 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Proceratium silaceum",
+    "description": "Species of ant",
+    "extract": "Proceratium silaceum is a species of ant in the family Formicidae.",
+    "url": "https://en.wikipedia.org/wiki/Proceratium_silaceum"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "keyboard": {
+    "fraction": 0.5,
+    "seed": "v1",
+    "size": 936
+  },
+  "max_turns": 30,
+  "seconds": 94.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 9185,
+      "cache_read_input_tokens": 22059,
+      "output_tokens": 2682,
+      "thinking_tokens": 2092,
+      "cost_usd": 0.1359996,
+      "calls": 4,
+      "cost_usd_reported": 0.388462
+    },
+    "guesser": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 3966,
+      "cache_read_input_tokens": 4984,
+      "output_tokens": 3449,
+      "thinking_tokens": 2658,
+      "cost_usd": 0.1027576,
+      "calls": 4,
+      "cost_usd_reported": 0.233653
+    },
+    "judge": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2094,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 12,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00042540000000000004,
+      "calls": 3
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Conveying \"ant\" without an ant emoji: other insects, a queen, a colony, a nest hole and sugar, plus \"species/taxonomy\".\n\n<msg>🪳🪲🐞 👸🕳️🏔️ 🍬🍭 🧬📚</msg>",
+      "delivered": "🪳🪲🐞 👸🕳️🏔️ 🍬🍭 🧬📚",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Here's what I'm reading so far:\n\n- 🪳🪲🐞 = a beetle (or some other insect), probably a species or genus article.\n- 👸🕳️🏔️ = something about a princess/queen (maybe in the name, like \"regina\" or \"princeps\"), plus a cave or burrow in mountains (cave-dwelling?).\n- 🍬🍭 = sweet, sugar or candy, maybe the name or its color.\n- 🧬📚 = a taxonomy or species description.\n\nQuestions:\n1. Is it a beetle specifically? If so, can you show the family?\n2. Does 👸 refer to the scientific name, or to a place, like a cave or mountain named after a princess?\n3. Does 🍬 describe its color, the name, or something it eats?\n\nGUESS: Pristoceuthophilus",
+      "guess": "Pristoceuthophilus",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "The guesser read 🪲 as \"beetle,\" so I'll reject that. Then I'll show a queen with many workers, living underground, and wingless, which points to ants rather than bees.\n\n<msg>🪲👎 🐞👎\n👸👩‍🏭👩‍🏭👩‍🏭👩‍🏭👩‍🏭👩‍🏭 🕳️\n🪽❌ 🍬🍂🌿</msg>",
+      "delivered": "🪲 🐞\n👸👩‍🏭👩‍🏭👩‍🏭👩‍🏭👩‍🏭👩‍🏭 🕳️\n🪽❌ 🍬🍂🌿",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "👎",
+        "👎"
+      ],
+      "retried": false,
+      "guesser": "A queen with lots of workers living in a hole or mound means a social insect. I think the 🪲🐞 are standing in for a missing 🐜. 🪽❌ suggests wingless workers, and 🍬🍂🌿 suggests honeydew, nectar or sugar plus leaves (diet).\n\nQuestions:\n1. Is it an ant (yes/no)? Or a termite?\n2. Is it a single species or a genus?\n3. Does 🍬 mean honeydew or honeypot-style sugar storage?\n4. Can you hint at the region or continent with flags or a 🌍 side?\n\nGUESS: Myrmecocystus",
+      "guess": "Myrmecocystus",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "The guesser has got \"ant,\" so I'll confirm with 👍, since 👎 isn't on my keyboard. Proceratium ants are known for eating spider eggs, which should point to the genus. 🟨🟫 hints at \"silaceum\" (Latin for yellow ochre), and the flags suggest its range in eastern North America (from memory, not certain).\n\n<msg>👍👍👍\n🕷️🥚🍴😋\n🟨🟫\n🇺🇲🇨🇦</msg>",
+      "delivered": "👍👍👍\n🕷️🥚🍴😋\n🟨🟫\n🇺🇲🇨🇦",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "So it is an ant from the US and Canada, yellow or brownish. It eats eggs (🕷️🥚, maybe spider eggs, or brood of other ants with 🕷️ standing in for 🐜), and likes sugar.\n\nA tiny yellow ant that raids other nests and eats their brood, and also likes sweets, sounds like the thief ant.\n\nIf that's wrong:\n1. Is 🕷️ literally spiders?\n2. Is it a single species (yes/no)?\n3. Can you hint at the genus name with sound-alike emojis?\n\nGUESS: Solenopsis molesta",
+      "guess": "Solenopsis molesta",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "The guesser was right about two things: 🕷️ means real spiders, and it's a single species. I'll drop the sugar idea with 🍬❌. For the genus I'll try ▶️ (forward, \"pro\") plus 🕯️ (wax, Latin \"cera\") to suggest \"Pro-cera-tium.\" Brown before yellow nudges toward \"silaceum\" rather than the yellower \"croceum.\"\n\n<msg>🕷️👍 🥚👍\n🍬❌\n🧍👍\n▶️🕯️\n🟫🟨</msg>",
+      "delivered": "🕷️👍 🥚👍\n🍬❌\n🧍👍\n▶️🕯️\n🟫🟨",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "You confirmed it literally eats spider eggs and is a single species. ▶️🕯️ reads as \"Pro\" + \"cera\" (wax), so the genus Proceratium. Those ants specialize on spider eggs. The species name with yellow-brown or ochre colour fits \"silaceum\".\n\nGUESS: Proceratium silaceum",
+      "guess": "Proceratium silaceum",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "f3e0744b-74a8-46a2-abf1-e43a47bfe466",
+    "guesser": "348f5338-85ec-4416-9a41-f080da92e82e"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

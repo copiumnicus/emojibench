@@ -1,0 +1,123 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Proceratium silaceum",
+    "description": "Species of ant",
+    "extract": "Proceratium silaceum is a species of ant in the family Formicidae.",
+    "url": "https://en.wikipedia.org/wiki/Proceratium_silaceum"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "max_turns": 30,
+  "seconds": 172.5,
+  "usage": {
+    "explainer": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 6279,
+      "cache_read_input_tokens": 16558,
+      "output_tokens": 4637,
+      "thinking_tokens": 4357,
+      "cost_usd": 0.1496672,
+      "calls": 5,
+      "cost_usd_reported": 0.501864
+    },
+    "guesser": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 6631,
+      "cache_read_input_tokens": 10155,
+      "output_tokens": 7299,
+      "thinking_tokens": 6154,
+      "cost_usd": 0.203162,
+      "calls": 5,
+      "cost_usd_reported": 0.5079464
+    },
+    "judge": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 2781,
+      "cache_read_input_tokens": 698,
+      "output_tokens": 20,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00057418,
+      "calls": 5
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🪰🦟🐛\n🤏💪 🏘️🫅 🧪\n🏛️📜 🧑‍🔬\n</msg>",
+      "delivered": "🪰🦟🐛\n🤏💪 🏘️🫅 🧪\n🏛️📜 🧑‍🔬",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "My read so far: an insect species, probably a moth or beetle since 🦋/🪲 might be banned. 🤏💪 could be \"small but strong\" or a species epithet like \"minor\" or \"robusta\". 🏘️🫅 might be a place or person in the name, or a royal/\"regalis\" epithet. 🏛️📜🧑‍🔬 looks like \"described by a scientist\" (taxonomic authority).\n\nQuestions:\n1. Is it a moth/butterfly (🦋)? A beetle (🪲)? Something else?\n2. Is 🏘️🫅 part of the name (e.g. \"regalis\"/\"basilica\")? Or a place?\n3. What family or region is it from? Try a country flag.\n\nGUESS: Zygaena",
+      "guess": "Zygaena",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n🦋⛔ \n🦸‍♂️🤏\n🧑‍🏭🧑‍🏭🧑‍🏭🫅\n🧺 \n🍰⬅️🐛🐛🐛🐛🐛\n</msg>",
+      "delivered": "🦋⛔\n🦸‍♂️🤏\n🧑‍🏭🧑‍🏭🧑‍🏭🫅\n🍰⬅️🐛🐛🐛🐛🐛",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🧺"
+      ],
+      "retried": false,
+      "guesser": "Not a moth. 🦸‍♂️🤏 = Ant-Man, so ants. 🧑‍🏭🧑‍🏭🧑‍🏭🫅 = workers and a queen, so a eusocial colony. 🍰⬅️🐛🐛🐛 = food taken from the larvae. That sounds like the Dracula ants, which feed on their larvae's hemolymph. Alternatively, weaver ants use larval silk.\n\nQuestions: Is it an ant genus or a single species? Is it the larval hemolymph-feeding (\"Dracula\") ants? Which region or country?\n\nGUESS: Adetomyrma",
+      "guess": "Adetomyrma",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n☝️\n🧛⛔\n🏈🍔🦬\n🐂🦌🦌\n💛🤎🦁\n</msg>",
+      "delivered": "☝️\n🧛⛔\n🏈🍔🦬\n🐂🦌🦌\n💛🤎🦁",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Got it: a single species, not Dracula ants, found in the USA (🏈🍔🦬).\n\nI'm unsure about 🐂🦌🦌. It could be a US region or state (Texas? the West? the Great Plains?), or aphid-herding. 💛🤎🦁 might be its color, yellowish-brown or tawny like a cougar.\n\n🍰⬅️🐛🐛🐛🐛🐛 makes me think of ants that steal other ants' larvae for food, like thief ants, or slave-makers like Polyergus.\n\nQuestions:\n1. Does it raid or steal the brood of other ants?\n2. Is 🐂🦌🦌 a place? Please give a ✅/❌ on Texas, Rocky Mountains, or the Great Plains.\n3. Is 💛🤎🦁 the ant's color?\n\nGUESS: Solenopsis molesta",
+      "guess": "Solenopsis molesta",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>\n⛔\n🗣️ 🤘🐂🦌 \n👌 💛🤎\n</msg>",
+      "delivered": "⛔\n🗣️ 🤘🐂🦌\n👌 💛🤎",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "So it doesn't raid brood. 🤘🐂 reads as \"Hook 'em Horns\", the Texas Longhorns, so the name likely contains \"Texas\" (texana/texanus). The ant is yellowish-brown.\n\nStrong ants, a big colony like a village with a queen, and food going to the larvae fits the Texas leafcutter ant, which cuts leaves to farm fungus for its brood.\n\nIf that's wrong, is it a different Texas-named ant? Is the 🍰 something the larvae produce, or something fed to them?\n\nGUESS: Atta texana",
+      "guess": "Atta texana",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>\n🤠⛔\n🗣️ 🦕🤘 🦕🤘\n🍰🤷\n</msg>",
+      "delivered": "🤠⛔\n🗣️ 🦕🤘 🦕🤘\n🍰🤷",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "It isn't Texas. I think 🤘🐂🦌 means \"Horn\" → hornet, and 🦸‍♂️🤏 is The Wasp. Yellow-brown, a strong colony with a queen, and adults feeding on secretions from the larvae all fit Vespa. 🦕 suggests \"giant\". The 🧪 could be the larval amino-acid mixture (VAAM), and 🤏💪 its use as a stamina supplement. It also reached the USA. If it's wrong, is it the European hornet (Vespa crabro) or another Vespa?\n\nGUESS: Asian giant hornet",
+      "guess": "Asian giant hornet",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": "d90065d5-b913-4aee-8901-197cbceb2189",
+    "guesser": "fdac8321-58f1-48bb-880d-41cba82a3f26"
+  },
+  "ladder": {
+    "article_no": 1,
+    "round": 4,
+    "n_banned": 88,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

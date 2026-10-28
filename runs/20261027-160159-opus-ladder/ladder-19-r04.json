@@ -1,0 +1,75 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Sage Derby",
+    "description": "Variety of cheese",
+    "extract": "Sage Derby is a variety of Derby cheese that is mild, mottled green and semi-hard, and has a sage flavour. The colour is from sage and sometimes other colouring added to the curds, producing a marbling effect and a subtle herb flavour. The colour is formed either by mixing sage leaves into the curd before it is pressed or by the addition of \"green curd\" from green corn or spinach juice. In the latter case, the flavour has to be created with colourless sage extract. Parsley, spinach and marigold leaves, bruised and steeped before use, can also be included instead of the sage leaves. It is aged for one to three months.",
+    "url": "https://en.wikipedia.org/wiki/Sage_Derby"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 39.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 966,
+      "cache_read_input_tokens": 577,
+      "output_tokens": 1873,
+      "thinking_tokens": 1738,
+      "cost_usd": 0.0453114,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 953,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1152,
+      "thinking_tokens": 887,
+      "cost_usd": 0.030672,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "The cheese emoji is banned, so I'm showing a yellow wedge with holes plus wine and bread to suggest a cheese board. Then I'm adding green herb leaves and a wise-person hint for \"Sage.\"\n\n<msg>\n🔺🟨🕳️🕳️ 🍷🍇🥖\n🍀☘️🥝🐸 🫖\n🧘📿🤓\n</msg>",
+      "delivered": "🔺🟨🕳️🕳️ 🍷🍇🥖\n🍀☘️🥝🐸 🫖\n🧘📿🤓",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "My read so far:\n- 🔺🟨🕳️🕳️ = **cheese** (your 🧀 is banned)\n- 🍷🍇🥖 = **France / French**\n- 🍀☘️🥝🐸 = **green**\n- 🫖 = **tea**, or maybe a herb used in tea\n- 🧘📿🤓 = **sage**, the wise man, so maybe the herb?\n\nSo I'm thinking a green-marbled cheese made with sage. Sage Derby is English, though. Is the \"France\" part wrong, or is this a French sage cheese? If 🧘📿🤓 means **monk** instead (a monastery/Trappist cheese), send ⛪ or 👨‍🦲. If it means sage, send 🌿✅.\n\nGUESS: Sage Derby",
+      "guess": "Sage Derby",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "c2a23e88-7c00-429d-ac70-aa0b19b7fe93",
+    "guesser": "ae6077c1-a255-4641-8713-5c2a72841229"
+  },
+  "ladder": {
+    "article_no": 19,
+    "round": 4,
+    "n_banned": 49,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

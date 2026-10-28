@@ -1,0 +1,84 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "UFC BJJ 2",
+    "description": "Martial arts event in 2025",
+    "extract": "UFC BJJ 2: Tackett vs. Canuto was a submission grappling event produced by UFC Brazilian Jiu-Jitsu. The event was held at the UFC Apex in Las Vegas, Nevada, United States, on July 31, 2025 and was streamed live on YouTube.",
+    "url": "https://en.wikipedia.org/wiki/UFC_BJJ_2"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "max_turns": 30,
+  "seconds": 64.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 2392,
+      "cache_read_input_tokens": 2828,
+      "output_tokens": 1189,
+      "thinking_tokens": 1008,
+      "cost_usd": 0.0440872,
+      "calls": 3,
+      "cost_usd_reported": 0.08896259999999999
+    },
+    "guesser": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 2942,
+      "cache_read_input_tokens": 2549,
+      "output_tokens": 2594,
+      "thinking_tokens": 2066,
+      "cost_usd": 0.0764756,
+      "calls": 3,
+      "cost_usd_reported": 0.1459304
+    },
+    "judge": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 706,
+      "cache_read_input_tokens": 709,
+      "output_tokens": 171,
+      "thinking_tokens": 163,
+      "cost_usd": 0.00023419,
+      "calls": 2
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🛑🥊 🇧🇷🥋🤼 ✌️\n🎰🏜️ ▶️📺</msg>",
+      "delivered": "🛑🥊 🇧🇷🥋🤼 ✌️\n🎰🏜️ ▶️📺",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Reading: MMA (🛑🥊 = \"not boxing\", plus BJJ and wrestling), \"2\" or victory (✌️), Las Vegas (🎰🏜️), and a TV show or broadcast (▶️📺). My best fit is the second season of the UFC reality show, which was filmed in Vegas.\n\nIf that's wrong: is it an MMA **event**, a **TV series/season**, or a **fighter**? Does ✌️ mean the number 2?\n\nGUESS: The Ultimate Fighter 2",
+      "guess": "The Ultimate Fighter 2",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🏟️👍 ✌️👍 📺👎 🧑👎\n🛑👍 🥋🇧🇷🤼✅ 👊🚫\n🎰🏟️ ▶️</msg>",
+      "delivered": "🏟️👍 ✌️👍 📺👎 🧑👎\n🛑👍 🥋🇧🇷🤼✅ 👊🚫\n🎰🏟️ ▶️",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "So it's an **event** in a Las Vegas arena, ✌️ = 2, grappling only (BJJ/wrestling) with no strikes. ▶️ might mean it was streamed. 🛑 might mean \"submission,\" or maybe \"pass\" as in Fight Pass?\n\nTwo candidates:\n- UFC Fight Pass Invitational 2 (UFC Apex, Las Vegas, 2022)\n- ADCC World Championship 2022 (Thomas & Mack Center, Las Vegas)\n\nIs ✌️ the \"2nd edition\" or the year \"2022\"? What does 🛑 stand for?\n\nGUESS: UFC Fight Pass Invitational 2",
+      "guess": "UFC Fight Pass Invitational 2",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🔥🔥\n🛑 🇧🇷🥋 ✌️\n🎫👎 ▶️👍\n⏩⏩📅</msg>",
+      "delivered": "🔥🔥\n🛑 🇧🇷🥋 ✌️\n🎫👎 ▶️👍\n⏩⏩📅",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "🛑 might be the stop-sign octagon, meaning **UFC**. So: UFC + Brazilian jiu-jitsu + 2, held behind closed doors (no tickets) and streamed, and dated later than the Fight Pass Invitational, so a more recent event. That suggests the newer UFC BJJ series at the Apex.\n\nGUESS: UFC BJJ 2",
+      "guess": "UFC BJJ 2",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "b1529f5f-6938-4f84-9b77-c7ebec561f65",
+    "guesser": "66f8d6d6-7447-4ebd-9ca5-a27aec674748"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

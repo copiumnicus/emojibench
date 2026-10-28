@@ -1,0 +1,77 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Grande Seca",
+    "description": "Brazilian drought (1877–1878)",
+    "extract": "The Grande Seca, or the Brazilian drought of 1877–1878, was the largest and most devastating drought in Brazilian history. It caused the deaths of between 400,000 and 500,000 people. Of the 800,000 people who lived in the affected Northeastern region, around 120,000 migrated to the Amazon while 68,000 migrated to other parts of Brazil.",
+    "url": "https://en.wikipedia.org/wiki/Grande_Seca"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 38.3,
+  "usage": {
+    "explainer": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 1793,
+      "cache_read_input_tokens": 1177,
+      "output_tokens": 686,
+      "thinking_tokens": 504,
+      "cost_usd": 0.071377,
+      "calls": 2,
+      "cost_usd_reported": 0.11485424999999999
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1651,
+      "cache_read_input_tokens": 950,
+      "output_tokens": 893,
+      "thinking_tokens": 679,
+      "cost_usd": 0.031472,
+      "calls": 2,
+      "cost_usd_reported": 0.050570000000000004
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 700,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 72,
+      "thinking_tokens": 68,
+      "cost_usd": 0.0001762,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇧🇷 🧭↗️ 🚫🌧️ ☀️🏜️🌵💧❌ 💀💀💀💀💀 🏃🏃🏃➡️🌳🌴🌊 📜 🥇🏆</msg>",
+      "delivered": "🇧🇷 🧭↗️ 🚫🌧️ ☀️🏜️🌵💧❌ 💀💀💀💀💀 🏃🏃🏃➡️🌳🌴🌊 📜 🥇🏆",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "The picture I'm getting: northeast Brazil, a severe drought with many deaths, people fleeing toward the forest and coast. Then a written work 📜 that won an award 🥇🏆. That sounds like a novel about a sertão drought, maybe Rachel de Queiroz's novel about the 1915 drought. Is it a book? If not, is it a drought event or a film?\n\nGUESS: O Quinze",
+      "guess": "O Quinze",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>📚❌ 🎬❌ ☀️🏜️✅ 🏜️🥇🏆📏 👑🇧🇷🕰️ 🏃🏃➡️🌴🌊🐊 💀💀💀💀💀</msg>",
+      "delivered": "📚❌ 🎬❌ ☀️🏜️✅ 🏜️🥇🏆📏 👑🇧🇷🕰️ 🏃🏃➡️🌴🌊🐊 💀💀💀💀💀",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "So it's not a book or film. It's the drought itself, the worst on record, during the Empire of Brazil, with people fleeing to the Amazon. That should be the Great Drought of 1877–1879.\n\nGUESS: Grande Seca",
+      "guess": "Grande Seca",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "06f01a36-a144-4d0a-9c97-70332e72dffa",
+    "guesser": "ef3933f1-6f4d-4454-9987-5063c8c61669"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

@@ -1,0 +1,99 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Mike Pieciak",
+    "description": "American politician (born 1983)",
+    "extract": "Michael Sullivan Pieciak is an American politician from Vermont. A member of the Democratic Party, Pieciak has served as Vermont State Treasurer since January 2023.",
+    "url": "https://en.wikipedia.org/wiki/Mike_Pieciak"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 103.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 5957,
+      "cache_read_input_tokens": 7345,
+      "output_tokens": 4870,
+      "thinking_tokens": 4486,
+      "cost_usd": 0.148034,
+      "calls": 3,
+      "cost_usd_reported": 0.3354834
+    },
+    "guesser": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 3104,
+      "cache_read_input_tokens": 2733,
+      "output_tokens": 2874,
+      "thinking_tokens": 2299,
+      "cost_usd": 0.0834452,
+      "calls": 3,
+      "cost_usd_reported": 0.1615214
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 700,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00014220000000000001,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Plan: first establish Vermont (\"vert mont\" = green mountain, using leaf + climber + French flag + moose), then the treasurer role (purse, red envelope, money-hand gesture).\n\n<msg>\n🍃🧗 🇫🇷 🫎\n🕴️ 👛🧧🫰\n</msg>",
+      "delivered": "🍃🧗 🇫🇷 🫎\n🕴️ 👛🧧🫰",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Here's my reading so far: the secret might be a French businessman, banker or financier (🕴️ man in a suit, plus 👛🧧🫰 for money). I think 🍃🧗🫎 could be a rebus for the name, something like leaf, climb and moose. In French those are feuille, grimper and élan.\n\nQuestions:\n1. Is it a person (yes/no)?\n2. Is 🍃🧗🫎 meant to sound out the name? If so, is it in French or English?\n3. Is 🫎 standing in for a deer, elk, stag or something else?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "Answering their questions: yes it's a person (👌), no the leaf/climber isn't the name (🛑). Then I reinforce \"green\" plus \"mountain\" as a place, confirm the moose, and add campaign/politics cues (placard, megaphone) to move them off \"banker.\"\n\n<msg>\n👌\n🛑 🐸🥒🍏 🧗🚵🚠 🌎🏘️\n🫎👌\n🪧📣🕴️\n</msg>",
+      "delivered": "👌\n🛑 🐸🥒🍏 🧗🚵🚠 🌎🏘️\n🫎👌\n🪧📣🕴️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I think 🍃🧗🇫🇷 is Vermont (\"vert mont,\" green mountain). That would make this a Vermont politician, given 🪧📣🕴️ looks like campaigning. My guess is that 🫎 is the Bull Moose (Progressive) Party of 1912.\n\nQuestions:\n1. Is the money (👛🧧🫰) about being a **State Treasurer**, or about being a banker or businessman?\n2. Did they run for **governor**, or for a lower office?\n\nHere's a first shot. Fraser Metzger was the Progressive candidate for governor of Vermont in 1912, and I think he may have been a banker.\n\nGUESS: Fraser Metzger",
+      "guess": "Fraser Metzger",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "Their Vermont read is right. Now: yes to State Treasurer, no to governor, no to Bull Moose (the moose is just Vermont scenery). I'm also adding modern-era cues and a light-blue heart for Democrat.\n\n<msg>\n👌\n🛑\n🫎🛑🐂\n📲🖥️🚗✈️ 🩵\n</msg>",
+      "delivered": "👌\n🛑\n🫎🛑🐂\n📲🖥️🚗✈️ 🩵",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "So this is a modern Vermont State Treasurer who didn't run for governor, and 🩵 means Democrat. The 🫎 is a real moose, not the Bull Moose Party.\n\nRecent Democratic treasurers I know are Jeb Spaulding, Beth Pearce and Mike Pieciak. The phone, computer, car and plane make me think of the most recent one.\n\nWhat does the moose point to: the name, a hobby, or a hometown?\n\nGUESS: Mike Pieciak",
+      "guess": "Mike Pieciak",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "a912b9f2-9e24-4821-bff4-93d806cf924c",
+    "guesser": "bad639b9-e5ab-46b4-9a25-670f77708847"
+  },
+  "ladder": {
+    "article_no": 4,
+    "round": 6,
+    "n_banned": 147,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

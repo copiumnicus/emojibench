@@ -1,0 +1,65 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Ayribobo",
+    "description": "Highest mountain of Turkmenistan",
+    "extract": "Ayribobo or Aýrybaba, officially named the Great Saparmyrat Turkmenbashi Peak in Turkmenistan since 2004, is a mountain in Central Asia. At 3,138 metres (10,295 ft) Aýrybaba is the highest mountain in Turkmenistan. It is located in the Köýtendag Range of the Pamir-Alay chain in the southeast of Turkmenistan on the Uzbekistani border.",
+    "url": "https://en.wikipedia.org/wiki/Ayribobo"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 20.1,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1206,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 268,
+      "thinking_tokens": 197,
+      "cost_usd": 0.037540000000000004,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 929,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 219,
+      "thinking_tokens": 154,
+      "cost_usd": 0.01182,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 702,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 9.22e-06,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇹🇲 🏔️ 🥇 👑 ⬆️⬆️⬆️\n📍 🇹🇲 ↔️ 🇺🇿 ↘️</msg>",
+      "delivered": "🇹🇲 🏔️ 🥇 👑 ⬆️⬆️⬆️\n📍 🇹🇲 ↔️ 🇺🇿 ↘️",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "This looks like the highest mountain in Turkmenistan, which sits on the border with Uzbekistan in the southeast, in the Köýtendag Range.\n\nGUESS: Aýrybaba",
+      "guess": "Aýrybaba",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "50fe9a2d-60b9-496a-ad26-0a6cda847bd2",
+    "guesser": "fc488138-ed79-44b9-b525-0e0e0c4178a1"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

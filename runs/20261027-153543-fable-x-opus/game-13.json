@@ -1,0 +1,77 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Dorothy Cottrell",
+    "description": "Australian writer",
+    "extract": "Ida Dorothy Ottley Cottrell was an Australian writer. Born in Picton, she contracted infantile paralysis as a child and spent the rest of her life in a wheelchair. Cottrell married Walter Mackenzie Cottrell on 23 May 1922. Her first novel, The Singing Gold, was published in 1928. She wrote a story Wilderness Orphan (1936) which was the basis for the feature film Orphan of the Wilderness (1936). She lived for a time in the US and also worked as an artist and cartoonist.",
+    "url": "https://en.wikipedia.org/wiki/Dorothy_Cottrell"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 47.3,
+  "usage": {
+    "explainer": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 1986,
+      "cache_read_input_tokens": 1230,
+      "output_tokens": 1138,
+      "thinking_tokens": 867,
+      "cost_usd": 0.09789,
+      "calls": 2,
+      "cost_usd_reported": 0.1466875
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2234,
+      "cache_read_input_tokens": 952,
+      "output_tokens": 1608,
+      "thinking_tokens": 1329,
+      "cost_usd": 0.050436800000000004,
+      "calls": 2,
+      "cost_usd_reported": 0.0801104
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 698,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 9.18e-06,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇦🇺 👩‍🦽 ✍️ 📚 🎨 🖋️\n📖 🎤🎶 🥇🪙\n📖 🌳🏜️ 🦘👶 ➡️ 🎬\n🇺🇸</msg>",
+      "delivered": "🇦🇺 👩‍🦽 ✍️ 📚 🎨 🖋️\n📖 🎤🎶 🥇🪙\n📖 🌳🏜️ 🦘👶 ➡️ 🎬\n🇺🇸",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "**My read so far:** an Australian woman writer and artist who used a wheelchair. One book was about singing or music and won a gold medal or top award. Another book, set in the bush or outback and about a baby kangaroo (joey), was adapted into a film. There's also some US connection.\n\nMy first thought is *Dot and the Kangaroo*, though I'm unsure of the wheelchair and US parts.\n\nQuestions:\n1. Was the film American-made, or did she live or work in the US?\n2. Roughly which era: before 1950 or after?\n\nGUESS: Ethel Pedley",
+      "guess": "Ethel Pedley",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>1️⃣: 👩🏠🇺🇸 👍, 🎬🇦🇺\n2️⃣: ⏮️ 👍 (📅≈🎞️🎺 1920s–30s)\n\n📖🏷️ = 🎶🪙 (🏆❌)\n📖🏷️ = 👶🪦👪❌ + 🌳🏜️ 🦘 ➡️ 🎬 (1936)\n\n👩 🪪: 👧👠👠🌈🐕🌪️</msg>",
+      "delivered": "👩🏠🇺🇸 👍 🎬🇦🇺\n⏮️ 👍 📅🎞️🎺\n📖🏷️ 🎶🪙 🏆❌\n📖🏷️ 👶🪦👪❌ 🌳🏜️ 🦘 ➡️ 🎬\n👩 🪪 👧👠👠🌈🐕🌪️",
+      "dropped_chars": 31,
+      "retried": false,
+      "guesser": "Dorothy (Wizard of Oz) + wheelchair + lived in the US + *The Singing Gold* + *Wilderness Orphan* (filmed in 1936 as *Orphan of the Wilderness*)...\n\nGUESS: Dorothy Cottrell",
+      "guess": "Dorothy Cottrell",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "93c9bb68-25ba-4170-889e-3b8d2498f1e3",
+    "guesser": "d6c279f8-2aae-4b3f-93f9-064ed812c65c"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

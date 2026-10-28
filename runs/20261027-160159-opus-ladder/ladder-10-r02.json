@@ -1,0 +1,88 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Accord Pond",
+    "description": "Lake in Massachusetts, USA",
+    "extract": "Accord Pond is a 100-acre (0.40 km2) reservoir in Hingham, Norwell and Rockland, Massachusetts. The reservoir is located off Route 228 at its terminus with Route 3. The reservoir is visible from Route 3 northbound at Exit 14, the Route 228 off-ramp. The reservoir is a Class A source of water supply for the town of Hingham and Hull Ma. The outflow of the reservoir is Accord Brook, a tributary of the Weir River.",
+    "url": "https://en.wikipedia.org/wiki/Accord_Pond"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 60.1,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2515,
+      "cache_read_input_tokens": 1998,
+      "output_tokens": 1767,
+      "thinking_tokens": 1613,
+      "cost_usd": 0.056283200000000005,
+      "calls": 2,
+      "cost_usd_reported": 0.087519
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 3232,
+      "cache_read_input_tokens": 959,
+      "output_tokens": 2592,
+      "thinking_tokens": 2099,
+      "cost_usd": 0.07810360000000001,
+      "calls": 2,
+      "cost_usd_reported": 0.1288318
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 700,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00014220000000000001,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🎣🛶🐟🪿\n\n🤜🤛 👌 ✔️\n🗾🚘\n\n☘️🏀 🎓 ⛵🪨 🧹\n</msg>",
+      "delivered": "🎣🛶🐟🪿\n🤜🤛 👌 ✔️\n🗾🚘\n☘️🏀 🎓 ⛵🪨 🧹",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Here's my reading so far:\n- **Line 1 (🎣🛶🐟🪿):** fishing, canoeing, fish and geese. So a **lake or pond**?\n- **Line 2 (🤜🤛 👌 ✔️):** a fist bump (\"pound\" / \"bump\" / \"dap\"?) plus \"OK\" or \"good\". Is this a word in the name, maybe \"Pound\" or \"Good\"?\n- **Line 3 (🗾🚘):** a Japanese car, like Toyota, Honda or Nissan? Or Japan plus a road?\n- **Line 4 (☘️🏀 🎓 ⛵🪨 🧹):** Celtics = **Boston**, a college, sailing and rocks (Marblehead?), and a broom = witches (**Salem**?). So the Boston North Shore in **Massachusetts**?\n\nQuestions:\n1. Is it a lake or pond in Massachusetts?\n2. Is line 2 a sound-alike for part of the name? Please show which syllable, e.g. with numbers 1️⃣2️⃣.\n3. Is line 3 part of the name (a car brand) or something else?\n\nGUESS: Pound Pond",
+      "guess": "Pound Pond",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n🪿🎣 💯\n\n🤜🤛👌 🟰 🗾🚘\n🖋️📃🖋️ 🟰 🗾🚘\n\n☘️🏀 ⬇️ ⛵🪨\n</msg>",
+      "delivered": "🪿🎣 💯\n🤜🤛👌 🟰 🗾🚘\n🖋️📃🖋️ 🟰 🗾🚘\n☘️🏀 ⬇️ ⛵🪨",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "That clears it up. A fist bump with \"OK\", or a signed paper, means a deal or agreement. The Japanese car with that name is the **Honda Accord**. So the pond is \"Accord\". It's south of Boston, near Hingham (sailing) and Rockland.\n\nGUESS: Accord Pond",
+      "guess": "Accord Pond",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "feee1f80-eca2-472b-a234-480be91113b3",
+    "guesser": "926b74ab-f4bf-46d4-9cac-86d034cf34e4"
+  },
+  "ladder": {
+    "article_no": 10,
+    "round": 2,
+    "n_banned": 31,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

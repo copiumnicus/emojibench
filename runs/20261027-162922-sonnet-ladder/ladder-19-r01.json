@@ -1,0 +1,90 @@
+{
+  "model": "sonnet",
+  "model_id": "claude-sonnet-5-5",
+  "guesser_model": "sonnet",
+  "guesser_model_id": "claude-sonnet-5-5",
+  "effort": null,
+  "article": {
+    "title": "Sage Derby",
+    "description": "Variety of cheese",
+    "extract": "Sage Derby is a variety of Derby cheese that is mild, mottled green and semi-hard, and has a sage flavour. The colour is from sage and sometimes other colouring added to the curds, producing a marbling effect and a subtle herb flavour. The colour is formed either by mixing sage leaves into the curd before it is pressed or by the addition of \"green curd\" from green corn or spinach juice. In the latter case, the flavour has to be created with colourless sage extract. Parsley, spinach and marigold leaves, bruised and steeped before use, can also be included instead of the sage leaves. It is aged for one to three months.",
+    "url": "https://en.wikipedia.org/wiki/Sage_Derby"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 20.4,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1165,
+      "cache_read_input_tokens": 1974,
+      "output_tokens": 226,
+      "thinking_tokens": 147,
+      "cost_usd": 0.0073268,
+      "calls": 2,
+      "cost_usd_reported": 0.0122511
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1218,
+      "cache_read_input_tokens": 921,
+      "output_tokens": 488,
+      "thinking_tokens": 353,
+      "cost_usd": 0.0099482,
+      "calls": 2,
+      "cost_usd_reported": 0.0157741
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 692,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0001406,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🥛🟩🍃🏇🥪🇬🇧</msg>",
+      "delivered": "🥛🟩🍃🏇🥪",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🇬🇧"
+      ],
+      "retried": false,
+      "guesser": "Possibly a racehorse, or something named after green tea or milk? My first impression is matcha, horse racing, and a sandwich. Is it a person, a place, or an animal?\n\nGUESS: Matcha",
+      "guess": "Matcha",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👎 🥛➡️🧈 🟩🍃 🧽🕳️ 🐭😋 🏇</msg>",
+      "delivered": "👎 🥛➡️🧈 🟩🍃 🧽🕳️ 🐭😋 🏇",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "That fits Sage Derby: milk turned into cheese, sage as the green leaf, the holey sponge and mouse for cheese, and the horse race for Derby.\n\nGUESS: Sage Derby",
+      "guess": "Sage Derby",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "b8350233-d18d-49c0-a081-f98cf64480c4",
+    "guesser": "60faeb65-60af-4079-a870-fc7a81645820"
+  },
+  "ladder": {
+    "article_no": 19,
+    "round": 1,
+    "n_banned": 11,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

@@ -1,0 +1,75 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Grande Seca",
+    "description": "Brazilian drought (1877–1878)",
+    "extract": "The Grande Seca, or the Brazilian drought of 1877–1878, was the largest and most devastating drought in Brazilian history. It caused the deaths of between 400,000 and 500,000 people. Of the 800,000 people who lived in the affected Northeastern region, around 120,000 migrated to the Amazon while 68,000 migrated to other parts of Brazil.",
+    "url": "https://en.wikipedia.org/wiki/Grande_Seca"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 69.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1198,
+      "cache_read_input_tokens": 577,
+      "output_tokens": 4806,
+      "thinking_tokens": 4617,
+      "cost_usd": 0.1058274,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1026,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 751,
+      "thinking_tokens": 571,
+      "cost_usd": 0.023236,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Plan: show Brazil's flag colours with unbanned shapes, then a long stretch of no rain and heat, mass death, and migration to the forest.\n\n<msg>\n🟢🟡🔷 🧭🔝\n\n🌦️❎❎❎ 🌤️🌤️🌤️🌶️ 🪣🫥\n🌽❎ 🐂⚱️ 👪⚱️⚱️⚱️⚱️⚱️\n\n👪👪👪🐎🚢 🌲🌲🌲\n\n🤴🧔 🕰️\n</msg>",
+      "delivered": "🟢🟡🔷 🧭\n🌦️❎❎❎ 🌤️🌤️🌤️🌶️ 🪣🫥\n🌽❎ 🐂⚱️ 👪⚱️⚱️⚱️⚱️⚱️\n👪👪👪🐎🚢 🌲🌲🌲\n🤴🧔 🕰️",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The colors 🟢🟡🔷 point to Brazil's flag, and 🧭 suggests a region, probably the Northeast. Several years of hot, sunny weather with almost no rain left buckets empty: a drought. Corn crops failed, cattle died and many families died. Families fled by horse and ship to the forest, likely the Amazon rubber boom. The bearded emperor would be Pedro II, and 🕰️ marks it as a historical event. That fits the Great Drought of 1877–1878.\n\nGUESS: Grande Seca",
+      "guess": "Grande Seca",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "a9e13b7b-e933-455b-8810-7eaaf569d3dd",
+    "guesser": "ab71b065-b712-48b4-96f4-a4de53901207"
+  },
+  "ladder": {
+    "article_no": 16,
+    "round": 6,
+    "n_banned": 113,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

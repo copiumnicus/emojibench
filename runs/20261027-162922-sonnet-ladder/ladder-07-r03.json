@@ -1,0 +1,132 @@
+{
+  "model": "sonnet",
+  "model_id": "claude-sonnet-5-5",
+  "guesser_model": "sonnet",
+  "guesser_model_id": "claude-sonnet-5-5",
+  "effort": null,
+  "article": {
+    "title": "Mad River Mountain",
+    "description": "Ski resort in Ohio, United States",
+    "extract": "Mad River Mountain is a ski and snowboard resort in Valley Hi, Ohio, United States. The elevation of Mad River Mountain is 1,460 feet (450 m) with a vertical drop of 300 ft (91 m), and it has a ski season that runs from approximately mid-December through mid-March. The resort, which opened in 1962 as Valley Hi Ski Area, is owned by EPR Properties and operated by Vail Resorts, who bought the resort from Peak Resorts in 2019.",
+    "url": "https://en.wikipedia.org/wiki/Mad_River_Mountain"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "max_turns": 30,
+  "seconds": 87.4,
+  "usage": {
+    "explainer": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 3154,
+      "cache_read_input_tokens": 10438,
+      "output_tokens": 1422,
+      "thinking_tokens": 1167,
+      "cost_usd": 0.028959600000000002,
+      "calls": 5,
+      "cost_usd_reported": 0.0976642
+    },
+    "guesser": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 2685,
+      "cache_read_input_tokens": 5907,
+      "output_tokens": 1458,
+      "thinking_tokens": 1181,
+      "cost_usd": 0.026537400000000003,
+      "calls": 5,
+      "cost_usd_reported": 0.0812643
+    },
+    "judge": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 3522,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 20,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0007154,
+      "calls": 5
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🤪💦🌋 ☃️🌲🧑‍🎿 🌡️🥾 🏢🌽</msg>",
+      "delivered": "🤪💦🌋 ☃️🌲🧑 🌡️🥾 🏢",
+      "dropped_chars": 3,
+      "off_keyboard": [
+        "🎿",
+        "🌽"
+      ],
+      "retried": false,
+      "guesser": "Possible read: a cold, snowy volcano area, a person who hiked or explored there, and a building such as a hut or station. Antarctica?\n\nIs the article about a person, a place, or a building?\n\nGUESS: Mount Erebus",
+      "guess": "Mount Erebus",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🤪💦 ☃️🏄 🪑↗️ 🌲🌲 🏁 🐘🏢 🏔</msg>",
+      "delivered": "🤪💦 ☃️🏄 🪑↗️ 🌲🌲 🏁 🐘🏢",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🏔️"
+      ],
+      "retried": false,
+      "guesser": "Volcano, snow, snowboarding, chairlift, trees, and an elephant, which could stand for mammoth. This looks like a ski resort on a volcano.\n\nGUESS: Mammoth Mountain",
+      "guess": "Mammoth Mountain",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🤪💦 ☃️🏄🪑 🐜🏞 ⬆️ 🚫🌋 🔴⚪ 🏙️ 🎓🌰</msg>",
+      "delivered": "🤪💦 ☃️🏄🪑 🐜 ⬆️ 🌋 🔴⚪ 🏙️ 🎓",
+      "dropped_chars": 3,
+      "off_keyboard": [
+        "🏞️",
+        "🚫",
+        "🌰"
+      ],
+      "retried": false,
+      "guesser": "Ski area on a volcano, with a graduation cap that could mean \"Bachelor\".\n\nGUESS: Mount Bachelor",
+      "guess": "Mount Bachelor",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🤪 💦 🌄 ☃️🏄🪑 🔴⚪ 🏙️ 🇬🇧❌</msg>",
+      "delivered": "🤪 💦 🌄 ☃️🏄🪑 🔴⚪ 🏙️ 🇬🇧",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "❌"
+      ],
+      "retried": false,
+      "guesser": "Ant plus up reads like \"Annupuri\", the red and white points to Japan, and the UK flag could stand for \"United\", so this looks like Niseko United.\n\nGUESS: Niseko United",
+      "guess": "Niseko United",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>🤪 💦 🌄 ☃️🏄🪑</msg>",
+      "delivered": "🤪 💦 🌄 ☃️🏄🪑",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Mount Niseko-Annupuri\n```",
+      "guess": "Mount Niseko-Annupuri",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": "05aa63fc-5f7f-49ac-ab8c-151570864f47",
+    "guesser": "ea3224d1-ff18-45ba-9aee-b067f76e21b5"
+  },
+  "ladder": {
+    "article_no": 7,
+    "round": 3,
+    "n_banned": 60,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

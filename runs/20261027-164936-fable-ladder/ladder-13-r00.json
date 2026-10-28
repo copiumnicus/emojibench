@@ -1,0 +1,72 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Dorothy Cottrell",
+    "description": "Australian writer",
+    "extract": "Ida Dorothy Ottley Cottrell was an Australian writer. Born in Picton, she contracted infantile paralysis as a child and spent the rest of her life in a wheelchair. Cottrell married Walter Mackenzie Cottrell on 23 May 1922. Her first novel, The Singing Gold, was published in 1928. She wrote a story Wilderness Orphan (1936) which was the basis for the feature film Orphan of the Wilderness (1936). She lived for a time in the US and also worked as an artist and cartoonist.",
+    "url": "https://en.wikipedia.org/wiki/Dorothy_Cottrell"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 42.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1225,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 800,
+      "thinking_tokens": 655,
+      "cost_usd": 0.06452,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1020,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 2093,
+      "thinking_tokens": 1981,
+      "cost_usd": 0.12507000000000001,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n👩 ✍️ 📚 🇦🇺\n♿ 🦵 🦠 👧\n💍 👨\n📖 🎵 🎶 🥇\n📖 🦘 👶 🌲 🏜️ ➡️ 🎬 🎞️\n🎨 ✏️ 😂 🗞️\n🇺🇸 🏠\n🌪️ 👠 🐕 👧\n</msg>",
+      "delivered": "👩 ✍️ 📚 🇦🇺\n♿ 🦵 🦠 👧\n💍 👨\n📖 🎵 🎶 🥇\n📖 🦘 👶 🌲 🏜️ ➡️ 🎬 🎞️\n🎨 ✏️ 😂 🗞️\n🇺🇸 🏠\n🌪️ 👠 🐕 👧",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "The Dorothy clue (Wizard of Oz) plus \"Singing Gold\" 🎵🎶🥇 and \"Wilderness Orphan\" 🦘👶 → film \"Orphan of the Wilderness\" points me to a polio-affected Australian writer who moved to the US.\n\nGUESS: Dorothy Cottrell",
+      "guess": "Dorothy Cottrell",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "bc5d90ac-b588-4bf2-85e1-6229202adb6e",
+    "guesser": "2527efd7-d04d-4e06-b087-c331170bef6c"
+  },
+  "ladder": {
+    "article_no": 13,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": "runs/20261027-153308-fable/game-13.json"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

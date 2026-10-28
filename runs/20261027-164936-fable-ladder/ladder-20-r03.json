@@ -1,0 +1,75 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Franco Cozzo",
+    "description": "Australian businessman (1935–2023)",
+    "extract": "Franco Cozzo was an Italian-Australian businessman. After moving to Melbourne from Sicily in 1955, Cozzo became known for his television advertisements, in which he would speak in English, Greek, and Italian. He later produced Australia's first non-English TV show, Carosello, which was broadcast in Italian.",
+    "url": "https://en.wikipedia.org/wiki/Franco_Cozzo"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 81.5,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 985,
+      "cache_read_input_tokens": 577,
+      "output_tokens": 4223,
+      "thinking_tokens": 4063,
+      "cost_usd": 0.23101425,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 993,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 764,
+      "thinking_tokens": 608,
+      "cost_usd": 0.05808000000000001,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Franco Cozzo — Melbourne furniture king, \"Grand sale!\" TV ads in Italian/Greek/English. Need to convey: Italian man → Australia (Melbourne), furniture shop, TV ads, multilingual.\n\n<msg>\n👨🤌 🛳️⏩🌏🏏🎾🐎\n🏠🗄️🪔🛁 🛒💵💵💵\n📼🎙️🔉 👄🤌🏺\n</msg>",
+      "delivered": "👨🤌 🛳️⏩🌏🏏🎾🐎\n🏠🗄️🪔🛁 🛒💵💵💵\n📼🎙️🔉 👄🤌🏺",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The clues read: Italian man 🤌 → sailed to Australia 🌏 (cricket/tennis/horses) → got rich selling furniture/homewares 🏠🗄️🪔🛁 → famous for TV/radio ads 📼🎙️ speaking Italian and Greek 👄🤌🏺. That's the Melbourne furniture king with the legendary \"Megalo megalo megalo!\" commercials.\n\nGUESS: Franco Cozzo",
+      "guess": "Franco Cozzo",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "c35d3cdf-91a3-4439-a0f3-72b051bec2d5",
+    "guesser": "f52e297e-d5fb-4a25-ac00-285c5c998887"
+  },
+  "ladder": {
+    "article_no": 20,
+    "round": 3,
+    "n_banned": 67,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

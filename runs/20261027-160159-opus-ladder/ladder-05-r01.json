@@ -1,0 +1,99 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "UFC BJJ 2",
+    "description": "Martial arts event in 2025",
+    "extract": "UFC BJJ 2: Tackett vs. Canuto was a submission grappling event produced by UFC Brazilian Jiu-Jitsu. The event was held at the UFC Apex in Las Vegas, Nevada, United States, on July 31, 2025 and was streamed live on YouTube.",
+    "url": "https://en.wikipedia.org/wiki/UFC_BJJ_2"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 70.9,
+  "usage": {
+    "explainer": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 2888,
+      "cache_read_input_tokens": 4436,
+      "output_tokens": 1717,
+      "thinking_tokens": 1443,
+      "cost_usd": 0.0592584,
+      "calls": 3,
+      "cost_usd_reported": 0.1259558
+    },
+    "guesser": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 3540,
+      "cache_read_input_tokens": 3779,
+      "output_tokens": 3018,
+      "thinking_tokens": 2425,
+      "cost_usd": 0.0902316,
+      "calls": 3,
+      "cost_usd_reported": 0.2004344
+    },
+    "judge": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 1400,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00028440000000000003,
+      "calls": 2
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🫂🐍🤚😵\n🦜⚽🌴💃 ➕ 🇯🇵🤸\n🐙⛓️💪 🎲🃏💰\n🦢 👀 🧦🧦\n</msg>",
+      "delivered": "🫂🐍🤚😵\n🦜⚽🌴💃 ➕ 🇯🇵🤸\n🐙⛓️💪 🎲🃏💰\n🦢 👀 🧦🧦",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "**What I'm reading so far:**\n- Line 2: Brazil (🦜⚽🌴💃) plus Japanese grappling (🇯🇵🤸), so **Brazilian jiu-jitsu**.\n- Line 1: hug + snake + hand + 😵. This looks like a squeezing choke, possibly an **anaconda choke**.\n- Line 3: 🐙⛓️💪 could be grappling or grip strength. 🎲🃏💰 is gambling or poker.\n- Line 4: 🦢👀 might be \"Swan-sea\" (**Swansea**?). It could also be 🦢 as grace, meaning **Gracie**. 🧦🧦 might be \"Sox.\"\n\n**Questions:**\n1. Is the article about a **person** (a fighter or grappler)? Or is it about a **technique**?\n2. Is 🦢👀 meant to be **Swansea**, or **Gracie**?\n3. Does 🎲🃏💰 mean the person is a **poker player**, or that they have a gambling nickname?\n\nGUESS: Anaconda choke",
+      "guess": "Anaconda choke",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n❌🧍 ❌🤸 ➡️ 🎉🏆🗓️\n🐙➡️🔷 ⛓️🇺🇸 (🐙🏢)\n🎲🃏 ➡️ 🌃🇺🇸\n🥈 🥈 🥈\n</msg>",
+      "delivered": "❌🧍 ❌🤸 ➡️ 🎉🏆🗓️\n🐙➡️🔷 ⛓️🇺🇸 🐙🏢\n🎲🃏 ➡️ 🌃🇺🇸\n🥈 🥈 🥈",
+      "dropped_chars": 2,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I think this is a **UFC event** (🐙 = octagon, 🐙🏢 = UFC) held in **Las Vegas** (🎲🃏 → 🌃🇺🇸). The headline story would be a Brazilian jiu-jitsu fighter winning with a choke. 🥈🥈🥈 reads to me as \"2-2-2.\"\n\nIf this is wrong, is 🥈🥈🥈 about a number, or about runners-up?\n\nGUESS: UFC 222",
+      "guess": "UFC 222",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n🐙🏢 ➕ 🦜⚽🇯🇵🤸 ➕ 🥈\n❌🤜💥 ✔️🫂🐍🤚\n🥈 ❌🥈🥈\n</msg>",
+      "delivered": "🐙🏢 ➕ 🦜⚽🇯🇵🤸 ➕ 🥈\n❌🤜💥 ✔️🫂🐍🤚\n🥈 ❌🥈🥈",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Got it. This is a **grappling-only** event (no strikes, just submissions). The title reads literally as UFC + Brazilian jiu-jitsu + 2.\n\nGUESS: UFC BJJ 2",
+      "guess": "UFC BJJ 2",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "e3c2d973-e29f-4981-857c-ccf7bdd76335",
+    "guesser": "3eb0685a-3461-475e-8660-8a00522fae10"
+  },
+  "ladder": {
+    "article_no": 5,
+    "round": 1,
+    "n_banned": 21,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

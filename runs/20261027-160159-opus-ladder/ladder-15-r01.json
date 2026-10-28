@@ -1,0 +1,75 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Iglesia de Santa Ana (Santiago de Chile)",
+    "description": "National monument of Chile",
+    "extract": "The Iglesia de Santa Ana is a Catholic church in downtown Santiago de Chile. It is located at the northwest corner of Catedral and San Martín streets. The church was declared as a National Monument of Chile in 1970, within the category of Historic Monuments. Santa Ana metro station is named after the church.",
+    "url": "https://en.wikipedia.org/wiki/Iglesia_de_Santa_Ana_(Santiago_de_Chile)"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 427.3,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 733,
+      "cache_read_input_tokens": 577,
+      "output_tokens": 797,
+      "thinking_tokens": 737,
+      "cost_usd": 0.021927400000000003,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 952,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1133,
+      "thinking_tokens": 890,
+      "cost_usd": 0.030284000000000002,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 717,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0001456,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>💒🛐🔔\n\n🌶️🌶️ 🏔️🌎\n\n🐚😇\n\n😇🧓 🍍\n\n🚈🕳️</msg>",
+      "delivered": "💒🛐🔔\n🌶️🌶️ 🏔️🌎\n🐚😇\n😇🧓 🍍\n🚈🕳️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Here's how I read your clues:\n- 💒🛐🔔 is a **church**.\n- 🌶️🌶️ 🏔️🌎 is **Chile**.\n- 🐚😇 is **Santiago**, since the scallop shell is Saint James's symbol.\n- 😇🧓🍍 is **Saint Anne / Santa Ana**: the saint who was Jesus's grandmother, plus \"ananá\" (pineapple).\n- 🚈🕳️ is the **Santa Ana metro station**, which is nearby.\n\nMy best reading is the Santa Ana church in Santiago, Chile. If the article is actually about the metro station, send 🚈 again.\n\nGUESS: Santa Ana Church, Santiago",
+      "guess": "Santa Ana Church, Santiago",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "99e574a6-144b-42ac-93a2-6227ee003a34",
+    "guesser": "f3028e4e-14de-463c-9913-e42eb22ee8c2"
+  },
+  "ladder": {
+    "article_no": 15,
+    "round": 1,
+    "n_banned": 17,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

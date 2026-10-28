@@ -1,0 +1,113 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "7's Football League",
+    "description": "Football league",
+    "extract": "The 7's Football League is a seven-a-side football league in the Philippines. Established in 2018, the league already had four seasons. It has a two-tiered men's division, a women's division, and youth divisions. The league is an open tournament with participation from representative sides of the domestic football competition, the Philippines Football League.",
+    "url": "https://en.wikipedia.org/wiki/7's_Football_League"
+  },
+  "solved": false,
+  "turns_taken": 1,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": true,
+  "max_turns": 30,
+  "seconds": 67.2,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 894,
+      "cache_read_input_tokens": 577,
+      "output_tokens": 3011,
+      "thinking_tokens": 2794,
+      "cost_usd": 0.16859425,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1048,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1161,
+      "thinking_tokens": 1017,
+      "cost_usd": 0.07903,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 691,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0001404,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "claude-fable-5-1",
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 894,
+        "cache_read_input_tokens": 577,
+        "output_tokens": 3011,
+        "thinking_tokens": 2794,
+        "cost_usd": 0.16859425,
+        "duration_ms": 46929
+      }
+    ],
+    "guesser": [
+      {
+        "model": "claude-fable-5-1",
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 1048,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 1161,
+        "thinking_tokens": 1017,
+        "cost_usd": 0.07903,
+        "duration_ms": 16479
+      }
+    ],
+    "judge": [
+      {
+        "model": "claude-haiku-5-5",
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 691,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 0.0001404,
+        "duration_ms": 1497
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Private notes: Need to convey Philippines (flag banned → sun/stars/colors + mango/carabao), football (⚽ banned → foot + ball), seven-a-side (seven people each side), league (trophy banned → medal/list), divisions.\n\n<msg>\n🌞🌟🌟🌟 🟦❤️ 🥭🐃🏖️\n🦶🏀\n🧑🧑🧑🧑🧑🧑🧑 🤜🤛 🧑🧑🧑🧑🧑🧑🧑\n🥉🎖️📋 🧔⬆️🧔⬇️ 💃 👦👧\n</msg>",
+      "delivered": "🌞🌟🌟🌟 🟦❤️ 🥭🐃🏖️\n🦶🏀\n🧑🧑🧑🧑🧑🧑🧑 🤜🤛 🧑🧑🧑🧑🧑🧑🧑\n🥉🎖️📋 🧔⬆️🧔⬇️ 💃 👦👧",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Hypothesis: Philippines (sun + 3 stars, blue/red, mango/carabao) + football/soccer (foot + ball) + leagues/teams, promotion & relegation, with women's and youth sections.\n\nQuestions: Is it a specific club, a league competition, or the federation/league system? Is the 🧑x7 vs 🧑x7 a derby/rivalry between two teams?\n\nGUESS: Philippines Football League",
+      "guess": "Philippines Football League",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": "d0356e45-5a83-4573-bb3f-8aa643bc9fc8",
+    "guesser": "cd5f1c68-8083-4bcf-803b-2df86f35f7a6"
+  },
+  "ladder": {
+    "article_no": 17,
+    "round": 2,
+    "n_banned": 54,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

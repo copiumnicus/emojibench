@@ -1,0 +1,113 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Iglesia de Santa Ana (Santiago de Chile)",
+    "description": "National monument of Chile",
+    "extract": "The Iglesia de Santa Ana is a Catholic church in downtown Santiago de Chile. It is located at the northwest corner of Catedral and San Martín streets. The church was declared as a National Monument of Chile in 1970, within the category of Historic Monuments. Santa Ana metro station is named after the church.",
+    "url": "https://en.wikipedia.org/wiki/Iglesia_de_Santa_Ana_(Santiago_de_Chile)"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 127.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 918,
+      "cache_read_input_tokens": 577,
+      "output_tokens": 4984,
+      "thinking_tokens": 4773,
+      "cost_usd": 0.26772425,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1027,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 3893,
+      "thinking_tokens": 3610,
+      "cost_usd": 0.21521,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 718,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0001458,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "claude-fable-5-1",
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 918,
+        "cache_read_input_tokens": 577,
+        "output_tokens": 4984,
+        "thinking_tokens": 4773,
+        "cost_usd": 0.26772425,
+        "duration_ms": 72413
+      }
+    ],
+    "guesser": [
+      {
+        "model": "claude-fable-5-1",
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 1027,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 3893,
+        "thinking_tokens": 3610,
+        "cost_usd": 0.21521,
+        "duration_ms": 50593
+      }
+    ],
+    "judge": [
+      {
+        "model": "claude-haiku-5-5",
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 718,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 0.0001458,
+        "duration_ms": 1373
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Planning: Chile flag drawn with squares + llama/penguin; Santiago via scallop shell (St. James); church via orthodox cross + synagogue + bible + dove; Saint Anne via haloed grandmother → haloed nursing mother → Jesus (star, lamb, cross).\n\n<msg>\n🌎 🦙🐧 🐚\n⭐🟦⬜⬜⬜\n🟥🟥🟥🟥🟥\n\n☦️🕍📖🕊️\n\n🟡🧑‍🦳 ⬇️ 🟡🤱 ⬇️ 🌟🐑☦️\n</msg>",
+      "delivered": "🌎 🦙🐧 🐚\n⭐🟦⬜⬜⬜\n🟥🟥🟥🟥🟥\n☦️🕍📖🕊️\n🟡🧑‍🦳 ⬇️ 🟡🤱 ⬇️ 🌟🐑☦️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I'm reading: 🌎🦙🐧 + ⭐🟦⬜ / 🟥 flag = **Chile**. ☦️🕍📖🕊️ = a church / Christianity. The last line looks like a family chain: elderly saint → holy mother → Jesus (lamb) — i.e. Saint Anne (or Joachim) → Virgin Mary → Christ. So maybe a church dedicated to Saint Anne (Santa Ana), or to the Virgin Mary, in Chile, possibly coastal (🐚)?\n\nQuestions: Is the subject a church building (vs. a town, person, diocese)? Is 🐚 pointing to a coastal city? Is the chain meant to point to the FIRST figure (Saint Anne) or the middle (Mary)?\n\nGUESS: Santa Ana Church (Santiago)",
+      "guess": "Santa Ana Church (Santiago)",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "25f73dcf-f054-4304-a156-d30dca323817",
+    "guesser": "dc9282bd-7ebc-48ee-b02d-1b0c32135c69"
+  },
+  "ladder": {
+    "article_no": 15,
+    "round": 3,
+    "n_banned": 53,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

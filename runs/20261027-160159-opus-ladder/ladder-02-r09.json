@@ -1,0 +1,99 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Iron(III) sulfate",
+    "description": "Chemical compound",
+    "extract": "Iron(III) sulfate or ferric sulfate is a family of inorganic compounds with the formula Fe2(SO4)3(H2O)n. A variety of hydrates are known, including the most commonly encountered form of \"ferric sulfate\". Solutions are used in dyeing as a mordant and as a coagulant for industrial wastes. Solutions of ferric sulfate are also used in the processing of aluminum and steel.",
+    "url": "https://en.wikipedia.org/wiki/Iron(III)_sulfate"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 254.5,
+  "usage": {
+    "explainer": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 18594,
+      "cache_read_input_tokens": 19434,
+      "output_tokens": 16682,
+      "thinking_tokens": 16437,
+      "cost_usd": 0.4902056,
+      "calls": 3,
+      "cost_usd_reported": 1.240092
+    },
+    "guesser": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 4649,
+      "cache_read_input_tokens": 3346,
+      "output_tokens": 4619,
+      "thinking_tokens": 3801,
+      "cost_usd": 0.1309504,
+      "calls": 3,
+      "cost_usd_reported": 0.2514204
+    },
+    "judge": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 1395,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0002834,
+      "calls": 2
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n👀🏺 ⛳ 🏋️‍♀️\n\n💲⚪⚪⚪⚪\n\n👀🏺👀🏺   💲⚪⚪⚪⚪ 💲⚪⚪⚪⚪ 💲⚪⚪⚪⚪\n</msg>",
+      "delivered": "👀🏺 ⛳ 🏋️‍♀️\n💲⚪⚪⚪⚪\n👀🏺👀🏺 💲⚪⚪⚪⚪ 💲⚪⚪⚪⚪ 💲⚪⚪⚪⚪",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "**What I've read so far:**\n- 👀🏺 sounds like \"eye-urn\", so **\"IRON\"**. ⛳ (a golf iron) and 🏋️‍♀️ (pumping iron) seem to confirm it.\n- 💲⚪⚪⚪⚪ is another word I'm not sure about. Is it \"S\" plus four letters (a 5-letter word starting with S)? Is it money or dollars? Is it \"$10,000\"? Is it \"Sooo\"? Or are the circles coins, meaning \"silver\", \"cash\" or \"coins\"?\n- The third line looks like the title pattern: \"Iron Iron ___ ___ ___\", like a song or a chant.\n\nQuestions:\n1. Is \"IRON\" right?\n2. What is 💲⚪⚪⚪⚪? Please show it another way.\n3. Is the article a song, an album, a film or something else?\n\nGUESS: Iron Iron",
+      "guess": "Iron Iron",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n😃 👀🏺\n\n🎵🎬📀 😞\n\n🍼🏎️\n\n💲   🗻🐤🪰\n⚪   🌳😮\n\n💲⚪⚪⚪⚪\n</msg>",
+      "delivered": "😃 👀🏺\n🎵🎬📀 😞\n🍼🏎️\n💲 🗻🐤🪰\n⚪ 🌳😮\n💲⚪⚪⚪⚪",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Good, so **IRON** is confirmed, and it's not a song, film or album.\n\nHere is how I'm reading the rest:\n- 🍼🏎️: a baby car? A pram, a buggy, a go-kart or a \"Mini\"? Or a young racer?\n- 💲 = 🗻🐤🪰: I can't crack this one. Mountain + chick + fly... \"Hill\"? \"Peak\"? \"Buck\"?\n- ⚪ = 🌳😮: tree + \"oh!\", so maybe \"OAK\", \"ASH\" or \"WOOD\"?\n\nQuestions:\n1. Is the article about a **vehicle or car** (🏎️)?\n2. Is 💲 standing for a **letter**, like \"S\"? Is ⚪ a letter, like \"O\"?\n3. Is 💲⚪⚪⚪⚪ a **single word**, a **number**, or a **name** like a person or place?\n4. Is the topic a person, a place, an animal or a company?\n\nGUESS: Iron Mountain",
+      "guess": "Iron Mountain",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n😞\n😃 😃\n😞\n\n💲⚪⚪⚪⚪\n💲 ⚪ ⚪ ⚪ ⚪\n</msg>",
+      "delivered": "😞\n😃 😃\n😞\n💲⚪⚪⚪⚪\n💲 ⚪ ⚪ ⚪ ⚪",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I think I've cracked it, and it's chemistry!\n- ⚪ = **O**, oxygen (🌳 trees make it, 😮 we breathe it).\n- 💲 = **S**, sulfur (🗻 volcano, 🐤 yellow, 🪰 smelly).\n- 💲⚪⚪⚪⚪ = **SO₄**, sulfate.\n- Turn 1 showed 2 irons and 3 sulfates: **Fe₂(SO₄)₃**.\n\nGUESS: Iron(III) sulfate",
+      "guess": "Iron(III) sulfate",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "d4d7d702-f2bd-4b4d-93cd-31f32eb9f00e",
+    "guesser": "a70e2d02-567a-47d6-9182-5fe9f53376c2"
+  },
+  "ladder": {
+    "article_no": 2,
+    "round": 9,
+    "n_banned": 192,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

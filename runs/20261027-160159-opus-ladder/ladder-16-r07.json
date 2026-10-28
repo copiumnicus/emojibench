@@ -1,0 +1,88 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Grande Seca",
+    "description": "Brazilian drought (1877–1878)",
+    "extract": "The Grande Seca, or the Brazilian drought of 1877–1878, was the largest and most devastating drought in Brazilian history. It caused the deaths of between 400,000 and 500,000 people. Of the 800,000 people who lived in the affected Northeastern region, around 120,000 migrated to the Amazon while 68,000 migrated to other parts of Brazil.",
+    "url": "https://en.wikipedia.org/wiki/Grande_Seca"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 118.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 7053,
+      "cache_read_input_tokens": 2441,
+      "output_tokens": 6715,
+      "thinking_tokens": 6440,
+      "cost_usd": 0.19172440000000002,
+      "calls": 2,
+      "cost_usd_reported": 0.3102356
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2057,
+      "cache_read_input_tokens": 965,
+      "output_tokens": 2137,
+      "thinking_tokens": 1601,
+      "cost_usd": 0.059606,
+      "calls": 2,
+      "cost_usd_reported": 0.086261
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 701,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00014240000000000002,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "I'll start with Brazil (carnival), then drought, then mass death and migration.\n\n<msg>\n🎊🪇🕺👯‍♀️\n\n🚿🛑 🐪 🔅🔅\n\n🩻👻👻👻\n\n🏚️👨‍👩‍👦🛤️\n</msg>",
+      "delivered": "🎊🪇🕺👯‍♀️\n🚿🛑 🐪 🔅🔅\n🩻👻👻👻\n🏚️👨‍👩‍👦🛤️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Here's my reading so far:\n\n- **Line 1:** a party, dancing, celebration\n- **Line 2:** this looks like the title or key words. \"Shower stop\", \"camel\", \"dim dim\"? Maybe \"dry\" or \"hump\" or \"low\"? I can't parse it yet.\n- **Line 3:** X-ray/skeleton plus ghosts, so something spooky (Halloween or Day of the Dead?)\n- **Line 4:** an abandoned or haunted house, a family, railway tracks\n\nIt feels like a creative work: a spooky dance song, a horror-comedy film, or a party-themed book.\n\nQuestions:\n1. What type of thing is it? 🎬 film, 🎵 song, 📺 TV, 📚 book, or something else?\n2. Is line 2 the title, word by word? If so, could you redo it with other emojis, one word at a time?\n\nGUESS: Monster Mash",
+      "guess": "Monster Mash",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "They read it as a spooky party song, so I need to reset the category: a real natural disaster. Then \"no water\" said several ways for drought, and Portuguese-speaking flags to point at Brazil.\n\n<msg>\n🎬🛑 🎵🛑 📺🛑 📚🛑\n\n🌋🌪️👍\n\n🛁🛑 🚿🛑 🥛🛑 🐪\n\n🇦🇴🇲🇿🇨🇻🇬🇼🇹🇱 ➕🦣\n</msg>",
+      "delivered": "🎬🛑 🎵🛑 📺🛑 📚🛑\n🌋🌪️👍\n🛁🛑 🚿🛑 🥛🛑 🐪\n🇦🇴🇲🇿🇨🇻🇬🇼🇹🇱 ➕🦣",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Here's what I have now:\n\n- Not a film, song, TV show or book.\n- **🌋🌪️👍** suggests a natural event or disaster.\n- **No bath, no shower, no milk, camel** reads as dry, so a **drought**.\n- **Lusophone countries + mammoth** points to the biggest Portuguese-speaking country, **Brazil**, or maybe the Portuguese word \"Grande\".\n\nBrazilian droughts fit your first message too: people dying, abandoned homes, families fleeing by rail. The Great Drought of 1877–78 in northeast Brazil seems likely. If I'm wrong, give me the year or decade, e.g. 🔟 digits.\n\nGUESS: Grande Seca",
+      "guess": "Grande Seca",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "9152c105-5ea4-41cc-9020-daec12576583",
+    "guesser": "2366d6e0-0e8b-480d-a91b-9e204729a828"
+  },
+  "ladder": {
+    "article_no": 16,
+    "round": 7,
+    "n_banned": 133,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

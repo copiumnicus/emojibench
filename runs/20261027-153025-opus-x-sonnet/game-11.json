@@ -1,0 +1,77 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "sonnet",
+  "guesser_model_id": "claude-sonnet-5-5",
+  "effort": null,
+  "article": {
+    "title": "Ayribobo",
+    "description": "Highest mountain of Turkmenistan",
+    "extract": "Ayribobo or Aýrybaba, officially named the Great Saparmyrat Turkmenbashi Peak in Turkmenistan since 2004, is a mountain in Central Asia. At 3,138 metres (10,295 ft) Aýrybaba is the highest mountain in Turkmenistan. It is located in the Köýtendag Range of the Pamir-Alay chain in the southeast of Turkmenistan on the Uzbekistani border.",
+    "url": "https://en.wikipedia.org/wiki/Ayribobo"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 34.9,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1556,
+      "cache_read_input_tokens": 1189,
+      "output_tokens": 407,
+      "thinking_tokens": 184,
+      "cost_usd": 0.021087599999999998,
+      "calls": 2,
+      "cost_usd_reported": 0.0352098
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1177,
+      "cache_read_input_tokens": 909,
+      "output_tokens": 350,
+      "thinking_tokens": 210,
+      "cost_usd": 0.0084018,
+      "calls": 2,
+      "cost_usd_reported": 0.013610899999999999
+    },
+    "judge": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 712,
+      "cache_read_input_tokens": 702,
+      "output_tokens": 228,
+      "thinking_tokens": 220,
+      "cost_usd": 0.00026382,
+      "calls": 2
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Turkmenistan's flag, a mountain, a crown and an up arrow should read as \"highest mountain in Turkmenistan.\" The Uzbek flag hints at the border.\n\n<msg>🇹🇲 🏔️ 👑 ⬆️\n🇹🇲🤝🇺🇿</msg>",
+      "delivered": "🇹🇲 🏔️ 👑 ⬆️\n🇹🇲🤝🇺🇿",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Turkmenistan and Uzbekistan together, plus a mountain, a crown, and an up arrow. My first guess is a bilateral relations article.\n\nGUESS: Turkmenistan–Uzbekistan relations",
+      "guess": "Turkmenistan–Uzbekistan relations",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "The handshake made it read as diplomacy. I'll drop the Uzbek link and focus on one mountain that is #1 (gold medal) in Turkmenistan.\n\n<msg>🏔️🏔️🏔️ 👉 🥇 📏⬆️ 🇹🇲\n🏔️ 🙅‍♂️🤝</msg>",
+      "delivered": "🏔️🏔️🏔️ 👉 🥇 📏⬆️ 🇹🇲\n🏔️ 🙅‍♂️🤝",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Mountains point to a gold medal for the tallest, in Turkmenistan. That sounds like the country's highest peak, which sits near the Uzbek border.\n\nGUESS: Ayrybaba",
+      "guess": "Ayrybaba",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "4e203a51-44b9-422d-a95e-2ef3eb7a1e0c",
+    "guesser": "af7d8156-729f-4c27-a58b-50a6bdf29e18"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

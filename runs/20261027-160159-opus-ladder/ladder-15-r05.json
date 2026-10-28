@@ -1,0 +1,88 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Iglesia de Santa Ana (Santiago de Chile)",
+    "description": "National monument of Chile",
+    "extract": "The Iglesia de Santa Ana is a Catholic church in downtown Santiago de Chile. It is located at the northwest corner of Catedral and San Martín streets. The church was declared as a National Monument of Chile in 1970, within the category of Historic Monuments. Santa Ana metro station is named after the church.",
+    "url": "https://en.wikipedia.org/wiki/Iglesia_de_Santa_Ana_(Santiago_de_Chile)"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 105.3,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 5908,
+      "cache_read_input_tokens": 2221,
+      "output_tokens": 5592,
+      "thinking_tokens": 5371,
+      "cost_usd": 0.1600164,
+      "calls": 2,
+      "cost_usd_reported": 0.2597716
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1754,
+      "cache_read_input_tokens": 938,
+      "output_tokens": 1454,
+      "thinking_tokens": 1089,
+      "cost_usd": 0.0435112,
+      "calls": 2,
+      "cost_usd_reported": 0.0653956
+    },
+    "judge": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 719,
+      "cache_read_input_tokens": 717,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00015537,
+      "calls": 2
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Starting with Chile, a city, and a church, since the obvious emojis for each are banned. I'll add Saint Anne once the guesser is close.\n\n<msg>\n💙🤍🤍\n❤️❤️❤️\n\n🌇\n\n🛕 🐟🍞🍇\n</msg>",
+      "delivered": "💙🤍🤍\n❤️❤️❤️\n🌇\n🛕 🐟🍞🍇",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I read the two rows as the **flag of Chile** (blue canton with white, then a red bottom stripe). 🛕 plus 🐟🍞🍇 (loaves, fishes, wine) suggests a **Christian church**. 🌇 points to a city or town.\n\nSo my working idea is a church in a Chilean city.\n\nQuestions:\n- Is it a cathedral (🐘/👑 = big or important) or a small parish church?\n- Which city? Santiago, Valparaíso, Chiloé, or the north?\n- Is it a Chiloé wooden church (🪵🏝️)?\n\nGUESS: Santiago Metropolitan Cathedral",
+      "guess": "Santiago Metropolitan Cathedral",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "The guesser has Chile and a church. Now I'm confirming Santiago and pointing to Saint Anne: a halo with an old woman whose daughter (Mary) holds a baby, plus a hint at the metro station.\n\n<msg>\n🙅🐘 🤏\n☝️🙆\n\n💫🧑‍🦳\n⤵️\n🤱\n\n🚊\n</msg>",
+      "delivered": "🙅🐘 🤏\n☝️🙆\n💫🧑‍🦳\n⤵️\n🤱\n🚊",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The church is small and in Santiago. 💫🧑‍🦳 ⤵️ 🤱 reads to me as an old holy woman whose child is the Mother: **Saint Anne**, mother of Mary. 🚊 suggests there's also a metro station with that name (Santa Ana station).\n\nIf the name is close but the title format is off, please tell me. If the saint is wrong, show who it is.\n\nGUESS: Santa Ana Church, Santiago",
+      "guess": "Santa Ana Church, Santiago",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "ae9c3114-aa4c-4ca2-8beb-ddc4ef7899c2",
+    "guesser": "b931e3e3-4627-4e7e-9ec2-d1e3c4a3af57"
+  },
+  "ladder": {
+    "article_no": 15,
+    "round": 5,
+    "n_banned": 92,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

@@ -1,0 +1,86 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Iron(III) sulfate",
+    "description": "Chemical compound",
+    "extract": "Iron(III) sulfate or ferric sulfate is a family of inorganic compounds with the formula Fe2(SO4)3(H2O)n. A variety of hydrates are known, including the most commonly encountered form of \"ferric sulfate\". Solutions are used in dyeing as a mordant and as a coagulant for industrial wastes. Solutions of ferric sulfate are also used in the processing of aluminum and steel.",
+    "url": "https://en.wikipedia.org/wiki/Iron(III)_sulfate"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "max_turns": 30,
+  "seconds": 55.4,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2039,
+      "cache_read_input_tokens": 1935,
+      "output_tokens": 1356,
+      "thinking_tokens": 1191,
+      "cost_usd": 0.044230000000000005,
+      "calls": 2,
+      "cost_usd_reported": 0.07203440000000001
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2465,
+      "cache_read_input_tokens": 965,
+      "output_tokens": 2606,
+      "thinking_tokens": 2318,
+      "cost_usd": 0.07225000000000001,
+      "calls": 2,
+      "cost_usd_reported": 0.107565
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 699,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.000142,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n⚛️ 🧑‍🔬\n\n⚙️🟤🩸 ⚫⚫⚫\n\n👿🦨💨🤢\n\n🧶🖌️ 🌊🚿\n</msg>",
+      "delivered": "⚛️ 🧑‍🔬\n⚙️🟤🩸 ⚫⚫⚫\n👿🦨💨🤢\n🧶🖌️ 🌊🚿",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I read this as a **chemical compound**: dark (brown, red or black) industrial material, with a **foul rotten-egg or sulfur-type smell**, used in **textile dyeing** and **water treatment**.\n\n- Does ⚙️ mean **iron** or metal, or just \"industrial\"?\n- Is it a **sulfide**?\n\nGUESS: Sodium sulfide",
+      "guess": "Sodium sulfide",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n⚙️ = 👍 🩸⚙️🟤\nsulfide = 🤏👎 ↗️ 🦨🌬️🌬️🌬️🌬️\n\n⚙️ ⚫⚫⚫ 👈\n</msg>",
+      "delivered": "⚙️ 👍 🩸⚙️🟤\n🤏👎 ↗️ 🦨🌬️🌬️🌬️🌬️\n⚙️ ⚫⚫⚫ 👈",
+      "dropped_chars": 9,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Here's how I read it:\n\n- ⚙️ = **iron** (confirmed).\n- 🤏👎 = \"close, but no.\"\n- 🦨 + four 🌬️ = **sulfur + four oxygens**, so **sulfate**.\n- ⚫⚫⚫ 👈 = the **III** oxidation state (ferric).\n\nThat gives an iron sulfate used as a dye mordant and in water treatment, as a coagulant.\n\nGUESS: Iron(III) sulfate",
+      "guess": "Iron(III) sulfate",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "cf96bb8d-9711-43d7-a320-4d2af005fedf",
+    "guesser": "397d5d3d-d666-44c8-9b9b-363cfdc683a8"
+  },
+  "ladder": {
+    "article_no": 2,
+    "round": 2,
+    "n_banned": 25,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

@@ -1,0 +1,81 @@
+{
+  "model": "haiku",
+  "model_id": "claude-haiku-5-5",
+  "effort": null,
+  "article": {
+    "title": "Ayribobo",
+    "description": "Highest mountain of Turkmenistan",
+    "extract": "Ayribobo or Aýrybaba, officially named the Great Saparmyrat Turkmenbashi Peak in Turkmenistan since 2004, is a mountain in Central Asia. At 3,138 metres (10,295 ft) Aýrybaba is the highest mountain in Turkmenistan. It is located in the Köýtendag Range of the Pamir-Alay chain in the southeast of Turkmenistan on the Uzbekistani border.",
+    "url": "https://en.wikipedia.org/wiki/Ayribobo"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "max_turns": 30,
+  "seconds": 19.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 1661,
+      "cache_read_input_tokens": 1203,
+      "output_tokens": 431,
+      "thinking_tokens": 381,
+      "cost_usd": 0.00056013,
+      "calls": 2,
+      "cost_usd_reported": 0.0009484300000000001
+    },
+    "guesser": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 1160,
+      "cache_read_input_tokens": 899,
+      "output_tokens": 627,
+      "thinking_tokens": 487,
+      "cost_usd": 0.00055489,
+      "calls": 2,
+      "cost_usd_reported": 0.0008373899999999999
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 702,
+      "output_tokens": 266,
+      "thinking_tokens": 262,
+      "cost_usd": 0.00014022,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>⛰️🔝🇹🇲</msg>",
+      "delivered": "⛰️🇹🇲",
+      "dropped_chars": 1,
+      "retried": false,
+      "guesser": "Turn 1: I read ⛰️🇹🇲 as something about a mountain in Turkmenistan. Is it a specific mountain, a mountain range, or a place or town near one? If it's a specific mountain, is it the highest peak in the country?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👍 🏔️ 👍 🔝✅</msg>",
+      "delivered": "👍 🏔️ 👍 ✅",
+      "dropped_chars": 1,
+      "retried": false,
+      "guesser": "Yes, it's a specific mountain, and the highest peak of Turkmenistan fits. My guess is Ayrybaba.\n\nGUESS: Ayrybaba",
+      "guess": "Ayrybaba",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "e07d2a33-f03f-40ec-a57c-1936fd57d03c",
+    "guesser": "1bce9838-d13e-4540-93c5-c36d5a624e50"
+  },
+  "ladder": {
+    "article_no": 11,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": "runs/20261027-150551-haiku/game-11.json"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

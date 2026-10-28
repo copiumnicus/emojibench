@@ -1,0 +1,77 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "UFC BJJ 2",
+    "description": "Martial arts event in 2025",
+    "extract": "UFC BJJ 2: Tackett vs. Canuto was a submission grappling event produced by UFC Brazilian Jiu-Jitsu. The event was held at the UFC Apex in Las Vegas, Nevada, United States, on July 31, 2025 and was streamed live on YouTube.",
+    "url": "https://en.wikipedia.org/wiki/UFC_BJJ_2"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 58.3,
+  "usage": {
+    "explainer": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 1982,
+      "cache_read_input_tokens": 1153,
+      "output_tokens": 1198,
+      "thinking_tokens": 970,
+      "cost_usd": 0.100733,
+      "calls": 2,
+      "cost_usd_reported": 0.14569824999999997
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2171,
+      "cache_read_input_tokens": 920,
+      "output_tokens": 1829,
+      "thinking_tokens": 1384,
+      "cost_usd": 0.05434,
+      "calls": 2,
+      "cost_usd_reported": 0.083424
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 699,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 9.19e-06,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🛑🥊 ➕ 🇧🇷🥋🤼 ✌️\n🎟️ 🎰🌵 📅 ▶️📺</msg>",
+      "delivered": "🛑🥊 ➕ 🇧🇷🥋🤼 ✌️\n🎟️ 🎰🌵 📅 ▶️📺",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "**My read so far:** this looks like a **mixed martial arts event**. Striking 🥊 plus Brazilian jiu-jitsu/grappling 🥋🤼 gives MMA. The 🎟️🎰🌵 suggests it was held at a casino in the desert, maybe Las Vegas or Arizona. 📅▶️📺 suggests a dated event shown on TV or pay-per-view.\n\nQuestions:\n1. Is it a single MMA event (one fight card), not a fighter or a promotion company?\n2. Which promotion was it: UFC, WEC, Bellator, Strikeforce, or something else? Can you spell or hint the name with emojis?\n3. Does ✌️ mean the number 2, such as \"Something 2\"?\n4. Is the location Las Vegas 🎰, or Arizona/another desert state 🌵?\n5. Roughly what year? Use number emojis.\n\nGUESS: UFC 2",
+      "guess": "UFC 2",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>1️⃣ 👍 🎟️\n2️⃣ 🛑🥊 👍 … 🚫👊🚫🦵 ✅🤼🔒🇧🇷🥋\n3️⃣ ✌️ 👍\n4️⃣ 🎰 👍\n5️⃣ 📅 ✌️⭕✌️🖐️\n\n🛑🥊 ➕ 🇧🇷🥋 ➕ ✌️ ▶️📺</msg>",
+      "delivered": "👍 🎟️\n🛑🥊 👍 🚫👊🚫🦵 ✅🤼🔒🇧🇷🥋\n✌️ 👍\n🎰 👍\n📅 ✌️⭕✌️🖐️\n🛑🥊 ➕ 🇧🇷🥋 ➕ ✌️ ▶️📺",
+      "dropped_chars": 11,
+      "retried": false,
+      "guesser": "**My read:** the 🛑 is an octagon, so 🛑🥊 means **UFC**. 🇧🇷🥋 means **BJJ** (submission grappling with no strikes), and ✌️ means **2**. Put together, that's a UFC BJJ grappling event in Las Vegas in 2025, streamed on TV or Fight Pass.\n\nGUESS: UFC BJJ 2",
+      "guess": "UFC BJJ 2",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "0feee9ae-5071-4d1d-92ac-4fc250c1a2e1",
+    "guesser": "53e4c438-a719-43c9-903c-179c25b20ed4"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

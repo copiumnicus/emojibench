@@ -1,0 +1,103 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Richmond Hill South",
+    "description": "Federal electoral district in Ontario, Canada",
+    "extract": "Richmond Hill South is a federal electoral district in Ontario, Canada, that has been represented in the House of Commons of Canada since 2004.",
+    "url": "https://en.wikipedia.org/wiki/Richmond_Hill_South"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 107.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 3245,
+      "cache_read_input_tokens": 5041,
+      "output_tokens": 2340,
+      "thinking_tokens": 2103,
+      "cost_usd": 0.0748164,
+      "calls": 3,
+      "cost_usd_reported": 0.16583720000000002
+    },
+    "guesser": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 6707,
+      "cache_read_input_tokens": 3381,
+      "output_tokens": 5995,
+      "thinking_tokens": 5552,
+      "cost_usd": 0.1749484,
+      "calls": 3,
+      "cost_usd_reported": 0.3391824
+    },
+    "judge": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 1414,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0002872,
+      "calls": 2
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n💲🪙 🌄 🔻\n\n☑️☑️ 🧩 🇺🇸⤴️ 🥞🐻‍❄️\n</msg>",
+      "delivered": "💲🪙 🌄 🔻\n☑️☑️ 🧩 🇺🇸⤴️ 🥞🐻‍❄️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "My read: 💲🪙 = gold (substitute), 🌄🔻 = mining or digging into a mountain, so a gold-mining place. 🇺🇸⤴️ = the far north of the US (Alaska?), and 🥞🐻‍❄️ = \"Flat\" + Alaska. Is it a gold-rush town in Alaska? What does ☑️☑️🧩 mean: census-designated place, or a ghost town?\n\nGUESS: Flat, Alaska",
+      "guess": "Flat, Alaska",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n🙅 🇺🇸 🙅 ⛏️\n\n🇺🇸⤴️⤴️ 🥶 🏒 🇬🇧👸\n\n🪙🪙🏦😎   🌄   🐧↘️\n\n☑️☑️👥 🪑\n</msg>",
+      "delivered": "🙅 🇺🇸 🙅 ⛏️\n🇺🇸⤴️⤴️ 🥶 🇬🇧👸\n🪙🪙🏦😎 🌄 🐧↘️\n☑️☑️👥 🪑",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🏒"
+      ],
+      "retried": false,
+      "guesser": "Reading: 🇺🇸⤴️⤴️🥶 = Canada, 🇬🇧👸 = British Columbia (the name Queen Victoria chose), ☑️☑️👥🪑 = an electoral district (votes for a seat). 🪙🪙🏦😎 = \"Rich\", 🌄 = \"mond/mount\", 🐧↘️ = \"South\". So: Richmond South... Is there more to the title, like \"Centre\"?\n\nGUESS: Richmond South Centre",
+      "guess": "Richmond South Centre",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n🪙🌄 ✔️   👦👧🪣   🐧↘️\n\n🙅 🌲🌊🏔\n🌊🌊🌊🌊🌊 💦🛢️\n</msg>",
+      "delivered": "🪙🌄 ✔️ 👦👧🪣 🐧↘️\n🙅 🌲🌊\n🌊🌊🌊🌊🌊 💦🛢️",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🏔️"
+      ],
+      "retried": false,
+      "guesser": "Got it: 🪙🌄 = Richmond is right, 👦👧🪣 = Jack and Jill went up the Hill, 🐧↘️ = South. Not BC, but Ontario (🌊×5 = Great Lakes). So it's the riding in Richmond Hill, Ontario.\n\nGUESS: Richmond Hill South",
+      "guess": "Richmond Hill South",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "f2a11516-e192-4c8b-802e-9e2631fc8c1c",
+    "guesser": "3c305dfb-c0ad-4098-bbb1-4ad9773b46d6"
+  },
+  "ladder": {
+    "article_no": 8,
+    "round": 3,
+    "n_banned": 59,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

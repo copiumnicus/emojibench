@@ -1,0 +1,65 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Sage Derby",
+    "description": "Variety of cheese",
+    "extract": "Sage Derby is a variety of Derby cheese that is mild, mottled green and semi-hard, and has a sage flavour. The colour is from sage and sometimes other colouring added to the curds, producing a marbling effect and a subtle herb flavour. The colour is formed either by mixing sage leaves into the curd before it is pressed or by the addition of \"green curd\" from green corn or spinach juice. In the latter case, the flavour has to be created with colourless sage extract. Parsley, spinach and marigold leaves, bruised and steeped before use, can also be included instead of the sage leaves. It is aged for one to three months.",
+    "url": "https://en.wikipedia.org/wiki/Sage_Derby"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 10.5,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1251,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 371,
+      "thinking_tokens": 304,
+      "cost_usd": 0.043590000000000004,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 925,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 140,
+      "thinking_tokens": 71,
+      "cost_usd": 0.010208,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🧀 🏴󠁧󠁢󠁥󠁮󠁧󠁿 🟢🌿 🧙‍♂️🌿 🏇🎩</msg>",
+      "delivered": "🧀 🏴󠁧󠁢󠁥󠁮󠁧󠁿 🟢🌿 🧙‍♂️🌿 🏇🎩",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Cheese from England, green and herby, wizard + herb = \"sage\", horse racing with a top hat = \"Derby\". So it's the green, sage-marbled English cheese.\n\nGUESS: Sage Derby",
+      "guess": "Sage Derby",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "31c371f9-2328-4960-8c6e-9bf1c8aadcb1",
+    "guesser": "396c56b8-9fbf-4d84-b975-cb5e40fe7062"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

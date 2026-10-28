@@ -1,0 +1,90 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Dora Akunyili",
+    "description": "Nigerian pharmacist and government official (1954–2014)",
+    "extract": "Dora Nkem Akunyili was a Nigerian pharmacist and politician who served as the director-general of National Agency for Food and Drug Administration and Control (NAFDAC) of Nigeria from 2001 to 2008.",
+    "url": "https://en.wikipedia.org/wiki/Dora_Akunyili"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 29.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1517,
+      "cache_read_input_tokens": 1842,
+      "output_tokens": 494,
+      "thinking_tokens": 371,
+      "cost_usd": 0.0227768,
+      "calls": 2,
+      "cost_usd_reported": 0.037315799999999996
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1625,
+      "cache_read_input_tokens": 977,
+      "output_tokens": 736,
+      "thinking_tokens": 450,
+      "cost_usd": 0.0281348,
+      "calls": 2,
+      "cost_usd_reported": 0.0473834
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 720,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 75,
+      "thinking_tokens": 71,
+      "cost_usd": 0.0001817,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n👩🏿‍⚕️ 🟩⬜🟩 🌍\n🍲💉🧴 🔍 ✅❌\n🤥💉 🕵️‍♀️ 🚔 🗑️\n🏢🇳🇬\n</msg>",
+      "delivered": "👩🏿‍⚕️ 🟩⬜🟩 🌍\n🍲💉🧴 🔍 ✅❌\n🤥💉 🕵️‍♀️ 🚔 🗑️\n🏢",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🇳🇬"
+      ],
+      "retried": false,
+      "guesser": "Reading this: a Black woman health professional in Nigeria (🟩⬜🟩). Food, drugs and cosmetics get inspected and approved or rejected. Fake drugs are investigated, seized and destroyed. The 🏢 suggests an agency or organization. That points to Nigeria's NAFDAC, the food and drug regulator. The woman might be its famous head, Dora Akunyili.\n\nIs the article about the agency itself (🏢), or about the woman (👩🏿‍⚕️)?\n\nGUESS: National Agency for Food and Drug Administration and Control",
+      "guess": "National Agency for Food and Drug Administration and Control",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n👩🏿‍⚕️ 👈 👍\n</msg>",
+      "delivered": "👩🏿‍⚕️ 👈 👍",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The article is about the woman, so the obvious candidate is Dora Akunyili, the famous NAFDAC head who fought fake drugs. If that's wrong, my next candidate is Mojisola Adeyeye, the later Director-General.\n\nGUESS: Dora Akunyili",
+      "guess": "Dora Akunyili",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "7ccef0b4-d97c-4f88-84ba-9e4eda6ac825",
+    "guesser": "a9e30e27-fab9-4d18-b3f5-2201d1570741"
+  },
+  "ladder": {
+    "article_no": 12,
+    "round": 1,
+    "n_banned": 12,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

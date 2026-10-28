@@ -1,0 +1,110 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Proceratium silaceum",
+    "description": "Species of ant",
+    "extract": "Proceratium silaceum is a species of ant in the family Formicidae.",
+    "url": "https://en.wikipedia.org/wiki/Proceratium_silaceum"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 136.2,
+  "usage": {
+    "explainer": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 4080,
+      "cache_read_input_tokens": 8564,
+      "output_tokens": 4140,
+      "thinking_tokens": 3740,
+      "cost_usd": 0.11892160000000002,
+      "calls": 4,
+      "cost_usd_reported": 0.255819
+    },
+    "guesser": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 5291,
+      "cache_read_input_tokens": 4808,
+      "output_tokens": 4492,
+      "thinking_tokens": 3847,
+      "cost_usd": 0.1341472,
+      "calls": 4,
+      "cost_usd_reported": 0.2903198
+    },
+    "judge": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2087,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 12,
+      "thinking_tokens": 0,
+      "cost_usd": 0.000424,
+      "calls": 3
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Ants are banned (🐜), so I'll hint at \"insect\" and use the Antarctica flag as an \"Ant\" pun.\n\n<msg>🦗🐞🪳 🇦🇶❔ 🦵🦵🦵🦵🦵🦵</msg>",
+      "delivered": "🦗🐞🪳 🇦🇶❔ 🦵🦵🦵🦵🦵🦵",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Reading so far: it's an insect (six legs). The 🇦🇶❔ part is unclear to me. Maybe it relates to Antarctica or a cold, polar place.\n\nQuestions:\n1. Is it a specific insect species? What kind: beetle, fly/midge, moth, true bug, or something else?\n2. Is 🇦🇶 about where it lives, or something else, like \"cold\" or \"south\"?\n3. Can you hint at the genus or name, using sound-alike emojis or the first letter?\n\nTaking a shot anyway:\n\nGUESS: Belgica antarctica",
+      "guess": "Belgica antarctica",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "I'll show \"Antarctica minus the cold part\" to get \"ant\", then back it up with fire ant, army ant, colony and honeypot ant.\n\n<msg>☑️ \n🇦🇶 ➖ 🐧🧊❄️ 🟰 🔥🪖🏰🍯</msg>",
+      "delivered": "☑️\n🇦🇶 ➖ 🐧🧊❄️ 🟰 🔥🪖🏰🍯",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Got it: 🇦🇶 minus the cold stuff leaves **ANT**. So it's a specific **ant species** (fire ant, soldier ant, castle/nest, honeypot ant).\n\nNext I need to narrow it down:\n1. Where is it found? Send a country flag or continent.\n2. Can you hint at the genus? For example Camponotus (🏕️), Pheidole, Formica, Strumigenys, Tetramorium, Crematogaster, Polyrhachis.\n3. Is it extinct or fossil (🦴), or living?\n\nPlaceholder guess:\n\nGUESS: Camponotus",
+      "guess": "Camponotus",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "I'm hinting the genus Proceratium through its Greek roots (\"pro\" plus \"keras\", horn), adding its egg-eating habit, and saying it is not a fossil.\n\n<msg>🦴✖️\n⏩🦄\n🐣🦷</msg>",
+      "delivered": "🦴✖️\n⏩🦄\n🐣🦷",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Decoding:\n- 🦴✖️: a living species, not a fossil.\n- ⏩🦄: I read this as **Pro + ceratium (horn)**, so the genus **Proceratium**.\n- 🐣🦷: probably the species name. Chick, bird or egg plus tooth? Or are you describing biology, like eating eggs (Proceratium ants eat spider eggs)?\n\nIs the genus Proceratium right? If so, please help with the species epithet. Where is it found (flag)?\n\nGUESS: Proceratium avium",
+      "guess": "Proceratium avium",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "The guesser has the genus right, so I'll confirm it. For the species \"silaceum\" (Latin for ochre, a yellow earth pigment), I'll give the color meaning plus a sound-alike: seal + ace.\n\n<msg>☑️ ⏩🦄\n🐣✖️\n🟨🪨🖍️\n🦭♠️</msg>",
+      "delivered": "☑️ ⏩🦄\n🐣✖️\n🟨🪨🖍️\n🦭♠️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Genus confirmed. 🟨🪨🖍️ is yellow ochre, and 🦭♠️ reads as \"seal-ace\" → **silaceum**.\n\nGUESS: Proceratium silaceum",
+      "guess": "Proceratium silaceum",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "c8862669-a1fc-4762-b0ee-d3fc75301845",
+    "guesser": "a5340ff2-bf88-4f22-966e-d81693d963cb"
+  },
+  "ladder": {
+    "article_no": 1,
+    "round": 3,
+    "n_banned": 61,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

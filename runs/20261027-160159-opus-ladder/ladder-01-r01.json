@@ -1,0 +1,97 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Proceratium silaceum",
+    "description": "Species of ant",
+    "extract": "Proceratium silaceum is a species of ant in the family Formicidae.",
+    "url": "https://en.wikipedia.org/wiki/Proceratium_silaceum"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": null,
+  "max_turns": 30,
+  "seconds": 56.3,
+  "usage": {
+    "explainer": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 2814,
+      "cache_read_input_tokens": 3403,
+      "output_tokens": 1638,
+      "thinking_tokens": 1464,
+      "cost_usd": 0.0566732,
+      "calls": 3,
+      "cost_usd_reported": 0.1213706
+    },
+    "guesser": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 2192,
+      "cache_read_input_tokens": 2478,
+      "output_tokens": 1396,
+      "thinking_tokens": 1004,
+      "cost_usd": 0.046487200000000006,
+      "calls": 3,
+      "cost_usd_reported": 0.097057
+    },
+    "judge": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 1395,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0002834,
+      "calls": 2
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🐝🚫🪽 🍃✂️🏃 🧺🍉🍬 ⛰️🕳️👥👥👥</msg>",
+      "delivered": "🐝🚫🪽 🍃✂️🏃 🧺🍉🍬 ⛰️🕳️👥👥👥",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I read this as: wingless bee = **ant**, leaf + cut + runner = **leafcutter ant**, basket/fruit/sweet = foraging, gardening or food stores (fungus farming?), and a mound/hole with many members = **colony/nest**.\n\nSo probably a specific leafcutter ant species or genus. Is it the genus *Atta*, *Acromyrmex*, or another one? Hint at the region (e.g., a flag or 🌎 direction) or something distinctive about the species.\n\nGUESS: Atta cephalotes",
+      "guess": "Atta cephalotes",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👍🐝🚫🪽 🙅🍃✂️\n\n🕸️➕🍳 = 😋\n🌎⬆️🌳🍂🪵 \n🟡🟤</msg>",
+      "delivered": "👍🐝🚫🪽 🙅🍃✂️\n🕸️➕🍳 😋\n🌎⬆️🌳🍂🪵\n🟡🟤",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Got it: an ant, but not a leafcutter. It eats **spider eggs** 🕸️🍳, lives in **North American forest leaf litter and rotting logs**, and is **yellow-brown**. That sounds like a cryptic spider-egg predator such as *Discothyrea* or *Proceratium*.\n\nGUESS: Discothyrea testacea",
+      "guess": "Discothyrea testacea",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🙅💿🛡️\n👍📯🦏\n🟡🟤🎨⛰️  🙅🌼</msg>",
+      "delivered": "🙅💿🛡️\n👍📯🦏\n🟡🟤🎨⛰️ 🙅🌼",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "📯🦏 = horn → **Proceratium** (from Greek *keras*, \"horn\"). Yellow-brown earth pigment = **ochre** → *silaceum*, and not the saffron/flower one (*croceum*).\n\nGUESS: Proceratium silaceum",
+      "guess": "Proceratium silaceum",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "e400c156-7e14-45c1-8177-fcd06f1996c7",
+    "guesser": "014522ec-6af2-4034-8d6e-759d4a181247"
+  },
+  "ladder": {
+    "article_no": 1,
+    "round": 1,
+    "n_banned": 16,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

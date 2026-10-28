@@ -1,0 +1,114 @@
+{
+  "model": "sonnet",
+  "model_id": "claude-sonnet-5-5",
+  "effort": null,
+  "article": {
+    "title": "Accord Pond",
+    "description": "Lake in Massachusetts, USA",
+    "extract": "Accord Pond is a 100-acre (0.40 km2) reservoir in Hingham, Norwell and Rockland, Massachusetts. The reservoir is located off Route 228 at its terminus with Route 3. The reservoir is visible from Route 3 northbound at Exit 14, the Route 228 off-ramp. The reservoir is a Class A source of water supply for the town of Hingham and Hull Ma. The outflow of the reservoir is Accord Brook, a tributary of the Weir River.",
+    "url": "https://en.wikipedia.org/wiki/Accord_Pond"
+  },
+  "solved": true,
+  "turns_taken": 6,
+  "solved_turn": 6,
+  "max_turns": 30,
+  "seconds": 61.4,
+  "usage": {
+    "explainer": {
+      "input_tokens": 22,
+      "cache_creation_input_tokens": 2498,
+      "cache_read_input_tokens": 7769,
+      "output_tokens": 380,
+      "thinking_tokens": 0,
+      "cost_usd": 0.015389800000000002,
+      "calls": 6,
+      "cost_usd_reported": 0.060807099999999996
+    },
+    "guesser": {
+      "input_tokens": 22,
+      "cache_creation_input_tokens": 2765,
+      "cache_read_input_tokens": 7620,
+      "output_tokens": 1745,
+      "thinking_tokens": 1252,
+      "cost_usd": 0.030078,
+      "calls": 6,
+      "cost_usd_reported": 0.0974077
+    },
+    "judge": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 3518,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 108,
+      "thinking_tokens": 88,
+      "cost_usd": 0.0007586,
+      "calls": 5
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🏞️💧🇺🇸🌲🦆🛣️🚗🏘️🚰</msg>",
+      "delivered": "🏞️💧🇺🇸🌲🦆🛣️🚗🏘️🚰",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "I see a US place with a lake or water, trees, ducks, a road, and houses, plus a water tap that might mean a water supply or a reservoir.\n\nIs it a small community, such as an unincorporated community or a census-designated place, named after a lake or a creek? Which state is it in? A 🔢 or a letter hint for the state would help.\n\nGUESS: Lake Village, Indiana",
+      "guess": "Lake Village, Indiana",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👎 🏞️💧🚰 🛣️3️⃣</msg>",
+      "delivered": "👎 🏞️💧🚰 🛣️",
+      "dropped_chars": 2,
+      "retried": false,
+      "guesser": "Noted, it's not Lake Village. Is the article about a reservoir or lake that supplies drinking water, rather than a town? Is the road a highway, like a state route named after the lake?\n\nPlease send emojis for the region: 🧭 north, south, east or west. Is it a state park?\n\nGUESS: Lake Mohawk",
+      "guess": "Lake Mohawk",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>👍 🏞️💧🚰 🛣️ ↗️ 🧭 🦞 🏖️ ⚓ 🏴‍☠️ 🇺🇸</msg>",
+      "delivered": "👍 🏞️💧🚰 🛣️ ↗️ 🧭 🦞 🏖️ ⚓ 🏴‍☠️ 🇺🇸",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "It's a reservoir in the Northeast, near the coast. Is it in Maine, Massachusetts, or Rhode Island?\n\nIs the road a highway that crosses or runs along the reservoir? Does the name come from a person or a Native American word?\n\nGUESS: Lake Cochichewick",
+      "guess": "Lake Cochichewick",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>👍 🦞 🏖️ 🎓 🫖 🚢 🛣️ 👀 🚗 ⬆️ 🤝 📜 ✅</msg>",
+      "delivered": "👍 🦞 🏖️ 🎓 🫖 🚢 🛣️ 👀 🚗 ⬆️ 🤝 📜 ✅",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Is it in Massachusetts, near Boston or the South Shore? Is this a town, or a road and the reservoir?\n\nGUESS: Scituate Reservoir",
+      "guess": "Scituate Reservoir",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>👍 🫖🚢 🏖️ 🧭➡️ 🏙️ 🤝 📜 ✅ 🏘️ 🚰 🌉 🚗 👀 🏞️💧 ⛵</msg>",
+      "delivered": "👍 🫖🚢 🏖️ 🧭➡️ 🏙️ 🤝 📜 ✅ 🏘️ 🚰 🌉 🚗 👀 🏞️💧 ⛵",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "The tea and ship point to Boston, and the town is east or southeast of it. Is it a South Shore town with a harbor?\n\nGUESS: Cohasset, Massachusetts",
+      "guess": "Cohasset, Massachusetts",
+      "correct": false
+    },
+    {
+      "turn": 6,
+      "explainer_raw": "<msg>👍 🧭➡️ 🏙️ 🏘️ 🚰 🏞️💧 🤝 📜 ✅ 🎶🤝 🤝 🤝 🔗 🏞️💧 🇺🇸</msg>",
+      "delivered": "👍 🧭➡️ 🏙️ 🏘️ 🚰 🏞️💧 🤝 📜 ✅ 🎶🤝 🤝 🤝 🔗 🏞️💧 🇺🇸",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Is the name something like \"Accord\" or \"Concord\"? An Accord Pond in the Hingham area comes to mind.\n\nGUESS: Accord Pond",
+      "guess": "Accord Pond",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "abc77c6e-ef4d-4c7d-a956-53d8b7778c1f",
+    "guesser": "d1ab4d62-abfe-4b14-82d3-e01a82adcad8"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

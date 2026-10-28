@@ -1,0 +1,121 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "7's Football League",
+    "description": "Football league",
+    "extract": "The 7's Football League is a seven-a-side football league in the Philippines. Established in 2018, the league already had four seasons. It has a two-tiered men's division, a women's division, and youth divisions. The league is an open tournament with participation from representative sides of the domestic football competition, the Philippines Football League.",
+    "url": "https://en.wikipedia.org/wiki/7's_Football_League"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "max_turns": 30,
+  "seconds": 87.9,
+  "usage": {
+    "explainer": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 3412,
+      "cache_read_input_tokens": 10267,
+      "output_tokens": 1972,
+      "thinking_tokens": 1495,
+      "cost_usd": 0.0709148,
+      "calls": 5,
+      "cost_usd_reported": 0.21859040000000002
+    },
+    "guesser": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 4526,
+      "cache_read_input_tokens": 8238,
+      "output_tokens": 3514,
+      "thinking_tokens": 2639,
+      "cost_usd": 0.10985520000000001,
+      "calls": 5,
+      "cost_usd_reported": 0.30929579999999995
+    },
+    "judge": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 3461,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 20,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0007032,
+      "calls": 5
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🥅🦶\n\n🏃🏃🏃🏃🏃🏃🏃 ⚔️ 🏃🏃🏃🏃🏃🏃🏃\n\n🏝️🥭🐃🌋🏝️</msg>",
+      "delivered": "🥅🦶\n🏃🏃🏃🏃🏃🏃🏃 ⚔️ 🏃🏃🏃🏃🏃🏃🏃\n🏝️🥭🐃🌋🏝️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Reading: 🥅🦶 = football (soccer). ⚔️ = a match or competition between teams. 🏝️🥭🐃🌋 = an island nation with mangoes, water buffalo (carabao) and volcanoes. That points to the Philippines.\n\nQuestions:\n1. Is it a person (player or coach), a club, a match, a tournament or season, or a stadium?\n2. Is it the Philippines? If not, try Indonesia, Sri Lanka, Fiji, etc.\n3. Does the 7 vs 7 matter? Is it a number or a year, or does it just mean \"two teams\"?\n\nGUESS: Philippines Football League",
+      "guess": "Philippines Football League",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>✅ 🏝️🥭🐃\n\n🔥 close — 🏟️🗓️ ✅\n\n🏃🏃🏃🏃🏃🏃🏃 👈👀🎯\n🤏🥅 🤏🏟️</msg>",
+      "delivered": "✅ 🏝️🥭🐃\n🔥 🏟️🗓️ ✅\n🏃🏃🏃🏃🏃🏃🏃 👈👀🎯\n🤏🥅 🤏🏟️",
+      "dropped_chars": 6,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "So it's in the Philippines, it's an event, tournament or season (🔥🏟️🗓️ ✅), and the 7 players matter. Small goals and a small pitch suggest small-sided football. Futsal is 5-a-side, though, so maybe it's 7-a-side football, like CP/para football or a \"7s\" tournament.\n\nQuestions:\n- Is it futsal (yes or no)?\n- Is it specifically 7-a-side?\n- Is it a national team, a league or a single tournament edition (with a year)?\n- What does 🔥 mean?\n\nGUESS: Philippines national futsal team",
+      "guess": "Philippines national futsal team",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>❌ 🏠🥅\n✅✅ 🏃🏃🏃🏃🏃🏃🏃\n🗓️🗓️🗓️🗓️ ✅   🎌❌\n🧔🧔 👧 👦</msg>",
+      "delivered": "❌ 🏠🥅\n✅✅ 🏃🏃🏃🏃🏃🏃🏃\n🗓️🗓️🗓️🗓️ ✅ 🎌❌\n🧔🧔 👧 👦",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Here's what I have now: not futsal, it is 7-a-side, it's a recurring league or competition (🗓️×4, maybe four seasons or editions?), not a national team, and it has men's, women's and youth divisions.\n\nSome name ideas: \"Manila Sevens\", \"Philippine Sevens\", \"Pinoy Sevens\". Does 🔥 belong in the name, like Blaze, Fire, Hot or Ignite?\n\nCould you spell out the name word by word, or point to a city (Manila?) or a sponsor?\n\nGUESS: Philippine Sevens Football League",
+      "guess": "Philippine Sevens Football League",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🔥🔥🔥 almost!\n\n✂️🏝️ ✂️🏝️ \n\n🏃🏃🏃🏃🏃🏃🏃 ➕ 🦶🥅 ➕ 🗓️✅</msg>",
+      "delivered": "🔥🔥🔥\n✂️🏝️ ✂️🏝️\n🏃🏃🏃🏃🏃🏃🏃 ➕ 🦶🥅 ➕ 🗓️✅",
+      "dropped_chars": 7,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "🔥🔥🔥 seems to be part of the name, and ✂️🏝️ looks like a wordplay clue.\n\nIs ✂️🏝️ a word fragment, like \"Island\" cut down to \"Is\" or \"Land\"? Or does it mean \"inter-island\", \"split islands\" or a peninsula? And is 🔥 an English word (Fire, Blaze, Heat, Flame, Inferno) or a Filipino one (Alab, Apoy, Init)?\n\nYou could also spell the title with letter emojis like 🇦, or split it into syllables.\n\nGUESS: Alab Sevens",
+      "guess": "Alab Sevens",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>🔥 = 🎯🤏 (❌📛)\n\n⏪ 🏝️ 🏃🏃🏃🏃🏃🏃🏃 🦶🥅 🗓️ \n➡️ ❌🏝️ 🏃🏃🏃🏃🏃🏃🏃 🦶🥅 🗓️ ✅</msg>",
+      "delivered": "🔥 🎯🤏 ❌📛\n⏪ 🏝️ 🏃🏃🏃🏃🏃🏃🏃 🦶🥅 🗓️\n➡️ ❌🏝️ 🏃🏃🏃🏃🏃🏃🏃 🦶🥅 🗓️ ✅",
+      "dropped_chars": 3,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Got it. 🔥 means \"getting hot\", and ✂️🏝️ means cut \"Philippine\" out of my last guess. So the title is my previous guess without the country word.\n\nGUESS: Sevens Football League",
+      "guess": "Sevens Football League",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": "1b2f1b9e-4343-417f-ba76-2f475e9392e2",
+    "guesser": "7a454fe5-1a18-4589-8060-99da3c97cf37"
+  },
+  "ladder": {
+    "article_no": 17,
+    "round": 1,
+    "n_banned": 18,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

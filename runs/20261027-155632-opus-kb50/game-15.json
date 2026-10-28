@@ -1,0 +1,98 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Iglesia de Santa Ana (Santiago de Chile)",
+    "description": "National monument of Chile",
+    "extract": "The Iglesia de Santa Ana is a Catholic church in downtown Santiago de Chile. It is located at the northwest corner of Catedral and San Martín streets. The church was declared as a National Monument of Chile in 1970, within the category of Historic Monuments. Santa Ana metro station is named after the church.",
+    "url": "https://en.wikipedia.org/wiki/Iglesia_de_Santa_Ana_(Santiago_de_Chile)"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": {
+    "fraction": 0.5,
+    "seed": "v1",
+    "size": 936
+  },
+  "max_turns": 30,
+  "seconds": 43.4,
+  "usage": {
+    "explainer": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 6817,
+      "cache_read_input_tokens": 14246,
+      "output_tokens": 816,
+      "thinking_tokens": 702,
+      "cost_usd": 0.07659439999999999,
+      "calls": 3,
+      "cost_usd_reported": 0.19798480000000002
+    },
+    "guesser": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 1994,
+      "cache_read_input_tokens": 2383,
+      "output_tokens": 1141,
+      "thinking_tokens": 852,
+      "cost_usd": 0.0397652,
+      "calls": 3,
+      "cost_usd_reported": 0.08535340000000001
+    },
+    "judge": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2154,
+      "output_tokens": 12,
+      "thinking_tokens": 0,
+      "cost_usd": 2.814e-05,
+      "calls": 3
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇨🇱 🌆\n✝️💒\n🎅 👵😇\n🚉</msg>",
+      "delivered": "🇨🇱 🌆\n✝️💒\n🎅 👵😇\n🚉",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Chile 🇨🇱 + city 🌆 → probably Santiago. Church ✝️💒 + \"Santa\" 🎅 + grandmother saint 👵😇 → Saint Anne → **Santa Ana**. Station 🚉 → the Santiago Metro station named after the Santa Ana church.\n\nGUESS: Santa Ana metro station",
+      "guess": "Santa Ana metro station",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🚉 ❌\n💒✝️ ✔️\n🏛️📜</msg>",
+      "delivered": "🚉 ❌\n💒✝️ ✔️\n🏛️📜",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "So the church is right, and 🏛️📜 means it's a historic or national monument, not the station. Is \"Santa Ana\" (Saint Anne) correct, and is it in Santiago? If the city is wrong, please hint which one.\n\nGUESS: Church of Santa Ana (Santiago)",
+      "guess": "Church of Santa Ana (Santiago)",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>👍👍\n🇪🇸🗣️ 💒\n🌆 🇨🇱</msg>",
+      "delivered": "🇪🇸🗣️ 💒\n🌆 🇨🇱",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "👍",
+        "👍"
+      ],
+      "retried": false,
+      "guesser": "You're saying the title uses the Spanish word for church, \"Iglesia,\" followed by the city in Chile. I'll try the Spanish form.\n\nGUESS: Iglesia de Santa Ana (Santiago)",
+      "guess": "Iglesia de Santa Ana (Santiago)",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "1a8e451f-7d48-4154-8850-b594cfaf9e2b",
+    "guesser": "8c92d44f-3979-42f7-9765-fc952d776ebf"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

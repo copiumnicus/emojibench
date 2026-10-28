@@ -1,0 +1,113 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Accord Pond",
+    "description": "Lake in Massachusetts, USA",
+    "extract": "Accord Pond is a 100-acre (0.40 km2) reservoir in Hingham, Norwell and Rockland, Massachusetts. The reservoir is located off Route 228 at its terminus with Route 3. The reservoir is visible from Route 3 northbound at Exit 14, the Route 228 off-ramp. The reservoir is a Class A source of water supply for the town of Hingham and Hull Ma. The outflow of the reservoir is Accord Brook, a tributary of the Weir River.",
+    "url": "https://en.wikipedia.org/wiki/Accord_Pond"
+  },
+  "solved": false,
+  "turns_taken": 1,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": true,
+  "max_turns": 30,
+  "seconds": 83.2,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 886,
+      "cache_read_input_tokens": 577,
+      "output_tokens": 2542,
+      "thinking_tokens": 2485,
+      "cost_usd": 0.14498424999999998,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 970,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 2535,
+      "thinking_tokens": 2213,
+      "cost_usd": 0.14617,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 702,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00014260000000000002,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "claude-fable-5-1",
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 886,
+        "cache_read_input_tokens": 577,
+        "output_tokens": 2542,
+        "thinking_tokens": 2485,
+        "cost_usd": 0.14498424999999998,
+        "duration_ms": 45639
+      }
+    ],
+    "guesser": [
+      {
+        "model": "claude-fable-5-1",
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 970,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 2535,
+        "thinking_tokens": 2213,
+        "cost_usd": 0.14617,
+        "duration_ms": 33171
+      }
+    ],
+    "judge": [
+      {
+        "model": "claude-haiku-5-5",
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 702,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 0.00014260000000000002,
+        "duration_ms": 1994
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🫱🫲 ⛩️🚘\n🪷🐢🐟🦢\n🦅 🫘🏈🎓🏒\n</msg>",
+      "delivered": "🫱🫲 ⛩️🚘\n🪷🐢🐟🦢\n🦅 🫘🏈🎓🏒",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I'm reading line 3 as **Boston College Eagles** (🦅 eagle, 🫘 beans = Beantown, 🎓 college, 🏈🏒 football and hockey). Line 2 (lotus, turtle, fish, swan) looks like a **pond / lake / wetland** — maybe a surname like Pond, Lake, Marsh, or Fenn? Line 1 (🫱🫲 handshake/joining + ⛩️🚘 Japanese car/gate) I don't get yet — a first name? \"Toll\"? \"Bridge\"? \"Honda/Toyota\"?\n\nQuestions:\n1. Is the article a person (an athlete who played at Boston College)? 👍/👎\n2. Is line 2 a surname clue? Is line 1 a given-name clue?\n3. Does line 1 relate to the Japanese car (Honda/Toyota/Nissan) or to the \"gate/shrine\" part?\n\nGUESS: Boston College Eagles",
+      "guess": "Boston College Eagles",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": "d35be11b-e821-4c20-90bb-fec228ff8619",
+    "guesser": "0547e88a-c583-4666-a9dd-d3d62d80d315"
+  },
+  "ladder": {
+    "article_no": 10,
+    "round": 2,
+    "n_banned": 35,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

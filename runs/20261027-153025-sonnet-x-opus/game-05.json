@@ -1,0 +1,107 @@
+{
+  "model": "sonnet",
+  "model_id": "claude-sonnet-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "UFC BJJ 2",
+    "description": "Martial arts event in 2025",
+    "extract": "UFC BJJ 2: Tackett vs. Canuto was a submission grappling event produced by UFC Brazilian Jiu-Jitsu. The event was held at the UFC Apex in Las Vegas, Nevada, United States, on July 31, 2025 and was streamed live on YouTube.",
+    "url": "https://en.wikipedia.org/wiki/UFC_BJJ_2"
+  },
+  "solved": true,
+  "turns_taken": 5,
+  "solved_turn": 5,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 87.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 2863,
+      "cache_read_input_tokens": 6104,
+      "output_tokens": 380,
+      "thinking_tokens": 0,
+      "cost_usd": 0.016508799999999997,
+      "calls": 5,
+      "cost_usd_reported": 0.052703900000000005
+    },
+    "guesser": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 4920,
+      "cache_read_input_tokens": 8776,
+      "output_tokens": 4701,
+      "thinking_tokens": 3876,
+      "cost_usd": 0.1369624,
+      "calls": 5,
+      "cost_usd_reported": 0.3721624
+    },
+    "judge": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1411,
+      "cache_read_input_tokens": 701,
+      "output_tokens": 144,
+      "thinking_tokens": 132,
+      "cost_usd": 0.00036181,
+      "calls": 3
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🥋🤼🇧🇷🏟️🎰📺▶️🥊🔒🦵</msg>",
+      "delivered": "🥋🤼🇧🇷🏟️🎰📺▶️🥊🔒🦵",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Brazilian MMA/BJJ, with fights at a casino arena on TV, submissions and leg locks. My guess is a Brazilian MMA fighter, or maybe a specific fight event.\n\nQuestions:\n1. Is it a **person** (👤) or an **event/organization** (📅)?\n2. If a person, can you hint at the name? Syllables, sounds, or what the name means as objects would help.\n3. Weight class? Use small or big animals to show light or heavy.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>📅 👍 🥋🤼 🏟️🇺🇸 🎰 ▶️📺 2️⃣ 🥊👎 🦵🔒 🏆 🇧🇷</msg>",
+      "delivered": "📅 👍 🥋🤼 🏟️🇺🇸 🎰 ▶️📺 🥊👎 🦵🔒 🏆 🇧🇷",
+      "dropped_chars": 2,
+      "retried": false,
+      "guesser": "A pure grappling event in the US: casino or Las Vegas venue, streamed, no strikes, leg locks allowed, trophy won by Brazilians. The Craig Jones Invitational in Vegas in 2024 fits, since Brazilians won both divisions, but I'm not sure.\n\nIf I'm wrong:\n- Is it a **single event** (one date) or a **recurring series/promotion**?\n- Year? Show digits like 2️⃣0️⃣2️⃣4️⃣.\n- Any hint at the name (a person's name? a word?)\n\nGUESS: Craig Jones Invitational",
+      "guess": "Craig Jones Invitational",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>📅 👍 1️⃣ 🗓️ 2025 ☀️ 7️⃣ 🏟️ 🥋 🥊🏢 🇺🇸 📺▶️ 🔴 2️⃣ 🤼🏆</msg>",
+      "delivered": "📅 👍 🗓️ ☀️ 🏟️ 🥋 🥊🏢 🇺🇸 📺▶️ 🔴 🤼🏆",
+      "dropped_chars": 10,
+      "retried": false,
+      "guesser": "A recurring event run by a fight-promotion company in the US, streamed live, grappling with trophies. Since 🔴 might mean UFC's red branding, the UFC Fight Pass Invitational seems plausible.\n\nIf wrong:\n- Is the company that runs it a **striking/MMA** promotion (UFC, Bellator, ONE...)? Or a grappling-only company?\n- Does 🗓️☀️ mean **annual** or **summer**?\n- Does 🇧🇷 mean the founder is Brazilian?\n\nGUESS: UFC Fight Pass Invitational",
+      "guess": "UFC Fight Pass Invitational",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🥊🏢👍 🔴 🥋🇧🇷 🤼 ▶️📺 🟥▶️ 🏟️🇺🇸 ☀️ 🗓️ 2️⃣ 🔢 🥈</msg>",
+      "delivered": "🥊🏢👍 🔴 🥋🇧🇷 🤼 ▶️📺 🟥▶️ 🏟️🇺🇸 ☀️ 🗓️ 🥈",
+      "dropped_chars": 3,
+      "retried": false,
+      "guesser": "🟥▶️ means YouTube. So: a fight company in the US, Brazilian jiu-jitsu, streamed on YouTube, summer, and 🥈. UFC's new BJJ brand fits, with events at the UFC Apex in Las Vegas in summer 2025 and Brazilians like Mica Galvão.\n\nDoes 🥈 mean it's the **2nd edition**? Is the title a **single numbered event**?\n\nGUESS: UFC BJJ",
+      "guess": "UFC BJJ",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>👍 🥈 2️⃣ ☝️🔢 UFC 🥋 ▶️ 🏟️ ☀️ 7️⃣ 🔒🦵 🆚 🇧🇷</msg>",
+      "delivered": "👍 🥈 ☝️ 🥋 ▶️ 🏟️ ☀️ 🔒🦵 🇧🇷",
+      "dropped_chars": 9,
+      "retried": false,
+      "guesser": "So it's the 2nd edition of something. Since 🔴 meant UFC, I'll try the numbered event, unless ☝️ points to my earlier guess.\n\nWas ☝️ telling me the **Fight Pass Invitational** was closer, so it's \"UFC Fight Pass Invitational 2\"?\n\nGUESS: UFC BJJ 2",
+      "guess": "UFC BJJ 2",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "3f7de5cf-9fb7-4d1b-867b-68d218aaa87f",
+    "guesser": "0944b372-26b2-4b3a-8ee8-74ce58758ddd"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

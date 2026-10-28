@@ -1,0 +1,99 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Mike Pieciak",
+    "description": "American politician (born 1983)",
+    "extract": "Michael Sullivan Pieciak is an American politician from Vermont. A member of the Democratic Party, Pieciak has served as Vermont State Treasurer since January 2023.",
+    "url": "https://en.wikipedia.org/wiki/Mike_Pieciak"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 54.3,
+  "usage": {
+    "explainer": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 2485,
+      "cache_read_input_tokens": 5977,
+      "output_tokens": 2374,
+      "thinking_tokens": 2041,
+      "cost_usd": 0.0697908,
+      "calls": 3,
+      "cost_usd_reported": 0.14845740000000002
+    },
+    "guesser": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 2036,
+      "cache_read_input_tokens": 2469,
+      "output_tokens": 1173,
+      "thinking_tokens": 798,
+      "cost_usd": 0.0407756,
+      "calls": 3,
+      "cost_usd_reported": 0.08767620000000001
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🟩🏞️ 🐮 🧇 🎿 🌉\n🧔‍♂️ 💸💴💶💳🔐\n🟦🐘❓</msg>\n\nHmm, wait: 🐘 could confuse the guesser. I'll drop it.\n\n<msg>🟩🏞️ 🐮 🧇 🎿 🌉\n🧔‍♂️ 💸💴💶💳🔐\n🟦</msg>",
+      "delivered": "🟩🏞️ 🐮 🧇 🎿 🌉\n🧔‍♂️ 💸💴💶💳🔐\n🟦",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "So far I'm reading Switzerland: a green landscape, cows, skiing, a bridge. Then a bearded man connected to money, cards and secrecy, so maybe a Swiss banker or a bank. The waffle could mean Belgium, or maybe a cheese or chocolate substitute? The 🟩 and 🟦 squares might be flag or party colors.\n\nIs the article about a person (a banker or financier)? Is the country Switzerland? Is it a person, a company, or a place?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🙋‍♂️ 🇨🇭🙅\n🇨🇦\n⬇️\n🦅🏈🍔 🟩🏞️🐮🧇🎿\n🧔‍♂️ ➜ 💸 🔐 🏢 🦅</msg>",
+      "delivered": "🙋‍♂️ 🇨🇭🙅\n🇨🇦\n⬇️\n🦅🏈🍔 🟩🏞️🐮🧇🎿\n🧔‍♂️ 💸 🔐 🏢 🦅",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Got it: a man, not Switzerland. The place is the US state just south of Canada with green land, cows, maple syrup (🧇), skiing and covered bridges, so **Vermont**.\n\nThe bearded man and money with a lock reads like a treasurer or banker. 🏢🦅 might mean a federal or government office. Was he **Vermont State Treasurer**? Or a federal treasury or banking official? Was he a 19th-century figure? Does 🟦 mean Democrat?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🟩🏞️🐮 ➜ 💸🔐 💯\n🏢🦅 🙅\n🎩🕯️🐎 🙅 ➜ 🤳💻 🌅\n🟦 💯</msg>",
+      "delivered": "🟩🏞️🐮 💸🔐 💯\n🏢🦅 🙅\n🎩🕯️🐎 🙅 🤳💻 🌅\n🟦 💯",
+      "dropped_chars": 2,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "So it's a modern-day Democratic **Vermont State Treasurer**, a man, probably the current one (🌅).\n\nGUESS: Mike Pieciak",
+      "guess": "Mike Pieciak",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "4d5a4141-6bf3-491c-82a2-8a2dab881548",
+    "guesser": "8438a30b-6c7d-445f-889a-7f32bc8a1e1f"
+  },
+  "ladder": {
+    "article_no": 4,
+    "round": 3,
+    "n_banned": 72,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

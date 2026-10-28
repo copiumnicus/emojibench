@@ -1,0 +1,75 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Jovan Hadži-Vasiljević",
+    "description": "Serbian historian, ethnographer, journalist and writer",
+    "extract": "Jovan Hadži-Vasiljević was a Serbian historian, ethnographer, journalist and writer.",
+    "url": "https://en.wikipedia.org/wiki/Jovan_Had%C5%BEi-Vasiljevi%C4%87"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 126.3,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 913,
+      "cache_read_input_tokens": 577,
+      "output_tokens": 5809,
+      "thinking_tokens": 5687,
+      "cost_usd": 0.30887425,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1035,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1844,
+      "thinking_tokens": 1732,
+      "cost_usd": 0.11291999999999999,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🎾🏀🥇 👤\n⌛🏰 🪗💃🧣 🗒️📢 ✏️📓\n📛 💧✝️👶 🧳🐪🕌 🍕🌱\n🕐🕗🕕🕕 ⚰️ 🕐🕘🕓🕗\n🇽🇰\n</msg>",
+      "delivered": "🎾🏀🥇 👤\n⌛🏰 🪗💃🧣 🗒️📢 ✏️📓\n📛 💧✝️👶 🧳🐪🕌 🍕🌱\n🕐🕗🕕🕕 ⚰️ 🕐🕘🕓🕗\n🇽🇰",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Reading: born 1866, died 1948; historian/folklorist/writer connected to Kosovo (Old Serbia). Name decoded as: baptism → Jovan, pilgrim/Hajj → Hadži, Italian herb (basil) → Vasiljević.\n\nGUESS: Jovan Hadži-Vasiljević",
+      "guess": "Jovan Hadži-Vasiljević",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "f1c015a2-14fe-4700-8e65-f8e046ef55f4",
+    "guesser": "4b77d2cf-0761-46d8-966f-b8ba76a794c8"
+  },
+  "ladder": {
+    "article_no": 9,
+    "round": 2,
+    "n_banned": 57,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

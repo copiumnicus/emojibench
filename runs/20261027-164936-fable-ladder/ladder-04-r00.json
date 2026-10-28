@@ -1,0 +1,72 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Mike Pieciak",
+    "description": "American politician (born 1983)",
+    "extract": "Michael Sullivan Pieciak is an American politician from Vermont. A member of the Democratic Party, Pieciak has served as Vermont State Treasurer since January 2023.",
+    "url": "https://en.wikipedia.org/wiki/Mike_Pieciak"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 21.1,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1105,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 665,
+      "thinking_tokens": 592,
+      "cost_usd": 0.05537,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 950,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 430,
+      "thinking_tokens": 321,
+      "cost_usd": 0.04052,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇺🇸🗳️🔵 🟩⛰️🍁🥞🐄🍦 🏛️💰🏦💵 🧑‍💼 🎤 🥧✅</msg>",
+      "delivered": "🇺🇸🗳️🔵 🟩⛰️🍁🥞🐄🍦 🏛️💰🏦💵 🧑‍💼 🎤 🥧✅",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "The emojis read as: US politics, Democrat 🔵, Vermont (green mountains, maple, cows, ice cream), treasury/finance official 🏛️💰🏦, and 🥧✅ = \"pie-check\" → Pieciak, the Vermont State Treasurer.\n\nGUESS: Mike Pieciak",
+      "guess": "Mike Pieciak",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "f238f984-fd67-4741-872c-8ab820f77172",
+    "guesser": "3bd571a4-a751-4dd4-b7ba-b33995a478d6"
+  },
+  "ladder": {
+    "article_no": 4,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": "runs/20261027-153308-fable/game-04.json"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

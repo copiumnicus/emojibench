@@ -1,0 +1,90 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Ayribobo",
+    "description": "Highest mountain of Turkmenistan",
+    "extract": "Ayribobo or Aýrybaba, officially named the Great Saparmyrat Turkmenbashi Peak in Turkmenistan since 2004, is a mountain in Central Asia. At 3,138 metres (10,295 ft) Aýrybaba is the highest mountain in Turkmenistan. It is located in the Köýtendag Range of the Pamir-Alay chain in the southeast of Turkmenistan on the Uzbekistani border.",
+    "url": "https://en.wikipedia.org/wiki/Ayribobo"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 50.9,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2395,
+      "cache_read_input_tokens": 2030,
+      "output_tokens": 1707,
+      "thinking_tokens": 1408,
+      "cost_usd": 0.054136000000000004,
+      "calls": 2,
+      "cost_usd_reported": 0.0863614
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2037,
+      "cache_read_input_tokens": 941,
+      "output_tokens": 1245,
+      "thinking_tokens": 960,
+      "cost_usd": 0.0415964,
+      "calls": 2,
+      "cost_usd_reported": 0.06906419999999999
+    },
+    "judge": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 702,
+      "cache_read_input_tokens": 702,
+      "output_tokens": 69,
+      "thinking_tokens": 61,
+      "cost_usd": 0.00018232000000000003,
+      "calls": 2
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "I'll suggest Turkmen with 🦃👨 (Turk + men) and Central Asian \"-stan\" neighbours with 🇰🇬🇹🇯. Then I'll use 🌋🪨 for the mountain and 🔼🏅 for \"highest\", since the obvious mountain and flag emojis are banned.\n\n<msg>\n🦃👨 🇰🇬🇹🇯\n🌋🪨 🔼🔼🔼 🏅\n</msg>",
+      "delivered": "🦃👨 🇰🇬🇹🇯\n🌋🪨 🔼🔼🔼 🏅",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "**My read:** 🦃👨 sounds like \"Turk-man\" or \"Turk-…\", and the flags place it on the Kyrgyzstan–Tajikistan border. 🌋🪨 🔼🔼🔼 suggests mountains or a high peak. I'm not sure what the 🏅 means. It could be a peak named after a person or an award, or a \"victory\" peak.\n\nMy first guess is the mountain range on that border whose name starts with \"Turk\". If that's wrong: is it a single peak (👍) or a range (👎)? And is the 🏅 part of the name?\n\nGUESS: Turkestan Range",
+      "guess": "Turkestan Range",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "The guesser picked a range on the Kyrgyzstan–Tajikistan border. I need to confirm it's a single peak, rule those two flags out, and steer to the Turkmen country with 🏅 as \"highest\".\n\n<msg>\n✅\n🇰🇬❌ 🇹🇯❌\n🦃👨🌏✅\n🦃👨🌏 ➡ 🌋🏅🔼\n</msg>",
+      "delivered": "✅\n🇰🇬❌ 🇹🇯❌\n🦃👨🌏✅\n🦃👨🌏 🌋🏅🔼",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "➡️"
+      ],
+      "retried": false,
+      "guesser": "Got it: it's in **Turkmenistan**, and it's the **highest mountain** there (🏅🔼). That's the peak in the Köýtendag/Kugitang range, near the Uzbek border.\n\nGUESS: Aýrybaba",
+      "guess": "Aýrybaba",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "551c5fd0-e7fb-4520-953b-345acb7e0e94",
+    "guesser": "727658c3-aade-43d2-88ca-2fe097daa5a5"
+  },
+  "ladder": {
+    "article_no": 11,
+    "round": 3,
+    "n_banned": 38,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

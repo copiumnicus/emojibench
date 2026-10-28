@@ -1,0 +1,88 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Philadelphia Commercial Museum",
+    "description": "Former museum in Pennsylvania, USA",
+    "extract": "The Philadelphia Commercial Museum was established in Philadelphia, Pennsylvania in 1895. Its permanent home was a neo-classical building situated at 34th Street and Civic Center Blvd, erected as part of the 1899 National Export Exposition. The museum had business offices at 332 South Fourth Street.",
+    "url": "https://en.wikipedia.org/wiki/Philadelphia_Commercial_Museum"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 254.8,
+  "usage": {
+    "explainer": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 5999,
+      "cache_read_input_tokens": 2112,
+      "output_tokens": 5331,
+      "thinking_tokens": 5054,
+      "cost_usd": 0.388682,
+      "calls": 2,
+      "cost_usd_reported": 0.63727225
+    },
+    "guesser": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 11378,
+      "cache_read_input_tokens": 1012,
+      "output_tokens": 13132,
+      "thinking_tokens": 12650,
+      "cost_usd": 0.8852120000000001,
+      "calls": 2,
+      "cost_usd_reported": 1.411413
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 712,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0001446,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🔕 👦👦💙 🏃🪜 ⚾🏀🏒🏈\n🖊️🌲\n🪙💸📊🏬 🌏🚛\n⚱️🦕🎨🎫\n🎩⏳🎡 ⚰️\n</msg>",
+      "delivered": "🔕 👦👦💙 🏃🪜 ⚾🏀🏒🏈\n🖊️🌲\n🪙💸📊🏬 🌏🚛\n⚱️🦕🎨🎫\n🎩⏳🎡 ⚰️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Let me parse: 🖊️🌲 = Penn + sylvania → Pennsylvania? 🪙💸📊🏬🌏🚛 = a company trading globally; ⚱️🦕🎨🎫 = museum; 🎩⏳🎡 = 19th century / old fair era; ⚰️ = defunct. 👦👦💙 = brothers? ⚾🏀🏒🏈 = sporting goods?\n\nPlease answer with ✅/❌ in order:\n1. Is it a defunct company?\n2. Based in Pennsylvania (Philadelphia?)\n3. Made sporting goods?\n4. 👦👦💙 = \"brothers\" (or \"sons\")?\n5. 🔕 = \"Bell\" (because 🔔 is banned)? Or does it mean silent/deaf/Quaker?\n6. 🏃🪜 = \"climb\"/\"reach\"/\"athletic\"?\n7. Is the museum line saying its stuff is now in a museum (or it exhibited at a World's Fair)?\n\nGUESS: A. J. Reach Company",
+      "guess": "A. J. Reach Company",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n🚫🏬 ✅⚱️🦕🎨🎫\n✅ 🔕👦👦💙\n🚫\n✅ 👦👦💙 🟰 👦💙👦\n✅ 🔕\n🤷 🏃🪜\n✅ ⚱️🦕🎨🎫 ◀️ 🎡\n\n🔕👦👦💙 ▶️ 🪙💸📊🌏🚛 ▶️ ⚱️🦕🎨🎫 ⚰️\n</msg>",
+      "delivered": "🚫🏬 ✅⚱️🦕🎨🎫\n✅ 🔕👦👦💙\n🚫\n✅ 👦👦💙 🟰 👦💙👦\n✅ 🔕\n🤷 🏃🪜\n✅ ⚱️🦕🎨🎫 ◀️ 🎡\n🔕👦👦💙 ▶️ 🪙💸📊🌏🚛 ▶️ ⚱️🦕🎨🎫 ⚰️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Got it — 🔕👦👦💙 = Quaker + brotherly love = Philadelphia! A defunct Philadelphia museum about international trade/commerce, built from exhibits of the 1893 Chicago World's Fair (🎡 = Ferris wheel), later part of the Civic Center where sports were played.\n\nGUESS: Philadelphia Commercial Museum",
+      "guess": "Philadelphia Commercial Museum",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "38b0835b-0527-4139-90e8-82459ee4001b",
+    "guesser": "fe26863a-abef-4f69-88d5-ef0f665a3df4"
+  },
+  "ladder": {
+    "article_no": 14,
+    "round": 3,
+    "n_banned": 65,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

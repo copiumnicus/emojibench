@@ -1,0 +1,77 @@
+{
+  "model": "sonnet",
+  "model_id": "claude-sonnet-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Iron(III) sulfate",
+    "description": "Chemical compound",
+    "extract": "Iron(III) sulfate or ferric sulfate is a family of inorganic compounds with the formula Fe2(SO4)3(H2O)n. A variety of hydrates are known, including the most commonly encountered form of \"ferric sulfate\". Solutions are used in dyeing as a mordant and as a coagulant for industrial wastes. Solutions of ferric sulfate are also used in the processing of aluminum and steel.",
+    "url": "https://en.wikipedia.org/wiki/Iron(III)_sulfate"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 22.8,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1714,
+      "cache_read_input_tokens": 864,
+      "output_tokens": 111,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0081508,
+      "calls": 2,
+      "cost_usd_reported": 0.013312399999999999
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1382,
+      "cache_read_input_tokens": 918,
+      "output_tokens": 574,
+      "thinking_tokens": 360,
+      "cost_usd": 0.022927200000000002,
+      "calls": 2,
+      "cost_usd_reported": 0.037775600000000006
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 701,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 9.210000000000002e-06,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>⚗️🧪🔩🟤🟠🧲 ➕ 🌋🟡💨 ➡️ 🧵🎨</msg>",
+      "delivered": "⚗️🧪🔩🟤🟠🧲 ➕ 🌋🟡💨 ➡️ 🧵🎨",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Reading this as: chemistry, iron (🔩🟤🧲) plus sulfur (🌋🟡💨), giving something used for textiles or dyes (🧵🎨). That points to an iron-sulfur compound used as a dye or mordant, like ferrous sulfate (copperas). Is it a compound used in dyeing, or maybe a pigment?\n\nGUESS: Iron(II) sulfate",
+      "guess": "Iron(II) sulfate",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👎 ➡️ 3️⃣ 🔩🟠 ➕ 🌋🟡 ⬆️ 🔼</msg>",
+      "delivered": "👎 ➡️ 🔩🟠 ➕ 🌋🟡 ⬆️ 🔼",
+      "dropped_chars": 2,
+      "retried": false,
+      "guesser": "So it's close: iron in its orange, higher oxidation state (ferric), with sulfur/sulfate. That suggests ferric sulfate, which is also used as a dye mordant.\n\nGUESS: Iron(III) sulfate",
+      "guess": "Iron(III) sulfate",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "6aaaa301-fc4d-4c47-88c5-8b01c77254ef",
+    "guesser": "a42d6d09-3922-4d17-b115-a41c4877df9c"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

@@ -1,0 +1,88 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Philadelphia Commercial Museum",
+    "description": "Former museum in Pennsylvania, USA",
+    "extract": "The Philadelphia Commercial Museum was established in Philadelphia, Pennsylvania in 1895. Its permanent home was a neo-classical building situated at 34th Street and Civic Center Blvd, erected as part of the 1899 National Export Exposition. The museum had business offices at 332 South Fourth Street.",
+    "url": "https://en.wikipedia.org/wiki/Philadelphia_Commercial_Museum"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 435.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1475,
+      "cache_read_input_tokens": 1936,
+      "output_tokens": 803,
+      "thinking_tokens": 698,
+      "cost_usd": 0.0286584,
+      "calls": 2,
+      "cost_usd_reported": 0.0434106
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2052,
+      "cache_read_input_tokens": 941,
+      "output_tokens": 1368,
+      "thinking_tokens": 1064,
+      "cost_usd": 0.044176400000000005,
+      "calls": 2,
+      "cost_usd_reported": 0.07206420000000001
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 713,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0001448,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🥨🥊🦅 👬❤️\n💵🤝📈🏭\n🗿🦕🎨🧭\n</msg>",
+      "delivered": "🥨🥊🦅 👬❤️\n💵🤝📈🏭\n🗿🦕🎨🧭",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Line 1 reads as Philadelphia: 🥨 soft pretzels, 🥊 Rocky, 🦅 Eagles, 👬❤️ \"City of Brotherly Love.\"\nLine 2 looks like business or economy: money, deals, growth, industry.\nLine 3 looks like museums, art and exploration: statues/archaeology, dinosaurs, art, compass.\n\nIs the article about Philadelphia's economy, or about a Philadelphia person or organization (e.g., a businessman or philanthropist who funded museums)? Is line 3 about museums or tourism?\n\nGUESS: Economy of Philadelphia",
+      "guess": "Economy of Philadelphia",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n🗿🦕 🎯👌\n🥨🦅 💵🤝🌐 🗿🦕\n⏳🪦\n</msg>",
+      "delivered": "🗿🦕 🎯👌\n🥨🦅 💵🤝🌐 🗿🦕\n⏳🪦",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Got it: the museum part is right 🎯. The article is about a Philadelphia museum focused on global trade and commerce, and it is now defunct or historical ⏳🪦. That sounds like the old Commercial Museum.\n\nGUESS: Philadelphia Commercial Museum",
+      "guess": "Philadelphia Commercial Museum",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "d2091b39-e2ba-4c4d-92e7-7d07d088ca46",
+    "guesser": "df165dce-939b-423d-850a-537bbc0152e0"
+  },
+  "ladder": {
+    "article_no": 14,
+    "round": 1,
+    "n_banned": 29,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

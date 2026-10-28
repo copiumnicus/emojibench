@@ -1,0 +1,75 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Jakob von Washington",
+    "description": "Bavarian general (1778–1848)",
+    "extract": "\nBaron Jacobus von Washington was a lieutenant general in the Bavarian Army and a distant relative of US President George Washington. Born in The Hague, Netherlands, he was christened James Washington. Most of his adult life was shaped by his participation in wars for and against Napoleonic France and his service to Ludwig I of Bavaria.",
+    "url": "https://en.wikipedia.org/wiki/Jakob_von_Washington"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 134.5,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 798,
+      "cache_read_input_tokens": 577,
+      "output_tokens": 3976,
+      "thinking_tokens": 3623,
+      "cost_usd": 0.21492425000000004,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1045,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4777,
+      "thinking_tokens": 4622,
+      "cost_usd": 0.25977,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Private scratchpad: Need George Washington without 🇺🇸💵🍒🪓 → wooden teeth 🪵🦷, first president 🥇🗳️🏛️, 🗽. Bavaria without 🇩🇪🥨🍺🏰 → 🔷⬜ lozenges, 🍻🎡🦁🏔️. General without 🪖🎖️ → 🫡⭐⭐⭐. Netherlands/The Hague without 🇳🇱🌷 → 🧀🚲🧡⚖️. Napoleon without 🇫🇷 → 🗼🐝🎩. King without 👑 → 🤴.\n\n<msg>\n👤🫡⭐⭐⭐\n🔷⬜🔷⬜ 🍻🎡🦁🏔️\n🌳🔗 🥇🗳️🏛️ 🪵🦷 🗽\n🐣 🧀🚲🧡⚖️\n💥🔫 🗼🐝🎩\n🫡🤴🔷⬜\n</msg>",
+      "delivered": "👤🫡⭐⭐⭐\n🔷⬜🔷⬜ 🍻🎡🦁🏔️\n🌳🔗 🥇🗳️🏛️ 🪵🦷 🗽\n🐣 🧀🚲🧡⚖️\n💥🔫 🗼🐝🎩\n🫡🤴🔷⬜",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I read this as: a person with three stars (lieutenant general), Bavaria (blue-white lozenges, beer, Oktoberfest, lion, Alps), a family-tree link to George Washington (first elected president, wooden teeth, USA), born in the Netherlands (cheese, bikes, orange, The Hague), fought in the Napoleonic Wars (bees + bicorne + France), and served the King of Bavaria.\n\nGUESS: Jakob von Washington",
+      "guess": "Jakob von Washington",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "584ee4b0-943a-48de-96c7-a8dc17e2353e",
+    "guesser": "66524ec4-2aee-4d78-a486-2846dd3cb360"
+  },
+  "ladder": {
+    "article_no": 6,
+    "round": 1,
+    "n_banned": 22,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

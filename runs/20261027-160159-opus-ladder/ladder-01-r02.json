@@ -1,0 +1,86 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Proceratium silaceum",
+    "description": "Species of ant",
+    "extract": "Proceratium silaceum is a species of ant in the family Formicidae.",
+    "url": "https://en.wikipedia.org/wiki/Proceratium_silaceum"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "max_turns": 30,
+  "seconds": 54.2,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2366,
+      "cache_read_input_tokens": 1917,
+      "output_tokens": 2060,
+      "thinking_tokens": 1903,
+      "cost_usd": 0.0609188,
+      "calls": 2,
+      "cost_usd_reported": 0.09334280000000002
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1719,
+      "cache_read_input_tokens": 930,
+      "output_tokens": 1684,
+      "thinking_tokens": 1262,
+      "cost_usd": 0.047828,
+      "calls": 2,
+      "cost_usd_reported": 0.06961
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 694,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00014099999999999998,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Establishing \"ant\" first (🐜 is banned) with insect + queen + workers + underground.\n\n<msg>🪲👸👷👷👷 ⬇️🟫\n🏷️🔎</msg>",
+      "delivered": "🪲👸👷👷👷 ⬇️🟫\n🏷️🔎",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "My read: 🪲 seems to stand in for an **ant** (or maybe a termite), since the ant emoji is probably banned. With a queen, workers and ⬇️🟫, I think it's an **underground / subterranean ant species**. I'm not sure what 🏷️🔎 means. Maybe it points to a genus or species name?\n\nQuestions:\n1. Is it an ant (🐜)? Or a termite?\n2. Is it a single **species** or a **genus**?\n3. Which part of the world does it live in? (Send a flag or continent.)\n4. Any hint about the name itself, like its first letter, or what it sounds like?\n\nA starting guess for a subterranean ant genus:\n\nGUESS: Acropyga",
+      "guess": "Acropyga",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "Confirming ant and species, pointing to the USA via landmarks (the US flag is banned), and hinting at the genus's habit of eating spider eggs.\n\n<msg>✅🪲\n🗽🦅\n🪺🦂🍴\n🟧</msg>",
+      "delivered": "✅🪲\n🗽🦅\n🪺🦂🍴\n🟧",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Ant confirmed, in the USA 🗽🦅. I read 🪺🦂🍴 as \"eats arachnid (spider?) eggs\", and 🟧 as orange or ochre coloring. That points me to the cryptic soil ants that feed on spider eggs, the genus **Proceratium**. \"Silaceum\" means ochre-yellow and \"croceum\" means saffron.\n\nQuestions: is it the genus or one species? If it's a species, which name is right: silaceum, croceum, pergandei, or another one?\n\nGUESS: Proceratium silaceum",
+      "guess": "Proceratium silaceum",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "0673a0bd-ba51-493e-9627-511973ae5420",
+    "guesser": "dbfff187-bb79-4b9a-9749-8d6e700cd3af"
+  },
+  "ladder": {
+    "article_no": 1,
+    "round": 2,
+    "n_banned": 47,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

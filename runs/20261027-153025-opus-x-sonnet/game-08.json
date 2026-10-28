@@ -1,0 +1,87 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "sonnet",
+  "guesser_model_id": "claude-sonnet-5-5",
+  "effort": null,
+  "article": {
+    "title": "Richmond Hill South",
+    "description": "Federal electoral district in Ontario, Canada",
+    "extract": "Richmond Hill South is a federal electoral district in Ontario, Canada, that has been represented in the House of Commons of Canada since 2004.",
+    "url": "https://en.wikipedia.org/wiki/Richmond_Hill_South"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 49.9,
+  "usage": {
+    "explainer": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 2447,
+      "cache_read_input_tokens": 2794,
+      "output_tokens": 1118,
+      "thinking_tokens": 768,
+      "cost_usd": 0.043093599999999996,
+      "calls": 3,
+      "cost_usd_reported": 0.0943164
+    },
+    "guesser": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 1773,
+      "cache_read_input_tokens": 2195,
+      "output_tokens": 925,
+      "thinking_tokens": 694,
+      "cost_usd": 0.016801,
+      "calls": 3,
+      "cost_usd_reported": 0.0349289
+    },
+    "judge": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 713,
+      "cache_read_input_tokens": 714,
+      "output_tokens": 102,
+      "thinking_tokens": 94,
+      "cost_usd": 0.00020114,
+      "calls": 2
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Opening with Canada plus voting and a map to signal \"Canadian federal electoral district.\" The second line spells out the name: rich 💰, hill ⛰️, south ⬇️🧭.\n\n<msg>🇨🇦 🗳️ 🗺️ 🏛️\n\n🤑 ⛰️ ⬇️🧭</msg>",
+      "delivered": "🇨🇦 🗳️ 🗺️ 🏛️\n🤑 ⛰️ ⬇️🧭",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Canada, an election, a map and a government building: this sounds like an electoral district. The money, mountain and \"down/south\" emojis might point to a name like \"Mount Royal\" or \"Golden Hills\", or to a southern riding. I'll start with Mount Royal.\n\nGUESS: Mount Royal (federal electoral district)",
+      "guess": "Mount Royal (federal electoral district)",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "The district reading was right but \"Mount Royal\" was wrong. I'm keeping the structure and splitting the name: rich 💰, a small hill ⛰️🤏, south ⬇️. I added a CN Tower and up-arrow to hint \"just north of Toronto.\"\n\n<msg>👍🗳️ 👎👑\n\n💰 + ⛰️🤏 + ⬇️🧭\n\n🗼🇨🇦 ⬆️🏘️</msg>",
+      "delivered": "👍🗳️ 👎👑\n💰 ⛰️🤏 ⬇️🧭\n🗼🇨🇦 ⬆️🏘️",
+      "dropped_chars": 2,
+      "retried": false,
+      "guesser": "Rich + hill, with the CN Tower and \"north\" pointing to Richmond Hill, north of Toronto. I'll guess the federal riding, but it could be the provincial one.\n\nGUESS: Richmond Hill (federal electoral district)",
+      "guess": "Richmond Hill (federal electoral district)",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "They have \"Richmond Hill\" right and only need \"South\" added. I'm confirming the name and stressing the south direction.\n\n<msg>👍💰⛰️ ➕ ⬇️⬇️⬇️ 🧭👇</msg>",
+      "delivered": "👍💰⛰️ ➕ ⬇️⬇️⬇️ 🧭👇",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Richmond Hill is right, and the repeated down arrows with the compass suggest \"South\".\n\nGUESS: Richmond Hill South",
+      "guess": "Richmond Hill South",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "d81f55b6-eba8-43b5-9802-30084d1669b5",
+    "guesser": "765e7eb6-7175-43bf-9937-ecd153bc49ee"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

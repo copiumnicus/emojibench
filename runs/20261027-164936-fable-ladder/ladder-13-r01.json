@@ -1,0 +1,75 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Dorothy Cottrell",
+    "description": "Australian writer",
+    "extract": "Ida Dorothy Ottley Cottrell was an Australian writer. Born in Picton, she contracted infantile paralysis as a child and spent the rest of her life in a wheelchair. Cottrell married Walter Mackenzie Cottrell on 23 May 1922. Her first novel, The Singing Gold, was published in 1928. She wrote a story Wilderness Orphan (1936) which was the basis for the feature film Orphan of the Wilderness (1936). She lived for a time in the US and also worked as an artist and cartoonist.",
+    "url": "https://en.wikipedia.org/wiki/Dorothy_Cottrell"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 69.8,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 871,
+      "cache_read_input_tokens": 577,
+      "output_tokens": 3305,
+      "thinking_tokens": 2993,
+      "cost_usd": 0.18283425,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1042,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1553,
+      "thinking_tokens": 1418,
+      "cost_usd": 0.09851,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Private scratchpad: Australian woman writer, polio → wheelchair (♿ banned, use 🦽), \"The Singing Gold\" (🎤🪙), \"Wilderness Orphan\" → film (🧒⚰️⚰️🌳 ⏩🎥), lived in US (🗽), artist/cartoonist (🖌️), first name Dorothy via Wizard of Oz (🌈🦁🧙‍♀️🟨🧱). Australia via 🐨🪃🌏 since 🇦🇺🦘 banned.\n\n<msg>\n🐨🪃🌏 💁‍♀️ 🖋️📕 🖌️\n🧒 🦽\n📕 🎤🪙\n📕 🧒💔⚰️⚰️ 🌳🌿 ⏩ 🎥\n🗽\n🪪 🌈🦁🧙‍♀️🟨🧱🏰💚\n</msg>",
+      "delivered": "🐨🪃🌏 💁‍♀️ 🖋️📕 🖌️\n🧒 🦽\n📕 🎤🪙\n📕 🧒💔⚰️⚰️ 🌳🌿 ⏩ 🎥\n🗽\n🪪 🌈🦁🧙‍♀️🟨🧱🏰💚",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Reading: Australian 🐨🪃🌏 woman 💁‍♀️ writer/illustrator 🖋️📕🖌️, disabled as a child 🧒🦽, won a book prize, wrote a book about an orphan in the wilderness that became a film, moved to the USA 🗽, first name Dorothy (Wizard of Oz).\n\nGUESS: Dorothy Cottrell",
+      "guess": "Dorothy Cottrell",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "446c7400-137b-42be-b4a9-b20c9a0bbcbb",
+    "guesser": "66407047-4112-473a-b2d1-51a711b98872"
+  },
+  "ladder": {
+    "article_no": 13,
+    "round": 1,
+    "n_banned": 30,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

@@ -1,0 +1,92 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Richmond Hill South",
+    "description": "Federal electoral district in Ontario, Canada",
+    "extract": "Richmond Hill South is a federal electoral district in Ontario, Canada, that has been represented in the House of Commons of Canada since 2004.",
+    "url": "https://en.wikipedia.org/wiki/Richmond_Hill_South"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": {
+    "fraction": 0.5,
+    "seed": "v1",
+    "size": 936
+  },
+  "max_turns": 30,
+  "seconds": 56.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 6927,
+      "cache_read_input_tokens": 7013,
+      "output_tokens": 1134,
+      "thinking_tokens": 952,
+      "cost_usd": 0.0809252,
+      "calls": 2,
+      "cost_usd_reported": 0.1388242
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2366,
+      "cache_read_input_tokens": 962,
+      "output_tokens": 2948,
+      "thinking_tokens": 2517,
+      "cost_usd": 0.0782968,
+      "calls": 2,
+      "cost_usd_reported": 0.1114084
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 706,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00014340000000000002,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🍁 ☑️🗺️\n\n💵🤑 💸 ⛰️ 🔽\n\n💵 🌕 ⛰️ ⬇️ 🔽</msg>",
+      "delivered": "🍁 ☑️🗺️\n💵 💸 ⛰️ 🔽\n💵 🌕 ⛰️ 🔽",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🤑",
+        "⬇️"
+      ],
+      "retried": false,
+      "guesser": "**What I've got so far:**\n- 🍁 ☑️🗺️ means a place in Canada.\n- Two lines that each have 💵 ⛰️ 🔽. The second emoji differs: 💸 in line 1 and 🌕 in line 2. These might be two names, or two parts of one name.\n\n**My best readings:**\n- 💵 could mean money, cash, dollar or silver.\n- 🌕 could mean moon, gold, silver or \"loonie.\"\n- ⛰️🔽 could mean the foot of a mountain, a valley, \"Lower ...\", or \"down.\"\n\n**Questions:**\n1. Is 💵 meant to sound like part of the name (e.g. \"Cash,\" \"Bill,\" \"Dollar,\" \"Silver\"), or does it mean what it means?\n2. Is 🔽 \"Lower,\" \"Down,\" \"South,\" or \"Valley\"?\n3. Is it a town or village, or a natural feature like a mountain, lake or river?\n\nGUESS: Silver Mountain",
+      "guess": "Silver Mountain",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>💵 ➡️ 💵💵💵🪙💳👑🤴\n\n🔽 ➡️ 🇦🇶 🧊\n\n⛰️ ➡️ 🤏⛰️\n\n🍁 ☑️✍️📊 🗺️\n\n👑🌕 🤏⛰️ 🇦🇶</msg>",
+      "delivered": "💵 💵💵💵🪙💳👑🤴\n🔽 🇦🇶\n⛰️ 🤏⛰️\n🍁 ☑️✍️📊 🗺️\n👑🌕 🤏⛰️ 🇦🇶",
+      "dropped_chars": 4,
+      "off_keyboard": [
+        "➡️",
+        "➡️",
+        "🧊",
+        "➡️"
+      ],
+      "retried": false,
+      "guesser": "Here's how I'm reading it:\n- 💵 = \"Rich\"\n- 🌕 = \"Mond\" (German for moon)\n- ⛰️ = Hill\n- 🔽 = South\n- ☑️✍️📊 = elections, so this is a Canadian electoral district\n\nGUESS: Richmond Hill South",
+      "guess": "Richmond Hill South",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "5bf14725-647b-47b0-96c4-0b39a76dd5ed",
+    "guesser": "147f2900-3133-4de1-9ca3-daf86f26cedd"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

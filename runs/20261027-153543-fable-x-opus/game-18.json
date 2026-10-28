@@ -1,0 +1,87 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Motorchuna",
+    "description": "River in Yakutia (Sakha Republic), Russia",
+    "extract": "The Motorchuna is a river in Yakutia, Russia. It is a left tributary of the Lena with a length of 423 kilometres (263 mi). Its drainage basin area is 9,250 square kilometres (3,570 mi2). Since its river basin is uninhabited, the Motorchuna is one of the most untouched rivers in Yakutia; the waters are clean and there is abundant wildlife.",
+    "url": "https://en.wikipedia.org/wiki/Motorchuna"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 113.5,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 3033,
+      "cache_read_input_tokens": 3459,
+      "output_tokens": 2560,
+      "thinking_tokens": 2200,
+      "cost_usd": 0.192179,
+      "calls": 3,
+      "cost_usd_reported": 0.36067275
+    },
+    "guesser": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 3993,
+      "cache_read_input_tokens": 2522,
+      "output_tokens": 3754,
+      "thinking_tokens": 3301,
+      "cost_usd": 0.1080728,
+      "calls": 3,
+      "cost_usd_reported": 0.19274580000000002
+    },
+    "judge": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 703,
+      "cache_read_input_tokens": 705,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00015205,
+      "calls": 2
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇷🇺 🥶 🌊 ⬅️➡️🌊 (river, left tributary flowing into a bigger river)\n🚫🧍🏘️ 🦌🐻🦅 💧✨\n🗣️ 🏍️🚗 ➕ 🐟🥫</msg>",
+      "delivered": "🇷🇺 🥶 🌊 ⬅️➡️🌊\n🚫🧍🏘️ 🦌🐻🦅 💧✨\n🗣️ 🏍️🚗 ➕ 🐟🥫",
+      "dropped_chars": 44,
+      "retried": false,
+      "guesser": "My read: a cold, uninhabited place in Russia between two bodies of water (an island or a strait?), with wildlife (deer, bear, eagle) and clear water. Is the last line about vehicles and a former fish cannery?\n\nQuestions: Is it an island? Is it in the Far East (Kurils, Kamchatka, Sakhalin), or in the Arctic? Is it a strait or a spit rather than an island?\n\nGUESS: Urup",
+      "guess": "Urup",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👎🏝️ 👎🌉\n✅ 🏞️ ⛰️💧〰️〰️〰️➡️ 🌊🌊🌊\n📍 🥶❄️ 💎 🦣\n🧩🔊 🏍️ ➕ 🐟🥫</msg>",
+      "delivered": "👎🏝️ 👎🌉\n✅ 🏞️ ⛰️💧〰️〰️〰️➡️ 🌊🌊🌊\n📍 🥶❄️ 💎 🦣\n🧩🔊 🏍️ ➕ 🐟🥫",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "So it's a river: it rises in the mountains and flows into the sea, in a cold, remote part of Russia. Diamond and mammoth make me think of Yakutia or Taymyr. The name is a sound puzzle: [motorbike] + [canned fish]. Is the motorbike a brand (Ural? Izh? Honda? Yamaha?), and is the fish \"sprat/kilka/saury/tuna/tin\"?\n\nDoes it flow into the Laptev Sea or the East Siberian Sea? Could you give the syllables more directly?\n\nGUESS: Anabar River",
+      "guess": "Anabar River",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>👎🌊🧂 ✅ ⛰️💧〰️➡️ 🏞️🏞️🏞️ ➡️ 🌊\n🏞️🏞️🏞️ 🚩👨‍🦲☭\n👏👏👏👏\n🏍️➡️⚙️🔋 👎🏷️\n🐟🥫 ➡️ 🍣🐟 🦈🦈🏊</msg>",
+      "delivered": "👎🌊🧂 ✅ ⛰️💧〰️➡️ 🏞️🏞️🏞️ ➡️ 🌊\n🏞️🏞️🏞️ 🚩👨‍🦲\n👏👏👏👏\n🏍️➡️⚙️🔋 👎🏷️\n🐟🥫 ➡️ 🍣🐟 🦈🦈🏊",
+      "dropped_chars": 1,
+      "retried": false,
+      "guesser": "Got it: \"motor\" (engine, not a brand) + \"tuna\" (the sushi fish). It flows down from the mountains through other rivers, and on to the Lena (bald man with red flag = Lenin = Lena). That sounds like the Motorchuna, a tributary of the Muna in the Lena basin.\n\nGUESS: Motorchuna",
+      "guess": "Motorchuna",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "01436156-05c6-484b-89df-92601c95c647",
+    "guesser": "05d92cab-b802-46ec-884f-eb00c25eca4d"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

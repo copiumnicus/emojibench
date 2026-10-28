@@ -1,0 +1,112 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Accord Pond",
+    "description": "Lake in Massachusetts, USA",
+    "extract": "Accord Pond is a 100-acre (0.40 km2) reservoir in Hingham, Norwell and Rockland, Massachusetts. The reservoir is located off Route 228 at its terminus with Route 3. The reservoir is visible from Route 3 northbound at Exit 14, the Route 228 off-ramp. The reservoir is a Class A source of water supply for the town of Hingham and Hull Ma. The outflow of the reservoir is Accord Brook, a tributary of the Weir River.",
+    "url": "https://en.wikipedia.org/wiki/Accord_Pond"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 157.4,
+  "usage": {
+    "explainer": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 5846,
+      "cache_read_input_tokens": 11805,
+      "output_tokens": 4475,
+      "thinking_tokens": 4136,
+      "cost_usd": 0.141046,
+      "calls": 4,
+      "cost_usd_reported": 0.4004174
+    },
+    "guesser": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 7369,
+      "cache_read_input_tokens": 8684,
+      "output_tokens": 6721,
+      "thinking_tokens": 5871,
+      "cost_usd": 0.1969016,
+      "calls": 4,
+      "cost_usd_reported": 0.495562
+    },
+    "judge": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2113,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 12,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0004292,
+      "calls": 3
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🙂‍↕️📝🖊️ 🙂‍↕️\n\n💦🌳🦫🦟\n\n🚢🌸 🧙🎃\n</msg>",
+      "delivered": "🙂‍↕️📝🖊️ 🙂‍↕️\n💦🌳🦫🦟\n🚢🌸 🧙🎃",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Here's my read so far:\n- **Line 2** (💦🌳🦫🦟): a swamp or wetland.\n- **Line 3** (🚢🌸 🧙🎃): Mayflower plus witches/Halloween, so Massachusetts or New England, maybe something spooky or haunted.\n- **Line 1** (🙂‍↕️📝🖊️🙂‍↕️): I can't decode this yet. Agreeing and signing? A compact or treaty? Or is it a name, maybe sounding out syllables?\n\nIs it a swamp in Massachusetts? Is it spooky or paranormal, like the Bridgewater Triangle? Can you give me a hint about line 1?\n\nGUESS: Hockomock Swamp",
+      "guess": "Hockomock Swamp",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n🙂‍↕️📝🖊️ 🔥🔥 🙂‍↕️\n\n🦟🌳 🙂‍↔️\n👻🧙 🙂‍↔️\n\n🏒⛸️💦 🚿🥛💦\n</msg>",
+      "delivered": "🙂‍↕️📝🖊️ 🔥🔥 🙂‍↕️\n🦟🌳 🙂‍↔️\n👻🧙 🙂‍↔️\n🏒⛸️💦 🚿🥛💦",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I've changed my reading. Beaver plus hockey and skating says **Canada**, and the mayflower is **Nova Scotia's** floral emblem. The pumpkin points to **Windsor, Nova Scotia**, home of the Atlantic Giant pumpkin and the Pumpkin Regatta and claimed birthplace of hockey on Long Pond. I'm also taking it that it's not a swamp and not spooky.\n\nOn line 1: does 🔥🔥 mean my signing/agreement idea is right? Is it a treaty or document signed there, or is it a writer, like Thomas Chandler Haliburton from Windsor? I don't understand 🚿🥛💦 yet. Is it the Avon River?\n\nGUESS: Windsor, Nova Scotia",
+      "guess": "Windsor, Nova Scotia",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n🇨🇦 🙂‍↔️🙂‍↔️\n\n🗽 🚢🌸 🧙🎃 🙂‍↕️\n\n🙂‍↕️📝🖊️🙂‍↕️  🏒⛸️💦\n</msg>",
+      "delivered": "🇨🇦 🙂‍↔️🙂‍↔️\n🗽 🚢🌸 🧙🎃 🙂‍↕️\n🙂‍↕️📝🖊️🙂‍↕️ 🏒⛸️💦",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "So it's the USA, not Canada, and the Mayflower and witch point to **Massachusetts**.\n\nNew idea for 🙂‍↕️📝🖊️🙂‍↕️: agreement = **\"Concord\"**, with the writers Thoreau, Emerson and Alcott tied in. 🏒⛸️💦 could then be a frozen pond for skating, and line 2 of your first turn (water, trees, beaver, mosquito) could be a pond in the woods, like Walden.\n\n- Is line 1 \"Concord\"?\n- Is the article a pond or lake, or an ice rink or arena?\n- Does 🚿🥛💦 mean \"white\" or \"bath\"? Could it be White Pond?\n\nGUESS: Concord, Massachusetts",
+      "guess": "Concord, Massachusetts",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>\n🔥🔥 🙂‍↔️\n🏒⛸️💦 🙂‍↕️\n🥛 🙂‍↔️\n\n🙂‍↕️📝🖊️ 🟰🗻🍣🏎️\n</msg>",
+      "delivered": "🔥🔥 🙂‍↔️\n🏒⛸️💦 🙂‍↕️\n🥛 🙂‍↔️\n🙂‍↕️📝🖊️ 🗻🍣🏎️",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🟰"
+      ],
+      "retried": false,
+      "guesser": "That's it. \"Hot but no\" on Concord, then Japan plus a car gives Honda **Accord**. And 🏒⛸️💦 is a pond. Accord is a place near Hingham and Norwell in Massachusetts, and it has a pond.\n\nGUESS: Accord Pond",
+      "guess": "Accord Pond",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "7128d963-cbc0-4bb5-b417-fa531dab937c",
+    "guesser": "57c0c177-bc46-4fff-ad9e-df778012b881"
+  },
+  "ladder": {
+    "article_no": 10,
+    "round": 4,
+    "n_banned": 86,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

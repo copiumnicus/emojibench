@@ -1,0 +1,86 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Accord Pond",
+    "description": "Lake in Massachusetts, USA",
+    "extract": "Accord Pond is a 100-acre (0.40 km2) reservoir in Hingham, Norwell and Rockland, Massachusetts. The reservoir is located off Route 228 at its terminus with Route 3. The reservoir is visible from Route 3 northbound at Exit 14, the Route 228 off-ramp. The reservoir is a Class A source of water supply for the town of Hingham and Hull Ma. The outflow of the reservoir is Accord Brook, a tributary of the Weir River.",
+    "url": "https://en.wikipedia.org/wiki/Accord_Pond"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": {
+    "fraction": 0.5,
+    "seed": "v1",
+    "size": 936
+  },
+  "max_turns": 30,
+  "seconds": 40.4,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 6841,
+      "cache_read_input_tokens": 7165,
+      "output_tokens": 786,
+      "thinking_tokens": 671,
+      "cost_usd": 0.073338,
+      "calls": 2,
+      "cost_usd_reported": 0.1317026
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2262,
+      "cache_read_input_tokens": 961,
+      "output_tokens": 1627,
+      "thinking_tokens": 1320,
+      "cost_usd": 0.0510444,
+      "calls": 2,
+      "cost_usd_reported": 0.0828482
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 705,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0001432,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🏞️💧 🚰\n\n🫘🦞⚓\n\n📜✒️☮️ 🙂‍↕️✅ 🚘\n</msg>",
+      "delivered": "🏞️💧 🚰\n🫘🦞⚓\n📜✒️☮️ 🙂‍↕️✅ 🚘",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "My read so far:\n- Line 1: river/lake water, drinking water (water supply?)\n- Line 2: beans + lobster + anchor → maritime/fishing, maybe New England/Maine (Boston beans, Maine lobster)?\n- Line 3: a signed peace treaty / agreement → \"Accord\" (🚘 = Honda Accord?)\n\nSo maybe a water-related treaty or accord? Questions:\n1. Is the article itself a treaty/agreement/accord? Is 🚘 meant as \"Accord\"?\n2. Is line 2 pointing to a place (a country/region) rather than food?\n\nGUESS: Boundary Waters Treaty",
+      "guess": "Boundary Waters Treaty",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n👎📜 ✅🚘\n\n🚘 ➕ 🤏🏞️💧\n\n🫘 🗺️📍 ✅\n</msg>",
+      "delivered": "📜 ✅🚘\n🚘 ➕ 🤏🏞️💧\n🫘 🗺️📍 ✅",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "👎"
+      ],
+      "retried": false,
+      "guesser": "Got it: 🚘 = \"Accord\", plus a small body of water, and the place is beans = Boston/Massachusetts. Accord Pond in the Hingham area is a water-supply reservoir, which fits the 🚰.\n\nGUESS: Accord Pond",
+      "guess": "Accord Pond",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "0debca6a-80da-4518-ad3d-9bcb4120329b",
+    "guesser": "127fab96-43d9-4e3a-87d3-8c5f2bf5c77d"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

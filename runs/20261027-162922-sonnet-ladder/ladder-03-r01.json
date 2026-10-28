@@ -1,0 +1,123 @@
+{
+  "model": "sonnet",
+  "model_id": "claude-sonnet-5-5",
+  "guesser_model": "sonnet",
+  "guesser_model_id": "claude-sonnet-5-5",
+  "effort": null,
+  "article": {
+    "title": "Baggio–Yoshinari syndrome",
+    "description": "Medical condition",
+    "extract": "Baggio–Yoshinari syndrome (BYS), formerly known as the Brazilian Lyme disease-like illness (BLDLI) and Brazilian Human Borreliosis, is an anthropozoonotic infectious disease of infectious-reactional character transmitted by bites of ticks from Amblyomma, Rhipicephalus and Dermacentor genera, that clinically resembles the Lyme Disease (LD) seen in the northern hemisphere. It is postulated to be caused by mutant Borrelia burgdorferi sensu lato spirochetes that assumed atypical pleomorphic forms and latent behavior in an attempt to adapt to the Brazilian ecosystem, explaining many particularities of the condition relative to the classical Lyme Disease, such as being transmitted by ticks others than those within the Ixodes ricinus complex, the difficulty culturing the etiological agent in traditional medium (BSK-II) and the poor growing of the spirochetes in atypical medium (SP-4), the frequent reactivations due to evading and surviving antibiotic treatment and eliciting low and transient immune response to Borrelia burgdorferi sensu lato antigens because of the hiding from the immune system. The pleomorphic forms are thought to include round bodies resembling Chlamydia, non spiralled spirochete-like forms, blebs and cell wall deficient variants resembling Mycoplasma as seen in dark field microscopy and electron field microscopy searching bacteria in the blood of patients. Spirochete-like structures are seen in around 90% of the patients when analyzing their peripheral blood in dark field microscopy.",
+    "url": "https://en.wikipedia.org/wiki/Baggio%E2%80%93Yoshinari_syndrome"
+  },
+  "solved": true,
+  "turns_taken": 5,
+  "solved_turn": 5,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 70.8,
+  "usage": {
+    "explainer": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 3619,
+      "cache_read_input_tokens": 9993,
+      "output_tokens": 1155,
+      "thinking_tokens": 762,
+      "cost_usd": 0.0280606,
+      "calls": 5,
+      "cost_usd_reported": 0.0945776
+    },
+    "guesser": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 3081,
+      "cache_read_input_tokens": 6578,
+      "output_tokens": 2030,
+      "thinking_tokens": 1464,
+      "cost_usd": 0.0339756,
+      "calls": 5,
+      "cost_usd_reported": 0.0998807
+    },
+    "judge": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2110,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 141,
+      "thinking_tokens": 129,
+      "cost_usd": 0.0004931,
+      "calls": 3
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🍋🪲🦟⚽🌴🏥🩺💊😷🔎</msg>",
+      "delivered": "🍋🪲🦟⚽🌴🏥🩺💊😷🔎",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Mosquito, palm tree, hospital, and a mask suggest a tropical disease like malaria or dengue, and the soccer ball suggests a footballer. Is this a footballer who caught or died of a mosquito-borne illness? Or is it a disease outbreak that affected a football event, such as a tournament held in the tropics?\n\nThe lemon and the beetle are unclear to me. Could you send more emojis about the person's country or the time period?\n\nGUESS: 2016 Zika virus outbreak",
+      "guess": "2016 Zika virus outbreak",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👎🦟 🍋🪲🌲 🇦🇷➡️🌎⬇️ ⚽🌴 🩺🔎 ❓🧫</msg>",
+      "delivered": "👎🦟 🍋🪲🌲 🇦🇷🌎⬇️ ⚽🌴 🩺🔎 ❓🧫",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "➡️"
+      ],
+      "retried": false,
+      "guesser": "Not a mosquito, but another insect, possibly the kissing bug that carries Chagas disease. Argentina plus a doctor and a lab suggest Salvador Mazza, the Argentine researcher who studied Chagas disease.\n\nGUESS: Salvador Mazza",
+      "guess": "Salvador Mazza",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>👎🇦🇷 🍋🏥 🪲 🟰 🧭⬆️🌎 🍋🏥 ⚽🌴💃☕ 🧭⬇️🌎 🆚 ✅</msg>",
+      "delivered": "👎🇦🇷 🍋🏥 🪲 🟰 🧭⬆️🌎 🍋🏥 ⚽🌴💃☕ 🧭⬇️🌎 ✅",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Colombia, maybe? The soccer ball, palm tree, dance, and coffee all point there. The beetle could mean \"escarabajos,\" the nickname for Colombian cyclists. Or does it mean the Volkswagen Beetle?\n\nIs this a person, a place, or an event? Please send emojis for the occupation, such as sport, medicine, or music. What does the lemon plus hospital stand for?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>👎👤 👎📍 👎🎉 🏥🤕 ✅ 🪲🦷🩹 🍋🏥 ✅ ⚽🌴💃 ✅ ☕👎 🇨🇴👎</msg>",
+      "delivered": "👎👤 👎📍 👎🎉 🏥🤕 ✅ 🪲🦷🩹 🍋🏥 ✅ ⚽🌴💃 ✅ ☕👎 🇨🇴👎",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Not a person, place, or event, and not Colombia, so probably Brazil. The beetle, the tooth, and the bandage suggest an injury or illness from a beetle. That could be dermatitis from rove beetles of the genus Paederus.\n\nGUESS: Paederus",
+      "guess": "Paederus",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>🍋🏥 ✅ 🪲🦷 = 🕰️🔖 tick 🐕🐄🌿 🍋🏥🔁 🌎⬇️⚽🌴 ✅ 🟰🍋🏥 🧭⬆️ 🆚 🧭⬇️ 🧪🔎❓</msg>",
+      "delivered": "🍋🏥 ✅ 🪲🦷 🕰️🔖 🐕🐄🌿 🍋🏥🔁 🌎⬇️⚽🌴 ✅ 🟰🍋🏥 🧭⬆️ 🧭⬇️ 🧪🔎❓",
+      "dropped_chars": 6,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Lemon plus hospital reads as \"Lyme\" disease, with a tick bite and animal hosts. A Lyme-like illness in Brazil is Baggio–Yoshinari syndrome.\n\nGUESS: Baggio–Yoshinari syndrome",
+      "guess": "Baggio–Yoshinari syndrome",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "c79155cf-c451-4c53-bb00-86e36da650ff",
+    "guesser": "22b4a70b-0f68-4838-a058-90dd03e24681"
+  },
+  "ladder": {
+    "article_no": 3,
+    "round": 1,
+    "n_banned": 19,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

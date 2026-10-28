@@ -1,0 +1,110 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Accord Pond",
+    "description": "Lake in Massachusetts, USA",
+    "extract": "Accord Pond is a 100-acre (0.40 km2) reservoir in Hingham, Norwell and Rockland, Massachusetts. The reservoir is located off Route 228 at its terminus with Route 3. The reservoir is visible from Route 3 northbound at Exit 14, the Route 228 off-ramp. The reservoir is a Class A source of water supply for the town of Hingham and Hull Ma. The outflow of the reservoir is Accord Brook, a tributary of the Weir River.",
+    "url": "https://en.wikipedia.org/wiki/Accord_Pond"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 105.5,
+  "usage": {
+    "explainer": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 4236,
+      "cache_read_input_tokens": 8772,
+      "output_tokens": 2803,
+      "thinking_tokens": 2054,
+      "cost_usd": 0.09351280000000001,
+      "calls": 4,
+      "cost_usd_reported": 0.24648319999999999
+    },
+    "guesser": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 5239,
+      "cache_read_input_tokens": 5955,
+      "output_tokens": 4340,
+      "thinking_tokens": 3475,
+      "cost_usd": 0.13115,
+      "calls": 4,
+      "cost_usd_reported": 0.3165666
+    },
+    "judge": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 1409,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 272,
+      "thinking_tokens": 264,
+      "cost_usd": 0.00041820000000000003,
+      "calls": 2
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Building the clue in two parts:\n\n1. **\"Pond\":** The obvious emojis (🌊 💧 🐸 🦆 🏞️) are banned, so I'll use swan, turtle and bubbles to suggest a small still body of water.\n2. **\"Accord\":**\n   - I'll point at the Honda Accord with Japan's crossed flags plus a car.\n   - I'll add the agreement-of-voices sense with 🙆 / 🎹 for \"chord\".\n   - My plan is to narrow down to New England later.\n\n<msg>\n🦢🐢🫧\n\n🎌🚕 🎹🎶 🙆\n</msg>",
+      "delivered": "🦢🐢🫧\n🎌🚕 🎹🎶 🙆",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The first line puzzles me. Swan, turtle and bubbles could be a pond, a lake, water creatures, or words to sound out (e.g. Japanese: kame = turtle, awa = bubbles, hakuchō = swan).\n\nThe second line looks like Japan + taxi, plus music (song or album?), plus 🙆 (OK, or the Japanese \"maru\" circle gesture?).\n\nIs this a Japanese song or album? Is 🦢🐢🫧 sounding out a title, or showing its meaning?\n\nPlease send more about the category: a 🎵 song, 💿 album, 🎤 band, 🎬 film, or 📺 anime.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "The guesser read it as Japanese media, so I'll rule those categories out. Then I'll restate it as a place (a pond in America) whose name is the car model.\n\n<msg>\n🙅🎵💿🎤🎬📺\n\n🗺️🦅 🦢🐢🫧🏊\n\n🏷️ = 🎌🚕\n</msg>",
+      "delivered": "🙅🎵💿🎤🎬📺\n🗺️🦅 🦢🐢🫧🏊\n🏷️ 🎌🚕",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Got it: not media. So I read it as a place 🗺️, maybe in the USA (🦅?), with swans, turtles, bubbles and swimming. That sounds like a lake, pond or spring. Bubbles + swimming makes me think of a natural spring (Florida?).\n\nI'm guessing the name is built from 🎌🚕, and maybe also 🎹🎶🙆. Is the name a sound-alike, like syllables?\n\nQuestions:\n1. Is it in the USA? Which state? (Florida 🐊🍊?)\n2. Spring, lake or pond? Please send 💧⛲ or 🏞️.\n3. Does 🎌 mean Japan, or just \"flags\"? And 🚕 = cab / taxi / hack?\n\nGUESS: Wekiwa Springs State Park",
+      "guess": "Wekiwa Springs State Park",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "The guesser asked three things, so I'll answer each on its own line, with ⭕/❌ standing in for yes/no.\n1. **Location:** USA yes, Florida no. Massachusetts gets the Salem witch, Celtics clover and Cape Cod whale.\n2. **Water type:** Not a spring. It's small and still, so a pond.\n3. **Name:** 🎌 does mean Japan. The motorcycle plus car points to Honda, and I'll hint that the name is one of its car models.\n\n<msg>\n⭕🦅  ❌🐊🍊  🧙‍♀️🍀🐋\n\n❌⛲  🦢🤏\n\n🎌 ⭕  🏍️🚕 ➕ 🏷️ = 🚕🏷️\n</msg>",
+      "delivered": "⭕🦅 ❌🐊🍊 🧙‍♀️🍀🐋\n❌⛲ 🦢🤏\n🎌 ⭕ 🏍️🚕 ➕ 🏷️ 🚕🏷️",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "So: USA yes, not Florida. 🧙‍♀️🍀🐋 = witches (Salem) + Celtics + whaling, so Massachusetts? Not a spring, and 🦢🤏 = small lake, so a pond.\n\nThe name sounds like a Japanese brand that makes both motorcycles and cars: Honda or Suzuki (Suzuki is also a music method 🎹🎶!). Yamaha and Kawasaki are the other options.\n\nWhich brand? Please send 1️⃣ Honda, 2️⃣ Suzuki, 3️⃣ Yamaha, 4️⃣ Kawasaki, or 5️⃣ other. Is the pond name a sound-alike of the brand, or partly a sound-alike?\n\nGUESS: Lake Nippenicket",
+      "guess": "Lake Nippenicket",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "Numbered options get stripped, so I'll point to Honda through ASIMO (🤖) and say the pond takes a car model's name, not the brand name. \"Accord\" is French for \"chord\", which ties the 🎹 clue to the model.\n\n<msg>\n🎌🤖🏍️🚕\n\n❌🏭  ⭕🚕🏷️\n\n🚕 = 🇫🇷🎹🎶 = 🙆‍♂️🙆‍♀️\n\n🦢🤏\n</msg>",
+      "delivered": "🎌🤖🏍️🚕\n❌🏭 ⭕🚕🏷️\n🚕 🇫🇷🎹🎶 🙆‍♂️🙆‍♀️\n🦢🤏",
+      "dropped_chars": 2,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "🎌🤖🏍️🚕 is Honda (ASIMO). The car model is French for a musical chord 🇫🇷🎹🎶, and it also means agreement 🙆‍♂️🙆‍♀️. That's the Honda Accord, so the pond is Accord Pond in Massachusetts.\n\nGUESS: Accord Pond",
+      "guess": "Accord Pond",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "a4e8daee-ac73-4744-9ff1-c10e43ba9b44",
+    "guesser": "ef6c507d-763c-429b-86bb-bd409d3fe7e2"
+  },
+  "ladder": {
+    "article_no": 10,
+    "round": 3,
+    "n_banned": 52,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

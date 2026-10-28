@@ -1,0 +1,121 @@
+{
+  "model": "haiku",
+  "model_id": "claude-haiku-5-5",
+  "effort": null,
+  "article": {
+    "title": "Iron(III) sulfate",
+    "description": "Chemical compound",
+    "extract": "Iron(III) sulfate or ferric sulfate is a family of inorganic compounds with the formula Fe2(SO4)3(H2O)n. A variety of hydrates are known, including the most commonly encountered form of \"ferric sulfate\". Solutions are used in dyeing as a mordant and as a coagulant for industrial wastes. Solutions of ferric sulfate are also used in the processing of aluminum and steel.",
+    "url": "https://en.wikipedia.org/wiki/Iron(III)_sulfate"
+  },
+  "solved": true,
+  "turns_taken": 6,
+  "solved_turn": 6,
+  "max_turns": 30,
+  "seconds": 67.1,
+  "usage": {
+    "explainer": {
+      "input_tokens": 12,
+      "cache_creation_input_tokens": 3975,
+      "cache_read_input_tokens": 10926,
+      "output_tokens": 1937,
+      "thinking_tokens": 1552,
+      "cost_usd": 0.00187396,
+      "calls": 6,
+      "cost_usd_reported": 0.00641649
+    },
+    "guesser": {
+      "input_tokens": 12,
+      "cache_creation_input_tokens": 4225,
+      "cache_read_input_tokens": 9741,
+      "output_tokens": 3324,
+      "thinking_tokens": 2429,
+      "cost_usd": 0.00260561,
+      "calls": 6,
+      "cost_usd_reported": 0.00823046
+    },
+    "judge": {
+      "input_tokens": 8,
+      "cache_creation_input_tokens": 2092,
+      "cache_read_input_tokens": 699,
+      "output_tokens": 16,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00043419,
+      "calls": 4
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🧪🧲🟤🧂🏭🎨🔩</msg>",
+      "delivered": "🧪🧲🟤🧂🏭🎨🔩",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Interesting set. My guess is something about a material or industrial process: 🧪🧂 suggests chemicals, 🧲🔩 suggests iron or metal hardware, 🟤 could mean rust, brown, or earth pigments, 🏭 suggests manufacturing, and 🎨 could point to pigment.\n\nCandidates: iron oxide pigment, a magnetic mineral, or a metal-working company.\n\nIs the article about a substance or material? Is it about a person or organization? Does 🎨 mean a pigment or an artist?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👍🧪👎🧑‍🔬 🎨🧵 🚰🧹 🔩✨</msg>",
+      "delivered": "👍🧪👎🧑‍🔬 🎨🧵 🚰🧹 🔩✨",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "The explainer confirmed chemistry (👍🧪) and ruled out a scientist as the subject (👎🧑‍🔬). 🎨🧵 suggests dyes or textiles, 🚰🧹 suggests water treatment or cleaning, and 🔩✨ might mean hardware or polished metal.\n\nMy hypothesis is a chemical used for dyeing fabric or cleaning, possibly a compound or industrial process.\n\nIs it a specific chemical compound? Is it a brand or product name? Does 🚰 refer to water treatment?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>👍🧪 👎🏷️ 👍🚰 👍🔩⚙️ 🧵👍</msg>",
+      "delivered": "👍🧪 👎🏷️ 👍🚰 👍🔩⚙️ 🧵👍",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Yes to chemistry, water, hardware/mechanism, and textiles, and no to a brand. A chemical used in both water treatment and textile dyeing points to alum, which is used as a flocculant in water treatment and as a mordant in dyeing.\n\nGUESS: Alum",
+      "guess": "Alum",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>❌🧂 🔩🧲 iron 🟡🧪 sulfur 🚰🧹 🎨🧵 🏭🔩🥫 ✅⚗️</msg>",
+      "delivered": "❌🧂 🔩🧲 🟡🧪 🚰🧹 🎨🧵 🏭🔩🥫 ✅⚗️",
+      "dropped_chars": 10,
+      "retried": false,
+      "guesser": "Decoding the new clues: ❌🧂 rules out table salt, ✅⚗️ confirms a chemical compound, 🟡 suggests yellow or brown, 🔩🧲 points to iron, and 🏭🔩🥫 suggests an industrial process involving metal. Iron(III) chloride fits all of these: it's yellowish-brown, contains iron, is used in water treatment, in etching metal, and as a mordant in dyeing.\n\nGUESS: Ferric chloride",
+      "guess": "Ferric chloride",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>❌🧂❌🧪 ✅🟡🦨 sulfur-ish ✅🧲🔩 iron ✅🚰🎨🏭 ✅🥫🔩 ✅🟫 ✅⚗️</msg>",
+      "delivered": "❌🧂❌🧪 ✅🟡🦨 ✅🧲🔩 ✅🚰🎨🏭 ✅🥫🔩 ✅🟫 ✅⚗️",
+      "dropped_chars": 14,
+      "retried": false,
+      "guesser": "The new clues are: yellow, smelly (🦨, likely sulfur), iron-containing (🧲🔩), brown, used in water treatment and dyeing, and in an industrial setting. The sulfur smell and iron content suggest a sulfur-iron compound. Ferrous sulfate is used in water treatment, as a mordant in dyeing, and it oxidizes to a yellowish-brown, so I'll try that.\n\nGUESS: Ferrous sulfate",
+      "guess": "Ferrous sulfate",
+      "correct": false
+    },
+    {
+      "turn": 6,
+      "explainer_raw": "<msg>❌🟢 ✅🟠⬆️ oxidized 🟠🟫 ✅🧲🔩 ✅🧪💧 solution ✅🏭🥫🔩 ✅🎨🧵 ✅🚰🧹 ✅🟡🦨 sulfate</msg>",
+      "delivered": "❌🟢 ✅🟠⬆️ 🟠🟫 ✅🧲🔩 ✅🧪💧 ✅🏭🥫🔩 ✅🎨🧵 ✅🚰🧹 ✅🟡🦨",
+      "dropped_chars": 23,
+      "retried": false,
+      "guesser": "The new clues are: not green, orange-brown, iron-containing, dissolves in water, used in water treatment and dyeing, and associated with a sulfur smell. Ferric sulfate matches these: it's yellow-orange, contains iron and sulfate, is used as a water-treatment coagulant and as a dye mordant.\n\nGUESS: Ferric sulfate",
+      "guess": "Ferric sulfate",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "d681571e-d957-472a-82cb-f2276250b3e0",
+    "guesser": "d1fa60b9-4b9a-48fb-b2e9-906de7f7c723"
+  },
+  "ladder": {
+    "article_no": 2,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": "runs/20261027-150551-haiku/game-02.json"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

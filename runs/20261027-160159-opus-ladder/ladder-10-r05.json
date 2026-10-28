@@ -1,0 +1,123 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Accord Pond",
+    "description": "Lake in Massachusetts, USA",
+    "extract": "Accord Pond is a 100-acre (0.40 km2) reservoir in Hingham, Norwell and Rockland, Massachusetts. The reservoir is located off Route 228 at its terminus with Route 3. The reservoir is visible from Route 3 northbound at Exit 14, the Route 228 off-ramp. The reservoir is a Class A source of water supply for the town of Hingham and Hull Ma. The outflow of the reservoir is Accord Brook, a tributary of the Weir River.",
+    "url": "https://en.wikipedia.org/wiki/Accord_Pond"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "max_turns": 30,
+  "seconds": 541.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 6075,
+      "cache_read_input_tokens": 15706,
+      "output_tokens": 4775,
+      "thinking_tokens": 4050,
+      "cost_usd": 0.1504544,
+      "calls": 5,
+      "cost_usd_reported": 0.46677460000000004
+    },
+    "guesser": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 5414,
+      "cache_read_input_tokens": 7455,
+      "output_tokens": 6468,
+      "thinking_tokens": 5610,
+      "cost_usd": 0.175726,
+      "calls": 5,
+      "cost_usd_reported": 0.3855372
+    },
+    "judge": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 3518,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 20,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0007146,
+      "calls": 5
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Plan: \"Accord\" means agreement, and the handshake is banned, so I'll use a signed document (📄✒️) for it. The rowing boat (🚣) stands for a pond or lake, since the water emojis are banned.\n\n<msg>\n📄✒️ 🚣\n</msg>",
+      "delivered": "📄✒️ 🚣",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Paper + pen and rowing: my first read is **a writer who was also a rower** (or wrote about rowing). Other possibilities are a poem or document about rowing, or a rowing-related publication.\n\nQuestions:\n1. Is it a **person**? If yes, more ✒️ for writer, more 🚣 for rower.\n2. Roughly what era and country?\n\nGUESS: Steve Fairbairn",
+      "guess": "Steve Fairbairn",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "Their guess was a person. I need to say it's not a person but a place, and that it has a two-part name: an \"agreement\" word plus a \"water/lake\" word. I'll hint at Massachusetts with tea crates for the Boston Tea Party, since the banned list rules out the obvious ones.\n\n<msg>\n🚫🧑\n📌\n📄✒️🫂 ➕\n🚣\n☕📦\n</msg>",
+      "delivered": "🚫🧑\n📌\n📄✒️🫂\n🚣\n☕📦",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "➕"
+      ],
+      "retried": false,
+      "guesser": "Not a person. Reading it:\n- 📄✒️🫂 = signed + embrace → **Union / Pact / Alliance / Accord**\n- 🚣 = boat / rowing\n- ☕📦 = tea chests → **Boston Tea Party**, so **Boston**?\n\nThat suggests the Union Boat Club in Boston.\n\nGUESS: Union Boat Club",
+      "guess": "Union Boat Club",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "They listed \"Union / Pact / Alliance / Accord\" and Accord is right, so I'll mark the fourth option as the target. Then I'll say \"not a club\" and point to the water itself. I'm using a pouring jug with houses for a town water-supply reservoir, plus a highway for the view from Route 3.\n\n<msg>\n🚫🚫🚫🎯\n🚫🏢\n🚣 = 🫗🏘️\n🛣️👀\n</msg>",
+      "delivered": "🚫🚫🚫🎯\n🚫🏢\n🚣 🫗🏘️\n🛣️👀",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "So it's **not a building or organization**, but \"Union\" might be close. I'm now reading:\n- 🚣 = **Row** (the word, not rowing)\n- 🏘️ = row of houses / terrace\n- 🛣️👀 = it's a **street** or place you look along\n\nSo maybe a street called \"___ Row\". Is \"Union\" the right word, or a synonym like Pact, Concord or Treaty? Is ☕📦 the place (Boston via the tea chests) or part of the name?\n\nGUESS: Union Row",
+      "guess": "Union Row",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "\"Union\" is wrong, and the guesser now reads 🚣 as the word \"Row.\" To isolate \"Accord,\" I'll pair \"agreement\" with \"Japanese car,\" since Honda Accord fits both. I'll add fish and an otter to show the second word is a body of water, and pin the tea chests as the location.\n\n<msg>\n🚫\n📄✒️🫂 🏯🚖\n🚣🐠🦦\n☕📦📌\n</msg>",
+      "delivered": "🚫\n📄✒️🫂 🏯🚖\n🚣🐠🦦\n☕📦📌",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Reading:\n- 📄✒️🫂 = treaty of **friendship/amity**\n- 🚣🐠🦦 = **navigation** (waters)\n- ☕📦 = goods trade → **commerce**\n- 🏯🚖 = the parties: 🏯 Japan? 🚖 USA (yellow cab)?\n\nSo: a \"Treaty of Friendship/Amity, Commerce and Navigation\" between two countries. Who exactly is 🚖? Could you use flag-like hints or other clues for the two parties?\n\nGUESS: Treaty of Amity and Commerce (United States–Japan)",
+      "guess": "Treaty of Amity and Commerce (United States–Japan)",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "The guesser has drifted into treaties, so I'll reset. I'll draw a pond as blue squares ringed by trees, and pair the hug (\"agreement\") with the blue square to show the name is \"Agreement-word + Pond.\" The tea chests stay as the location.\n\n<msg>\n🔄🔄🔄\n🌲🌲🌲🌲🌲\n🌲🟦🟦🟦🌲\n🌲🟦🟦🟦🌲\n🌲🌲🌲🌲🌲\n\n📄✒️🫂 🟦\n☕📦📌\n</msg>",
+      "delivered": "🔄🔄🔄\n🌲🌲🌲🌲🌲\n🌲🟦🟦🟦🌲\n🌲🟦🟦🟦🌲\n🌲🌲🌲🌲🌲\n📄✒️🫂 🟦\n☕📦📌",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "OK, new reading:\n- Blue surrounded by trees = **a lake/pond/reservoir in a forest**\n- 🚣🐠🦦 = boating, fishing, wildlife on it\n- 🫗🏘️ (last turn) = supplies water to homes → **reservoir**?\n- 📄✒️🫂 🟦 = \"[Union/Treaty/Concord/Pact/Alliance/Peace] Lake\"\n- ☕📦📌 = important clue, but I can't decode it yet. Is it the location (Boston/tea chests) or part of the name (Tea? Chest? Box? Party? Liberty?)?\n\nGUESS: Union Reservoir",
+      "guess": "Union Reservoir",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": "e91019ed-647e-4262-8ba4-a74614835836",
+    "guesser": "42569bca-3b8f-4a83-b2a5-4f14f8c15851"
+  },
+  "ladder": {
+    "article_no": 10,
+    "round": 5,
+    "n_banned": 109,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

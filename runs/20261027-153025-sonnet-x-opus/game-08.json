@@ -1,0 +1,87 @@
+{
+  "model": "sonnet",
+  "model_id": "claude-sonnet-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Richmond Hill South",
+    "description": "Federal electoral district in Ontario, Canada",
+    "extract": "Richmond Hill South is a federal electoral district in Ontario, Canada, that has been represented in the House of Commons of Canada since 2004.",
+    "url": "https://en.wikipedia.org/wiki/Richmond_Hill_South"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 35.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 1922,
+      "cache_read_input_tokens": 2111,
+      "output_tokens": 418,
+      "thinking_tokens": 226,
+      "cost_usd": 0.0123102,
+      "calls": 3,
+      "cost_usd_reported": 0.024873
+    },
+    "guesser": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 2125,
+      "cache_read_input_tokens": 2412,
+      "output_tokens": 1338,
+      "thinking_tokens": 909,
+      "cost_usd": 0.044764799999999993,
+      "calls": 3,
+      "cost_usd_reported": 0.0936128
+    },
+    "judge": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 1413,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00028700000000000004,
+      "calls": 2
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇨🇦🍁🗳️🏛️📍🏙️⛰️🌹➡️⬇️🧭</msg>",
+      "delivered": "🇨🇦🍁🗳️🏛️📍🏙️⛰️🌹➡️⬇️🧭",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "You're pointing to a **Canadian electoral district**. The ⛰️ and 🌹 (wild rose) suggest it's in **Alberta**, so probably a provincial riding. ➡️⬇️🧭 looks like a direction such as South-East.\n\nQuestions:\n- Is it a provincial riding (Alberta Legislature) rather than a federal one?\n- Is the city Calgary 🏔️ or Edmonton?\n\nGUESS: Calgary-South East",
+      "guess": "Calgary-South East",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🇨🇦🍁🗳️🏛️🏙️⛰️🌹🇨🇦 ⬇️🧭 🍁🏛️ 🌳🏘️ 🏠🏡</msg>",
+      "delivered": "🇨🇦🍁🗳️🏛️🏙️⛰️🌹🇨🇦 ⬇️🧭 🍁🏛️ 🌳🏘️ 🏠🏡",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Still reading this as a **southern district of a Canadian city near the mountains**, residential and suburban (🌳🏘️🏠). The 🍁🏛️ may mean it's a **federal** riding (House of Commons).\n\nQuestions:\n- Federal or provincial? (🍁 = federal, 🌹 = provincial?)\n- Calgary or Edmonton?\n- Is the name just \"[City] South…\" or does it include a neighbourhood name?\n\nGUESS: Calgary Southeast",
+      "guess": "Calgary Southeast",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>👎🌹 👎🏔️ 🗼🏙️ ⬆️ 💰⛰️ ⬇️🧭 🍁🏛️👍</msg>",
+      "delivered": "👎🌹 👎🏔️ 🗼🏙️ ⬆️ 💰⛰️ ⬇️🧭 🍁🏛️👍",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "So it isn't Alberta. 🗼🏙️ is **Toronto** (CN Tower), and ⬆️ means north of it. 💰⛰️ = Rich + Hill, so **Richmond Hill**, ⬇️🧭 = South, and it's a federal riding.\n\nGUESS: Richmond Hill South",
+      "guess": "Richmond Hill South",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "fd18586a-564a-44a6-82a5-fcd3832f26d5",
+    "guesser": "8148fb99-99e5-4017-a3af-965163aff476"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

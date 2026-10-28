@@ -1,0 +1,110 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "UFC BJJ 2",
+    "description": "Martial arts event in 2025",
+    "extract": "UFC BJJ 2: Tackett vs. Canuto was a submission grappling event produced by UFC Brazilian Jiu-Jitsu. The event was held at the UFC Apex in Las Vegas, Nevada, United States, on July 31, 2025 and was streamed live on YouTube.",
+    "url": "https://en.wikipedia.org/wiki/UFC_BJJ_2"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 127.4,
+  "usage": {
+    "explainer": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 4949,
+      "cache_read_input_tokens": 9705,
+      "output_tokens": 3997,
+      "thinking_tokens": 3338,
+      "cost_usd": 0.12347000000000001,
+      "calls": 4,
+      "cost_usd_reported": 0.3267676
+    },
+    "guesser": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 5495,
+      "cache_read_input_tokens": 6798,
+      "output_tokens": 5180,
+      "thinking_tokens": 4331,
+      "cost_usd": 0.1503352,
+      "calls": 4,
+      "cost_usd_reported": 0.36498639999999993
+    },
+    "judge": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2101,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 12,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0004268000000000001,
+      "calls": 3
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Plan: I can't use the Brazil flag, the gi or the wrestling emoji. So I'll hint Brazil with its flag colors (🟩🟨🔵) and Japan with its map (🗾), giving \"Brazilian Jiu-Jitsu.\" A strong arm plus a white flag means \"submission/tap out.\" The 8-ball points to the octagon (UFC), and the two o'clock clock face stands for \"2.\"\n\n<msg>\n🟩🟨🔵 🗾 ⚔️\n🦾 🏳️\n🎱 🕑\n</msg>",
+      "delivered": "🟩🟨🔵 🗾 ⚔️\n🦾 🏳️\n🎱 🕑",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "**My reading:** 🟩🟨🔵 looks like Brazil's flag colors. Brazil + 🗾 Japan + ⚔️ war + 🦾 strength + 🏳️ surrender suggests Japanese-Brazilians who refused to believe Japan surrendered in WWII. That points to the Shindo Renmei / Kachigumi movement.\n\nI don't get 🎱 🕑 yet. Is it a number (8 and 2)? Something about time? If my guess is wrong, is the subject a person, a film, or an organization?\n\nGUESS: Shindo Renmei",
+      "guess": "Shindo Renmei",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "The guesser read it as WWII Japanese-Brazilians. I need to say \"not war\" and push hard toward a combat sport with joint locks, chokes and tapping out. Then hint the cage/octagon and \"event #2.\"\n\n<msg>\n🙅🪖\n🏅 🦾🦵🫁 🏳️\n🎱🔗 🎟️📹\n🕑\n</msg>",
+      "delivered": "🙅🪖\n🏅 🦾🦵🫁 🏳️\n🎱🔗 🎟️📹\n🕑",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Okay, not war and not army. I now read 🏅🦾🦵🫁🏳️ as a combat sport that ends by submission. Brazil + Japan + submission points to jiu-jitsu or MMA. 🎱🔗 might be \"black belt\", and 🎟️📹 sounds like pay-per-view or a ticketed, televised event.\n\nMy working idea: a Brazilian, or Japanese-Brazilian, BJJ black belt and MMA fighter who fought in Japan (PRIDE, DREAM, Shooto...).\n\nQuestions:\n1. Is the article about a person (a fighter) or an event?\n2. Does 🕑 mean \"two\", e.g. a two-time champion or an event numbered 2?\n3. Does 🗾 mean they fought in Japan, or that they have Japanese heritage?\n\nGUESS: Pride 2",
+      "guess": "Pride 2",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "The guesser now has jiu-jitsu and the \"event #2\" format. Next I'll confirm it's an event, not a person, and that 🕑 means 2. I'll also say \"no strikes,\" since this is pure grappling, not MMA, and steer toward a US promotion with a cage/octagon (UFC).\n\n<msg>\n🎟️👌 🙅🧔\n🕑👌\n🙅🤛🦶\n🎱🔗 🗽🌵\n</msg>",
+      "delivered": "🎟️👌 🙅🧔\n🕑👌\n🙅🤛🦶\n🎱🔗 🗽🌵",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Got it: an event (not a person), the second edition, and pure grappling with no punches or kicks. With 🟩🟨🔵 vs 🗾, it sounds like a submission-grappling event series pitting Brazil against Japan, or one with both involved.\n\nCandidates I'm considering: Quintet 2 (Sakuraba's team grappling in Japan), Metamoris 2, EBI 2. I don't understand 🎱🔗 🗽🌵 yet. Is 🗽🌵 \"USA\"/\"America\", meaning the event series is American, or held in the US? Is 🎱🔗 part of the event's name?\n\nGUESS: Quintet 2",
+      "guess": "Quintet 2",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "The guesser has \"second edition of a grappling event series\" but hasn't decoded 🎱🔗. I'll confirm it's US/Vegas and use a label to show the title's structure: [octagon/cage promotion] + [Brazilian Jiu-Jitsu] + [2]. A bald man next to the 8-sided cage nudges toward Dana White, so UFC.\n\n<msg>\n🗽🌵👌\n🏷️ 🎱🔗 🟩🟨🔵🗾 🕑\n👨‍🦲🎱🔗\n</msg>",
+      "delivered": "🗽🌵👌\n🏷️ 🎱🔗 🟩🟨🔵🗾 🕑\n👨‍🦲🎱🔗",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I've got it now:\n- 🎱🔗 is the octagon with its chain-link cage, so it means UFC (and 👨‍🦲🎱🔗 is Dana White).\n- 🟩🟨🔵🗾 means Brazilian Jiu-Jitsu.\n- 🕑 means 2.\n\nSo the title would be \"UFC BJJ 2\". If the exact title is longer, tell me.\n\nGUESS: UFC BJJ 2",
+      "guess": "UFC BJJ 2",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "d75b36af-42db-40af-8887-517cc66234a4",
+    "guesser": "d9f4c1ec-5fb6-4733-8ae1-4f0f66601968"
+  },
+  "ladder": {
+    "article_no": 5,
+    "round": 2,
+    "n_banned": 55,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

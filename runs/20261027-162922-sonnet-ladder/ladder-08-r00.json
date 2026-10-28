@@ -1,0 +1,191 @@
+{
+  "model": "sonnet",
+  "model_id": "claude-sonnet-5-5",
+  "effort": null,
+  "article": {
+    "title": "Richmond Hill South",
+    "description": "Federal electoral district in Ontario, Canada",
+    "extract": "Richmond Hill South is a federal electoral district in Ontario, Canada, that has been represented in the House of Commons of Canada since 2004.",
+    "url": "https://en.wikipedia.org/wiki/Richmond_Hill_South"
+  },
+  "solved": true,
+  "turns_taken": 13,
+  "solved_turn": 13,
+  "max_turns": 30,
+  "seconds": 162.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 50,
+      "cache_creation_input_tokens": 4501,
+      "cache_read_input_tokens": 30059,
+      "output_tokens": 1764,
+      "thinking_tokens": 813,
+      "cost_usd": 0.0417558,
+      "calls": 13,
+      "cost_usd_reported": 0.2792557
+    },
+    "guesser": {
+      "input_tokens": 50,
+      "cache_creation_input_tokens": 7876,
+      "cache_read_input_tokens": 46220,
+      "output_tokens": 6100,
+      "thinking_tokens": 5363,
+      "cost_usd": 0.101848,
+      "calls": 13,
+      "cost_usd_reported": 0.6332593999999999
+    },
+    "judge": {
+      "input_tokens": 24,
+      "cache_creation_input_tokens": 8515,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 126,
+      "thinking_tokens": 78,
+      "cost_usd": 0.0017684,
+      "calls": 12
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇨🇦🗳️🏛️ 🌹⛰️ ⬇️🧭 🏙️🌳</msg>",
+      "delivered": "🇨🇦🗳️🏛️ 🌹⛰️ ⬇️🧭 🏙️🌳",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Canada, voting and a parliament building point to an electoral district. Rose plus mountain suggests Rosemont, and the down arrow with the compass suggests a southern part. The city and tree might be Montreal.\n\nGUESS: Rosemont—La Petite-Patrie",
+      "guess": "Rosemont—La Petite-Patrie",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🍁 🅾️ 👎 🌹⛰️ 🔄 🏙️ 🇨🇦 🗳️ 🧭⬇️ 🚗🛣️ 🏘️ 🏞️ 🔴🌹⛰️ 🔴 ➡️ 🌹⛰️ 🏔️ 🏙️ 🌱🏔️ 🔚</msg>",
+      "delivered": "🍁 👎 🌹⛰️ 🔄 🏙️ 🇨🇦 🗳️ 🧭⬇️ 🚗🛣️ 🏘️ 🏞️ 🔴🌹⛰️ 🔴 ➡️ 🌹⛰️ 🏔️ 🏙️ 🌱🏔️",
+      "dropped_chars": 2,
+      "retried": false,
+      "guesser": "The explainer keeps repeating Rosemont, so I think the district is an older or provincial Rosemont rather than the combined one I guessed.\n\nGUESS: Rosemont (federal electoral district)",
+      "guess": "Rosemont (federal electoral district)",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🇨🇦 🗳️ 🍁 🌹 ⛰️ 🏔️ 🌹⛰️ 👍 🅾️ 🔴🌹⛰️ ⬇️🧭 🏙️🌳 🌹🏔️ ➡️ 🌳🏔️ 🏙️ 🌱</msg>",
+      "delivered": "🇨🇦 🗳️ 🍁 🌹 ⛰️ 🏔️ 🌹⛰️ 👍 🔴🌹⛰️ ⬇️🧭 🏙️🌳 🌹🏔️ ➡️ 🌳🏔️ 🏙️ 🌱",
+      "dropped_chars": 1,
+      "retried": false,
+      "guesser": "GUESS: Rosemont (provincial electoral district)",
+      "guess": "Rosemont (provincial electoral district)",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>👎🌹 💰🤑 ⛰️ ⬇️🧭 🗼 ⬆️🏘️ 🇨🇦🗳️</msg>",
+      "delivered": "👎🌹 💰🤑 ⛰️ ⬇️🧭 🗼 ⬆️🏘️ 🇨🇦🗳️",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Not the rose. Money plus mountain could be \"Rich\" plus \"mont\", and the tower might be Toronto's CN Tower. Is the district in Toronto, and does the name include \"Richmond\"?\n\nGUESS: Richmond Hill (federal electoral district)",
+      "guess": "Richmond Hill (federal electoral district)",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>👍 ⬇️🧭 🔥 ⛰️💰 ⬇️🧭 🗳️ 🇨🇦</msg>",
+      "delivered": "👍 ⬇️🧭 🔥 ⛰️💰 ⬇️🧭 🗳️ 🇨🇦",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Fire, then south, fits \"Burnaby South\". The tower might be Metrotown.\n\nGUESS: Burnaby South",
+      "guess": "Burnaby South",
+      "correct": false
+    },
+    {
+      "turn": 6,
+      "explainer_raw": "<msg>👍 💰⛰️ 🔥 ⬇️🧭 🔥 🗼⬆️🏘️ 🍁 🗳️ 🔥 ❌🏙️🌳 ❌🌹</msg>",
+      "delivered": "👍 💰⛰️ 🔥 ⬇️🧭 🔥 🗼⬆️🏘️ 🍁 🗳️ 🔥 ❌🏙️🌳 ❌🌹",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "GUESS: Burnaby Mountain",
+      "guess": "Burnaby Mountain",
+      "correct": false
+    },
+    {
+      "turn": 7,
+      "explainer_raw": "<msg>↗️ 💰⛰️ ➕ ⬇️🧭 🗳️ 🍁🗼⬆️</msg>",
+      "delivered": "↗️ 💰⛰️ ➕ ⬇️🧭 🗳️ 🍁🗼⬆️",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "The money-plus-mountain emojis might point to Richmond, BC, and the arrows might indicate a south or centre variant. This is a guess.\n\nGUESS: Richmond Centre",
+      "guess": "Richmond Centre",
+      "correct": false
+    },
+    {
+      "turn": 8,
+      "explainer_raw": "<msg>👎🌴 👎🌊 🗼 ⬆️ 🏘️ 💰⛰️ ⬇️🧭 🗳️ 🇨🇦 🍁</msg>",
+      "delivered": "👎🌴 👎🌊 🗼 ⬆️ 🏘️ 💰⛰️ ⬇️🧭 🗳️ 🇨🇦 🍁",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Hamilton is on the US $10 bill, so money plus mountain fits Hamilton Mountain.\n\nGUESS: Hamilton Mountain",
+      "guess": "Hamilton Mountain",
+      "correct": false
+    },
+    {
+      "turn": 9,
+      "explainer_raw": "<msg>💰 🌕 ⛰️ ⬇️🧭 🗼⬆️ 🗳️</msg>",
+      "delivered": "💰 🌕 ⛰️ ⬇️🧭 🗼⬆️ 🗳️",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "GUESS: Mount Royal",
+      "guess": "Mount Royal",
+      "correct": false
+    },
+    {
+      "turn": 10,
+      "explainer_raw": "<msg>💰 🌍 ⛰️ ⬇️🧭 🗳️ 🇨🇦 🗼⬆️🏘️ 🏞️ ✅1️⃣ </msg>",
+      "delivered": "💰 🌍 ⛰️ ⬇️🧭 🗳️ 🇨🇦 🗼⬆️🏘️ 🏞️ ✅",
+      "dropped_chars": 2,
+      "retried": false,
+      "guesser": "Money, moon or earth, mountain, south, and a tower above houses with a park. I can't settle on a name. Is the first word of the district name a person's name or a place name? If it's an English word, is it \"Hamilton\" or something near it?\n\nGUESS: Hamilton Centre",
+      "guess": "Hamilton Centre",
+      "correct": false
+    },
+    {
+      "turn": 11,
+      "explainer_raw": "<msg>🏙️ 👍 ⛰️ 👍 💰 👍 ⬇️🧭 👍 ✋ 🗼⬆️ 👍 🇨🇦🗳️</msg>",
+      "delivered": "🏙️ 👍 ⛰️ 👍 💰 👍 ⬇️🧭 👍 ✋ 🗼⬆️ 👍 🇨🇦🗳️",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Hamilton is a city and on the $10 bill, and the mountain is Hamilton's escarpment. My earlier guess may have been the wrong article, so this tries the provincial one.\n\nGUESS: Hamilton Mountain (provincial electoral district)",
+      "guess": "Hamilton Mountain (provincial electoral district)",
+      "correct": false
+    },
+    {
+      "turn": 12,
+      "explainer_raw": "<msg>👎🔟💵 👎🏭 💰 🌝 ⛰️ ⬇️🧭 🗳️ 🗼⬆️</msg>",
+      "delivered": "👎💵 👎🏭 💰 🌝 ⛰️ ⬇️🧭 🗳️ 🗼⬆️",
+      "dropped_chars": 1,
+      "retried": false,
+      "guesser": "The moon might stand for \"Lune\", as in Lunenburg, in Nova Scotia. This is a low-confidence guess.\n\nGUESS: Lunenburg West",
+      "guess": "Lunenburg West",
+      "correct": false
+    },
+    {
+      "turn": 13,
+      "explainer_raw": "<msg>💰🌝⛰️ 👍👍 ➕ ⬇️🧭 ➕ 🗳️ 🇨🇦 🍁 🗼⬆️</msg>",
+      "delivered": "💰🌝⛰️ 👍👍 ➕ ⬇️🧭 ➕ 🗳️ 🇨🇦 🍁 🗼⬆️",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Rich, moon and hill give \"Richmond Hill\". The south arrow suggests the newer Richmond Hill South riding.\n\nGUESS: Richmond Hill South",
+      "guess": "Richmond Hill South",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "c1077477-69b2-412f-8873-39bc9cfb7d37",
+    "guesser": "0e3a0a46-4143-40b8-8c38-b8f377321b55"
+  },
+  "ladder": {
+    "article_no": 8,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": "runs/20261027-150551-sonnet/game-08.json"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

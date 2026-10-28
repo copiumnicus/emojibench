@@ -1,0 +1,62 @@
+{
+  "model": "sonnet",
+  "model_id": "claude-sonnet-5-5",
+  "effort": null,
+  "article": {
+    "title": "Franco Cozzo",
+    "description": "Australian businessman (1935–2023)",
+    "extract": "Franco Cozzo was an Italian-Australian businessman. After moving to Melbourne from Sicily in 1955, Cozzo became known for his television advertisements, in which he would speak in English, Greek, and Italian. He later produced Australia's first non-English TV show, Carosello, which was broadcast in Italian.",
+    "url": "https://en.wikipedia.org/wiki/Franco_Cozzo"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "max_turns": 30,
+  "seconds": 8.2,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1136,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 64,
+      "thinking_tokens": 0,
+      "cost_usd": 0.005188,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 922,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 377,
+      "thinking_tokens": 294,
+      "cost_usd": 0.007462,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇮🇹➡️🇦🇺 🛋️🪑🛏️ 📺🗣️ 👨‍💼🧔 🏙️🦘</msg>",
+      "delivered": "🇮🇹➡️🇦🇺 🛋️🪑🛏️ 📺🗣️ 👨‍💼🧔 🏙️🦘",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "The clues point to an Italian-born furniture seller in Australia who was known for his TV ads. My best match is Franco Cozzo, the Melbourne \"furniture king\". Nick Scali is another possibility.\n\nGUESS: Franco Cozzo",
+      "guess": "Franco Cozzo",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "fca57d12-b648-49c9-824e-ee9de50eeffd",
+    "guesser": "06ce6c38-c16d-4cdf-8d4f-60e7d372a521"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

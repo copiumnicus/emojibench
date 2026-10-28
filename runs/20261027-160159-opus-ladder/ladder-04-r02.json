@@ -1,0 +1,97 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Mike Pieciak",
+    "description": "American politician (born 1983)",
+    "extract": "Michael Sullivan Pieciak is an American politician from Vermont. A member of the Democratic Party, Pieciak has served as Vermont State Treasurer since January 2023.",
+    "url": "https://en.wikipedia.org/wiki/Mike_Pieciak"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": null,
+  "max_turns": 30,
+  "seconds": 105.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 3506,
+      "cache_read_input_tokens": 4700,
+      "output_tokens": 2914,
+      "thinking_tokens": 2687,
+      "cost_usd": 0.08824800000000001,
+      "calls": 3,
+      "cost_usd_reported": 0.1717384
+    },
+    "guesser": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 5280,
+      "cache_read_input_tokens": 3076,
+      "output_tokens": 4408,
+      "thinking_tokens": 3723,
+      "cost_usd": 0.1316704,
+      "calls": 3,
+      "cost_usd_reported": 0.2591662
+    },
+    "judge": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 1402,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0002848,
+      "calls": 2
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🧤👴 🏂 🍨 🍂❄️\n🏴‍☠️💎💲 👤 💙\n🗣️ 🧩 🐃\n</msg>",
+      "delivered": "🧤👴 🏂 🍨 🍂❄️\n🏴‍☠️💎💲 👤 💙\n🗣️ 🧩 🐃",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Here's my reading:\n- Line 1: everything is cold (glove, snowboard, ice cream, winter). So the theme is maybe \"Ice\", \"Frost\" or \"Cold\". 🧤👴 could be \"Old Man\" or Jack Frost.\n- Line 2: 💎 might be slang for \"ice\". 🏴‍☠️💲 could be loot or treasure. 💙 = Blue?\n- Line 3: 🗣️ might be a rapper or a language. 🐃 might be Buffalo, NY.\n\nMy hypothesis is a rapper from Buffalo whose name is something like \"Ice\" or \"Frost\".\n\nIs this a person? A musician? Please send a category emoji (👤🎵🏙️🎬🐾).\n\nGUESS: Jack Frost",
+      "guess": "Jack Frost",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n👤 ✅  🎵 ❌\n🗽💼💙\n💚🗻 = 📍\n🏴‍☠️💎👉👤 📒💲\n🗣️ 🧩 🐃\n</msg>",
+      "delivered": "👤 ✅ 🎵 ❌\n🗽💼💙\n💚🗻 📍\n🏴‍☠️💎👉👤 📒💲\n🗣️ 🧩 🐃",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "My reading so far:\n- 👤 = a person, not a musician.\n- 🗽💼💙 = New York, business or politics, maybe a Democrat.\n- 💚🗻📍 = Green Mountain, so Vermont (birthplace?).\n- 🏴‍☠️💎👉👤 = \"treasure + person\", so TREASURER. 📒💲 = bookkeeping or money.\n- 🗣️🧩🐃 = something with Buffalo (Assembly? Speaker?).\n\nSo I'm thinking of a New York State Treasurer (or Buffalo city treasurer), possibly born in Vermont, 19th century?\n\nQuestions:\n1. Is line 1 (all the cold things) the surname, like Frost, Snow, Winter or Cold? Please spell it out with sound-alikes.\n2. Is it New York **State** Treasurer? (✅/❌)\n3. Is the era the 1800s? (👍/👎)\n\nGUESS: Elbridge G. Spaulding",
+      "guess": "Elbridge G. Spaulding",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n❄️❌\n🗽❌  💚🗻✅✅\n💚🗻 🏴‍☠️💎👉👤 ✅\n🕰️❌  📱✅\n🗣️ 🫛🐥\n</msg>",
+      "delivered": "❄️❌\n🗽❌ 💚🗻✅✅\n💚🗻 🏴‍☠️💎👉👤 ✅\n🕰️❌ 📱✅\n🗣️ 🫛🐥",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Got it. Vermont is the Green Mountain State, and the cold things are Vermont imagery. So this is a current Vermont State Treasurer and a Democrat (💙). 🫛🐥 \"pea-chick\" sounds like Pieciak!\n\nGUESS: Mike Pieciak",
+      "guess": "Mike Pieciak",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "c9cccfb8-76c8-4a53-b057-a02cf786158e",
+    "guesser": "173512c5-4e71-4980-b5e9-203f648606f7"
+  },
+  "ladder": {
+    "article_no": 4,
+    "round": 2,
+    "n_banned": 44,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

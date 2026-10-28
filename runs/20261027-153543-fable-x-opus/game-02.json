@@ -1,0 +1,65 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Iron(III) sulfate",
+    "description": "Chemical compound",
+    "extract": "Iron(III) sulfate or ferric sulfate is a family of inorganic compounds with the formula Fe2(SO4)3(H2O)n. A variety of hydrates are known, including the most commonly encountered form of \"ferric sulfate\". Solutions are used in dyeing as a mordant and as a coagulant for industrial wastes. Solutions of ferric sulfate are also used in the processing of aluminum and steel.",
+    "url": "https://en.wikipedia.org/wiki/Iron(III)_sulfate"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 32.2,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1190,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1748,
+      "thinking_tokens": 1624,
+      "cost_usd": 0.11122000000000001,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 980,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 396,
+      "thinking_tokens": 206,
+      "cost_usd": 0.015767999999999997,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🧪⚗️\n🧲➕➕➕ 🌋🟡🫧🫧🫧🫧➖➖\n🧲🧲 🌋🫧🫧🫧🫧 🌋🫧🫧🫧🫧 🌋🫧🫧🫧🫧\n🎨🧵 🏭💧🧹\n</msg>",
+      "delivered": "🧪⚗️\n🧲➕➕➕ 🌋🟡🫧🫧🫧🫧➖➖\n🧲🧲 🌋🫧🫧🫧🫧 🌋🫧🫧🫧🫧 🌋🫧🫧🫧🫧\n🎨🧵 🏭💧🧹",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Reading the emojis as a chemistry formula:\n- 🧲➕➕➕ = Fe³⁺ (magnet → iron)\n- 🌋🟡🫧🫧🫧🫧➖➖ = SO₄²⁻ (sulfur plus 4 oxygens, charge 2−)\n- 🧲🧲 + three sulfate groups = Fe₂(SO₄)₃\n- 🎨🧵 🏭💧🧹 = used as a mordant in dyeing and in water treatment\n\nGUESS: Iron(III) sulfate",
+      "guess": "Iron(III) sulfate",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "8b10fbfc-e90e-4ca3-8cea-55ff78c281c7",
+    "guesser": "d6c19fcb-92a3-4ca0-bee0-cd84130a04c1"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

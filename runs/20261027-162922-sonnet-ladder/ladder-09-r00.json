@@ -1,0 +1,171 @@
+{
+  "model": "sonnet",
+  "model_id": "claude-sonnet-5-5",
+  "effort": null,
+  "article": {
+    "title": "Jovan Hadži-Vasiljević",
+    "description": "Serbian historian, ethnographer, journalist and writer",
+    "extract": "Jovan Hadži-Vasiljević was a Serbian historian, ethnographer, journalist and writer.",
+    "url": "https://en.wikipedia.org/wiki/Jovan_Had%C5%BEi-Vasiljevi%C4%87"
+  },
+  "solved": true,
+  "turns_taken": 11,
+  "solved_turn": 11,
+  "max_turns": 30,
+  "seconds": 114.9,
+  "usage": {
+    "explainer": {
+      "input_tokens": 42,
+      "cache_creation_input_tokens": 3786,
+      "cache_read_input_tokens": 20585,
+      "output_tokens": 1288,
+      "thinking_tokens": 581,
+      "cost_usd": 0.032225000000000004,
+      "calls": 11,
+      "cost_usd_reported": 0.1858993
+    },
+    "guesser": {
+      "input_tokens": 42,
+      "cache_creation_input_tokens": 4190,
+      "cache_read_input_tokens": 23731,
+      "output_tokens": 2643,
+      "thinking_tokens": 2035,
+      "cost_usd": 0.0480202,
+      "calls": 11,
+      "cost_usd_reported": 0.279823
+    },
+    "judge": {
+      "input_tokens": 20,
+      "cache_creation_input_tokens": 7186,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 40,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0014592,
+      "calls": 10
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇷🇸👨‍🎓📜🖋️📰🏺🗺️</msg>",
+      "delivered": "🇷🇸👨‍🎓📜🖋️📰🏺🗺️",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Serbia, scholar, writing, newspaper, ancient pottery, map. It could be a Serbian archaeologist, historian, or geographer. Is the subject a person? Were they active in the 19th or early 20th century?\n\nGUESS: Miloje Vasić",
+      "guess": "Miloje Vasić",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👍 👍 🕰️ 📜 📰 🇷🇸 🏔️ 🧵 🪆</msg>",
+      "delivered": "👍 👍 🕰️ 📜 📰 🇷🇸 🏔️ 🧵 🪆",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Person, historical era, Serbia, mountains, and folk textiles or dolls, so probably an ethnographer or geographer. Is the person Serbian, or a foreigner who studied Serbia?\n\nGUESS: Jovan Cvijić",
+      "guess": "Jovan Cvijić",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>👍 🇷🇸 📜 📚 ⚔️ 🏰 📰 🖋️ 🔥</msg>",
+      "delivered": "👍 🇷🇸 📜 📚 ⚔️ 🏰 📰 🖋️ 🔥",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Serbian writer or historian, newspaper, wars, castles. Which century are we in: 18th, 19th, or 20th?\n\nGUESS: Dimitrije Davidović",
+      "guess": "Dimitrije Davidović",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🔥 🕰️ 2️⃣0️⃣ 🌍 🇲🇰 🏔️ 🏛️ 📜 👨‍🎓</msg>",
+      "delivered": "🔥 🕰️ 🌍 🇲🇰 🏔️ 🏛️ 📜 👨‍🎓",
+      "dropped_chars": 4,
+      "retried": false,
+      "guesser": "Macedonia, mountains, fire, a building, and a scholar. Did the person die in a fire, or was it a fire at a library or institution? Which period is this, and is it a city or a place article?\n\nGUESS: Stojan Novaković",
+      "guess": "Stojan Novaković",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>👎 🔥 👍 👨‍🏫 🇲🇰 🇷🇸 🇧🇬 ⚔️ 📖 📰 🕰️ 🔟 9️⃣</msg>",
+      "delivered": "👎 🔥 👍 👨‍🏫 🇲🇰 🇷🇸 🇧🇬 ⚔️ 📖 📰 🕰️",
+      "dropped_chars": 3,
+      "retried": false,
+      "guesser": "Teacher, Macedonia, Serbia/Bulgaria disputes, a book, and a newspaper. This could be a Macedonian national figure of the 19th–20th century.\n\nGUESS: Krste Petkov Misirkov",
+      "guess": "Krste Petkov Misirkov",
+      "correct": false
+    },
+    {
+      "turn": 6,
+      "explainer_raw": "<msg>👎 🇲🇰 👍 🇷🇸 👨‍🎓 📖 🏔️ 🗺️ 🏺 📰 🇷🇸 ❤️</msg>",
+      "delivered": "👎 🇲🇰 👍 🇷🇸 👨‍🎓 📖 🏔️ 🗺️ 🏺 📰 🇷🇸 ❤️",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "GUESS: Mihailo Valtrović",
+      "guess": "Mihailo Valtrović",
+      "correct": false
+    },
+    {
+      "turn": 7,
+      "explainer_raw": "<msg>👎 👍 🕋 👨‍🎓 🏔️ 🇷🇸 📜 📰 🖋️ 🧵</msg>",
+      "delivered": "👎 👍 🕋 👨‍🎓 🏔️ 🇷🇸 📜 📰 🖋️ 🧵",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "GUESS: Gliša Elezović",
+      "guess": "Gliša Elezović",
+      "correct": false
+    },
+    {
+      "turn": 8,
+      "explainer_raw": "<msg>🕋 🙏 🧔 👨 🇷🇸 📜 🖋️ 📰 👍 🔥</msg>",
+      "delivered": "🕋 🙏 🧔 👨 🇷🇸 📜 🖋️ 📰 👍 🔥",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Is the person a Muslim, perhaps a cleric or a scholar of Islam? I'm guessing an orientalist.\n\nGUESS: Fehim Bajraktarević",
+      "guess": "Fehim Bajraktarević",
+      "correct": false
+    },
+    {
+      "turn": 9,
+      "explainer_raw": "<msg>👎 ☦️ ⛪ 🚶 ✝️ 👍 🇷🇸 📜 🖋️ 📰 🏺 🇲🇰</msg>",
+      "delivered": "👎 ☦️ ⛪ 🚶 ✝️ 👍 🇷🇸 📜 🖋️ 📰 🏺 🇲🇰",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Orthodox Christian, church, a traveler or pilgrim, manuscripts, newspaper, antiquities, Serbia and Macedonia. Is he a priest, monk, or bishop who traveled and collected manuscripts?\n\nGUESS: Viktor Grigorovich",
+      "guess": "Viktor Grigorovich",
+      "correct": false
+    },
+    {
+      "turn": 10,
+      "explainer_raw": "<msg>👎 ⛪ 👎 🧔 👍 🇷🇸 👨‍🏫 📖 🕰️ 1️⃣9️⃣ 👶 🏔️ 🗺️ 🏞️ 🧵 🪕 👗 🏡</msg>",
+      "delivered": "👎 ⛪ 👎 🧔 👍 🇷🇸 👨‍🏫 📖 🕰️ 👶 🏔️ 🗺️ 🏞️ 🧵 🪕 👗 🏡",
+      "dropped_chars": 4,
+      "retried": false,
+      "guesser": "GUESS: Tihomir Đorđević",
+      "guess": "Tihomir Đorđević",
+      "correct": false
+    },
+    {
+      "turn": 11,
+      "explainer_raw": "<msg>🔥 👨‍🏫 ⬇️ 🇷🇸 🏙️ 🇲🇰 📰 📖 ⚔️ 🇧🇬 🕰️ 🦅 🔟 🔟</msg>",
+      "delivered": "🔥 👨‍🏫 ⬇️ 🇷🇸 🏙️ 🇲🇰 📰 📖 ⚔️ 🇧🇬 🕰️ 🦅",
+      "dropped_chars": 2,
+      "retried": false,
+      "guesser": "GUESS: Jovan Hadži-Vasiljević",
+      "guess": "Jovan Hadži-Vasiljević",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "6eb13400-ac82-45cf-a89e-e5ed6f14d139",
+    "guesser": "90db72bf-202f-43dd-9a9d-932eeb5aad65"
+  },
+  "ladder": {
+    "article_no": 9,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": "runs/20261027-150551-sonnet/game-09.json"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

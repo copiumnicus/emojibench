@@ -1,0 +1,77 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Jakob von Washington",
+    "description": "Bavarian general (1778–1848)",
+    "extract": "\nBaron Jacobus von Washington was a lieutenant general in the Bavarian Army and a distant relative of US President George Washington. Born in The Hague, Netherlands, he was christened James Washington. Most of his adult life was shaped by his participation in wars for and against Napoleonic France and his service to Ludwig I of Bavaria.",
+    "url": "https://en.wikipedia.org/wiki/Jakob_von_Washington"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 35.8,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1959,
+      "cache_read_input_tokens": 1145,
+      "output_tokens": 719,
+      "thinking_tokens": 509,
+      "cost_usd": 0.030534,
+      "calls": 2,
+      "cost_usd_reported": 0.048992999999999995
+    },
+    "guesser": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 2070,
+      "cache_read_input_tokens": 959,
+      "output_tokens": 1248,
+      "thinking_tokens": 997,
+      "cost_usd": 0.104799,
+      "calls": 2,
+      "cost_usd_reported": 0.17207974999999998
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 703,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0001428,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🍒🪓💵🇺🇸 🧬➡️👨 🇳🇱👶 ➡️ 🥨🍺🏰 🎖️⚔️ 🆚🇫🇷 👑\n</msg>",
+      "delivered": "🍒🪓💵🇺🇸 🧬➡️👨 🇳🇱👶 ➡️ 🥨🍺🏰 🎖️⚔️ 🇫🇷 👑",
+      "dropped_chars": 1,
+      "retried": false,
+      "guesser": "Let me decode: 🍒🪓💵🇺🇸 = George Washington. 🧬➡️👨 = a relative/descendant of him? Born in the Netherlands 🇳🇱👶, moved to Germany/Bavaria 🥨🍺🏰, became a military officer 🎖️⚔️, and something with a French king 🇫🇷👑 (served him? fought against him?).\n\nQuestions: Is the person a relative of George Washington (surname Washington)? Is the Germany part specifically Bavaria? Did he serve the French king or fight against France?\n\nGUESS: Jakob Washington",
+      "guess": "Jakob Washington",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "The guess was nearly right but is missing the noble \"von\" particle, so I'll confirm the person and hint at the nobility title between the names.\n\n<msg>\n👍👍👍 🔥🔥🔥 🤏\n🎩👑🏰 ➡️ ✍️ 🧑 ➕ 🎩 ➕ 🍒🪓🇺🇸\n</msg>",
+      "delivered": "👍👍👍 🔥🔥🔥 🤏\n🎩👑🏰 ➡️ ✍️ 🧑 ➕ 🎩 ➕ 🍒🪓🇺🇸",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Got it — the title includes the noble particle: \"[Name] von Washington\". Since you said I was very close:\n\nGUESS: Jakob von Washington",
+      "guess": "Jakob von Washington",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "4f49cfd7-b95f-46c6-9a4b-6bdbf4d22abb",
+    "guesser": "d8fcfb8e-0598-496c-8f10-49788c8d821f"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

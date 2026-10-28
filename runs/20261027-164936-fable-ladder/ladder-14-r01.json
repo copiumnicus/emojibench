@@ -1,0 +1,75 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Philadelphia Commercial Museum",
+    "description": "Former museum in Pennsylvania, USA",
+    "extract": "The Philadelphia Commercial Museum was established in Philadelphia, Pennsylvania in 1895. Its permanent home was a neo-classical building situated at 34th Street and Civic Center Blvd, erected as part of the 1899 National Export Exposition. The museum had business offices at 332 South Fourth Street.",
+    "url": "https://en.wikipedia.org/wiki/Philadelphia_Commercial_Museum"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 39.5,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 782,
+      "cache_read_input_tokens": 577,
+      "output_tokens": 951,
+      "thinking_tokens": 866,
+      "cost_usd": 0.06335425,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 998,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 968,
+      "thinking_tokens": 863,
+      "cost_usd": 0.06838,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🏙️👬❤️ 🧀🥯 🥊 🔑\n💰🤝🏭📈🌐📤🌾🧵\n🏢🗿📜🔍🧐\n⌛👻 🕰️\n</msg>",
+      "delivered": "🏙️👬❤️ 🧀🥯 🥊 🔑\n💰🤝🏭📈🌐📤🌾🧵\n🏢🗿📜🔍🧐\n⌛👻 🕰️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "First line reads as \"City of Brotherly Love\" = Philadelphia (cream cheese, Rocky, Franklin's key). Second line = commerce/trade/export. Third line = museum (building, statue, scroll, research). Last line = defunct/historical.\n\nGUESS: Philadelphia Commercial Museum",
+      "guess": "Philadelphia Commercial Museum",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "159450fe-1b81-4b7d-b07e-4ef9b8a08083",
+    "guesser": "73072411-ea39-4e4f-a69c-e303fbbd7391"
+  },
+  "ladder": {
+    "article_no": 14,
+    "round": 1,
+    "n_banned": 24,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

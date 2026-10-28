@@ -1,0 +1,121 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Iron(III) sulfate",
+    "description": "Chemical compound",
+    "extract": "Iron(III) sulfate or ferric sulfate is a family of inorganic compounds with the formula Fe2(SO4)3(H2O)n. A variety of hydrates are known, including the most commonly encountered form of \"ferric sulfate\". Solutions are used in dyeing as a mordant and as a coagulant for industrial wastes. Solutions of ferric sulfate are also used in the processing of aluminum and steel.",
+    "url": "https://en.wikipedia.org/wiki/Iron(III)_sulfate"
+  },
+  "solved": true,
+  "turns_taken": 5,
+  "solved_turn": 5,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 214.8,
+  "usage": {
+    "explainer": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 12587,
+      "cache_read_input_tokens": 36067,
+      "output_tokens": 10814,
+      "thinking_tokens": 10236,
+      "cost_usd": 0.3314748,
+      "calls": 5,
+      "cost_usd_reported": 1.3406558
+    },
+    "guesser": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 6117,
+      "cache_read_input_tokens": 10259,
+      "output_tokens": 5026,
+      "thinking_tokens": 4129,
+      "cost_usd": 0.1536316,
+      "calls": 5,
+      "cost_usd_reported": 0.45645379999999997
+    },
+    "judge": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2092,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 12,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00042500000000000003,
+      "calls": 3
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Turn 1: I'm setting up the theme. 🥽 means chemistry. Then come clues for iron (smithing, rails, rust colour, ♂ which is the alchemical symbol for iron) and clues for sulfur (rotten egg smell, yellow, gunpowder).\n\n<msg>\n🥽\n\n⚒️🛤️🟫♂️🔗\n\n🪺😖🌼💣\n</msg>",
+      "delivered": "🥽\n⚒️🛤️🟫♂️🔗\n🪺😖🌼💣",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "No guess yet. Here's what I'm reading so far:\n- 🥽 = goggles, maybe the category: a scientist/lab, welder, aviator, swimmer, or skier?\n- ⚒️🛤️🟫♂️🔗 = mining, railway, a man named Brown, and a link or chain. Maybe a miner or railway worker called Brown?\n- 🪺😖🌼💣 = nest, confused, daisy or flower, bomb. Possibly a rebus?\n\nQuestions:\n1. Is the article about a person? Answer 👍 or 👎.\n2. Is 🥽 the category? If so, give me one more emoji to narrow it down: 🧪 for scientist, ✈️ for aviator, 🏊 for swimmer, ⛷️ for skier.\n3. Is line 3 a word puzzle where I should read the emojis as sounds? 👍 or 👎.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "Turn 2: answering their questions. Their yes/no emojis are banned, so I'm using ⛔ for no.\n\n<msg>\n⛔🧑\n\n⛔✈️ ⛔🏊 ⛔⛷️\n\n⛔🔊\n</msg>",
+      "delivered": "⛔🧑\n⛔✈️ ⛔🏊 ⛔⛷️\n⛔🔊",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Not a person, and not sounds. Here's my new reading:\n- ♂️ is the alchemical symbol for iron (Mars).\n- 🟫 is rust or iron oxide.\n- 🛤️🔗 is rail welding.\n- 🥽 is welding goggles.\n- 💣 is incendiary bombs.\n\nThat all points to thermite or the thermite welding process. Is it a chemical or substance? Answer 👍 or 👎. And what are 🪺😖🌼 about?\n\nGUESS: Thermite",
+      "guess": "Thermite",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "Turn 3: they decoded iron. I'm confirming it's a chemical and iron, and adding garlic/onion to push line 3 towards sulfur.\n\n<msg>\n👌 🥽\n👌 ♂️\n\n🪺😖 🌼 💣 🧄🧅 ❓\n</msg>",
+      "delivered": "👌 🥽\n👌 ♂️\n🪺😖 🌼 💣 🧄🧅 ❓",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "🧄 together with ♂️ (iron) makes me think of garlic smell, which means arsenic. An iron arsenic mineral that smells of garlic is scorodite, whose name comes from the Greek for garlic. It's brown and found in mines. Another option is arsenopyrite, which smells of garlic when you hit it with a hammer ⚒️.\n\nIs it a mineral? 👍 or 👎?\n\nGUESS: Scorodite",
+      "guess": "Scorodite",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "Turn 4: they went to arsenic via garlic. I'm saying it's not a mineral and not garlic, and repeating the rotten egg clue for sulfur. I'm also adding the Somalia flag 🇸🇴, whose code \"SO\" hints at sulfate (SO₄).\n\n<msg>\n⛔⛰️\n⛔🧄\n\n🐔🪺😖 🌼 💣\n\n🇸🇴\n</msg>",
+      "delivered": "⛔⛰️\n⛔🧄\n🐔🪺😖 🌼 💣\n🇸🇴",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "So it's not a mineral and not garlic. 🐔🪺😖 reads as rotten eggs, which means hydrogen sulfide. 🌼 is yellow sulfur, and 🇸🇴 gives the letters S and O. Put that with ♂️ (iron), 🥽 (the classic school lab demo of iron plus sulfur forming a compound 🔗), and 🧄🧅 (mixture versus compound). That points to iron sulfide.\n\nIf it's a sulfate (SO₄) instead, use 👉 and I'll switch.\n\nGUESS: Iron(II) sulfide",
+      "guess": "Iron(II) sulfide",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "Turn 5: they offered 👉 as the signal for sulfate, so I'm sending it. Then I show iron with three charges and cross out two, to point to iron(III) rather than iron(II).\n\n<msg>\n👉\n\n♂️⚡⚡⚡   ⛔♂️⚡⚡\n</msg>",
+      "delivered": "👉\n♂️⚡⚡⚡ ⛔♂️⚡⚡",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "You pointed 👉, so it's a sulfate, and ♂️⚡⚡⚡ means iron with a 3+ charge, not 2+. That makes it ferric sulfate.\n\nGUESS: Iron(III) sulfate",
+      "guess": "Iron(III) sulfate",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "5891df08-447f-499a-8c8d-a88416f98336",
+    "guesser": "da243b49-a97e-448b-86ee-3e21e95737d1"
+  },
+  "ladder": {
+    "article_no": 2,
+    "round": 6,
+    "n_banned": 117,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

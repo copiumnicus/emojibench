@@ -1,0 +1,74 @@
+{
+  "model": "sonnet",
+  "model_id": "claude-sonnet-5-5",
+  "effort": null,
+  "article": {
+    "title": "Sage Derby",
+    "description": "Variety of cheese",
+    "extract": "Sage Derby is a variety of Derby cheese that is mild, mottled green and semi-hard, and has a sage flavour. The colour is from sage and sometimes other colouring added to the curds, producing a marbling effect and a subtle herb flavour. The colour is formed either by mixing sage leaves into the curd before it is pressed or by the addition of \"green curd\" from green corn or spinach juice. In the latter case, the flavour has to be created with colourless sage extract. Parsley, spinach and marigold leaves, bruised and steeped before use, can also be included instead of the sage leaves. It is aged for one to three months.",
+    "url": "https://en.wikipedia.org/wiki/Sage_Derby"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "max_turns": 30,
+  "seconds": 17.4,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1672,
+      "cache_read_input_tokens": 920,
+      "output_tokens": 95,
+      "thinking_tokens": 0,
+      "cost_usd": 0.007833999999999999,
+      "calls": 2,
+      "cost_usd_reported": 0.012934000000000001
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1173,
+      "cache_read_input_tokens": 886,
+      "output_tokens": 377,
+      "thinking_tokens": 253,
+      "cost_usd": 0.0086512,
+      "calls": 2,
+      "cost_usd_reported": 0.0140106
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 696,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0001414,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🧀🌿🟢🇬🇧🐄</msg>",
+      "delivered": "🧀🌿🟢🇬🇧🐄",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Cheese, a British origin, cow's milk, and something green and leafy. Cornish Yarg is wrapped in nettle leaves, so that's my first guess.\n\nGUESS: Cornish Yarg",
+      "guess": "Cornish Yarg",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🧀🌿🟢 🪨🌫️ 🏴󠁧󠁢󠁥󠁮󠁧󠁿 🏔️🦌🐑</msg>",
+      "delivered": "🧀🌿🟢 🪨🌫️ 🏴󠁧󠁢󠁥󠁮󠁧󠁿 🏔️🦌🐑",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Green herb, England, hills, sheep and deer. Sage Derby is a green-veined English cheese, so I'll try that.\n\nGUESS: Sage Derby",
+      "guess": "Sage Derby",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "eb727143-f460-4c4c-bf2d-41980931b50d",
+    "guesser": "45f521a2-240d-4bc1-bac2-7746a00e105d"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

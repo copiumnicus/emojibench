@@ -1,0 +1,8 @@
+{
+  "explainer": "sonnet",
+  "guesser": "opus",
+  "effort": null,
+  "articles": "articles/set1.json",
+  "max_turns": 30,
+  "judge": "haiku"
+}

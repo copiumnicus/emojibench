@@ -1,0 +1,147 @@
+{
+  "model": "sonnet",
+  "model_id": "claude-sonnet-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Jakob von Washington",
+    "description": "Bavarian general (1778–1848)",
+    "extract": "\nBaron Jacobus von Washington was a lieutenant general in the Bavarian Army and a distant relative of US President George Washington. Born in The Hague, Netherlands, he was christened James Washington. Most of his adult life was shaped by his participation in wars for and against Napoleonic France and his service to Ludwig I of Bavaria.",
+    "url": "https://en.wikipedia.org/wiki/Jakob_von_Washington"
+  },
+  "solved": true,
+  "turns_taken": 9,
+  "solved_turn": 9,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 170.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 34,
+      "cache_creation_input_tokens": 4519,
+      "cache_read_input_tokens": 19523,
+      "output_tokens": 685,
+      "thinking_tokens": 0,
+      "cost_usd": 0.028898599999999997,
+      "calls": 9,
+      "cost_usd_reported": 0.14762760000000003
+    },
+    "guesser": {
+      "input_tokens": 34,
+      "cache_creation_input_tokens": 11712,
+      "cache_read_input_tokens": 37958,
+      "output_tokens": 11613,
+      "thinking_tokens": 9626,
+      "cost_usd": 0.3412752,
+      "calls": 9,
+      "cost_usd_reported": 1.4223553999999998
+    },
+    "judge": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 704,
+      "cache_read_input_tokens": 704,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00015224,
+      "calls": 2
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇺🇸👨‍✈️💵 ➡️ 🇩🇪🥨🏰 ⚔️🇫🇷👑</msg>",
+      "delivered": "🇺🇸👨‍✈️💵 ➡️ 🇩🇪🥨🏰 ⚔️🇫🇷👑",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Initial read: an American (pilot/captain? with money) goes to Germany (Bavaria? a castle), and there's a war against France or the French king. Maybe a person who served in a German army, or a battle at a German castle?\n\nQuestions:\n1. Is the article about a **person**? (👍/👎) If not, show me the category (🏰 place, ⚔️ battle, 🎬 film, 📖 book…).\n2. Which century? Show it with digits, e.g. 1️⃣7️⃣ or 1️⃣9️⃣.\n3. Does 👨‍✈️ mean an aviation **pilot** ✈️ or a military **officer/captain** 🎖️?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👍 🎖️ 🇩🇪 🥨 ⚔️🇫🇷 👑 🇳🇱 🇺🇸🧬</msg>",
+      "delivered": "👍 🎖️ 🇩🇪 🥨 ⚔️🇫🇷 👑 🇳🇱 🇺🇸🧬",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "So: a German military officer who fought against France (the French king), with links to the Netherlands, and American ancestry/descendants.\n\nMy hypotheses:\n- (a) A German officer in **Dutch service** fighting Louis XIV's France, whose **descendants** emigrated to America?\n- (b) An **American-born** officer who served German/Dutch princes against France?\n\nQuestions:\n1. Which is closer: (a) or (b)? Reply with \"a\" as 🅰️ or \"b\" as 🅱️.\n2. Please give the **century** using digits, e.g. 1️⃣7️⃣ = 1600s, 1️⃣8️⃣ = 1700s.\n3. Was he a **noble** (count/baron)? 👍/👎",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>👍 🇩🇪 🥨 🇳🇱 🇺🇸🧬 🎩 👑 🗓️ 🔚 🇺🇸👨‍✈️ 🧓 🇫🇷👑 🏛️</msg>",
+      "delivered": "👍 🇩🇪 🥨 🇳🇱 🇺🇸🧬 🎩 👑 🗓️ 🇺🇸👨‍✈️ 🧓 🇫🇷👑 🏛️",
+      "dropped_chars": 1,
+      "retried": false,
+      "guesser": "Not quite clear yet. Let me test a candidate. The pieces I see: born in Germany, Dutch connection, a captain in America with money (merchant?), conflict with the French king, and American descendants. That fits a German-born soldier/merchant in Dutch New Netherland/New York, around King William's War (1680s–90s).\n\nIf this is wrong, please answer simply:\n1. Was he born in **Germany** and later went to **America**? 👍/👎\n2. Did he live in the 1600s (🅰️), 1700s (🅱️), 1800s (🆎), or 1900s+ (🅾️)?\n\nGUESS: Jacob Leisler",
+      "guess": "Jacob Leisler",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>👎 🇳🇱🍼 ➡️ 🇩🇪🥨 🇺🇸🧬 🎖️ ⚔️🇫🇷 ⚔️🇫🇷👑 1️⃣7️⃣ 1️⃣8️⃣ 👑🇩🇪 🏰</msg>",
+      "delivered": "👎 🇳🇱🍼 ➡️ 🇩🇪🥨 🇺🇸🧬 🎖️ ⚔️🇫🇷 ⚔️🇫🇷👑 👑🇩🇪 🏰",
+      "dropped_chars": 8,
+      "retried": false,
+      "guesser": "Thanks! So: **born in the Netherlands**, moved to **Germany**, served as an officer, fought **France** (perhaps twice: once a French republic/army, once a French king/emperor), served a German monarch, linked to a castle, and with an **American** family connection.\n\nQuestions (please answer each with one emoji):\n1. Century: 1600s 🅰️ / 1700s 🅱️ / 1800s 🆎 / other 🅾️\n2. American connection: were his **ancestors** American (⬅️) or his **descendants** American (➡️)?\n3. Which German state did he serve: Prussia 🦅, Bavaria 🥨, Hanover/Hesse/other 🐴?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>🥨 🥨 🥨 ⬅️ 🇺🇸🧬 🇬🇧➡️🇺🇸 👴 🅱️ 🆎 ⚔️🇫🇷 👑 🎖️</msg>",
+      "delivered": "🥨 🥨 🥨 ⬅️ 🇺🇸🧬 🇬🇧➡️🇺🇸 👴 ⚔️🇫🇷 👑 🎖️",
+      "dropped_chars": 2,
+      "retried": false,
+      "guesser": "Great: **Bavarian** officer, born in the Netherlands, with **American ancestry** (a British-born grandfather/ancestor who emigrated to America), fought France, served the Bavarian king.\n\nTo narrow it down:\n1. Please give the **years of his birth**, using digit emojis (e.g. 1️⃣7️⃣8️⃣0️⃣).\n2. Can you **spell his surname** with letter emojis? (e.g. 🇸 🇲 🇮 🇹 🇭, put spaces between letters so they don't combine into flags). Even the first 2–3 letters would help.\n3. Is the ancestor/grandfather himself famous (e.g. an American Revolution figure)? 👍/👎",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 6,
+      "explainer_raw": "<msg>👍 🇺🇸🏛️👑 🇺🇸👨‍✈️💵 🇺🇸🧬 👨‍👦‍👦 🌳 🇺🇸1️⃣</msg>",
+      "delivered": "👍 🇺🇸🏛️👑 🇺🇸👨‍✈️💵 🇺🇸🧬 👨‍👦‍👦 🌳 🇺🇸",
+      "dropped_chars": 2,
+      "retried": false,
+      "guesser": "So the ancestor is a **famous American** figure: perhaps tied to the government 🏛️, an officer, and money/finance 💵, with a family tree leading to this Bavarian officer.\n\nWho is the famous American ancestor? Pick a number:\n1️⃣ Robert Morris (British-born financier of the Revolution)\n2️⃣ Horatio Gates (British-born general)\n3️⃣ Benjamin Thompson / Count Rumford\n4️⃣ Someone else: then please show their name as a rebus or spell it with letter emojis like 🇲 🇴 🇷 🇷 🇮 🇸\n\nAlso, is the officer the ancestor's **grandson** (👴➡️👦) or a more distant descendant (🌳)?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 7,
+      "explainer_raw": "<msg>4️⃣ 🇬 🇪 🇴 🇷 🇬 🇪 🇺🇸🏛️👑 💵1️⃣ 🌳</msg>",
+      "delivered": "🇺🇸🏛️👑 💵 🌳",
+      "dropped_chars": 10,
+      "retried": false,
+      "guesser": "Let's do quick yes/no questions; please answer each with 👍 or 👎, in order:\n\n1. Was he born **before 1800**?\n2. Did he fight in the **Napoleonic Wars** (vs. Napoleon)?\n3. Did he fight in the **Franco-Prussian War (1870–71)**?\n4. Did he reach the rank of **general**?\n5. Was the American ancestor a **royal colonial official** (a governor or treasurer under the British crown) before independence?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 8,
+      "explainer_raw": "<msg>👍 👍 👎 👍 👎</msg>",
+      "delivered": "👍 👍 👎 👍 👎",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Excellent: Bavarian **general**, born in the Netherlands before 1800, fought in the **Napoleonic Wars**, descended from an Englishman who went to America.\n\nNew idea for your clue 🇺🇸🏛️👑💵 and 🇺🇸👨‍✈️💵: an English colony founded with a **royal grant to settle a debt** owed to an **admiral**. That's **William Penn** / Pennsylvania!\n\nPlease answer 👍/👎 in order:\n1. Is the American ancestor **William Penn** (or the Penn family)?\n2. If not, is it another **colony founder/proprietor** (e.g. Lord Baltimore/Calvert, Oglethorpe)?\n3. Does his surname sound **German** (👍) or **English/Dutch** (👎)?\n4. Did he fight **for** Napoleon at some point too (e.g. 1805–1812 when Bavaria was France's ally)?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 9,
+      "explainer_raw": "<msg>👎 👎 👎 👍 🇺🇸👨‍✈️💵 🇺🇸🧬 👑 🇺🇸1️⃣ 🌳 🇬🇧 🏠🇺🇸 🌟🌟🌟 🇺🇸🏛️</msg>",
+      "delivered": "👎 👎 👎 👍 🇺🇸👨‍✈️💵 🇺🇸🧬 👑 🇺🇸 🌳 🇬🇧 🏠🇺🇸 🌟🌟🌟 🇺🇸🏛️",
+      "dropped_chars": 2,
+      "retried": false,
+      "guesser": "I think I've got it! An English surname, related to a famous American 🌟🌟🌟 (the \"Father of the country\" 🇺🇸🏛️, general and president), from a family branch in the Netherlands, serving Bavaria as a general in the Napoleonic Wars... the **Washington** family!\n\nGUESS: Jacob von Washington",
+      "guess": "Jacob von Washington",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "b55a4fc5-8802-4c7a-9ebc-99084b057d80",
+    "guesser": "3f51ec22-8e26-46e2-b975-ae9400562858"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

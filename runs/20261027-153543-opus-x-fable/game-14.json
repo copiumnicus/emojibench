@@ -1,0 +1,77 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Philadelphia Commercial Museum",
+    "description": "Former museum in Pennsylvania, USA",
+    "extract": "The Philadelphia Commercial Museum was established in Philadelphia, Pennsylvania in 1895. Its permanent home was a neo-classical building situated at 34th Street and Civic Center Blvd, erected as part of the 1899 National Export Exposition. The museum had business offices at 332 South Fourth Street.",
+    "url": "https://en.wikipedia.org/wiki/Philadelphia_Commercial_Museum"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 39.5,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1609,
+      "cache_read_input_tokens": 1145,
+      "output_tokens": 579,
+      "thinking_tokens": 442,
+      "cost_usd": 0.024934,
+      "calls": 2,
+      "cost_usd_reported": 0.037553
+    },
+    "guesser": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 1822,
+      "cache_read_input_tokens": 928,
+      "output_tokens": 1506,
+      "thinking_tokens": 1158,
+      "cost_usd": 0.112708,
+      "calls": 2,
+      "cost_usd_reported": 0.168342
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 709,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.000144,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🏛️ 🔔🇺🇸🧀🥩🥖 💼📦🚢🌍💰</msg>",
+      "delivered": "🏛️ 🔔🇺🇸🧀🥩🥖 💼📦🚢🌍💰",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Let me check my reading: 🏛️ = a company/institution; 🔔🇺🇸 = Liberty Bell → Philadelphia?; 🧀🥩🥖 = food (or a cheesesteak → Philadelphia again?); 💼📦🚢🌍💰 = import/export, international trade, distribution.\n\nSo: a food company (maybe an importer/exporter or distributor) based in Philadelphia, USA?\n\nQuestions:\n1. Is the 🔔 meaning \"Liberty Bell\"/Philadelphia, or is \"Bell\" part of the company name?\n2. Is it a food manufacturer, or a trading/distribution company?\n3. Is it still operating today?\n\nGUESS: Taco Bell",
+      "guess": "Taco Bell",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🔔👍 🧀🥩🥖 = 🔔\n🍽️🏭❌\n🏛️ = 🖼️🗿🎟️👀\n🏛️ + 💼🛒📦🚢🌍\n🔒⌛</msg>",
+      "delivered": "🔔👍 🧀🥩🥖 🔔\n🍽️🏭❌\n🏛️ 🖼️🗿🎟️👀\n🏛️ 💼🛒📦🚢🌍\n🔒⌛",
+      "dropped_chars": 3,
+      "retried": false,
+      "guesser": "Got it: 🔔 + 🧀🥩🥖 = Liberty Bell + cheesesteak = Philadelphia. It's not a restaurant or factory, but a now-closed museum (exhibits, tickets) about international commerce/trade/shipping.\n\nGUESS: Philadelphia Commercial Museum",
+      "guess": "Philadelphia Commercial Museum",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "ef2f2920-1a97-4c94-94b3-c6265ef4f97e",
+    "guesser": "8949c5af-8e95-4a23-9db7-e5763ff873d6"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

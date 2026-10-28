@@ -1,0 +1,204 @@
+{
+  "model": "sonnet",
+  "model_id": "claude-sonnet-5-5",
+  "effort": null,
+  "article": {
+    "title": "7's Football League",
+    "description": "Football league",
+    "extract": "The 7's Football League is a seven-a-side football league in the Philippines. Established in 2018, the league already had four seasons. It has a two-tiered men's division, a women's division, and youth divisions. The league is an open tournament with participation from representative sides of the domestic football competition, the Philippines Football League.",
+    "url": "https://en.wikipedia.org/wiki/7's_Football_League"
+  },
+  "solved": true,
+  "turns_taken": 15,
+  "solved_turn": 15,
+  "max_turns": 30,
+  "seconds": 169.5,
+  "usage": {
+    "explainer": {
+      "input_tokens": 58,
+      "cache_creation_input_tokens": 5453,
+      "cache_read_input_tokens": 40715,
+      "output_tokens": 1630,
+      "thinking_tokens": 288,
+      "cost_usd": 0.046371,
+      "calls": 15,
+      "cost_usd_reported": 0.3508884
+    },
+    "guesser": {
+      "input_tokens": 58,
+      "cache_creation_input_tokens": 5772,
+      "cache_read_input_tokens": 44515,
+      "output_tokens": 3452,
+      "thinking_tokens": 2539,
+      "cost_usd": 0.06662699999999999,
+      "calls": 15,
+      "cost_usd_reported": 0.5076189
+    },
+    "judge": {
+      "input_tokens": 30,
+      "cache_creation_input_tokens": 10398,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 60,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0021126,
+      "calls": 15
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>⚽🇵🇭 7️⃣👥 🏆📅</msg>\n\nNote: the 7️⃣ will be filtered out since it contains a digit, so the message really conveys ⚽🇵🇭 👥 🏆📅.",
+      "delivered": "⚽🇵🇭 👥 🏆📅",
+      "dropped_chars": 2,
+      "retried": false,
+      "guesser": "Football, Philippines, a team or squad, a trophy, and a season/year. This could be a league season or a national team tournament. Can you give me digits for the year, one emoji per digit?\n\nGUESS: 2017 Philippines Football League",
+      "guess": "2017 Philippines Football League",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👎 🔽 👥👥👥👥👥👥👥 🏟️ ⚽🇵🇭 🏆 👶 👩 👨</msg>",
+      "delivered": "👎 🔽 👥👥👥👥👥👥👥 🏟️ ⚽🇵🇭 🏆 👶 👩 👨",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Understood: not the top league, and something lower or smaller, with 7 teams. The baby, woman, and man emojis might mean youth, women's, and men's categories. Is it a youth or women's competition? What year was it, with one emoji per digit?\n\nGUESS: PFF Women's League",
+      "guess": "PFF Women's League",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>👍 👶👩👨 ⚽ 🇵🇭 👥👥👥👥👥👥👥 🏟️ 🔽 🤝 🏆</msg>",
+      "delivered": "👍 👶👩👨 ⚽ 🇵🇭 👥👥👥👥👥👥👥 🏟️ 🔽 🤝 🏆",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Got it: a lower-division competition with 7 teams, played by a mix of ages, and it involves a partnership or cooperation. Could that be the United Football League (UFL), which had a Division 2? What year was it, one emoji per digit?\n\nGUESS: UFL Division 2",
+      "guess": "UFL Division 2",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>👎 👥👥👥👥👥👥👥 = 🧍🧍🧍🧍🧍🧍🧍 ⚽ 🏟️ 🔽 🇵🇭 🏆 👨 👩 👶</msg>",
+      "delivered": "👎 👥👥👥👥👥👥👥 🧍🧍🧍🧍🧍🧍🧍 ⚽ 🏟️ 🔽 🇵🇭 🏆 👨 👩 👶",
+      "dropped_chars": 1,
+      "retried": false,
+      "guesser": "I'm still unsure. Please send the year as keycap digits (like 2️⃣0️⃣1️⃣0️⃣), and tell me with 🔤 how many words are in the title.\n\nGUESS: PFF National Club Championship",
+      "guess": "PFF National Club Championship",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>👎 🧍🧍🧍🧍🧍🧍🧍 ⚽ 🏟️ 🇵🇭 🏆 👨 👩 👶 🔽 ⚽🥅 🔁 📅 4️⃣ 🏆 🏆 🏆 🏆</msg>",
+      "delivered": "👎 🧍🧍🧍🧍🧍🧍🧍 ⚽ 🏟️ 🇵🇭 🏆 👨 👩 👶 🔽 ⚽🥅 🔁 📅 🏆 🏆 🏆 🏆",
+      "dropped_chars": 2,
+      "retried": false,
+      "guesser": "The annual repeat and the multiple trophies, plus men, women and youth, suggest a general overview article.\n\nGUESS: Football in the Philippines",
+      "guess": "Football in the Philippines",
+      "correct": false
+    },
+    {
+      "turn": 6,
+      "explainer_raw": "<msg>👎 ⚽ 🧍🧍🧍🧍🧍🧍🧍 🏟️ 🏆 🇵🇭 🔥 🔽 🏃‍♂️ 🏃‍♀️ 🧒 🏟️ 🌱 📅 🏆 🏆 🏆 🏆</msg>",
+      "delivered": "👎 ⚽ 🧍🧍🧍🧍🧍🧍🧍 🏟️ 🏆 🇵🇭 🔥 🔽 🏃‍♂️ 🏃‍♀️ 🧒 🏟️ 🌱 📅 🏆 🏆 🏆 🏆",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Is this a 7-a-side (7v7) tournament, perhaps a grassroots or youth festival that runs every year? Please send the year digits and the number of title words.\n\nGUESS: Copa Paulino Alcantara",
+      "guess": "Copa Paulino Alcantara",
+      "correct": false
+    },
+    {
+      "turn": 7,
+      "explainer_raw": "<msg>👍 7-a-side yes 🧍🧍🧍🧍🧍🧍🧍 ⚽ 🇵🇭 🏆 🏟️ 👨 👩 🧒 🔽 ⬆️ 🏆 🏆 🏆 🏆 🔥</msg>",
+      "delivered": "👍 🧍🧍🧍🧍🧍🧍🧍 ⚽ 🇵🇭 🏆 🏟️ 👨 👩 🧒 🔽 ⬆️ 🏆 🏆 🏆 🏆 🔥",
+      "dropped_chars": 11,
+      "retried": false,
+      "guesser": "Understood: a 7-a-side competition in the Philippines with several categories and multiple trophies. Is it a company-sponsored cup or a league? Can you show the year with digits?\n\nGUESS: United Football League (Philippines)",
+      "guess": "United Football League (Philippines)",
+      "correct": false
+    },
+    {
+      "turn": 8,
+      "explainer_raw": "<msg>👎 🧍🧍🧍🧍🧍🧍🧍 ⚽ 🇵🇭 📅 🔁 🏆 🏟️ 👨 👩 🧒 🔽 ⬆️ 👍 league 🏅 🥇 🥈 🥉</msg>",
+      "delivered": "👎 🧍🧍🧍🧍🧍🧍🧍 ⚽ 🇵🇭 📅 🔁 🏆 🏟️ 👨 👩 🧒 🔽 ⬆️ 👍 🏅 🥇 🥈 🥉",
+      "dropped_chars": 6,
+      "retried": false,
+      "guesser": "Maybe the 7 means seven editions or seven sides. Let me try the women's side.\n\nGUESS: PFF Women's Cup",
+      "guess": "PFF Women's Cup",
+      "correct": false
+    },
+    {
+      "turn": 9,
+      "explainer_raw": "<msg>👍 🧍🧍🧍🧍🧍🧍🧍 ⚽ 🇵🇭 🏆 👨 👩 🧒 🔽 ⬆️ 🏟️ 👎 👑 👎 🏆 🔥 🔥 🏢 ⚽ 🇵🇭 🔝 🤝 🔓 🚪 👥 🆚</msg>",
+      "delivered": "👍 🧍🧍🧍🧍🧍🧍🧍 ⚽ 🇵🇭 🏆 👨 👩 🧒 🔽 ⬆️ 🏟️ 👎 👑 👎 🏆 🔥 🔥 🏢 ⚽ 🇵🇭 🤝 🔓 🚪 👥",
+      "dropped_chars": 2,
+      "retried": false,
+      "guesser": "Understood: not the top tier, open to participation, and organized by the federation.\n\nGUESS: PFF National Men's Championship",
+      "guess": "PFF National Men's Championship",
+      "correct": false
+    },
+    {
+      "turn": 10,
+      "explainer_raw": "<msg>🕖 ⚽ 🏆 🇵🇭 🧍🧍🧍🧍🧍🧍🧍 👍 👈 🔤 ⚽ 📋 🔥</msg>",
+      "delivered": "🕖 ⚽ 🏆 🇵🇭 🧍🧍🧍🧍🧍🧍🧍 👍 👈 ⚽ 📋 🔥",
+      "dropped_chars": 1,
+      "retried": false,
+      "guesser": "Is the number 7 part of the title, like \"7s\" or \"Seven\"?\n\nGUESS: Football 7s Philippines",
+      "guess": "Football 7s Philippines",
+      "correct": false
+    },
+    {
+      "turn": 11,
+      "explainer_raw": "<msg>👍 7️⃣ 🔥 🕖 ⚽ 📋 🏆 🇵🇭 🔁 🔥</msg>",
+      "delivered": "👍 🔥 🕖 ⚽ 📋 🏆 🇵🇭 🔁 🔥",
+      "dropped_chars": 2,
+      "retried": false,
+      "guesser": "Perhaps it's the 7th edition or season of a competition. UFL began in 2009, so:\n\nGUESS: 2015 UFL Cup",
+      "guess": "2015 UFL Cup",
+      "correct": false
+    },
+    {
+      "turn": 12,
+      "explainer_raw": "<msg>👎 🕖 ⚽ 📋 👍 🔥 🔥 🇵🇭 🗓️ 🔙 🕐 2️⃣0️⃣1️⃣8️⃣ 🆕 🚫 🏛️</msg>",
+      "delivered": "👎 🕖 ⚽ 📋 👍 🔥 🔥 🇵🇭 🗓️ 🕐 🚫 🏛️",
+      "dropped_chars": 10,
+      "retried": false,
+      "guesser": "I'm confused. Is the 🕖 meant to be a season number, a time, or a seventh edition? Please show me the year with keycap digits or a year-range emoji. And is this a list article, such as \"List of ... seasons\"?\n\nGUESS: 2014 UFL Division 1",
+      "guess": "2014 UFL Division 1",
+      "correct": false
+    },
+    {
+      "turn": 13,
+      "explainer_raw": "<msg>🕖 = 🧍🧍🧍🧍🧍🧍🧍 ⚽ 📋 🏆 🇵🇭 👍 👈 7️⃣ 🔤 ⚽ 🏆 📋 🔝</msg>",
+      "delivered": "🕖 🧍🧍🧍🧍🧍🧍🧍 ⚽ 📋 🏆 🇵🇭 👍 👈 ⚽ 🏆 📋",
+      "dropped_chars": 5,
+      "retried": false,
+      "guesser": "GUESS: Philippines Football League",
+      "guess": "Philippines Football League",
+      "correct": false
+    },
+    {
+      "turn": 14,
+      "explainer_raw": "<msg>🔥 🕖 ⚽ 📋 🏆 🔥 👎 🇵🇭 👍 🕖 ⚽ 🏆 🔥 🔥</msg>",
+      "delivered": "🔥 🕖 ⚽ 📋 🏆 🔥 👎 🇵🇭 👍 🕖 ⚽ 🏆 🔥 🔥",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Is the Philippines only partly related, for example with a foreign team or a different country's league involved? Is \"Seven\" or \"7\" an actual sponsor or brand name, like 7-Eleven?\n\nGUESS: 7-Eleven Football Cup",
+      "guess": "7-Eleven Football Cup",
+      "correct": false
+    },
+    {
+      "turn": 15,
+      "explainer_raw": "<msg>👍 🇵🇭 👍 🔥 👎 🏪 🕖 ⚽ 📋 🔥 🏆 ➡️ 🔤 🕖 ⚽ 📋 🏆 🔥</msg>",
+      "delivered": "👍 🇵🇭 👍 🔥 👎 🏪 🕖 ⚽ 📋 🔥 🏆 ➡️ 🕖 ⚽ 📋 🏆 🔥",
+      "dropped_chars": 1,
+      "retried": false,
+      "guesser": "GUESS: 7s Football League",
+      "guess": "7s Football League",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "44b47d75-d36f-4ac3-9f70-001d4cf9e205",
+    "guesser": "9e2ae2df-b776-464d-afdc-22085ca8c277"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

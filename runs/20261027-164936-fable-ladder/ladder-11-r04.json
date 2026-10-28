@@ -1,0 +1,88 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Ayribobo",
+    "description": "Highest mountain of Turkmenistan",
+    "extract": "Ayribobo or Aýrybaba, officially named the Great Saparmyrat Turkmenbashi Peak in Turkmenistan since 2004, is a mountain in Central Asia. At 3,138 metres (10,295 ft) Aýrybaba is the highest mountain in Turkmenistan. It is located in the Köýtendag Range of the Pamir-Alay chain in the southeast of Turkmenistan on the Uzbekistani border.",
+    "url": "https://en.wikipedia.org/wiki/Ayribobo"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 90.4,
+  "usage": {
+    "explainer": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 4221,
+      "cache_read_input_tokens": 2124,
+      "output_tokens": 3800,
+      "thinking_tokens": 3638,
+      "cost_usd": 0.276584,
+      "calls": 2,
+      "cost_usd_reported": 0.44020525
+    },
+    "guesser": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 2564,
+      "cache_read_input_tokens": 978,
+      "output_tokens": 1732,
+      "thinking_tokens": 1407,
+      "cost_usd": 0.13889800000000002,
+      "calls": 2,
+      "cost_usd_reported": 0.22949450000000005
+    },
+    "judge": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 705,
+      "cache_read_input_tokens": 702,
+      "output_tokens": 259,
+      "thinking_tokens": 251,
+      "cost_usd": 0.00027792,
+      "calls": 2
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🇹🇷👨 🏇 💨 🧵\n🔼🔼🔼 ☝️💯 🐐❄️☁️🏕️🚠\n</msg>",
+      "delivered": "🇹🇷👨 🏇 💨 🧵\n🔼🔼🔼 ☝️💯 🐐❄️☁️🏕️🚠",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Hypothesis so far: a Turkish man, something about speed/riding, and mountains/snow/altitude (🐐❄️☁️🏕️🚠). 🔼🔼🔼 ☝️💯 maybe \"climbing to the top / first\".\n\nQuestions (answer with number emojis please):\n1. Is the article about a person (athlete)? 1️⃣ yes / 2️⃣ no (it's a place/thing)\n2. If a person, which sport: 1️⃣ alpine/ski racing, 2️⃣ mountaineering/climbing, 3️⃣ cycling, 4️⃣ motorsport, 5️⃣ horse racing, 6️⃣ other\n3. Does 🧵 mean \"cross-country\" / a long route?\n\nGUESS: Nasuh Mahruki",
+      "guess": "Nasuh Mahruki",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n👎🧑 👍🗺️\n🧵👎 \n🇹🇷➕👨🟰🏳️🗺️ 🇷🇺💔\n🏳️ 🔼🔼🔼💯 🐐❄️☁️⛺🚠\n</msg>",
+      "delivered": "👎🧑 👍🗺️\n🧵👎\n🇹🇷➕👨🟰🏳️🗺️ 🇷🇺💔\n🏳️ 🔼🔼🔼💯 🐐❄️☁️⛺🚠",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Got it: Turk + man = Turkmenistan, former Soviet. The highest point/mountain in Turkmenistan.\n\nGUESS: Ayrybaba",
+      "guess": "Ayrybaba",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "c484c313-4b59-4a1c-9025-5fbbde1cc3bc",
+    "guesser": "d4522cce-e273-4a18-ba97-7be0057d41c8"
+  },
+  "ladder": {
+    "article_no": 11,
+    "round": 4,
+    "n_banned": 54,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

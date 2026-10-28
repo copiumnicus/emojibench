@@ -1,0 +1,90 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Sage Derby",
+    "description": "Variety of cheese",
+    "extract": "Sage Derby is a variety of Derby cheese that is mild, mottled green and semi-hard, and has a sage flavour. The colour is from sage and sometimes other colouring added to the curds, producing a marbling effect and a subtle herb flavour. The colour is formed either by mixing sage leaves into the curd before it is pressed or by the addition of \"green curd\" from green corn or spinach juice. In the latter case, the flavour has to be created with colourless sage extract. Parsley, spinach and marigold leaves, bruised and steeped before use, can also be included instead of the sage leaves. It is aged for one to three months.",
+    "url": "https://en.wikipedia.org/wiki/Sage_Derby"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 96.2,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 5256,
+      "cache_read_input_tokens": 2314,
+      "output_tokens": 4457,
+      "thinking_tokens": 4023,
+      "cost_usd": 0.13213760000000002,
+      "calls": 2,
+      "cost_usd_reported": 0.21747819999999995
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 3363,
+      "cache_read_input_tokens": 953,
+      "output_tokens": 3613,
+      "thinking_tokens": 3221,
+      "cost_usd": 0.0995692,
+      "calls": 2,
+      "cost_usd_reported": 0.1533506
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Cheese, sage and Derby all have their usual emojis banned, so I'm going around them:\n- **Cheese:** a selfie with a smile (\"say cheese\"), a goat (milk), and the moon (\"made of cheese\").\n- **Green:** a green apple and a crocodile.\n- **Sage:** onion and turkey, for sage and onion stuffing.\n- **Derby:** a bowling pin and a cap for a bowler (derby) hat, a ram and a football for Derby County, and smashing cars for a demolition derby.\n\n<msg>\n🤳😄 🐐 🌕\n🍏🐊\n🧅🦃\n🎳🧢 🐏⚽ 🚗💥🚙\n</msg>",
+      "delivered": "🤳😄 🐐 🌕\n🍏🐊\n🧅🦃\n🎳🧢 🐏⚽ 🚗💥🚙",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "My first read: the last line looks like sports. 🎳🧢 might be cricket (bowling plus caps), 🐏⚽ might be Derby County (\"The Rams\") or the LA Rams, and 🚗💥🚙 is a car crash, perhaps a death.\n\nQuestions:\n1. Is this a person, a sportsman? Is ⚽ soccer and 🐏 Derby County?\n2. Is the first line (🤳😄 🐐 🌕) the name, with sounds/words to combine? If so, what's 🤳: \"self\", \"me\", \"phone\" or \"camera\"? Is 🐐 \"goat\", \"kid\", \"billy\" or Capricorn?\n3. Are 🍏🐊 and 🧅🦃 places or teams? Please give a different hint for one of them.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "The guesser is reading this as sports. I'm telling them it's food, not a person, and that Derby County fits the word. I'm also explaining each line: \"say cheese\" means food, green apple and crocodile mean a colour, and onion and turkey point to the herb in the stuffing.\n\n<msg>\n❌🧍 ❌🏏 ✅🍴🤤\n🐏⚽ ✅\n🤳📸😄 ❓ 🐐🌕 ➜ 🍴\n🍏🐊 ➜ 🎨\n🧅🦃 ➜ 🪻\n</msg>",
+      "delivered": "❌🧍 ❌🏏 ✅🍴🤤\n🐏⚽ ✅\n🤳😄 ❓ 🐐🌕 🍴\n🍏🐊 🎨\n🧅🦃 🪻",
+      "dropped_chars": 4,
+      "off_keyboard": [
+        "📸"
+      ],
+      "retried": false,
+      "guesser": "I think I've got it:\n- 🐐🌕 🍴 is cheese.\n- 🐏⚽, a bowler hat (🎳🧢) and a demolition derby (🚗💥🚙) all point to Derby.\n- 🍏🐊 is green marbling.\n- 🧅🦃 🪻 is sage, as in sage and onion stuffing.\n\nGUESS: Sage Derby",
+      "guess": "Sage Derby",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "d975bbaf-1474-4d1b-89a8-192d599bf1d0",
+    "guesser": "3c235ebf-8023-4f8a-acf4-20d6bccdc464"
+  },
+  "ladder": {
+    "article_no": 19,
+    "round": 6,
+    "n_banned": 93,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

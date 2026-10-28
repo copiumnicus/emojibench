@@ -1,0 +1,91 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Richmond Hill South",
+    "description": "Federal electoral district in Ontario, Canada",
+    "extract": "Richmond Hill South is a federal electoral district in Ontario, Canada, that has been represented in the House of Commons of Canada since 2004.",
+    "url": "https://en.wikipedia.org/wiki/Richmond_Hill_South"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "max_turns": 30,
+  "seconds": 75.3,
+  "usage": {
+    "explainer": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 2599,
+      "cache_read_input_tokens": 2875,
+      "output_tokens": 1416,
+      "thinking_tokens": 1213,
+      "cost_usd": 0.050302,
+      "calls": 3,
+      "cost_usd_reported": 0.10527439999999999
+    },
+    "guesser": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 4578,
+      "cache_read_input_tokens": 2875,
+      "output_tokens": 4003,
+      "thinking_tokens": 3594,
+      "cost_usd": 0.117874,
+      "calls": 3,
+      "cost_usd_reported": 0.22877099999999997
+    },
+    "judge": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 1419,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0002882,
+      "calls": 2
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇨🇦 🗳️🏛️🗺️\n\n🤑⛰️ ⬇️🧭</msg>",
+      "delivered": "🇨🇦 🗳️🏛️🗺️\n🤑⛰️ ⬇️🧭",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Reading so far: Canada 🇨🇦, an electoral district 🗳️🏛️🗺️, \"Rich\" + \"mount\" = **Richmond**, ⬇️🧭 = **South**. My first try is \"Richmond South\". If that's wrong, tell me whether it's federal or provincial (🇨🇦 or 🍁 vs a provincial flag), and whether there are more parts to the name, like \"Centre\" (🎯), \"Hill\", or a dash with another place.\n\nGUESS: Richmond South",
+      "guess": "Richmond South",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🇨🇦👍\n\n🤑 ⛰️ ⬇️\n👍 👍 👍\n🤑 ➕ ⛰️ ➕ ⬇️\n\n⛰️ 👉 👍 ⛰️⛰️</msg>",
+      "delivered": "🇨🇦👍\n🤑 ⛰️ ⬇️\n👍 👍 👍\n🤑 ➕ ⛰️ ➕ ⬇️\n⛰️ 👉 👍 ⛰️⛰️",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Maybe the clues are in French. 🤑 = money = *argent* → **Argenteuil**, and ⛰️⛰️ = two mountains → **Deux-Montagnes**. I'm not sure what ⬇️ adds. It could be \"Bas\", \"Sud\", \"Basses-Laurentides\", or the Laval/valley idea. If this guess is wrong, please clarify ⬇️.\n\nGUESS: Argenteuil—Deux-Montagnes",
+      "guess": "Argenteuil—Deux-Montagnes",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🇫🇷👎\n\n🤑⛰️ 👍👍\n⬇️🧭 👍👍\n\n🤑⛰️ ⛰️ ⬇️🧭</msg>",
+      "delivered": "🇫🇷👎\n🤑⛰️ 👍👍\n⬇️🧭 👍👍\n🤑⛰️ ⛰️ ⬇️🧭",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Got it, the clues aren't French. So the name seems to be 🤑⛰️ as one unit (Rich + mount = **Richmond**), then ⛰️ = **Hill**, then **South**.\n\nGUESS: Richmond Hill South",
+      "guess": "Richmond Hill South",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "84e818d9-1385-45a1-8e1d-b83065047a83",
+    "guesser": "e76c1a3b-0858-4320-879a-73033019b886"
+  },
+  "ladder": {
+    "article_no": 8,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": "runs/20261027-151301-opus/game-08.json"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

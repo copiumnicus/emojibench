@@ -1,0 +1,89 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Dora Akunyili",
+    "description": "Nigerian pharmacist and government official (1954–2014)",
+    "extract": "Dora Nkem Akunyili was a Nigerian pharmacist and politician who served as the director-general of National Agency for Food and Drug Administration and Control (NAFDAC) of Nigeria from 2001 to 2008.",
+    "url": "https://en.wikipedia.org/wiki/Dora_Akunyili"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 64.1,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 4442,
+      "cache_read_input_tokens": 1771,
+      "output_tokens": 3759,
+      "thinking_tokens": 3518,
+      "cost_usd": 0.1114484,
+      "calls": 2,
+      "cost_usd_reported": 0.1747102
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1511,
+      "cache_read_input_tokens": 940,
+      "output_tokens": 756,
+      "thinking_tokens": 471,
+      "cost_usd": 0.027608,
+      "calls": 2,
+      "cost_usd_reported": 0.044427999999999995
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 714,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.000145,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Nigeria's flag is banned, so I'll draw its green-white-green colours instead. The rest says: a woman, science and medicine, and stopping deadly drugs.\n\n<msg>\n🌿🏳️🌿\n🚺 🔬 🌡️\n🛑 ☠️ 🌡️\n</msg>",
+      "delivered": "🌿🏳️🌿\n🚺 🔬 🌡️\n🛑 ☠️ 🌡️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Reading it: 🌿🏳️🌿 looks like Nigeria's green-white-green flag. 🚺🔬🌡️ suggests a female doctor or scientist working on a fever. 🛑☠️🌡️ suggests she stopped a deadly fever outbreak, maybe dying of it herself. That sounds like the Nigerian doctor who contained Ebola in Lagos in 2014.\n\nGUESS: Ameyo Adadevoh",
+      "guess": "Ameyo Adadevoh",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "The guesser got Nigeria and a woman right, but read 🌡️ as fever. I'll confirm those two, rule out disease, and point to regulating food and medicine and stopping fake, deadly drugs.\n\n<msg>\n✔️🌿🏳️🌿 ✔️🚺\n❎🦠\n🍔🍶⚖️\n🖨️🍶☠️ 🛑\n</msg>",
+      "delivered": "✔️🌿🏳️🌿 ✔️🚺\n❎🦠\n🍔🍶⚖️\n🖨️🍶☠️ 🛑",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Nigeria and a woman are confirmed, and it's not a virus. 🍔🍶⚖️ reads like food and drug regulation, which in Nigeria is NAFDAC. 🖨️🍶☠️🛑 suggests she stopped deadly counterfeit drugs. That points to the pharmacologist who ran NAFDAC.\n\nGUESS: Dora Akunyili",
+      "guess": "Dora Akunyili",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "e864eac7-6fde-4cca-8b0f-19fa6e8e15e5",
+    "guesser": "e5b67474-179b-4db5-8e27-6823bfbc632f"
+  },
+  "ladder": {
+    "article_no": 12,
+    "round": 6,
+    "n_banned": 125,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

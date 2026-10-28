@@ -1,0 +1,75 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Grande Seca",
+    "description": "Brazilian drought (1877–1878)",
+    "extract": "The Grande Seca, or the Brazilian drought of 1877–1878, was the largest and most devastating drought in Brazilian history. It caused the deaths of between 400,000 and 500,000 people. Of the 800,000 people who lived in the affected Northeastern region, around 120,000 migrated to the Amazon while 68,000 migrated to other parts of Brazil.",
+    "url": "https://en.wikipedia.org/wiki/Grande_Seca"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 59.5,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 793,
+      "cache_read_input_tokens": 577,
+      "output_tokens": 2537,
+      "thinking_tokens": 2362,
+      "cost_usd": 0.14287425000000004,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1088,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 839,
+      "thinking_tokens": 741,
+      "cost_usd": 0.06373000000000001,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🌎🇵🇹🗣️ ⚽🟢🟡\n🌞🌞🌞 ☁️❌ 🥵🌡️ 🥀🌾 🚰❌ 🐄☠️\n🕰️📅 🚂⛵ 👴👴\n☠️☠️☠️☠️☠️ 🪦🪦🪦\n👨‍👩‍👧‍👦🏃🏃 ⬅️↖️ 🐍🦜🌿🛶\n</msg>",
+      "delivered": "🌎🇵🇹🗣️ ⚽🟢🟡\n🌞🌞🌞 ☁️❌ 🥵🌡️ 🥀🌾 🚰❌ 🐄☠️\n🕰️📅 🚂⛵ 👴👴\n☠️☠️☠️☠️☠️ 🪦🪦🪦\n👨‍👩‍👧‍👦🏃🏃 ⬅️↖️ 🐍🦜🌿🛶",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Portuguese-speaking country in the Americas = Brazil 🇧🇷 (green/yellow). A historical drought with mass deaths and families fleeing northwest to the Amazon jungle — that's the great drought of the Northeast in the 1870s.\n\nGUESS: Grande Seca",
+      "guess": "Grande Seca",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "0c048534-7fef-4854-9893-136fd41fcc8a",
+    "guesser": "d3418f0b-3cb2-4bd8-a531-dbd79891ed06"
+  },
+  "ladder": {
+    "article_no": 16,
+    "round": 1,
+    "n_banned": 23,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

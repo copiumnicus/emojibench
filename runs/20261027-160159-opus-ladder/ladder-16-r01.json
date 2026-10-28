@@ -1,0 +1,75 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Grande Seca",
+    "description": "Brazilian drought (1877–1878)",
+    "extract": "The Grande Seca, or the Brazilian drought of 1877–1878, was the largest and most devastating drought in Brazilian history. It caused the deaths of between 400,000 and 500,000 people. Of the 800,000 people who lived in the affected Northeastern region, around 120,000 migrated to the Amazon while 68,000 migrated to other parts of Brazil.",
+    "url": "https://en.wikipedia.org/wiki/Grande_Seca"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 17.2,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 770,
+      "cache_read_input_tokens": 577,
+      "output_tokens": 646,
+      "thinking_tokens": 546,
+      "cost_usd": 0.0192034,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 990,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 437,
+      "thinking_tokens": 302,
+      "cost_usd": 0.016668,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🌞🌵💧🚫🥵 ⚰️⚰️⚰️⚰️⚰️\n⚽💃🏖️🇵🇹🗣️ 🌎⬇️\n👑 🧳🏃🏃🏃 🌴🛶\n</msg>",
+      "delivered": "🌞🌵💧🚫🥵 ⚰️⚰️⚰️⚰️⚰️\n⚽💃🏖️🇵🇹🗣️ 🌎⬇️\n👑 🧳🏃🏃🏃 🌴🛶",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The scene: a deadly drought (sun, cactus, no water, heat, many coffins) in Brazil (football, samba, beach, Portuguese, South America). The crown suggests the Empire era, and the people fleeing toward palms and a canoe suggest migrants heading to the Amazon. That points to the Great Drought of 1877–78 in Northeast Brazil.\n\nGUESS: Grande Seca",
+      "guess": "Grande Seca",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "40a6ffef-cfc1-4e0b-b54f-434319066675",
+    "guesser": "ee4d2ccc-1f87-4c0c-b612-0218d1184d3e"
+  },
+  "ladder": {
+    "article_no": 16,
+    "round": 1,
+    "n_banned": 21,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

@@ -1,0 +1,88 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Proceratium silaceum",
+    "description": "Species of ant",
+    "extract": "Proceratium silaceum is a species of ant in the family Formicidae.",
+    "url": "https://en.wikipedia.org/wiki/Proceratium_silaceum"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 114.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 5086,
+      "cache_read_input_tokens": 1253,
+      "output_tokens": 3945,
+      "thinking_tokens": 3789,
+      "cost_usd": 0.300263,
+      "calls": 2,
+      "cost_usd_reported": 0.5004032500000001
+    },
+    "guesser": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 3001,
+      "cache_read_input_tokens": 1007,
+      "output_tokens": 3275,
+      "thinking_tokens": 2904,
+      "cost_usd": 0.22481700000000002,
+      "calls": 2,
+      "cost_usd_reported": 0.33812175
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 698,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 9.18e-06,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🐝➖🪽 👑👷👷👷 ⛰️🕳️ 🤏\n🍽️ 🕸️🪺\n💛🤎\n🇨🇦⬇️🇲🇽⬆️ 🌅\n🧬\n</msg>",
+      "delivered": "🐝➖🪽 👑👷👷👷 ⛰️🕳️ 🤏\n🍽️ 🕸️🪺\n💛🤎\n🇨🇦⬇️🇲🇽⬆️ 🌅\n🧬",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I'm reading this as: a small social insect — \"bee minus wings\" = ant (🐜 banned?) — with queen and workers, nesting in soil mounds, yellow-brown, ranging from southern Canada to northern Mexico in eastern North America, and it's a species article.\n\nThe feeding clue 🍽️ 🕸️🪺 puzzles me: does it eat spider eggs, or does it raid other insects' nests/brood (like a thief ant)?\n\nQuestions:\n1. Is it an ant (👍/👎)?\n2. Does 🕸️ literally mean spider, or \"someone else's nest\"?\n3. Is the genus Solenopsis, Lasius, Formica, or something else?\n\nGUESS: Solenopsis molesta",
+      "guess": "Solenopsis molesta",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n✅\n🕸️🪺 ✅ 😋\n❌❌❌ 🦄\n🍤⤵️ 🫣🪨🕳️\n</msg>",
+      "delivered": "✅\n🕸️🪺 ✅ 😋\n❌❌❌ 🦄\n🍤⤵️ 🫣🪨🕳️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Got it — 🦄 = horn → \"cerat\" → **Proceratium**! A cryptic ant with the gaster curled under (🍤⤵️), hiding under rocks in the soil, feeding on spider eggs. \n\nYellow-ochre color + range from Ontario down to Mexico suggests the widespread eastern one:\n\nGUESS: Proceratium silaceum",
+      "guess": "Proceratium silaceum",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "e83b53b8-1580-4c2f-a346-d5e9a7a99178",
+    "guesser": "a6108a6f-0a90-4366-9c5c-11e75d47ddcd"
+  },
+  "ladder": {
+    "article_no": 1,
+    "round": 1,
+    "n_banned": 21,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

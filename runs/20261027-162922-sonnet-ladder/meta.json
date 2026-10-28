@@ -1,0 +1,10 @@
+{
+  "model": "sonnet",
+  "mode": "ladder",
+  "rounds": 5,
+  "break_turns": 5,
+  "articles": "articles/set1.json",
+  "reuse_round0": true,
+  "max_turns": 30,
+  "judge": "haiku"
+}

@@ -1,0 +1,110 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Motorchuna",
+    "description": "River in Yakutia (Sakha Republic), Russia",
+    "extract": "The Motorchuna is a river in Yakutia, Russia. It is a left tributary of the Lena with a length of 423 kilometres (263 mi). Its drainage basin area is 9,250 square kilometres (3,570 mi2). Since its river basin is uninhabited, the Motorchuna is one of the most untouched rivers in Yakutia; the waters are clean and there is abundant wildlife.",
+    "url": "https://en.wikipedia.org/wiki/Motorchuna"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 101.2,
+  "usage": {
+    "explainer": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 2734,
+      "cache_read_input_tokens": 6898,
+      "output_tokens": 1562,
+      "thinking_tokens": 1351,
+      "cost_usd": 0.0559272,
+      "calls": 4,
+      "cost_usd_reported": 0.1491688
+    },
+    "guesser": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 5938,
+      "cache_read_input_tokens": 6305,
+      "output_tokens": 5239,
+      "thinking_tokens": 4528,
+      "cost_usd": 0.154862,
+      "calls": 4,
+      "cost_usd_reported": 0.3649668
+    },
+    "judge": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2117,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 157,
+      "thinking_tokens": 145,
+      "cost_usd": 0.0005025,
+      "calls": 3
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🪆🐻❄️ 🛶💧🌲\n🛥️🏎️🔧 🍣🐟</msg>",
+      "delivered": "🪆🐻❄️ 🛶💧🌲\n🛥️🏎️🔧 🍣🐟",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I read this as something in Russia, maybe the far north or Siberia. 🛶💧🌲 suggests a river or lake in the forest. 🍣🐟 suggests fish or fishing. I'm not sure about 🛥️🏎️🔧: is it \"motor\" or \"engine\", or a hint about part of the name?\n\nQuestions:\n1. Is it a river? (👍/👎)\n2. Is it a place, like a river or lake, rather than a ship, person or species?\n3. Does 🛥️🏎️🔧 hint at a word in the name? If so, please spell it with letter emojis like 🇦…\n\nGUESS: Motorny River",
+      "guess": "Motorny River",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🛶✅ 🛥️🔧✅\n🛥️🔧➕🍣🐟👂🤏</msg>",
+      "delivered": "🛶✅ 🛥️🔧✅\n🛥️🔧➕🍣🐟👂🤏",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Here's what I have: it's a river (🛶✅), and its name sounds a little like \"motor/engine + fish\".\n\nIdeas I'm weighing:\n- Motor = \"rotor\", \"turbo\", \"diesel\" or \"outboard\"?\n- Fish = \"salmon\", \"tuna\", \"keta\", \"nerka\", \"ryba\", \"losos\"?\n\nCan you give me the first letter or two with letter emojis like 🇰, or the number of letters with number emojis? Is it in Siberia or the Arctic (🐻‍❄️), or in the European north?\n\nGUESS: Keta River",
+      "guess": "Keta River",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🛥️🔧🎯 ➕ 🥫🐟🥪👂🤏\n🛶 🌏❄️🐻</msg>",
+      "delivered": "🛥️🔧🎯 ➕ 🥫🐟🥪👂🤏\n🛶 🌏❄️🐻",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Here's what I've got: the motor part is exactly right (🎯), plus a canned-fish sandwich, so \"tuna\", \"sardine\" or \"sprats\". Together they sound a little like the name. It's a river in cold Asia, so Siberia or the Russian Far East.\n\nIs the name literally \"Motor-something\"? Or does it only sound like \"Mo-tuna\" or \"Mo-chuna\"?\n\nTo help:\n- Number of letters? (e.g. 5️⃣)\n- First letter? (point to a word or emoji that starts with it)\n- Is it a tributary of a big river like the Yenisei, Lena or Amur?\n\nGUESS: Lower Tunguska",
+      "guess": "Lower Tunguska",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🛥️🔧✅ ➕ 🥫🐟✅👂\n🥫🐟 ➖ 🔤 ➕ 🚂💨</msg>",
+      "delivered": "🛥️🔧✅ ➕ 🥫🐟✅👂\n🥫🐟 ➖ ➕ 🚂💨",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Steam train 🚂💨 = \"choo-choo\". So tuna minus the \"T\", plus \"Chu\", gives \"Chuna\", and motor + Chuna gives \"Motorchuna\". I think that's a river in Yakutia.\n\nGUESS: Motorchuna",
+      "guess": "Motorchuna",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "801ccc0b-743f-4da2-976c-487d3d05a2a6",
+    "guesser": "b8fb9bdb-8e01-41b7-b5e6-307b7c5bc0f4"
+  },
+  "ladder": {
+    "article_no": 18,
+    "round": 1,
+    "n_banned": 15,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

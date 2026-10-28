@@ -1,0 +1,121 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Iron(III) sulfate",
+    "description": "Chemical compound",
+    "extract": "Iron(III) sulfate or ferric sulfate is a family of inorganic compounds with the formula Fe2(SO4)3(H2O)n. A variety of hydrates are known, including the most commonly encountered form of \"ferric sulfate\". Solutions are used in dyeing as a mordant and as a coagulant for industrial wastes. Solutions of ferric sulfate are also used in the processing of aluminum and steel.",
+    "url": "https://en.wikipedia.org/wiki/Iron(III)_sulfate"
+  },
+  "solved": true,
+  "turns_taken": 5,
+  "solved_turn": 5,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 245.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 15022,
+      "cache_read_input_tokens": 43492,
+      "output_tokens": 12897,
+      "thinking_tokens": 12358,
+      "cost_usd": 0.39558479999999996,
+      "calls": 5,
+      "cost_usd_reported": 1.6240046000000001
+    },
+    "guesser": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 7288,
+      "cache_read_input_tokens": 16365,
+      "output_tokens": 6172,
+      "thinking_tokens": 5127,
+      "cost_usd": 0.188362,
+      "calls": 5,
+      "cost_usd_reported": 0.6813652
+    },
+    "judge": {
+      "input_tokens": 8,
+      "cache_creation_input_tokens": 1395,
+      "cache_read_input_tokens": 1401,
+      "output_tokens": 16,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00030181,
+      "calls": 4
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "I'll open with a sound-it-out hint for \"iron\" (eye + urn) plus some iron objects and hazard symbols.\n\n<msg>🗣️👁️⚱️ 🗝️🪝🧑‍🏭\n☠️⚠️ 🚽💦 👗🖍️</msg>",
+      "delivered": "🗣️👁️⚱️ 🗝️🪝🧑‍🏭\n☠️⚠️ 🚽💦 👗🖍️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Reading this as two parts. The first line is probably the title spelled with sounds: 🗣️ (say/tell/speak) + 👁️ (eye/I) + ⚱️ (urn/ash/vase/Attic pot). The second line describes the subject: toxic/hazardous ☠️⚠️, something to do with toilets or sewage 🚽💦, and something to do with clothing and colour 👗🖍️, maybe dye or bleach.\n\nMy guess is a chemical substance used in toilet cleaners and dyeing. ⚱️ as an \"Attic\" vase made me think of \"mur-i-atic\" (muriatic acid). I'm not sure about 🗝️🪝🧑‍🏭 (key + hook + worker); is that \"lock\" + \"smith\" or similar?\n\nQuestions:\n1. Is it a chemical or substance? (👍/👎)\n2. Is the first line the sound of the name, and which syllable is wrong?\n3. What does 🗝️🪝🧑‍🏭 mean? Can you try other emojis?\n\nGUESS: Hydrochloric acid",
+      "guess": "Hydrochloric acid",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "The guesser asked for 👍/👎, but both are banned, so I'll answer yes with 🟢. Next I'll show that eye-urn sounds like a metal, by putting it beside gold and silver, with rust colour and rain.\n\n<msg>🟢\n🗣️👁️⚱️ 🟰 🥇🥈🪙\n🟧🌧️🗝️🪝</msg>",
+      "delivered": "🟢\n🗣️👁️⚱️ 🟰 🥇🥈🪙\n🟧🌧️🗝️🪝",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "So it is a chemical, and 🥇🥈🪙 looks like gold, silver and coin, the coinage metals. That points to **copper**. 🟧 also fits as copper's colour.\n\nMy best match for the rest is **Paris green**, a copper acetoarsenite. It is toxic ☠️, was used to kill rats in the Paris sewers 🚽💦, and was a green pigment in dresses and paints 👗🖍️.\n\nGUESS: Paris green\n\nIf that's wrong, please clarify:\n- Is it a copper compound? (🟢/🔴)\n- Does it contain arsenic? (🟢/🔴)\n- What does 🗝️🪝 stand for? Try other emojis.",
+      "guess": "Paris green",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "Both of their questions get a no (🔴 is banned, so I'll use 🟥). Then I'll split the eye-urn rebus apart to make it clearer, and point to iron through steelwork, red meat, blood, and rust.\n\n<msg>🟥 🟥\n👁️ ⚱️\n🔪🧑‍🏭 🥩🫀 🟧🌧️</msg>",
+      "delivered": "🟥 🟥\n👁️ ⚱️\n🔪🧑‍🏭 🥩🫀 🟧🌧️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "So it's not copper and not arsenic. The new hints point to **iron**: 👁️⚱️ sounds like \"eye-urn\", which is \"iron\". 🟧🌧️ looks like rust, 🥩🫀 looks like iron in blood, and 🔪🧑‍🏭 looks like a smith or knife-making.\n\nFor an iron compound that is toxic or corrosive ☠️⚠️, used in sewage and water treatment 🚽💦, and used in dyeing or ink 👗🖍️, ferric chloride fits best. It is also used to etch knife blades.\n\nGUESS: Iron(III) chloride\n\nIf it's wrong:\n- Is it an iron compound and not the element itself? (🟢/🔴)\n- Is it a sulfate (🧪) or a chloride (🏊)?\n- What is 🗣️ in 🗣️👁️⚱️? Is it a prefix sound?",
+      "guess": "Iron(III) chloride",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "They're one word away. I'll confirm it's an iron compound, pick their first option (sulfate) with 🥇 since 🧪 is banned, and mark their last guess part by part: iron ✓, (III) ✓, chloride ✗.\n\n<msg>🟢\n🥇\n🟢🟢🟥</msg>",
+      "delivered": "🟢\n🥇\n🟢🟢🟥",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "It's an iron sulfate, and I read 🟢🟢🟥 as \"II, not III\". That makes it ferrous sulfate, also called green vitriol or copperas. It's used in water and sewage treatment, as a dye mordant and in iron gall ink, and it's toxic in overdose.\n\nGUESS: Iron(II) sulfate",
+      "guess": "Iron(II) sulfate",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "They misread my part-by-part marks as \"II, not III\". I'll show plainly that two is wrong and three is right.\n\n<msg>🟥 🔵🔵\n🟢 🔵🔵🔵</msg>",
+      "delivered": "🟥 🔵🔵\n🟢 🔵🔵🔵",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Not II, but III. So it's ferric sulfate.\n\nGUESS: Iron(III) sulfate",
+      "guess": "Iron(III) sulfate",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "88996948-7e71-4dbd-9054-b280f4a9bf69",
+    "guesser": "a8cd3df3-91ee-434a-a937-0a81cb9d1354"
+  },
+  "ladder": {
+    "article_no": 2,
+    "round": 8,
+    "n_banned": 168,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

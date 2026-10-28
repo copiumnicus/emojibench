@@ -1,0 +1,88 @@
+{
+  "model": "sonnet",
+  "model_id": "claude-sonnet-5-5",
+  "guesser_model": "sonnet",
+  "guesser_model_id": "claude-sonnet-5-5",
+  "effort": null,
+  "article": {
+    "title": "Dora Akunyili",
+    "description": "Nigerian pharmacist and government official (1954–2014)",
+    "extract": "Dora Nkem Akunyili was a Nigerian pharmacist and politician who served as the director-general of National Agency for Food and Drug Administration and Control (NAFDAC) of Nigeria from 2001 to 2008.",
+    "url": "https://en.wikipedia.org/wiki/Dora_Akunyili"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 38.5,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1829,
+      "cache_read_input_tokens": 1252,
+      "output_tokens": 464,
+      "thinking_tokens": 291,
+      "cost_usd": 0.012218399999999999,
+      "calls": 2,
+      "cost_usd_reported": 0.020805200000000003
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1630,
+      "cache_read_input_tokens": 975,
+      "output_tokens": 731,
+      "thinking_tokens": 471,
+      "cost_usd": 0.014037,
+      "calls": 2,
+      "cost_usd_reported": 0.023293499999999998
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 720,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0001462,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🟩⬜🟩 🌍 🥫🍽️ 💉🧪🏥 🕵️‍♀️🚓 🧴❓ 🏢👑 ⚰️ 🕊️</msg>",
+      "delivered": "🟩⬜🟩 🌍 🥫🍽️ 💉🧪🏥 🕵️‍♀️🚓 🧴❓ 🏢👑 ⚰️ 🕊️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Here's my read: the green-white-green is Nigeria's flag, 🌍 points to Africa, and 💉🧪🏥 with ⚰️ suggests a poisoning with deaths. 🧴 could be a syrup or medicine, and 🕵️‍♀️🚓 an investigation. Is this the 2008 Nigerian teething syrup (diethylene glycol) poisoning?\n\nGUESS: 2008 Nigerian teething syrup disaster",
+      "guess": "2008 Nigerian teething syrup disaster",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🕵️‍♀️ 👸🏾 🟩⬜🟩 🏢🥫💉 🧴🚓 🏆 🗳️ 🎓 ⚰️ 1️⃣9️⃣5️⃣4️⃣</msg>",
+      "delivered": "🕵️‍♀️ 👸🏾 🟩⬜🟩 🏢🥫💉 🧴🚓 🏆 🗳️ 🎓 ⚰️",
+      "dropped_chars": 8,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "This looks like a Nigerian woman who investigated and fought fake food and drugs. 🏢🥫💉 would be NAFDAC, 🗳️ a later election, 🎓 a professor, and ⚰️ her death. That fits Dora Akunyili.\n\nGUESS: Dora Akunyili",
+      "guess": "Dora Akunyili",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "a45856e8-6d3b-48b4-bd1a-01e638bee29c",
+    "guesser": "d90109ad-ee49-4412-9f63-b7f740a02d1f"
+  },
+  "ladder": {
+    "article_no": 12,
+    "round": 1,
+    "n_banned": 10,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

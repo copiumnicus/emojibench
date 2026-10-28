@@ -1,0 +1,110 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Grande Seca",
+    "description": "Brazilian drought (1877–1878)",
+    "extract": "The Grande Seca, or the Brazilian drought of 1877–1878, was the largest and most devastating drought in Brazilian history. It caused the deaths of between 400,000 and 500,000 people. Of the 800,000 people who lived in the affected Northeastern region, around 120,000 migrated to the Amazon while 68,000 migrated to other parts of Brazil.",
+    "url": "https://en.wikipedia.org/wiki/Grande_Seca"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 171.8,
+  "usage": {
+    "explainer": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 6972,
+      "cache_read_input_tokens": 13265,
+      "output_tokens": 5224,
+      "thinking_tokens": 4601,
+      "cost_usd": 0.165618,
+      "calls": 4,
+      "cost_usd_reported": 0.4635904
+    },
+    "guesser": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 7632,
+      "cache_read_input_tokens": 7117,
+      "output_tokens": 7422,
+      "thinking_tokens": 6547,
+      "cost_usd": 0.2123988,
+      "calls": 4,
+      "cost_usd_reported": 0.47702760000000005
+    },
+    "judge": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2103,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 12,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0004272000000000001,
+      "calls": 3
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Plan: signal drought with dry-land creatures and thirst, \"great\" with a huge animal, and Brazil through Portuguese-speaking flags that aren't banned plus the Christ the Redeemer statue.\n\n<msg>\n🐫🦂🦎👅💨\n🐘\n🇸🇹🇲🇴 ⛰️✝️🤗\n😭😭😭\n</msg>",
+      "delivered": "🐫🦂🦎👅💨\n🐘\n🇸🇹🇲🇴 ⛰️✝️🤗\n😭😭😭",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "My reading so far: 🐫🦂🦎 suggests a desert. 🇸🇹🇲🇴 São Tomé + Macau suggests Portuguese-speaking. ⛰️✝️ could be a holy mountain (\"Monte Santo\"?). 😭😭😭 suggests weeping or sorrow, maybe \"Lágrimas\". I'm not sure what 🐘 is doing.\n\nQuestions:\n1. What category is it? Use 📍 for a place, 🧑 for a person, 🎬📖🎵 for a work, 🐾 for a species.\n2. Are the flags spelling out letters (S-T-M-O), or pointing to the Portuguese language?\n\nGUESS: Monte Santo",
+      "guess": "Monte Santo",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "The guesser read the setting as a place, so this turn makes clear it's an event or disaster, confirms the flags mean the Portuguese language, and reinforces thirst, \"great\", and many deaths.\n\n<msg>\n📅⚠️\n👄🇸🇹🇲🇴\n🐫👅🙏⛅\n🐘\n👼👼👼👼👼\n</msg>",
+      "delivered": "📅⚠️\n👄🇸🇹🇲🇴\n🐫👅🙏⛅\n🐘\n👼👼👼👼👼",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Here's my reading now:\n- 🐫👅 is the Arabic language.\n- 👄🇸🇹🇲🇴 means something said in Portuguese.\n- 🙏⛅ is praying to God, or \"God willing.\"\n- 📅⚠️ points to the uncertain future.\n\nSo maybe it's a Portuguese word of Arabic origin meaning \"God willing\" or \"hopefully\": Oxalá (from Arabic *in shā' Allāh*). Could the 😭😭😭 and 👼 be part of a song or film title? I still don't get 🐘.\n\nIs the article a word or expression (👍), or a work like a song or film (🎵🎬)?\n\nGUESS: Oxalá",
+      "guess": "Oxalá",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "The guesser drifted to a Portuguese word, so this turn says it's a historical event. It also puts 🐘 next to the Portuguese-speaking flags (the biggest Portuguese-speaking country = Brazil) and makes the drought and famine plainer: heat, an empty water jar, hunger, many deaths.\n\n<msg>\n📰\n🇸🇹🇲🇴🐘\n🐫🦂🦎😓🏺\n😫🍴 👼👼👼👼👼\n</msg>",
+      "delivered": "📰\n🇸🇹🇲🇴🐘\n🐫🦂🦎😓🏺\n😫🍴 👼👼👼👼👼",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "New idea: 🐫🦂🦎😓🏺 and 😫🍴 sound like drought, thirst and hunger. With 🇸🇹🇲🇴, that might be a Portuguese-speaking drought region, like the Brazilian sertão, where the Brazil flag might be banned. 📰 could be journalism or a book. 👼×5 might be five people or children.\n\nPlease clarify:\n1. Is 🐘 a literal elephant, or a substitute for another big animal (🐋, maybe)?\n2. Is this Brazil (👍/👎)?\n3. Category: person 🧑, book/film 📖🎬, place 📍, or event 📅?\n\nGUESS: Vidas Secas",
+      "guess": "Vidas Secas",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "They're very close: they've reached drought and Brazil. This turn confirms Brazil, confirms it's an event, and explains 🐘 as \"big/great\" so they land on \"Great Drought\" (Grande Seca).\n\n<msg>\n🐘 🐁🐘 🦣banned\n✅\n📅\n</msg>\n\nWhoops — 🦣 is banned, and the filter just deletes it. Clean version:\n\n<msg>\n🐁 🐘🐘🐘\n✅ 🐫🦂🦎😓🏺\n📅\n👼👼👼👼👼👼👼👼👼👼\n</msg>",
+      "delivered": "🐁 🐘🐘🐘\n✅ 🐫🦂🦎😓🏺\n📅\n👼👼👼👼👼👼👼👼👼👼",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "So it's an event (📅), and the drought or desert reading is confirmed ✅. I think 🐁→🐘🐘🐘 means \"huge\" or \"great.\" 👼 going from ×5 to ×10 suggests a large death toll. Put together, that sounds like a \"Great Drought\" in a Portuguese-speaking land. My best match is the Brazilian Great Drought of 1877–78 in Ceará.\n\nIf it's not Brazil, show me the country another way, or the century.\n\nGUESS: Grande Seca",
+      "guess": "Grande Seca",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "df4ef646-218d-4654-b10a-c1fe95cd8833",
+    "guesser": "ccaffcc4-e120-4c2c-84ef-6380a288b530"
+  },
+  "ladder": {
+    "article_no": 16,
+    "round": 8,
+    "n_banned": 162,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

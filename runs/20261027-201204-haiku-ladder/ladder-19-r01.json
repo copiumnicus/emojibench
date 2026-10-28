@@ -1,0 +1,122 @@
+{
+  "model": "haiku",
+  "model_id": "claude-haiku-5-5",
+  "guesser_model": "haiku",
+  "guesser_model_id": "claude-haiku-5-5",
+  "effort": null,
+  "article": {
+    "title": "Sage Derby",
+    "description": "Variety of cheese",
+    "extract": "Sage Derby is a variety of Derby cheese that is mild, mottled green and semi-hard, and has a sage flavour. The colour is from sage and sometimes other colouring added to the curds, producing a marbling effect and a subtle herb flavour. The colour is formed either by mixing sage leaves into the curd before it is pressed or by the addition of \"green curd\" from green corn or spinach juice. In the latter case, the flavour has to be created with colourless sage extract. Parsley, spinach and marigold leaves, bruised and steeped before use, can also be included instead of the sage leaves. It is aged for one to three months.",
+    "url": "https://en.wikipedia.org/wiki/Sage_Derby"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 52.8,
+  "usage": {
+    "explainer": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 4656,
+      "cache_read_input_tokens": 11156,
+      "output_tokens": 2646,
+      "thinking_tokens": 2337,
+      "cost_usd": 0.00236676,
+      "calls": 5,
+      "cost_usd_reported": 0.007906820000000002
+    },
+    "guesser": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 3773,
+      "cache_read_input_tokens": 7879,
+      "output_tokens": 2996,
+      "thinking_tokens": 1971,
+      "cost_usd": 0.00233239,
+      "calls": 5,
+      "cost_usd_reported": 0.006910079999999999
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🥛🟩🍃🍃 🥬 🏴󠁧󠁢󠁥󠁮󠁧󠁿 🏰 🫖 ⏳ 🍽️ 🟫⬜</msg>",
+      "delivered": "🥛🟩🍃🍃 🥬 🏴󠁧󠁢󠁥󠁮󠁧󠁿 🏰 🫖 ⏳ 🍽️ 🟫⬜",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I read the clues as: milk, a green square, leaves, lettuce, the England flag, a castle, a teapot, an hourglass, a dining plate, and brown and white squares. My best guess is an English place, possibly a village or civil parish with a castle and a historic or tea-related feature.\n\nQuestions:\n1. Is the article about a place in England?\n2. Is it a village, town, or civil parish?\n3. Do the leaves and lettuce point to a name (for example, something containing \"Green\", \"Leaf\", or \"Lettuce\")?\n4. Do the brown and white squares mean a chessboard, a checkered pattern, or a brick or stone wall?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>❌ ❌ ❌ ❌ 🍴🥛🎨🟩🪴🏇⏳</msg>",
+      "delivered": "❌ ❌ ❌ ❌ 🍴🥛🎨🟩🪴🏇⏳",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The four ❌ answer my questions, so the article is not an English place, not a village or civil parish, not a name built from leaf or lettuce words, and not about a chessboard or checkered pattern.\n\nThe new clues are fork (eating), milk, art, green, a potted plant, horse racing, and an hourglass. Here are my hypotheses:\n- A person, such as a painter or jockey, whose career combined art and horse racing.\n- A racehorse or a painting.\n- A food or dairy topic.\n\nQuestions:\n1. Is the article about a person?\n2. Is it about a horse, racehorse, or painting?\n3. Is the hourglass about time or history, such as a historical period or an event with a date?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>❌ ❌ ❌ ✅ 🥛🧈🪨⏳🗓️🟩🪴</msg>",
+      "delivered": "❌ ❌ ❌ ✅ 🥛🧈🪨⏳🗓️🟩🪴",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The explainer confirms the article is about time or history, but not a person, a horse, or a painting. The new clues are milk, butter, stone, an hourglass, a calendar, green, and a potted plant. That suggests farming, dairy, and prehistory, which could point to an ancient or agricultural period.\n\nQuestions:\n1. Is the article about prehistory or an ancient era, such as the Stone Age?\n2. Is it about farming, agriculture, or dairy?\n3. Is it about a specific event or period, rather than a general topic?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>❌ ✅ ❌ 🍴🥛🫕🍞🎨🟩🪴🏇⏳🗓️🥄</msg>",
+      "delivered": "❌ ✅ ❌ 🍴🥛🫕🍞🎨🟩🪴🏇⏳🗓️🥄",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The explainer says the article is about farming, agriculture, or dairy, but not prehistory or a specific event. The new clues are fork, milk, fondue, bread, art, green, a plant, horse racing, an hourglass, a calendar, and a spoon.\n\nFondue, milk, and an hourglass (aging) suggest a cheese or other food product, possibly one that is aged or has a long history. Horse racing might point to a breed of animal, but the art clue doesn't fit well.\n\nQuestions:\n1. Is the article about a type of cheese or another food product?\n2. Is it about an animal breed, such as a cattle or horse breed?\n3. Is it about a dish or a meal, such as a fondue or a bread-based dish?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>✅ ❌ ❌ 🐮🥛🧈🎨🟩🪴🏇⏳🗓️🏴󠁧󠁢󠁥󠁮󠁧󠁿</msg>",
+      "delivered": "✅ ❌ ❌ 🐮🥛🧈🎨🟩🪴🏇⏳🗓️🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The explainer confirms the article is about a cheese. It is not an animal breed or a dish, and the England flag suggests an English cheese. Several English cheeses fit (Stilton, Cheddar, Wensleydale, Sage Derby, and others). The green and plant clues might mean a blue-veined or herb-flavored cheese, and the hourglass and calendar might mean aging.\n\nQuestions:\n1. Is it a blue-veined cheese?\n2. Is it flavored with herbs such as sage?\n3. Is the cheese named after an English town or region?",
+      "guess": null,
+      "correct": null
+    }
+  ],
+  "sessions": {
+    "explainer": "1d55f92e-966a-4f48-a2ac-efed9c26837a",
+    "guesser": "c3cc7824-ffef-4371-8d00-185ed1093665"
+  },
+  "ladder": {
+    "article_no": 19,
+    "round": 1,
+    "n_banned": 10,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

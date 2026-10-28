@@ -1,0 +1,97 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "UFC BJJ 2",
+    "description": "Martial arts event in 2025",
+    "extract": "UFC BJJ 2: Tackett vs. Canuto was a submission grappling event produced by UFC Brazilian Jiu-Jitsu. The event was held at the UFC Apex in Las Vegas, Nevada, United States, on July 31, 2025 and was streamed live on YouTube.",
+    "url": "https://en.wikipedia.org/wiki/UFC_BJJ_2"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 67.4,
+  "usage": {
+    "explainer": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 2385,
+      "cache_read_input_tokens": 4824,
+      "output_tokens": 1082,
+      "thinking_tokens": 763,
+      "cost_usd": 0.0427056,
+      "calls": 4,
+      "cost_usd_reported": 0.1190324
+    },
+    "guesser": {
+      "input_tokens": 8,
+      "cache_creation_input_tokens": 3331,
+      "cache_read_input_tokens": 5586,
+      "output_tokens": 2446,
+      "thinking_tokens": 2165,
+      "cost_usd": 0.19458599999999998,
+      "calls": 4,
+      "cost_usd_reported": 0.522822
+    },
+    "judge": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2121,
+      "output_tokens": 12,
+      "thinking_tokens": 0,
+      "cost_usd": 2.781e-05,
+      "calls": 3
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "UFC BJJ 2: a UFC Brazilian jiu-jitsu event, the second one, in Las Vegas.\n\n<msg>🛑🥊 ➕ 🇧🇷🥋🤼 ✌️\n🎰🌵 📅☀️ 📺▶️</msg>",
+      "delivered": "🛑🥊 ➕ 🇧🇷🥋🤼 ✌️\n🎰🌵 📅☀️ 📺▶️",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "I read this as: MMA (striking + Brazilian jiu-jitsu + wrestling), \"2\", Las Vegas, a season/date, and a TV show. Is it a TV series season rather than a single event? If it's a numbered UFC event instead, give me the number with digit emojis.\n\nGUESS: The Ultimate Fighter 2",
+      "guess": "The Ultimate Fighter 2",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👎📺 ☝️🎪\n🛑 ➕ 🇧🇷🥋🤼 🚫👊🚫🥊\n✌️</msg>",
+      "delivered": "👎📺 ☝️🎪\n🛑 ➕ 🇧🇷🥋🤼 🚫👊🚫🥊\n✌️",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Got it — a single event, submission grappling (no strikes), number 2, Las Vegas, summer, streamed. \n\nGUESS: Craig Jones Invitational 2",
+      "guess": "Craig Jones Invitational 2",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>👎 🦘🇦🇺\n🛑🛑🛑 👨‍🦲💼 ⬅️ 🏢 ➕ 🇧🇷🥋 ✌️</msg>",
+      "delivered": "👎 🦘🇦🇺\n🛑🛑🛑 👨‍🦲💼 ⬅️ 🏢 ➕ 🇧🇷🥋 ✌️",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Bald businessman from a company + BJJ = Dana White / UFC, so a UFC-branded grappling event.\n\nGUESS: UFC Fight Pass Invitational 2",
+      "guess": "UFC Fight Pass Invitational 2",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🔥🔥 👎🎟️🚫 👎🏆✉️\n🛑 🇧🇷🥋 ✌️ ⬅️ 🟰 🏷️\n📅 🆕 ▶️🔴</msg>",
+      "delivered": "🔥🔥 👎🎟️🚫 👎🏆✉️\n🛑 🇧🇷🥋 ✌️ ⬅️ 🟰 🏷️\n📅 ▶️🔴",
+      "dropped_chars": 1,
+      "retried": false,
+      "guesser": "Ah — 🛑 is the octagon = UFC! So the title is \"UFC BJJ 2\".\n\nGUESS: UFC BJJ 2",
+      "guess": "UFC BJJ 2",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "04b37565-0c32-4e27-9bdd-aefc3a5f7413",
+    "guesser": "1ca97940-27c9-4f32-b3c1-4186111484e5"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

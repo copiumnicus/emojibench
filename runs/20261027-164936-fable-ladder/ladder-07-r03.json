@@ -1,0 +1,90 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Mad River Mountain",
+    "description": "Ski resort in Ohio, United States",
+    "extract": "Mad River Mountain is a ski and snowboard resort in Valley Hi, Ohio, United States. The elevation of Mad River Mountain is 1,460 feet (450 m) with a vertical drop of 300 ft (91 m), and it has a ski season that runs from approximately mid-December through mid-March. The resort, which opened in 1962 as Valley Hi Ski Area, is owned by EPR Properties and operated by Vail Resorts, who bought the resort from Peak Resorts in 2019.",
+    "url": "https://en.wikipedia.org/wiki/Mad_River_Mountain"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 115.5,
+  "usage": {
+    "explainer": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 4577,
+      "cache_read_input_tokens": 2052,
+      "output_tokens": 3942,
+      "thinking_tokens": 3756,
+      "cost_usd": 0.290732,
+      "calls": 2,
+      "cost_usd_reported": 0.47611725000000005
+    },
+    "guesser": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 2410,
+      "cache_read_input_tokens": 976,
+      "output_tokens": 2694,
+      "thinking_tokens": 2270,
+      "cost_usd": 0.18391600000000002,
+      "calls": 2,
+      "cost_usd_reported": 0.26602400000000004
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 701,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00014240000000000002,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n😤 〰️🐟🌉 🌄\n\n🌨️⛄🥽🧣🧤\n\n📍 🐶🐯 🎸 🚀\n</msg>",
+      "delivered": "😤 〰️🐟🌉 🌄\n🌨️⛄🥽🧣🧤\n📍 🐶🐯 🎸 🚀",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I'm seeing: something with water/fish/bridge/mountains, a cold/snowy/winter-sports theme, and then a location with dog, tiger, guitar, rocket (maybe team mascots or name pieces?).\n\nLet me narrow down with yes/no questions — answer with ✅/❌ in order please:\n1. Is it a place (town/village/city)?\n2. Is it a person (e.g., a winter athlete)?\n3. Is it in Europe?\n4. Is it in Asia (Russia/Japan/Korea/China)?\n5. Is it in North America?\n6. Are 🐶🐯🎸🚀 pieces of the name (sound-alikes) rather than literal things?\n\nGUESS: Sapporo",
+      "guess": "Sapporo",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n❌ ❌ ❌ ❌ ✅ ❌\n\n🎟️🏂‍🌨️⛄🥽🧣 🎫\n\n😤👿😾 ➕ 〰️🐟🌉🦆 ➕ 🌄\n\n📍🐶🏟️ 🐯🏟️ 🎸🏛️\n</msg>",
+      "delivered": "❌ ❌ ❌ ❌ ✅ ❌\n🎟️🌨️⛄🥽🧣 🎫\n😤👿😾 ➕ 〰️🐟🌉🦆 ➕ 🌄\n📍🐶🏟️ 🐯🏟️ 🎸🏛️",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🏂"
+      ],
+      "retried": false,
+      "guesser": "Got it — ❌ place/person, ✅ North America, literal: 🐶🏟️ Cleveland Browns (Dawg Pound), 🐯🏟️ Cincinnati Bengals, 🎸🏛️ Rock & Roll Hall of Fame, 🚀 Rocket Mortgage FieldHouse → Ohio! And the name = Mad (😤) + River (〰️🐟🌉🦆) + Mountain (🌄), a ski resort with tickets/lifts.\n\nGUESS: Mad River Mountain",
+      "guess": "Mad River Mountain",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "426ac268-ed21-4e56-af2f-896589e475c2",
+    "guesser": "97469cb9-0465-4dff-a599-b1188141eff1"
+  },
+  "ladder": {
+    "article_no": 7,
+    "round": 3,
+    "n_banned": 38,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

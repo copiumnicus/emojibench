@@ -1,0 +1,355 @@
+{
+  "model": "haiku",
+  "model_id": "claude-haiku-5-5",
+  "effort": null,
+  "article": {
+    "title": "Grande Seca",
+    "description": "Brazilian drought (1877–1878)",
+    "extract": "The Grande Seca, or the Brazilian drought of 1877–1878, was the largest and most devastating drought in Brazilian history. It caused the deaths of between 400,000 and 500,000 people. Of the 800,000 people who lived in the affected Northeastern region, around 120,000 migrated to the Amazon while 68,000 migrated to other parts of Brazil.",
+    "url": "https://en.wikipedia.org/wiki/Grande_Seca"
+  },
+  "solved": false,
+  "turns_taken": 30,
+  "solved_turn": null,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 328.8,
+  "usage": {
+    "explainer": {
+      "input_tokens": 60,
+      "cache_creation_input_tokens": 17556,
+      "cache_read_input_tokens": 278183,
+      "output_tokens": 9682,
+      "thinking_tokens": 6288,
+      "cost_usd": 0.01114003,
+      "calls": 30,
+      "cost_usd_reported": 0.15796644
+    },
+    "guesser": {
+      "input_tokens": 60,
+      "cache_creation_input_tokens": 20579,
+      "cache_read_input_tokens": 299567,
+      "output_tokens": 16104,
+      "thinking_tokens": 12284,
+      "cost_usd": 0.015169470000000001,
+      "calls": 30,
+      "cost_usd_reported": 0.22220254000000003
+    },
+    "judge": {
+      "input_tokens": 30,
+      "cache_creation_input_tokens": 10526,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 321,
+      "thinking_tokens": 261,
+      "cost_usd": 0.0022687000000000002,
+      "calls": 15
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇧🇷 🌵☀️🏜️ 🌾❌🐄❌ 💀💀💀 🚶➡️🌳 ⏳⏪</msg>",
+      "delivered": "🇧🇷 🌵☀️🏜️ 🌾❌🐄❌ 💀💀💀 🚶➡️🌳 ⏳⏪",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Brazil, desert, and sun suggest the Sertão, the arid northeast. The skulls and \"no crops, no cattle\" point to a drought or famine, and the walk toward trees with time going back could mean migration or a historical episode. Is the article about a historical event, like a drought, famine, or migration? Or is it about a place, such as a village or municipality that was abandoned?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👍 ❌📍 🌵🌵 🏆 💀 ⏪⏪</msg>",
+      "delivered": "👍 ❌📍 🌵🌵 🏆 💀 ⏪⏪",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "The 👍 and ❌📍 suggest a historical event or person rather than a place. With 🏆 and 💀, my best idea is a notable person who died in the Sertão, such as a bandit leader or a religious leader. Is the article about a person? If so, were they a bandit, a religious figure, or an athlete?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>👎🧑 👍📆 🌵🌵🇧🇷 💯⬆️ 💀💀💀 🌾❌</msg>",
+      "delivered": "👎🧑 👍📆 🌵🌵🇧🇷 💯⬆️ 💀💀💀 🌾❌",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "The 👎🧑 rules out a person, and 👍📆 says it's a dated event. Combined with Brazil's arid interior, mass deaths, and no crops, the best candidate I see is the Canudos War, a 1896–97 conflict in Bahia's Sertão with heavy casualties. Trying that now.\n\nGUESS: War of Canudos",
+      "guess": "War of Canudos",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>❌⚔️ ❌🔫 🌧️❌🌧️❌ ☀️🌡️ 🌾❌ 🌵 natural 🌍 not war 👍 🇧🇷 Northeast 🧭 💀💀💀 🚶➡️🌳 💯</msg>",
+      "delivered": "❌⚔️ ❌🔫 🌧️❌🌧️❌ ☀️🌡️ 🌾❌ 🌵 🌍 👍 🇧🇷 🧭 💀💀💀 🚶➡️🌳 💯",
+      "dropped_chars": 22,
+      "retried": false,
+      "guesser": "The ❌⚔️ and ❌🔫 rule out war and gunfire. The repeated rain-absent signs, heat, no crops, cacti, and deaths, followed by walking toward trees, point to a drought and the migration it caused. The 🧭 may suggest an expedition or journey. My best guess is the 1877–1879 Great Drought in Brazil's Northeast, which killed hundreds of thousands and drove people toward the Amazon.\n\nGUESS: Great Drought (1877–1879)",
+      "guess": "Great Drought (1877–1879)",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>🔥🔥 👍🌵 🎯 close 🗣️🇧🇷 title 📜 not English 🇵🇹 📅 1877 1878 🌵☀️ 💀💀 🚶➡️🌳</msg>",
+      "delivered": "🔥🔥 👍🌵 🎯 🗣️🇧🇷 📜 🇵🇹 📅 🌵☀️ 💀💀 🚶➡️🌳",
+      "dropped_chars": 28,
+      "retried": false,
+      "guesser": "The 🗣️🇧🇷, 📜, and 🇵🇹 suggest a Portuguese-language or colonial-era topic, such as a language, a dialect, a historical document, or a Portuguese-era event in Brazil. The desert, deaths, and walk toward the forest still fit a drought or a flight into the forest. Is the article about a language or dialect, or about a document or law?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 6,
+      "explainer_raw": "<msg>👍 event 👍 drought ❌🗣️ ❌📜 🇧🇷 title two words 🏔️ big 🏜️💧❌ dry 🌵☀️ 💀💀 🚶➡️🌳</msg>",
+      "delivered": "👍 👍 ❌🗣️ ❌📜 🇧🇷 🏔️ 🏜️💧❌ 🌵☀️ 💀💀 🚶➡️🌳",
+      "dropped_chars": 31,
+      "retried": false,
+      "guesser": "The ❌🗣️ and ❌📜 rule out language and documents. The new 🏔️ suggests a mountain or highland. Combined with the desert, the lack of water, and deaths followed by a walk toward the forest, it could be a people or group, such as an Indigenous or community group, that fled from a dry highland area. Is the article about a people, an ethnic or social group, or a mountain range or plateau?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 7,
+      "explainer_raw": "<msg>❌👥 ❌⛰️ 👍 event ✅ 🔁 drought 🏔️ = big word not mountain ⬆️ 🇧🇷 title 🏜️💧❌ 🌵☀️ 💀💀💀 🚶➡️🌳</msg>",
+      "delivered": "❌👥 ❌⛰️ 👍 ✅ 🔁 🏔️ ⬆️ 🇧🇷 🏜️💧❌ 🌵☀️ 💀💀💀 🚶➡️🌳",
+      "dropped_chars": 36,
+      "retried": false,
+      "guesser": "The ❌👥 and ❌⛰️ rule out a people or a mountain. The 👍✅ confirms something with a clear, specific identity, and 🔁 may point to a recurring drought cycle, or a story that repeats. The strongest fit I can see is *Vidas Secas* (Barren Lives), Graciliano Ramos's novel about a family fleeing drought in Brazil's sertão, with a cactus-and-sun landscape and deaths. Trying it.\n\nGUESS: Barren Lives",
+      "guess": "Barren Lives",
+      "correct": false
+    },
+    {
+      "turn": 8,
+      "explainer_raw": "<msg>❌📚 ❌🎭 fiction ❌ novel 👍 REAL event 🌍 🕰️🔙 long ago 🏛️ empire era 🇧🇷 🌵☀️ 🏜️ 💀💀💀 🚶➡️🌳 🔁 ❌</msg>",
+      "delivered": "❌📚 ❌🎭 ❌ 👍 🌍 🕰️ 🏛️ 🇧🇷 🌵☀️ 🏜️ 💀💀💀 🚶➡️🌳 🔁 ❌",
+      "dropped_chars": 38,
+      "retried": false,
+      "guesser": "The ❌📚 and ❌🎭 rule out a book and a film. The 👍 with 🌍 and 🕰️ suggests a historical event with global reach, and 🏛️ may point to an archaeological or ancient setting. Combined with Brazil's desert, mass deaths, and a walk toward the forest, one idea is a worldwide drought or famine that hit Brazil, such as the late-19th-century El Niño famines. Would a global or worldwide framing fit, or is the article about an archaeological or ancient site instead?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 9,
+      "explainer_raw": "<msg>🌊 yes El Niño 👍 but 🇧🇷 only ❌🌍 not worldwide ❌🏛️ ancient ✅ 1877 era 🕰️ 🔙 🏔️ = big word ⬆️ 🏜️💧❌ dry word 🇧🇷 Portuguese 🗣️ 🌵☀️ 💀💀💀 🚶➡️🌳 ⏪</msg>",
+      "delivered": "🌊 👍 🇧🇷 ❌🌍 ❌🏛️ ✅ 🕰️ 🏔️ ⬆️ 🏜️💧❌ 🇧🇷 🗣️ 🌵☀️ 💀💀💀 🚶➡️🌳 ⏪",
+      "dropped_chars": 68,
+      "retried": false,
+      "guesser": "The 🌊 and 👍 point to water, and since Brazil is confirmed, the article may involve a river, lake, or water project in the dry northeast. The 🏔️ could refer to a highland source. Is the article about a river, a lake, or a water-related project or structure in Brazil?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 10,
+      "explainer_raw": "<msg>❌🏞️ ❌🌊 ❌🏗️ ❌ project ✅ EVENT 🌵 drought itself 🇧🇷 title = 2 Portuguese words 🏔️ big 🏜️ dry 🧠 ➡️ 🎯 1877 🕰️ 💀💀💀 🚶➡️🌳</msg>",
+      "delivered": "❌🏞️ ❌🌊 ❌🏗️ ❌ ✅ 🌵 🇧🇷 🏔️ 🏜️ 🧠 ➡️ 🎯 🕰️ 💀💀💀 🚶➡️🌳",
+      "dropped_chars": 57,
+      "retried": false,
+      "guesser": "The 🧠 and 🎯 suggest a concept, movement, or belief system rather than a place or event. Given the desert, mountain, Brazil, and mass deaths, a religious community is a candidate. I'll try the settlement of Canudos, which was built around a messianic movement.\n\nGUESS: Canudos",
+      "guess": "Canudos",
+      "correct": false
+    },
+    {
+      "turn": 11,
+      "explainer_raw": "<msg>❌🙏 ❌⚔️ ❌🏘️ ❌🧠 🌧️❌ NATURE ☀️🏜️ drought 👍 🇧🇷 1877 🕰️ 💀💀💀 💯 🚶➡️🌳 🎯 weather event</msg>",
+      "delivered": "❌🙏 ❌⚔️ ❌🏘️ ❌🧠 🌧️❌ ☀️🏜️ 👍 🇧🇷 🕰️ 💀💀💀 💯 🚶➡️🌳 🎯",
+      "dropped_chars": 29,
+      "retried": false,
+      "guesser": "The ❌🙏, ❌⚔️, ❌🏘️, and ❌🧠 rule out religion, war, settlements, and concepts. The pattern now fits the drought-driven migration of northeastern Brazilians into the Amazon during the rubber boom, when many died on the way. That points to the \"rubber soldiers\" (*soldados da borracha*), recruited from the sertão during WWII.\n\nGUESS: Rubber soldiers",
+      "guess": "Rubber soldiers",
+      "correct": false
+    },
+    {
+      "turn": 12,
+      "explainer_raw": "<msg>✅✅ ❌🌳 ❌🪖 ❌🧱 EVENT itself 🌵☀️🏜️ = SECA 🌟🌟 = GRANDE 🇧🇷 1877 ➡️ 1878 🕰️ 💀💀💀 🚶➡️🌳 just the drought 🎯</msg>",
+      "delivered": "✅✅ ❌🌳 ❌🪖 ❌🧱 🌵☀️🏜️ 🌟🌟 🇧🇷 ➡️ 🕰️ 💀💀💀 🚶➡️🌳 🎯",
+      "dropped_chars": 45,
+      "retried": false,
+      "guesser": "The ❌🌳 and ❌🪖 rule out the forest destination and soldiers, and ❌🧱 rules out a building. The 🌟🌟 suggests a notable event, and 🚶➡️🌳 may just describe a journey through dry land rather than migration. Is the article about a journey, expedition, or march across Brazil's arid land?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 13,
+      "explainer_raw": "<msg>❌🚶 ❌🗺️ ❌🏃 NOT a trip ✅ the DROUGHT itself ☀️🌵 years of no rain 🌧️❌ 🇧🇷 🗣️ answer is PORTUGUESE version of \"Great Drought\" 🌟🏜️ 🕰️ 1877 💀💀💀 🎯 close to your 1st guess but in Portuguese</msg>",
+      "delivered": "❌🚶 ❌🗺️ ❌🏃 ✅ ☀️🌵 🌧️❌ 🇧🇷 🗣️ 🌟🏜️ 🕰️ 💀💀💀 🎯",
+      "dropped_chars": 116,
+      "retried": false,
+      "guesser": "The ❌🚶, ❌🗺️, and ❌🏃 rule out a journey, a map, and a race. The 🗣️ and 🌟 may point to a famous song or poem about the drought. The sertão drought song \"Asa Branca,\" made famous by Luiz Gonzaga, fits the sun, no rain, and migration themes.\n\nGUESS: Asa Branca",
+      "guess": "Asa Branca",
+      "correct": false
+    },
+    {
+      "turn": 14,
+      "explainer_raw": "<msg>✅ EVENT ❌🎵 ❌📖 ❌👤 ✅ 🗣️ PORTUGUESE 🇧🇷 🌟 = GRANDE 🥵🌵 = SECA dry 🧭 Northeast 🌵☀️ 🕰️ 1877 💀💀💀 🎯 article title = Portuguese \"Great Drought\" = 🌟 + 🥵🌵</msg>",
+      "delivered": "✅ ❌🎵 ❌📖 ❌👤 ✅ 🗣️ 🇧🇷 🌟 🥵🌵 🧭 🌵☀️ 🕰️ 💀💀💀 🎯 🌟 🥵🌵",
+      "dropped_chars": 82,
+      "retried": false,
+      "guesser": "The ❌🎵, ❌📖, and ❌👤 rule out a song, a story, and a person. The 🧭 and repeated 🌵 suggest either a natural subject or a navigation-related event, and the ✅ on 🗣️ suggests something people talk about. Could the article be about a plant, animal, or disease that's found in Brazil's arid region?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 15,
+      "explainer_raw": "<msg>❌🌿 ❌🐛 ❌🦠 ❌🧭 ✅ EVENT 🌵☀️ 🌧️❌ 🕰️ 🇧🇷 🌟 big 🏜️ dry 🗣️ 2 words 💀💀💀 🎯 Grande Seca</msg>",
+      "delivered": "❌🌿 ❌🐛 ❌🦠 ❌🧭 ✅ 🌵☀️ 🌧️❌ 🕰️ 🇧🇷 🌟 🏜️ 🗣️ 💀💀💀 🎯",
+      "dropped_chars": 27,
+      "retried": false,
+      "guesser": "The ❌🌿, ❌🐛, ❌🦠, and ❌🧭 rule out a plant, animal, disease, and navigation. The ✅ on the desert sun and 🗣️ suggests a historical event where people spoke or protested, and many died. Could it be a revolt, riot, or massacre that happened in Brazil's arid region without a battle?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 16,
+      "explainer_raw": "<msg>❌🔥 ❌⚔️ ❌🩸 NOT revolt ✅ DROUGHT only 🌵☀️🌧️❌ 🇧🇷 🌟🏜️ = Portuguese \"Great Drought\" 🗣️ literal name 🎯 1877 🕰️ 💀💀💀 🚶➡️🌳</msg>",
+      "delivered": "❌🔥 ❌⚔️ ❌🩸 ✅ 🌵☀️🌧️❌ 🇧🇷 🌟🏜️ 🗣️ 🎯 🕰️ 💀💀💀 🚶➡️🌳",
+      "dropped_chars": 60,
+      "retried": false,
+      "guesser": "The ❌🔥, ❌⚔️, and ❌🩸 rule out fire, battle, and bloodshed, and the ✅ on the desert drought and 🗣️ still point to a historical subject tied to Brazil's arid region. I earlier ruled out a person with 👎🧑, but I may have misread that. Could the article be about a specific person, such as a leader, prophet, or public figure, whose life or death was tied to the drought?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 17,
+      "explainer_raw": "<msg>👎🧑 NOT a person ✅ same as turn 5 concept 🔁 right idea 🗣️ wrong language 🇧🇷 🌟🏜️ = Portuguese 🎯 📜 title 🌵☀️ 1877 🕰️ 💀💀💀</msg>",
+      "delivered": "👎🧑 ✅ 🔁 🗣️ 🇧🇷 🌟🏜️ 🎯 📜 🌵☀️ 🕰️ 💀💀💀",
+      "dropped_chars": 70,
+      "retried": false,
+      "guesser": "The 👎🧑 rules out a person again. The ✅ with 🔁 (recurring) and 📜 (a legal or formal document), along with Brazil and the sun-scorched desert, suggests a legal or administrative drought framework. The best fit I can think of is the Polígono das Secas, the official drought-prone zone that Brazil defined by law.\n\nGUESS: Polígono das Secas",
+      "guess": "Polígono das Secas",
+      "correct": false
+    },
+    {
+      "turn": 18,
+      "explainer_raw": "<msg>🚫📅 no dates ✅ same drought as turn 5 🔁 🇧🇷 Portuguese words only 🌟🏜️ 2 words 🎯 you were right event, wrong language 🗣️ 👍👍 💀💀💀</msg>",
+      "delivered": "🚫📅 ✅ 🔁 🇧🇷 🌟🏜️ 🎯 🗣️ 👍👍 💀💀💀",
+      "dropped_chars": 81,
+      "retried": false,
+      "guesser": "The 🚫📅 rules out a single date, which fits a recurring pattern rather than one event. The ✅ with 🔁 and the sertão setting, plus repeated deaths, suggest a long-running social phenomenon. I'll try the cangaço, the banditry movement that ran through Brazil's arid interior for decades.\n\nGUESS: Cangaço",
+      "guess": "Cangaço",
+      "correct": false
+    },
+    {
+      "turn": 19,
+      "explainer_raw": "<msg>❌🔥 ❌⚔️ ❌🎭 ❌📜 ✅ turn 5 🌵☀️ DROUGHT 🔁 same 🇧🇷 Portuguese 🗣️ 🌟 big 🥵 dry 🎯 2 words no dates 💀💀💀</msg>",
+      "delivered": "❌🔥 ❌⚔️ ❌🎭 ❌📜 ✅ 🌵☀️ 🔁 🇧🇷 🗣️ 🌟 🥵 🎯 💀💀💀",
+      "dropped_chars": 45,
+      "retried": false,
+      "guesser": "The ❌🔥, ❌⚔️, ❌🎭, and ❌📜 rule out fire, battle, performance, and documents. The desert, sun, deaths, and walk toward trees could describe a disaster where survivors tried to reach the forest. Is the article about a disaster, such as a plane crash, shipwreck, or other accident in Brazil's arid region?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 20,
+      "explainer_raw": "<msg>❌✈️ ❌🚢 ❌🚗 ✅🌍 NATURAL disaster 🌵☀️ DROUGHT 🌧️❌ 🇧🇷 🗣️ Portuguese title 🌟🥵 big + dry 🎯 1877 🕰️ 💀💀💀 🚶➡️🌳</msg>",
+      "delivered": "❌✈️ ❌🚢 ❌🚗 ✅🌍 🌵☀️ 🌧️❌ 🇧🇷 🗣️ 🌟🥵 🎯 🕰️ 💀💀💀 🚶➡️🌳",
+      "dropped_chars": 48,
+      "retried": false,
+      "guesser": "The ❌✈️, ❌🚢, and ❌🚗 rule out vehicle accidents. The ✅ on 🌍 suggests a worldwide-scale event, which the earlier \"global\" question didn't confirm. Combining a worldwide climate event with Brazil's drought and mass deaths points to the late-19th-century El Niño famines, which killed millions across the tropics, including Brazil's Northeast. I'll try the title of the historical study on that catastrophe.\n\nGUESS: Late Victorian holocausts",
+      "guess": "Late Victorian holocausts",
+      "correct": false
+    },
+    {
+      "turn": 21,
+      "explainer_raw": "<msg>✅ El Niño link 🌊 is related 👍 but ❌🌍 NOT worldwide 🇧🇷 ONLY Brazil 🇧🇷 article is about Brazil's own drought 🌵☀️ 🌟🥵 Portuguese title 🗣️ 🎯 1877 🕰️ 💀💀💀</msg>",
+      "delivered": "✅ 🌊 👍 ❌🌍 🇧🇷 🇧🇷 🌵☀️ 🌟🥵 🗣️ 🎯 🕰️ 💀💀💀",
+      "dropped_chars": 95,
+      "retried": false,
+      "guesser": "The ✅ on 🌊 may point to flooding, which contradicts my earlier \"not a water body\" answer, so it may be an event involving water rather than the water body itself. Given drought and deaths in the same region, could the article be about a flood, such as flash flooding after drought in Brazil's arid interior?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 22,
+      "explainer_raw": "<msg>❌🌊 ❌💦 ❌🌧️ NO water ✅🌵☀️🏜️ DRY only 🥵 🇧🇷 🗣️ Portuguese 🌟🥵 🎯 1877 🕰️ 💀💀💀</msg>",
+      "delivered": "❌🌊 ❌💦 ❌🌧️ ✅🌵☀️🏜️ 🥵 🇧🇷 🗣️ 🌟🥵 🎯 🕰️ 💀💀💀",
+      "dropped_chars": 28,
+      "retried": false,
+      "guesser": "The ❌🌊, ❌💦, and ❌🌧️ rule out floods and rain, and the ✅ on 🌵☀️🏜️ and 🥵 confirms the heat and desert. Since my earlier \"not a place\" answer was a single emoji, I may have misread it. Is the article about a specific place, like a town, municipality, or abandoned settlement in Brazil's arid interior?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 23,
+      "explainer_raw": "<msg>❌📍 NOT a place ❌🏘️ ❌🗺️ ✅ EVENT 🌵☀️🏜️ drought 🇧🇷 🗣️ Portuguese title 🌟🥵 🎯 1877 🕰️ 💀💀💀 🚶➡️🌳</msg>",
+      "delivered": "❌📍 ❌🏘️ ❌🗺️ ✅ 🌵☀️🏜️ 🇧🇷 🗣️ 🌟🥵 🎯 🕰️ 💀💀💀 🚶➡️🌳",
+      "dropped_chars": 40,
+      "retried": false,
+      "guesser": "The ❌📍, ❌🏘️, and ❌🗺️ rule out a place or map. The 🌟 may point to something valuable, like a gem or precious-metal rush, since it appears alongside desert heat, history, and deaths. Is the article about mining, gems, or a rush for a valuable resource in Brazil's arid interior?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 24,
+      "explainer_raw": "<msg>❌⛏️ ❌💎 ❌🪙 NOT mining ✅ DROUGHT 🌵 same as turn 5 🔁 🇧🇷 🗣️ name = Portuguese \"Great Drought\" 🌟 first word big 🥵 second word dry 🎯 💀💀💀</msg>",
+      "delivered": "❌⛏️ ❌💎 ❌🪙 ✅ 🌵 🔁 🇧🇷 🗣️ 🌟 🥵 🎯 💀💀💀",
+      "dropped_chars": 81,
+      "retried": false,
+      "guesser": "The ❌⛏️, ❌💎, and ❌🪙 rule out mining and precious resources. The ✅ on 🌵 and 🔁 with 🗣️ suggests a recurring cultural form tied to the sertão, such as oral or popular poetry. I'll try *literatura de cordel*, the Brazilian chapbook-poetry tradition that often narrates drought and hardship.\n\nGUESS: Literatura de cordel",
+      "guess": "Literatura de cordel",
+      "correct": false
+    },
+    {
+      "turn": 25,
+      "explainer_raw": "<msg>❌📜 ❌🎶 ❌🎭 NOT poetry ✅ drought EVENT 🌵☀️ 🔁 🇧🇷 🗣️ PORTUGUESE for \"Great Drought\" 🌟 great 🥵🌵 dry 🎯 no dates 💀💀💀 👍 your turn-5 event was right</msg>",
+      "delivered": "❌📜 ❌🎶 ❌🎭 ✅ 🌵☀️ 🔁 🇧🇷 🗣️ 🌟 🥵🌵 🎯 💀💀💀 👍",
+      "dropped_chars": 86,
+      "retried": false,
+      "guesser": "The ❌📜, ❌🎶, and ❌🎭 rule out documents, songs, and performances. Earlier I took ❌🐛 as ruling out all animals, but it may only have excluded insects. The 💀 could mean extinct, the 🗣️ fits a talking parrot, and the 🌵 and sun fit the caatinga. Spix's macaw, a bird extinct in the wild in Brazil's arid northeast, fits that combination.\n\nGUESS: Spix's macaw",
+      "guess": "Spix's macaw",
+      "correct": false
+    },
+    {
+      "turn": 26,
+      "explainer_raw": "<msg>❌🦜 ❌🐦 ❌🐾 NOT animal ✅ drought EVENT 🌵☀️🏜️ 🇧🇷 🗣️ 🌟 = great, 🥵🌵 = drought/dry 🧠 guess the 2-word Portuguese name 🎯 1877 🕰️ 💀💀💀</msg>",
+      "delivered": "❌🦜 ❌🐦 ❌🐾 ✅ 🌵☀️🏜️ 🇧🇷 🗣️ 🌟 🥵🌵 🧠 🎯 🕰️ 💀💀💀",
+      "dropped_chars": 72,
+      "retried": false,
+      "guesser": "The ❌🦜, ❌🐦, and ❌🐾 rule out birds and animals. The 🥵 and 🔁 with ✅ on the sun and heat may point to a modern climate event, such as a recent heat wave or drought. Is the article about an event from the 21st century rather than a historical one?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 27,
+      "explainer_raw": "<msg>❌📱 ❌🆕 NOT modern ✅ 1800s 🕰️ 19th century 🏛️ 🇧🇷 Empire era 🌵☀️🏜️ drought 👍 🗣️ Portuguese name 🌟🥵🌵 = Grande Seca 🎯 💀💀💀</msg>",
+      "delivered": "❌📱 ❌ ✅ 🕰️ 🏛️ 🇧🇷 🌵☀️🏜️ 👍 🗣️ 🌟🥵🌵 🎯 💀💀💀",
+      "dropped_chars": 67,
+      "retried": false,
+      "guesser": "The ❌📱 rules out anything modern, and the ✅ with 🕰️ and 🏛️ points to a colonial or older historical topic in Brazil. Desert, heat, deaths, and a trek into the interior fit the colonial bandeiras, the expeditions that pushed into Brazil's interior. I'll try the bandeirantes.\n\nGUESS: Bandeirantes",
+      "guess": "Bandeirantes",
+      "correct": false
+    },
+    {
+      "turn": 28,
+      "explainer_raw": "<msg>❌⛪ ❌🗺️ ❌🧭 NOT expeditions ✅ DROUGHT 🌵☀️🏜️ 🇧🇷 1877–78 🕰️ 🗣️ Portuguese title = \"Great Drought\" 🌟🥵🌵 🎯 Grande Seca 💀💀💀 👍</msg>",
+      "delivered": "❌⛪ ❌🗺️ ❌🧭 ✅ 🌵☀️🏜️ 🇧🇷 🕰️ 🗣️ 🌟🥵🌵 🎯 💀💀💀 👍",
+      "dropped_chars": 68,
+      "retried": false,
+      "guesser": "The ❌⛪, ❌🗺️, and ❌🧭 rule out a church, a map, and navigation. The ✅ on the desert sun and Brazil, along with the repeated heat, fits the caatinga, Brazil's semi-arid dry-forest biome. I'll try that.\n\nGUESS: Caatinga",
+      "guess": "Caatinga",
+      "correct": false
+    },
+    {
+      "turn": 29,
+      "explainer_raw": "<msg>❌🌳 ❌🌿 NOT biome ❌ ecology ✅ EVENT 🌵☀️ drought 🇧🇷 1877 🕰️ 🗣️ PORTUGUESE two words 🌟 first 🥵🌵 second 🎯 your turn-5 \"Great Drought\" was right concept 👍 ➡️ say it in Portuguese 💀💀💀</msg>",
+      "delivered": "❌🌳 ❌🌿 ❌ ✅ 🌵☀️ 🇧🇷 🕰️ 🗣️ 🌟 🥵🌵 🎯 👍 ➡️ 💀💀💀",
+      "dropped_chars": 116,
+      "retried": false,
+      "guesser": "The ❌🌳, ❌🌿, and ❌ rule out forests and plants. The ✅ on the desert sun, Brazil, and history, along with the heat and deaths, still points to the drought refugees of Brazil's sertão. I'll try the retirantes, the families who fled the drought.\n\nGUESS: Retirantes",
+      "guess": "Retirantes",
+      "correct": false
+    },
+    {
+      "turn": 30,
+      "explainer_raw": "<msg>❌👥 ❌🧳 NOT people ❌ refugees ✅ the DROUGHT itself 🌵☀️🏜️ 🇧🇷 🕰️ 1877 🗣️ Portuguese name 🌟 great + 🥵🌵 dry 🎯 Grande Seca 💀💀💀 👍 last turn</msg>",
+      "delivered": "❌👥 ❌🧳 ❌ ✅ 🌵☀️🏜️ 🇧🇷 🕰️ 🗣️ 🌟 🥵🌵 🎯 💀💀💀 👍",
+      "dropped_chars": 78,
+      "retried": false,
+      "guesser": "I haven't identified the article, and this is my last turn. My final guess is the Sertão, the arid interior region that all the clues have pointed toward, though the explainer has not confirmed it.\n\nGUESS: Sertão",
+      "guess": "Sertão",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": "e03c38ce-2e50-4d1e-a81d-0a6f97b27684",
+    "guesser": "da76e4d0-c190-41ce-b4fd-af5b8a6c2f67"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

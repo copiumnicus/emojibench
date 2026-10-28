@@ -1,0 +1,75 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Iron(III) sulfate",
+    "description": "Chemical compound",
+    "extract": "Iron(III) sulfate or ferric sulfate is a family of inorganic compounds with the formula Fe2(SO4)3(H2O)n. A variety of hydrates are known, including the most commonly encountered form of \"ferric sulfate\". Solutions are used in dyeing as a mordant and as a coagulant for industrial wastes. Solutions of ferric sulfate are also used in the processing of aluminum and steel.",
+    "url": "https://en.wikipedia.org/wiki/Iron(III)_sulfate"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 63.9,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 881,
+      "cache_read_input_tokens": 577,
+      "output_tokens": 2901,
+      "thinking_tokens": 2843,
+      "cost_usd": 0.16283424999999999,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 973,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1273,
+      "thinking_tokens": 1101,
+      "cost_usd": 0.08313000000000001,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🥼🥽🧫\n⛏️🔗🍳 🥉\n♨️🦨🍋 ⭕⭕⭕⭕</msg>",
+      "delivered": "🥼🥽🧫\n⛏️🔗🍳 🥉\n♨️🦨🍋 ⭕⭕⭕⭕",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I'm reading this as chemistry: a metal (⛏️🔗🍳 — mined, chains, skillet → iron?), 🥉 = oxidation state (III)?, then ♨️🦨🍋 = sulfur, ⭕⭕⭕⭕ = four oxygens → sulfate.\n\nIf I'm wrong on the metal: is it copper (🍳🥉 → bronze)? And is 🥉 \"third\"/\"III\" or \"bronze\"?\n\nGUESS: Iron(III) sulfate",
+      "guess": "Iron(III) sulfate",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "3c521133-6e91-4c48-ab43-19a92aa5a0de",
+    "guesser": "b1212303-fae8-4126-b556-adbe56e61d2b"
+  },
+  "ladder": {
+    "article_no": 2,
+    "round": 2,
+    "n_banned": 41,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

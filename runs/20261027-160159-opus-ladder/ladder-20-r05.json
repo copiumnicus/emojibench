@@ -1,0 +1,112 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Franco Cozzo",
+    "description": "Australian businessman (1935–2023)",
+    "extract": "Franco Cozzo was an Italian-Australian businessman. After moving to Melbourne from Sicily in 1955, Cozzo became known for his television advertisements, in which he would speak in English, Greek, and Italian. He later produced Australia's first non-English TV show, Carosello, which was broadcast in Italian.",
+    "url": "https://en.wikipedia.org/wiki/Franco_Cozzo"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 147.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 6319,
+      "cache_read_input_tokens": 12820,
+      "output_tokens": 4902,
+      "thinking_tokens": 4261,
+      "cost_usd": 0.153776,
+      "calls": 4,
+      "cost_usd_reported": 0.44324640000000004
+    },
+    "guesser": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 6198,
+      "cache_read_input_tokens": 7197,
+      "output_tokens": 5829,
+      "thinking_tokens": 4962,
+      "cost_usd": 0.1690988,
+      "calls": 4,
+      "cost_usd_reported": 0.4038698
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 711,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0001444,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Plan: show \"Melbourne\" (an Australian-territory flag plus horse racing and footy), \"Italian man\" (Vespa and espresso), and \"talking in three languages on air for money\".\n\n<msg>\n🇭🇲 🏇 🏉\n🛵 ☕ 🧔\n👄👄👄 🎙️ 💸\n</msg>",
+      "delivered": "🇭🇲 🏇 🏉\n🛵 ☕ 🧔\n👄👄👄 🎙️ 💸",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "**My read:** an Australian talkback radio broadcaster or commentator connected to horse racing and rugby. The lips suggest someone who talks for a living, and 💸 makes me think of the \"cash for comment\" scandal.\n\n**I'm unsure about the second line (🛵 ☕ 🧔).** Is it a nickname, a show name or an early job?\n\n**Questions:**\n1. Is this a person (yes or no)?\n2. Is it a race caller or commentator, rather than a talk host?\n3. Rugby league or rugby union?\n\nGUESS: Alan Jones (radio broadcaster)",
+      "guess": "Alan Jones (radio broadcaster)",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "The guesser read 🎙️ as radio and 🏉 as rugby. My aim this turn: answer the questions, correct those two readings, and point to an Italian-born seller who speaks three languages in his ads.\n\n<msg>\n👌 🚫 🚫\n\n📻🚫 🏉🚫\n📍 🇭🇲🏇 ☂️🌦️\n\n🧔 🛵☕🍊 ➡ 📍\n🧔 💸🧾 🪧🎦\n👄🛵 👄🧿 👄🫖\n</msg>",
+      "delivered": "👌 🚫 🚫\n📻🚫 🏉🚫\n📍 🇭🇲🏇 ☂️🌦️\n🧔 🛵☕🍊 📍\n🧔 💸🧾 🪧🎦\n👄🛵 👄🧿 👄🫖",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "➡️"
+      ],
+      "retried": false,
+      "guesser": "**My read now:** a man, not in radio and not in rugby. Line 3 is a place in Australia tied to horse racing and the weather. Line 4 sounds like he ran a café or fruit shop there.\n\n**Line 5:** 💸🧾🪧🎦 makes me think business, advertising or owning a cinema.\n\n**Line 6:** I'm reading the lips as languages he speaks. My guesses are 🛵 = Italian, 🧿 = Greek or Turkish, 🫖 = English or Chinese.\n\nSo my working idea is a migrant who ran a café or cinema in a country town.\n\n**Questions:**\n1. Is 🛵 = Italy or Italian?\n2. Is 🧿 = Greek?\n3. Is his main job businessman or café owner (yes or no)? If not, what is it?\n4. Can you spell the town name another way, maybe split into syllables?\n5. Era: before 1950 (yes or no)?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "The guesser has most of it, but \"café or fruit shop\" and \"country town\" are wrong. This turn I answer the questions, swap the town for a big city in Victoria, and push towards furniture and TV ads.\n\n<msg>\n👌\n👌\n👌 ☕🚫 🍊🚫\n🌆 🏆🏇 👸\n🚫 🕺🪩\n\n🧔 💸 🪵🪚\n🎦 👄🛵👄🧿👄🫖 🔥🔥\n</msg>",
+      "delivered": "👌\n👌\n👌 ☕🚫 🍊🚫\n🌆 🏆🏇 👸\n🚫 🕺🪩\n🧔 💸 🪵🪚\n🎦 👄🛵👄🧿👄🫖 🔥🔥",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "**Here's what I've pieced together:** an Italian man in Melbourne in the 1970s disco era. I'm reading ☂️🌦️ as Melbourne's changeable weather. He made money in timber or carpentry and ran cinemas showing Italian, Greek and English films, and 🔥🔥 makes me think they burned down, maybe arson.\n\n**I can't name anyone who fits yet.** Questions:\n1. Do 🔥🔥 mean his cinemas were burned or bombed (yes or no)?\n2. Is crime, the mafia or a murder involved (yes or no)?\n3. Can you hint at his name? For example, use emojis that sound like his first and last name.\n4. Did he also have a TV or radio role (the 🎙️ from turn 1)?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "The guesser read 🎦 as cinemas and 🔥🔥 as arson. Both are wrong: I meant TV ads and \"famous\". This turn I correct those, steer from timber to furniture (things you sleep and sit on), and hint at \"Franco\" through Spain's general.\n\n<msg>\n🚫 🔥=🌟\n🚫\n🇪🇸🪖 🧔 👈\n👌\n\n🍿🚫 🎦=🪧\n🪵🪚 = 😴💤 🍑⬇\n</msg>",
+      "delivered": "🚫 🔥🌟\n🚫\n🇪🇸🪖 🧔 👈\n👌\n🍿🚫 🎦🪧\n🪵🪚 😴💤 🍑⬇️",
+      "dropped_chars": 3,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I've got it. The wood, saw, sleep and sitting emojis mean a furniture seller, and the TV ads were in Italian, Greek and English. That's the famous Melbourne furniture retailer of \"Megalo, megalo, megalo! Footscray!\" fame.\n\nGUESS: Franco Cozzo",
+      "guess": "Franco Cozzo",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "6b63ffbf-83bd-4a52-8a6f-9e8aa6c83746",
+    "guesser": "e30a22bc-f0f1-4a39-9b29-22300c1ad52d"
+  },
+  "ladder": {
+    "article_no": 20,
+    "round": 5,
+    "n_banned": 107,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

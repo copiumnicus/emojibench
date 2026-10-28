@@ -1,0 +1,90 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Dorothy Cottrell",
+    "description": "Australian writer",
+    "extract": "Ida Dorothy Ottley Cottrell was an Australian writer. Born in Picton, she contracted infantile paralysis as a child and spent the rest of her life in a wheelchair. Cottrell married Walter Mackenzie Cottrell on 23 May 1922. Her first novel, The Singing Gold, was published in 1928. She wrote a story Wilderness Orphan (1936) which was the basis for the feature film Orphan of the Wilderness (1936). She lived for a time in the US and also worked as an artist and cartoonist.",
+    "url": "https://en.wikipedia.org/wiki/Dorothy_Cottrell"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 454.2,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2949,
+      "cache_read_input_tokens": 2218,
+      "output_tokens": 2101,
+      "thinking_tokens": 1896,
+      "cost_usd": 0.0665232,
+      "calls": 2,
+      "cost_usd_reported": 0.104955
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2095,
+      "cache_read_input_tokens": 983,
+      "output_tokens": 2411,
+      "thinking_tokens": 1947,
+      "cost_usd": 0.0653972,
+      "calls": 2,
+      "cost_usd_reported": 0.0926526
+    },
+    "judge": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 1392,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 311,
+      "thinking_tokens": 303,
+      "cost_usd": 0.0004343,
+      "calls": 2
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🇭🇲 🇨🇽 🇳🇫 🇨🇨\n🙋‍♀️ ✒️ 📓 📜\n🦵💉 ➕ 🪑🛞\n🧑‍🎤🟡 📓\n</msg>",
+      "delivered": "🇭🇲 🇨🇽 🇳🇫 🇨🇨\n🙋‍♀️ ✒️ 📓 📜\n🦵💉 ➕ 🪑🛞\n🧑‍🎤🟡 📓",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Here's what I'm reading:\n- **Flags** (Heard & McDonald, Christmas Island, Norfolk, Cocos): all Australian territories, so she's **Australian**.\n- **🙋‍♀️ ✒️ 📓 📜**: a **woman writer**, maybe a poet.\n- **🦵💉 ➕ 🪑🛞**: a **disability**, maybe **polio**, and she uses a **wheelchair**.\n- **🧑‍🎤🟡 📓**: I'm not sure. A book about a singer or rock star, with \"yellow\" or \"golden\" in the title?\n\nQuestions:\n1. Was her condition polio? If not, what was it?\n2. Did she mainly write poetry, novels, memoir or children's books?\n3. Can you spell out a key word from the 🧑‍🎤🟡📓 title?\n4. Roughly what era did she live in?\n\nMy starting guess is the best-known Australian woman writer and wheelchair user:\n\nGUESS: Stella Young",
+      "guess": "Stella Young",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n🦵💉 ✔️\n\n📓 ✔️ 📜 🙅\n\n🗣️🎼 ➖ 🟡🏵️\n🧑‍🎤 ✔️ 🟡 ✔️\n\n📻 🎩 🚂 🚗\n\n🎥 ⬅️ 📓\n</msg>",
+      "delivered": "🦵💉 ✔️\n📓 ✔️ 📜 🙅\n🎼 ➖ 🟡🏵️\n🧑‍🎤 ✔️ 🟡 ✔️\n📻 🎩 🚂 🚗\n🎥 ⬅️ 📓",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🗣️"
+      ],
+      "retried": false,
+      "guesser": "Polio, and she wrote novels, not poetry. Then 🎥 ⬅️ 📓 means one of her books was made into a film.\n\nI think 🧑‍🎤🟡 is **Kylie Minogue**: singer, gold hotpants. She starred in *The Delinquents* (1989), which was based on the novel by Criena Rohan.\n\nGUESS: Criena Rohan",
+      "guess": "Criena Rohan",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "27f60187-3880-4c6e-950c-524e0f2993a8",
+    "guesser": "360d34b2-d273-4022-944f-2e1f446ffbfe"
+  },
+  "ladder": {
+    "article_no": 13,
+    "round": 3,
+    "n_banned": 76,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

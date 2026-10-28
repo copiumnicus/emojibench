@@ -1,0 +1,91 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Iglesia de Santa Ana (Santiago de Chile)",
+    "description": "National monument of Chile",
+    "extract": "The Iglesia de Santa Ana is a Catholic church in downtown Santiago de Chile. It is located at the northwest corner of Catedral and San Martín streets. The church was declared as a National Monument of Chile in 1970, within the category of Historic Monuments. Santa Ana metro station is named after the church.",
+    "url": "https://en.wikipedia.org/wiki/Iglesia_de_Santa_Ana_(Santiago_de_Chile)"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "max_turns": 30,
+  "seconds": 41.8,
+  "usage": {
+    "explainer": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 1723,
+      "cache_read_input_tokens": 2656,
+      "output_tokens": 537,
+      "thinking_tokens": 365,
+      "cost_usd": 0.0256264,
+      "calls": 3,
+      "cost_usd_reported": 0.057142799999999994
+    },
+    "guesser": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 1920,
+      "cache_read_input_tokens": 2442,
+      "output_tokens": 1202,
+      "thinking_tokens": 928,
+      "cost_usd": 0.0404168,
+      "calls": 3,
+      "cost_usd_reported": 0.0867398
+    },
+    "judge": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 1432,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0002908,
+      "calls": 2
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>⛪ 🇨🇱 🏙️\n\n👵 ➡️ 👩 ➡️ 👶✝️\n\n🚇 🚉 ⛪</msg>",
+      "delivered": "⛪ 🇨🇱 🏙️\n👵 ➡️ 👩 ➡️ 👶✝️\n🚇 🚉 ⛪",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Reading: a church in a Chilean city. The grandmother → mother → holy baby line suggests Saint Anne (mother of Mary, grandmother of Jesus). Combined with the metro line, I think this is Santa Ana in Santiago, either the church or the metro station named after it. I'll try the station first.\n\nGUESS: Santa Ana metro station",
+      "guess": "Santa Ana metro station",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👎 🚇\n👍 ⛪ 👈\n\n⛪ 👵 🇨🇱 🏛️</msg>",
+      "delivered": "👎 🚇\n👍 ⛪ 👈\n⛪ 👵 🇨🇱 🏛️",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Got it: the article is about the church, not the station. The 🏛️ probably means it's a National Monument. Next I'll try different title formats.\n\nGUESS: Church of Santa Ana (Santiago)",
+      "guess": "Church of Santa Ana (Santiago)",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>👍 ⛪ 👵 🏙️\n🗣️ 🇪🇸 ⛪\n🏙️ ➕ 🇨🇱</msg>",
+      "delivered": "👍 ⛪ 👵 🏙️\n🗣️ 🇪🇸 ⛪\n🏙️ ➕ 🇨🇱",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "So the title is the Spanish name plus the city and Chile. That suggests \"Iglesia de Santa Ana\" with \"Santiago de Chile\" (or \"Santiago, Chile\").\n\nGUESS: Iglesia de Santa Ana (Santiago de Chile)",
+      "guess": "Iglesia de Santa Ana (Santiago de Chile)",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "fa414cc2-779b-4ad8-8a6b-d81dbe6e60a5",
+    "guesser": "b1f308a1-7a2b-483f-a247-e537f1cb41da"
+  },
+  "ladder": {
+    "article_no": 15,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": "runs/20261027-151301-opus/game-15.json"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

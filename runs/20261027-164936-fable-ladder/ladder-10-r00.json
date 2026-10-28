@@ -1,0 +1,72 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Accord Pond",
+    "description": "Lake in Massachusetts, USA",
+    "extract": "Accord Pond is a 100-acre (0.40 km2) reservoir in Hingham, Norwell and Rockland, Massachusetts. The reservoir is located off Route 228 at its terminus with Route 3. The reservoir is visible from Route 3 northbound at Exit 14, the Route 228 off-ramp. The reservoir is a Class A source of water supply for the town of Hingham and Hull Ma. The outflow of the reservoir is Accord Brook, a tributary of the Weir River.",
+    "url": "https://en.wikipedia.org/wiki/Accord_Pond"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 31.1,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1216,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1391,
+      "thinking_tokens": 1228,
+      "cost_usd": 0.09389,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 934,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 805,
+      "thinking_tokens": 712,
+      "cost_usd": 0.05895,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Thinking: \"Accord\" = 🤝 (agreement) and Honda Accord (🚗🇯🇵). \"Pond\" = 🏞️💧. Massachusetts = 🍵⚾🦃 (Tea Party, Red Sox, Thanksgiving). Reservoir = 🚰.\n\n<msg>\n🤝🚗🇯🇵 ➕ 🏞️💧\n📍🇺🇸 🍵⚾🦃\n🚰\n</msg>",
+      "delivered": "🤝🚗🇯🇵 ➕ 🏞️💧\n📍🇺🇸 🍵⚾🦃\n🚰",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "I read 🤝🚗🇯🇵 as \"Accord\" (Honda Accord), 🏞️💧 as a pond/lake, in Massachusetts (tea party, Red Sox, Thanksgiving), used as a water supply.\n\nGUESS: Accord Pond",
+      "guess": "Accord Pond",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "373b9305-6271-43e7-85db-bf2597029351",
+    "guesser": "1db5bc05-f625-47c7-8e5d-39fcc92f81f3"
+  },
+  "ladder": {
+    "article_no": 10,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": "runs/20261027-153308-fable/game-10.json"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

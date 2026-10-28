@@ -1,0 +1,361 @@
+{
+  "model": "haiku",
+  "model_id": "claude-haiku-5-5",
+  "effort": null,
+  "article": {
+    "title": "Motorchuna",
+    "description": "River in Yakutia (Sakha Republic), Russia",
+    "extract": "The Motorchuna is a river in Yakutia, Russia. It is a left tributary of the Lena with a length of 423 kilometres (263 mi). Its drainage basin area is 9,250 square kilometres (3,570 mi2). Since its river basin is uninhabited, the Motorchuna is one of the most untouched rivers in Yakutia; the waters are clean and there is abundant wildlife.",
+    "url": "https://en.wikipedia.org/wiki/Motorchuna"
+  },
+  "solved": false,
+  "turns_taken": 30,
+  "solved_turn": null,
+  "max_turns": 30,
+  "seconds": 356.4,
+  "usage": {
+    "explainer": {
+      "input_tokens": 60,
+      "cache_creation_input_tokens": 18278,
+      "cache_read_input_tokens": 281268,
+      "output_tokens": 10052,
+      "thinking_tokens": 7445,
+      "cost_usd": 0.011500280000000002,
+      "calls": 30,
+      "cost_usd_reported": 0.17221041
+    },
+    "guesser": {
+      "input_tokens": 60,
+      "cache_creation_input_tokens": 19576,
+      "cache_read_input_tokens": 292731,
+      "output_tokens": 15886,
+      "thinking_tokens": 12367,
+      "cost_usd": 0.01479151,
+      "calls": 30,
+      "cost_usd_reported": 0.22048033
+    },
+    "judge": {
+      "input_tokens": 48,
+      "cache_creation_input_tokens": 14827,
+      "cache_read_input_tokens": 2115,
+      "output_tokens": 833,
+      "thinking_tokens": 737,
+      "cost_usd": 0.00340785,
+      "calls": 24
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🇷🇺🌲❄️\n🌊➡️🌊\n🏠🚫👥🚫\n💧✨🧼\n🐻🦌🐟🦅\n</msg>",
+      "delivered": "🇷🇺🌲❄️\n🌊➡️🌊\n🏠🚫👥🚫\n💧✨🧼\n🐻🦌🐟🦅",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "The clues point to a remote Russian natural area: a forest and snow setting, uninhabited land, water, and wildlife like bears, deer, fish, and eagles. The 🌊➡️🌊 might mean a river that flows through or into another body of water.\n\nIs it a river? Is it a protected nature reserve (zapovednik) or national park? And is the 🧼✨ about water purity, or about a lake or spring?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n👍 🌊\n👎 🏞️🏛️\n💧✨🧼 👍\n🌊➡️🌊 👍 (bigger river)\n🧭↗️❄️🥶🇷🇺\n</msg>",
+      "delivered": "👍 🌊\n👎 🏞️🏛️\n💧✨🧼 👍\n🌊➡️🌊 👍\n🧭↗️❄️🥶🇷🇺",
+      "dropped_chars": 13,
+      "retried": false,
+      "guesser": "Good progress. I read it as: a river (👍🌊), not a national park or museum (👎🏞️🏛️), with clean or pure water (👍💧✨🧼), that flows into another body of water (👍🌊➡️🌊), heading north (🧭↗️) in a cold Russian region (❄️🥶🇷🇺).\n\nIs it in the Arctic drainage, flowing north into the Arctic Ocean or a sea like the White or Barents Sea? Or is it a tributary of a larger Siberian river?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n➡️🌊 tributary 👍\n🌊 bigger river 👍\n🧊🌊 Arctic 👍 (indirect)\n🇷🇺❄️ 👍\n📏 long 👍\n</msg>",
+      "delivered": "➡️🌊 👍\n🌊 👍\n🧊🌊 👍\n🇷🇺❄️ 👍\n📏 👍",
+      "dropped_chars": 40,
+      "retried": false,
+      "guesser": "The 📏 is ambiguous. It could mean the river is long, or that the article gives its length. Combined with the rest, this is a long, icy river in the Russian Arctic that flows into a sea or bay. I'll test a candidate: the Pyasina River, a northward-flowing Taymyr river into the Kara Sea.\n\nGUESS: Pyasina River",
+      "guess": "Pyasina River",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>\n❌ 👎 Pyasina\n🌅🌊 east 👍\n🇷🇺 Yakutia 👍 ❄️\n⬅️🌊➡️🌊 flows west 👍\n🌊➡️🌊 Lena 👍\n🏞️🚫🏠 👍\n</msg>",
+      "delivered": "❌ 👎\n🌅🌊 👍\n🇷🇺 👍 ❄️\n⬅️🌊➡️🌊 👍\n🌊➡️🌊 👍\n🏞️🚫🏠 👍",
+      "dropped_chars": 31,
+      "retried": false,
+      "guesser": "The 3rd-to-last turn says 🌅🌊 👍, so the river has an eastward component, and ⬅️🌊➡️🌊 suggests it bends or meanders. 🏞️🚫🏠 means it runs through uninhabited wilderness. Since the partner just confirmed the \"flows into\" pattern again, I'll test a remote Siberian river that drains north into the Laptev Sea: the Anabar River.\n\nGUESS: Anabar River",
+      "guess": "Anabar River",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>\n❌ Anabar 👎\n🌊➡️🌊 Lena 👍\n⬅️ left bank 👍\n🗺️📏 big basin 👍\n🐻🦌🐟 wildlife 👍\n🇷🇺🥶 Yakutia 👍\n</msg>",
+      "delivered": "❌ 👎\n🌊➡️🌊 👍\n⬅️ 👍\n🗺️📏 👍\n🐻🦌🐟 👍\n🇷🇺🥶 👍",
+      "dropped_chars": 41,
+      "retried": false,
+      "guesser": "The new clues say it flows west (⬅️), is measured or mapped (🗺️📏), and sits in a cold Russian area with bears, deer, and fish. That fits a river in central Siberia, like a tributary of the Yenisei. I'll test the Lower Tunguska, which flows roughly west into the Yenisei.\n\nGUESS: Lower Tunguska",
+      "guess": "Lower Tunguska",
+      "correct": false
+    },
+    {
+      "turn": 6,
+      "explainer_raw": "<msg>\n❌ Lower Tunguska 👎\n🚫 Yenisei 👎\n🌊➡️🌊 Lena 👍\n⬆️🌊 Lena flows north 👍\n🌊 bigger river 👍\n🇷🇺 Yakutia 👍\n</msg>",
+      "delivered": "❌ 👎\n🚫 👎\n🌊➡️🌊 👍\n⬆️🌊 👍\n🌊 👍\n🇷🇺 👍",
+      "dropped_chars": 56,
+      "retried": false,
+      "guesser": "The explainer has now said it flows north (⬆️🌊), which fits a Siberian river that drains into the Arctic. I've tested three candidates and all were wrong, so I'll narrow the field before guessing again.\n\nDoes it flow into a larger river (tributary), into a lake, or directly into a sea or gulf? And roughly how long is it: under 200 km, 200 to 600 km, or over 600 km?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 7,
+      "explainer_raw": "<msg>\n🌊➡️🌊 tributary 👍\n🚫🌊🌊 sea 👎\n🌊 lake 👎\n📏 200-600 👍\n🟨📏 middle 👍\n</msg>",
+      "delivered": "🌊➡️🌊 👍\n🚫🌊🌊 👎\n🌊 👎\n📏 👍\n🟨📏 👍",
+      "dropped_chars": 29,
+      "retried": false,
+      "guesser": "The explainer says it flows into a sea, gulf, or ocean rather than a river or lake, and the 📏 and 🟨📏 suggest a sizeable river. Among northward-flowing Siberian rivers that empty into a gulf, the Taz River fits best, so I'll test it.\n\nGUESS: Taz River",
+      "guess": "Taz River",
+      "correct": false
+    },
+    {
+      "turn": 8,
+      "explainer_raw": "<msg>\n❌🚫🌊 sea\n✅🌊➡️🌊 river\n✅🌊 Lena\n✅⬆️ north\n❌🌊 lake\n✅📏 200-600 km\n</msg>",
+      "delivered": "❌🚫🌊\n✅🌊➡️🌊\n✅🌊\n✅⬆️\n❌🌊\n✅📏",
+      "dropped_chars": 30,
+      "retried": false,
+      "guesser": "The explainer has confirmed that it doesn't flow into another river (❌🌊) or a lake, and that it flows north (✅⬆️) directly into a sea or gulf, with a substantial length (✅📏). That leaves the Khatanga River, which flows north into Khatanga Gulf through uninhabited Taymyr. I'll test it.\n\nGUESS: Khatanga River",
+      "guess": "Khatanga River",
+      "correct": false
+    },
+    {
+      "turn": 9,
+      "explainer_raw": "<msg>\n✅🌊➡️🌊 Lena\n❌🚫🌊 sea\n❌🚫🌊 Yenisei\n✅⬅️ joins from left\n✅⬆️ Lena flows north\n✅🇷🇺🥶\n</msg>",
+      "delivered": "✅🌊➡️🌊\n❌🚫🌊\n❌🚫🌊\n✅⬅️\n✅⬆️\n✅🇷🇺🥶",
+      "dropped_chars": 41,
+      "retried": false,
+      "guesser": "The explainer has confirmed it flows north-west (✅⬅️ and ✅⬆️), into a sea or gulf rather than a river (❌🚫🌊 twice). The Mezen River fits: it flows north-west through uninhabited northern Russia into Mezen Bay of the White Sea.\n\nGUESS: Mezen River",
+      "guess": "Mezen River",
+      "correct": false
+    },
+    {
+      "turn": 10,
+      "explainer_raw": "<msg>\n✅🌊➡️🌊🌊 into big river Lena\n✅🇷🇺 Yakutia\n❌ sea\n❌ gulf\n❌ Arctic coast\n✅ 🌲🐻🦌 Siberia\n</msg>",
+      "delivered": "✅🌊➡️🌊🌊\n✅🇷🇺\n❌\n❌\n❌\n✅ 🌲🐻🦌",
+      "dropped_chars": 48,
+      "retried": false,
+      "guesser": "The new clues point to a forested Russian area with bears and deer, and the explainer confirms the water flows into something larger. I've now ruled out several northern rivers, so I'm not sure my assumption that it's a river is right.\n\nIs the article about a lake rather than a river? If it's a river, does it flow into a lake, and is it in the European part of Russia (west of the Urals)? Please answer with ✅ or ❌ for each.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 11,
+      "explainer_raw": "<msg>\n✅ river\n❌ lake\n❌ European Russia\n✅ Asian Russia (east of Urals)\n✅ flows into a bigger river\n✅ Lena\n</msg>",
+      "delivered": "✅\n❌\n❌\n✅\n✅\n✅",
+      "dropped_chars": 72,
+      "retried": false,
+      "guesser": "Your answers say it's a lake (✅), not in European Russia (❌), and it's in a forested Siberian or Far Eastern area with bears and deer. A Siberian lake with rivers flowing into it fits that. I'll test Lake Khantayskoye, a large, remote lake in Krasnoyarsk Krai.\n\nGUESS: Lake Khantayskoye",
+      "guess": "Lake Khantayskoye",
+      "correct": false
+    },
+    {
+      "turn": 12,
+      "explainer_raw": "<msg>\n🌊 river, not lake\n🌊➡️🌊 flows into bigger river\n🌏 Asia side, east of Urals\n🇷🇺❄️ Yakutia, very cold\n🧊🥶 north, near Arctic\n🌲🐻🦌 wild forest\n</msg>",
+      "delivered": "🌊\n🌊➡️🌊\n🌏\n🇷🇺❄️\n🧊🥶\n🌲🐻🦌",
+      "dropped_chars": 95,
+      "retried": false,
+      "guesser": "The explainer says it's a lake in Asian Russia, with rivers flowing into it, icy and cold, with forest, bears, and deer. Lake Teletskoye in the Altai fits: it's a deep, forested mountain lake with several rivers flowing into it. I'll test that.\n\nGUESS: Lake Teletskoye",
+      "guess": "Lake Teletskoye",
+      "correct": false
+    },
+    {
+      "turn": 13,
+      "explainer_raw": "<msg>\n🌊🌊🌊 river\n🌊➡️🌊🌊🌊 flows into bigger river\n🚫🏞️ not lake\n🌏 Asia side\n🇷🇺❄️ Yakutia\n🧊🥶 cold north\n</msg>",
+      "delivered": "🌊🌊🌊\n🌊➡️🌊🌊🌊\n🚫🏞️\n🌏\n🇷🇺❄️\n🧊🥶",
+      "dropped_chars": 56,
+      "retried": false,
+      "guesser": "Many rivers flow into this body of water, it's in Asian Russia, it's icy and cold, and it isn't a national park. Lake Baikal has hundreds of inflowing rivers and is icy for much of the year, so I'll test it, even though it's well known.\n\nGUESS: Lake Baikal",
+      "guess": "Lake Baikal",
+      "correct": false
+    },
+    {
+      "turn": 14,
+      "explainer_raw": "<msg>\n💧➡️🌊 small river flows into big river\n🚫🏞️ not lake, not sea\n🌏 Asia side\n🇷🇺❄️ Yakutia\n📏 medium length\n🌲🐻🦌 forest wildlife\n</msg>",
+      "delivered": "💧➡️🌊\n🚫🏞️\n🌏\n🇷🇺❄️\n📏\n🌲🐻🦌",
+      "dropped_chars": 82,
+      "retried": false,
+      "guesser": "The explainer still says it's a body of water that other waters flow into (💧➡️🌊), in Asian Russia, cold and icy, with a notable length (📏), in forest with bears and deer, and not a national park. Labynkyr is a long, cold lake in Yakutia's forests that's fed by rivers, so I'll test it.\n\nGUESS: Lake Labynkyr",
+      "guess": "Lake Labynkyr",
+      "correct": false
+    },
+    {
+      "turn": 15,
+      "explainer_raw": "<msg>\n👉💧➡️🌊 target = small one flowing\n❌🌊 big one is NOT target\n🌊 target is a river, not lake\n🌏🇷🇺❄️ Yakutia\n📏 medium length\n🌲🐻🦌 forest\n</msg>",
+      "delivered": "👉💧➡️🌊\n❌🌊\n🌊\n🌏🇷🇺❄️\n📏\n🌲🐻🦌",
+      "dropped_chars": 86,
+      "retried": false,
+      "guesser": "Your last answer seems to contradict the earlier \"lake\" answer, so I want to pin down the category.\n\nIs the article about a river (not a lake)? Does the water flow into a lake, or does it flow into the sea or another river? Please answer with ✅ or ❌ for each.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 16,
+      "explainer_raw": "<msg>\n✅🌊 river\n❌🏞️ lake (my earlier \"lake\" answer was wrong ⚠️)\n❌🌊 sea\n✅🌊➡️🌊 flows into another river\n</msg>",
+      "delivered": "✅🌊\n❌🏞️ ⚠️\n❌🌊\n✅🌊➡️🌊",
+      "dropped_chars": 64,
+      "retried": false,
+      "guesser": "The explainer confirms it's a river (✅🌊) that flows directly into another large body of water, not a tributary or a lake. Since I've ruled out most of the northward Arctic rivers, I'll test the Yana River, a northern Yakutian river that flows into the Laptev Sea.\n\nGUESS: Yana River",
+      "guess": "Yana River",
+      "correct": false
+    },
+    {
+      "turn": 17,
+      "explainer_raw": "<msg>\n✅💧➡️🌊 TRIBUTARY (joins a bigger river)\n❌🌊 sea (it does NOT reach sea directly)\n🌊⬆️ the big river flows north to sea\n🇷🇺❄️ Yakutia\n</msg>",
+      "delivered": "✅💧➡️🌊\n❌🌊\n🌊⬆️\n🇷🇺❄️",
+      "dropped_chars": 91,
+      "retried": false,
+      "guesser": "The explainer says it's a river that flows north directly into a sea (🌊⬆️), not into another river (❌🌊), in cold Russia. That leaves the Ponoy River, which flows north-east through the Kola Peninsula's forests into the Barents Sea, so I'll test it.\n\nGUESS: Ponoy River",
+      "guess": "Ponoy River",
+      "correct": false
+    },
+    {
+      "turn": 18,
+      "explainer_raw": "<msg>\n💧➡️🌊 small river into big river\n🌊 big river = Lena\n⬆️🧊 big river flows north to Arctic\n🇷🇺❄️ Yakutia\n⬅️💧 joins from left side\n📏 medium length\n</msg>",
+      "delivered": "💧➡️🌊\n🌊\n⬆️🧊\n🇷🇺❄️\n⬅️💧\n📏",
+      "dropped_chars": 97,
+      "retried": false,
+      "guesser": "The explainer's clues now point to a long river that flows north into the sea, with some westward course (⬅️), through cold Russia. The Pechora fits: it's about 1,800 km long, flows north through the Komi Republic, and empties into the Pechora Sea of the Barents Sea. I'll test it.\n\nGUESS: Pechora River",
+      "guess": "Pechora River",
+      "correct": false
+    },
+    {
+      "turn": 19,
+      "explainer_raw": "<msg>\n🎯💧 TARGET small river\n➡️🌊 flows into bigger river (not target)\n🌊 bigger river is Lena\n🇷🇺❄️ Yakutia\n📏 medium length\n</msg>",
+      "delivered": "🎯💧\n➡️🌊\n🌊\n🇷🇺❄️\n📏",
+      "dropped_chars": 83,
+      "retried": false,
+      "guesser": "The explainer confirms it's a long river, that it flows into a body of water, and that it's in cold Russia. I've now ruled out the Pechora, and several other northern rivers before it. I'll test the Indigirka, a long Yakutian river that flows north into the East Siberian Sea.\n\nGUESS: Indigirka River",
+      "guess": "Indigirka River",
+      "correct": false
+    },
+    {
+      "turn": 20,
+      "explainer_raw": "<msg>\n🎯💧 small river, about 400 km\n➡️🌊 flows into Lena (huge river)\n🌊⬆️🧊 Lena goes far north to Arctic\n🇷🇺❄️ Yakutia\n⬅️ joins Lena from left side\n</msg>",
+      "delivered": "🎯💧\n➡️🌊\n🌊⬆️🧊\n🇷🇺❄️\n⬅️",
+      "dropped_chars": 97,
+      "retried": false,
+      "guesser": "I'm down to ten turns. The explainer says the river flows north into ice (⬆️🧊) and then turns west (⬅️), and that it flows into another body of water. The 🎯 might also be a hint toward a specific target. A river that flows north into the Gulf of Ob in the Yamal region fits, so I'll test the Pur River.\n\nGUESS: Pur River",
+      "guess": "Pur River",
+      "correct": false
+    },
+    {
+      "turn": 21,
+      "explainer_raw": "<msg>\n🎯💧 small clean river\n➡️🌊 joins Lena (big river)\n🚫🏠🏞️ empty wilderness, no people\n⬅️🌊 Lena's LEFT side tributary\n🇷🇺❄️ Yakutia\n🐻🐟🦌 wildlife\n</msg>",
+      "delivered": "🎯💧\n➡️🌊\n🚫🏠🏞️\n⬅️🌊\n🇷🇺❄️\n🐻🐟🦌",
+      "dropped_chars": 96,
+      "retried": false,
+      "guesser": "The explainer now says the river flows west (⬅️🌊) into another body of water, through uninhabited Russian wilderness with bears, fish, and deer. Among Siberian rivers that flow west into a larger water body, the Kotuy River fits: it runs through the Taymyr uplands and drains into the Kheta before reaching the Khatanga system. I'll test it.\n\nGUESS: Kotuy River",
+      "guess": "Kotuy River",
+      "correct": false
+    },
+    {
+      "turn": 22,
+      "explainer_raw": "<msg>\n🎯💧 small clean river\n➡️🌊 joins Lena from EAST side\n🇷🇺❄️ Yakutia, central-east Siberia\n🌲🏞️ basin uninhabited\n📏 medium: shorter than Lena, longer than most rivers\n</msg>",
+      "delivered": "🎯💧\n➡️🌊\n🇷🇺❄️\n🌲🏞️\n📏",
+      "dropped_chars": 122,
+      "retried": false,
+      "guesser": "I've been guessing without a clear region, so I'll narrow it down before the next guess. Please answer with ✅ or ❌ for each:\n\n1. Is it in Yakutia (Sakha Republic)?\n2. Is it in Krasnoyarsk Krai (including Evenkia or Taymyr)?\n3. Is it in Komi or Arkhangelsk (European north)?\n4. Is it in the Far East (Khabarovsk, Magadan, Chukotka, Kamchatka)?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 23,
+      "explainer_raw": "<msg>\n✅\n❌\n❌\n❌\n</msg>",
+      "delivered": "✅\n❌\n❌\n❌",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Yakutia is confirmed, so it's a Yakutian river. Of the Yakutian rivers that flow into the Laptev Sea, the Olenyok fits best: it's long, runs through forest and tundra with bears and deer, and reaches the sea through a delta. I'll test it.\n\nGUESS: Olenyok River",
+      "guess": "Olenyok River",
+      "correct": false
+    },
+    {
+      "turn": 24,
+      "explainer_raw": "<msg>\n🎯💧➡️🌊 joins Lena, NOT the sea\n🚫🧊🌊 not sea\n🌊⬆️🧊 Lena reaches sea far away\n🇷🇺❄️ Yakutia confirmed\n✖️ Olenyok wrong, it goes to sea\n</msg>",
+      "delivered": "🎯💧➡️🌊\n🚫🧊🌊\n🌊⬆️🧊\n🇷🇺❄️\n✖️",
+      "dropped_chars": 86,
+      "retried": false,
+      "guesser": "The explainer now says it flows north into a sea rather than into ice (🌊⬆️🧊, 🚫🧊🌊), within Yakutia. Having ruled out the Yana, Indigirka, and Olenyok, the Kolyma River is the next major candidate: it crosses Yakutia and empties into the East Siberian Sea.\n\nGUESS: Kolyma River",
+      "guess": "Kolyma River",
+      "correct": false
+    },
+    {
+      "turn": 25,
+      "explainer_raw": "<msg>\n🎯💧➡️🌊 Lena only, not sea\n🚫🌊🧊 Kolyma wrong\n🇷🇺 Yakutia, central\n📏 about 400 km\n🌲🏞️ small Lena tributary\n</msg>",
+      "delivered": "🎯💧➡️🌊\n🚫🌊🧊\n🇷🇺\n📏\n🌲🏞️",
+      "dropped_chars": 69,
+      "retried": false,
+      "guesser": "The explainer confirms Yakutia again, a long river, and forest, with a possible nature-reserve link. The Lena fits all of this: it's one of Russia's longest rivers, runs through Yakutia's forests, and flows north into the Laptev Sea through a large delta. I'll test it.\n\nGUESS: Lena River",
+      "guess": "Lena River",
+      "correct": false
+    },
+    {
+      "turn": 26,
+      "explainer_raw": "<msg>\n🎯💧➡️🌊 target flows INTO Lena\n🚫🌊 not Lena itself\n🇷🇺 Yakutia\n⬅️ left side tributary\n📏 medium, under Lena\n🚫🏠 no people\n</msg>",
+      "delivered": "🎯💧➡️🌊\n🚫🌊\n🇷🇺\n⬅️\n📏\n🚫🏠",
+      "dropped_chars": 80,
+      "retried": false,
+      "guesser": "The explainer now says it flows west, so it runs through Yakutia westward before reaching a larger water. The Vilyuy fits in part: it's a long Yakutian river, passes through uninhabited forest, and empties into the Lena. I'll test it.\n\nGUESS: Vilyuy River",
+      "guess": "Vilyuy River",
+      "correct": false
+    },
+    {
+      "turn": 27,
+      "explainer_raw": "<msg>\n🐭💧➡️🌊 target is small\n🐘🌊 Vilyuy is big, wrong\n⬅️🌊 same Lena left side\n🇷🇺 Yakutia\n🚫🏠 empty forest\n</msg>",
+      "delivered": "🐭💧➡️🌊\n🐘🌊\n⬅️🌊\n🇷🇺\n🚫🏠",
+      "dropped_chars": 64,
+      "retried": false,
+      "guesser": "The explainer says it's a small river (🐭) that flows west, with a larger river (🐘🌊) somewhere in the picture, all in Russia's uninhabited Yakutian wilderness. The Olekma River fits a small western-flowing tributary near the Lena system, so I'll test it.\n\nGUESS: Olekma River",
+      "guess": "Olekma River",
+      "correct": false
+    },
+    {
+      "turn": 28,
+      "explainer_raw": "<msg>\n🔍⬅️🌊📜 check Lena LEFT tributary list\n🐭 small, not Olekma (right side, big)\n🇷🇺 Yakutia\n🚫🏠 empty\n</msg>",
+      "delivered": "🔍⬅️🌊📜\n🐭\n🇷🇺\n🚫🏠",
+      "dropped_chars": 68,
+      "retried": false,
+      "guesser": "I'm down to my last two turns and still lack a clear identification. The explainer describes a small river flowing west in uninhabited Russia, with a historical or documentary angle (📜). The Markha is a small Yakutian river that flows into the Lena, so I'll make a final test.\n\nGUESS: Markha River",
+      "guess": "Markha River",
+      "correct": false
+    },
+    {
+      "turn": 29,
+      "explainer_raw": "<msg>\n🐭💧 small, 423 km\n⬅️🌊 Lena LEFT tributary\n🚫🏠 empty basin\n💧✨🧼 clean water\n🐻🐟🦌 wildlife\n</msg>",
+      "delivered": "🐭💧\n⬅️🌊\n🚫🏠\n💧✨🧼\n🐻🐟🦌",
+      "dropped_chars": 56,
+      "retried": false,
+      "guesser": "Last turn. The explainer describes a small, clean river flowing west through uninhabited country with bears, fish, and deer. The Tyung River, a small Yakutian river, fits that profile, so I'll make my final guess.\n\nGUESS: Tyung River",
+      "guess": "Tyung River",
+      "correct": false
+    },
+    {
+      "turn": 30,
+      "explainer_raw": "<msg>\n🐭💧➡️🌊 final clue\n⬅️🌊 Lena left side\n🇷🇺❄️ Yakutia\n</msg>",
+      "delivered": "🐭💧➡️🌊\n⬅️🌊\n🇷🇺❄️",
+      "dropped_chars": 28,
+      "retried": false,
+      "guesser": "This is my final turn, and I haven't identified the article. I'll use it on one last candidate: the Tompo River, a small Yakutian river that flows west into the Vilyuy system.\n\nGUESS: Tompo River",
+      "guess": "Tompo River",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": "aaa3b1e4-8198-433e-8497-217c82e48c6a",
+    "guesser": "1874accc-98f8-408e-a599-068811560302"
+  },
+  "ladder": {
+    "article_no": 18,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": "runs/20261027-150551-haiku/game-18.json"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

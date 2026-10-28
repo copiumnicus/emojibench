@@ -1,0 +1,65 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Motorchuna",
+    "description": "River in Yakutia (Sakha Republic), Russia",
+    "extract": "The Motorchuna is a river in Yakutia, Russia. It is a left tributary of the Lena with a length of 423 kilometres (263 mi). Its drainage basin area is 9,250 square kilometres (3,570 mi2). Since its river basin is uninhabited, the Motorchuna is one of the most untouched rivers in Yakutia; the waters are clean and there is abundant wildlife.",
+    "url": "https://en.wikipedia.org/wiki/Motorchuna"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 20.5,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1169,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 560,
+      "thinking_tokens": 444,
+      "cost_usd": 0.020559999999999995,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 939,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 662,
+      "thinking_tokens": 534,
+      "cost_usd": 0.0519,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Plan: first set the category (a river in Russia, in the far cold north near Yakutia), then hint at the sound of the name: \"Motor\" + \"chu\" + \"na\".\n\n<msg>🇷🇺 🥶❄️🦣 🏞️🌊\n\n🗣️ ⚙️🏍️ + 🤧 + 🐟</msg>",
+      "delivered": "🇷🇺 🥶❄️🦣 🏞️🌊\n🗣️ ⚙️🏍️ 🤧 🐟",
+      "dropped_chars": 2,
+      "retried": false,
+      "guesser": "I read: Russia 🇷🇺, cold/Siberia/mammoth 🥶❄️🦣 (Yakutia/Sakha?), a river 🏞️🌊. Then \"sounds like\": motor ⚙️🏍️ + \"achoo\" 🤧 + tuna 🐟 → Mo-tor-chu-na!\n\nGUESS: Motorchuna",
+      "guess": "Motorchuna",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "1b2b3ac9-5058-49ac-b4cf-506e35c092d7",
+    "guesser": "f811a965-fb5d-4bfc-9991-67d926da6c95"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

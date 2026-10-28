@@ -1,0 +1,101 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Sage Derby",
+    "description": "Variety of cheese",
+    "extract": "Sage Derby is a variety of Derby cheese that is mild, mottled green and semi-hard, and has a sage flavour. The colour is from sage and sometimes other colouring added to the curds, producing a marbling effect and a subtle herb flavour. The colour is formed either by mixing sage leaves into the curd before it is pressed or by the addition of \"green curd\" from green corn or spinach juice. In the latter case, the flavour has to be created with colourless sage extract. Parsley, spinach and marigold leaves, bruised and steeped before use, can also be included instead of the sage leaves. It is aged for one to three months.",
+    "url": "https://en.wikipedia.org/wiki/Sage_Derby"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 135.9,
+  "usage": {
+    "explainer": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 4070,
+      "cache_read_input_tokens": 6156,
+      "output_tokens": 2798,
+      "thinking_tokens": 2550,
+      "cost_usd": 0.0910224,
+      "calls": 3,
+      "cost_usd_reported": 0.2107742
+    },
+    "guesser": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 7256,
+      "cache_read_input_tokens": 5510,
+      "output_tokens": 7991,
+      "thinking_tokens": 7189,
+      "cost_usd": 0.220112,
+      "calls": 3,
+      "cost_usd_reported": 0.4540788
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 702,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00014260000000000002,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🐂🫗 🔶🐹 🇨🇭🇫🇷🇳🇱\n🫑🥗🌲 🌊🌊\n🧑‍🦳📚🎓\n🦄💨🎽 🇺🇸🌹\n</msg>",
+      "delivered": "🐂🫗 🔶🐹 🇨🇭🇫🇷🇳🇱\n🫑🥗🌲 🌊🌊\n🧑‍🦳📚🎓\n🦄💨🎽 🇺🇸🌹",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Here's my first read:\n\n- **Line 4:** 🦄💨🎽 🇺🇸🌹 looks like a racehorse (🦄 standing in for a banned horse emoji) in the Kentucky Derby, the \"Run for the Roses.\"\n- **Line 3:** 🧑‍🦳📚🎓 suggests an old scholar or professor. It might be part of a name, like \"Professor…\" or \"Sage.\"\n- **Line 1:** 🐂🫗 and 🔶🐹 might be name parts or bloodline (sire/dam?), but I can't decode them yet. The 🇨🇭🇫🇷🇳🇱 flags could be countries connected to it.\n- **Line 2:** 🫑🥗🌲 🌊🌊 reads as \"green\" + something like \"sea\" or \"waves.\"\n\nQuestions:\n1. Is it a racehorse? Please answer 👍 or 👎.\n2. Is line 1 the subject's name, split into sound-alike syllables? If not, what category is the subject (person, animal, place, thing)? Please send one clear emoji for the category.\n\nNo guess yet.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n👎🦄\n🍽️😋\n🐂🫗 ⏳ 🔶🐹 🍔🍝\n🧑‍🦳📚 ➕ 🦄🌹 = 🍽️ 🔶\n</msg>",
+      "delivered": "👎🦄\n🍽️\n🐂🫗 ⏳ 🔶🐹 🍔🍝\n🧑‍🦳📚 ➕ 🦄🌹 🍽️ 🔶",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "😋"
+      ],
+      "retried": false,
+      "guesser": "My new reading: 🍽️ means it's food-related. 🐂🫗 could be beef broth or meat extract (bouillon) that later (⏳) became something else, maybe a 🔶🐹 brand making 🍔🍝. 🧑‍🦳📚 could be a professor-founder, like chemist Justus von Liebig.\n\nQuestions:\n1. Is it a food **brand or company**, rather than a dish? Please answer 👍 or 👎.\n2. Is 🔶🐹 a brand name or a mascot?\n3. Is 🐂 a sound-alike for \"Ox\", like Oxo, or the Dutch town Oss?\n\nGUESS: Liebig's Extract of Meat Company",
+      "guess": "Liebig's Extract of Meat Company",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n👎👎👎\n🐂🫗 ⏳⏳ 🔶\n📷😀🗣️ 🔶\n🐹😍🔶\n🌝🔶\n</msg>",
+      "delivered": "👎👎👎\n🐂🫗 ⏳⏳ 🔶\n📷😀🗣️ 🔶\n🐹😍🔶\n🌝🔶",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I've cracked 🔶: it's cheese. \"Say cheese\" for photos, mice love cheese, and the moon is made of cheese.\n\nSo the article is about a cow's-milk (🐂🫗), aged (⏳⏳) cheese. The name looks like two parts:\n- 🧑‍🦳📚🎓, the wise old scholar, means **Sage**.\n- 🦄💨🎽 🇺🇸🌹, the Kentucky Derby, means **Derby**.\n- 🫑🥗🌲 fits the green herb marbling.\n\nGUESS: Sage Derby",
+      "guess": "Sage Derby",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "f2b0c09d-bb34-4c5a-9e8f-15e88547dce1",
+    "guesser": "8b2d1b94-9d9b-4162-9bed-c6820d171260"
+  },
+  "ladder": {
+    "article_no": 19,
+    "round": 5,
+    "n_banned": 63,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

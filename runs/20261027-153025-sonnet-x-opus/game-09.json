@@ -1,0 +1,77 @@
+{
+  "model": "sonnet",
+  "model_id": "claude-sonnet-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Jovan Hadži-Vasiljević",
+    "description": "Serbian historian, ethnographer, journalist and writer",
+    "extract": "Jovan Hadži-Vasiljević was a Serbian historian, ethnographer, journalist and writer.",
+    "url": "https://en.wikipedia.org/wiki/Jovan_Had%C5%BEi-Vasiljevi%C4%87"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 24.5,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1619,
+      "cache_read_input_tokens": 779,
+      "output_tokens": 127,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0079138,
+      "calls": 2,
+      "cost_usd_reported": 0.0125639
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1339,
+      "cache_read_input_tokens": 900,
+      "output_tokens": 804,
+      "thinking_tokens": 531,
+      "cost_usd": 0.027176,
+      "calls": 2,
+      "cost_usd_reported": 0.040944
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 717,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 9.37e-06,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇷🇸👨‍🎓📜🖋️📰🗺️🏺</msg>",
+      "delivered": "🇷🇸👨‍🎓📜🖋️📰🗺️🏺",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Sounds like a Serbian scholar: a writer and journalist who also worked in geography, history, or archaeology. A few questions:\n1. Is it a person (man)? Born in the 1800s or the 1900s?\n2. Is their main field archaeology (🏺), geography (🗺️), or history?\n3. Can you give hints for the name (sounds/syllables in emojis)?\n\nA wild first guess:\nGUESS: Miloje Vasić",
+      "guess": "Miloje Vasić",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👍 \n🕰️🔙 1️⃣8️⃣ \n📜👨‍🏫🏛️\n🕌⛪🏔️🇲🇰\n🎻🏠👗🌾\n🙏🧔‍♂️</msg>",
+      "delivered": "👍\n🕰️\n📜👨‍🏫🏛️\n🕌⛪🏔️🇲🇰\n🎻🏠👗🌾\n🙏🧔‍♂️",
+      "dropped_chars": 5,
+      "retried": false,
+      "guesser": "Got it: a historian and teacher who wrote about Macedonia (its mosques, churches, and mountains) and its folk life: music, houses, costumes, and farming. So an ethnographer. The 🙏🧔‍♂️ makes me think of \"Hadži\" (pilgrim) in the name, or a priest.\n\nGUESS: Jovan Hadži-Vasiljević",
+      "guess": "Jovan Hadži-Vasiljević",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "44ce32b4-e304-429a-b815-1dff85cb0ec5",
+    "guesser": "8749c668-1ab0-43b3-beff-86bb83439afc"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

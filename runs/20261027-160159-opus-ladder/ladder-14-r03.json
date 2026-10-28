@@ -1,0 +1,90 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Philadelphia Commercial Museum",
+    "description": "Former museum in Pennsylvania, USA",
+    "extract": "The Philadelphia Commercial Museum was established in Philadelphia, Pennsylvania in 1895. Its permanent home was a neo-classical building situated at 34th Street and Civic Center Blvd, erected as part of the 1899 National Export Exposition. The museum had business offices at 332 South Fourth Street.",
+    "url": "https://en.wikipedia.org/wiki/Philadelphia_Commercial_Museum"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 72.8,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2753,
+      "cache_read_input_tokens": 2130,
+      "output_tokens": 2123,
+      "thinking_tokens": 1827,
+      "cost_usd": 0.06536,
+      "calls": 2,
+      "cost_usd_reported": 0.10268540000000001
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 3253,
+      "cache_read_input_tokens": 967,
+      "output_tokens": 2990,
+      "thinking_tokens": 2606,
+      "cost_usd": 0.0862348,
+      "calls": 2,
+      "cost_usd_reported": 0.13734539999999998
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 714,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 160,
+      "thinking_tokens": 156,
+      "cost_usd": 0.000223,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Plan: signal Philadelphia (cracked Liberty Bell, brotherly love, Rocky steps), then museum (urn, extinct dodo, viewer, ticket), then commerce and export.\n\n<msg>\n🛎️💔 🧔‍♂️💞🧔‍♂️ 🏃‍♂️🪜\n⚱️🦤🧐🎫\n💹🤑 📤🛳️\n</msg>",
+      "delivered": "🛎️💔 🧔‍♂️💞🧔‍♂️ 🏃‍♂️🪜\n⚱️🦤🧐🎫\n💹🤑 📤🛳️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "**My read so far:**\n- Line 1 = **Philadelphia**: cracked bell (Liberty Bell), \"brotherly love,\" and the Rocky steps.\n- Line 2: urn + dodo = something **dead or defunct**? Monocle + ticket = **inspection, customs or documents**?\n- Line 3: **finance or trading**, plus **export shipping**.\n\nSo is it a defunct Philadelphia institution tied to trade and shipping, like an exchange, a customs house or a merchant company?\n\nQuestions:\n1. Is it a **building or institution**, a **person**, or an **event**?\n2. Is line 2 about it being **old/defunct** (yes/no)?\n\nGUESS: Merchants' Exchange Building",
+      "guess": "Merchants' Exchange Building",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "The guesser has Philadelphia and the trade angle but read line 2 as \"defunct.\" This time I'll show line 2 as people viewing exhibits behind glass, mark it as finished, and tie it to trade.\n\n<msg>\n🏫✔️ 🙋✖️ 🎆✖️\n🧐👉⚱️👑🗡️💎🦤 🧑‍🏫🎫\n💹➕🧐⚱️\n🔚\n</msg>",
+      "delivered": "🏫✔️ 🙋✖️ 🎆✖️\n🧐👉⚱️👑🗡️💎🦤 🧑‍🏫🎫\n💹🧐⚱️",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "➕"
+      ],
+      "retried": false,
+      "guesser": "Got it: it's an **institution**, not a person or an event. Line 2 looks like a **museum**: studying urns, crowns, swords, gems and dodos, plus **educational programs for teachers**. Line 3 is **commerce/trade + museum**, and earlier you sent **exports and shipping**.\n\nThat sounds like Philadelphia's museum that promoted export trade.\n\nGUESS: Philadelphia Commercial Museum",
+      "guess": "Philadelphia Commercial Museum",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "aa0bdf6b-0366-48fd-ab69-59abb9fdd6b5",
+    "guesser": "fbd80fee-b365-4ffd-9cc8-ab3cc3efd49a"
+  },
+  "ladder": {
+    "article_no": 14,
+    "round": 3,
+    "n_banned": 76,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

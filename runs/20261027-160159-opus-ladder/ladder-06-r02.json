@@ -1,0 +1,91 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Jakob von Washington",
+    "description": "Bavarian general (1778–1848)",
+    "extract": "\nBaron Jacobus von Washington was a lieutenant general in the Bavarian Army and a distant relative of US President George Washington. Born in The Hague, Netherlands, he was christened James Washington. Most of his adult life was shaped by his participation in wars for and against Napoleonic France and his service to Ludwig I of Bavaria.",
+    "url": "https://en.wikipedia.org/wiki/Jakob_von_Washington"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 69.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 3380,
+      "cache_read_input_tokens": 2098,
+      "output_tokens": 2561,
+      "thinking_tokens": 2377,
+      "cost_usd": 0.0791232,
+      "calls": 2,
+      "cost_usd_reported": 0.12845900000000002
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 3104,
+      "cache_read_input_tokens": 967,
+      "output_tokens": 2506,
+      "thinking_tokens": 2130,
+      "cost_usd": 0.07536280000000001,
+      "calls": 2,
+      "cost_usd_reported": 0.12309339999999999
+    },
+    "judge": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 718,
+      "cache_read_input_tokens": 704,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00015504,
+      "calls": 2
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🧺🧽🚿\n💂‍♂️ 🍻🌭 🔷⬜🔷⬜\n🧬 🥇🤵 🏳️\n🐎🥐 🤴\n</msg>",
+      "delivered": "🧺🧽🚿\n💂‍♂️ 🍻🌭 🔷⬜🔷⬜\n🧬 🥇🤵 🏳️\n🐎🥐 🤴",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "**What I've read so far:**\n- 💂‍♂️ 🍻🌭 🔷⬜🔷⬜ = a German, specifically Bavarian, military unit or guard.\n- 🐎🥐 = French-style cavalry, so maybe a Bavarian **Chevau-léger** (light horse) regiment.\n- 🤴 = named after a prince.\n- 🥇 = maybe \"1st\"?\n\n**Questions:**\n- Line 1 (🧺🧽🚿): is this \"Bath / Bad / Baden\"? Or does it mean washing or cleaning?\n- What do 🧬 and 🏳️ mean? Heredity or descent? Surrender or peace? The colour white?\n- Is it a regiment, or a person?\n\nGUESS: 1st Royal Bavarian Chevau-léger Regiment",
+      "guess": "1st Royal Bavarian Chevau-léger Regiment",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n🧍‍♂️✔️ 🪖❌\n🧺🧽✔️ 🛁❌\n🧬 = 👨‍👦‍👦 🌳 ❌... \n🥇🤵 = 🌎 🗺️ 1️⃣ 🏠⬜\n</msg>",
+      "delivered": "🧍‍♂️✔️ ❌\n🧺🧽✔️ 🛁❌\n🧬 👨‍👦‍👦 ❌\n🥇🤵 🌎 🗺️ 🏠⬜",
+      "dropped_chars": 9,
+      "off_keyboard": [
+        "🪖",
+        "🌳"
+      ],
+      "retried": false,
+      "guesser": "A person named **Washington**: 🥇🤵🌎🗺️🏠⬜ is the first President and the White House. The person is a Bavarian soldier, not related to George Washington. Maybe the Bavarian general Baron Jacob von Washington?\n\nGUESS: Jacob von Washington",
+      "guess": "Jacob von Washington",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "7ba5ee22-0225-46ad-8d44-2f706c2f4e45",
+    "guesser": "2c135e99-0388-4185-b352-8c7736f9015a"
+  },
+  "ladder": {
+    "article_no": 6,
+    "round": 2,
+    "n_banned": 61,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

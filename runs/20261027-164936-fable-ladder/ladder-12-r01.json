@@ -1,0 +1,75 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Dora Akunyili",
+    "description": "Nigerian pharmacist and government official (1954–2014)",
+    "extract": "Dora Nkem Akunyili was a Nigerian pharmacist and politician who served as the director-general of National Agency for Food and Drug Administration and Control (NAFDAC) of Nigeria from 2001 to 2008.",
+    "url": "https://en.wikipedia.org/wiki/Dora_Akunyili"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 22.1,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 748,
+      "cache_read_input_tokens": 577,
+      "output_tokens": 690,
+      "thinking_tokens": 572,
+      "cost_usd": 0.049624249999999995,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 2132,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 643,
+      "thinking_tokens": 510,
+      "cost_usd": 0.069775,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🟢⚪🟢 👩🏿 🧪⚗️🩺🏥\n👮🏿‍♀️ 🧫💉 ⚖️ 🎭💉❌ 🎭🧪❌\n🎯🧕🏿 💥 🙏\n🎙️ 📡\n🩺😷 🪦</msg>",
+      "delivered": "🟢⚪🟢 👩🏿 🧪⚗️🩺🏥\n👮🏿‍♀️ 🧫💉 ⚖️ 🎭💉❌ 🎭🧪❌\n🎯🧕🏿 💥 🙏\n🎙️ 📡\n🩺😷 🪦",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Reading this: green-white-green flag = Nigeria, a Black woman, pharmacist/medical scientist, regulatory/law enforcement work against **fake drugs and counterfeit vaccines**, survived an assassination attempt (bullet through her headscarf), later Minister of Information and Communications, died of illness. That's the NAFDAC crusader.\n\nGUESS: Dora Akunyili",
+      "guess": "Dora Akunyili",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "7c1274cc-d88b-4d24-a33b-7fd970924d18",
+    "guesser": "a2ffa6df-44c8-4784-82bd-9ccdaf8af514"
+  },
+  "ladder": {
+    "article_no": 12,
+    "round": 1,
+    "n_banned": 18,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

@@ -1,0 +1,88 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Iron(III) sulfate",
+    "description": "Chemical compound",
+    "extract": "Iron(III) sulfate or ferric sulfate is a family of inorganic compounds with the formula Fe2(SO4)3(H2O)n. A variety of hydrates are known, including the most commonly encountered form of \"ferric sulfate\". Solutions are used in dyeing as a mordant and as a coagulant for industrial wastes. Solutions of ferric sulfate are also used in the processing of aluminum and steel.",
+    "url": "https://en.wikipedia.org/wiki/Iron(III)_sulfate"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 68.3,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 3225,
+      "cache_read_input_tokens": 2198,
+      "output_tokens": 2475,
+      "thinking_tokens": 2351,
+      "cost_usd": 0.0762032,
+      "calls": 2,
+      "cost_usd_reported": 0.12213900000000003
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2468,
+      "cache_read_input_tokens": 935,
+      "output_tokens": 2529,
+      "thinking_tokens": 2092,
+      "cost_usd": 0.07072200000000001,
+      "calls": 2,
+      "cost_usd_reported": 0.10666300000000001
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 695,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0001412,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n👩‍🔬\n\n🥬💪🔨\n\n🔺🔺🔺\n\n🍳🤮\n</msg>",
+      "delivered": "👩‍🔬\n🥬💪🔨\n🔺🔺🔺\n🍳🤮",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Here's my read so far:\n- 👩‍🔬 = a woman scientist (the subject, or someone connected to it)\n- 🥬💪🔨 = **iron** (Popeye's spinach, strength, hammer/metal)\n- 🍳🤮 = rotten egg smell = **sulfur**\n- 🔺🔺🔺 = three of something (or fire/\"pyr\", or triangles/pyramids?)\n\nSo my working idea is iron + sulfur, possibly a mineral or chemistry topic tied to a woman scientist. Is the article itself about a **person** (the woman scientist) or a **thing** (a mineral or compound)? What do the three triangles mean: the number 3, fire, or a shape?\n\nGUESS: Greigite",
+      "guess": "Greigite",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n👤🙅   🧊🙆\n\n🔺🔺🔺 = 🕒   🕑🚫\n\n🍳🤮 ➡️ 🍳🤮🤿🤿🤿🤿\n</msg>",
+      "delivered": "👤🙅 🧊🙆\n🔺🔺🔺 🕒 🕑🚫\n🍳🤮 ➡️ 🍳🤮🤿🤿🤿🤿",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Got it: it's a thing (🧊 = a substance or compound), not a person. 🔺🔺🔺 = 3, not 2, so ferric iron, Fe(III). 🍳🤮 → 🍳🤮🤿🤿🤿🤿 = sulfur plus four oxygens (the diving mask) = sulfate, SO₄. So the 👩‍🔬 just means \"chemistry\". If this is wrong, tell me whether it's a mineral or a compound, or whether there's water or another element in it.\n\nGUESS: Iron(III) sulfate",
+      "guess": "Iron(III) sulfate",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "23e8ac49-f485-4515-b433-9c11290f0a3d",
+    "guesser": "27049e1b-5cdf-499e-bba0-51171aa19bdd"
+  },
+  "ladder": {
+    "article_no": 2,
+    "round": 4,
+    "n_banned": 80,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

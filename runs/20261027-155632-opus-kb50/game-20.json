@@ -1,0 +1,71 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Franco Cozzo",
+    "description": "Australian businessman (1935–2023)",
+    "extract": "Franco Cozzo was an Italian-Australian businessman. After moving to Melbourne from Sicily in 1955, Cozzo became known for his television advertisements, in which he would speak in English, Greek, and Italian. He later produced Australia's first non-English TV show, Carosello, which was broadcast in Italian.",
+    "url": "https://en.wikipedia.org/wiki/Franco_Cozzo"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "keyboard": {
+    "fraction": 0.5,
+    "seed": "v1",
+    "size": 936
+  },
+  "max_turns": 30,
+  "seconds": 16.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 5843,
+      "cache_read_input_tokens": 588,
+      "output_tokens": 523,
+      "thinking_tokens": 461,
+      "cost_usd": 0.0573296,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 967,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 522,
+      "thinking_tokens": 456,
+      "cost_usd": 0.018184,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🦘 🛋️ 🏬 📣 🖥️\n\n🗣️ 🇬🇷 🍝 🇬🇧\n\n🧔 💰</msg>",
+      "delivered": "🦘 🛋️ 🏬 📣 🖥️\n🗣️ 🇬🇷 🍝 🇬🇧\n🧔 💰",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "This looks like a famous Melbourne furniture retailer known for TV ads in Greek, Italian and English (\"Megalo, megalo, megalo!\").\n\nGUESS: Franco Cozzo",
+      "guess": "Franco Cozzo",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "8865922c-c7f6-44a3-bfb4-780e9e8aefb5",
+    "guesser": "01833c82-6041-4f00-99ba-efed6bd5b960"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

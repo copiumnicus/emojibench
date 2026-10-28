@@ -1,0 +1,74 @@
+{
+  "model": "sonnet",
+  "model_id": "claude-sonnet-5-5",
+  "effort": null,
+  "article": {
+    "title": "Iglesia de Santa Ana (Santiago de Chile)",
+    "description": "National monument of Chile",
+    "extract": "The Iglesia de Santa Ana is a Catholic church in downtown Santiago de Chile. It is located at the northwest corner of Catedral and San Martín streets. The church was declared as a National Monument of Chile in 1970, within the category of Historic Monuments. Santa Ana metro station is named after the church.",
+    "url": "https://en.wikipedia.org/wiki/Iglesia_de_Santa_Ana_(Santiago_de_Chile)"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "max_turns": 30,
+  "seconds": 23.2,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1617,
+      "cache_read_input_tokens": 835,
+      "output_tokens": 69,
+      "thinking_tokens": 0,
+      "cost_usd": 0.007337,
+      "calls": 2,
+      "cost_usd_reported": 0.0121555
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1230,
+      "cache_read_input_tokens": 891,
+      "output_tokens": 485,
+      "thinking_tokens": 315,
+      "cost_usd": 0.009960199999999999,
+      "calls": 2,
+      "cost_usd_reported": 0.0160991
+    },
+    "judge": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 1440,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0002924,
+      "calls": 2
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>⛪👩‍🦳🇨🇱🏙️🚇</msg>",
+      "delivered": "⛪👩‍🦳🇨🇱🏙️🚇",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Church, an old woman, Chile, a city, and a metro: this sounds like a Santiago Metro station named after a saint. The old woman could be Saint Anne, the grandmother of Jesus.\n\nGUESS: Santa Ana metro station (Santiago)",
+      "guess": "Santa Ana metro station (Santiago)",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>⛪👆 🚇👎 🏛️🇨🇱🏙️</msg>",
+      "delivered": "⛪👆 🚇👎 🏛️🇨🇱🏙️",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Metro is ruled out, so I think the article is a church in a Chilean city. Is it a specific church in Santiago? Is it named after a female saint, such as Saint Anne? \n\nGUESS: Iglesia de Santa Ana, Santiago",
+      "guess": "Iglesia de Santa Ana, Santiago",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "6d26ef57-907c-47af-a23d-f0fe3874616a",
+    "guesser": "0a09029f-6ecd-4f04-b7bd-b39e4c92ceb5"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

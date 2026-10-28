@@ -1,0 +1,115 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Dorothy Cottrell",
+    "description": "Australian writer",
+    "extract": "Ida Dorothy Ottley Cottrell was an Australian writer. Born in Picton, she contracted infantile paralysis as a child and spent the rest of her life in a wheelchair. Cottrell married Walter Mackenzie Cottrell on 23 May 1922. Her first novel, The Singing Gold, was published in 1928. She wrote a story Wilderness Orphan (1936) which was the basis for the feature film Orphan of the Wilderness (1936). She lived for a time in the US and also worked as an artist and cartoonist.",
+    "url": "https://en.wikipedia.org/wiki/Dorothy_Cottrell"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 152.1,
+  "usage": {
+    "explainer": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 6547,
+      "cache_read_input_tokens": 13585,
+      "output_tokens": 5005,
+      "thinking_tokens": 4346,
+      "cost_usd": 0.157966,
+      "calls": 4,
+      "cost_usd_reported": 0.451454
+    },
+    "guesser": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 4677,
+      "cache_read_input_tokens": 5881,
+      "output_tokens": 5343,
+      "thinking_tokens": 4523,
+      "cost_usd": 0.1466844,
+      "calls": 4,
+      "cost_usd_reported": 0.3155402
+    },
+    "judge": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1396,
+      "cache_read_input_tokens": 697,
+      "output_tokens": 118,
+      "thinking_tokens": 106,
+      "cost_usd": 0.00034577,
+      "calls": 3
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Starting with the basics: a woman writer and artist, from Australia (\"down under\"), who used a wheelchair.\n\n<msg>\n👒 📃 🖍️\n🙃 🌍\n🧑‍🦽 💺⚙️\n</msg>",
+      "delivered": "👒 📃 🖍️\n🙃 🌍\n🧑‍🦽 💺⚙️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "My reading so far:\n- 👒 = woman/female? 📃🖍️ = drawing, art, illustrator, or writing?\n- 🙃🌍 = \"Down Under\" = Australia (or New Zealand)?\n- 🧑‍🦽💺⚙️ = wheelchair user, disability, or wheelchair sport?\n\nMy working hypothesis is an Australian woman, possibly an artist or illustrator, who uses a wheelchair, or maybe a wheelchair athlete (Paralympian).\n\nQuestions:\n1. Is it a person? Is it a woman?\n2. Is 🙃🌍 = Australia? Or New Zealand?\n3. Is the main thing art/drawing, or is it sport (Paralympics)? If sport, which one: 🏀 🎾 🏉 🏃 🏓 🏹?\n4. Can you hint at the name, by sound or by syllables?\n\nGUESS: Karni Liddell",
+      "guess": "Karni Liddell",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "Answering the guesser's questions: yes, a woman; yes, Australia; mainly a writer, art second; not sport. I'm also signalling that she's historical, and hinting at the name \"Dorothy\" through the Wizard of Oz tornado and Emerald City.\n\n<msg>\n🙂 🙂\n🙃🌍 🙂\n📔📃 🙂🙂  🖍️ 🙂   🏀🏉🏃 🙁\n⌛⌛\n🌀🏠 🟢🏙️ 👠❓ 🐾\n</msg>",
+      "delivered": "🙂 🙂\n🙃🌍 🙂\n📔📃 🙂🙂 🖍️ 🙂 🏀🏉🏃 🙁\n⌛⌛\n🌀🏠 🟢🏙️ ❓ 🐾",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "👠"
+      ],
+      "retried": false,
+      "guesser": "So: an Australian woman, a writer and illustrator (books and drawing, not sport), from long ago (⌛⌛). I read 🌀🏠🟢🏙️ as Wizard of Oz, so her name is **Dorothy**? And 🐾 = animal characters (koala?) in her books?\n\nQuestions:\n- Is the wheelchair literal? Was she disabled, for example by polio?\n- Is ⌛⌛ = early 1900s?\n- If it's not Dorothy Wall: is the surname a common word you can show?\n\nGUESS: Dorothy Wall",
+      "guess": "Dorothy Wall",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "Confirming the polio and wheelchair, the early 1900s, and the name Dorothy, but not Wall. New clues: her novel *The Singing Gold* (singing bird plus gold-mining pick), the film made from her story (popcorn), and her time in the US (Statue of Liberty).\n\n<msg>\n🧑‍🦽 🙂  🦠 polio 🙂\n⌛ 🙂\n🌀🏠 🙂   🧱 🙁\n📔 🐦🎻 ⛏️✨\n🍿 🐾\n🗽\n</msg>",
+      "delivered": "🧑‍🦽 🙂 🙂\n⌛ 🙂\n🌀🏠 🙂 🙁\n📔 🐦🎻 ⛏️✨\n🍿 🐾\n🗽",
+      "dropped_chars": 7,
+      "off_keyboard": [
+        "🦠",
+        "🧱"
+      ],
+      "retried": false,
+      "guesser": "Got it: she really was a wheelchair user, she was from the early 1900s, and the Oz link is half right (Australia = \"Oz\" yes, Dorothy no?).\n\nMy reading of the rest:\n- 📔🐦🎻⛏️✨ = she wrote a book about a **lyrebird** and **gold/mining/gems**?\n- 🍿🐾 = a film made of an animal story?\n- 🗽 = connection to the USA/New York (published there, or she lived there)?\n\nIs that right? Please spell her name out with sound-alike emojis, first name and then surname. I'll take a placeholder guess:\n\nGUESS: Ella McFadyen",
+      "guess": "Ella McFadyen",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "The guesser read \"Dorothy\" as a no, because the filter deleted my 🧱 (\"not Wall\") and left 🌀🏠 🙂 🙁. I'm confirming Dorothy twice, confirming the singing-gold book, the animal film and the US link, and trying a rough sound-alike for \"Cott-rell\" (cod / cot plus a rail car).\n\n<msg>\n🌀🏠 🙂🙂🙂\n📔 🐦🎻⛏️✨ 🙂\n🍿🐾 🙂\n🗽 🙂\n🐟🚃   🛌\n</msg>",
+      "delivered": "🌀🏠 🙂🙂🙂\n📔 🐦🎻⛏️✨ 🙂\n🍿🐾 🙂\n🗽 🙂\n🐟🚃 🛌",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Dorothy with polio, a wheelchair, the US, a singing-gold book and a kangaroo film. I think she's the author of *The Singing Gold* and *Wilderness Orphan*, which was filmed as *Orphan of the Wilderness*.\n\nGUESS: Dorothy Cottrell",
+      "guess": "Dorothy Cottrell",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "1cd5cf4b-402a-4750-acbe-32291e5408fd",
+    "guesser": "bc600496-db24-4ebf-b85b-782dcdfefdbc"
+  },
+  "ladder": {
+    "article_no": 13,
+    "round": 5,
+    "n_banned": 141,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

@@ -1,0 +1,129 @@
+{
+  "model": "sonnet",
+  "model_id": "claude-sonnet-5-5",
+  "guesser_model": "sonnet",
+  "guesser_model_id": "claude-sonnet-5-5",
+  "effort": null,
+  "article": {
+    "title": "Philadelphia Commercial Museum",
+    "description": "Former museum in Pennsylvania, USA",
+    "extract": "The Philadelphia Commercial Museum was established in Philadelphia, Pennsylvania in 1895. Its permanent home was a neo-classical building situated at 34th Street and Civic Center Blvd, erected as part of the 1899 National Export Exposition. The museum had business offices at 332 South Fourth Street.",
+    "url": "https://en.wikipedia.org/wiki/Philadelphia_Commercial_Museum"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "max_turns": 30,
+  "seconds": 75.1,
+  "usage": {
+    "explainer": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 2862,
+      "cache_read_input_tokens": 8277,
+      "output_tokens": 1254,
+      "thinking_tokens": 394,
+      "cost_usd": 0.025679399999999998,
+      "calls": 5,
+      "cost_usd_reported": 0.0692314
+    },
+    "guesser": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 2627,
+      "cache_read_input_tokens": 6030,
+      "output_tokens": 1721,
+      "thinking_tokens": 993,
+      "cost_usd": 0.028960000000000003,
+      "calls": 5,
+      "cost_usd_reported": 0.0843984
+    },
+    "judge": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 3558,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 20,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0007226,
+      "calls": 5
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🔔🏫🧭🌎🗺️🐯🦒🏺🪆🧳🏢🏙️</msg>\n\nLet me reconsider, since some of those are banned. Cleaner version:\n\n<msg>🗺️🧳🦒🪆🥥🏫🔔🏢🇺🇸</msg>\n\nActually, only the final message counts; here it is:\n\n<msg>🗺️🧳🦒🪆🥥🏫🏢🔔</msg>",
+      "delivered": "🗺️🧳🦒🪆🥥🏫🏢",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🔔"
+      ],
+      "retried": false,
+      "guesser": "I see a map, luggage, a giraffe, a nesting doll, a coconut, a school and an office building. My first thought is an international school or institute somewhere tropical, possibly in Africa or Asia, with a Russian connection.\n\nQuestions:\n1. Is the article about an organization or institution rather than a place or a person?\n2. Is the giraffe a hint for Africa, such as Kenya or Tanzania?\n3. Is the nesting doll a hint for Russia, or for something nested like layers?\n\nGUESS: International School of Kenya",
+      "guess": "International School of Kenya",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👍</msg>\n\nOops, that one's banned. Let me answer properly.\n\n<msg>🤷 🏫🚫 🏢✅ 🗺️🧳🦒🪆🥥 🛒🏪 🏛</msg>\n\nFinal answer:\n\n<msg>🏢 🗺️🧳 🦒🪆🥥 🛒🏪 🔔🏫 🔙⏪ 🏚️</msg>",
+      "delivered": "🏢 🗺️🧳 🦒🪆🥥 🛒🏪 🏫 ⏪ 🏚️",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🔔"
+      ],
+      "retried": false,
+      "guesser": "I think the giraffe, nesting doll and coconut stand for imported goods from around the world. Together with the map and luggage, the shopping cart and store, and the rewind arrow and derelict building for \"defunct\", that points to a retailer that has gone out of business.\n\nGUESS: Pier 1 Imports",
+      "guess": "Pier 1 Imports",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🏛️</msg>\n\nWait, that one is banned. Final message:\n\n<msg>🏢 🧪🐍🦎🌿🪴 🗺️🧳 🏫🔬 🏚️ ⏪ 🎟️🚪 🖼</msg>",
+      "delivered": "🏢 🧪🐍🦎🌿🪴 🗺️🧳 🏫🔬 🏚️ ⏪ 🎟️🚪",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🖼️"
+      ],
+      "retried": false,
+      "guesser": "The new emojis (test tube, snake, lizard, plants, microscope, ticket, door, derelict building, rewind) suggest a defunct attraction, such as a zoo, reptile park, or botanical or natural history museum. That would fit the giraffe, the coconut and the \"world tour\" feel.\n\nQuestions:\n1. Is it a closed zoo or animal park?\n2. Is it a museum?\n3. Which country or region is it in? Are the nesting doll and coconut about location, such as Russia and the tropics?\n\nGUESS: Reptile Gardens",
+      "guess": "Reptile Gardens",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🤷 🏢🎟️🚪 ✅ 🗺️🧳 ✅ 🇺🇸 🏚️⏪ ✅ 🗺️🏢 🔔🔔 🧱🏗️ 🔬🧪 🔥</msg>\n\nCleaner, with banned items removed:\n\n<msg>🔥 🏚️⏪ 🗺️🧳 🏢🎟️🚪 🧱🏗️ 🔬🧪 🧑‍🏫 📜🗽</msg>\n\nFinal:\n\n<msg>🔥 🏚️⏪ 🏢🎟️🚪 🧱🏗️ 🌆🔔 🔬🧪</msg>\n\nActually, here is the one I want delivered:\n\n<msg>🔥 🏚️⏪ 🏢🎟️🚪 🧱🏗️ 🔬🧪 🏭</msg>\n\nHmm, 🏭 is banned. Final:\n\n<msg>🔥 🏚️⏪ 🏢🎟️🚪 🧱🏗️ 🔬🧪 🛒🏪 🎡🌆</msg>",
+      "delivered": "🔥 🏚️⏪ 🏢🎟️🚪 🧱🏗️ 🔬🧪 🛒🏪 🎡🌆",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The fire, the ticketed building and the science and shop emojis point to a large exhibition building destroyed by fire. The mix of world cultures, tropical plants and animals, a school and a lab sounds like the Crystal Palace.\n\nGUESS: The Crystal Palace",
+      "guess": "The Crystal Palace",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>🥨🧀🏙 🧱🏢🗺️ 🥥🦒🪆🧳 💵🏪 🎡🏗️ 🏚️⏪</msg>",
+      "delivered": "🥨🧀 🧱🏢🗺️ 🥥🦒🪆🧳 💵🏪 🎡🏗️ 🏚️⏪",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🏙️"
+      ],
+      "retried": false,
+      "guesser": "The pretzel and cheese suggest Germany, Switzerland or Wisconsin, and the bricks and ferris wheel suggest an old commercial building with an amusement element. I'm still unsure what the whole thing is.\n\nQuestions:\n1. Is the pretzel and cheese about the location, with the place being in Germany or Switzerland?\n2. Is it a shopping center or department store, or an amusement or exhibition building?\n3. Is the article about the building itself (a demolished or ruined landmark)?\n\nGUESS: Wonderland (Berlin)",
+      "guess": "Wonderland (Berlin)",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": "43097263-e5c6-4cb0-be95-58887da783f5",
+    "guesser": "fe14aa77-a905-47ea-93ac-65d784e9e461"
+  },
+  "ladder": {
+    "article_no": 14,
+    "round": 1,
+    "n_banned": 33,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

@@ -1,0 +1,99 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Richmond Hill South",
+    "description": "Federal electoral district in Ontario, Canada",
+    "extract": "Richmond Hill South is a federal electoral district in Ontario, Canada, that has been represented in the House of Commons of Canada since 2004.",
+    "url": "https://en.wikipedia.org/wiki/Richmond_Hill_South"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 145.5,
+  "usage": {
+    "explainer": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 4843,
+      "cache_read_input_tokens": 6435,
+      "output_tokens": 4568,
+      "thinking_tokens": 4345,
+      "cost_usd": 0.132718,
+      "calls": 3,
+      "cost_usd_reported": 0.2768414
+    },
+    "guesser": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 5486,
+      "cache_read_input_tokens": 3211,
+      "output_tokens": 6919,
+      "thinking_tokens": 6236,
+      "cost_usd": 0.1835924,
+      "calls": 3,
+      "cost_usd_reported": 0.3190382
+    },
+    "judge": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 1421,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00028859999999999997,
+      "calls": 2
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🥅🍟🧀 🤚📩 💺\n💍👛 🌝   🏕️   ⤵️\n</msg>",
+      "delivered": "🥅🍟🧀 🤚📩 💺\n💍👛 🌝 🏕️ ⤵️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Here's how I'm reading it so far:\n- 🥅🍟🧀 = **Net**herlands (net + Dutch fries + cheese)?\n- 🤚📩 💺 = voting / ballot, then a seat in parliament. So maybe a **Dutch election, politician or political party**?\n- Second line 💍👛 🌝 🏕️ ⤵️: no idea yet. Ring + purse = marriage/money? Moon, camp, down?\n\nQuestions:\n1. Is the Netherlands right? Is it about politics or elections?\n2. Is it a **person**, a **party**, or an **election**?\n3. Is line 2 a name spelled out with sounds (like a rebus)?\n\nGUESS: 2006 Dutch general election",
+      "guess": "2006 Dutch general election",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n🇳🇱 🛑🛑\n⛸️🥅 🍂🍯 🦌🐻 🍟🧀🥣 🎯\n🤚📩💺 🎯\n💍👛🌝 🏕️ ⤵️ 🎯 🔊\n</msg>",
+      "delivered": "🇳🇱 🛑🛑\n⛸️🥅 🍂🍯 🦌🐻 🍟🧀🥣 🎯\n🤚📩💺 🎯\n💍👛🌝 🏕️ ⤵️ 🎯 🔊",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Got it: NOT the Netherlands. It's **Canada** (hockey, maple, moose/bear, poutine), so probably Quebec. And it's an **electoral district (riding)**.\n\nThe last line is the riding's name, sounded out (🔊). My readings:\n- 💍 = ring / band / bague / alliance / wed?\n- 👛 = purse / bag / sac / bourse?\n- 🌝 = moon / lune / luna?\n- 🏕️ = camp / tent / camping?\n- ⤵️ = down / low / bas / sud?\n\nQuestions:\n- Is it in Quebec? Federal or provincial?\n- Are the sounds French or English?\n- Could you send just the first word again, broken into syllables?\n\nGUESS: Témiscamingue (electoral district)",
+      "guess": "Témiscamingue (electoral district)",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n⚜️🛑 🥖🛑 🫖🎯\n🤴🏰💍  🌝     ⛷️🛝🏞️     🇿🇦🇰🇷\n</msg>",
+      "delivered": "⚜️🛑 🥖🛑 🫖🎯\n🤴🏰💍 🌝 ⛷️🛝🏞️ 🇿🇦🇰🇷",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Reading this turn:\n- Not Quebec, not French, English sounds.\n- 🤴🏰💍 / 💍👛 = **Rich**\n- 🌝 = **mond** (German *Mond* = moon) → **Richmond**\n- ⛷️🛝🏞️ / 🏕️ = **Hill**\n- 🇿🇦🇰🇷 / ⤵️ = **South**\n\nSo: **Richmond Hill South**. I think it's the new Ontario federal riding.\n\nGUESS: Richmond Hill South",
+      "guess": "Richmond Hill South",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "d5c1e309-a610-46d8-84ea-20701128b977",
+    "guesser": "c7a87a36-5aa6-4acf-99f6-fb77b3180a9a"
+  },
+  "ladder": {
+    "article_no": 8,
+    "round": 5,
+    "n_banned": 114,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

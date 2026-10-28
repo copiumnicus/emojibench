@@ -1,0 +1,71 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Iron(III) sulfate",
+    "description": "Chemical compound",
+    "extract": "Iron(III) sulfate or ferric sulfate is a family of inorganic compounds with the formula Fe2(SO4)3(H2O)n. A variety of hydrates are known, including the most commonly encountered form of \"ferric sulfate\". Solutions are used in dyeing as a mordant and as a coagulant for industrial wastes. Solutions of ferric sulfate are also used in the processing of aluminum and steel.",
+    "url": "https://en.wikipedia.org/wiki/Iron(III)_sulfate"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "keyboard": {
+    "fraction": 0.5,
+    "seed": "v1",
+    "size": 936
+  },
+  "max_turns": 30,
+  "seconds": 17.9,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 6389,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 517,
+      "thinking_tokens": 458,
+      "cost_usd": 0.06146,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 964,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 604,
+      "thinking_tokens": 477,
+      "cost_usd": 0.019799999999999998,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>⚗️ 🧲 ☝️☝️☝️ 🥚🤢💨 💦\n\n🧶🖌️ 🚽🫧</msg>",
+      "delivered": "⚗️ 🧲 ☝️☝️☝️ 🥚🤢💨 💦\n🧶🖌️ 🚽🫧",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "**Reading:** ⚗️ = a chemical compound, 🧲 = iron, ☝️☝️☝️ = (III), 🥚🤢💨 = sulfur, 💦 = hydrate or water treatment, 🧶🖌️ = dyeing mordant, 🚽🫧 = sewage treatment.\n\nGUESS: Iron(III) sulfate",
+      "guess": "Iron(III) sulfate",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "f6b26e32-7b13-436a-ab7e-5d476a201576",
+    "guesser": "484c0a4e-b11d-49ee-9f12-b9b994872c8c"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

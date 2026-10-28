@@ -1,0 +1,99 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Dora Akunyili",
+    "description": "Nigerian pharmacist and government official (1954–2014)",
+    "extract": "Dora Nkem Akunyili was a Nigerian pharmacist and politician who served as the director-general of National Agency for Food and Drug Administration and Control (NAFDAC) of Nigeria from 2001 to 2008.",
+    "url": "https://en.wikipedia.org/wiki/Dora_Akunyili"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 112.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 4250,
+      "cache_read_input_tokens": 5837,
+      "output_tokens": 3429,
+      "thinking_tokens": 3148,
+      "cost_usd": 0.10495479999999999,
+      "calls": 3,
+      "cost_usd_reported": 0.2230798
+    },
+    "guesser": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 4624,
+      "cache_read_input_tokens": 3789,
+      "output_tokens": 3941,
+      "thinking_tokens": 3176,
+      "cost_usd": 0.11736759999999999,
+      "calls": 3,
+      "cost_usd_reported": 0.24950719999999998
+    },
+    "judge": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 1428,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00029,
+      "calls": 2
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🛢️🎬🍛⚽ 🌞\n👗👓 🕵️ 🍬🃏\n🍽️🍬 📜🚨\n💥🚙🩸 ⚱️\n</msg>",
+      "delivered": "🛢️🎬🍛⚽ 🌞\n👗👓 🕵️ 🍬🃏\n🍽️🍬 📜🚨\n💥🚙🩸 ⚱️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "**My read:** 🛢️ = \"tel\" (oil), so this is a **Telugu film** (🎬🍛), and ⚽🌞 could be the title or the star (\"Kick\" plus Ravi Teja, the sun?). The plot seems to involve a disguised detective 🕵️👗👓 and comedy or tricks 🍬🃏. There are sweets or food 🍽️🍬, a police case 📜🚨, and a fatal car crash 💥🚙🩸⚱️.\n\nQuestions:\n- Is ⚽🌞 the title, or the lead actor? If ⚽ isn't \"kick,\" hint differently.\n- Is 🍬 a name (like \"Chantabbai\")?\n\nGUESS: Kick (2009 film)",
+      "guess": "Kick (2009 film)",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n🙅🎬 ✋\n🧍👗 📖 🌹 ⚱️\n🦁🐘🦒 🛢️ 👥👥👥👥👥\n🤒😷 🍬🃏 🤢💀\n👔🕵️🚨\n</msg>",
+      "delivered": "🙅🎬 ✋\n🧍👗 📖 🌹 ⚱️\n🦁🐘🦒 🛢️ 👥👥👥👥👥\n🤒😷 🍬🃏 🤢💀\n👔🕵️🚨",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Got it: it's **not a film**. What I'm reading now:\n- 🧍👗📖🌹⚱️ could mean a woman, and a book or biography; 🌹 might be the name \"Rose\"; and a death.\n- 🦁🐘🦒🛢️👥 could mean Africa or a zoo, plus oil, plus lots of people.\n- 🤒😷🍬🃏🤢💀 looks like people poisoned through sweets (a trick?).\n- 👔🕵️🚨 suggests police detectives investigating.\n\nSo is it a **real poisoning crime**, or a **mystery novel**? Some yes/no questions:\n1. Is it a book (novel)? Reply 📖✅ or 📖❌.\n2. Does 🦁🐘🦒 mean Africa (🌍) or a circus or zoo (🎪)?\n3. Is 🌹 a person's name?\n\nA long shot, since this is a classic poisoned-sweets mystery:\n\nGUESS: The Poisoned Chocolates Case",
+      "guess": "The Poisoned Chocolates Case",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n📖🙅 🎪🙅 🌹🙅\n🧍👗 🦸 🫀🫁🧠\n🤒⏩🍬⏩😊\n🤒⏩🍬🃏⏩💀\n🦸 ✋🍬🃏 🏪🛃📦\n</msg>",
+      "delivered": "📖🙅 🎪🙅 🌹🙅\n🧍👗 🦸 🫀🫁🧠\n🤒⏩🍬⏩😊\n🤒⏩🍬🃏⏩💀\n🦸 ✋🍬🃏 🏪🛃📦",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "It all fits now. The first line (oil, Nollywood, jollof, football, sun) plus 🦁🐘🦒🛢️ and a huge population says **Nigeria**. 🍬 stands in for 💊, so 🍬🃏 means **fake or counterfeit drugs**. The heroine is a woman who fought counterfeit medicines in shops and at customs, and she survived an attack on her car 💥🚙🩸. That's the head of NAFDAC, who died in 2014.\n\nGUESS: Dora Akunyili",
+      "guess": "Dora Akunyili",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "58cbbcf2-b7f5-4c88-b1e3-8d77f60013cd",
+    "guesser": "48852ff7-a263-41e4-89fb-44c805fefdb3"
+  },
+  "ladder": {
+    "article_no": 12,
+    "round": 5,
+    "n_banned": 84,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

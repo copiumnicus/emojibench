@@ -1,0 +1,77 @@
+{
+  "model": "sonnet",
+  "model_id": "claude-sonnet-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Philadelphia Commercial Museum",
+    "description": "Former museum in Pennsylvania, USA",
+    "extract": "The Philadelphia Commercial Museum was established in Philadelphia, Pennsylvania in 1895. Its permanent home was a neo-classical building situated at 34th Street and Civic Center Blvd, erected as part of the 1899 National Export Exposition. The museum had business offices at 332 South Fourth Street.",
+    "url": "https://en.wikipedia.org/wiki/Philadelphia_Commercial_Museum"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 28.4,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1843,
+      "cache_read_input_tokens": 842,
+      "output_tokens": 161,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0091624,
+      "calls": 2,
+      "cost_usd_reported": 0.014458200000000001
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1601,
+      "cache_read_input_tokens": 918,
+      "output_tokens": 1001,
+      "thinking_tokens": 677,
+      "cost_usd": 0.033219200000000004,
+      "calls": 2,
+      "cost_usd_reported": 0.051787599999999996
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 713,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 9.33e-06,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🏛️🖼️🏺 🇺🇸 🔔 🏙️ 💼💰🚢📦 🌍🗺️ 1️⃣8️⃣9️⃣5️⃣</msg>",
+      "delivered": "🏛️🖼️🏺 🇺🇸 🔔 🏙️ 💼💰🚢📦 🌍🗺️",
+      "dropped_chars": 8,
+      "retried": false,
+      "guesser": "I'm reading this as a **museum** (art and antiquities) in a **US city**, connected to **international trade, shipping and merchants**. The 🔔 might be a name (\"Bell\"), a city clue (the Liberty Bell, so Philadelphia?), or an actual bell.\n\nQuestions:\n1. Is the subject the museum itself, or a person, such as a merchant or collector who founded one?\n2. What does 🔔 mean: a name, a city, or a real bell?\n\nMy first guess is a Salem museum with art and China-trade collections:\n\nGUESS: Peabody Essex Museum",
+      "guess": "Peabody Essex Museum",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👍 🔔🇺🇸🏙️ 👍 ⏳🔙 🚫🏛️➡️ 🏚️ 💼🏭🤝 🌍📦🎪 🏗️🏛️</msg>",
+      "delivered": "👍 🔔🇺🇸🏙️ 👍 ⏳ 🚫🏛️➡️ 🏚️ 💼🏭🤝 🌍📦🎪 🏗️🏛️",
+      "dropped_chars": 1,
+      "retried": false,
+      "guesser": "Got it. 🔔🇺🇸🏙️ is Philadelphia. It was a museum of world trade goods (🌍📦🎪, possibly from an exposition) that served business and industry, later closed (🚫🏛️), and its building declined (🏚️). That sounds like the museum founded by William P. Wilson in 1897.\n\nGUESS: Philadelphia Commercial Museum",
+      "guess": "Philadelphia Commercial Museum",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "86b40449-4cee-49ab-adbb-3edc0a4249ef",
+    "guesser": "9f4422ff-4c37-438e-91de-4e5704ec4bb2"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

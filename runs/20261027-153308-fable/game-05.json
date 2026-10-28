@@ -1,0 +1,97 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "UFC BJJ 2",
+    "description": "Martial arts event in 2025",
+    "extract": "UFC BJJ 2: Tackett vs. Canuto was a submission grappling event produced by UFC Brazilian Jiu-Jitsu. The event was held at the UFC Apex in Las Vegas, Nevada, United States, on July 31, 2025 and was streamed live on YouTube.",
+    "url": "https://en.wikipedia.org/wiki/UFC_BJJ_2"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 188.1,
+  "usage": {
+    "explainer": {
+      "input_tokens": 8,
+      "cache_creation_input_tokens": 3642,
+      "cache_read_input_tokens": 6231,
+      "output_tokens": 2342,
+      "thinking_tokens": 1975,
+      "cost_usd": 0.196251,
+      "calls": 4,
+      "cost_usd_reported": 0.4965185
+    },
+    "guesser": {
+      "input_tokens": 8,
+      "cache_creation_input_tokens": 7709,
+      "cache_read_input_tokens": 7874,
+      "output_tokens": 7334,
+      "thinking_tokens": 6859,
+      "cost_usd": 0.528834,
+      "calls": 4,
+      "cost_usd_reported": 1.22800525
+    },
+    "judge": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1420,
+      "cache_read_input_tokens": 709,
+      "output_tokens": 416,
+      "thinking_tokens": 404,
+      "cost_usd": 0.00049969,
+      "calls": 3
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🛑🥊 🇧🇷🥋🤼 ✌️ 🎰🌵 📺▶️</msg>",
+      "delivered": "🛑🥊 🇧🇷🥋🤼 ✌️ 🎰🌵 📺▶️",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "I read: 🛑 = octagon → UFC, 🇧🇷🥋🤼 = MMA, 🎰🌵 = Las Vegas, 📺▶️ = TV/ESPN/Fight Night. ✌️ = \"2\" or \"vs.\"?\n\nQuestions: Is this a UFC event held in Las Vegas (Apex)? Is ✌️ the number 2 (e.g., \"UFC Vegas 2\") or does it mean \"versus\"? Is 📺▶️ \"ESPN\" or \"Fight Night\"?\n\nGUESS: UFC on ESPN: Poirier vs. Hooker",
+      "guess": "UFC on ESPN: Poirier vs. Hooker",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👍🎰🏢 \n✌️➡️🔢 \n📺👎 🔴▶️📲👍 \n🥊👎 🦵👎 🤼🇧🇷🥋👍👍👍 \n🏢🏷️🤼🇧🇷🥋</msg>",
+      "delivered": "👍🎰🏢\n✌️➡️\n📺👎 🔴▶️📲👍\n🥊👎 🦵👎 🤼🇧🇷🥋👍👍👍\n🏢🏷️🤼🇧🇷🥋",
+      "dropped_chars": 1,
+      "retried": false,
+      "guesser": "Got it: no striking → grappling-only promotion, Las Vegas, streamed free on YouTube, and named after a grappler. That sounds like the Craig Jones Invitational. Does ✌️ mean it's the second edition (2025)?\n\nGUESS: Craig Jones Invitational 2",
+      "guess": "Craig Jones Invitational 2",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>✌️👍 \n👤🏷️👎 \n🛑🥊🏢👍👍 🏢➡️🆕 \n🛑🏢 🇧🇷🥋 ✌️ \n🏷️: 🛑 🇧🇷🥋 ✌️</msg>",
+      "delivered": "✌️👍\n👤🏷️👎\n🛑🥊🏢👍👍 🏢➡️\n🛑🏢 🇧🇷🥋 ✌️\n🏷️ 🛑 🇧🇷🥋 ✌️",
+      "dropped_chars": 2,
+      "retried": false,
+      "guesser": "Reinterpreting: 🛑 = octagon = UFC, and 🔴▶️📲 = live streaming on an app (UFC Fight Pass). So a UFC-branded grappling-only event, edition 2, in Las Vegas.\n\nGUESS: UFC Fight Pass Invitational 2",
+      "guess": "UFC Fight Pass Invitational 2",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🛑🏢👍 \n🎟️👎 🔴▶️👍 \n🏷️ 🛑 🇧🇷🥋 ✌️ \n🛑 ➕ 🇧🇷🥋 ➕ ✌️ \n🗓️☀️🌞 \n🏈 ⚔️ 🛶</msg>",
+      "delivered": "🛑🏢👍\n🎟️👎 🔴▶️👍\n🏷️ 🛑 🇧🇷🥋 ✌️\n🛑 ➕ 🇧🇷🥋 ➕ ✌️\n🗓️☀️🌞\n🏈 ⚔️ 🛶",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "UFC + BJJ + 2 → \"UFC BJJ 2\" (summer 2025, UFC Apex, streamed live on Fight Pass).\n\nGUESS: UFC BJJ 2",
+      "guess": "UFC BJJ 2",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "7d1f21a3-f16e-4250-a741-73683ba3f2bf",
+    "guesser": "7b6a17b6-14e6-4570-8f77-8096eb33119d"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

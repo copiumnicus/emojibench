@@ -1,0 +1,88 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Franco Cozzo",
+    "description": "Australian businessman (1935–2023)",
+    "extract": "Franco Cozzo was an Italian-Australian businessman. After moving to Melbourne from Sicily in 1955, Cozzo became known for his television advertisements, in which he would speak in English, Greek, and Italian. He later produced Australia's first non-English TV show, Carosello, which was broadcast in Italian.",
+    "url": "https://en.wikipedia.org/wiki/Franco_Cozzo"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 41.1,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2206,
+      "cache_read_input_tokens": 1945,
+      "output_tokens": 1522,
+      "thinking_tokens": 1268,
+      "cost_usd": 0.04889,
+      "calls": 2,
+      "cost_usd_reported": 0.07583240000000001
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2084,
+      "cache_read_input_tokens": 984,
+      "output_tokens": 1440,
+      "thinking_tokens": 1003,
+      "cost_usd": 0.0458896,
+      "calls": 2,
+      "cost_usd_reported": 0.0723328
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 706,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00014340000000000002,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🍕🍋 ✈️ 🐨🏙️\n🎥🔊 🏴󠁧󠁢󠁥󠁮󠁧󠁿 🍕 🏺\n🛌🖼️🕰️🪴🏷️\n</msg>",
+      "delivered": "🍕🍋 ✈️ 🐨🏙️\n🎥🔊 🏴󠁧󠁢󠁥󠁮󠁧󠁿 🍕 🏺\n🛌🖼️🕰️🪴🏷️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Here's my reading so far:\n\n- 🍕🍋 = Italian + lemon → **Sorrento / Amalfi Coast**?\n- ✈️ 🐨🏙️ = moved/linked to an **Australian city**\n- 🎥🔊 = film/sound/media? 🏴󠁧󠁢󠁥󠁮󠁧󠁿 🍕 🏺 = English, Italian, ancient/pottery\n- 🛌🖼️🕰️🪴🏷️ = furniture, pictures, clocks, plants, price tags → **antiques / auction / house museum / homewares shop**?\n\nQuestions:\n1. Is it a **person** (e.g. an Italian-born Australian)? Or a **place/business/building**?\n2. Is 🍕🍋 specifically **Sorrento**?\n3. Is the 🛌🖼️🕰️ line about **antiques**, a **store**, or a **museum**?\n\nGUESS: Sorrento, Victoria",
+      "guess": "Sorrento, Victoria",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n1️ 🧑👍\n2️ 👎\n3️ 💲🛍️👍 🖼️🕰️🛌 = 🆕 \n🧑 = 🍕🍋 ✈️ 🐨🏙️ 👴\n📡🎞️🔊 = 🏴󠁧󠁢󠁥󠁮󠁧󠁿 + 🍕 + 🇨🇾🏺\n🐘🐘🐘\n</msg>",
+      "delivered": "🧑👍\n👎\n💲🛍️👍 🖼️🕰️🛌\n🧑 🍕🍋 ✈️ 🐨🏙️ 👴\n📡🎞️🔊 🏴󠁧󠁢󠁥󠁮󠁧󠁿 🍕 🇨🇾🏺\n🐘🐘🐘",
+      "dropped_chars": 9,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Got it: a person, an Italian (Sicilian 🍋?) migrant to an Australian city, who ran a **furniture/homewares store**, famous for **TV ads in English, Italian and Greek**: \"Megalo, megalo, megalo!\" 🐘🐘🐘\n\nGUESS: Franco Cozzo",
+      "guess": "Franco Cozzo",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "7a5424c0-f4c0-4bf0-a4f9-e8387f010254",
+    "guesser": "b47f4513-ee35-4326-bd98-d30b7e2dddc3"
+  },
+  "ladder": {
+    "article_no": 20,
+    "round": 2,
+    "n_banned": 30,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

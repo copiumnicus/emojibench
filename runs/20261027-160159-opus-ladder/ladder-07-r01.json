@@ -1,0 +1,75 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Mad River Mountain",
+    "description": "Ski resort in Ohio, United States",
+    "extract": "Mad River Mountain is a ski and snowboard resort in Valley Hi, Ohio, United States. The elevation of Mad River Mountain is 1,460 feet (450 m) with a vertical drop of 300 ft (91 m), and it has a ski season that runs from approximately mid-December through mid-March. The resort, which opened in 1962 as Valley Hi Ski Area, is owned by EPR Properties and operated by Vail Resorts, who bought the resort from Peak Resorts in 2019.",
+    "url": "https://en.wikipedia.org/wiki/Mad_River_Mountain"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 19.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 758,
+      "cache_read_input_tokens": 577,
+      "output_tokens": 536,
+      "thinking_tokens": 428,
+      "cost_usd": 0.0169074,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 931,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 595,
+      "thinking_tokens": 467,
+      "cost_usd": 0.019355999999999998,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Planned message: \"angry\" (😠🤬) + \"river\" (🛶💧) + \"mountain\" (🏔️🗻), with ❄️🚠 for ski resort since the obvious emojis are banned.\n\n<msg>😠🤬 🛶💧 🏔️🗻\n\n❄️🚠🏨</msg>",
+      "delivered": "😠🤬 🛶💧 🏔️🗻\n❄️🚠🏨",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The angry faces suggest **\"Mad\"**, the canoe and water suggest **\"River\"**, the two mountain emojis suggest **\"Mountain\"**, and ❄️🚠🏨 points to a ski resort. \"Mad River Glen\" in Vermont would also fit, but the doubled mountain makes me lean toward the Ohio one.\n\nGUESS: Mad River Mountain",
+      "guess": "Mad River Mountain",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "0e701719-49da-4744-81b0-c0db0c47221c",
+    "guesser": "e1f8d6f6-3025-4a5c-8ad7-0f525bae624c"
+  },
+  "ladder": {
+    "article_no": 7,
+    "round": 1,
+    "n_banned": 9,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

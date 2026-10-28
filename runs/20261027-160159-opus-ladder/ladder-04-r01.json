@@ -1,0 +1,86 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Mike Pieciak",
+    "description": "American politician (born 1983)",
+    "extract": "Michael Sullivan Pieciak is an American politician from Vermont. A member of the Democratic Party, Pieciak has served as Vermont State Treasurer since January 2023.",
+    "url": "https://en.wikipedia.org/wiki/Mike_Pieciak"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "max_turns": 30,
+  "seconds": 39.8,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2377,
+      "cache_read_input_tokens": 1257,
+      "output_tokens": 1173,
+      "thinking_tokens": 1008,
+      "cost_usd": 0.0430028,
+      "calls": 2,
+      "cost_usd_reported": 0.06913540000000001
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2059,
+      "cache_read_input_tokens": 967,
+      "output_tokens": 1197,
+      "thinking_tokens": 852,
+      "cost_usd": 0.040822800000000006,
+      "calls": 2,
+      "cost_usd_reported": 0.0679734
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 702,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00014260000000000002,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n👨‍⚖️🗳️👔\n\n🟢🏔️ 🧀🍯🥛 ⛷️\n\n🪙💵🗝️📦 🧮\n\n🎙️ 🍕\n</msg>",
+      "delivered": "👨‍⚖️🗳️👔\n🟢🏔️ 🧀🍯🥛 ⛷️\n🪙💵🗝️📦 🧮\n🎙️ 🍕",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Reading so far:\n- 👨‍⚖️🗳️👔: a politician or official\n- 🟢🏔️🧀🍯🥛⛷️: Vermont (the Green Mountain State: cheese, maple, dairy, skiing)\n- 🪙💵🗝️📦🧮: State Treasurer and/or State Auditor (money, keys, a safe, accounting)\n- 🎙️🍕: a radio host, and something to do with pizza\n\nQuestions: Did they hold both offices (treasurer and auditor), or only one? Do 🎙️ and 🍕 mean a later career as a radio host and pizza shop owner? Can you give a time period (decade)?\n\nMy first guess is the former Vermont State Auditor.\n\nGUESS: Thomas M. Salmon",
+      "guess": "Thomas M. Salmon",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n🪙💵🗝️ 👍   🧮 👎\n\n📛👂 = 🎙️ ➕ 🍕 ➕ 🇵🇱\n\n⏳➡️ 🐣 👨 🔛 🪑\n</msg>",
+      "delivered": "🪙💵🗝️ 👍 🧮 👎\n📛👂 🎙️ ➕ 🍕 ➕ 🇵🇱\n⏳➡️ 🐣 👨 🪑",
+      "dropped_chars": 2,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The name is a sound-alike: 🎙️ \"Mic\" + 🍕 \"Pie\" + 🇵🇱 a Polish ending, so Mike Pieciak, Vermont State Treasurer.\n\nGUESS: Mike Pieciak",
+      "guess": "Mike Pieciak",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "657945fa-d5aa-4af9-9e51-dea72497411c",
+    "guesser": "ba7be458-40be-4d14-95ca-265bacc09c7b"
+  },
+  "ladder": {
+    "article_no": 4,
+    "round": 1,
+    "n_banned": 17,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

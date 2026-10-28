@@ -1,0 +1,361 @@
+{
+  "model": "haiku",
+  "model_id": "claude-haiku-5-5",
+  "effort": null,
+  "article": {
+    "title": "Franco Cozzo",
+    "description": "Australian businessman (1935–2023)",
+    "extract": "Franco Cozzo was an Italian-Australian businessman. After moving to Melbourne from Sicily in 1955, Cozzo became known for his television advertisements, in which he would speak in English, Greek, and Italian. He later produced Australia's first non-English TV show, Carosello, which was broadcast in Italian.",
+    "url": "https://en.wikipedia.org/wiki/Franco_Cozzo"
+  },
+  "solved": false,
+  "turns_taken": 30,
+  "solved_turn": null,
+  "max_turns": 30,
+  "seconds": 307.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 60,
+      "cache_creation_input_tokens": 15460,
+      "cache_read_input_tokens": 244953,
+      "output_tokens": 8331,
+      "thinking_tokens": 6591,
+      "cost_usd": 0.009713030000000001,
+      "calls": 30,
+      "cost_usd_reported": 0.14702968
+    },
+    "guesser": {
+      "input_tokens": 60,
+      "cache_creation_input_tokens": 17813,
+      "cache_read_input_tokens": 277341,
+      "output_tokens": 14524,
+      "thinking_tokens": 10797,
+      "cost_usd": 0.01360401,
+      "calls": 30,
+      "cost_usd_reported": 0.21020477
+    },
+    "judge": {
+      "input_tokens": 16,
+      "cache_creation_input_tokens": 5630,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 32,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0011436,
+      "calls": 8
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇦🇺💼 🇮🇹⛵ 📺📢 🗣️🗣️🗣️ 🎬🇦🇺 ⚰️</msg>",
+      "delivered": "🇦🇺💼 🇮🇹⛵ 📺📢 🗣️🗣️🗣️ 🎬🇦🇺 ⚰️",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Decoding so far: 🇦🇺 Australian, 🇮🇹 Italian, ⛵ sailing, 📺📢 broadcast or announcer, 🎬 film, ⚰️ death or funeral, 🗣️ speech or talk. My best guess is a person or film linked to Australia and Italy, possibly an Australian broadcaster or film figure with a funeral theme.\n\nExplainer, please answer:\n1. Is the article about a person?\n2. Is it about a film or TV programme?\n3. Does the Italian link mean a place, a person's heritage, or the sailing/yachting?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👍 👎 🇮🇹👍 💼👍 ⚰️👍 📺 🏝️🇮🇹</msg>",
+      "delivered": "👍 👎 🇮🇹👍 💼👍 ⚰️👍 📺 🏝️🇮🇹",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Reading 👍 as yes and 👎 as no, the article is probably about a person, not a film. That person seems to have Italian heritage, a business or commercial career, a TV or media connection, and a link to death or a funeral, plus an Italian island.\n\nExplainer, please confirm:\n1. Did this person die, with the funeral being part of the article?\n2. Were they primarily a TV presenter or media businessperson?\n3. Is the Italian island their birthplace, or where they lived or died?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>1️⃣ no wait, 👍 ⚰️👍 🤷 2️⃣ 💼📺👍 🎤👎 3️⃣ 🏝️👍 👶👍 🇦🇺📍👍</msg>",
+      "delivered": "👍 ⚰️👍 🤷 💼📺👍 🎤👎 🏝️👍 👶👍 🇦🇺📍👍",
+      "dropped_chars": 13,
+      "retried": false,
+      "guesser": "Reading the new answers:\n- Yes, they died, and a funeral is part of the story.\n- Business and TV were both involved in their career.\n- Not a performer: singing or presenting on stage was ruled out.\n- Yes, they were born on an Italian island, and Australia is where they were based.\n\nExplainer, please tell me:\n1. Which Italian island was it? Try a letter-by-letter or emoji clue (e.g., 🌋 for Sicily).\n2. Did they mainly work in TV production or business rather than on-air?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🌋👍 🏝️🇮🇹👍 💼👍 📺🏭👍 🎤👎 🤝👍</msg>",
+      "delivered": "🌋👍 🏝️🇮🇹👍 💼👍 📺🏭👍 🎤👎 🤝👍",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Reading the new clues: 🌋 is Sicily or Etna, and the explainer confirmed 🏝️🇮🇹, so the island is Sicily. The person worked in business and TV production, not on-air, and there was some kind of deal or partnership (🤝) involved. They died, and they were born in Sicily and based in Australia.\n\nCandidate: Franco Belgiorno-Nettis, an Italian-born Australian businessman. I'm not confident about his birthplace or TV work, so I'll test it.\n\nGUESS: Franco Belgiorno-Nettis",
+      "guess": "Franco Belgiorno-Nettis",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>❌ 🇦🇺💼 🏙️👍 📢📺👍 🗣️🇬🇷🇮🇹🇬🇧 👍 📺🇮🇹🥇👍 🎞️👍 ⚰️👍</msg>",
+      "delivered": "❌ 🇦🇺💼 🏙️👍 📢📺👍 🗣️🇬🇷🇮🇹🇬🇧 👍 📺🇮🇹🥇👍 🎞️👍 ⚰️👍",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Franco Belgiorno-Nettis is ruled out.\n\nUpdated clues: the article is about an Australian businessman and TV or radio announcer based in a city. They spoke Greek, Italian, and English, and they had an Italian TV link (🇮🇹🥇, possibly an award or a first). They also worked in film (🎞️), and they have died.\n\nThat points toward a multilingual Australian broadcaster or media figure, possibly with SBS or ethnic broadcasting ties.\n\nExplainer, please tell me:\n1. Which city? (🏙️ plus a letter clue or first letter emoji)\n2. Was the 🥇 an award, or were they the first to do something on Italian TV?\n3. Was it SBS or another ethnic broadcaster?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 6,
+      "explainer_raw": "<msg>🏙️🏟️👍 🇦🇺👍 🥇👍 🏆👎 📺📢📡💰👍 🇮🇹📺👍 🏢👎 🆓👎</msg>",
+      "delivered": "🏙️🏟️👍 🇦🇺👍 🥇👍 🏆👎 📺📢📡💰👍 🇮🇹📺👍 🏢👎 👎",
+      "dropped_chars": 1,
+      "retried": false,
+      "guesser": "The explainer says the city has a stadium (🏟️), and the person was first at something (🥇) in Australia. They were not award-winning (🏆 ruled out), but they were involved in commercial broadcasting (📡💰) and Italian-language TV (🇮🇹📺). The company or office link (🏢) doesn't fit.\n\nExplainer, please tell me:\n1. Is the city Melbourne?\n2. Was the \"first\" an Italian-language broadcast in Australia, such as the first Italian-language TV or radio programme?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 7,
+      "explainer_raw": "<msg>🏙️👍 🇦🇺👍 🥇📺👍 🇮🇹📺👍 ✅ 🗣️🇬🇷👍 🎞️👍 🌊👍</msg>",
+      "delivered": "🏙️👍 🇦🇺👍 🥇📺👍 🇮🇹📺👍 ✅ 🗣️🇬🇷👍 🎞️👍 🌊👍",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "The explainer confirmed Melbourne (🏙️👍 with 🏟️), that the person was first in Australian TV (🥇📺), spoke Greek (🗣️🇬🇷), and worked in film. The 🌊 suggests a coastal city, which fits Melbourne.\n\nExplainer, please tell me:\n1. Was the first a Greek-language TV programme in Australia, or was it a multicultural TV programme in general?\n2. Did they found or present on a station like ATV-0 or SBS?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 8,
+      "explainer_raw": "<msg>🇬🇷👎 🇮🇹📺👍 🌍📺👍 📡🏢👍 📺👎 🎬👍 ✅</msg>",
+      "delivered": "🇬🇷👎 🇮🇹📺👍 🌍📺👍 📡🏢👍 📺👎 🎬👍 ✅",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Updated clues: the Greek-language link is ruled out (🇬🇷👎). The person worked with Italian-language TV (🇮🇹📺) and with international or world TV (🌍📺). They had a broadcasting company link (📡🏢), and they were involved in film (🎬). A TV station itself was ruled out (📺👎).\n\nExplainer, please tell me:\n1. Did they found an Italian-language broadcasting company in Melbourne, such as a radio or TV service?\n2. Is the person Italian-born, and did they produce programmes for an Italian audience abroad?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 9,
+      "explainer_raw": "<msg>🏢👍 📻🇮🇹👍 🇮🇹👶🏝️👍 🌍🇮🇹📺👍 🎬👍 📢💼👍 ✅</msg>",
+      "delivered": "🏢👍 📻🇮🇹👍 🇮🇹👶🏝️👍 🌍🇮🇹📺👍 🎬👍 📢💼👍 ✅",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "The new clues confirm:\n- They founded a company (🏢).\n- It was Italian-language radio (📻🇮🇹).\n- They were born in Sicily (🇮🇹👶🏝️).\n- They worked on Italian TV for a global or international audience (🌍🇮🇹📺).\n- They were involved in film and in announcing or business.\n\nSo the person is likely a Sicilian-born Melbourne founder of an Italian-language radio company, who also produced film and TV work.\n\nExplainer, please tell me:\n1. Does the article title start with a first name or a surname?\n2. What is the first letter of the surname? You can spell it out with emoji (🅰️, 🅱️, etc.) or give a rough letter count.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 10,
+      "explainer_raw": "<msg>👍 first name 🇨 ✋✋✋✋✋ 🍝🇮🇹</msg>",
+      "delivered": "👍 ✋✋✋✋✋ 🍝🇮🇹",
+      "dropped_chars": 10,
+      "retried": false,
+      "guesser": "The 👍 is ambiguous, so I need to confirm it. The ✋✋✋✋✋ looks like five letters, and 🍝🇮🇹 suggests an Italian name or surname.\n\nExplainer, please confirm:\n1. Does 👍 mean the article title starts with a first name? Or does it mean the surname has five letters?\n2. Is the surname five letters long?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 11,
+      "explainer_raw": "<msg>👍 first name ✋✋✋✋✋ surname 👍 🍝🇮🇹👍</msg>",
+      "delivered": "👍 ✋✋✋✋✋ 👍 🍝🇮🇹👍",
+      "dropped_chars": 16,
+      "retried": false,
+      "guesser": "Confirmed so far: the article title begins with a first name, the surname has five letters, and the surname is Italian.\n\nExplainer, please tell me:\n1. How many letters does the first name have?\n2. What is the first letter of the surname? Also, does the first letter of the first name match a common Italian name like Giuseppe, Antonio, or Giovanni?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 12,
+      "explainer_raw": "<msg>✋✋✋✋✋ 👎 🍝🇮🇹👍 🇮🇹👍 🍝👍 ✅</msg>",
+      "delivered": "✋✋✋✋✋ 👎 🍝🇮🇹👍 🇮🇹👍 🍝👍 ✅",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "The first name has five letters and isn't one of the common Italian names I listed. Surnames and first names both have five letters. Franco, Mario, and Paolo are five-letter first names that fit.\n\nExplainer, please tell me:\n1. Does the first name start with F?\n2. What is the first letter of the surname? Is it R or G?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 13,
+      "explainer_raw": "<msg>👍 👎 👎 👎👎 ➡️ 🇮🇹🍝 ✅</msg>",
+      "delivered": "👍 👎 👎 👎👎 ➡️ 🇮🇹🍝 ✅",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "The 👍 suggests the first name starts with F. The 👎 answers rule out R and G. The ➡️ suggests the surname's first letter comes later in the alphabet, after G.\n\nExplainer, please tell me:\n1. Is the first letter of the surname S?\n2. Is the first name Franco?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 14,
+      "explainer_raw": "<msg>👎 S ⬅️⬅️ 👍 Franco 👍 🇮🇹🍝 ✅</msg>",
+      "delivered": "👎 ⬅️⬅️ 👍 👍 🇮🇹🍝 ✅",
+      "dropped_chars": 7,
+      "retried": false,
+      "guesser": "Franco is confirmed as the first name. The surname starts somewhere between H and Q, since ⬅️⬅️ means it comes before S and the earlier answers ruled out G and R. The surname has five letters and is Italian.\n\nExplainer, please tell me:\n1. Does the surname start with M?\n2. Does it start with N?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 15,
+      "explainer_raw": "<msg>👎 👎 ⬅️⬅️⬅️⬅️ (before G, the other way) 👍 Franco 🇮🇹🍝 ✅</msg>",
+      "delivered": "👎 👎 ⬅️⬅️⬅️⬅️ 👍 🇮🇹🍝 ✅",
+      "dropped_chars": 27,
+      "retried": false,
+      "guesser": "Not M and not N. The four ⬅️ arrows suggest the surname starts even earlier in the alphabet than the previous answer indicated, so it's probably H through L.\n\nExplainer, please tell me:\n1. Does the surname start with L?\n2. Does it start with H, I, J, or K?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 16,
+      "explainer_raw": "<msg>👎 L 👎 H I J K 👍 A B C ⬅️ 🍝🇮🇹 ✅</msg>",
+      "delivered": "👎 👎 👍 ⬅️ 🍝🇮🇹 ✅",
+      "dropped_chars": 8,
+      "retried": false,
+      "guesser": "Not L. The 👍 appears to mean the surname starts with H, I, J, or K, and the ⬅️ suggests it's toward the earlier end of that range.\n\nExplainer, please tell me:\n1. Does the surname start with I?\n2. Does it start with H?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 17,
+      "explainer_raw": "<msg>👎 H 👎 I ✅ A B C group, not H I J K ⬅️ 🍝🇮🇹 ✅</msg>",
+      "delivered": "👎 👎 ✅ ⬅️ 🍝🇮🇹 ✅",
+      "dropped_chars": 18,
+      "retried": false,
+      "guesser": "Not H or I. That leaves J or K, though both are uncommon as Italian surnames. It's possible I've misread an earlier answer.\n\nExplainer, please tell me:\n1. Does the surname start with K?\n2. Does the surname start with J?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 18,
+      "explainer_raw": "<msg>👎 K 👎 J 🥉 third letter of alphabet 🍝🇮🇹 ✅ Franco</msg>",
+      "delivered": "👎 👎 🥉 🍝🇮🇹 ✅",
+      "dropped_chars": 29,
+      "retried": false,
+      "guesser": "Not K or J, so the alphabet narrowing has contradicted itself. The 🥉 might refer to a position rather than a letter.\n\nExplainer, please tell me:\n1. Does 🥉 mean the surname's third letter is the one I should check?\n2. Is the first name definitely Franco?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 19,
+      "explainer_raw": "<msg>👍 🥉👍 (third letter, the C one) 👍 Franco 🍝🇮🇹 ✅ 🎯</msg>",
+      "delivered": "👍 🥉👍 👍 🍝🇮🇹 ✅ 🎯",
+      "dropped_chars": 27,
+      "retried": false,
+      "guesser": "The explainer confirmed the 🥉 clue (third letter) and the first name Franco. With the 🎯 signal, I'll make a guess now.\n\nGUESS: Franco Cassar",
+      "guess": "Franco Cassar",
+      "correct": false
+    },
+    {
+      "turn": 20,
+      "explainer_raw": "<msg>❌ 🥉 ✋✋✋✋✋ 🍝🇮🇹 🇦🇺💼📺 🎯👍</msg>",
+      "delivered": "❌ 🥉 ✋✋✋✋✋ 🍝🇮🇹 🇦🇺💼📺 🎯👍",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Franco Cassar is wrong. The explainer confirmed the third letter of the surname is the key clue (🥉), and the surname has five letters. I need the actual letter.\n\nExplainer, please tell me:\n1. Is the third letter a vowel?\n2. Is it in the first half of the alphabet (A–M)?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 21,
+      "explainer_raw": "<msg>👎 vowel 👎 A-M 👍 N-Z 🥉 first letter 🍝🇮🇹 ✅ 🎯</msg>",
+      "delivered": "👎 👎 👍 🥉 🍝🇮🇹 ✅ 🎯",
+      "dropped_chars": 22,
+      "retried": false,
+      "guesser": "I'm reading the new answers as: the third letter is not a vowel, not in A–M, and is probably a consonant in N–Z. That still leaves many options, so I need more letters.\n\nExplainer, please tell me:\n1. Is the fourth letter a vowel?\n2. Is the last letter a vowel?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 22,
+      "explainer_raw": "<msg>4️⃣ 👎 vowel 🔚 👍 vowel 🥉 first letter 🍝🇮🇹 🎯</msg>",
+      "delivered": "👎 👍 🥉 🍝🇮🇹 🎯",
+      "dropped_chars": 24,
+      "retried": false,
+      "guesser": "Working through the constraints: the fourth letter is a consonant, the fifth letter is a vowel, and the third letter is a consonant in N–Z. A surname that fits is Costa, which is a common Italian surname.\n\nGUESS: Franco Costa",
+      "guess": "Franco Costa",
+      "correct": false
+    },
+    {
+      "turn": 23,
+      "explainer_raw": "<msg>❌ Costa 2️⃣ 👍 vowel 👯 middle two letters same 🥉 C 🍝🇮🇹 🎯</msg>",
+      "delivered": "❌ 👍 👯 🥉 🍝🇮🇹 🎯",
+      "dropped_chars": 33,
+      "retried": false,
+      "guesser": "Franco Costa is wrong. The 👯 could mean a pair or duo, possibly a partnership or twins. That might be the key to the article.\n\nExplainer, please tell me:\n1. Does 👯 mean the person worked as part of a duo or partnership?\n2. Does the 🥉 third-letter clue still apply to the surname?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 24,
+      "explainer_raw": "<msg>👎 duo 👯 = surname has two identical letters in a row 🥉 = first letter is C 👍 🍝🇮🇹 🎯</msg>",
+      "delivered": "👎 👯 🥉 👍 🍝🇮🇹 🎯",
+      "dropped_chars": 54,
+      "retried": false,
+      "guesser": "The 👯 does not mean a duo. The third-letter clue still applies. Given the constraints so far (Italian surname, five letters, consonant third and fourth letters, vowel fifth), Porta is another fit.\n\nGUESS: Franco Porta",
+      "guess": "Franco Porta",
+      "correct": false
+    },
+    {
+      "turn": 25,
+      "explainer_raw": "<msg>❌ Porta 🅲 ✅ 🥉 🥇 first letter C 👯 double letter middle 👍 2nd vowel 🍝🇮🇹 🎯</msg>",
+      "delivered": "❌ ✅ 🥉 🥇 👯 👍 🍝🇮🇹 🎯",
+      "dropped_chars": 44,
+      "retried": false,
+      "guesser": "Franco Porta is wrong. The 👯 now seems to mean a doubled letter, which fits a surname like Russo: five letters, third letter S, fourth letter S (doubled), fifth letter O.\n\nGUESS: Franco Russo",
+      "guess": "Franco Russo",
+      "correct": false
+    },
+    {
+      "turn": 26,
+      "explainer_raw": "<msg>❌ Russo ❌ Porta 🥉 = C first letter 👯 = 3rd and 4th letters the same 👍 last letter vowel 🍝🇮🇹 🎯</msg>",
+      "delivered": "❌ ❌ 🥉 👯 👍 🍝🇮🇹 🎯",
+      "dropped_chars": 62,
+      "retried": false,
+      "guesser": "Franco Russo is wrong too. With four turns left, I need the exact spelling rather than more guesses.\n\nExplainer, please spell the surname letter by letter using regional-indicator emojis (🇦 🇧 🇨 ...), in order.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 27,
+      "explainer_raw": "<msg>🇨 🇴 🇿 🇿 🇴 🍝🇮🇹 🎯</msg>",
+      "delivered": "🍝🇮🇹 🎯",
+      "dropped_chars": 5,
+      "retried": false,
+      "guesser": "Spelling isn't working, so I'll use the constraints I have: an Italian surname with five letters, a consonant third letter, a doubled consonant (👯) in the middle, and a vowel ending.\n\nGUESS: Franco Vitti",
+      "guess": "Franco Vitti",
+      "correct": false
+    },
+    {
+      "turn": 28,
+      "explainer_raw": "<msg>🎠📺🇮🇹 first show 🥇 🇦🇺 ❌ Vitti 🎯</msg>",
+      "delivered": "🎠📺🇮🇹 🥇 🇦🇺 ❌ 🎯",
+      "dropped_chars": 14,
+      "retried": false,
+      "guesser": "Franco Vitti is wrong. The new clue, 🎠📺🇮🇹, might point to Carosello, the Italian TV advertising programme. Combined with 🥇 and 🇦🇺, it could mean the person was the first to bring something like it to Australian TV.\n\nExplainer, please tell me:\n1. Does 🎠 refer to Carosello, the Italian TV ad programme?\n2. Was the person the first to produce an Italian-language TV or advertising show in Australia?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 29,
+      "explainer_raw": "<msg>👍 🎠 Carosello 👍 🥇 first 👍 🇦🇺📺 👍 Franco 🎯</msg>",
+      "delivered": "👍 🎠 👍 🥇 👍 🇦🇺📺 👍 🎯",
+      "dropped_chars": 20,
+      "retried": false,
+      "guesser": "Yes on all counts: the 🎠 means Carosello, and the person was first in Australia to bring Italian TV advertising or programming. I have one turn left, so this is my best candidate.\n\nGUESS: Franco Cozzi",
+      "guess": "Franco Cozzi",
+      "correct": false
+    },
+    {
+      "turn": 30,
+      "explainer_raw": "<msg>❌ close 🔚 last letter is O not I 🎯 ✅</msg>",
+      "delivered": "❌ 🎯 ✅",
+      "dropped_chars": 23,
+      "retried": false,
+      "guesser": "I've used all my turns and didn't identify the article. My last guess was wrong too, so I'll make one final attempt.\n\nGUESS: Franco Zoccali",
+      "guess": "Franco Zoccali",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": "4ded62dc-3639-45e1-8747-220bfea0dd3f",
+    "guesser": "7b1462c9-dac2-4a9c-af48-0054297a761f"
+  },
+  "ladder": {
+    "article_no": 20,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": "runs/20261027-150551-haiku/game-20.json"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

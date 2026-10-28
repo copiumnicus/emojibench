@@ -1,0 +1,77 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "sonnet",
+  "guesser_model_id": "claude-sonnet-5-5",
+  "effort": null,
+  "article": {
+    "title": "Iglesia de Santa Ana (Santiago de Chile)",
+    "description": "National monument of Chile",
+    "extract": "The Iglesia de Santa Ana is a Catholic church in downtown Santiago de Chile. It is located at the northwest corner of Catedral and San Martín streets. The church was declared as a National Monument of Chile in 1970, within the category of Historic Monuments. Santa Ana metro station is named after the church.",
+    "url": "https://en.wikipedia.org/wiki/Iglesia_de_Santa_Ana_(Santiago_de_Chile)"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 25.9,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1562,
+      "cache_read_input_tokens": 1149,
+      "output_tokens": 429,
+      "thinking_tokens": 215,
+      "cost_usd": 0.021559599999999998,
+      "calls": 2,
+      "cost_usd_reported": 0.036129800000000004
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1314,
+      "cache_read_input_tokens": 927,
+      "output_tokens": 548,
+      "thinking_tokens": 394,
+      "cost_usd": 0.0109334,
+      "calls": 2,
+      "cost_usd_reported": 0.0175427
+    },
+    "judge": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1441,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 1.881e-05,
+      "calls": 2
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Plan: show church plus Chile flag, then hint at Saint Anne (the saint who was Jesus's grandmother) and the metro station named after the church.\n\n<msg>⛪ 🇨🇱 🏙️\n\n😇👵 ➡️ 👩 ➡️ 👶✝️\n\n🚇 🟰 ⛪</msg>",
+      "delivered": "⛪ 🇨🇱 🏙️\n😇👵 ➡️ 👩 ➡️ 👶✝️\n🚇 🟰 ⛪",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "The clues point to Saint Anne (grandmother of Jesus), Chile, a city, and a metro station named after a church. My reading is the Santa Ana station on the Santiago Metro.\n\nGUESS: Santa Ana metro station (Santiago)",
+      "guess": "Santa Ana metro station (Santiago)",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "The guesser got Santa Ana and Santiago right but picked the station instead of the church. I'll stress that the church is the answer, not the metro station.\n\n<msg>⛪ ✅  🚇 ❌\n\n⛪ 😇👵 🇨🇱 🏛️🏅</msg>",
+      "delivered": "⛪ ✅ 🚇 ❌\n⛪ 😇👵 🇨🇱 🏛️🏅",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Understood, so it's the church itself, not the station. I'm guessing it's a Chilean national monument dedicated to Saint Anne.\n\nGUESS: Iglesia de Santa Ana (Santiago)",
+      "guess": "Iglesia de Santa Ana (Santiago)",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "a57f97d0-5f71-4caf-bad9-3827be1dc849",
+    "guesser": "ec3415ba-2880-4a57-90ed-c42febfa03ae"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

@@ -1,0 +1,65 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Jovan Hadži-Vasiljević",
+    "description": "Serbian historian, ethnographer, journalist and writer",
+    "extract": "Jovan Hadži-Vasiljević was a Serbian historian, ethnographer, journalist and writer.",
+    "url": "https://en.wikipedia.org/wiki/Jovan_Had%C5%BEi-Vasiljevi%C4%87"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 52.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1100,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 2532,
+      "thinking_tokens": 2392,
+      "cost_usd": 0.14861999999999997,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1015,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1155,
+      "thinking_tokens": 1016,
+      "cost_usd": 0.07807,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🇷🇸👨 📜🏛️🧑‍🏫 🧑‍🤝‍🧑🗺️🔍 📰🖋️ ✍️📚\n🏡🇹🇷➡️🇷🇸 🔬🗺️🇲🇰⛰️\n🏷️ 🚽 🕋🚶‍♂️➖🌿👨‍👦\n</msg>",
+      "delivered": "🇷🇸👨 📜🏛️🧑‍🏫 🧑‍🤝‍🧑🗺️🔍 📰🖋️ ✍️📚\n🏡🇹🇷➡️🇷🇸 🔬🗺️🇲🇰⛰️\n🏷️ 🚽 🕋🚶‍♂️➖🌿👨‍👦",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "The 🚽 = \"john\" = Jovan, 🕋🚶‍♂️ = Hadži (pilgrim), ➖ = hyphen, 🌿👨‍👦 = Vasiljević. Serbian historian/ethnographer/writer born in Vranje under Ottoman rule, who studied Macedonia and Old Serbia.\n\nGUESS: Jovan Hadži-Vasiljević",
+      "guess": "Jovan Hadži-Vasiljević",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "27005cfa-454d-465c-9e98-97e42ca1af6f",
+    "guesser": "2519a666-3b59-4dcd-82ae-07085d788cd2"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

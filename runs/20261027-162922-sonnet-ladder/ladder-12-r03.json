@@ -1,0 +1,139 @@
+{
+  "model": "sonnet",
+  "model_id": "claude-sonnet-5-5",
+  "guesser_model": "sonnet",
+  "guesser_model_id": "claude-sonnet-5-5",
+  "effort": null,
+  "article": {
+    "title": "Dora Akunyili",
+    "description": "Nigerian pharmacist and government official (1954–2014)",
+    "extract": "Dora Nkem Akunyili was a Nigerian pharmacist and politician who served as the director-general of National Agency for Food and Drug Administration and Control (NAFDAC) of Nigeria from 2001 to 2008.",
+    "url": "https://en.wikipedia.org/wiki/Dora_Akunyili"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "max_turns": 30,
+  "seconds": 70.1,
+  "usage": {
+    "explainer": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 3247,
+      "cache_read_input_tokens": 9011,
+      "output_tokens": 1306,
+      "thinking_tokens": 454,
+      "cost_usd": 0.0278862,
+      "calls": 5,
+      "cost_usd_reported": 0.0756675
+    },
+    "guesser": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 3391,
+      "cache_read_input_tokens": 7521,
+      "output_tokens": 1995,
+      "thinking_tokens": 1319,
+      "cost_usd": 0.0350542,
+      "calls": 5,
+      "cost_usd_reported": 0.1088237
+    },
+    "judge": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2137,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 12,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00043400000000000003,
+      "calls": 3
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇳🇬 🌴🌍 → banned, so: 🟢⚪🟢 👩🏿‍⚕️💊 🚫🧪 🔥🏭 💄🧴 🍼🥫 📜🏛️ 👩🏿‍🔬 ⚰️</msg>\n\nLet me redo this cleanly without banned ones.\n\n<msg>👩🏿‍⚕️ 🧫🧬 🍼🥫 🚷🧪 🔥🏭 🇬🇭➡️ 🌅🌍 🏛️ 👩🏿‍💼 🕯️ 🎗️</msg>",
+      "delivered": "👩🏿‍⚕️ 🧫🧬 🍼 🚷 🔥 🇬🇭 🌅 👩🏿‍💼 🕯️ 🎗️",
+      "dropped_chars": 6,
+      "off_keyboard": [
+        "🥫",
+        "🧪",
+        "🏭",
+        "➡️",
+        "🌍",
+        "🏛️"
+      ],
+      "retried": false,
+      "guesser": "Here's what I read so far: a Ghanaian Black woman doctor or scientist, working in fertility or genetics (petri dish, DNA, baby bottle). The fire, candle and ribbon might mean she was a business leader or an advocate for a cause.\n\nQuestions:\n1. Is she a fertility or IVF specialist?\n2. Is the ribbon about cancer awareness, or about a death or memorial?\n\nGUESS: Marian Ewurama Addy",
+      "guess": "Marian Ewurama Addy",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👎 👎 🇳🇬 🇳🇬 🇳🇬 👩🏿‍⚕️ 💼 🏗️ 🧫 🚷 🍼 🥛 🍞 🍫 🍬 🧃 🥤 🧃 🏴‍☠️ 🏴‍☠️ 🚔 🚔 🚨 🔥 📺 🎤 🗞️ 👩🏿‍⚖️</msg>",
+      "delivered": "👎 👎 👩🏿‍⚕️ 💼 🏗️ 🧫 🚷 🍼 🥛 🍞 🍫 🍬 🧃 🥤 🧃 🏴‍☠️ 🏴‍☠️ 🚔 🚔 🚨 🔥 📺 🎤 🗞️ 👩🏿‍⚖️",
+      "dropped_chars": 3,
+      "off_keyboard": [
+        "🇳🇬",
+        "🇳🇬",
+        "🇳🇬"
+      ],
+      "retried": false,
+      "guesser": "I think she heads a food and drug regulator. The doctor, lab and business-building emojis point that way, and so do the milk, bread and sweets, the pirate flags (counterfeit or unsafe products), the police and fire, the TV and press, and the judge. I'm guessing Delese Mimi Darko, the CEO of Ghana's Food and Drugs Authority.\n\nGUESS: Delese Mimi Darko",
+      "guess": "Delese Mimi Darko",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>👍 🔥 🌅 🌍 🇨🇲 🇹🇬 🇧🇯 🇳🇪 🇹🇩 🇨🇲 🇳🇬 🥁 🌴 🦅 🌳 🌶️ 🍲 🛢️ 🕌 ⛪ 🏙️ 🚖 🚖</msg>",
+      "delivered": "👍 🔥 🌅 🇨🇲 🇹🇬 🇧🇯 🇳🇪 🇹🇩 🇨🇲 🥁 🌴 🦅 🌳 🌶️ 🍲 🛢️ 🕌 ⛪ 🏙️ 🚖 🚖",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🌍",
+        "🇳🇬"
+      ],
+      "retried": false,
+      "guesser": "The thumbs up tells me I'm partly right. I'm not sure what the flags are doing, though.\n\nQuestions:\n1. Is the article about a person, or about an organization, event or place?\n2. Are those countries where she worked or where the thing happened, or are they just a region hint?\n3. Is it a Cameroonian topic rather than a Ghanaian one?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>👍 👩🏿 🇨🇲 👎 🇹🇬 👎 🇧🇯 👎 🇳🇪 👎 🇹🇩 👎 🇬🇭 👎 🌴 👍 🦅 🌶️ 🍲 🛢️ 👍 🥁 👍 🏙️ 🚖 🚖 💄 🧼 🍼 🥛 🍞 🍬 🧃 🏴‍☠️ 🚔 🚨 📺 🎤 🗞️ ⚖️ 🔥</msg>",
+      "delivered": "👍 🇨🇲 👎 🇹🇬 👎 🇧🇯 👎 🇳🇪 👎 🇹🇩 👎 🇬🇭 👎 🌴 👍 🦅 🌶️ 🍲 🛢️ 👍 🥁 👍 🏙️ 🚖 🚖 💄 🧼 🍼 🥛 🍞 🍬 🧃 🏴‍☠️ 🚔 🚨 📺 🎤 🗞️ ⚖️ 🔥",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "👩🏿"
+      ],
+      "retried": false,
+      "guesser": "Cameroon it is. I'm now reading a Cameroonian woman with a medical or lab background who turned businesswoman. The cosmetics, soap, baby products, food and drinks suggest a consumer-goods company. The pirate flag, police and judge suggest legal trouble, and the TV and mic suggest media coverage.\n\nQuestions:\n1. Is she alive?\n2. Is she better known as a politician, or as a fugitive or convict?\n\nGUESS: Françoise Foning",
+      "guess": "Françoise Foning",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>👎 🇨🇲 🇬🇭 👎 📍 🇧🇯 🇳🇪 🇹🇩 🇨🇲 ⬅️ 🔲 🛢️ 🥁 🏙️ 🪦 👍 🧬 🧫 🏷️ 🍞 🥛 🔥 🚔 🏴‍☠️ 👎 🏛️ 🤝 👍</msg>",
+      "delivered": "👎 🇨🇲 🇬🇭 👎 📍 🇧🇯 🇳🇪 🇹🇩 🇨🇲 ⬅️ 🔲 🛢️ 🥁 🏙️ 🪦 👍 🧬 🧫 🏷️ 🍞 🥛 🔥 🚔 🏴‍☠️ 👎 🤝 👍",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🏛️"
+      ],
+      "retried": false,
+      "guesser": "She's dead, so I'm reading this as a Cameroonian woman scientist or doctor who died, with fire and a candle suggesting a fatal fire or a memorial.\n\nQuestions:\n1. Did she die in a fire?\n2. Was she a researcher, for example in genetics?\n3. Is she a victim of a crime or a scandal?",
+      "guess": null,
+      "correct": null
+    }
+  ],
+  "sessions": {
+    "explainer": "e0f2643c-c58f-4626-adb2-30799af7880f",
+    "guesser": "c8bd2682-b831-445b-9444-fefbd81ff590"
+  },
+  "ladder": {
+    "article_no": 12,
+    "round": 3,
+    "n_banned": 43,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

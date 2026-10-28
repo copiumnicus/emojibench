@@ -1,0 +1,154 @@
+{
+  "model": "haiku",
+  "model_id": "claude-haiku-5-5",
+  "effort": null,
+  "article": {
+    "title": "Iglesia de Santa Ana (Santiago de Chile)",
+    "description": "National monument of Chile",
+    "extract": "The Iglesia de Santa Ana is a Catholic church in downtown Santiago de Chile. It is located at the northwest corner of Catedral and San Martín streets. The church was declared as a National Monument of Chile in 1970, within the category of Historic Monuments. Santa Ana metro station is named after the church.",
+    "url": "https://en.wikipedia.org/wiki/Iglesia_de_Santa_Ana_(Santiago_de_Chile)"
+  },
+  "solved": true,
+  "turns_taken": 10,
+  "solved_turn": 10,
+  "max_turns": 30,
+  "seconds": 108.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 20,
+      "cache_creation_input_tokens": 5674,
+      "cache_read_input_tokens": 26954,
+      "output_tokens": 3252,
+      "thinking_tokens": 2614,
+      "cost_usd": 0.0030323399999999997,
+      "calls": 10,
+      "cost_usd_reported": 0.01607964
+    },
+    "guesser": {
+      "input_tokens": 20,
+      "cache_creation_input_tokens": 7754,
+      "cache_read_input_tokens": 29066,
+      "output_tokens": 6356,
+      "thinking_tokens": 5322,
+      "cost_usd": 0.00502146,
+      "calls": 10,
+      "cost_usd_reported": 0.023313539999999997
+    },
+    "judge": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 3599,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 20,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0007308,
+      "calls": 5
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>⛪ 🇨🇱 🏙️ 🚇 🏛️</msg>",
+      "delivered": "⛪ 🇨🇱 🏙️ 🚇 🏛️",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Hypothesis: a place in Chile, probably in or near Santiago, with a church, a metro station, and a government or public building. Is it a neighborhood or commune? Is it a church or parish? Is it a metro station?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>⛪👍 🚇👎 🏘️👎 ✝️👍 🏛️👍</msg>",
+      "delivered": "⛪👍 🚇👎 🏘️👎 ✝️👍 🏛️👍",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Decoding your reply: it is a church (yes), Christian (yes), a building with a civic or historic character (yes). It is not a metro station and not a neighborhood or town article.\n\nIs it one of the wooden churches of Chiloé? Is it a national monument or UNESCO site?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🌲👎 🗿👍 🇺🇳👎 🏙️👍 📍👍</msg>",
+      "delivered": "🌲👎 🗿👍 🇺🇳👎 🏙️👍 📍👍",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Decoding: it is not a wooden church and not a UNESCO site. It is a monument or statue (yes), located in a city (yes), at a specific place (yes).\n\nIs it in Santiago? Is the monument a statue of a person?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🏙️👍 🗿👎 ⛪👍 📜👍 1️⃣9️⃣7️⃣0️⃣👍 🚇👍</msg>",
+      "delivered": "🏙️👍 🗿👎 ⛪👍 📜👍 👍 🚇👍",
+      "dropped_chars": 8,
+      "retried": false,
+      "guesser": "Decoding: it is a city (yes) with a church (yes) and a historical or official document such as a decree (yes). It is not a statue or monument-as-statue. The metro reply now reads as yes, which may mean it is in or near a metro-served city like Santiago.\n\nIs it in Santiago? Was the church declared a national monument by decree?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>🏙️👍 📜👍 🇨🇱👍 ⛪👍 🏛️👍 🏢👍 🚇👎</msg>",
+      "delivered": "🏙️👍 📜👍 🇨🇱👍 ⛪👍 🏛️👍 🏢👍 🚇👎",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Decoding: Chile (yes), a city (yes), a church (yes), a decree or official document (yes), a government building (yes), an office building (yes), and no metro. So this is likely a church in a Chilean city outside the Santiago metro area, declared a monument by decree.\n\nIs it a cathedral? Is it in northern Chile (Arica, Iquique, Antofagasta, Atacama, or Coquimbo regions)?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 6,
+      "explainer_raw": "<msg>🏙️👍 ⛪👍 🚇👍 🔄 🏛️👎 🧭⬇️👎 🏛️📍👍 🏢👍 📜👍</msg>",
+      "delivered": "🏙️👍 ⛪👍 🚇👍 🔄 🏛️👎 🧭⬇️👎 🏛️📍👍 🏢👍 📜👍",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "The reply is mixed, so I'll test a specific candidate. Valparaíso fits several clues: a city, a church rebuilt after earthquake damage (🔄), a historic building (🏛️📍), office buildings nearby, a decree-declared monument, and a location outside southern Chile. The metro signal is inconsistent, so it may be a metropolitan-area reference.\n\nGUESS: Catedral de Valparaíso",
+      "guess": "Catedral de Valparaíso",
+      "correct": false
+    },
+    {
+      "turn": 7,
+      "explainer_raw": "<msg>🙅🏙️👎 🇨🇱🏙️👍 🏙️⬇️ ⛪👍 🏛️📍👍 🏛️👎 ⛪🆚🏛️ 🚇👍 🏢👍 📜👍</msg>",
+      "delivered": "🙅🏙️👎 🇨🇱🏙️👍 🏙️⬇️ ⛪👍 🏛️📍👍 🏛️👎 ⛪🏛️ 🚇👍 🏢👍 📜👍",
+      "dropped_chars": 1,
+      "retried": false,
+      "guesser": "The reply suggests a church, not the city article itself, in a Chilean city with a metro, office buildings, and a decree-declared monument. That points to Santiago.\n\nGUESS: Iglesia de San Francisco (Santiago)",
+      "guess": "Iglesia de San Francisco (Santiago)",
+      "correct": false
+    },
+    {
+      "turn": 8,
+      "explainer_raw": "<msg>🇨🇱🏙️👍 ⛪👍 🚇👍 👵😇👍 🐦👎 ❌ ↖️📍👍 🏛️🔄👍</msg>",
+      "delivered": "🇨🇱🏙️👍 ⛪👍 🚇👍 👵😇👍 🐦👎 ❌ ↖️📍👍 🏛️🔄👍",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "The clues now point to a Santiago church dedicated to a female saint or nun (👵😇), located northwest of the center (↖️📍), and rebuilt or renovated (🏛️🔄).\n\nGUESS: Iglesia de Santa Filomena",
+      "guess": "Iglesia de Santa Filomena",
+      "correct": false
+    },
+    {
+      "turn": 9,
+      "explainer_raw": "<msg>🇨🇱🏙️👍 ⛪👍 👵👍 🤰👵👍 ↖️📍👍 🚇🏷️👍 🛣️🏛️👍 ✝️👍 🎯</msg>",
+      "delivered": "🇨🇱🏙️👍 ⛪👍 👵👍 🤰👵👍 ↖️📍👍 🚇🏷️👍 🛣️🏛️👍 ✝️👍 🎯",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "The clues point to a Santiago church named after the Virgin Mary (👵😇🤰👵), in the northwest (↖️📍), where the metro station shares its name (🚇🏷️). Lourdes is a common title for such churches in Chile.\n\nGUESS: Iglesia de Nuestra Señora de Lourdes",
+      "guess": "Iglesia de Nuestra Señora de Lourdes",
+      "correct": false
+    },
+    {
+      "turn": 10,
+      "explainer_raw": "<msg>🇨🇱🏙️👍 ⛪👍 👵👍 👩👧👍 👧👎 🙏🏻👍 🚇🏷️👍 ↖️📍👍 🛣️👍</msg>",
+      "delivered": "🇨🇱🏙️👍 ⛪👍 👵👍 👩👧👍 👧👎 🙏🏻👍 🚇🏷️👍 ↖️📍👍 🛣️👍",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "The clues point to a mother-and-daughter pair (👩👧), a saint (👵), and a prayer-related dedication (🙏). The metro station shares its name (🚇🏷️) and the location is northwest of center (↖️📍). That fits Saint Anne, mother of Mary, and the Santa Ana church in Santiago.\n\nGUESS: Iglesia de Santa Ana (Santiago)",
+      "guess": "Iglesia de Santa Ana (Santiago)",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "5b83914b-e1c3-48e9-a16e-6e648ba2abba",
+    "guesser": "d00a7fcd-4461-4013-8e4e-148fa10b8fa4"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

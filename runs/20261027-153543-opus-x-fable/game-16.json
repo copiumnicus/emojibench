@@ -1,0 +1,65 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Grande Seca",
+    "description": "Brazilian drought (1877–1878)",
+    "extract": "The Grande Seca, or the Brazilian drought of 1877–1878, was the largest and most devastating drought in Brazilian history. It caused the deaths of between 400,000 and 500,000 people. Of the 800,000 people who lived in the affected Northeastern region, around 120,000 migrated to the Amazon while 68,000 migrated to other parts of Brazil.",
+    "url": "https://en.wikipedia.org/wiki/Grande_Seca"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 11.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1154,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 259,
+      "thinking_tokens": 181,
+      "cost_usd": 0.014420000000000002,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 959,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 249,
+      "thinking_tokens": 185,
+      "cost_usd": 0.03165,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇧🇷 ☀️🔥🏜️🚱🌵 💀💀💀💀 🚶‍♂️🚶‍♀️➡️🌳🌴 👑🇧🇷</msg>",
+      "delivered": "🇧🇷 ☀️🔥🏜️🚱🌵 💀💀💀💀 🚶‍♂️🚶‍♀️➡️🌳🌴 👑🇧🇷",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Drought in the Brazilian Northeast during the Empire, mass deaths, migration to the Amazon — I think this is the great drought of 1877–78.\n\nGUESS: Grande Seca",
+      "guess": "Grande Seca",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "8b8a26a6-6b9a-450e-aa7d-4707072e34fd",
+    "guesser": "89abbef2-2d4a-4be7-8f0d-0353f6e8fe33"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

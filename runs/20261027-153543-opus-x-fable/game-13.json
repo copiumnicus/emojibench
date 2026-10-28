@@ -1,0 +1,65 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Dorothy Cottrell",
+    "description": "Australian writer",
+    "extract": "Ida Dorothy Ottley Cottrell was an Australian writer. Born in Picton, she contracted infantile paralysis as a child and spent the rest of her life in a wheelchair. Cottrell married Walter Mackenzie Cottrell on 23 May 1922. Her first novel, The Singing Gold, was published in 1928. She wrote a story Wilderness Orphan (1936) which was the basis for the feature film Orphan of the Wilderness (1936). She lived for a time in the US and also worked as an artist and cartoonist.",
+    "url": "https://en.wikipedia.org/wiki/Dorothy_Cottrell"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 20.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1207,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 418,
+      "thinking_tokens": 279,
+      "cost_usd": 0.018024,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 957,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 504,
+      "thinking_tokens": 398,
+      "cost_usd": 0.04436,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Plan: lead with an Australian woman writer in a wheelchair, then her novel \"The Singing Gold\", then the kangaroo-orphan film, then her work as an artist in the US.\n\n<msg>\n🇦🇺 👩 ✍️ ♿\n\n📖 🎶 🪙\n\n🦘 👶 🌳 🏜️ ➡️ 🎬\n\n🎨 🇺🇸\n</msg>",
+      "delivered": "🇦🇺 👩 ✍️ ♿\n📖 🎶 🪙\n🦘 👶 🌳 🏜️ ➡️ 🎬\n🎨 🇺🇸",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Australian woman writer in a wheelchair, book \"Singing Gold\" (🎶🪙), a kangaroo joey orphan in the bush adapted to film (\"Wilderness Orphan\"), artist, moved to the USA — that's Dorothy Cottrell.\n\nGUESS: Dorothy Cottrell",
+      "guess": "Dorothy Cottrell",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "deecc9c0-3280-4bfc-9f7f-047b35b5091f",
+    "guesser": "585aa4ec-aa74-4aed-ab74-991897307a9b"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

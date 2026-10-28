@@ -1,0 +1,65 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "sonnet",
+  "guesser_model_id": "claude-sonnet-5-5",
+  "effort": null,
+  "article": {
+    "title": "Sage Derby",
+    "description": "Variety of cheese",
+    "extract": "Sage Derby is a variety of Derby cheese that is mild, mottled green and semi-hard, and has a sage flavour. The colour is from sage and sometimes other colouring added to the curds, producing a marbling effect and a subtle herb flavour. The colour is formed either by mixing sage leaves into the curd before it is pressed or by the addition of \"green curd\" from green corn or spinach juice. In the latter case, the flavour has to be created with colourless sage extract. Parsley, spinach and marigold leaves, bruised and steeped before use, can also be included instead of the sage leaves. It is aged for one to three months.",
+    "url": "https://en.wikipedia.org/wiki/Sage_Derby"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 18.9,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1234,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 280,
+      "thinking_tokens": 200,
+      "cost_usd": 0.01548,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 940,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 170,
+      "thinking_tokens": 115,
+      "cost_usd": 0.005464,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🧀🟩🌿 🏴󠁧󠁢󠁥󠁮󠁧󠁿\n\n🧀 = 🌿🧙‍♂️ ➕ 🏇🏆🎩</msg>",
+      "delivered": "🧀🟩🌿 🏴󠁧󠁢󠁥󠁮󠁧󠁿\n🧀 🌿🧙‍♂️ ➕ 🏇🏆🎩",
+      "dropped_chars": 1,
+      "retried": false,
+      "guesser": "This looks like a cheese with sage, from England, and the horse race and trophy suggest Derby. That points to Sage Derby.\n\nGUESS: Sage Derby",
+      "guess": "Sage Derby",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "b8c2d5a2-8e0a-4f17-825e-2d3388d1e041",
+    "guesser": "1afd0c08-bf30-4691-a4ea-a5765fd1b247"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

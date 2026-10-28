@@ -1,0 +1,88 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Jovan Hadži-Vasiljević",
+    "description": "Serbian historian, ethnographer, journalist and writer",
+    "extract": "Jovan Hadži-Vasiljević was a Serbian historian, ethnographer, journalist and writer.",
+    "url": "https://en.wikipedia.org/wiki/Jovan_Had%C5%BEi-Vasiljevi%C4%87"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 50.2,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2501,
+      "cache_read_input_tokens": 2152,
+      "output_tokens": 1906,
+      "thinking_tokens": 1763,
+      "cost_usd": 0.0590128,
+      "calls": 2,
+      "cost_usd_reported": 0.0916498
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2066,
+      "cache_read_input_tokens": 985,
+      "output_tokens": 1512,
+      "thinking_tokens": 1149,
+      "cost_usd": 0.047186,
+      "calls": 2,
+      "cost_usd_reported": 0.07483699999999999
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 720,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0001462,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>👨 🎓 ⌛📕 🖊️📓 🧕👘🪆\n\n🇭🇺⬇️🎯 🇷🇴↙️🎯 🇧🇬⬅️🎯 🇦🇱↗️🎯</msg>",
+      "delivered": "👨 🎓 ⌛📕 🖊️📓 🧕👘🪆\n🇭🇺⬇️🎯 🇷🇴↙️🎯 🇧🇬⬅️🎯 🇦🇱↗️🎯",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "**My read:** the target country is south of Hungary, southwest of Romania, west of Bulgaria and northeast of Albania. That points to **Serbia** (or possibly Kosovo).\n\nThe person seems to be a male scholar who was a historian and a writer. The headscarf, kimono and nesting doll suggest folk costumes, so maybe an ethnographer or folklorist.\n\n**Questions:**\n- Which century was he active in? (1800s? 1900s?)\n- Is Serbia right?\n- Does 🪆 mean \"Russia\" or \"Slavic\", or just \"folk\"?\n\nGUESS: Milan Đ. Milićević",
+      "guess": "Milan Đ. Milićević",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>✅ ✅ ✅\n\n🚶🇮🇱🙏 ➕ 👑🌱🧂🍅</msg>",
+      "delivered": "✅ ✅ ✅\n🚶🇮🇱🙏 ➕ 👑🌱🧂🍅",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I think 🚶🇮🇱🙏 is a pilgrim to the Holy Land, which is the Serbian prefix **\"Hadži\"**. Then 👑 is *basileus* and 🌱🧂🍅 is the herb basil, which gives **\"Vasiljević\"**. Together that's **Hadži-Vasiljević**, the Serbian historian, ethnographer and writer.\n\nGUESS: Jovan Hadži-Vasiljević",
+      "guess": "Jovan Hadži-Vasiljević",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "d1e7bc5c-9727-426c-81f4-d07956035acd",
+    "guesser": "783aef9e-e247-4a5c-bdad-b9d8a51841b4"
+  },
+  "ladder": {
+    "article_no": 9,
+    "round": 3,
+    "n_banned": 83,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

@@ -1,0 +1,71 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Mike Pieciak",
+    "description": "American politician (born 1983)",
+    "extract": "Michael Sullivan Pieciak is an American politician from Vermont. A member of the Democratic Party, Pieciak has served as Vermont State Treasurer since January 2023.",
+    "url": "https://en.wikipedia.org/wiki/Mike_Pieciak"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "keyboard": {
+    "fraction": 0.5,
+    "seed": "v1",
+    "size": 936
+  },
+  "max_turns": 30,
+  "seconds": 23.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 6334,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 877,
+      "thinking_tokens": 818,
+      "cost_usd": 0.06822,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 962,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 849,
+      "thinking_tokens": 626,
+      "cost_usd": 0.024684000000000005,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n👨‍💼 💰🔑🗄️\n🟩🏔️ 🍁🍯 🐄🍦\n🔵\n🎤\n</msg>",
+      "delivered": "👨‍💼 💰🔑🗄️\n🟩🏔️ 🍁🍯 🐄🍦\n🔵\n🎤",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "My read: 👨‍💼 a man in an office, 💰🔑🗄️ guarding money/records (Treasurer?), 🟩🏔️🍁🍯🐄🍦 = **Vermont**, 🔵 = Democrat, 🎤 = speaker? singer? radio?\n\nSo: a male Democratic Vermont official, maybe **State Treasurer**. Questions:\n- Is the office Treasurer (vs. Auditor or Secretary of State)?\n- Is he alive today, or historical (pre-2000)?\n- What does 🎤 mean: Speaker of the House, broadcaster, or singer?\n\nGUESS: Mike Pieciak",
+      "guess": "Mike Pieciak",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "2178310d-9051-4cd5-b7aa-ef3812b8e5c1",
+    "guesser": "611e0e0d-b4f3-404b-903e-cd7241435270"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

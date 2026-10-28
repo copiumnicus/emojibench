@@ -1,0 +1,101 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Franco Cozzo",
+    "description": "Australian businessman (1935–2023)",
+    "extract": "Franco Cozzo was an Italian-Australian businessman. After moving to Melbourne from Sicily in 1955, Cozzo became known for his television advertisements, in which he would speak in English, Greek, and Italian. He later produced Australia's first non-English TV show, Carosello, which was broadcast in Italian.",
+    "url": "https://en.wikipedia.org/wiki/Franco_Cozzo"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 80.1,
+  "usage": {
+    "explainer": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 3644,
+      "cache_read_input_tokens": 4936,
+      "output_tokens": 2516,
+      "thinking_tokens": 2260,
+      "cost_usd": 0.0814864,
+      "calls": 3,
+      "cost_usd_reported": 0.17010180000000003
+    },
+    "guesser": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 3382,
+      "cache_read_input_tokens": 2513,
+      "output_tokens": 2775,
+      "thinking_tokens": 2151,
+      "cost_usd": 0.08360120000000001,
+      "calls": 3,
+      "cost_usd_reported": 0.158143
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 703,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0001428,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🇻🇦 🛫 🪃\n👨 💼 🎬 💎\n👅 👅 👅\n🪦\n</msg>",
+      "delivered": "🇻🇦 🛫 🪃\n👨 💼 🎬 💎\n👅 👅 👅\n🪦",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Here's my reading so far:\n- 🇻🇦🛫🪃: someone from Italy, the Vatican or a Catholic background who emigrated to Australia?\n- 👨💼🎬💎: a man in business, maybe a film producer or distributor, connected to diamonds or jewels?\n- 👅👅👅: speaks several languages, maybe a translator or interpreter?\n- 🪦: deceased.\n\nIs that close? Is 🇻🇦 standing in for Italy (Italian-born), or does it really mean Catholic clergy? Is 💎 literal (a jeweller) or does it mean \"valuable\"? Could you hint at his name, or the decade he was active?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n🇻🇦 ✅   ⛪ ❌   💍 ❌\n💎 = ✨🤩✨\n🖥️ 🔁 🔁 🔁 😂\n👅 = 🇻🇦 🫒 🇺🇸\n🐶 🏟️\n</msg>",
+      "delivered": "🇻🇦 ✅ ⛪ ❌ 💍 ❌\n💎 ✨🤩✨\n🖥️ 🔁 🔁 🔁 😂\n👅 🇻🇦 🫒 🇺🇸\n🐶 🏟️",
+      "dropped_chars": 2,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Updated read: Italian-born (not a priest, not a jeweller), a star or celebrity, with TV or screen comedy and something repeated three times (a long-running show? reruns? impressions?). Languages are Italian, 🫒 (Greek?) and American English. Then something with dogs and a stadium: greyhound racing, or a Bulldogs football team?\n\nQuestions:\n1. Did he actually emigrate to and live in Australia, or just go there for one project?\n2. Is 🫒 Greek?\n3. Is 🐶🏟️ greyhound racing, or a \"Bulldogs\" team?\n4. Is he mainly an actor or comedian, rather than a businessman?\n\nA long shot, since an Italian star went to Australia for *They're a Weird Mob*:\n\nGUESS: Walter Chiari",
+      "guess": "Walter Chiari",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n✅ 🏡 🪃\n✅ 🫒\n🐶 ✅ 🏘️\n❌ 🎭   ✅ 💼 🛒 🏠✨\n🖥️ 🔁 = 📢 🤑 ... 😂 🗿\n</msg>",
+      "delivered": "✅ 🏡 🪃\n✅ 🫒\n🐶 ✅ 🏘️\n❌ 🎭 ✅ 💼 🛒 🏠✨\n🖥️ 🔁 🤑 😂 🗿",
+      "dropped_chars": 5,
+      "off_keyboard": [
+        "📢"
+      ],
+      "retried": false,
+      "guesser": "This fits a famous Melbourne furniture retailer. He was Italian-born and moved to Australia, and his shops were in Footscray (home of the Bulldogs). His cult TV ads were endlessly repeated, and he shouted in three languages: \"Grandioso!\" (Italian), \"Megalo, megalo, megalo!\" (Greek) and English.\n\nGUESS: Franco Cozzo",
+      "guess": "Franco Cozzo",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "20aea1a4-715d-452b-8cf7-870609cc11fb",
+    "guesser": "9899fa02-9147-4500-8d58-60899f769536"
+  },
+  "ladder": {
+    "article_no": 20,
+    "round": 3,
+    "n_banned": 54,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

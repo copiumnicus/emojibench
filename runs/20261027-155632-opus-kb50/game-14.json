@@ -1,0 +1,98 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Philadelphia Commercial Museum",
+    "description": "Former museum in Pennsylvania, USA",
+    "extract": "The Philadelphia Commercial Museum was established in Philadelphia, Pennsylvania in 1895. Its permanent home was a neo-classical building situated at 34th Street and Civic Center Blvd, erected as part of the 1899 National Export Exposition. The museum had business offices at 332 South Fourth Street.",
+    "url": "https://en.wikipedia.org/wiki/Philadelphia_Commercial_Museum"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": {
+    "fraction": 0.5,
+    "seed": "v1",
+    "size": 936
+  },
+  "max_turns": 30,
+  "seconds": 69.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 7437,
+      "cache_read_input_tokens": 14234,
+      "output_tokens": 1397,
+      "thinking_tokens": 1100,
+      "cost_usd": 0.0931696,
+      "calls": 3,
+      "cost_usd_reported": 0.2268048
+    },
+    "guesser": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 3128,
+      "cache_read_input_tokens": 2649,
+      "output_tokens": 2972,
+      "thinking_tokens": 2535,
+      "cost_usd": 0.0855636,
+      "calls": 3,
+      "cost_usd_reported": 0.15872899999999998
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 715,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0001452,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Philadelphia's nickname is \"City of Brotherly Love\", so I'll show brothers, a heart and a city for that. Then I'll add commerce/export and museum hints.\n\n<msg>👬❤️🌆\n💼💲🛍️📦🚢🌏\n🦕🦴🎨🧐🏰</msg>",
+      "delivered": "👬❤️🌆\n💼💲🛍️📦🚢🌏\n🦕🦴🎨🧐🏰",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Here's what I'm reading so far:\n- **Line 1:** two brothers, or twin/sister cities, plus love and a city.\n- **Line 2:** a merchant or trading business with international shipping or import-export.\n- **Line 3:** a collector of fossils, dinosaurs and art, maybe a museum or castle.\n\nMy working idea is a merchant (or merchant brothers) who traded overseas, collected fossils and art, and founded a museum. It could be housed in a castle.\n\nQuestions:\n1. Is the subject a person (or people)? Or is it a place or building like a museum?\n2. Does 👬 mean brothers, a gay couple, or twin towns?\n3. Which country? Please show a flag if you can.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👤👎 🏰👍 🦕🎨👍\n👬❤️ ➡️ 🌆 🥊🏃‍♀️ 🥩🫓\n🔴⚪🟦⭐ 🦅</msg>",
+      "delivered": "👤👎 🏰👍 🦕🎨👍\n👬❤️ 🌆 🥊🏃‍♀️ 🥩🫓\n🔴⚪🟦⭐",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "➡️",
+        "🦅"
+      ],
+      "retried": false,
+      "guesser": "Philadelphia: city of brotherly love, Rocky (boxing, running the museum steps) and cheesesteak. So it's a building or institution there, a museum with fossils, founded by a merchant who traded overseas. William Wagner was a merchant in the China trade who collected fossils and founded a science institute.\n\nGUESS: Wagner Free Institute of Science",
+      "guess": "Wagner Free Institute of Science",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🦕👎 🧐👍\n🏰 = 💲💼🛍️📈📦🚢🌏\n🎡🎟️🎉 ⬅️ 🏗️🏰\n🌲🌲 ⬅️ 🏰 = 👎 💲💲💲 👍</msg>",
+      "delivered": "🦕👎 🧐👍\n🏰 💲💼🛍️📈📦🚢🌏\n🎡🎟️🎉 ⬅️ 🏗️🏰\n🌲🌲 ⬅️ 🏰 👎 💲💲💲 👍",
+      "dropped_chars": 2,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I think it's a building or institution about world trade and commerce whose exhibits came from a world's fair. That fits the museum of international trade goods stocked from the 1893 Columbian Exposition.\n\nGUESS: Philadelphia Commercial Museum",
+      "guess": "Philadelphia Commercial Museum",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "0373706e-75fb-414b-9edb-171467bb1617",
+    "guesser": "099bb2e7-3752-4dc4-84ab-992d3b7650ab"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

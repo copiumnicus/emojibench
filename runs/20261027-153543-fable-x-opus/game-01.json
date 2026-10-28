@@ -1,0 +1,77 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Proceratium silaceum",
+    "description": "Species of ant",
+    "extract": "Proceratium silaceum is a species of ant in the family Formicidae.",
+    "url": "https://en.wikipedia.org/wiki/Proceratium_silaceum"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 40.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 2073,
+      "cache_read_input_tokens": 1072,
+      "output_tokens": 956,
+      "thinking_tokens": 842,
+      "cost_usd": 0.09037200000000001,
+      "calls": 2,
+      "cost_usd_reported": 0.146928
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1637,
+      "cache_read_input_tokens": 920,
+      "output_tokens": 751,
+      "thinking_tokens": 554,
+      "cost_usd": 0.028508,
+      "calls": 2,
+      "cost_usd_reported": 0.048452
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 697,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 9.17e-06,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🐜🔬 🌎🇺🇸 🕷️🥚🍴 🟠🟡🎨 🙃🔙 🌍⬇️🍂</msg>",
+      "delivered": "🐜🔬 🌎🇺🇸 🕷️🥚🍴 🟠🟡🎨 🙃 🌍⬇️🍂",
+      "dropped_chars": 1,
+      "retried": false,
+      "guesser": "This looks like a tiny ant from the USA that preys on spider eggs, orange-yellow in colour, with an upside-down feature (a curled-under gaster?) and living in leaf litter. That matches the genus Proceratium. \"Orange-yellow\" suggests croceum (saffron), though it could be silaceum or pergandei. Is the article about the genus, or one species?\n\nGUESS: Proceratium croceum",
+      "guess": "Proceratium croceum",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👍🐜☝️🧬 🚫👤 🎨🪨🟤🟨 ⛏️🏺</msg>",
+      "delivered": "👍🐜☝️🧬 🚫👤 🎨🪨🟤🟨 ⛏️🏺",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "You mean one species, not named after a person (so not pergandei), and the colour is ochre, an earth pigment. That points to silaceum.\n\nGUESS: Proceratium silaceum",
+      "guess": "Proceratium silaceum",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "534d3241-15f5-479d-b503-1241435a5a21",
+    "guesser": "ed01fb86-477b-45c3-827b-7a1e1cc00041"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

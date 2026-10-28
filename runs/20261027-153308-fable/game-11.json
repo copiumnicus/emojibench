@@ -1,0 +1,65 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Ayribobo",
+    "description": "Highest mountain of Turkmenistan",
+    "extract": "Ayribobo or Aýrybaba, officially named the Great Saparmyrat Turkmenbashi Peak in Turkmenistan since 2004, is a mountain in Central Asia. At 3,138 metres (10,295 ft) Aýrybaba is the highest mountain in Turkmenistan. It is located in the Köýtendag Range of the Pamir-Alay chain in the southeast of Turkmenistan on the Uzbekistani border.",
+    "url": "https://en.wikipedia.org/wiki/Ayribobo"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 23.8,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1201,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 377,
+      "thinking_tokens": 317,
+      "cost_usd": 0.04289,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 937,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 307,
+      "thinking_tokens": 264,
+      "cost_usd": 0.03411,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 702,
+      "output_tokens": 286,
+      "thinking_tokens": 282,
+      "cost_usd": 0.00015022,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇹🇲 🏔️🥇⬆️ 🏔️🇹🇲🇺🇿 ⛰️⛰️⛰️</msg>",
+      "delivered": "🇹🇲 🏔️🥇⬆️ 🏔️🇹🇲🇺🇿 ⛰️⛰️⛰️",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Turkmenistan's highest peak on the Uzbek border, in a mountain range.\n\nGUESS: Ayrybaba",
+      "guess": "Ayrybaba",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "dcbad963-157d-466d-b081-a1c92f13edd6",
+    "guesser": "66a8136e-a2b9-496d-8f71-e8bfa2ce536c"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

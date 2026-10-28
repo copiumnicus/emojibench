@@ -1,0 +1,121 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Mike Pieciak",
+    "description": "American politician (born 1983)",
+    "extract": "Michael Sullivan Pieciak is an American politician from Vermont. A member of the Democratic Party, Pieciak has served as Vermont State Treasurer since January 2023.",
+    "url": "https://en.wikipedia.org/wiki/Mike_Pieciak"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "max_turns": 30,
+  "seconds": 279.2,
+  "usage": {
+    "explainer": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 17548,
+      "cache_read_input_tokens": 47769,
+      "output_tokens": 15305,
+      "thinking_tokens": 14983,
+      "cost_usd": 0.4656636,
+      "calls": 5,
+      "cost_usd_reported": 1.8519808000000002
+    },
+    "guesser": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 6853,
+      "cache_read_input_tokens": 11995,
+      "output_tokens": 7478,
+      "thinking_tokens": 6053,
+      "cost_usd": 0.209254,
+      "calls": 5,
+      "cost_usd_reported": 0.5706522
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🐠🎶 🌨️🚡 🔥🧥 🍎🐝\n\n💀⚓🗡️🥇🧭 🙋\n</msg>",
+      "delivered": "🐠🎶 🌨️🚡 🔥🧥 🍎🐝\n💀⚓🗡️🥇🧭 🙋",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Here's what I'm reading so far:\n\n**Line 1** looks like four pairs, maybe syllables or words:\n- 🐠🎶: fish + music, so \"Bass\"? \"Reef\"? \"Coral\"?\n- 🌨️🚡: snow + cable car, so \"Ski\"? \"Lift\"? \"Gondola\"? \"Alps\"?\n- 🔥🧥: fire + coat, so \"Blazer\"?\n- 🍎🐝: apple + bee, so \"Honey\"? \"Cider\"? \"Orchard\"?\n\n**Line 2**, 💀⚓🗡️🥇🧭, reads like pirates, treasure and navigation. 🙋 might mean \"me\", \"who\" or \"a person\".\n\nQuestions:\n1. Is line 1 one name split into parts (syllables), or a list of separate things?\n2. Is the article about a person, a place, or a creative work (film, game, ship...)?\n\nNo guess yet. Please clarify the category, e.g. 👤 person, 📍 place, 🎬/🎮/📖 work, 🚢 ship.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n🙋\n\n🙋 ⏩ 🏡 ⏩ 🐠🎶 🌨️🚡 🔥🧥 🍎🐝\n\n🙋 ⏩ 💀⚓🗡️🥇🧭 ⏩ 🙋\n</msg>",
+      "delivered": "🙋\n🙋 ⏩ 🏡 ⏩ 🐠🎶 🌨️🚡 🔥🧥 🍎🐝\n🙋 ⏩ 💀⚓🗡️🥇🧭 ⏩ 🙋",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I think this describes a story or journey:\n- A person leaves home and goes through four stages or worlds: underwater/music, snowy mountains with a cable car, fire/lava, and an orchard with bees.\n- Then comes a pirate treasure hunt (skull, anchor, sword, gold, compass), and it ends back with the person.\n\nThat sounds like a **video game** with themed levels, or maybe a children's book or animated film.\n\nQuestions:\n1. Is it a 🎮 video game, 🎬 film/TV, or 📖 book?\n2. Is 🙋 a specific named character? If so, can you hint at the name?\n3. Roughly what era? (📅 + decade digits, e.g. 9️⃣0️⃣)",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n🎬📚 🧊🧊🧊\n\n🙋 🗞️📺 🙋\n\n🏡 🐠🎶 🌨️🚡 🍎 🐝 🔥🧥\n\n💀⚓🥇 🙋\n</msg>",
+      "delivered": "🎬📚 🧊🧊🧊\n🙋 🗞️📺 🙋\n🏡 🐠🎶 🌨️🚡 🍎 🐝 🔥🧥\n💀⚓🥇 🙋",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Got it: not a film or book (🧊 = cold).\n\nNew reading: 🗞️📺 suggests news or TV media. 🏡 followed by fish/music, snow/cable car, apple, bee, fire/coat might be a list of features or segments. The pirate gold could be a **treasure hunt**. Could this be a TV show or competition, perhaps an armchair treasure hunt with clues in newspapers and on TV?\n\nPlease answer each with ✅ or ❌:\n1. Is the subject a real individual person?\n2. Is it a TV programme?\n3. Is it a treasure hunt or competition?\n4. Is it a place (town, theme park...)?\n5. Are the 🏡 items (fish/music, snow, apple, bee, fire) things the subject did or made?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>\n🔥\n🧊\n🧊\n🧊\n🧊\n</msg>",
+      "delivered": "🔥\n🧊\n🧊\n🧊\n🧊",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "So it's a real person. Not a TV show, treasure hunt or place, and the 🏡 items aren't things they did or made.\n\nHypotheses:\n- 🗞️📺 might mean the person is a journalist or broadcaster.\n- 🏡 + list might describe where they're from (a region with fishing, music, ski lifts, orchards, bees...).\n- The pirate line might be about their name, like Drake (🥇🧭 = Golden Hind, circumnavigation), Kidd, Morgan, Teach or Blackbeard.\n\n✅/❌ please:\n1. Is the 🏡 list describing their hometown or home country?\n2. Are they a journalist or TV presenter?\n3. Is the pirate line a hint at their name?\n4. Male?\n5. Also, please send their nationality as a flag (or a substitute if flags are banned).",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>\n🔥\n🧊\n🧊\n🔥\n🇲🇽⬆️⬆️\n</msg>",
+      "delivered": "🔥\n🧊\n🧊\n🔥\n🇲🇽⬆️⬆️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "🇲🇽⬆️⬆️ = two steps north of Mexico, so **Canada**. That means the 🏡 list was Canadian stereotypes: fishing and fiddle music, ski lifts, orchards, and 🔥🧥 = red coat (Mountie).\n\nSo: a Canadian man, and the key is the pirate/treasure line. My leading idea is a **treasure hunter, maybe linked to Oak Island**, Nova Scotia (pirate treasure, Captain Kidd legend, newspaper and TV coverage).\n\nAlternatives: an actor who played a pirate, a sailor/navigator, or an athlete (🥇 = gold medal).\n\n✅/❌ please:\n1. Is he a treasure hunter?\n2. Is he linked to Oak Island?\n3. Is he an actor or performer?\n4. Is he an athlete (did he win a gold medal)?\n5. Is he alive?",
+      "guess": null,
+      "correct": null
+    }
+  ],
+  "sessions": {
+    "explainer": "6cdd6d7a-8c3f-4d52-a0a3-ddc7c5dfacd6",
+    "guesser": "a4a1738f-d0d2-42ed-913e-503693880008"
+  },
+  "ladder": {
+    "article_no": 4,
+    "round": 9,
+    "n_banned": 228,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

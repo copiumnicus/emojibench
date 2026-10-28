@@ -1,0 +1,136 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "UFC BJJ 2",
+    "description": "Martial arts event in 2025",
+    "extract": "UFC BJJ 2: Tackett vs. Canuto was a submission grappling event produced by UFC Brazilian Jiu-Jitsu. The event was held at the UFC Apex in Las Vegas, Nevada, United States, on July 31, 2025 and was streamed live on YouTube.",
+    "url": "https://en.wikipedia.org/wiki/UFC_BJJ_2"
+  },
+  "solved": true,
+  "turns_taken": 6,
+  "solved_turn": 6,
+  "error": null,
+  "keyboard": {
+    "fraction": 0.5,
+    "seed": "v1",
+    "size": 936
+  },
+  "max_turns": 30,
+  "seconds": 119.8,
+  "usage": {
+    "explainer": {
+      "input_tokens": 22,
+      "cache_creation_input_tokens": 8640,
+      "cache_read_input_tokens": 38816,
+      "output_tokens": 2223,
+      "thinking_tokens": 1878,
+      "cost_usd": 0.12919440000000001,
+      "calls": 6,
+      "cost_usd_reported": 0.5309910000000001
+    },
+    "guesser": {
+      "input_tokens": 22,
+      "cache_creation_input_tokens": 4769,
+      "cache_read_input_tokens": 12109,
+      "output_tokens": 5682,
+      "thinking_tokens": 4785,
+      "cost_usd": 0.15672360000000002,
+      "calls": 6,
+      "cost_usd_reported": 0.4548312
+    },
+    "judge": {
+      "input_tokens": 8,
+      "cache_creation_input_tokens": 1408,
+      "cache_read_input_tokens": 1408,
+      "output_tokens": 16,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00030448000000000004,
+      "calls": 4
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🥋🤼‍♂️🥊\n🎰🇺🇸\n🥈\n📺▶️</msg>",
+      "delivered": "🥋🤼‍♂️🥊\n🎰🇺🇸\n🥈\n📺▶️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "My read: an **MMA fighter** (martial arts, wrestling, boxing) connected to **Las Vegas / the US**, who was a **runner-up (silver)** on a **TV show**, probably *The Ultimate Fighter* reality series (filmed in Las Vegas).\n\nQuestions:\n1. Is it a person (a fighter), not a TV season or event article?\n2. Which TUF season? Please send the number with digit/keycap emojis.\n3. Which weight class? For example 🪶 featherweight, 🪨 heavyweight, ⚖️ for something in between.\n4. Any hint at the name (sounds-like emojis)?\n\nNo guess yet. There are too many runner-ups to pick one blindly.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👎👤\n🎟️🎫\n🥋🤼‍♂️ ✅\n🥊 ⛔\n🥇➡️🥈</msg>",
+      "delivered": "👎👤\n🎟️🎫\n🥋🤼‍♂️ ✅\n🥊 ⛔\n🥇➡️🥈",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Got it: **not a person, it's an event** (tickets). It's MMA/grappling, not boxing, probably held at a **casino / in Las Vegas**, **televised**, and 🥇➡️🥈 suggests it's the **second** edition or a sequel (\"… 2\").\n\nQuestions:\n1. Is the promotion the **UFC**? (If not, hint the promotion: 🦁 Bellator, 💪 Strikeforce, 🌎 WSOF, etc.)\n2. Is \"2\" literally in the title, like \"UFC Fight Night 2\"?\n\nTrying a candidate:\n\nGUESS: UFC Fight Night 2",
+      "guess": "UFC Fight Night 2",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>👍\n👍\n🥋🥋🥋 🤼‍♂️\n🦜⚽🌴\n👊⛔</msg>",
+      "delivered": "👍\n👍\n🥋🥋🥋 🤼‍♂️\n🦜⚽🌴\n⛔",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "👊"
+      ],
+      "retried": false,
+      "guesser": "Brazil 🦜⚽🌴 (Gracie jiu-jitsu winning a tournament) plus ⛔ = \"No Way Out\" points to the early UFC tournament.\n\nGUESS: UFC 2",
+      "guess": "UFC 2",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>👎\n⏩⏩⏩ 📱▶️\n🥊⛔ 🥋✅\n👍➕🥋➕🥈</msg>",
+      "delivered": "👎\n⏩⏩⏩ 📱▶️\n🥊⛔ 🥋✅\n👍🥋🥈",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "➕",
+        "➕"
+      ],
+      "retried": false,
+      "guesser": "Modern 📱 streaming, martial arts only with no striking, a \"2\"... that sounds like the UFC's grappling-only series on Fight Pass, held at the Apex in Las Vegas.\n\nGUESS: UFC Fight Pass Invitational 2",
+      "guess": "UFC Fight Pass Invitational 2",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>🔥🔥\n📺⛔ 🎫⛔\n🦜⚽🌴🥋 = 🥋\n👍🥋🥈</msg>",
+      "delivered": "📺⛔ 🎫⛔\n🦜⚽🌴🥋 🥋\n👍🥋🥈",
+      "dropped_chars": 3,
+      "off_keyboard": [
+        "🔥",
+        "🔥"
+      ],
+      "retried": false,
+      "guesser": "New read: not a TV broadcast and not a live ticketed event. 📺▶️/📱▶️ may mean you *play* it on a screen, so a **video game** with \"UFC\" and \"2\" in the title, with jiu-jitsu/grappling as a key feature.\n\nIf this misses: is it a video game (👍/👎)? Which console or era (🎮 old, 📱 modern)?\n\nGUESS: EA Sports UFC 2",
+      "guess": "EA Sports UFC 2",
+      "correct": false
+    },
+    {
+      "turn": 6,
+      "explainer_raw": "<msg>👎🕹️\n🎟️🎰📱▶️ ✅\n🤏🤏\n🥋🥋🥋 ➡️ 🦜⚽🌴🥋\n👍 🥋 🥈</msg>",
+      "delivered": "👎🕹️\n🎟️🎰📱▶️ ✅\n🤏🤏\n🥋🥋🥋 ➡️ 🦜⚽🌴🥋\n👍 🥋 🥈",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "So it's a smaller, ticketed **Brazilian jiu-jitsu / grappling event**, streamed online, in the US (casino/Vegas), and it's the **2nd** edition.\n\nPlease clarify:\n1. Is **\"UFC\"** actually in the title? 👍/👎\n2. If not, hint the promotion's name (sounds-like emojis welcome).\n\nProbe guess:\n\nGUESS: UFC BJJ 2",
+      "guess": "UFC BJJ 2",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "a24e18e2-4ba7-44f3-8731-bdf31e04efc5",
+    "guesser": "19f6f6f6-e9fa-49cb-809f-26b03172a753"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

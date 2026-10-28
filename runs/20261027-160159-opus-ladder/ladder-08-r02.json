@@ -1,0 +1,99 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Richmond Hill South",
+    "description": "Federal electoral district in Ontario, Canada",
+    "extract": "Richmond Hill South is a federal electoral district in Ontario, Canada, that has been represented in the House of Commons of Canada since 2004.",
+    "url": "https://en.wikipedia.org/wiki/Richmond_Hill_South"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 146.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 3183,
+      "cache_read_input_tokens": 4340,
+      "output_tokens": 3124,
+      "thinking_tokens": 2582,
+      "cost_usd": 0.08972000000000001,
+      "calls": 3,
+      "cost_usd_reported": 0.1625692
+    },
+    "guesser": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 7604,
+      "cache_read_input_tokens": 3776,
+      "output_tokens": 8269,
+      "thinking_tokens": 7585,
+      "cost_usd": 0.22776240000000003,
+      "calls": 3,
+      "cost_usd_reported": 0.4228744
+    },
+    "judge": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 1413,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00028700000000000004,
+      "calls": 2
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "The guesser can't see this part. My plan is:\n- **Canada** (🇨🇦 and 🍁 are banned): 🦫🫎🏒\n- **Electoral district** (🗳️ and 🏛️ are banned): Canadian districts are called \"ridings,\" so 🏇. Add 📜✋ for voting.\n- **Rich** (💰, 🤑 and 💎 are banned): 💵💸👑\n- **Hill** (⛰️ and 🏔️ are banned): 🗻\n- **South** (⬇️ and 👇 are banned): 🔽\n\n<msg>🦫🫎🏒\n🏇 ✋📜\n💵💸👑 🗻 🔽</msg>",
+      "delivered": "🦫🫎🏒\n🏇 ✋📜\n💵💸👑 🗻 🔽",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I'm reading **Canada** 🦫🫎🏒 + **horse racing** 🏇. So it's probably a racehorse, a jockey/trainer, a race (stakes/handicap) or a track.\n\nMy guesses for the rest:\n- ✋📜 might be \"handicap\" or a Hall of Fame.\n- 💵💸👑 might be a purse or prize with a crown: Queen's/King's Plate? Sovereign Award? Triple Crown?\n- 🗻🔽 might be a mountain or highland and \"Downs\" or \"low/under\"?\n\nQuestions:\n1. Which is it: a horse 🐎, a person 🧑, a race 🏁, or a racetrack 🏟️?\n2. Is 🗻🔽 part of the name? Could you spell that part out another way?\n\nSpeculative first guess:\n\nGUESS: Highlander Stakes",
+      "guess": "Highlander Stakes",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "The guesser took 🏇 as horse racing. I need to rule that out, point to politics, and confirm the name parts. 🗻🔽 is part of the name, so I'll show it with 👌.\n\n<msg>🐎🚫 🏁🚫 🏟️🚫\n🏇 ➡️ 🧑‍💼🗣️📢🏘️📍\n💵💸 🗻 🔽 👌</msg>",
+      "delivered": "🐎🚫 🏁🚫 🏟️🚫\n🏇 ➡️ 🧑‍💼🗣️📢🏘️📍\n💵💸 🗻 🔽 👌",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Got it: not a horse, race or track. I think 🏇 means **\"riding\"**, as in a Canadian **electoral district**, and ✋📜 is the vote or ballot. So the article is probably a federal or provincial riding (a person is also possible).\n\nDecoding the name 💵💸 🗻 🔽 👌:\n- 💵💸 could be fund, rich, cash, grand, argent, nickel, fortune...\n- 🗻 could be mount or mont.\n- 🔽 could be down, lower, south, falls, bas.\n- 👌 could be \"OK\", as in **Okanagan**?\n\nQuestions:\n1. Which province? Please show it with a flag or landmark.\n2. Federal or provincial district?\n3. Does 👌 mean Okanagan, or just \"that's right\"?\n\nGUESS: Fundy Royal",
+      "guess": "Fundy Royal",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "They've got \"riding\" now. Next I need to say 👌 was not Okanagan, point to Ontario through Toronto teams (Raptors 🦖🏀, Blue Jays 🐦⚾), and push the name toward \"Rich\", \"Hill\" and \"South\". 🌴 next to 🔽 should make it read as south, not down.\n\n<msg>👌🚫\n🦖🏀 🐦⚾ ⬆️📍\n💵💸👑 🗻 🔽🌴</msg>",
+      "delivered": "👌🚫\n🦖🏀 🐦⚾ ⬆️📍\n💵💸👑 🗻 🔽🌴",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "🦖🏀🐦⚾ is Toronto (Raptors and Blue Jays), so **Ontario**, and ⬆️📍 means north of Toronto, in York Region.\n\nThen 💵💸👑 = **Rich(mond)**, 🗻 = **Hill**, and 🔽🌴 = **South**.\n\nGUESS: Richmond Hill South",
+      "guess": "Richmond Hill South",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "5a9070a4-cc06-4ecf-b636-53010579cd39",
+    "guesser": "0300bda6-1ff7-4572-885c-fc0ff3cd690d"
+  },
+  "ladder": {
+    "article_no": 8,
+    "round": 2,
+    "n_banned": 31,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

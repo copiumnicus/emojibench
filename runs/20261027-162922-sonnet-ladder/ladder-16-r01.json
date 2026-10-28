@@ -1,0 +1,114 @@
+{
+  "model": "sonnet",
+  "model_id": "claude-sonnet-5-5",
+  "guesser_model": "sonnet",
+  "guesser_model_id": "claude-sonnet-5-5",
+  "effort": null,
+  "article": {
+    "title": "Grande Seca",
+    "description": "Brazilian drought (1877–1878)",
+    "extract": "The Grande Seca, or the Brazilian drought of 1877–1878, was the largest and most devastating drought in Brazilian history. It caused the deaths of between 400,000 and 500,000 people. Of the 800,000 people who lived in the affected Northeastern region, around 120,000 migrated to the Amazon while 68,000 migrated to other parts of Brazil.",
+    "url": "https://en.wikipedia.org/wiki/Grande_Seca"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 61.5,
+  "usage": {
+    "explainer": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 2442,
+      "cache_read_input_tokens": 6373,
+      "output_tokens": 1012,
+      "thinking_tokens": 629,
+      "cost_usd": 0.0211906,
+      "calls": 4,
+      "cost_usd_reported": 0.055574500000000006
+    },
+    "guesser": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 2705,
+      "cache_read_input_tokens": 4413,
+      "output_tokens": 1622,
+      "thinking_tokens": 1029,
+      "cost_usd": 0.027950600000000003,
+      "calls": 4,
+      "cost_usd_reported": 0.0712881
+    },
+    "judge": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 1408,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 0.000286,
+      "calls": 2
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>⚽🌎🚫💧🌡️🪦⚰️ 🏚️👨‍👩‍👧‍👦🚢🛶🦜🐒</msg>",
+      "delivered": "⚽🌎🚫💧🌡️🪦⚰️ 🏚️👨‍👩‍👧‍👦🚢🛶🦜🐒",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Here's my read so far: a footballer or a football event, linked to South America or the tropics (canoe, parrot, monkey). Death is involved (grave, coffin), maybe from a fever or disease, and there's a family or a ship voyage.\n\nQuestions:\n1. Is this a person who played football, or an event like a tournament or match?\n2. Is the 🌡️ a fever or disease, or is it a hot climate?\n3. Is the country in South America? Brazil, perhaps?\n\nSend a few more emojis, such as flags or a number for a year.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🚫⚽ ✅🌡️ ✅🌎 🫗🚫💧 🪨🐃🪦🪦🪦 🏚️➡ 🚢🛶🦜</msg>",
+      "delivered": "🚫⚽ ✅🌡️ ✅🌎 🫗🚫💧 🪨🐃🪦🪦🪦 🏚️ 🚢🛶🦜",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "➡️"
+      ],
+      "retried": false,
+      "guesser": "Not football, then. What I'm getting now is an isolated tropical place with a ruined settlement, graves, and arrivals by ship and canoe. The 🌡️ could be a hot climate or a disease, and the 🌎 could be the region or the whole world.\n\nQuestions:\n1. Is the article an island or a settlement, such as an abandoned village?\n2. Is it a shipwreck or castaway story?\n3. Which continent or ocean is it in? A flag would help.\n\nGUESS: Pitcairn Island",
+      "guess": "Pitcairn Island",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🌎⬇️ 🚫🏝️ ✅🌡️🚫💧🚫💧🚫💧 🪨🪨 🌽🚫 🐃🪦 👨‍👩‍👧‍👦👨‍👩‍👧‍👦👨‍👩‍👧‍👦🏃🛶🌳 🌊🚫 📆</msg>",
+      "delivered": "🌎⬇️ 🚫🏝️ ✅🌡️🚫💧🚫💧🚫💧 🪨🪨 🌽🚫 🐃🪦 👨‍👩‍👧‍👦👨‍👩‍👧‍👦👨‍👩‍👧‍👦🏃🛶 🌊🚫 📆",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🌳"
+      ],
+      "retried": false,
+      "guesser": "I think this is a drought (hot, no water) that made a people abandon their homes. Corn failed, bison died, and families fled with canoes. It sounds like a Native American culture in the Americas.\n\nQuestions:\n1. Is it a culture, a site, or an event (a drought or migration)?\n2. Is it the American Southwest or the Mississippi region?\n3. Is the date around 1200 AD?\n\nGUESS: Ancestral Puebloans",
+      "guess": "Ancestral Puebloans",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>✅event 🚫🏹 🌎⬇️ ⚽💃☕🇵🇹 🎩🚂 🫗🚫💧🌡️ 🪦🪦🪦🪦🪦 🏚️🏃👨‍👩‍👧‍👦 🛶🦜🐒 </msg>",
+      "delivered": "✅ 🚫🏹 🌎⬇️ ⚽💃☕🇵🇹 🎩🚂 🫗🚫💧🌡️ 🪦🪦🪦🪦🪦 🏚️🏃👨‍👩‍👧‍👦 🛶🦜🐒",
+      "dropped_chars": 5,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Brazil, Portuguese-speaking, with coffee and trains, and the drought is the central event. I think it's the Great Drought of the 1870s in northeastern Brazil, in Ceará. The mass deaths and migration fit, and so does the railway that was built as relief work.\n\nGUESS: Grande Seca",
+      "guess": "Grande Seca",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "4da2b01f-dd0b-48b2-8dd5-53e20f38f355",
+    "guesser": "69094f3b-519e-4800-a544-a21fa227c732"
+  },
+  "ladder": {
+    "article_no": 16,
+    "round": 1,
+    "n_banned": 23,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

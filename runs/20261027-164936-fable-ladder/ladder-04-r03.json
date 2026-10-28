@@ -1,0 +1,88 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Mike Pieciak",
+    "description": "American politician (born 1983)",
+    "extract": "Michael Sullivan Pieciak is an American politician from Vermont. A member of the Democratic Party, Pieciak has served as Vermont State Treasurer since January 2023.",
+    "url": "https://en.wikipedia.org/wiki/Mike_Pieciak"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 138.9,
+  "usage": {
+    "explainer": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 4520,
+      "cache_read_input_tokens": 2018,
+      "output_tokens": 4541,
+      "thinking_tokens": 4124,
+      "cost_usd": 0.319508,
+      "calls": 2,
+      "cost_usd_reported": 0.49783875
+    },
+    "guesser": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 3913,
+      "cache_read_input_tokens": 990,
+      "output_tokens": 4756,
+      "thinking_tokens": 4264,
+      "cost_usd": 0.31709000000000004,
+      "calls": 2,
+      "cost_usd_reported": 0.4734675
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Private scratchpad: Vermont = Bernie (🧓👓✊🪑, mittens banned) + snow/ski/dairy. Treasurer = 💲🔐 (money emojis mostly banned). Democrat = 🐴🟦 (donkey/blue circle banned). Current & young = 🐣🧑.\n\n<msg>\n🧓👓✊🪑 ❄️🎿🥛 ➡️ 🗺️📍\n🗺️📍 💲🔐 🤵\n🐴🟦 🐣🧑\n</msg>",
+      "delivered": "🧓👓✊🪑 ❄️🎿🥛 ➡️ 🗺️📍\n🗺️📍 💲🔐 🤵\n🐴🟦 🐣🧑",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Let me make sure I'm reading this right. Please answer with ✅/❌ or numbers:\n\n1. Is the article about a **person** (🐣🧑 = someone born there)? Or is it a **place** (and 🧓 is a famous resident)?\n2. ❄️🎿🥛 — which country? 1️⃣ Norway 2️⃣ Sweden 3️⃣ Finland 4️⃣ Switzerland 5️⃣ Austria 6️⃣ other\n3. 🗺️📍💲🔐🤵 — is the place a tax haven / bank-secrecy spot? 1️⃣ Switzerland 2️⃣ Monaco 3️⃣ Liechtenstein 4️⃣ Luxembourg 5️⃣ Channel Islands/Isle of Man 6️⃣ other\n4. 🧓👓✊🪑 — is this a politician/chairman? a protester (sit-in)? a professor?\n5. Does 🐴🟦 spell a name (like \"Blue + horse\")? Or is it a profession (jockey/equestrian)?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "Private: Guesser missed Bernie and USA. Answer in order; USA = 🗽🦅 (flag banned); party = donkey vs elephant; reinforce Vermont with foliage/green mountain (🍂🍃🍀🌄).\n\n<msg>\n🧑👍\n🗽🦅\n👎\n👍🗣️\n👎 🐴🟦 ⚔️ 🐘🔴\n\n🗽🦅 🗺️📍 ❄️🎿🥛🧀 🍂🍃 🍀🌄\n🧓👓✊🪑 🗣️ 🏠 🗺️📍\n🧑 💲🔐 👑 🗺️📍\n</msg>",
+      "delivered": "🧑👍\n🗽🦅\n👎\n👍🗣️\n👎 🐴🟦 ⚔️ 🐘🔴\n🗽🦅 🗺️📍 ❄️🎿🥛🧀 🍂🍃 🍀🌄\n🧓👓✊🪑 🗣️ 🏠 🗺️📍\n🧑 💲🔐 👑 🗺️📍",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Got it: Bernie Sanders' state = **Vermont** (cheese, foliage, Green Mountains), 🐴🟦 = Democrat (donkey substitute), 💲🔐👑 = State Treasurer. 🐣🧑 = young person → I'll go with the current, young Democratic Vermont State Treasurer.\n\nGUESS: Mike Pieciak",
+      "guess": "Mike Pieciak",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "2a9aea14-e0bb-4dcc-ac69-2f2836051133",
+    "guesser": "82e81182-5d38-4617-a9cc-fbe19e99800d"
+  },
+  "ladder": {
+    "article_no": 4,
+    "round": 3,
+    "n_banned": 54,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

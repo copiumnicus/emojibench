@@ -1,0 +1,123 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "UFC BJJ 2",
+    "description": "Martial arts event in 2025",
+    "extract": "UFC BJJ 2: Tackett vs. Canuto was a submission grappling event produced by UFC Brazilian Jiu-Jitsu. The event was held at the UFC Apex in Las Vegas, Nevada, United States, on July 31, 2025 and was streamed live on YouTube.",
+    "url": "https://en.wikipedia.org/wiki/UFC_BJJ_2"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "max_turns": 30,
+  "seconds": 151.1,
+  "usage": {
+    "explainer": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 6500,
+      "cache_read_input_tokens": 16626,
+      "output_tokens": 4806,
+      "thinking_tokens": 4051,
+      "cost_usd": 0.15484240000000002,
+      "calls": 5,
+      "cost_usd_reported": 0.5076804
+    },
+    "guesser": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 6183,
+      "cache_read_input_tokens": 10531,
+      "output_tokens": 5328,
+      "thinking_tokens": 4361,
+      "cost_usd": 0.16030840000000002,
+      "calls": 5,
+      "cost_usd_reported": 0.4661728
+    },
+    "judge": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 2827,
+      "cache_read_input_tokens": 699,
+      "output_tokens": 20,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00058339,
+      "calls": 5
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Plan: the BJJ belt colours (⬜🟦🟪🟫⬛), Brazil's colours (💚💛), and tapping out (🫳🫳🫳) should lead to Brazilian Jiu-Jitsu. I'll add the UFC, Las Vegas and \"2\" clues later.\n\n<msg>⬜🟦🟪🟫⬛  💚💛  🫳🫳🫳</msg>",
+      "delivered": "⬜🟦🟪🟫⬛ 💚💛 🫳🫳🫳",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I'm reading the colored squares and hearts as a **belt ranking system**: white, blue, purple, brown, black (the Brazilian jiu-jitsu sequence), plus green and yellow (kids or judo belts). I'm not sure what 🫳🫳🫳 means. It could be tapping, pressing down, palm strikes, or \"drop.\"\n\nQuestions:\n- Is it a **martial art or style**, or a **person** (a fighter or instructor)?\n- Is 🫳 about grappling or pinning, or about a place?\n\nGUESS: Brazilian jiu-jitsu ranking system",
+      "guess": "Brazilian jiu-jitsu ranking system",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "The guesser has the BJJ link. Now I'll show that 🫳 means tapping out (🫳😖). Then I'll signal an event (🎤🔔), Las Vegas (card suits ♠️♥️♦️♣️), and the number 2 (⏸️, which looks like \"II\").\n\n<msg>💚💛⬜🟦🟪🟫⬛  🫳😖\n\n🎤🔔🏟\n\n♠️♥️♦️♣️\n\n⏸️</msg>",
+      "delivered": "💚💛⬜🟦🟪🟫⬛ 🫳😖\n🎤🔔\n♠️♥️♦️♣️\n⏸️",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🏟️"
+      ],
+      "retried": false,
+      "guesser": "Updated reading:\n- 💚💛 = **Brazil**, and the belts = **BJJ**, up to black belt.\n- 🫳😖 = a **submission** (pressure until it hurts, then tap).\n- 🎤🔔 = ring announcer and bell, so **fights or rounds**.\n- ♠️♥️♦️♣️ = a **fight card**.\n- ⏸️ = paused, postponed, or a break?\n\nIs it a **Brazilian MMA or BJJ fighter** (a person), or a specific **event** (like a UFC Fight Night in Brazil)? Does ⏸️ mean the event was postponed or cancelled? Please hint at the name or the event number.\n\nGUESS: UFC Fight Night: Shogun vs. Sonnen",
+      "guess": "UFC Fight Night: Shogun vs. Sonnen",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "They now think it's a UFC event in Brazil. I'll confirm it's an event (🙆🎪), make clear ⏸️ meant \"II\" (☝️☝️), and stress the belts again so they lean toward a jiu-jitsu-only event.\n\n<msg>🙆 🎪\n\n⏸️ = ☝️☝️\n\n⬜🟦🟪🟫⬛🫳😖  🙆\n♠️♥️♦️♣️ = 🎪</msg>",
+      "delivered": "🙆 🎪\n⏸️ ☝️☝️\n⬜🟦🟪🟫⬛🫳😖 🙆\n♠️♥️♦️♣️ 🎪",
+      "dropped_chars": 2,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "So 🙆 means it's a **person**, someone who is both a **BJJ grappler** (belts and submissions) and connected to a 🎪 **show**. Cards plus circus makes me think of **professional wrestling** (a show with a \"card,\" a ring announcer 🎤, and a bell 🔔). Or could ♠️♥️♦️♣️ mean **poker**, or a magician?\n\n⏸️ ☝️☝️: does the pause symbol stand for **\"II\"** (the Second) in the name? Or does it mean \"two careers,\" or a career break?\n\nPlease confirm:\n1. Pro wrestler? (yes/no)\n2. \"II\" in the name? (yes/no)\n3. Nationality?\n\nGUESS: Matt Riddle",
+      "guess": "Matt Riddle",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "They read 🙆 as \"a person,\" so I'll switch to clearer signs: ✖️ for no and ⭕ for yes. First, not a person but an event (👤✖️ 🎪⭕). Then I'll answer their three questions in order: not a pro wrestler, yes to \"II,\" and 🦅 for the USA.\n\n<msg>👤✖️   🎪⭕\n\n✖️\n⭕\n🦅</msg>",
+      "delivered": "👤✖️ 🎪⭕\n✖️\n⭕\n🦅",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "So it's an **event or show**, not a person: American 🦅, with \"II\" in its name, and BJJ submissions on the card. The leading candidates:\n- **UFC 2**: American, 1994, Royce Gracie (💚💛 Brazilian BJJ) won the tournament with submissions 🫳.\n- **Metamoris II**: an American submission-only BJJ event.\n\nIf it's not UFC 2, tell me whether it's a submission-only grappling event (no strikes) or MMA.\n\nGUESS: UFC 2",
+      "guess": "UFC 2",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "They're very close, with UFC 2 and submission-only grappling both in play. I'll say \"very close\" (🤏), confirm submission-only with no strikes (🫳😖⭕ 🩸✖️), and point to a recent event streamed online rather than 1994 (📱🎥, 👴✖️ 👶⭕).\n\n<msg>🤏\n\n🫳😖⭕   🩸✖️\n\n📱🎥\n\n👴✖️  👶⭕</msg>",
+      "delivered": "🤏\n🫳😖⭕ 🩸✖️\n📱🎥\n👴✖️ 👶⭕",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Got it: **submission-only grappling**, no strikes or blood, streamed online 📱🎥, and fairly recent. That fits **Metamoris** (Ralek Gracie's online pay-per-view submission-only events, held in LA).\n\nGUESS: Metamoris II",
+      "guess": "Metamoris II",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": "b3a9ad04-4b46-46af-b8a2-645305b04b0f",
+    "guesser": "1b5d3d9d-2ba5-4055-87c6-2d1022acb08d"
+  },
+  "ladder": {
+    "article_no": 5,
+    "round": 3,
+    "n_banned": 80,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

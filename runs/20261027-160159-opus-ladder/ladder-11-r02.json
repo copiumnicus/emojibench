@@ -1,0 +1,88 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Ayribobo",
+    "description": "Highest mountain of Turkmenistan",
+    "extract": "Ayribobo or Aýrybaba, officially named the Great Saparmyrat Turkmenbashi Peak in Turkmenistan since 2004, is a mountain in Central Asia. At 3,138 metres (10,295 ft) Aýrybaba is the highest mountain in Turkmenistan. It is located in the Köýtendag Range of the Pamir-Alay chain in the southeast of Turkmenistan on the Uzbekistani border.",
+    "url": "https://en.wikipedia.org/wiki/Ayribobo"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 40.5,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1670,
+      "cache_read_input_tokens": 1962,
+      "output_tokens": 978,
+      "thinking_tokens": 851,
+      "cost_usd": 0.0337288,
+      "calls": 2,
+      "cost_usd_reported": 0.0525438
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1655,
+      "cache_read_input_tokens": 940,
+      "output_tokens": 941,
+      "thinking_tokens": 652,
+      "cost_usd": 0.03246,
+      "calls": 2,
+      "cost_usd_reported": 0.05188
+    },
+    "judge": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 709,
+      "cache_read_input_tokens": 702,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00015322,
+      "calls": 2
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🗻🏆\n🟢🌙⭐⭐⭐⭐⭐\n🍈⛽🐕\n</msg>",
+      "delivered": "🗻🏆\n🟢🌙⭐⭐⭐⭐⭐\n🍈⛽🐕",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "My read so far: 🟢🌙 with five ⭐ looks like the flag of **Turkmenistan**, and 🍈⛽🐕 fits too (Turkmen melons, natural gas, Alabai dogs).\n\n🗻🏆 suggests a sports competition or club with a mountain connection. The Kopetdag mountains come to mind, so maybe a football club or a mountain-named trophy.\n\nIs it a sports team? Is it football? Or is it a mountain or competition itself?\n\nGUESS: FC Köpetdag Aşgabat",
+      "guess": "FC Köpetdag Aşgabat",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n👍🟢🌙⭐⭐⭐⭐⭐\n👎⚽👎🏆\n🗻👍🗻👍\n🧗☁️☁️📈\n↘️🗺️\n</msg>",
+      "delivered": "👍🟢🌙⭐⭐⭐⭐⭐\n👎⚽👎🏆\n🗻👍🗻👍\n🧗☁️☁️📈\n↘️🗺️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Got it: Turkmenistan yes, not football. It's a **mountain**, very high (🧗☁️📈, with 🏆 meaning \"highest\"?), in the southeast of the country. That sounds like the highest peak of Turkmenistan, in the Köýtendag range.\n\nGUESS: Aýrybaba",
+      "guess": "Aýrybaba",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "95442bb6-29f8-445c-9046-76172108a127",
+    "guesser": "874092ca-0487-4bca-9823-f9f35ba7770f"
+  },
+  "ladder": {
+    "article_no": 11,
+    "round": 2,
+    "n_banned": 22,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

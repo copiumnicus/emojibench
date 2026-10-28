@@ -1,0 +1,88 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Accord Pond",
+    "description": "Lake in Massachusetts, USA",
+    "extract": "Accord Pond is a 100-acre (0.40 km2) reservoir in Hingham, Norwell and Rockland, Massachusetts. The reservoir is located off Route 228 at its terminus with Route 3. The reservoir is visible from Route 3 northbound at Exit 14, the Route 228 off-ramp. The reservoir is a Class A source of water supply for the town of Hingham and Hull Ma. The outflow of the reservoir is Accord Brook, a tributary of the Weir River.",
+    "url": "https://en.wikipedia.org/wiki/Accord_Pond"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 46.2,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1948,
+      "cache_read_input_tokens": 1927,
+      "output_tokens": 995,
+      "thinking_tokens": 744,
+      "cost_usd": 0.0362788,
+      "calls": 2,
+      "cost_usd_reported": 0.057420799999999994
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2830,
+      "cache_read_input_tokens": 951,
+      "output_tokens": 2157,
+      "thinking_tokens": 1658,
+      "cost_usd": 0.0661844,
+      "calls": 2,
+      "cost_usd_reported": 0.1094302
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 707,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0001436,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Plan for the clues:\n- **Pond:** frog, lotus, lily.\n- **Massachusetts:** Boston cues like turkey, beans, tea, baseball and a red sock.\n- **Accord:** agreement and peace cues, plus a car, hinting at the Honda Accord.\n\n<msg>\n🐸🪷🌿\n\n🦃🫘🍵⚾🧦\n\n🫱🫲✍️✅☮️🕊️ 🚙\n</msg>",
+      "delivered": "🐸🪷🌿\n🦃🫘🍵⚾🧦\n🫱🫲✍️✅☮️🕊️ 🚙",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Here's my reading so far:\n\n- **Line 2 (🦃🫘🍵⚾🧦):** Boston or Massachusetts. Turkey points to Thanksgiving/Plymouth, beans to Boston baked beans, tea to the Boston Tea Party, and baseball plus socks to the Red Sox.\n- **Line 1 (🐸🪷🌿):** A pond, marsh or lily pad. Maybe the Frog Pond on Boston Common, or something named Pond, Marsh or Lily.\n- **Line 3 (🫱🫲✍️✅☮️🕊️ 🚙):** A peace agreement or treaty being signed, plus a car. Could the treaty emojis mean \"Accord\", as in Honda Accord? Or is the car a separate clue, like a road or drive, or a car brand such as Lotus?\n\nQuestions:\n1. Is the article about a person, a place, or a thing?\n2. Does line 1 spell out part of the name?\n3. Does the car relate to the treaty, or is it a separate clue?\n\nGUESS: Frog Pond (Boston Common)",
+      "guess": "Frog Pond (Boston Common)",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "The guesser already floated \"Accord\" and has \"pond\" right, so I'll confirm both and show the two parts in order.\n\n<msg>\n📍\n👍 🪷🐸\n👍 🚙🫱🫲\n\n🫱🫲✍️ 🐸🪷\n</msg>",
+      "delivered": "📍\n👍 🪷🐸\n👍 🚙🫱🫲\n🫱🫲✍️ 🐸🪷",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "That clears it up. It's a place, line 1 means pond, and the handshake plus car spells \"Accord\" (as in Honda Accord). The last line says the agreement happened at the pond.\n\nSo I think it's Accord Pond in Massachusetts, near Hingham, Norwell and Rockland. As I understand it, the pond got its name from a boundary agreement made there.\n\nGUESS: Accord Pond",
+      "guess": "Accord Pond",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "3e995c9d-d528-49a1-82b2-6b4ea832e91b",
+    "guesser": "cb338f9b-591f-41a4-97b5-f5f18c553e2e"
+  },
+  "ladder": {
+    "article_no": 10,
+    "round": 1,
+    "n_banned": 14,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

@@ -1,0 +1,75 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Ayribobo",
+    "description": "Highest mountain of Turkmenistan",
+    "extract": "Ayribobo or Aýrybaba, officially named the Great Saparmyrat Turkmenbashi Peak in Turkmenistan since 2004, is a mountain in Central Asia. At 3,138 metres (10,295 ft) Aýrybaba is the highest mountain in Turkmenistan. It is located in the Köýtendag Range of the Pamir-Alay chain in the southeast of Turkmenistan on the Uzbekistani border.",
+    "url": "https://en.wikipedia.org/wiki/Ayribobo"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 20.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 730,
+      "cache_read_input_tokens": 577,
+      "output_tokens": 610,
+      "thinking_tokens": 531,
+      "cost_usd": 0.018163399999999996,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 969,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 613,
+      "thinking_tokens": 400,
+      "cost_usd": 0.02002,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 702,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 9.22e-06,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n⛰️👑📏🔺\n🔥🕳️🏜️ 🐎🐪 🧶\n🇮🇷🇦🇫🇰🇿🌊 ➡️ 🎯\n</msg>",
+      "delivered": "⛰️👑📏🔺\n🔥🕳️🏜️ 🐎🐪 🧶\n🇮🇷🇦🇫🇰🇿🌊 ➡️ 🎯",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I think this is about **Turkmenistan**:\n- 🔥🕳️🏜️ looks like the Darvaza gas crater.\n- 🐎🐪 🧶 fit Akhal-Teke horses, camels and Turkmen carpets.\n- 🇮🇷🇦🇫🇰🇿🌊 lines up with Turkmenistan's borders: Iran, Afghanistan, Kazakhstan and the Caspian Sea.\n\nThe first line, ⛰️👑📏🔺, reads like \"highest mountain.\" So my guess is the highest peak in Turkmenistan.\n\nGUESS: Aýrybaba",
+      "guess": "Aýrybaba",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "c0cbdd49-5737-47ed-babb-9779cecdb752",
+    "guesser": "40327f87-dd38-46b1-8c8f-3f44b4d7f9a4"
+  },
+  "ladder": {
+    "article_no": 11,
+    "round": 1,
+    "n_banned": 6,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

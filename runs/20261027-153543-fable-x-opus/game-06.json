@@ -1,0 +1,65 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Jakob von Washington",
+    "description": "Bavarian general (1778–1848)",
+    "extract": "\nBaron Jacobus von Washington was a lieutenant general in the Bavarian Army and a distant relative of US President George Washington. Born in The Hague, Netherlands, he was christened James Washington. Most of his adult life was shaped by his participation in wars for and against Napoleonic France and his service to Ludwig I of Bavaria.",
+    "url": "https://en.wikipedia.org/wiki/Jakob_von_Washington"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 23.5,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1168,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 712,
+      "thinking_tokens": 598,
+      "cost_usd": 0.05898,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 970,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 607,
+      "thinking_tokens": 472,
+      "cost_usd": 0.019908,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 704,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 9.24e-06,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🇺🇸🥇🏛️💵🍒🪓 👨‍👦🌳🧬🔗 🧔\n👶🇳🇱🌷\n🪖🎖️⚔️ 🇩🇪🥨🍺👑\n⚔️🇫🇷🎩👑 ↔️\n</msg>",
+      "delivered": "🇺🇸🥇🏛️💵🍒🪓 👨‍👦🌳🧬🔗 🧔\n👶🇳🇱🌷\n🪖🎖️⚔️ 🇩🇪🥨🍺👑\n⚔️🇫🇷🎩👑 ↔️",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Decoding this: the first line points to George Washington (first president, cherry tree, axe), and the family-tree emojis suggest a relative of his. The rest reads as a man born in the Netherlands who served as a soldier in a German army and fought against France, likely in the Napoleonic Wars. That fits Jacob von Washington, a Dutch-born Bavarian general.\n\nGUESS: Jacob von Washington",
+      "guess": "Jacob von Washington",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "b8414663-981b-4eee-8fe2-f8fd0890c7c0",
+    "guesser": "b8dd70dc-fdea-4d12-bccb-3f96beb5e3ba"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

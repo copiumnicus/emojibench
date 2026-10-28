@@ -1,0 +1,91 @@
+{
+  "model": "haiku",
+  "model_id": "claude-haiku-5-5",
+  "effort": null,
+  "article": {
+    "title": "Dora Akunyili",
+    "description": "Nigerian pharmacist and government official (1954–2014)",
+    "extract": "Dora Nkem Akunyili was a Nigerian pharmacist and politician who served as the director-general of National Agency for Food and Drug Administration and Control (NAFDAC) of Nigeria from 2001 to 2008.",
+    "url": "https://en.wikipedia.org/wiki/Dora_Akunyili"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "max_turns": 30,
+  "seconds": 28.2,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2264,
+      "cache_read_input_tokens": 2912,
+      "output_tokens": 921,
+      "thinking_tokens": 762,
+      "cost_usd": 0.00094302,
+      "calls": 3,
+      "cost_usd_reported": 0.00203387
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2223,
+      "cache_read_input_tokens": 2420,
+      "output_tokens": 1425,
+      "thinking_tokens": 901,
+      "cost_usd": 0.0011819,
+      "calls": 3,
+      "cost_usd_reported": 0.00247977
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇳🇬👩💊🏛️ 🚫💊❌🛡️ 🏢📅⬇️</msg>",
+      "delivered": "🇳🇬👩💊🏛️ 🚫💊❌🛡️ 🏢📅⬇️",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Here's my reading so far: 🇳🇬 probably means Nigeria, 👩💊 a woman in health or medicine, 🏛️ government or an institution, and 🚫💊❌🛡️ something like \"no drugs, protection,\" maybe vaccines or prevention. 🏢📅⬇️ could mean an office with a schedule going down, a decline, or a term ending.\n\nMy working hypothesis is a Nigerian woman health official or administrator tied to a vaccination or disease-prevention program, possibly one whose term ended or whose agency was cut.\n\nIs the article about a person? If so, is she a government official? Is 🛡️ about vaccines, or about something like immunity or protection from disease?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👍👤🏛️ 🇳🇬👍 👎💉 💊🚫🔍 ✅🏁📅</msg>",
+      "delivered": "👍👤🏛️ 🇳🇬👍 👎💉 💊🚫🔍 ✅🏁📅",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Updating: 👍👤🏛️ means it's a person tied to government, and 🇳🇬 confirms Nigeria. 👎💉 rules out vaccines. 💊🚫🔍 suggests drug regulation or enforcement, and ✅🏁📅 suggests a finished tenure or a completed term with an end date.\n\nMy guess is a Nigerian official who headed a drug regulator or enforcement body, such as NAFDAC or NDLEA, and whose term has ended. Is that close? Was the role head or chairperson of the agency? Was she a woman?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>👍🏢🏛️ 👍👩 👍👑 🧑‍🔬💊 🕰️⏳ 🇳🇬✅</msg>",
+      "delivered": "👍🏢🏛️ 👍👩 👍👑 🧑‍🔬💊 🕰️⏳ 🇳🇬✅",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Yes to all of that: a woman who led a government agency, a pharmacist or drug scientist, and a historical figure. That points to Dora Akunyili, who was Director-General of NAFDAC, Nigeria's food and drug regulator, from 2001 to 2008.\n\nGUESS: Dora Akunyili",
+      "guess": "Dora Akunyili",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "36e89bd7-acf3-4c35-94a9-85647e61db10",
+    "guesser": "ecfdd259-f8f0-4d86-a189-185d95616e23"
+  },
+  "ladder": {
+    "article_no": 12,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": "runs/20261027-150551-haiku/game-12.json"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

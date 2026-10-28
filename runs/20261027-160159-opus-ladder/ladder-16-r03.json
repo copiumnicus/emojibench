@@ -1,0 +1,77 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Grande Seca",
+    "description": "Brazilian drought (1877–1878)",
+    "extract": "The Grande Seca, or the Brazilian drought of 1877–1878, was the largest and most devastating drought in Brazilian history. It caused the deaths of between 400,000 and 500,000 people. Of the 800,000 people who lived in the affected Northeastern region, around 120,000 migrated to the Amazon while 68,000 migrated to other parts of Brazil.",
+    "url": "https://en.wikipedia.org/wiki/Grande_Seca"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 33.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 923,
+      "cache_read_input_tokens": 577,
+      "output_tokens": 1380,
+      "thinking_tokens": 1195,
+      "cost_usd": 0.035107400000000004,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1072,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1455,
+      "thinking_tokens": 1239,
+      "cost_usd": 0.037683999999999995,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🇨🇴🇻🇪🇬🇾🇸🇷🇬🇫\n🇵🇪 ❓ 🌊\n🇧🇴🇵🇾🇺🇾🇦🇷\n\n☔🙅 ☁️🙅 🌊🙅 🥤🙅\n🌱🥀🟫🟫🟫\n🍞🙅 😵 ☠️☠️☠️☠️☠️\n👨‍👩‍👧‍👦⬅️⬅️ 🐒🐊\n</msg>",
+      "delivered": "🇨🇴🇻🇪🇬🇾🇸🇷🇬🇫\n🇵🇪 ❓ 🌊\n🇧🇴🇵🇾🇺🇾🇦🇷\n☔🙅 ☁️🙅 🌊🙅 🥤🙅\n🌱🟫🟫🟫\n🍞🙅 😵 ☠️☠️☠️☠️☠️\n👨‍👩‍👧‍👦⬅️⬅️ 🐒🐊",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🥀"
+      ],
+      "retried": false,
+      "guesser": "I read the flags as all of Brazil's neighbours, with ❓ marking Brazil itself in the middle and 🌊 the Atlantic on its east. The rest reads as no rain, no clouds and no water, dry brown land, no bread, and mass deaths. ⬅️⬅️ suggests long ago, and 🐒🐊 suggest Brazilian wildlife. So my guess is a historic drought and famine in Brazil, probably the Great Drought of 1877–78 in the Northeast.\n\nIf that's wrong, is it a different drought or year, a region like the Sertão, or something else, such as a plant?\n\nGUESS: Grande Seca",
+      "guess": "Grande Seca",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "d455a13b-a55e-4bd5-93fc-955b714ed2e7",
+    "guesser": "f4445ed0-7228-4f98-91d4-1bed305d926c"
+  },
+  "ladder": {
+    "article_no": 16,
+    "round": 3,
+    "n_banned": 56,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

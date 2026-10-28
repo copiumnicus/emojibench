@@ -1,0 +1,88 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Richmond Hill South",
+    "description": "Federal electoral district in Ontario, Canada",
+    "extract": "Richmond Hill South is a federal electoral district in Ontario, Canada, that has been represented in the House of Commons of Canada since 2004.",
+    "url": "https://en.wikipedia.org/wiki/Richmond_Hill_South"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 60.4,
+  "usage": {
+    "explainer": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 2118,
+      "cache_read_input_tokens": 1814,
+      "output_tokens": 1590,
+      "thinking_tokens": 1419,
+      "cost_usd": 0.123714,
+      "calls": 2,
+      "cost_usd_reported": 0.19421775000000002
+    },
+    "guesser": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 2862,
+      "cache_read_input_tokens": 979,
+      "output_tokens": 2133,
+      "thinking_tokens": 1869,
+      "cost_usd": 0.16490900000000003,
+      "calls": 2,
+      "cost_usd_reported": 0.26992475
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 711,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0001444,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🍁🦫🏒 🗺️📍 🙋✅📝\n🗼🏙️☝️\n🤑➕🌛 🏔️ 🔽\n</msg>",
+      "delivered": "🍁🦫🏒 🗺️📍 🙋✅📝\n🗼🏙️☝️\n🤑➕🌛 🏔️ 🔽",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I'm reading: Canada 🍁🦫🏒, a place 🗺️📍, maybe \"designated place\"/census-type community 🙋✅📝; north of Toronto (CN Tower city) 🗼🏙️☝️; and 🤑➕🌛 = \"Rich\"+\"mon(d)\" → Richmond, 🏔️ = Hill. Not sure what 🔽 means — \"south of\"/\"below\"/\"lower\"?\n\nIf 🔽 means the place is just south of or part of Richmond Hill, tell me (e.g. 👍/👎 and more clues). Otherwise:\n\nGUESS: Richmond Hill, Ontario",
+      "guess": "Richmond Hill, Ontario",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n🏔️🔽 👉 🧭🔽 ✅ (🧭☝️ ❌)\n📛: 🤑➕🌛 🏔️ 🧭🔽\n\n🍁🏠🏢 🧑‍💼🗺️✂️ 🙋☑️\n</msg>",
+      "delivered": "🏔️🔽 👉 🧭🔽 ✅ 🧭☝️ ❌\n📛 🤑➕🌛 🏔️ 🧭🔽\n🍁🏠🏢 🧑‍💼🗺️✂️ 🙋☑️",
+      "dropped_chars": 3,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Got it — \"Richmond Hill South\", a federal electoral district (riding) in Ontario.\n\nGUESS: Richmond Hill South",
+      "guess": "Richmond Hill South",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "6c39804f-3cbc-412a-a328-a60940139f8c",
+    "guesser": "3cae88a5-7142-43e9-b9df-65de80abd9ed"
+  },
+  "ladder": {
+    "article_no": 8,
+    "round": 1,
+    "n_banned": 8,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

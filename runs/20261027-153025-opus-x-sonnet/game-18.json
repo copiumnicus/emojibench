@@ -1,0 +1,107 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "sonnet",
+  "guesser_model_id": "claude-sonnet-5-5",
+  "effort": null,
+  "article": {
+    "title": "Motorchuna",
+    "description": "River in Yakutia (Sakha Republic), Russia",
+    "extract": "The Motorchuna is a river in Yakutia, Russia. It is a left tributary of the Lena with a length of 423 kilometres (263 mi). Its drainage basin area is 9,250 square kilometres (3,570 mi2). Since its river basin is uninhabited, the Motorchuna is one of the most untouched rivers in Yakutia; the waters are clean and there is abundant wildlife.",
+    "url": "https://en.wikipedia.org/wiki/Motorchuna"
+  },
+  "solved": true,
+  "turns_taken": 5,
+  "solved_turn": 5,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 71.9,
+  "usage": {
+    "explainer": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 3195,
+      "cache_read_input_tokens": 8000,
+      "output_tokens": 1853,
+      "thinking_tokens": 1219,
+      "cost_usd": 0.065892,
+      "calls": 5,
+      "cost_usd_reported": 0.21456659999999997
+    },
+    "guesser": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 2802,
+      "cache_read_input_tokens": 5748,
+      "output_tokens": 2122,
+      "thinking_tokens": 1800,
+      "cost_usd": 0.0336136,
+      "calls": 5,
+      "cost_usd_reported": 0.0894574
+    },
+    "judge": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2117,
+      "output_tokens": 109,
+      "thinking_tokens": 97,
+      "cost_usd": 7.627e-05,
+      "calls": 3
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "I'll start with the broad category: a river in the Russian far north (Yakutia, with mammoths and diamonds). After that I'll work toward the specific name.\n\n<msg>🇷🇺 ❄️🦣💎 🏞️〰️💧</msg>",
+      "delivered": "🇷🇺 ❄️🦣💎 🏞️〰️💧",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Russia, snow, mammoth and diamond, then a river and water. That points to Yakutia (Sakha). Diamonds suggest the Vilyuy basin or the Mirny area.\n\nGUESS: Vilyuy River",
+      "guess": "Vilyuy River",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "The guesser has the region right but the wrong river. I'll say no to Vilyuy and show this river feeding into a bigger one. Then I'll sound out the name: \"Motor\" + \"choo\" (train) + \"nah\".\n\n<msg>👎 🦣👍 〰️↘️🌊 🏍️⚙️ ➕ 🚂💨 ➕ 🙅</msg>",
+      "delivered": "👎 🦣👍 〰️↘️🌊 🏍️⚙️ ➕ 🚂💨 ➕ 🙅",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Thanks, so mammoth is right and river is wrong. Is it a settlement or town near a river that flows to the sea, perhaps in Yakutia? The motorcycle, train, then \"no\" part: does it mean there is no railway or road there? Or is it a locomotive, vehicle or railway line?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "The guesser read my 👎 as \"not a river\" when I meant \"not Vilyuy.\" I'll confirm it is a river, flowing into a bigger one. Then I'll mark the vehicle emojis as sounds (🗣️) so they read them as syllables of the name, not as transport.\n\n<msg>〰️💧👍👍 ➡️〰️🌊 🗣️ 🏍️ 🚂💨 🙅</msg>",
+      "delivered": "〰️💧👍👍 ➡️〰️🌊 🗣️ 🏍️ 🚂💨 🙅",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "The river is right, so it's probably a tributary of the Vilyuy or the Lena. Diamonds point to the Markha.\n\nGUESS: Markha River",
+      "guess": "Markha River",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "The guesser is still matching on the diamond clue. I'll drop it and focus on spelling out the name. \"Motorcycle minus bicycle\" should give \"motor.\" Then \"choo\" (train whistle) and \"nah,\" with 🗣️ marking these as sounds.\n\n<msg>👎 💎❌ 🗣️ 🏍️➖🚲 ➕ 🚂💨 ➕ 🙅</msg>",
+      "delivered": "👎 💎❌ 🗣️ 🏍️➖🚲 ➕ 🚂💨 ➕ 🙅",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Mammoth, no diamonds, flows into a bigger river. Mammoth fossils are famous along the Berelyokh.\n\nGUESS: Berelyokh",
+      "guess": "Berelyokh",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "The guesser keeps guessing from facts and ignores the sound clues. I'll make the name puzzle unmistakable: a name tag, then each syllable on its own line, then the assembled name.\n\n<msg>🏷️🗣️🧩\n🏍️➖🚲\n🚂💨\n🙅\n🏍️➖🚲 🚂💨 🙅 ➡️ 🏷️</msg>",
+      "delivered": "🏷️🗣️🧩\n🏍️➖🚲\n🚂💨\n🙅\n🏍️➖🚲 🚂💨 🙅 ➡️ 🏷️",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Motor, choo, no → \"Motorchuna\", a river in Yakutia.\n\nGUESS: Motorchuna",
+      "guess": "Motorchuna",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "f32e0999-bfd5-4314-8f8c-eeaa3a224af2",
+    "guesser": "fba3835d-3eee-4c91-a82c-4f620a7e8679"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

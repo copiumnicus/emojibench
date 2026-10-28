@@ -1,0 +1,67 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "fable",
+  "effort": null,
+  "article": {
+    "title": "Dorothy Cottrell",
+    "description": "Australian writer",
+    "extract": "Ida Dorothy Ottley Cottrell was an Australian writer. Born in Picton, she contracted infantile paralysis as a child and spent the rest of her life in a wheelchair. Cottrell married Walter Mackenzie Cottrell on 23 May 1922. Her first novel, The Singing Gold, was published in 1928. She wrote a story Wilderness Orphan (1936) which was the basis for the feature film Orphan of the Wilderness (1936). She lived for a time in the US and also worked as an artist and cartoonist.",
+    "url": "https://en.wikipedia.org/wiki/Dorothy_Cottrell"
+  },
+  "solved": false,
+  "turns_taken": 0,
+  "solved_turn": null,
+  "error": {
+    "turn": 1,
+    "role": "guesser",
+    "message": "claude failed after retries: You've hit your session limit · resets 7:20pm (UTC)"
+  },
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 1081.8,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1158,
+      "cache_read_input_tokens": 577,
+      "output_tokens": 5141,
+      "thinking_tokens": 4820,
+      "cost_usd": 0.28037425000000005,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [],
+  "sessions": {
+    "explainer": "11326d2e-bafe-437a-b72e-afd531d976bc",
+    "guesser": "7d76f54a-ef5d-4384-8cb5-a5624ca55843"
+  },
+  "ladder": {
+    "article_no": 13,
+    "round": 3,
+    "n_banned": 94,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

@@ -1,0 +1,110 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Baggio–Yoshinari syndrome",
+    "description": "Medical condition",
+    "extract": "Baggio–Yoshinari syndrome (BYS), formerly known as the Brazilian Lyme disease-like illness (BLDLI) and Brazilian Human Borreliosis, is an anthropozoonotic infectious disease of infectious-reactional character transmitted by bites of ticks from Amblyomma, Rhipicephalus and Dermacentor genera, that clinically resembles the Lyme Disease (LD) seen in the northern hemisphere. It is postulated to be caused by mutant Borrelia burgdorferi sensu lato spirochetes that assumed atypical pleomorphic forms and latent behavior in an attempt to adapt to the Brazilian ecosystem, explaining many particularities of the condition relative to the classical Lyme Disease, such as being transmitted by ticks others than those within the Ixodes ricinus complex, the difficulty culturing the etiological agent in traditional medium (BSK-II) and the poor growing of the spirochetes in atypical medium (SP-4), the frequent reactivations due to evading and surviving antibiotic treatment and eliciting low and transient immune response to Borrelia burgdorferi sensu lato antigens because of the hiding from the immune system. The pleomorphic forms are thought to include round bodies resembling Chlamydia, non spiralled spirochete-like forms, blebs and cell wall deficient variants resembling Mycoplasma as seen in dark field microscopy and electron field microscopy searching bacteria in the blood of patients. Spirochete-like structures are seen in around 90% of the patients when analyzing their peripheral blood in dark field microscopy.",
+    "url": "https://en.wikipedia.org/wiki/Baggio%E2%80%93Yoshinari_syndrome"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 263.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 7360,
+      "cache_read_input_tokens": 15402,
+      "output_tokens": 6405,
+      "thinking_tokens": 5998,
+      "cost_usd": 0.1931968,
+      "calls": 4,
+      "cost_usd_reported": 0.5508088
+    },
+    "guesser": {
+      "input_tokens": 22,
+      "cache_creation_input_tokens": 20946,
+      "cache_read_input_tokens": 11848,
+      "output_tokens": 12588,
+      "thinking_tokens": 11812,
+      "cost_usd": 0.42415520000000007,
+      "calls": 4,
+      "cost_usd_reported": 1.0197935
+    },
+    "judge": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2112,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 12,
+      "thinking_tokens": 0,
+      "cost_usd": 0.000429,
+      "calls": 3
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🇨🇴🇻🇪🇬🇾🇸🇷🇬🇫\n🇵🇪 ❓\n🇧🇴🇵🇾🇦🇷🇺🇾\n\n🐶☑️ 🧿 ➿ 💉\n</msg>",
+      "delivered": "🇨🇴🇻🇪🇬🇾🇸🇷🇬🇫\n🇵🇪 ❓\n🇧🇴🇵🇾🇦🇷🇺🇾\n🐶☑️ 🧿 ➿ 💉",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I read your flags as a South American distribution: Colombia, the Guianas, Venezuela, Bolivia, Paraguay, Argentina and Uruguay, with Peru uncertain. Brazil, Chile and Ecuador are left out. Is Brazil included but its flag banned?\n\nMy best reading of the rest is a living thing: ➿ = snake or worm, 💉 = venom or blood, 🧿 = eye, 🐶☑️ = dog-related.\n- If it's a snake, which snake has \"dog\" or \"eye\" in its name?\n- If it's a parasite, is it one that infects dogs?\n\nPlease confirm: is ➿ a snake (👍) or a worm (👎)?\n\nGUESS: Crotalus durissus",
+      "guess": "Crotalus durissus",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n❓ 💯\n\n➿ 🙅🐍 🙅🐛\n☑️🕰️ ⬅️ 🐶🐄🧍\n🧭⬆️ 🪞 🧭⬇️❓\n</msg>",
+      "delivered": "❓ 💯\n➿ 🙅🐍 🙅🐛\n☑️🕰️ ⬅️ 🐶🐄🧍\n🧭⬆️ 🪞 🧭⬇️❓",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Here's how I'm reading this. ➿ is spiral-shaped, but it's not a snake or a worm. It's something you vaccinate against, and it infects dogs, cattle and humans. 🧿 could be the red eyes it causes. ❓💯 points to \"interrogans\", the bacterium shaped like a question mark.\n\nGUESS: Leptospira interrogans",
+      "guess": "Leptospira interrogans",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n🔥➿ ↗️\n\n🐞🦗🪳 ☑️🕰️ 😬🐶🧍\n🧿💪 🦿🦾\n🍈 🔜\n\n🌐 ❓ = 🇦🇷⬆️ 🇨🇴⬇️\n</msg>",
+      "delivered": "🔥➿ ↗️\n🐞🦗🪳 ☑️🕰️ 😬🐶🧍\n🧿💪 🦿🦾\n🍈\n🌐 ❓ 🇦🇷⬆️ 🇨🇴⬇️",
+      "dropped_chars": 2,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Big update: I now read ☑️ as \"tick\" (check mark = tick), and 🕰️ as tick-tock confirming the word. So the subject is a hard tick (or the agent it carries) that feeds on dogs, cattle and humans, is spread across northern and southern South America, and 🇬🇫 + 🔥 + 🍈 make me think of **Cayenne**.\n\nQuestions:\n1. Is the article title a Latin binomial? (👍/👎)\n2. Is the subject the tick itself, not the microbe? (👍/👎)\n3. Does 🧿 mean \"eye\" as part of the genus name (Amblyomma = blunt eye)?\n4. Does 🧭⬆️🪞🧭⬇️ mean the species was split into a northern and a southern form?\n\nGUESS: Amblyomma cajennense",
+      "guess": "Amblyomma cajennense",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>\n🙅 🙅 🙅\n\n☑️🕰️ 🫎 ➿ 🧿💪 🦿 🤮 🌍⬆️\n🪞\n🏆⭐⭐⭐⭐⭐ 🌰 🥁 🏝️🐊\n\n🧑‍🔬🧑‍🔬\n</msg>",
+      "delivered": "🙅 🙅 🙅\n☑️🕰️ 🫎 ➿ 🧿💪 🦿 🤮 🌍⬆️\n🪞\n🏆⭐⭐⭐⭐⭐ 🌰 🥁 🏝️🐊\n🧑‍🔬🧑‍🔬",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "🪞 clicked: this is the southern-hemisphere mirror of the northern tick/deer/spirochete picture, and 🧑‍🔬🧑‍🔏 says it's named after two researchers — 🏆⭐ Baggio (footballer) + 🏝️🐊 Yoshi + 🥁 (Japan).\n\nGUESS: Baggio–Yoshinari syndrome",
+      "guess": "Baggio–Yoshinari syndrome",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "55a8d868-b717-4be4-b8ba-15411f2f323f",
+    "guesser": "c66ce91e-2b14-49fe-840b-92536a569d42"
+  },
+  "ladder": {
+    "article_no": 3,
+    "round": 5,
+    "n_banned": 104,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

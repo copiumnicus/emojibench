@@ -1,0 +1,241 @@
+{
+  "model": "sonnet",
+  "model_id": "claude-sonnet-5-5",
+  "effort": null,
+  "article": {
+    "title": "Jakob von Washington",
+    "description": "Bavarian general (1778–1848)",
+    "extract": "\nBaron Jacobus von Washington was a lieutenant general in the Bavarian Army and a distant relative of US President George Washington. Born in The Hague, Netherlands, he was christened James Washington. Most of his adult life was shaped by his participation in wars for and against Napoleonic France and his service to Ludwig I of Bavaria.",
+    "url": "https://en.wikipedia.org/wiki/Jakob_von_Washington"
+  },
+  "solved": true,
+  "turns_taken": 18,
+  "solved_turn": 18,
+  "max_turns": 30,
+  "seconds": 188.8,
+  "usage": {
+    "explainer": {
+      "input_tokens": 70,
+      "cache_creation_input_tokens": 7900,
+      "cache_read_input_tokens": 68618,
+      "output_tokens": 2656,
+      "thinking_tokens": 160,
+      "cost_usd": 0.0720236,
+      "calls": 18,
+      "cost_usd_reported": 0.6024600999999999
+    },
+    "guesser": {
+      "input_tokens": 70,
+      "cache_creation_input_tokens": 11189,
+      "cache_read_input_tokens": 98469,
+      "output_tokens": 8180,
+      "thinking_tokens": 6570,
+      "cost_usd": 0.14638980000000001,
+      "calls": 18,
+      "cost_usd_reported": 1.3004687
+    },
+    "judge": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 3534,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 20,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0007178,
+      "calls": 5
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇺🇸👴🎩 ➡️ 🇩🇪🇧🇪⚔️🇫🇷 👑🥨🍺</msg>",
+      "delivered": "🇺🇸👴🎩 ➡️ 🇩🇪🇧🇪⚔️🇫🇷 👑🥨🍺",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Here is my reading so far: an older American man, possibly a diplomat or soldier, who went to Germany and Belgium. There was a conflict involving France, and there is a king (Bavaria, given the pretzel and beer?).\n\nQuestions:\n1. Is the article about a person?\n2. Is the time period the 1800s (Franco-Prussian War) or the 1900s?\n3. Is it a military or political figure?\n\nPlease answer with emojis, e.g. 📅 for the century.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👍 📅⬅️ 🗡️⚔️👍 🇳🇱🏰 🇺🇸🧑‍🤝‍🧑 1️⃣7️⃣7️⃣8️⃣</msg>",
+      "delivered": "👍 📅⬅️ 🗡️⚔️👍 🇳🇱🏰 🇺🇸🧑‍🤝‍🧑",
+      "dropped_chars": 8,
+      "retried": false,
+      "guesser": "It's a person and a military figure from earlier than the 1900s. The Netherlands, a castle, and two US people may be involved. Is this someone who was born in Europe and went to America (like a Revolutionary War officer), or the reverse? Was he a general? Was the war the American Revolution, the Napoleonic Wars, or the Franco-Prussian War?\n\nGUESS: Friedrich Wilhelm von Steuben",
+      "guess": "Friedrich Wilhelm von Steuben",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>👎 🇩🇪➡️🇺🇸 ❌ 🇺🇸🇩🇪 🧑‍🤝‍🧑 👍 ⚔️🇫🇷 👑🥨 🎖️👍 🇳🇱👶 🇺🇸🧔🎩 👨‍👩‍👦 🔥</msg>",
+      "delivered": "👎 🇩🇪➡️🇺🇸 ❌ 🇺🇸🇩🇪 🧑‍🤝‍🧑 👍 ⚔️🇫🇷 👑🥨 🎖️👍 🇳🇱👶 🇺🇸🧔🎩 👨‍👩‍👦 🔥",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Got it: he was born in the Netherlands, has a US connection (maybe a bearded man in a hat, like a Civil War officer), and there is a family link. He fought France and has a Bavarian connection.\n\nDid he fight in the American Civil War? Was he a general? Is the family link a famous father or son? Please reply with emojis, or a letter hint for his name.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>👎 🇺🇸🧔🎩 👨‍👩‍👦 🔥 🎖️👍 ⚔️🇫🇷 👑🥨 🇳🇱👶 1️⃣8️⃣ 🏛️ 🧑‍🤝‍🧑 🇺🇸🎩🧔 ➡️ 🌳👨‍👨‍👦‍👦 🔥</msg>",
+      "delivered": "👎 🇺🇸🧔🎩 👨‍👩‍👦 🔥 🎖️👍 ⚔️🇫🇷 👑🥨 🇳🇱👶 🏛️ 🧑‍🤝‍🧑 🇺🇸🎩🧔 ➡️ 🌳👨‍👨‍👦‍👦 🔥",
+      "dropped_chars": 4,
+      "retried": false,
+      "guesser": "Is the 🇺🇸🧔🎩 figure Abraham Lincoln, or another US president? Is the article's subject an ancestor or relative of a US president? Which president? A first-letter hint would help.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>👍 🇺🇸🎩🧔 ❌🅰️ 🏛️1️⃣ 🌳👨‍👨‍👦‍👦 🔥 🧑‍🤝‍🧑 🇺🇸👑❌ 🪖🇩🇪 🔥 💂‍♂️👑🥨🍺 🇳🇱👶 🔥</msg>",
+      "delivered": "👍 🇺🇸🎩🧔 ❌ 🏛️ 🌳👨‍👨‍👦‍👦 🔥 🧑‍🤝‍🧑 🇺🇸👑❌ 🪖🇩🇪 🔥 💂‍♂️👑🥨🍺 🇳🇱👶 🔥",
+      "dropped_chars": 3,
+      "retried": false,
+      "guesser": "Is he Lincoln's ancestor, relative, or namesake? Was he in the Bavarian service (a guard) in the 1600s or 1700s? Is he a count or baron? Please give the first letter of the name in a letter emoji, like 🅰️.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 6,
+      "explainer_raw": "<msg>👎 🇺🇸🎩🧔 ❌ 1️⃣ 🏛️ 🇺🇸🧑‍✈️ 🌳👨‍👨‍👦‍👦 🔥 🪖🇩🇪 💂‍♂️👑🥨🍺 👍 🇳🇱👶 🔥 🎩👑 👍 🕰️1️⃣8️⃣ 🔥</msg>",
+      "delivered": "👎 🇺🇸🎩🧔 ❌ 🏛️ 🇺🇸🧑‍✈️ 🌳👨‍👨‍👦‍👦 🔥 🪖🇩🇪 💂‍♂️👑🥨🍺 👍 🇳🇱👶 🔥 🎩👑 👍 🕰️ 🔥",
+      "dropped_chars": 6,
+      "retried": false,
+      "guesser": "Is he the father or grandfather of a US military officer (general or admiral)? Which war did he fight against France: the Napoleonic Wars or earlier? Could you spell the surname's first letter with an emoji, such as 🅱️?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 7,
+      "explainer_raw": "<msg>👎 🇺🇸🧑‍✈️ 🌳👨‍👨‍👦‍👦 🧑‍🤝‍🧑 🇺🇸🏛️ 👴 1️⃣ 🏛️ 🇺🇸 🏠🌳🔗 🎖️🇩🇪 🔥 ⚔️ 👑🇫🇷🐴🇷🇺❄️ 🔥 🌳🌳🌳 🧑‍🤝‍🧑 🇺🇸🏛️ 🥇👴 🔥 🏛️🗽❌ 🔥</msg>",
+      "delivered": "👎 🇺🇸🧑‍✈️ 🌳👨‍👨‍👦‍👦 🧑‍🤝‍🧑 🇺🇸🏛️ 👴 🏛️ 🇺🇸 🏠🌳🔗 🎖️🇩🇪 🔥 ⚔️ 👑🇫🇷🐴🇷🇺❄️ 🔥 🌳🌳🌳 🧑‍🤝‍🧑 🇺🇸🏛️ 🥇👴 🔥 🏛️🗽❌ 🔥",
+      "dropped_chars": 2,
+      "retried": false,
+      "guesser": "Do I have this right? He was born in the Netherlands, became a Bavarian general in Napoleon's Russian campaign of 1812, and his descendant (or relative) was a US politician or official. Does his name start with \"Van\" or \"von\"? Is it Zandt? Is the family connection to Congress?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 8,
+      "explainer_raw": "<msg>🇺🇸🏛️🥇👴 🎩 👍 🌳🔗 🧑‍🤝‍🧑 👍 1️⃣ 🏛️ 🇺🇸 🔥 🔥 🇺🇸🏠⚪ 💵1️⃣ 🌳🌳 🔥</msg>",
+      "delivered": "🇺🇸🏛️🥇👴 🎩 👍 🌳🔗 🧑‍🤝‍🧑 👍 🏛️ 🇺🇸 🔥 🔥 🇺🇸🏠⚪ 💵 🌳🌳 🔥",
+      "dropped_chars": 4,
+      "retried": false,
+      "guesser": "Is the old man in the hat George Washington on the dollar bill? Is the subject a German or Bavarian officer with the surname Washington, or a relative of George Washington's family?\n\nGUESS: Georg von Washington",
+      "guess": "Georg von Washington",
+      "correct": false
+    },
+    {
+      "turn": 9,
+      "explainer_raw": "<msg>👍 👍 🇺🇸🏠⚪💵 🌳🔗 🧑‍🤝‍🧑 🇩🇪👑🥨 🪖 🎖️ 🇳🇱👶 ⚔️🇫🇷 🔥 🅹 🔥 1️⃣7️⃣7️⃣8️⃣ 🔥</msg>",
+      "delivered": "👍 👍 🇺🇸🏠⚪💵 🌳🔗 🧑‍🤝‍🧑 🇩🇪👑🥨 🪖 🎖️ 🇳🇱👶 ⚔️🇫🇷 🔥 🔥 🔥",
+      "dropped_chars": 9,
+      "retried": false,
+      "guesser": "Both of my questions got a thumbs up, so I think the president is Washington, but the name I guessed was wrong. Is the subject's surname Washington at all, or just a relative? Is the first name Georg, Karl, Johann, or Ludwig? Please try emoji letters (🇦–🇿 style) for the first name's initial.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 10,
+      "explainer_raw": "<msg>👍 🇺🇸🏠⚪💵 🌳🔗 🧑‍🤝‍🧑 🔥 🇩🇪👑🥨 🪖 🎖️ ⚔️🇫🇷 🔥 🇯 🇦 🇰 🇴 🇧 🔥 🇻 🇴 🇳 🔥</msg>",
+      "delivered": "👍 🇺🇸🏠⚪💵 🌳🔗 🧑‍🤝‍🧑 🔥 🇩🇪👑🥨 🪖 🎖️ ⚔️🇫🇷 🔥 🔥 🔥",
+      "dropped_chars": 8,
+      "retried": false,
+      "guesser": "Is the connection to the Washington family a marriage, a descendant, or an ancestor? Was he a general in the 1812 Bavarian army (Wrede's corps)? Is his surname French-sounding, such as \"de la Treille\"? I'd appreciate any letter hint.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 11,
+      "explainer_raw": "<msg>👍 🎖️ 🇩🇪🪖 👑🥨 🇺🇸🏠⚪💵 🌳🔗 🧑‍🤝‍🧑 🔥 🇺🇸🧑‍🤝‍🧑 🇩🇪🧑‍🤝‍🧑 🔥 🇺🇸 👴 🏛️ 🥇 ✅ 🧑‍🤝‍🧑 🌳 🔥 🇯 🇦 🇰 🇴 🇧</msg>",
+      "delivered": "👍 🎖️ 🇩🇪🪖 👑🥨 🇺🇸🏠⚪💵 🌳🔗 🧑‍🤝‍🧑 🔥 🇺🇸🧑‍🤝‍🧑 🇩🇪🧑‍🤝‍🧑 🔥 🇺🇸 👴 🏛️ 🥇 ✅ 🧑‍🤝‍🧑 🌳 🔥",
+      "dropped_chars": 5,
+      "retried": false,
+      "guesser": "I'm still unsure. Let me test a name guess.\n\nGUESS: Maillot de la Treille",
+      "guess": "Maillot de la Treille",
+      "correct": false
+    },
+    {
+      "turn": 12,
+      "explainer_raw": "<msg>👎 🇺🇸🏠⚪💵 🧑 🇩🇪🎖️ 🏷️ 🔥 🇺🇸🏠⚪💵 🏷️ 🧑‍🤝‍🧑 🔥 🇩🇪🧑 🏷️ 🔥 🅹 🔥 🇳🇱👶 🔥 🏛️ 🎩 🔥 1️⃣7️⃣7️⃣8️⃣ ➡️ 1️⃣8️⃣4️⃣8️⃣</msg>",
+      "delivered": "👎 🇺🇸🏠⚪💵 🧑 🇩🇪🎖️ 🏷️ 🔥 🇺🇸🏠⚪💵 🏷️ 🧑‍🤝‍🧑 🔥 🇩🇪🧑 🏷️ 🔥 🔥 🇳🇱👶 🔥 🏛️ 🎩 🔥 ➡️",
+      "dropped_chars": 17,
+      "retried": false,
+      "guesser": "Does the officer share a surname with a US president, such as Washington, Grant, Hayes, or Taylor? Is it Washington? Does the name start with \"von\"? Please spell it in emoji letters if you can.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 13,
+      "explainer_raw": "<msg>👍 🇺🇸🏠⚪💵 🏷️ 🔥 👍 🇩🇪🧑 🏷️ 🔥 🇩🇪🎖️ 🇺🇸🏠⚪💵 🏷️ 🔥 🅹</msg>",
+      "delivered": "👍 🇺🇸🏠⚪💵 🏷️ 🔥 👍 🇩🇪🧑 🏷️ 🔥 🇩🇪🎖️ 🇺🇸🏠⚪💵 🏷️ 🔥",
+      "dropped_chars": 1,
+      "retried": false,
+      "guesser": "Okay, so the officer shares the surname Washington. Was his first name George (Georg), or something else? I'll try a guess.\n\nGUESS: George Washington (Bavarian general)",
+      "guess": "George Washington (Bavarian general)",
+      "correct": false
+    },
+    {
+      "turn": 14,
+      "explainer_raw": "<msg>👎 🇩🇪🎖️ 🇺🇸🏠⚪💵 🏷️ 👍 🔥 🔡 🅹 🔥 🇳🇱👶 🔥 🇩🇪🎖️ 🇺🇸🏠⚪💵 🏷️ 🧑 🇩🇪 🏷️ 🔥 🇬🇧👶🏷️ 🔥 🅹🅰️🅲🅾️🅱️ 🔥</msg>",
+      "delivered": "👎 🇩🇪🎖️ 🇺🇸🏠⚪💵 🏷️ 👍 🔥 🔥 🇳🇱👶 🔥 🇩🇪🎖️ 🇺🇸🏠⚪💵 🏷️ 🧑 🇩🇪 🏷️ 🔥 🇬🇧👶🏷️ 🔥 🔥",
+      "dropped_chars": 7,
+      "retried": false,
+      "guesser": "Is his name British (born in the Netherlands to British parents)? Is it one of these: Adams, Jackson, Grant, Taylor, Harrison, Pierce, Hamilton, Monroe, Johnson, Polk? Please mark the right one (👍 on the correct one).",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 15,
+      "explainer_raw": "<msg>👍 🇺🇸🏠⚪💵 🏷️ 🔥 🇩🇪🎖️ 🏷️ 🧑 🇩🇪 🔥 🔥 🔥 🇺🇸🏠⚪💵 🧑 🇩🇪🎖️ 🏷️ 🧑‍🤝‍🧑 🇳🇱🏰 👶 🔥</msg>",
+      "delivered": "👍 🇺🇸🏠⚪💵 🏷️ 🔥 🇩🇪🎖️ 🏷️ 🧑 🇩🇪 🔥 🔥 🔥 🇺🇸🏠⚪💵 🧑 🇩🇪🎖️ 🏷️ 🧑‍🤝‍🧑 🇳🇱🏰 👶 🔥",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Is it one of these: Wilson, Ford, Carter, Bush, Hoover, Taft, Cleveland, Roosevelt, Truman, Johnson, Kennedy, Nixon, Reagan, Grant? Please give 👍 only to the right one, or tell me a rough letter count with a number of 🔤.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 16,
+      "explainer_raw": "<msg>👎 🇺🇸🏠⚪💵 🧑 🇩🇪🎖️ 🏷️ 🔥 🧑 🇩🇪 🏷️ 🔥 🅹 🔥 🇩🇪 🏷️ 🇺🇸🏠⚪💵 🏷️ 🔥 🏛️ 🥇 👴 🎩 💵1️⃣ ⚪🏠 🇺🇸 🌟🌟🌟 🔥 🇺🇸🗺️🏙️ 🏛️ 🗼 🔥</msg>",
+      "delivered": "👎 🇺🇸🏠⚪💵 🧑 🇩🇪🎖️ 🏷️ 🔥 🧑 🇩🇪 🏷️ 🔥 🔥 🇩🇪 🏷️ 🇺🇸🏠⚪💵 🏷️ 🔥 🏛️ 🥇 👴 🎩 💵 ⚪🏠 🇺🇸 🌟🌟🌟 🔥 🇺🇸🗺️🏙️ 🏛️ 🗼 🔥",
+      "dropped_chars": 3,
+      "retried": false,
+      "guesser": "Given the capital city clue, I'll assume the surname is Washington. Is his given name Wilhelm, Friedrich, Karl, Ludwig, Maximilian, or Franz? Give 👍 to the right one.\n\nGUESS: Wilhelm von Washington",
+      "guess": "Wilhelm von Washington",
+      "correct": false
+    },
+    {
+      "turn": 17,
+      "explainer_raw": "<msg>👍 🇩🇪🎖️ 🇺🇸🏠⚪💵 🏷️ 🔥 🔡 🅹 🔥 🇩🇪 🏷️ 🧑 🔥 🅹🅰️🅺🅾️🅱️ 🔥 🔥</msg>",
+      "delivered": "👍 🇩🇪🎖️ 🇺🇸🏠⚪💵 🏷️ 🔥 🔥 🇩🇪 🏷️ 🧑 🔥 🔥 🔥",
+      "dropped_chars": 7,
+      "retried": false,
+      "guesser": "Let's pin down the first name. Could you show its first letter as an alphabet position (e.g. A is 1️⃣, J is 🔟)? Or give its length in letters using numbers? Is it Johann, Karl, Heinrich, Georg, or Josef?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 18,
+      "explainer_raw": "<msg>👎 Johann Karl Heinrich Georg Josef 🪜👼 🐑👨‍🦳 🪜👼 🔥 🇩🇪 🏷️ 🪜 🔥 🪜🇩🇪</msg>",
+      "delivered": "👎 🪜👼 🐑👨‍🦳 🪜👼 🔥 🇩🇪 🏷️ 🪜 🔥 🪜🇩🇪",
+      "dropped_chars": 28,
+      "retried": false,
+      "guesser": "Jacob (the ladder with the angel) looks right to me. Is the first name Jacob/Jakob?\n\nGUESS: Jakob von Washington",
+      "guess": "Jakob von Washington",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "422f6494-b5fe-41c3-973e-790e976d45f8",
+    "guesser": "0c665747-1b17-4798-ac53-ccc20067393d"
+  },
+  "ladder": {
+    "article_no": 6,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": "runs/20261027-150551-sonnet/game-06.json"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

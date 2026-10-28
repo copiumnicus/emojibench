@@ -1,0 +1,62 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Iron(III) sulfate",
+    "description": "Chemical compound",
+    "extract": "Iron(III) sulfate or ferric sulfate is a family of inorganic compounds with the formula Fe2(SO4)3(H2O)n. A variety of hydrates are known, including the most commonly encountered form of \"ferric sulfate\". Solutions are used in dyeing as a mordant and as a coagulant for industrial wastes. Solutions of ferric sulfate are also used in the processing of aluminum and steel.",
+    "url": "https://en.wikipedia.org/wiki/Iron(III)_sulfate"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "max_turns": 30,
+  "seconds": 17.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1162,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 795,
+      "thinking_tokens": 718,
+      "cost_usd": 0.025204000000000004,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 920,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 299,
+      "thinking_tokens": 173,
+      "cost_usd": 0.013348,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Spacing to group.<msg>\n🧪⚗️\n\n🔩🧲 ➕➕➕\n\n🌋🥚💛 🫁🫁🫁🫁\n\n👕🎨 🏭💧\n</msg>",
+      "delivered": "🧪⚗️\n🔩🧲 ➕➕➕\n🌋🥚💛 🫁🫁🫁🫁\n👕🎨 🏭💧",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Chemistry clues: iron (🔩🧲) in the +3 state (➕➕➕), sulfur (🌋🥚💛), and four oxygens (🫁🫁🫁🫁), so sulfate. It's used in dyeing as a mordant (👕🎨) and in industrial water treatment (🏭💧).\n\nGUESS: Iron(III) sulfate",
+      "guess": "Iron(III) sulfate",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "2efd7040-dbde-4f7c-905a-5169a008086b",
+    "guesser": "8f16edb0-29d9-4f7b-9123-334d32ec5bdb"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

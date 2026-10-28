@@ -1,0 +1,65 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Iglesia de Santa Ana (Santiago de Chile)",
+    "description": "National monument of Chile",
+    "extract": "The Iglesia de Santa Ana is a Catholic church in downtown Santiago de Chile. It is located at the northwest corner of Catedral and San Martín streets. The church was declared as a National Monument of Chile in 1970, within the category of Historic Monuments. Santa Ana metro station is named after the church.",
+    "url": "https://en.wikipedia.org/wiki/Iglesia_de_Santa_Ana_(Santiago_de_Chile)"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 19.4,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1143,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 343,
+      "thinking_tokens": 223,
+      "cost_usd": 0.016012,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 943,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 628,
+      "thinking_tokens": 509,
+      "cost_usd": 0.05028,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 717,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0001456,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Plan: signal \"church in Santiago, Chile\", then hint at Saint Anne (grandmother of Jesus, mother of Mary) and the metro station named after it.\n\n<msg>\n⛪ 🇨🇱 🏙️\n\n😇 👵 ➡️ 👩‍🍼 ➡️ 👶✝️\n\n🚇\n</msg>",
+      "delivered": "⛪ 🇨🇱 🏙️\n😇 👵 ➡️ 👩‍🍼 ➡️ 👶✝️\n🚇",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "I'm reading: a church in a Chilean city (Santiago?), named after a holy grandmother → mother → baby Jesus = Saint Anne (Santa Ana, grandmother of Jesus). And there's a metro station nearby/named after it.\n\nIs the article about the church itself, or the metro station?\n\nGUESS: Santa Ana Church, Santiago",
+      "guess": "Santa Ana Church, Santiago",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "985cb847-3631-4ae9-b219-66eec9fc22a9",
+    "guesser": "92ebef43-5f42-4e1d-8728-38703cc0b4db"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

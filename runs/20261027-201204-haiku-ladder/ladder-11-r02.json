@@ -1,0 +1,124 @@
+{
+  "model": "haiku",
+  "model_id": "claude-haiku-5-5",
+  "guesser_model": "haiku",
+  "guesser_model_id": "claude-haiku-5-5",
+  "effort": null,
+  "article": {
+    "title": "Ayribobo",
+    "description": "Highest mountain of Turkmenistan",
+    "extract": "Ayribobo or Aýrybaba, officially named the Great Saparmyrat Turkmenbashi Peak in Turkmenistan since 2004, is a mountain in Central Asia. At 3,138 metres (10,295 ft) Aýrybaba is the highest mountain in Turkmenistan. It is located in the Köýtendag Range of the Pamir-Alay chain in the southeast of Turkmenistan on the Uzbekistani border.",
+    "url": "https://en.wikipedia.org/wiki/Ayribobo"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 61.9,
+  "usage": {
+    "explainer": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 4797,
+      "cache_read_input_tokens": 12931,
+      "output_tokens": 3565,
+      "thinking_tokens": 3280,
+      "cost_usd": 0.00287221,
+      "calls": 5,
+      "cost_usd_reported": 0.00901015
+    },
+    "guesser": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 4233,
+      "cache_read_input_tokens": 8222,
+      "output_tokens": 3701,
+      "thinking_tokens": 2635,
+      "cost_usd": 0.00278032,
+      "calls": 5,
+      "cost_usd_reported": 0.007899080000000001
+    },
+    "judge": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 1405,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0002854,
+      "calls": 2
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🏞️🧗🐐🥾🧊🇹🇯🌬️🐪</msg>",
+      "delivered": "🏞️🧗🐐🥾🧊🇹🇯🌬️🐪",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Working hypothesis: a place in or near the Pamir Mountains of Tajikistan, maybe a peak, pass, glacier, or village. The 🐐 and 🐪 could point to herding or to a mountain-related species.\n\nQuestions:\n1. Is the article about a geographic feature (mountain, peak, pass, glacier, valley) rather than a person, species, or film?\n2. Does 🐪 mean a specific animal, like a yak or Bactrian camel, or is it a stand-in for something else, such as \"high altitude\" or \"desert\"?\n3. Does 🌬️ point to wind, a pass, or a windy place?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>✔️🏞️ 🌵✖️🐪 🌬️🤷 ✖️🇹🇯 ✔️🇹🇷</msg>",
+      "delivered": "✔️🏞️ 🌵✖️🐪 🌬️🤷 ✖️🇹🇯 ✔️🇹🇷",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Updated: it's a geographic feature in Turkey, not in Tajikistan, and probably not a desert place. The ✔️🇹🇷 is a clear signal.\n\nCandidates I'm considering: a peak in eastern Turkey such as Süphan, Cilo, Tendürek, or Kaçkar, or a mountain range.\n\nQuestions:\n1. Is the article about a single peak or a mountain range?\n2. Is it in eastern Turkey (near Armenia, Iran, or Georgia)?\n3. Does 🧊 mean glacier or snow on the summit?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>☝️🏞️ ✖️🇹🇷 🐪🌬️ 🧊✔️</msg>",
+      "delivered": "☝️🏞️ ✖️🇹🇷 🐪🌬️ 🧊✔️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Reading this as: a single peak (not a range) with glaciers or snow. The ✖️🇹🇷 seems to rule out Turkey after all, which conflicts with the earlier ✔️🇹🇷. I may have misread that flag. Another possibility is that it means \"near Turkey\" or \"Turkic,\" but I want to check.\n\nCandidates now: a single glaciated peak in the Caucasus (Georgia, Russia, Azerbaijan), or in Iran or Central Asia.\n\nQuestions:\n1. Is the peak in the Caucasus?\n2. Is it in Iran or Afghanistan?\n3. Did the earlier ✔️🇹🇷 mean Turkey, or was it a different meaning (like \"Turkish-style\" or \"Turkic\")?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>✖️🇬🇪 ✖️🇮🇷🇦🇫 ✔️🧭🐪 🌬️✔️ 🇹🇷 ➡️ Turkic, not Turkey ✔️</msg>",
+      "delivered": "✖️🇬🇪 ✖️🇮🇷🇦🇫 ✔️🧭🐪 🌬️✔️ 🇹🇷 ✔️",
+      "dropped_chars": 17,
+      "off_keyboard": [
+        "➡️"
+      ],
+      "retried": false,
+      "guesser": "Updated: Turkey is confirmed ✔️, so the earlier ✖️🇹🇷 was probably a slip. Not Georgia, Iran, or Afghanistan. Windy ✔️, and 🧭🐪 may suggest central Anatolian steppe rather than the far east.\n\nA single volcanic peak in central Turkey with snow fits. My best guess is Mount Erciyes. Alternatives are Hasan Dağı and Süphan.\n\nGUESS: Mount Erciyes",
+      "guess": "Mount Erciyes",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>🙅🌋✖️🇹🇷 🐪🛂✔️ ⬆️🏞️🐐🧊 🛂🤝✔️</msg>",
+      "delivered": "🙅🌋✖️🇹🇷 🐪🛂✔️ ⬆️🏞️🐐🧊 🛂🤝✔️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The harness says Mount Erciyes is wrong. Updating:\n\n- 🙅🌋: not a volcano. That rules out Erciyes, Hasan Dağı, Süphan, and Ararat.\n- ⬆️🏞️🐐🧊: a high mountain with goats and ice or snow.\n- 🛂🤝✔️ and 🐪🛂✔️: a border or treaty, with a camel-related clue.\n- The Turkey flags have been inconsistent, so I'm not relying on them.\n\nA non-volcanic, snowy mountain on an international border with goats and camels, near the Levant, fits Mount Hermon, which sits on the Israel, Lebanon, and Syria border.\n\nGUESS: Mount Hermon",
+      "guess": "Mount Hermon",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": "78533196-4669-42cb-b4ce-958c40121323",
+    "guesser": "81347463-1e5c-4b8d-9a98-c0424fe88561"
+  },
+  "ladder": {
+    "article_no": 11,
+    "round": 2,
+    "n_banned": 29,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

@@ -1,0 +1,117 @@
+{
+  "model": "sonnet",
+  "model_id": "claude-sonnet-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Accord Pond",
+    "description": "Lake in Massachusetts, USA",
+    "extract": "Accord Pond is a 100-acre (0.40 km2) reservoir in Hingham, Norwell and Rockland, Massachusetts. The reservoir is located off Route 228 at its terminus with Route 3. The reservoir is visible from Route 3 northbound at Exit 14, the Route 228 off-ramp. The reservoir is a Class A source of water supply for the town of Hingham and Hull Ma. The outflow of the reservoir is Accord Brook, a tributary of the Weir River.",
+    "url": "https://en.wikipedia.org/wiki/Accord_Pond"
+  },
+  "solved": true,
+  "turns_taken": 6,
+  "solved_turn": 6,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 142.8,
+  "usage": {
+    "explainer": {
+      "input_tokens": 22,
+      "cache_creation_input_tokens": 3834,
+      "cache_read_input_tokens": 10348,
+      "output_tokens": 849,
+      "thinking_tokens": 418,
+      "cost_usd": 0.0259396,
+      "calls": 6,
+      "cost_usd_reported": 0.088744
+    },
+    "guesser": {
+      "input_tokens": 22,
+      "cache_creation_input_tokens": 9048,
+      "cache_read_input_tokens": 17034,
+      "output_tokens": 8670,
+      "thinking_tokens": 7235,
+      "cost_usd": 0.2526856,
+      "calls": 6,
+      "cost_usd_reported": 0.7703740000000001
+    },
+    "judge": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 2816,
+      "cache_read_input_tokens": 701,
+      "output_tokens": 20,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00058121,
+      "calls": 5
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🏞️💧🇺🇸 🏛️🦞🍂 🚰🏘️ 🛣️3️⃣ 🌊🐟</msg>",
+      "delivered": "🏞️💧🇺🇸 🏛️🦞🍂 🚰🏘️ 🛣️ 🌊🐟",
+      "dropped_chars": 2,
+      "retried": false,
+      "guesser": "My read: 🏞️💧🇺🇸 = a body of water in the US; 🏛️🦞🍂 = Maine (lobster plus fall foliage = New England, probably Maine); 🚰🏘️ = it supplies drinking water to a town; 🛣️ = a road runs nearby; 🌊🐟 = it's used for fishing.\n\nSo my working idea is **a lake or pond in Maine that serves as a town's water supply.**\n\nQuestions:\n1. Is it a lake or pond (👍), or a river or stream (👎)?\n2. Is it in Maine (👍), or another New England state (show which)?\n3. Can you hint at the town it supplies, or the county? Sound-alike emojis work.\n\nMy guess is a long shot, since there are hundreds of Maine ponds.\n\nGUESS: Sebago Lake",
+      "guess": "Sebago Lake",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👍 👎 🏛️🦞 🤷 ↗️ 🏖️🚢🧳 🌳🦃🍽️</msg>",
+      "delivered": "👍 👎 🏛️🦞 🤷 ↗️ 🏖️🚢🧳 🌳🦃🍽️",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Decoding: 👍 it's a lake/pond. 👎 not Maine. 🏛️🦞 = **Massachusetts**. 🏖️🚢🧳🌳🦃🍽️ = Mayflower and Pilgrims plus Thanksgiving, so **Plymouth**. I read ↗️ as \"near/north of Plymouth\"?\n\nSo it's a pond in or near Plymouth (town or county), MA, that supplies water to a town. Silver Lake supplies Brockton and sits in Plymouth County near Kingston and Pembroke, so it fits.\n\nQuestions:\n1. Is it inside the town of Plymouth itself (👍) or elsewhere in Plymouth County (👎)?\n2. Is 🚰🏘️ really \"drinking water supply for a town\"? If not, correct me.\n3. Is \"Pond\" in the title (🦆) or \"Lake\" (🏞️)?\n\nGUESS: Silver Lake (Massachusetts)",
+      "guess": "Silver Lake (Massachusetts)",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>👍 🚰🏘️ 👍 🦆 👍 🏞️ 👎 ⬆️🧭 🚢⚓ 🏘️ 🌿🏖️ 🪨🏘️ 🛣️ 🔚 🚗</msg>",
+      "delivered": "👍 🚰🏘️ 👍 🦆 👍 🏞️ 👎 ⬆️🧭 🚢⚓ 🏘️ 🌿🏖️ 🪨🏘️ 🛣️ 🚗",
+      "dropped_chars": 1,
+      "retried": false,
+      "guesser": "Confirmed so far: a **pond** inside the **town of Plymouth, MA**, that serves as a **town water supply**.\n\nYour last clues sound like directions: ⬆️🧭 north, 🚢⚓ harbor, 🏘️ village, 🌿🏖️ beach, 🪨🏘️ Plymouth Rock or downtown, 🛣️🚗 road or highway.\n\n1. Is it in the **North Plymouth** area (👍), or is it north of something else (show what)?\n2. Is it near Route 3 (3️⃣) or Route 44 (4️⃣4️⃣)?\n3. Is the name a person's surname (👤), a color (🎨), an animal (🐾), or a direction (🧭)?\n\nI'm guessing the historical Plymouth water-supply pond.\n\nGUESS: Little South Pond",
+      "guess": "Little South Pond",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>👎 🏖️🚢 ⬆️ 🏙️ ⬇️ 🌉🏙️ 🤝 🚗 🦆🏞️ 🚰 🏘️</msg>",
+      "delivered": "👎 🏖️🚢 ⬆️ 🏙️ ⬇️ 🌉🏙️ 🤝 🚗 🦆🏞️ 🚰 🏘️",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Rethinking it: 🪨🏘️ = **Rock-land**, 🤝 = **joint**, 🏖️ = **sandy**. And ⬆️⬇️ puts the place between Plymouth and Boston, i.e. the South Shore.\n\nThe Abington–Rockland **Joint** Water Works draws from a sandy-named pond in Pembroke, so that's my guess.\n\nIf wrong: is the pond in a town other than Plymouth (👍)? Can you show the town it's located in?\n\nGUESS: Great Sandy Bottom Pond",
+      "guess": "Great Sandy Bottom Pond",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>🤝 🚗 🅰️ 🦆🏞️ 🏘️ 🚢🏠 ⛵🏘️ 🛣️ 🚰</msg>",
+      "delivered": "🤝 🚗 🦆🏞️ 🏘️ 🚢🏠 ⛵🏘️ 🛣️ 🚰",
+      "dropped_chars": 1,
+      "retried": false,
+      "guesser": "I think I took a wrong turn. If 🏛️🦞 meant **Maine** after all, the clues line up:\n- 🪨🏘️ = **Rockland**\n- ⛵🏘️ = **Camden**, the sailing town\n- 🚢🏠 = **Rockport**\n- 🤝 = the joint Camden & Rockland water supply\n- 🌿 = **Grassy**\n\nSo it's a pond supplying Camden/Rockland water, near Route 17 or Route 90.\n\nIf wrong: is it in Maine (👍)? Does the name involve grass (🌿👍)?\n\nGUESS: Grassy Pond",
+      "guess": "Grassy Pond",
+      "correct": false
+    },
+    {
+      "turn": 6,
+      "explainer_raw": "<msg>👎 Maine 🏙️⬇️ 🎓🦞🏛️ 👍 🤝 + 🚗 = 🏷️ 🦆🏞️ 🏙️⬇️ 🚰</msg>",
+      "delivered": "👎 🏙️⬇️ 🎓🦞🏛️ 👍 🤝 🚗 🏷️ 🦆🏞️ 🏙️⬇️ 🚰",
+      "dropped_chars": 7,
+      "retried": false,
+      "guesser": "Got it now: 🎓🦞🏛️ = Massachusetts, 🏙️⬇️ = south of Boston, and 🤝🚗 = the name, Honda **Accord**.\n\nThat fits Accord Pond, on the Hingham/Rockland/Norwell line (🚢⚓🏘️ Hingham harbor, 🪨🏘️ Rockland), near Route 3 and Route 228, and used as a water supply.\n\nGUESS: Accord Pond",
+      "guess": "Accord Pond",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "3aba2b4c-11bf-416f-ac3f-9659dc6e16f8",
+    "guesser": "96a28e83-63e9-4957-80ad-19c0c4e963c7"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

@@ -1,0 +1,65 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "sonnet",
+  "guesser_model_id": "claude-sonnet-5-5",
+  "effort": null,
+  "article": {
+    "title": "Mad River Mountain",
+    "description": "Ski resort in Ohio, United States",
+    "extract": "Mad River Mountain is a ski and snowboard resort in Valley Hi, Ohio, United States. The elevation of Mad River Mountain is 1,460 feet (450 m) with a vertical drop of 300 ft (91 m), and it has a ski season that runs from approximately mid-December through mid-March. The resort, which opened in 1962 as Valley Hi Ski Area, is owned by EPR Properties and operated by Vail Resorts, who bought the resort from Peak Resorts in 2019.",
+    "url": "https://en.wikipedia.org/wiki/Mad_River_Mountain"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 10.9,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1207,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 281,
+      "thinking_tokens": 233,
+      "cost_usd": 0.015283999999999999,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 910,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 219,
+      "thinking_tokens": 144,
+      "cost_usd": 0.005834000000000001,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>⛷️🏂🚡 🇺🇸\n\n😡 🏞️ ⛰️\n\n🌰🏈</msg>",
+      "delivered": "⛷️🏂🚡 🇺🇸\n😡 🏞️ ⛰️\n🌰🏈",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Ski resort in the US, \"angry\" for Mad, a mountain, and a chestnut with a football for the Buckeyes, so Ohio. That points to Mad River Mountain.\n\nGUESS: Mad River Mountain",
+      "guess": "Mad River Mountain",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "8d8a1fbf-8fa8-462e-bb2a-77a16e9ab632",
+    "guesser": "aec5edf2-fd80-42d8-848d-572f57612883"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

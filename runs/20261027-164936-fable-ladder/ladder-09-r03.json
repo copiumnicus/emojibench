@@ -1,0 +1,88 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Jovan Hadži-Vasiljević",
+    "description": "Serbian historian, ethnographer, journalist and writer",
+    "extract": "Jovan Hadži-Vasiljević was a Serbian historian, ethnographer, journalist and writer.",
+    "url": "https://en.wikipedia.org/wiki/Jovan_Had%C5%BEi-Vasiljevi%C4%87"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 90.8,
+  "usage": {
+    "explainer": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 4404,
+      "cache_read_input_tokens": 2186,
+      "output_tokens": 4855,
+      "thinking_tokens": 4538,
+      "cost_usd": 0.333056,
+      "calls": 2,
+      "cost_usd_reported": 0.50437075
+    },
+    "guesser": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 1947,
+      "cache_read_input_tokens": 976,
+      "output_tokens": 1292,
+      "thinking_tokens": 912,
+      "cost_usd": 0.10455600000000001,
+      "calls": 2,
+      "cost_usd_reported": 0.156464
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 719,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.000146,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🧔 ❤️💙🤍\n🕰️📘\n🧑‍🌾🪕🪆🧐\n🖨️📄\n✒️📕\n</msg>",
+      "delivered": "🧔 ❤️💙🤍\n🕰️📘\n🧑‍🌾🪕🪆🧐\n🖨️📄\n✒️📕",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Reading you: a bearded man from a red-white-blue country (Russia? Serbia? Czechia/Slovakia? Netherlands?), a historian / antiquarian (🕰️📘), interested in peasant folklore / ethnography (🧑‍🌾🪕🪆🧐), a publisher/printer (🖨️📄), and a writer (✒️📕).\n\nQuestions:\n1. Is the country Russia? (🪆 suggests yes — if not, show me the country another way.)\n2. Which century? Show me a number for the year he was born, e.g. 1️⃣8️⃣ for the 1800s.\n3. Was he mainly a scholar (📘), a journalist/publisher (📰), or a novelist (📕)?\n\nGUESS: Alexander Afanasyev",
+      "guess": "Alexander Afanasyev",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n👎🇷🇺\n🇬🇷⬆️⬆️ ❤️💙🤍 🇦🇱↗️\n\n🎂 🟦 🟦🟦🟦🟦🟦🟦🟦🟦 🟦🟦🟦🟦🟦🟦 🟦🟦🟦🟦🟦🟦\n🪦 🟦 🟦🟦🟦🟦🟦🟦🟦🟦🟦 🟦🟦🟦🟦 🟦🟦🟦🟦🟦🟦🟦🟦\n\n📘👍👍 🖨️📄👍 📕👍 🎭👎\n\n🧐📘 🟥☀️ ⬇️❤️💙🤍\n</msg>",
+      "delivered": "👎🇷🇺\n🇬🇷⬆️⬆️ ❤️💙🤍 🇦🇱↗️\n🎂 🟦 🟦🟦🟦🟦🟦🟦🟦🟦 🟦🟦🟦🟦🟦🟦 🟦🟦🟦🟦🟦🟦\n🪦 🟦 🟦🟦🟦🟦🟦🟦🟦🟦🟦 🟦🟦🟦🟦 🟦🟦🟦🟦🟦🟦🟦🟦\n📘👍👍 🖨️📄👍 📕👍 🎭👎\n🧐📘 🟥☀️ ⬇️❤️💙🤍",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Got it: not Russia; north of Greece, northeast of Albania → Serbia. Born 1866, died 1948. Scholar/historian-ethnographer, publisher, writer, not theatre; researched the region south of Serbia (🟥☀️ = Macedonia / Old Serbia).\n\nGUESS: Jovan Hadži-Vasiljević",
+      "guess": "Jovan Hadži-Vasiljević",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "cf7b8707-c126-4726-8344-9b28a3733802",
+    "guesser": "ade22213-72df-44a6-bbce-5bfa7246ba6f"
+  },
+  "ladder": {
+    "article_no": 9,
+    "round": 3,
+    "n_banned": 86,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

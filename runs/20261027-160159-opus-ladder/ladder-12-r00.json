@@ -1,0 +1,69 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Dora Akunyili",
+    "description": "Nigerian pharmacist and government official (1954–2014)",
+    "extract": "Dora Nkem Akunyili was a Nigerian pharmacist and politician who served as the director-general of National Agency for Food and Drug Administration and Control (NAFDAC) of Nigeria from 2001 to 2008.",
+    "url": "https://en.wikipedia.org/wiki/Dora_Akunyili"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "max_turns": 30,
+  "seconds": 12.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1110,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 279,
+      "thinking_tokens": 208,
+      "cost_usd": 0.014468000000000002,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 925,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 362,
+      "thinking_tokens": 255,
+      "cost_usd": 0.014648000000000001,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇳🇬 👩‍💼\n💊 🥫 🏛️ 👑\n🎭💊 ⚔️ 🚫 🔥\n⚰️ 🎗️</msg>",
+      "delivered": "🇳🇬 👩‍💼\n💊 🥫 🏛️ 👑\n🎭💊 ⚔️ 🚫 🔥\n⚰️ 🎗️",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "This looks like a Nigerian woman who headed NAFDAC (the food 🥫 and drug 💊 regulator), fought counterfeit drugs 🎭💊⚔️, publicly burned fakes 🔥, and later died of cancer ⚰️🎗️.\n\nGUESS: Dora Akunyili",
+      "guess": "Dora Akunyili",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "0d8e295f-b199-4bb7-9f0c-802638a670b4",
+    "guesser": "97279569-6f84-407d-b461-b84a11f56268"
+  },
+  "ladder": {
+    "article_no": 12,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": "runs/20261027-151301-opus/game-12.json"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

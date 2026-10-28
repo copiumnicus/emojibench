@@ -1,0 +1,75 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Grande Seca",
+    "description": "Brazilian drought (1877–1878)",
+    "extract": "The Grande Seca, or the Brazilian drought of 1877–1878, was the largest and most devastating drought in Brazilian history. It caused the deaths of between 400,000 and 500,000 people. Of the 800,000 people who lived in the affected Northeastern region, around 120,000 migrated to the Amazon while 68,000 migrated to other parts of Brazil.",
+    "url": "https://en.wikipedia.org/wiki/Grande_Seca"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 22.1,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 851,
+      "cache_read_input_tokens": 577,
+      "output_tokens": 801,
+      "thinking_tokens": 697,
+      "cost_usd": 0.022951400000000004,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 994,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 596,
+      "thinking_tokens": 439,
+      "cost_usd": 0.019880000000000002,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n💚💛🌐 ↗️\n\n🔆🔆🔆 🚱 🍂🍂 🫗 🌡️\n\n🍽️🦴 🪦🪦🪦🪦🪦\n\n🚶🚶🚶 ↖️ 🌿🐆🛖\n</msg>",
+      "delivered": "💚💛🌐 ↗️\n🔆🔆🔆 🚱 🍂🍂 🫗 🌡️\n🍽️🦴 🪦🪦🪦🪦🪦\n🚶🚶🚶 ↖️ 🌿🐆🛖",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I read this as **Northeast Brazil** (green/yellow globe plus the northeast arrow). It shows an extreme drought: heat, no water and dried-up land. That led to famine and mass deaths, and then people migrated northwest into the Amazon jungle, likely for the rubber boom. That points to the Great Drought of 1877–78 in Ceará and the surrounding region.\n\nIf I'm wrong, can you give me the year or decade?\n\nGUESS: Grande Seca",
+      "guess": "Grande Seca",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "7ee2e613-3d4d-499a-af1d-194e9572faea",
+    "guesser": "643fbc9b-feb8-4373-b149-2f7c80ac2d6c"
+  },
+  "ladder": {
+    "article_no": 16,
+    "round": 2,
+    "n_banned": 39,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

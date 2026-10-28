@@ -1,0 +1,105 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Ayribobo",
+    "description": "Highest mountain of Turkmenistan",
+    "extract": "Ayribobo or Aýrybaba, officially named the Great Saparmyrat Turkmenbashi Peak in Turkmenistan since 2004, is a mountain in Central Asia. At 3,138 metres (10,295 ft) Aýrybaba is the highest mountain in Turkmenistan. It is located in the Köýtendag Range of the Pamir-Alay chain in the southeast of Turkmenistan on the Uzbekistani border.",
+    "url": "https://en.wikipedia.org/wiki/Ayribobo"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 104.3,
+  "usage": {
+    "explainer": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 5405,
+      "cache_read_input_tokens": 6163,
+      "output_tokens": 3905,
+      "thinking_tokens": 3571,
+      "cost_usd": 0.1238452,
+      "calls": 3,
+      "cost_usd_reported": 0.2692976
+    },
+    "guesser": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 4476,
+      "cache_read_input_tokens": 3723,
+      "output_tokens": 3428,
+      "thinking_tokens": 2806,
+      "cost_usd": 0.10589720000000001,
+      "calls": 3,
+      "cost_usd_reported": 0.2314016
+    },
+    "judge": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1411,
+      "cache_read_input_tokens": 702,
+      "output_tokens": 12,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00029582,
+      "calls": 3
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🚠⛷️🥾 👆👆👆\n\n🟩 🧔🟨🔄☀️ 🏇 🐶 ⛩️👹♨️ 🤍🏛️\n</msg>",
+      "delivered": "🚠⛷️🥾 👆👆👆\n🟩 🧔🟨🔄☀️ 🏇 🐶 ⛩️👹♨️ 🤍🏛️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "My read so far: a mountain/resort area with a cable car, skiing and hiking at high altitude, probably in **Japan** (shrine, oni, hot springs). I'm unsure about 🧔🟨🔄☀️, 🏇, 🐶, and 🤍🏛️.\n\nQuestions:\n1. Is the article itself a **mountain**, a **ski resort**, or a **town/village**?\n2. Is 🤍🏇 meant as \"Hakuba\" (白馬, white horse)? Or is 🏇 for \"Koma\" (駒, as in Komagatake)?\n3. Is 👹 an oni legend, or a stand-in for tengu 👺?\n4. Can you spell out the name syllable by syllable with emojis?\n\nGUESS: Hakuba, Nagano",
+      "guess": "Hakuba, Nagano",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n🇯🇵✖️✖️✖️ ⛩️✖️ ♨️✖️\n\n🚠⛷️🥾 = 🗻... ✔️\n\n🇷🇺👇👇 🇨🇳👈👈 🇦🇿👉💧👉 🇮🇶👉👉\n\n🗿🟨🔄☀️ 🐶🟨 🏇🟨 🤍🏙️ 🟩🌛\n👆👆👆\n</msg>",
+      "delivered": "🇯🇵✖️✖️✖️ ⛩️✖️ ♨️✖️\n🚠⛷️🥾 ✔️\n🇷🇺👇👇 🇨🇳👈👈 🇦🇿👉💧👉 🇮🇶👉👉\n🗿🟨🔄☀️ 🐶🟨 🏇🟨 🤍🏙️ 🟩🌛\n👆👆👆",
+      "dropped_chars": 5,
+      "off_keyboard": [
+        "🗻"
+      ],
+      "retried": false,
+      "guesser": "Got it: not Japan. The arrows put it south of Russia, west of China, and east of the Caspian/Azerbaijan, and the second line fits **Turkmenistan**:\n- 🗿🟨🔄☀️: Niyazov's golden statue that rotated to follow the sun\n- 🐶🟨: the golden Alabai dog statue\n- 🏇🟨: the golden Akhal-Teke horse\n- 🤍🏙️: Ashgabat, the white-marble city\n- 🟩🌛: the green flag with a crescent\n\nSo I think it's the mountains near Ashgabat (Kopet Dag), with a cable car, skiing and hiking.\n\nQuestions: Is the article the cable car, the ski resort, the \"Walk of Health\" trail, or a mountain or peak? Does 👆👆👆 mean \"highest\"?\n\nGUESS: Ashgabat Cable Car",
+      "guess": "Ashgabat Cable Car",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n🚠✖️ ⛷️✖️ 🥾✖️ 🤍🏙️✖️\n\n👆👆👆 ✔️✔️✔️ 🟩🌛🗺 👑\n👉👇 ↘ 🧭\n\n👴\n</msg>",
+      "delivered": "🚠✖️ ⛷️✖️ 🥾✖️ 🤍🏙️✖️\n👆👆👆 ✔️✔️✔️ 🟩🌛\n👉👇 🧭\n👴",
+      "dropped_chars": 3,
+      "off_keyboard": [
+        "🗺️",
+        "👑",
+        "↘️"
+      ],
+      "retried": false,
+      "guesser": "The highest point of Turkmenistan, in the southeast, and 👴 for \"baba\" (old man): that's the peak in the Köýtendag range.\n\nGUESS: Aýrybaba",
+      "guess": "Aýrybaba",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "fc6a35b6-9402-40d3-a508-c50b969f0041",
+    "guesser": "5aea9253-7319-43b4-a255-1dedf24f03c6"
+  },
+  "ladder": {
+    "article_no": 11,
+    "round": 6,
+    "n_banned": 78,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

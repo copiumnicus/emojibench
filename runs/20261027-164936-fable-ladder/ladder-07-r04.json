@@ -1,0 +1,113 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Mad River Mountain",
+    "description": "Ski resort in Ohio, United States",
+    "extract": "Mad River Mountain is a ski and snowboard resort in Valley Hi, Ohio, United States. The elevation of Mad River Mountain is 1,460 feet (450 m) with a vertical drop of 300 ft (91 m), and it has a ski season that runs from approximately mid-December through mid-March. The resort, which opened in 1962 as Valley Hi Ski Area, is owned by EPR Properties and operated by Vail Resorts, who bought the resort from Peak Resorts in 2019.",
+    "url": "https://en.wikipedia.org/wiki/Mad_River_Mountain"
+  },
+  "solved": false,
+  "turns_taken": 1,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": true,
+  "max_turns": 30,
+  "seconds": 103.9,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1004,
+      "cache_read_input_tokens": 577,
+      "output_tokens": 4044,
+      "thinking_tokens": 3978,
+      "cost_usd": 0.22244424999999998,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 979,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 2344,
+      "thinking_tokens": 2135,
+      "cost_usd": 0.13680000000000003,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 703,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0001428,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "claude-fable-5-1",
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 1004,
+        "cache_read_input_tokens": 577,
+        "output_tokens": 4044,
+        "thinking_tokens": 3978,
+        "cost_usd": 0.22244424999999998,
+        "duration_ms": 66901
+      }
+    ],
+    "guesser": [
+      {
+        "model": "claude-fable-5-1",
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 979,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 2344,
+        "thinking_tokens": 2135,
+        "cost_usd": 0.13680000000000003,
+        "duration_ms": 32947
+      }
+    ],
+    "judge": [
+      {
+        "model": "claude-haiku-5-5",
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 703,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 0.0001428,
+        "duration_ms": 1623
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🎄🚟⛸️🧥🔻\n\n🙎🗯️ ♒🎣🦫 🚵🔺\n\n🗽 🔵👋🔵\n</msg>",
+      "delivered": "🎄🚟⛸️🧥🔻\n🙎🗯️ ♒🎣🦫 🚵🔺\n🗽 🔵👋🔵",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Reading your clues: line 1 = cold/winter, pines, cable car (ski), skating → wintry mountains. Line 2 = people/speech, water/fishing/beaver (lake), mountain biking/peak. Line 3 = New York (state), 🔵👋🔵 = \"blue\" something (Blue Line? Blue Mountain Lake?).\n\nSo I think: a place in the Adirondacks, upstate New York. Is it a specific town/village/lake, or the region itself? Does 🙎🗯️ mean \"Indian\" (as in Indian Lake) or \"name given by people\"?\n\nGUESS: Adirondack Park",
+      "guess": "Adirondack Park",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": "639e2f7f-3a9e-4c35-a2ed-7dcb1bc86be3",
+    "guesser": "f10ae3bb-b5ec-43b2-a2cb-c1bf76bd90ed"
+  },
+  "ladder": {
+    "article_no": 7,
+    "round": 4,
+    "n_banned": 63,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

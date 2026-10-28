@@ -1,0 +1,157 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "sonnet",
+  "guesser_model_id": "claude-sonnet-5-5",
+  "effort": null,
+  "article": {
+    "title": "UFC BJJ 2",
+    "description": "Martial arts event in 2025",
+    "extract": "UFC BJJ 2: Tackett vs. Canuto was a submission grappling event produced by UFC Brazilian Jiu-Jitsu. The event was held at the UFC Apex in Las Vegas, Nevada, United States, on July 31, 2025 and was streamed live on YouTube.",
+    "url": "https://en.wikipedia.org/wiki/UFC_BJJ_2"
+  },
+  "solved": true,
+  "turns_taken": 10,
+  "solved_turn": 10,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 127.5,
+  "usage": {
+    "explainer": {
+      "input_tokens": 38,
+      "cache_creation_input_tokens": 4566,
+      "cache_read_input_tokens": 23252,
+      "output_tokens": 2516,
+      "thinking_tokens": 1690,
+      "cost_usd": 0.0963008,
+      "calls": 10,
+      "cost_usd_reported": 0.5062205999999999
+    },
+    "guesser": {
+      "input_tokens": 38,
+      "cache_creation_input_tokens": 6133,
+      "cache_read_input_tokens": 25611,
+      "output_tokens": 4708,
+      "thinking_tokens": 4297,
+      "cost_usd": 0.0768102,
+      "calls": 10,
+      "cost_usd_reported": 0.36245970000000005
+    },
+    "judge": {
+      "input_tokens": 16,
+      "cache_creation_input_tokens": 3513,
+      "cache_read_input_tokens": 2117,
+      "output_tokens": 113,
+      "thinking_tokens": 81,
+      "cost_usd": 0.00078187,
+      "calls": 8
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇧🇷🥋🤼‍♂️\n🥊🦅🇺🇸 🏢\n🎰🌵\n✌️</msg>",
+      "delivered": "🇧🇷🥋🤼‍♂️\n🥊🦅🇺🇸 🏢\n🎰🌵\n✌️",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Brazilian jiu-jitsu or grappling, boxing or fighting, the US, Las Vegas or the desert. Is this a person, a Brazilian MMA fighter who competed in the UFC? Does the ✌️ mean \"two\" (a second event or a number 2), or victory?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👎🧑\n🎟️🏟️📅 👍\n✌️ = 🔢 👍\n🥋🇧🇷 + 🥊🦅 ➡️ 🤝🏷️</msg>",
+      "delivered": "👎🧑\n🎟️🏟️📅 👍\n✌️ 👍\n🥋🇧🇷 🥊🦅 ➡️ 🤝🏷️",
+      "dropped_chars": 3,
+      "retried": false,
+      "guesser": "The 👎🧑 tells me it isn't a person, so this is an event. 🎟️🏟️📅 reads as a fight event, and ✌️ 👍 reads as \"2\". My guess is an early UFC event.\n\nGUESS: UFC 2",
+      "guess": "UFC 2",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🔥🔥 \n🦅 ➕ 🇧🇷🥋 ➕ ✌️\n🚫👊 🤼‍♂️ \n⏳❌ 🆕 📺▶️</msg>",
+      "delivered": "🔥🔥\n🦅 ➕ 🇧🇷🥋 ➕ ✌️\n🚫👊 🤼‍♂️\n⏳❌ 📺▶️",
+      "dropped_chars": 1,
+      "retried": false,
+      "guesser": "GUESS: Metamoris 2",
+      "guess": "Metamoris 2",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>⏪⏪ 🔥🔥 \n⏪⏪ ➕ 🇧🇷🥋 \n🥊🦅 🇧🇷🥋 ✌️</msg>",
+      "delivered": "⏪⏪ 🔥🔥\n⏪⏪ ➕ 🇧🇷🥋\n🥊🦅 🇧🇷🥋 ✌️",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "GUESS: UFC 1",
+      "guess": "UFC 1",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>☝️👎 ✌️👍\n🥊🦅 ➡️ 🇧🇷🥋 ➡️ ✌️\n🥇🥊🦅 🤝 🇧🇷🥋 🏷️ ✌️</msg>",
+      "delivered": "☝️👎 ✌️👍\n🥊🦅 ➡️ 🇧🇷🥋 ➡️ ✌️\n🥇🥊🦅 🤝 🇧🇷🥋 🏷️ ✌️",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "GUESS: UFC 2: No Way Out",
+      "guess": "UFC 2: No Way Out",
+      "correct": false
+    },
+    {
+      "turn": 6,
+      "explainer_raw": "<msg>📼👎 📱▶️👍\n🦅✅ ✌️✅ \n🦅 🇧🇷🥋 ✌️ ⬅️ 🏷️\n🦅🇧🇷🥋 = 🏢 🆚 🦅🥊</msg>",
+      "delivered": "📼👎 📱▶️👍\n🦅✅ ✌️✅\n🦅 🇧🇷🥋 ✌️ ⬅️ 🏷️\n🦅🇧🇷🥋 🏢 🦅🥊",
+      "dropped_chars": 2,
+      "retried": false,
+      "guesser": "GUESS: Eddie Bravo Invitational",
+      "guess": "Eddie Bravo Invitational",
+      "correct": false
+    },
+    {
+      "turn": 7,
+      "explainer_raw": "<msg>🥇🗣️ 🔥🔥🔥\n🥇🗣️ ✂️ ➕ 🇧🇷🥋 ⬅️ 🎯\n🐍📅 📱▶️ 🎰🌵</msg>",
+      "delivered": "🥇🗣️ 🔥🔥🔥\n🥇🗣️ ✂️ ➕ 🇧🇷🥋 ⬅️ 🎯\n🐍📅 📱▶️ 🎰🌵",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "GUESS: Submission Underground 2",
+      "guess": "Submission Underground 2",
+      "correct": false
+    },
+    {
+      "turn": 8,
+      "explainer_raw": "<msg>🛑 = 🦅🥊 \n🛑 🇧🇷🥋 ✌️\n⏮️⏮️⏮️⏮️⏮️⏮️⏮️ 🔥 ➕ 🇧🇷🥋</msg>",
+      "delivered": "🛑 🦅🥊\n🛑 🇧🇷🥋 ✌️\n⏮️⏮️⏮️⏮️⏮️⏮️⏮️ 🔥 ➕ 🇧🇷🥋",
+      "dropped_chars": 1,
+      "retried": false,
+      "guesser": "GUESS: UFC Fight Pass Invitational 2",
+      "guess": "UFC Fight Pass Invitational 2",
+      "correct": false
+    },
+    {
+      "turn": 9,
+      "explainer_raw": "<msg>🔥🔥🔥\n🛑✅ ✌️✅ \n🥊🎫🏆 ❌ ➡️ 🇧🇷🥋\n🛑 🇧🇷🥋 ✌️</msg>",
+      "delivered": "🔥🔥🔥\n🛑✅ ✌️✅\n🥊🎫🏆 ❌ ➡️ 🇧🇷🥋\n🛑 🇧🇷🥋 ✌️",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Your 🛑 and the \"not a ticketed boxing trophy event\" hint make me think this is a BJJ-only event run under the UFC banner. Is the exact title \"UFC Fight Pass Invitational\" with a different number or a subtitle? Or is it a different organization's second event?\n\nGUESS: UFC Fight Pass Invitational 3",
+      "guess": "UFC Fight Pass Invitational 3",
+      "correct": false
+    },
+    {
+      "turn": 10,
+      "explainer_raw": "<msg>🎫🏆👎👎 \n✌️👍 \n🏷️ = 🛑 ➕ 🇧🇷🥋🤏 ➕ ✌️\n🛑🇧🇷🥋 ⬅️ 🆕🏢 🐍📅</msg>",
+      "delivered": "🎫🏆👎👎\n✌️👍\n🏷️ 🛑 ➕ 🇧🇷🥋🤏 ➕ ✌️\n🛑🇧🇷🥋 ⬅️ 🏢 🐍📅",
+      "dropped_chars": 2,
+      "retried": false,
+      "guesser": "GUESS: UFC BJJ 2",
+      "guess": "UFC BJJ 2",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "ace5c290-32e8-4ac5-b4ec-2da6b83d12da",
+    "guesser": "1a0eb25a-07f9-4205-b772-43f7964a5142"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

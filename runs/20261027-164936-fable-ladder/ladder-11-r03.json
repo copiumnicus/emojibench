@@ -1,0 +1,75 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Ayribobo",
+    "description": "Highest mountain of Turkmenistan",
+    "extract": "Ayribobo or Aýrybaba, officially named the Great Saparmyrat Turkmenbashi Peak in Turkmenistan since 2004, is a mountain in Central Asia. At 3,138 metres (10,295 ft) Aýrybaba is the highest mountain in Turkmenistan. It is located in the Köýtendag Range of the Pamir-Alay chain in the southeast of Turkmenistan on the Uzbekistani border.",
+    "url": "https://en.wikipedia.org/wiki/Ayribobo"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 64.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 912,
+      "cache_read_input_tokens": 577,
+      "output_tokens": 2363,
+      "thinking_tokens": 2295,
+      "cost_usd": 0.13655425000000002,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 981,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1132,
+      "thinking_tokens": 958,
+      "cost_usd": 0.07624,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 702,
+      "output_tokens": 245,
+      "thinking_tokens": 241,
+      "cost_usd": 0.00012972,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🌄⏫🏅\n🟩🟥🌙⭐⭐⭐⭐⭐\n🐴🍈🚪😈\n🧭↘️🛂\n</msg>",
+      "delivered": "🌄⏫🏅\n🟩🟥🌙⭐⭐⭐⭐⭐\n🐴🍈🚪😈\n🧭↘️🛂",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I read: 🟩🟥🌙⭐⭐⭐⭐⭐ = Turkmenistan flag; 🐴🍈🚪😈 = Akhal-Teke horses, melons, Door to Hell (Turkmenistan confirmations); 🌄⏫🏅 = highest mountain; 🧭↘️🛂 = southeast, on the border. So: the highest peak in Turkmenistan, in the Köýtendag range on the Uzbek border.\n\nGUESS: Ayrybaba",
+      "guess": "Ayrybaba",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "ebe6d60a-cdf8-4211-a626-816bf7718ed6",
+    "guesser": "af4d11b5-7a28-4fa6-9c26-df538deb833e"
+  },
+  "ladder": {
+    "article_no": 11,
+    "round": 3,
+    "n_banned": 40,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

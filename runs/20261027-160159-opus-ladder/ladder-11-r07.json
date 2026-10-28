@@ -1,0 +1,226 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Ayribobo",
+    "description": "Highest mountain of Turkmenistan",
+    "extract": "Ayribobo or Aýrybaba, officially named the Great Saparmyrat Turkmenbashi Peak in Turkmenistan since 2004, is a mountain in Central Asia. At 3,138 metres (10,295 ft) Aýrybaba is the highest mountain in Turkmenistan. It is located in the Köýtendag Range of the Pamir-Alay chain in the southeast of Turkmenistan on the Uzbekistani border.",
+    "url": "https://en.wikipedia.org/wiki/Ayribobo"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 163.4,
+  "usage": {
+    "explainer": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 8184,
+      "cache_read_input_tokens": 16823,
+      "output_tokens": 6928,
+      "thinking_tokens": 6352,
+      "cost_usd": 0.2074526,
+      "calls": 4
+    },
+    "guesser": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 6118,
+      "cache_read_input_tokens": 7762,
+      "output_tokens": 5268,
+      "thinking_tokens": 4337,
+      "cost_usd": 0.1559124,
+      "calls": 4
+    },
+    "judge": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2129,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 203,
+      "thinking_tokens": 191,
+      "cost_usd": 0.0005279,
+      "calls": 3
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "claude-opus-5-5",
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 1202,
+        "cache_read_input_tokens": 577,
+        "output_tokens": 4494,
+        "thinking_tokens": 4338,
+        "cost_usd": 0.09961939999999998,
+        "duration_ms": 55461
+      },
+      {
+        "model": "claude-opus-5-5",
+        "input_tokens": 4,
+        "cache_creation_input_tokens": 4813,
+        "cache_read_input_tokens": 1779,
+        "output_tokens": 952,
+        "thinking_tokens": 826,
+        "cost_usd": 0.0579158,
+        "duration_ms": 16461
+      },
+      {
+        "model": "claude-opus-5-5",
+        "input_tokens": 4,
+        "cache_creation_input_tokens": 1283,
+        "cache_read_input_tokens": 6592,
+        "output_tokens": 599,
+        "thinking_tokens": 496,
+        "cost_usd": 0.0235784,
+        "duration_ms": 9119
+      },
+      {
+        "model": "claude-opus-5-5",
+        "input_tokens": 4,
+        "cache_creation_input_tokens": 886,
+        "cache_read_input_tokens": 7875,
+        "output_tokens": 883,
+        "thinking_tokens": 692,
+        "cost_usd": 0.026339,
+        "duration_ms": 10806
+      }
+    ],
+    "guesser": [
+      {
+        "model": "claude-opus-5-5",
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 958,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 1363,
+        "thinking_tokens": 1062,
+        "cost_usd": 0.034932,
+        "duration_ms": 15591
+      },
+      {
+        "model": "claude-opus-5-5",
+        "input_tokens": 4,
+        "cache_creation_input_tokens": 1431,
+        "cache_read_input_tokens": 958,
+        "output_tokens": 1928,
+        "thinking_tokens": 1654,
+        "cost_usd": 0.05021559999999999,
+        "duration_ms": 19657
+      },
+      {
+        "model": "claude-opus-5-5",
+        "input_tokens": 4,
+        "cache_creation_input_tokens": 2026,
+        "cache_read_input_tokens": 2389,
+        "output_tokens": 1566,
+        "thinking_tokens": 1331,
+        "cost_usd": 0.0480218,
+        "duration_ms": 16718
+      },
+      {
+        "model": "claude-opus-5-5",
+        "input_tokens": 4,
+        "cache_creation_input_tokens": 1703,
+        "cache_read_input_tokens": 4415,
+        "output_tokens": 411,
+        "thinking_tokens": 290,
+        "cost_usd": 0.022743000000000013,
+        "duration_ms": 5027
+      }
+    ],
+    "judge": [
+      {
+        "model": "claude-haiku-5-5",
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 716,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 0.00014539999999999998,
+        "duration_ms": 1561
+      },
+      {
+        "model": "claude-haiku-5-5",
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 711,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 0.0001444,
+        "duration_ms": 1226
+      },
+      {
+        "model": "claude-haiku-5-5",
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 702,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 195,
+        "thinking_tokens": 191,
+        "cost_usd": 0.00023810000000000004,
+        "duration_ms": 1339
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Plan: the obvious mountain, flag and Turkmenistan emojis are banned, so I'll build a \"highest summit\" idea from other emojis and point to Turkmenistan through its flag, Akhal-Teke horses, white marble city and the burning gas crater.\n\n<msg>\n🦒🚩❄️🏂\n\n🍏🌒✨✨✨✨✨\n🐴🟡   ⚪🏢🏢   👿🛢️💥\n</msg>",
+      "delivered": "🦒🚩❄️🏂\n🍏🌒✨✨✨✨✨\n🐴🟡 ⚪🏢🏢 👿🛢️💥",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "My first reading:\n- **Line 1:** 🦒🚩❄️🏂 suggests a snowboarder or a snowboarding event from a country you're showing with an animal (giraffe for Africa/Tanzania? Or giraffe = \"Kirin\" = Japan?).\n- **Line 2:** 🍏🌒✨✨✨✨✨ might be \"apple + moon + 5 stars\". A name? An event's 5th edition?\n- **Line 3:** 🐴🟡 ⚪🏢🏢 👿🛢️💥 might be \"horse gold\", \"white towers\", and \"devil barrel explosion\". These could be medals, places, or a nickname.\n\nQuestions:\n1. Is the topic a person (a snowboarder)? Reply 👍 or 👎.\n2. Is 🦒 standing in for a country? If so, give me a hint for the country, like its continent or a nearby neighbour.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "Note: 👍 and 👎 are both banned, so I'll answer \"no\" with 🛑. I'll also make clear the giraffe means \"tallest\" and that line 2 is a flag.\n\n<msg>\n🧍🏂 🛑\n\n🏕️❄️🚩   🐁🐈🦒\n\n🏴 🍏🌒✨✨✨✨✨\n</msg>",
+      "delivered": "🧍🏂 🛑\n🏕️❄️🚩 🐁🐈🦒\n🏴 🍏🌒✨✨✨✨✨",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Line 3 was the key. 🍏🌒✨✨✨✨✨ is a green flag with a crescent and five stars, which is **Turkmenistan**. The rest fits too: 🐴🟡 is the golden Akhal-Teke horse, ⚪🏢🏢 is white-marble Ashgabat, and 👿🛢️💥 is the Darvaza \"Door to Hell\" crater.\n\nLine 2 says it's not a person but a winter-games event with a flag, so I'm reading it as the country taking part in a winter multi-sport event. I'll try the Asian Winter Games first. If the year is wrong, show me the year or host city (my guess for 🦒 is \"Kirin\", meaning Japan, so Sapporo).\n\nGUESS: Turkmenistan at the 2017 Asian Winter Games",
+      "guess": "Turkmenistan at the 2017 Asian Winter Games",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "The guesser has the country right but read 🏂 as a winter sports event. I'll cancel that and push harder on \"natural peak, the tallest one.\"\n\n<msg>\n🛑🏂🎿🛑\n\n🏕️🚞🦅❄️📐🚩\n\n🐁  🐈  🦒\n</msg>",
+      "delivered": "🛑🏂🎿🛑\n🏕️🚞🦅❄️📐🚩\n🐁 🐈 🦒",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Understood: it's not skiing or snowboarding. 🏂 and 🎿 were only there to signal \"winter sport\". So it's Turkmenistan plus some other winter sport.\n\nMy best fit is ice hockey, Turkmenistan's main winter sport. I'm reading 🐁 🐈 🦒 as small to big, so perhaps age levels (U18, U20, senior) or divisions.\n\nQuestions:\n- Is the sport ice hockey (👍/👎)? If not, is it figure skating (📐/🦅)?\n- Which of the three animals is the article, the 🐁, the 🐈 or the 🦒? Point to it.\n\nGUESS: Turkmenistan men's national ice hockey team",
+      "guess": "Turkmenistan men's national ice hockey team",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "They're stuck on sports. I'll rule sports out entirely and use an analogy with flags that aren't banned: Nepal (Everest), Tanzania (Kilimanjaro), Argentina (Aconcagua). Each country's highest peak, then Turkmenistan's.\n\n<msg>\n🛑🏒⛸️🏂🎿🛑\n\n🇳🇵🦒🏕️\n🇹🇿🦒🏕️\n🇦🇷🦒🏕️\n\n🍏🌒✨✨✨✨✨🦒🏕️❓\n</msg>",
+      "delivered": "🛑🏒⛸️🏂🎿🛑\n🇳🇵🦒🏕️\n🇹🇿🦒🏕️\n🇦🇷🦒🏕️\n🍏🌒✨✨✨✨✨🦒🏕️❓",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I've got it now. 🦒🏕️ means \"highest mountain\": Everest for Nepal, Kilimanjaro for Tanzania, Aconcagua for Argentina. So we're looking for Turkmenistan's highest mountain, which is Aýrybaba in the Köýtendag range on the Uzbek border.\n\nGUESS: Aýrybaba",
+      "guess": "Aýrybaba",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "448f722e-d404-4a9b-874a-1eca5283e088",
+    "guesser": "d473bb50-eccb-4e5a-98b5-bf1b33a37358"
+  },
+  "ladder": {
+    "article_no": 11,
+    "round": 7,
+    "n_banned": 110,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

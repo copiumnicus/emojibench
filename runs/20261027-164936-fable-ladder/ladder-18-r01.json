@@ -1,0 +1,88 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Motorchuna",
+    "description": "River in Yakutia (Sakha Republic), Russia",
+    "extract": "The Motorchuna is a river in Yakutia, Russia. It is a left tributary of the Lena with a length of 423 kilometres (263 mi). Its drainage basin area is 9,250 square kilometres (3,570 mi2). Since its river basin is uninhabited, the Motorchuna is one of the most untouched rivers in Yakutia; the waters are clean and there is abundant wildlife.",
+    "url": "https://en.wikipedia.org/wiki/Motorchuna"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 242.3,
+  "usage": {
+    "explainer": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 2739,
+      "cache_read_input_tokens": 1936,
+      "output_tokens": 2126,
+      "thinking_tokens": 1978,
+      "cost_usd": 0.163056,
+      "calls": 2,
+      "cost_usd_reported": 0.25765825000000003
+    },
+    "guesser": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 7608,
+      "cache_read_input_tokens": 977,
+      "output_tokens": 14451,
+      "thinking_tokens": 14060,
+      "cost_usd": 0.875727,
+      "calls": 2,
+      "cost_usd_reported": 1.21890425
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 711,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0001444,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🏞️🛶 🪆 🧊🥶🌲🌲 🌿🦅🐾✨\n\n🔊 🚗 🚂 🍌</msg>",
+      "delivered": "🏞️🛶 🪆 🧊🥶🌲🌲 🌿🦅🐾✨\n🔊 🚗 🚂 🍌",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "My read so far: 🏞️🛶 a river/national park, 🪆 = Russia, 🧊🥶🌲🌲 = cold taiga/Siberia, 🌿🦅🐾✨ = protected nature reserve (zapovednik) with wildlife.\n\nSecond line 🔊🚗🚂🍌 I'm reading as \"sounds like...\" — is the name built from \"car\" + \"train\" + \"banana\" sounds? Or does 🚗 stand for a Russian car brand (Volga / Lada / Niva / Zhiguli / Oka) and 🍌 = yellow? Please confirm with ✅/❌: (1) Is it a nature reserve/national park? (2) Is line 2 a pronunciation hint? (3) Is it in Siberia (east of the Urals)?\n\nGUESS: Putorana Nature Reserve",
+      "guess": "Putorana Nature Reserve",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>❌ ✅ ✅\n\n🛶🏞️ 👉 🏞️🏞️🏞️ 👉 🧊🌐\n🫲🛶\n\n🔊 🚗⚙️ 🚂💨 🍌</msg>",
+      "delivered": "❌ ✅ ✅\n🛶🏞️ 👉 🏞️🏞️🏞️ 👉 🧊🌐\n🫲🛶\n🔊 🚗⚙️ 🚂💨 🍌",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Got it: a river in Siberia, left tributary of a big river that drains to the Arctic Ocean. And line 2: 🚗⚙️ = \"motor\", 🚂💨 = \"choo\", 🍌 = \"na\" → Motor-chu-na, a left tributary of the Lena!\n\nGUESS: Motorchuna",
+      "guess": "Motorchuna",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "8d9267e4-ac73-4f46-b13e-ec850443c555",
+    "guesser": "cc9f4f4f-b25b-41d1-804e-5da44972f996"
+  },
+  "ladder": {
+    "article_no": 18,
+    "round": 1,
+    "n_banned": 17,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

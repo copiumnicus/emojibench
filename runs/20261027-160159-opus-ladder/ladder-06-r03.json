@@ -1,0 +1,99 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Jakob von Washington",
+    "description": "Bavarian general (1778–1848)",
+    "extract": "\nBaron Jacobus von Washington was a lieutenant general in the Bavarian Army and a distant relative of US President George Washington. Born in The Hague, Netherlands, he was christened James Washington. Most of his adult life was shaped by his participation in wars for and against Napoleonic France and his service to Ludwig I of Bavaria.",
+    "url": "https://en.wikipedia.org/wiki/Jakob_von_Washington"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 96.3,
+  "usage": {
+    "explainer": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 5637,
+      "cache_read_input_tokens": 6937,
+      "output_tokens": 4393,
+      "thinking_tokens": 4171,
+      "cost_usd": 0.1357708,
+      "calls": 3,
+      "cost_usd_reported": 0.31382160000000003
+    },
+    "guesser": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 3568,
+      "cache_read_input_tokens": 3266,
+      "output_tokens": 2568,
+      "thinking_tokens": 2061,
+      "cost_usd": 0.0812504,
+      "calls": 3,
+      "cost_usd_reported": 0.17839319999999997
+    },
+    "judge": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 710,
+      "cache_read_input_tokens": 704,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00015344000000000002,
+      "calls": 2
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🚣‍♂️❄️🌊 🪙 👨‍🦳\n\n🧑‍🤝‍🧑\n\n💠🤍💠🤍 ⚫🔴🟡 🔫🏅\n\n🥖🐓💥\n</msg>",
+      "delivered": "🚣‍♂️❄️🌊 🪙 👨‍🦳\n🧑‍🤝‍🧑\n💠🤍💠🤍 ⚫🔴🟡 🔫🏅\n🥖🐓💥",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "**My read:**\n- 🚣‍♂️🌊 suggests a fisherman, so the surname \"Fischer\".\n- 👨‍🦳 suggests \"Old Fritz\", so the first name \"Fritz\".\n- ❄️🔫🏅 points to winter shooting medals, i.e. biathlon.\n- 💠🤍 is Bavaria's flag and ⚫🔴🟡 is Germany's.\n- 🧑‍🤝‍🧑 suggests a relay.\n- 🥖🐓 points to France, so likely the 1992 Albertville Olympics.\n\nGUESS: Fritz Fischer (biathlete)",
+      "guess": "Fritz Fischer (biathlete)",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n👕💦🌀 🇺🇲 👨‍🦳🪙\n\n🧑‍🤝‍🧑\n\n🐣🇧🇶\n\n💠🤍 🐴💣🔫 🕯️⏳ 🥖🐓\n</msg>",
+      "delivered": "👕💦🌀 🇺🇲 👨‍🦳🪙\n🧑‍🤝‍🧑\n🐣🇧🇶\n💠🤍 🐴💣🔫 🕯️⏳ 🥖🐓",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "**My new read:**\n- 👕💦🌀 is laundry, i.e. \"Washing-ton\", and 👨‍🦳🪙 is the old man on the US coin.\n- Line 1 was Washington crossing the icy Delaware.\n- So this is someone named Washington, related to the American family (🧑‍🤝‍🧑).\n- 🐣🇧🇶 means born in the Netherlands.\n- 💠🤍🐴💣🔫 means he served as a soldier in the Bavarian army.\n- 🥖🐓💥 points to the Napoleonic wars against France.\n\nI'm thinking of the Bavarian barons von Washington.\n\nGUESS: Jacob von Washington",
+      "guess": "Jacob von Washington",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n🎯😮‍💨 ✏️🔄 ⚫🔴🟡\n</msg>",
+      "delivered": "🎯😮‍💨 ✏️🔄 ⚫🔴🟡",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "🎯😮‍💨 ✏️🔄 ⚫🔴🟡 sounds like \"very close, use the German spelling.\"\n\nGUESS: Jakob von Washington",
+      "guess": "Jakob von Washington",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "9a8644f5-b81f-4c10-9576-25ecd1bcbd4f",
+    "guesser": "131fda23-4137-4cf7-baeb-f207f4aaa4ae"
+  },
+  "ladder": {
+    "article_no": 6,
+    "round": 3,
+    "n_banned": 84,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

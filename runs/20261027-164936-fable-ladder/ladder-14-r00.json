@@ -1,0 +1,84 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Philadelphia Commercial Museum",
+    "description": "Former museum in Pennsylvania, USA",
+    "extract": "The Philadelphia Commercial Museum was established in Philadelphia, Pennsylvania in 1895. Its permanent home was a neo-classical building situated at 34th Street and Civic Center Blvd, erected as part of the 1899 National Export Exposition. The museum had business offices at 332 South Fourth Street.",
+    "url": "https://en.wikipedia.org/wiki/Philadelphia_Commercial_Museum"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 49.1,
+  "usage": {
+    "explainer": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 1978,
+      "cache_read_input_tokens": 1163,
+      "output_tokens": 730,
+      "thinking_tokens": 542,
+      "cost_usd": 0.077263,
+      "calls": 2,
+      "cost_usd_reported": 0.12032074999999999
+    },
+    "guesser": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 2856,
+      "cache_read_input_tokens": 937,
+      "output_tokens": 2228,
+      "thinking_tokens": 1901,
+      "cost_usd": 0.169497,
+      "calls": 2,
+      "cost_usd_reported": 0.27505425000000006
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 722,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 9.420000000000001e-06,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🏛️🖼️ 🪦\n🔔🦅🥪🇺🇸\n💼🛒📦🚢🌍💱\n🗓️1️⃣8️⃣9️⃣5️⃣\n</msg>",
+      "delivered": "🏛️🖼️ 🪦\n🔔🦅🥪🇺🇸\n💼🛒📦🚢🌍💱\n🗓️",
+      "dropped_chars": 8,
+      "retried": false,
+      "guesser": "I'm reading this as: Philadelphia (Liberty Bell, eagle, cheesesteak, USA) + something involving merchants/trade/shipping/international commerce/exchange. The first line (🏛️🖼️🪦) could be a historic building/museum/memorial — or a deceased historical person with a portrait.\n\nQuestions:\n1. Is the article about a PERSON (🪦 = died) or a BUILDING/place?\n2. If a person: a Philadelphia merchant involved in overseas trade — were they also a politician (🏛️)? Which century (🗓️ = 1700s/1800s)?\n3. If a building: is it the Merchants' Exchange?\n\nGUESS: Merchants' Exchange Building (Philadelphia)",
+      "guess": "Merchants' Exchange Building (Philadelphia)",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n🧑👎 🏛️👍 \n🏛️🏺🖼️🦖🪨 ➡️ 🪦❌\n🔔🥪 ➕ 💱🛒📦🚢🌍 ➕ 🏛️🏺\n🎪🌍📦🚢\n</msg>",
+      "delivered": "🧑👎 🏛️👍\n🏛️🏺🖼️🦖🪨 ➡️ 🪦❌\n🔔🥪 ➕ 💱🛒📦🚢🌍 ➕ 🏛️🏺\n🎪🌍📦🚢",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Got it — a museum, not a person, and the 🪦 means it's defunct. Philadelphia + world trade/commerce + museum + exhibitions = the Commercial Museum.\n\nGUESS: Philadelphia Commercial Museum",
+      "guess": "Philadelphia Commercial Museum",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "13dcd99b-3ba1-4d0f-af9d-158fad5bd1eb",
+    "guesser": "379ac893-485c-4609-8caa-90dcbb724ba8"
+  },
+  "ladder": {
+    "article_no": 14,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": "runs/20261027-153308-fable/game-14.json"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

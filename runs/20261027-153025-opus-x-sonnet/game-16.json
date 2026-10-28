@@ -1,0 +1,77 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "sonnet",
+  "guesser_model_id": "claude-sonnet-5-5",
+  "effort": null,
+  "article": {
+    "title": "Grande Seca",
+    "description": "Brazilian drought (1877–1878)",
+    "extract": "The Grande Seca, or the Brazilian drought of 1877–1878, was the largest and most devastating drought in Brazilian history. It caused the deaths of between 400,000 and 500,000 people. Of the 800,000 people who lived in the affected Northeastern region, around 120,000 migrated to the Amazon while 68,000 migrated to other parts of Brazil.",
+    "url": "https://en.wikipedia.org/wiki/Grande_Seca"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 25.3,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1561,
+      "cache_read_input_tokens": 1160,
+      "output_tokens": 446,
+      "thinking_tokens": 295,
+      "cost_usd": 0.021896,
+      "calls": 2,
+      "cost_usd_reported": 0.036272
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1233,
+      "cache_read_input_tokens": 963,
+      "output_tokens": 335,
+      "thinking_tokens": 208,
+      "cost_usd": 0.0084866,
+      "calls": 2,
+      "cost_usd_reported": 0.014096299999999999
+    },
+    "judge": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 708,
+      "cache_read_input_tokens": 707,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00015307,
+      "calls": 2
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇧🇷 ☀️🔥🏜️ 🌧️🚫 🌾🥀 💀💀💀💀\n🚶‍♂️🚶‍♀️🚶➡️🌳🌴🐊\n⏳🕰️🎩🚂👑</msg>",
+      "delivered": "🇧🇷 ☀️🔥🏜️ 🌧️🚫 🌾🥀 💀💀💀💀\n🚶‍♂️🚶‍♀️🚶➡️🌳🌴🐊\n⏳🕰️🎩🚂👑",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Brazil, drought, crop failure, mass deaths, migration, and the era of the Empire (crown, train, top hat). This looks like the Great Drought of 1877–78 in northeastern Brazil.\n\nGUESS: Grande Seca de 1877–1879",
+      "guess": "Grande Seca de 1877–1879",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👍👍👍 🎯\n✂️📅🚫\n🇵🇹🗣️ 🐘💧🚫</msg>",
+      "delivered": "👍👍👍 🎯\n✂️📅🚫\n🇵🇹🗣️ 🐘💧🚫",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Close. The date range might be off, and the title is probably in English.\n\nGUESS: Great Drought of 1877–1878",
+      "guess": "Great Drought of 1877–1878",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "c1fa25a6-0567-4933-9d58-e167d2d141b6",
+    "guesser": "ec370690-ce92-40ff-b628-b7a3d62d661c"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

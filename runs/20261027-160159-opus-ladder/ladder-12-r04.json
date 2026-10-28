@@ -1,0 +1,88 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Dora Akunyili",
+    "description": "Nigerian pharmacist and government official (1954–2014)",
+    "extract": "Dora Nkem Akunyili was a Nigerian pharmacist and politician who served as the director-general of National Agency for Food and Drug Administration and Control (NAFDAC) of Nigeria from 2001 to 2008.",
+    "url": "https://en.wikipedia.org/wiki/Dora_Akunyili"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 56.1,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2405,
+      "cache_read_input_tokens": 2069,
+      "output_tokens": 1821,
+      "thinking_tokens": 1544,
+      "cost_usd": 0.0565116,
+      "calls": 2,
+      "cost_usd_reported": 0.08926120000000001
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1954,
+      "cache_read_input_tokens": 962,
+      "output_tokens": 1376,
+      "thinking_tokens": 1122,
+      "cost_usd": 0.043560800000000004,
+      "calls": 2,
+      "cost_usd_reported": 0.0684524
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 710,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0001442,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "I'll show Nigeria through its neighbouring flags, since its own flag is banned. Then I'll add a Black female health worker who fought fake medicine.\n\n<msg>\n🇳🇪🇹🇩\n🇧🇯❓🇨🇲\n\n🧑🏿‍⚕️♀️ 🗡️ 👺 🩹🫙\n</msg>",
+      "delivered": "🇳🇪🇹🇩\n🇧🇯❓🇨🇲\n🧑🏿‍⚕️♀️ 🗡️ 👺 🩹🫙",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I read the flags as Niger, Chad, Cameroon, and \"Benin?\" probably meaning Nigeria, since its flag might be banned. Those four countries are the Lake Chad region. The rest looks like a woman healer, a blade, a demon or spirit, and bandages and medicine. Is this spirit possession or traditional healing? Is the blade about cutting, like a ritual or a surgery? Is the topic a person, a practice, or a plant?\n\nGUESS: Bori (religion)",
+      "guess": "Bori (religion)",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "Confirming Nigeria, and steering away from spirits and rituals. I'm signalling a real person: a woman official in a suit who fought fake medicine and survived an attack.\n\n<msg>\n❓=🇳🇪👌\n\n👻👎 🧙👎\n👤♀️ 🧑🏿‍💼 🧑🏿‍⚕️\n\n🩹🫙 ➡️ 🐍🪤🚓\n💣🚗 😅\n</msg>",
+      "delivered": "❓🇳🇪👌\n👻👎 🧙👎\n👤♀️ 🧑🏿‍💼 🧑🏿‍⚕️\n🩹🫙 ➡️ 🐍🪤🚓\n💣🚗 😅",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "So the flags are Nigeria's neighbours, and the topic is Nigeria. It's a woman in pharmacy or medicine and administration who fought \"snakes\" (counterfeit drug criminals) and survived an attack on her car.\n\nGUESS: Dora Akunyili",
+      "guess": "Dora Akunyili",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "ee8a28c3-9a69-4185-b3b7-755fd5985ac9",
+    "guesser": "a3ecbd58-87e2-48c0-b279-7a00af9a7f4c"
+  },
+  "ladder": {
+    "article_no": 12,
+    "round": 4,
+    "n_banned": 60,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

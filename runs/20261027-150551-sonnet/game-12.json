@@ -1,0 +1,62 @@
+{
+  "model": "sonnet",
+  "model_id": "claude-sonnet-5-5",
+  "effort": null,
+  "article": {
+    "title": "Dora Akunyili",
+    "description": "Nigerian pharmacist and government official (1954–2014)",
+    "extract": "Dora Nkem Akunyili was a Nigerian pharmacist and politician who served as the director-general of National Agency for Food and Drug Administration and Control (NAFDAC) of Nigeria from 2001 to 2008.",
+    "url": "https://en.wikipedia.org/wiki/Dora_Akunyili"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "max_turns": 30,
+  "seconds": 7.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1114,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 48,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00494,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 902,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 165,
+      "thinking_tokens": 89,
+      "cost_usd": 0.005262,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇳🇬👩🏿💊🏛️🚫💊❌🔬✅📅2001➡️2008</msg>",
+      "delivered": "🇳🇬👩🏿💊🏛️🚫💊❌🔬✅📅➡️",
+      "dropped_chars": 8,
+      "retried": false,
+      "guesser": "Nigeria, a woman, drugs, a government agency, and \"no fake drugs\" all point to Dora Akunyili, the NAFDAC head who fought counterfeit medicine.\n\nGUESS: Dora Akunyili",
+      "guess": "Dora Akunyili",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "bb609fe4-2a48-433b-b13f-ca2e50da36a5",
+    "guesser": "ab21a271-1430-4867-b2fa-051114eef58f"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

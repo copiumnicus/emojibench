@@ -1,0 +1,74 @@
+{
+  "model": "sonnet",
+  "model_id": "claude-sonnet-5-5",
+  "effort": null,
+  "article": {
+    "title": "Iron(III) sulfate",
+    "description": "Chemical compound",
+    "extract": "Iron(III) sulfate or ferric sulfate is a family of inorganic compounds with the formula Fe2(SO4)3(H2O)n. A variety of hydrates are known, including the most commonly encountered form of \"ferric sulfate\". Solutions are used in dyeing as a mordant and as a coagulant for industrial wastes. Solutions of ferric sulfate are also used in the processing of aluminum and steel.",
+    "url": "https://en.wikipedia.org/wiki/Iron(III)_sulfate"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "max_turns": 30,
+  "seconds": 22.5,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1750,
+      "cache_read_input_tokens": 859,
+      "output_tokens": 193,
+      "thinking_tokens": 0,
+      "cost_usd": 0.009113799999999998,
+      "calls": 2,
+      "cost_usd_reported": 0.0143459
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1265,
+      "cache_read_input_tokens": 916,
+      "output_tokens": 447,
+      "thinking_tokens": 335,
+      "cost_usd": 0.0097252,
+      "calls": 2,
+      "cost_usd_reported": 0.0160316
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 672,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00013659999999999999,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🧪⚗️ 🔩🧲 🟠🟤 ⚛️ 3️⃣ 🧂🧪 🎨👕 🏭💧</msg>",
+      "delivered": "🧪⚗️ 🔩🧲 🟠🟤 ⚛️ 🧂🧪 🎨👕 🏭💧",
+      "dropped_chars": 2,
+      "retried": false,
+      "guesser": "Chemistry, iron/magnetic metal, orange-brown color, salt, dye, and water treatment. My guess is an iron salt.\n\nIs it a chemical compound? Is it iron(III) chloride or iron(II) sulfate?\n\nGUESS: Iron(III) chloride",
+      "guess": "Iron(III) chloride",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👍 👎 🧪 🔩 🟠 ☁️🔥 🌋 💨 🟡 ⬇️</msg>\n\nLet me reconsider: I need to convey sulfur, not chlorine.\n\n<msg>👍 🔩 🟠 🌋🟡 ⚫🔥 🧪 ⬆️ 3️⃣</msg>",
+      "delivered": "👍 🔩 🟠 🌋🟡 ⚫🔥 🧪 ⬆️",
+      "dropped_chars": 2,
+      "retried": false,
+      "guesser": "GUESS: Iron(II) sulfate",
+      "guess": "Iron(II) sulfate",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "ad337d1e-59ae-41ed-aaba-71cfb4363021",
+    "guesser": "d9418d38-5f19-40d5-8221-a36356d8e46a"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

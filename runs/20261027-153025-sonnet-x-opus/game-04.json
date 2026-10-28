@@ -1,0 +1,65 @@
+{
+  "model": "sonnet",
+  "model_id": "claude-sonnet-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Mike Pieciak",
+    "description": "American politician (born 1983)",
+    "extract": "Michael Sullivan Pieciak is an American politician from Vermont. A member of the Democratic Party, Pieciak has served as Vermont State Treasurer since January 2023.",
+    "url": "https://en.wikipedia.org/wiki/Mike_Pieciak"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 9.8,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1091,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 214,
+      "thinking_tokens": 157,
+      "cost_usd": 0.006508,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 919,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 416,
+      "thinking_tokens": 306,
+      "cost_usd": 0.01568,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇺🇸🌲⛰️🍁🧀 🗳️🔵🫏 🏛️💰🏦🧑‍💼</msg>",
+      "delivered": "🇺🇸🌲⛰️🍁🧀 🗳️🔵🫏 🏛️💰🏦🧑‍💼",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "I read this as **Vermont** (forest, mountains, maple, cheese), a **Democrat**, and something about **finance or banking**, like a treasurer or a banker. Is this a person or an office? Is it Vermont's State Treasurer, or a Democratic legislator who works in banking?\n\nGUESS: Mike Pieciak",
+      "guess": "Mike Pieciak",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "ba6fc5d3-1ce0-42f6-ac1b-45e9d9cbb83a",
+    "guesser": "6451cc48-2b1d-4b6b-bd55-63386f2c2bfd"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

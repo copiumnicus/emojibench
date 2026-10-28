@@ -1,0 +1,86 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Baggio–Yoshinari syndrome",
+    "description": "Medical condition",
+    "extract": "Baggio–Yoshinari syndrome (BYS), formerly known as the Brazilian Lyme disease-like illness (BLDLI) and Brazilian Human Borreliosis, is an anthropozoonotic infectious disease of infectious-reactional character transmitted by bites of ticks from Amblyomma, Rhipicephalus and Dermacentor genera, that clinically resembles the Lyme Disease (LD) seen in the northern hemisphere. It is postulated to be caused by mutant Borrelia burgdorferi sensu lato spirochetes that assumed atypical pleomorphic forms and latent behavior in an attempt to adapt to the Brazilian ecosystem, explaining many particularities of the condition relative to the classical Lyme Disease, such as being transmitted by ticks others than those within the Ixodes ricinus complex, the difficulty culturing the etiological agent in traditional medium (BSK-II) and the poor growing of the spirochetes in atypical medium (SP-4), the frequent reactivations due to evading and surviving antibiotic treatment and eliciting low and transient immune response to Borrelia burgdorferi sensu lato antigens because of the hiding from the immune system. The pleomorphic forms are thought to include round bodies resembling Chlamydia, non spiralled spirochete-like forms, blebs and cell wall deficient variants resembling Mycoplasma as seen in dark field microscopy and electron field microscopy searching bacteria in the blood of patients. Spirochete-like structures are seen in around 90% of the patients when analyzing their peripheral blood in dark field microscopy.",
+    "url": "https://en.wikipedia.org/wiki/Baggio%E2%80%93Yoshinari_syndrome"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "max_turns": 30,
+  "seconds": 62.9,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 3459,
+      "cache_read_input_tokens": 2450,
+      "output_tokens": 2248,
+      "thinking_tokens": 1962,
+      "cost_usd": 0.07363600000000001,
+      "calls": 2,
+      "cost_usd_reported": 0.11899740000000003
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2679,
+      "cache_read_input_tokens": 956,
+      "output_tokens": 2128,
+      "thinking_tokens": 1604,
+      "cost_usd": 0.0643984,
+      "calls": 2,
+      "cost_usd_reported": 0.10424320000000001
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 708,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0001438,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Lyme is a homophone of \"lime\", and ✔️ can stand for \"tick\". The bullseye rash, Brazil (using its colours, Christ the Redeemer and carnival) and the Italian and Japanese surnames come next.\n\n<msg>\n🍋✔️ ⭕ 🪱🔬\n💚💛💙 ✝️⛰️ 🎊\n🍕🧔 🍙🧔\n</msg>",
+      "delivered": "🍋✔️ ⭕ 🪱🔬\n💚💛💙 ✝️⛰️ 🎊\n🍕🧔 🍙🧔",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "**My reading so far:**\n- 🪱🔬 = a microscopic worm, so probably a **nematode**.\n- 🍋 = citrus or lime/lemon. ⭕ = a ring?\n- 💚💛💙 = **Brazil** (flag colours). ✝️⛰️ = Christ on the mountain, so **Rio de Janeiro**? 🎊 = carnival?\n- 🍕🧔 🍙🧔 = an **Italian** man and a **Japanese** man. They could be the people who described it, people it's named after, or immigrant communities.\n\n**My working idea:** a nematode species, maybe a citrus or ring nematode, linked to Brazil. Or it could be a Brazilian place or person.\n\n**Questions:**\n1. Is the article about a species?\n2. Is it a place, for example a Brazilian municipality? 🍋 could mean \"Limeira\" or \"limão\".\n\nPlease send 👍 or 👎 for each, and correct whatever I've got wrong.\n\nGUESS: Tylenchulus semipenetrans",
+      "guess": "Tylenchulus semipenetrans",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "The guesser couldn't use the first message to see it's a disease, or that 🍋✔️ meant \"Lyme + tick\". I'm answering both questions 👎, then confirming Brazil and the two men as namesakes.\n\n<msg>\n👎 👎\n\n🛌🤢 🤧\n🍋 ✔️🐜 ➰\n💚💛💙 👌\n🍕🧔 🍙🧔 👌\n</msg>",
+      "delivered": "👎 👎\n🛌🤢 🤧\n🍋 ✔️🐜 ➰\n💚💛💙 👌\n🍕🧔 🍙🧔 👌",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Got it:\n- 🛌🤢 🤧 = a **disease**.\n- 🍋 = **Lyme**, ✔️🐜 = **tick**, ➰ = spirochete.\n- 💚💛💙 = **Brazil**.\n- 🍕🧔 🍙🧔 = the disease is named after an Italian and a Japanese man, **Baggio** and **Yoshinari**.\n\nSo it's the Brazilian Lyme-like disease.\n\nGUESS: Baggio–Yoshinari syndrome",
+      "guess": "Baggio–Yoshinari syndrome",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "09ee3a27-5e95-4e83-9264-efcaaa6cf6fb",
+    "guesser": "6c44c5b5-c483-47c5-a67c-61071e10dbcd"
+  },
+  "ladder": {
+    "article_no": 3,
+    "round": 2,
+    "n_banned": 46,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

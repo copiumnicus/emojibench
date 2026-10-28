@@ -1,0 +1,71 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Grande Seca",
+    "description": "Brazilian drought (1877–1878)",
+    "extract": "The Grande Seca, or the Brazilian drought of 1877–1878, was the largest and most devastating drought in Brazilian history. It caused the deaths of between 400,000 and 500,000 people. Of the 800,000 people who lived in the affected Northeastern region, around 120,000 migrated to the Amazon while 68,000 migrated to other parts of Brazil.",
+    "url": "https://en.wikipedia.org/wiki/Grande_Seca"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "keyboard": {
+    "fraction": 0.5,
+    "seed": "v1",
+    "size": 936
+  },
+  "max_turns": 30,
+  "seconds": 12.4,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 5873,
+      "cache_read_input_tokens": 588,
+      "output_tokens": 280,
+      "thinking_tokens": 188,
+      "cost_usd": 0.052709599999999995,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 997,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 383,
+      "thinking_tokens": 278,
+      "cost_usd": 0.015644,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇧🇷 ☀️🏜️ 🌧️❌ 💧❌ 🌱🍂 ☠️☠️☠️ 🚶‍➡️🚶‍♀️‍➡️ 🌲🌴🦜</msg>",
+      "delivered": "🇧🇷 ☀️🏜️ 🌧️❌ 💧❌ 🌱🍂 ☠️☠️☠️ 🚶‍➡️🚶‍♀️‍➡️ 🌲🌴🦜",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Brazil, sun and desert, no rain, no water, crops dying, mass deaths, then people migrating to the rainforest. That sounds like the Great Drought of 1877–78 in Northeast Brazil (the sertão), when refugees went to the Amazon rubber regions.\n\nGUESS: Grande Seca",
+      "guess": "Grande Seca",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "7b2965bc-65d6-46fc-bdbd-ad2642679982",
+    "guesser": "bd9d1e15-4a9f-4b51-b3f5-11973c9dad67"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

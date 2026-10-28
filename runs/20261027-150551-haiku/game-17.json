@@ -1,0 +1,354 @@
+{
+  "model": "haiku",
+  "model_id": "claude-haiku-5-5",
+  "effort": null,
+  "article": {
+    "title": "7's Football League",
+    "description": "Football league",
+    "extract": "The 7's Football League is a seven-a-side football league in the Philippines. Established in 2018, the league already had four seasons. It has a two-tiered men's division, a women's division, and youth divisions. The league is an open tournament with participation from representative sides of the domestic football competition, the Philippines Football League.",
+    "url": "https://en.wikipedia.org/wiki/7's_Football_League"
+  },
+  "solved": false,
+  "turns_taken": 30,
+  "solved_turn": null,
+  "max_turns": 30,
+  "seconds": 332.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 60,
+      "cache_creation_input_tokens": 20834,
+      "cache_read_input_tokens": 324106,
+      "output_tokens": 11994,
+      "thinking_tokens": 8522,
+      "cost_usd": 0.01341086,
+      "calls": 30,
+      "cost_usd_reported": 0.20222677
+    },
+    "guesser": {
+      "input_tokens": 60,
+      "cache_creation_input_tokens": 18764,
+      "cache_read_input_tokens": 290487,
+      "output_tokens": 14136,
+      "thinking_tokens": 10662,
+      "cost_usd": 0.01373167,
+      "calls": 30,
+      "cost_usd_reported": 0.21041872999999997
+    },
+    "judge": {
+      "input_tokens": 48,
+      "cache_creation_input_tokens": 13897,
+      "cache_read_input_tokens": 2778,
+      "output_tokens": 96,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00285998,
+      "calls": 24
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>⚽🏆 🇵🇭 ⚽👥</msg>",
+      "delivered": "⚽🏆 🇵🇭 ⚽👥",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Partner, I read the clues as Philippines + football (soccer) + a trophy + a group of people. Is the article about a football club or team, a competition or tournament, or a person? If it's a team or competition, is it a national, league, or youth-level one?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🏆👍 👎👤 👎🏠 ⚽👥⬇️ 🧒🧑👍</msg>",
+      "delivered": "🏆👍 👎👤 👎🏠 ⚽👥⬇️ 🧒🧑👍",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Decoding the reply: 🏆👍 means a trophy or championship is involved, 👎👤 means it's not a person, and 👎🏠 suggests it's not a club. ⚽👥⬇️ points to a football squad or team at a lower or youth level, and 🧒🧑👍 confirms youth. So I'm leaning toward a youth football tournament or youth national team in the Philippines. My first guess:\n\nGUESS: Philippines national under-17 football team",
+      "guess": "Philippines national under-17 football team",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🏆👍 🇵🇭 ⚽👥 small teams, not a national team ❌🇵🇭⚽\n🥇🥈 two levels 👨👨👨👨 open to many teams\n👩⚽ women too 🧒 youth too\n🔁🔁🔁🔁 seasons so far 🕰️🔙 started recently</msg>",
+      "delivered": "🏆👍 🇵🇭 ⚽👥 ❌🇵🇭⚽\n🥇🥈 👨👨👨👨\n👩⚽ 🧒\n🔁🔁🔁🔁 🕰️",
+      "dropped_chars": 95,
+      "retried": false,
+      "guesser": "Decoding this reply: 🏆👍 and 🥇🥈 mean a trophy with winners and runners-up. ❌🇵🇭⚽ rules out the Philippines national team. 👨👨👨👨 and 👩⚽ suggest men's and women's football, 🧒 suggests youth, and 🔁🔁🔁🔁 with 🕰️ suggests a recurring competition with many past editions. So I'm now thinking of a multi-year Philippine football cup or tournament with separate men's and women's (or youth) divisions. My guess:\n\nGUESS: Copa Paulino Alcantara",
+      "guess": "Copa Paulino Alcantara",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🧑🧑🧑🧑🧑🧑🧑 ⚽ per side 🇵🇭⚽🏆 league\n🗓️ started 2018 🔁🔁🔁🔁 4 seasons\n🏟️ open, clubs from top Philippine league enter 🏟️➡️🏆\n🥇🥈 men 👩⚽ women 🧒 youth</msg>",
+      "delivered": "🧑🧑🧑🧑🧑🧑🧑 ⚽ 🇵🇭⚽🏆\n🗓️ 🔁🔁🔁🔁\n🏟️ 🏟️➡️🏆\n🥇🥈 👩⚽ 🧒",
+      "dropped_chars": 83,
+      "retried": false,
+      "guesser": "Decoding this one: 🧑🧑🧑🧑🧑🧑🧑 with ⚽ and 🇵🇭⚽🏆 points to a Philippine football trophy contested by a group or team. 🗓️🔁🔁🔁🔁 means it recurs yearly with many editions. 🏟️➡️🏆 suggests a stadium-based final. 🥇🥈 with 👩⚽ and 🧒 points to a women's or youth competition with winners and runners-up. My guess is the Philippines' women's football cup:\n\nGUESS: PFF Women's Cup",
+      "guess": "PFF Women's Cup",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>🇵🇭⚽ Philippines football\n📋🔁 a league, not one cup ❌🏆\n🧑🧑🧑🧑🧑🧑🧑 seven-a-side teams\n🗓️ started 2018 🔁🔁🔁🔁 4 seasons so far\n🏅🏅 men two divisions ➕ 👩 women ➕ 🧒 youth\n🏢➡️ open to clubs from top Philippine pro league</msg>",
+      "delivered": "🇵🇭⚽\n📋🔁 ❌🏆\n🧑🧑🧑🧑🧑🧑🧑\n🗓️ 🔁🔁🔁🔁\n🏅🏅 ➕ 👩 ➕ 🧒\n🏢➡️",
+      "dropped_chars": 139,
+      "retried": false,
+      "guesser": "Decoding this one: 📋🔁 with ❌🏆 suggests the article is a list, not a competition. 🧑🧑🧑🧑🧑🧑🧑 and 👩 point to a list of people, and 🧒 suggests youth. 🏅🏅 means medals, and 🗓️🔁🔁🔁🔁 suggests recurring years. My guess is a list of Philippine women's youth or national team players who won medals:\n\nGUESS: List of Philippines women's national under-20 football team players",
+      "guess": "List of Philippines women's national under-20 football team players",
+      "correct": false
+    },
+    {
+      "turn": 6,
+      "explainer_raw": "<msg>🇵🇭⚽\n📊🏟️🏟️🏟️ many teams play each other, table\n🧑🧑🧑🧑🧑🧑🧑 small teams on field\n🗓️ 2018 🔁🔁🔁🔁 four times\n🥇🥈 men 👩 women 🧒 youth\n🏢➡️ pro clubs join</msg>",
+      "delivered": "🇵🇭⚽\n📊🏟️🏟️🏟️\n🧑🧑🧑🧑🧑🧑🧑\n🗓️ 🔁🔁🔁🔁\n🥇🥈 👩 🧒\n🏢➡️",
+      "dropped_chars": 83,
+      "retried": false,
+      "guesser": "Decoding this: 📊 with 🏟️🏟️🏟️ suggests a statistics or results article covering several venues. 🗓️🔁 means recurring years, 🥇🥈 means winners and runners-up, and 👩 🧒 means women's and youth. 🏢➡️ may point to an organization or school. My hypothesis is a Philippine university or school league's women's football results, like the UAAP or NCAA women's football tournaments. Is it a university or school competition?\n\nGUESS: UAAP women's football tournament",
+      "guess": "UAAP women's football tournament",
+      "correct": false
+    },
+    {
+      "turn": 7,
+      "explainer_raw": "<msg>🇵🇭⚽ 🏫❌\n🧑🧑🧑🧑🧑🧑🧑 small teams on pitch\n🏢➡️🏆 pro clubs enter\n🥇🥈 two tiers 👨 👩 🧒\n🗓️ 2018 🔁🔁🔁🔁</msg>",
+      "delivered": "🇵🇭⚽ 🏫❌\n🧑🧑🧑🧑🧑🧑🧑\n🏢➡️🏆\n🥇🥈 👨 👩 🧒\n🗓️ 🔁🔁🔁🔁",
+      "dropped_chars": 42,
+      "retried": false,
+      "guesser": "Not a school. Reading this together with the earlier clues: 🏢➡️🏆 with 🥇🥈 suggests a company-sponsored or club-run tournament, and 👨 👩 🧒 means it has men's, women's, and youth editions. Seven participants and recurring years fit an annual multi-division cup. My guess:\n\nGUESS: Philippine Peace Cup",
+      "guess": "Philippine Peace Cup",
+      "correct": false
+    },
+    {
+      "turn": 8,
+      "explainer_raw": "<msg>🇵🇭⚽ 📊 season table, teams play many matches 🔁\n🚫🏆 not one single final\n🧑🧑🧑🧑🧑🧑🧑 seven-a-side\n🗓️ 2018 🔁🔁🔁🔁 four seasons\n🥇🥈 two tiers 👨 👩 🧒 divisions\n🚪➡️🏢 clubs from pro league join</msg>",
+      "delivered": "🇵🇭⚽ 📊 🔁\n🚫🏆\n🧑🧑🧑🧑🧑🧑🧑\n🗓️ 🔁🔁🔁🔁\n🥇🥈 👨 👩 🧒\n🚪➡️🏢",
+      "dropped_chars": 115,
+      "retried": false,
+      "guesser": "Reading this: 🚪➡️🏢 suggests a defunct or dissolved organization, and 🚫🏆 suggests it's a league or competition with no current trophy. Combined with the statistics, recurring years, winners and runners-up, and men's, women's, and youth divisions, I'm now guessing a defunct national league:\n\nGUESS: Philippine Football League",
+      "guess": "Philippine Football League",
+      "correct": false
+    },
+    {
+      "turn": 9,
+      "explainer_raw": "<msg>🇵🇭⚽ ❌ pro league, different thing\n🥅 🧑🧑🧑🧑🧑🧑🧑 small-sided 7 per team\n🔄✅ still active, not gone\n🏢➡️ pro league clubs enter this\n🗓️ 2018 🔁🔁🔁🔁\n🥇🥈 two tiers 👨 👩 🧒</msg>",
+      "delivered": "🇵🇭⚽ ❌\n🥅 🧑🧑🧑🧑🧑🧑🧑\n🔄✅\n🏢➡️\n🗓️ 🔁🔁🔁🔁\n🥇🥈 👨 👩 🧒",
+      "dropped_chars": 97,
+      "retried": false,
+      "guesser": "Adding this clue: 🔄✅ suggests the organization was renamed or rebranded, and 🏢➡️ suggests it changed into another organization. Together with the men's, women's, and youth divisions and yearly records, I think this is a Philippine football club that later became something else. My guess:\n\nGUESS: Loyola Meralco Sparks F.C.",
+      "guess": "Loyola Meralco Sparks F.C.",
+      "correct": false
+    },
+    {
+      "turn": 10,
+      "explainer_raw": "<msg>🇵🇭⚽ ⚔️⚔️⚔️ many matches\n📊 standings table, top team 🥇\n🙅 not a club\n🧑🧑🧑🧑🧑🧑🧑 seven players each side\n🗓️ 2018 🔁🔁🔁🔁 four seasons\n🥇🥈 two tiers 👨 👩 🧒</msg>",
+      "delivered": "🇵🇭⚽ ⚔️⚔️⚔️\n📊 🥇\n🙅\n🧑🧑🧑🧑🧑🧑🧑\n🗓️ 🔁🔁🔁🔁\n🥇🥈 👨 👩 🧒",
+      "dropped_chars": 84,
+      "retried": false,
+      "guesser": "Reading this with the new clues: ⚔️⚔️⚔️ suggests head-to-head matches or a rivalry, and 📊🥇 suggests a champions table. The 🙅 and the earlier clues still point to a non-club competition with men's, women's, and youth editions. My guess:\n\nGUESS: PFF National Men's Club Championship",
+      "guess": "PFF National Men's Club Championship",
+      "correct": false
+    },
+    {
+      "turn": 11,
+      "explainer_raw": "<msg>🇵🇭 ⚽ small 🧑🧑🧑🧑🧑🧑🧑 league\n🔓 open, 🏢 clubs send their own sides\n🗓️ 2018 🔁🔁🔁🔁 four years\n👨 men 👩 women 🧒 youth divisions</msg>",
+      "delivered": "🇵🇭 ⚽ 🧑🧑🧑🧑🧑🧑🧑\n🔓 🏢\n🗓️ 🔁🔁🔁🔁\n👨 👩 🧒",
+      "dropped_chars": 73,
+      "retried": false,
+      "guesser": "Adding this clue: 🔓🏢 suggests an \"open\" competition, possibly one open to outside clubs or to the public. Combined with the recurring annual editions and men's, women's, and youth divisions, my guess is an open national tournament:\n\nGUESS: Philippine Open Football Championship",
+      "guess": "Philippine Open Football Championship",
+      "correct": false
+    },
+    {
+      "turn": 12,
+      "explainer_raw": "<msg>🇵🇭 🏉⚽ sevens version of football, like rugby sevens\n🧑🧑🧑🧑🧑🧑🧑 7 per side\n📅🔁⚽ regular season matches all year, league table\n🔓🏢 open, pro clubs send teams\n🗓️ 2018 🔁🔁🔁🔁 four seasons</msg>",
+      "delivered": "🇵🇭 🏉⚽\n🧑🧑🧑🧑🧑🧑🧑\n📅🔁⚽\n🔓🏢\n🗓️ 🔁🔁🔁🔁",
+      "dropped_chars": 123,
+      "retried": false,
+      "guesser": "Reading the new clues: 🏉⚽ suggests a football variant rather than standard 11-a-side, and 📅🔁⚽ means an annual football event. Combined with the open-tournament clue, I think this could be a futsal competition. My guess:\n\nGUESS: Philippine Futsal League",
+      "guess": "Philippine Futsal League",
+      "correct": false
+    },
+    {
+      "turn": 13,
+      "explainer_raw": "<msg>🇵🇭 🏉⚽ sevens = 7 players, not futsal\n🚫🖐️ not futsal\n🌳⚽ full outdoor grass pitch\n🧑🧑🧑🧑🧑🧑🧑 7 per side\n📅🔁⚽ season league, clubs send teams 🔓🏢\n🗓️ 2018 🔁🔁🔁🔁 four seasons\n👨 👩 🧒 divisions</msg>",
+      "delivered": "🇵🇭 🏉⚽\n🚫🖐️\n🌳⚽\n🧑🧑🧑🧑🧑🧑🧑\n📅🔁⚽ 🔓🏢\n🗓️ 🔁🔁🔁🔁\n👨 👩 🧒",
+      "dropped_chars": 114,
+      "retried": false,
+      "guesser": "I'm still not sure what the 🌳⚽ and 🚫🖐️ clues mean. My working theory is an outdoor, open-to-all association football tournament in the Philippines with men's, women's, and youth divisions, held every year. Is it held in one city or region, rather than nationwide? Is it a tournament named after a place or a sponsor?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 14,
+      "explainer_raw": "<msg>🗺️🇵🇭 nationwide 👍\n🏙️ 👎 one city\n🏷️👎 not named after sponsor or place\n🔁📅 every week all season, 📊 table, 🏆 winner\n🧑🧑🧑🧑🧑🧑🧑 seven each side ⚽🏉 sevens</msg>",
+      "delivered": "🗺️🇵🇭 👍\n🏙️ 👎\n🏷️👎\n🔁📅 📊 🏆\n🧑🧑🧑🧑🧑🧑🧑 ⚽🏉",
+      "dropped_chars": 94,
+      "retried": false,
+      "guesser": "Decoding this: 🗺️🇵🇭 means it's a regional tournament within the Philippines. 🏙️ and 🏷️ are \"no,\" so it's not city-based and doesn't carry a sponsor's name. It's recurring annually, with stats and a trophy, and the ⚽🏉 suggests a general football tournament. My guess is a regional cup named after an island group:\n\nGUESS: Visayas Cup",
+      "guess": "Visayas Cup",
+      "correct": false
+    },
+    {
+      "turn": 15,
+      "explainer_raw": "<msg>🏉⚽🇵🇭 football sevens, like rugby sevens, Philippines\n📅🔁📊 whole league, not one cup 🚫🏆\n🔗🇵🇭⚽ its teams come from top Philippine pro league\n🧑🧑🧑🧑🧑🧑🧑 seven players each side</msg>",
+      "delivered": "🏉⚽🇵🇭\n📅🔁📊 🚫🏆\n🔗🇵🇭⚽\n🧑🧑🧑🧑🧑🧑🧑",
+      "dropped_chars": 121,
+      "retried": false,
+      "guesser": "Adding this clue: 🔗🇵🇭⚽ suggests the article is connected to the Philippine football team, and 🚫🏆 means it isn't a trophy competition. Together with the annual statistics and the seven participants, I'm now leaning toward a national team's annual records or results article:\n\nGUESS: Philippines national football team results",
+      "guess": "Philippines national football team results",
+      "correct": false
+    },
+    {
+      "turn": 16,
+      "explainer_raw": "<msg>🏉⚽🇵🇭 sevens-style football in Philippines\n🔢 the name has seven 🧑🧑🧑🧑🧑🧑🧑\n🚫🥅🇵🇭 not national team\n📅🔁 yearly league 🔓🏢 clubs send teams</msg>",
+      "delivered": "🏉⚽🇵🇭\n🧑🧑🧑🧑🧑🧑🧑\n🚫🥅🇵🇭\n📅🔁 🔓🏢",
+      "dropped_chars": 90,
+      "retried": false,
+      "guesser": "This suggests a different sport. 🏉 is rugby, and 🚫🥅 could mean no goal posts or goal-scoring, which points away from football. Rugby would also fit the men's, women's, and youth divisions, the open-to-all format, and the annual trophy. My guess:\n\nGUESS: Philippine Rugby Sevens Championship",
+      "guess": "Philippine Rugby Sevens Championship",
+      "correct": false
+    },
+    {
+      "turn": 17,
+      "explainer_raw": "<msg>⚽🇵🇭 soccer, not rugby 🚫🏉\n🧑🧑🧑🧑🧑🧑🧑 seven each side, grass pitch 🌳\n📅🔁 league all year 🔓🏢 pro clubs send teams\n🗓️ 2018 🔁🔁🔁🔁 four seasons\n👨 👩 🧒 divisions</msg>",
+      "delivered": "⚽🇵🇭 🚫🏉\n🧑🧑🧑🧑🧑🧑🧑 🌳\n📅🔁 🔓🏢\n🗓️ 🔁🔁🔁🔁\n👨 👩 🧒",
+      "dropped_chars": 93,
+      "retried": false,
+      "guesser": "Taking the new clues into account: ⚽🇵🇭 with 🚫🏉 confirms association football, not rugby. 🌳 suggests an outdoor or community-based setting, and 🔓🏢 suggests it's open to amateur or community clubs. With the annual men's, women's, and youth editions, my guess is an amateur community league:\n\nGUESS: Philippine Amateur Football League",
+      "guess": "Philippine Amateur Football League",
+      "correct": false
+    },
+    {
+      "turn": 18,
+      "explainer_raw": "<msg>🔢 name pattern: seven ⚽ football 📅 league\n🌱2018 start, 🔁🔁🔁🔁 four seasons\n👎 amateur, 🏢 pro-club sides enter\n👨 👩 🧒 divisions</msg>",
+      "delivered": "⚽ 📅\n🌱 🔁🔁🔁🔁\n👎 🏢\n👨 👩 🧒",
+      "dropped_chars": 88,
+      "retried": false,
+      "guesser": "The new clues point to grassroots development. 🌱 suggests a development or grassroots focus, 🔁🔁🔁🔁 means many recurring editions, and 👎🏢 means it isn't a formal organization or club. With the men's, women's, and youth divisions, my guess is a grassroots football tournament:\n\nGUESS: Philippine Grassroots Football Tournament",
+      "guess": "Philippine Grassroots Football Tournament",
+      "correct": false
+    },
+    {
+      "turn": 19,
+      "explainer_raw": "<msg>🇵🇭⚽ league 🎯 seven-a-side football\n🧑🧑🧑🧑🧑🧑🧑 seven players per team\n🏢 teams = reps of pro clubs\n🗓️ 2018 🔁🔁🔁🔁 four seasons\n👨 👩 🧒 divisions</msg>",
+      "delivered": "🇵🇭⚽ 🎯\n🧑🧑🧑🧑🧑🧑🧑\n🏢\n🗓️ 🔁🔁🔁🔁\n👨 👩 🧒",
+      "dropped_chars": 89,
+      "retried": false,
+      "guesser": "The seven-person clue may mean seven-a-side football. Combined with the annual editions, men's, women's, and youth divisions, and the focus on a specific target, I'm guessing a sevens football championship:\n\nGUESS: Philippines Football Sevens Championship",
+      "guess": "Philippines Football Sevens Championship",
+      "correct": false
+    },
+    {
+      "turn": 20,
+      "explainer_raw": "<msg>✅🇵🇭⚽🧑🧑🧑🧑🧑🧑🧑 sevens football YES\n🚫🏆 not championship\n📊🔁 league table, many matches\n🏢🔓 open to pro-club sides\n🗓️ 2018 🔁🔁🔁🔁 four seasons</msg>",
+      "delivered": "✅🇵🇭⚽🧑🧑🧑🧑🧑🧑🧑\n🚫🏆\n📊🔁\n🏢🔓\n🗓️ 🔁🔁🔁🔁",
+      "dropped_chars": 89,
+      "retried": false,
+      "guesser": "I'm not sure I have this right yet. The 🚫🏆 says there's no trophy, but 📊🔁 and 🗓️🔁🔁🔁🔁 suggest recurring statistics across many years, and 🏢🔓 may point to an organization or open format. Is the article about an organization or league, such as a federation, rather than a single tournament? And does the article mainly contain statistics or records?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 21,
+      "explainer_raw": "<msg>✅ league, competition itself\n🏛️👎 not federation\n📊👎 not mainly stats\n🇵🇭⚽ small seven-a-side 🧑🧑🧑🧑🧑🧑🧑 🔓 open to pro-club sides</msg>",
+      "delivered": "✅\n🏛️👎\n📊👎\n🇵🇭⚽ 🧑🧑🧑🧑🧑🧑🧑 🔓",
+      "dropped_chars": 87,
+      "retried": false,
+      "guesser": "Not an organization and not statistics. The article seems to be about Philippine football with seven people and an \"open\" theme. Is it a film, book, song, or other media work? Or is it a specific place such as a stadium or town? Or is it a single event such as a one-off match?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 22,
+      "explainer_raw": "<msg>🎬📚🎵 👎 not media\n🏟️🏘️ 👎 not place\n1️⃣ 👎 not one match\n🔁📅⚽ ongoing league, many seasons, teams play through year\n🇵🇭 Philippines, 🧑🧑🧑🧑🧑🧑🧑 seven each side</msg>",
+      "delivered": "🎬📚🎵 👎\n🏟️🏘️ 👎\n👎\n🔁📅⚽\n🇵🇭 🧑🧑🧑🧑🧑🧑🧑",
+      "dropped_chars": 100,
+      "retried": false,
+      "guesser": "Not media, not a place, and not a one-off event. The clues now suggest a recurring annual football event in the Philippines, possibly without a trophy, held as a festival or series of matches. My guess:\n\nGUESS: Philippines Football Festival",
+      "guess": "Philippines Football Festival",
+      "correct": false
+    },
+    {
+      "turn": 23,
+      "explainer_raw": "<msg>🚫🎉 not festival\n🏷️ name = 🧑🧑🧑🧑🧑🧑🧑 ⚽ 📋 (seven, football, league)\n📅🔁 ongoing yearly league, 📊 standings\n🇵🇭 Philippines, 🔓🏢 pro clubs send teams</msg>",
+      "delivered": "🚫🎉\n🏷️ 🧑🧑🧑🧑🧑🧑🧑 ⚽ 📋\n📅🔁 📊\n🇵🇭 🔓🏢",
+      "dropped_chars": 97,
+      "retried": false,
+      "guesser": "Taking this clue in: 📋 suggests the article is a list, 🏷️ suggests a name or title, and 🧑🧑🧑🧑🧑🧑🧑 may mean seven entries. With the annual records and open format, my guess is a list of Philippine football champions:\n\nGUESS: List of Philippine football champions",
+      "guess": "List of Philippine football champions",
+      "correct": false
+    },
+    {
+      "turn": 24,
+      "explainer_raw": "<msg>⚽🧑🧑🧑🧑🧑🧑🧑 ⚔️ ⚽🧑🧑🧑🧑🧑🧑🧑 seven vs seven matches\n🚫📋 not a list\n🔁📊 league table, all season\n🇵🇭 Philippines, 🗓️ started 2018, four seasons</msg>",
+      "delivered": "⚽🧑🧑🧑🧑🧑🧑🧑 ⚔️ ⚽🧑🧑🧑🧑🧑🧑🧑\n🚫📋\n🔁📊\n🇵🇭 🗓️",
+      "dropped_chars": 83,
+      "retried": false,
+      "guesser": "This clue points to a rivalry rather than a list. Two teams of seven face each other, with recurring meetings, head-to-head statistics, and a single date. My guess is a Philippine football derby:\n\nGUESS: Manila derby",
+      "guess": "Manila derby",
+      "correct": false
+    },
+    {
+      "turn": 25,
+      "explainer_raw": "<msg>🚫⚔️ not one derby or single match\n🏢🏢🏢🏢🏢🏢 many teams in ONE league 🔁📊\n⚽🧑🧑🧑🧑🧑🧑🧑 seven per team\n🇵🇭 Philippines, 🗓️ 2018, four seasons so far</msg>",
+      "delivered": "🚫⚔️\n🏢🏢🏢🏢🏢🏢 🔁📊\n⚽🧑🧑🧑🧑🧑🧑🧑\n🇵🇭 🗓️",
+      "dropped_chars": 89,
+      "retried": false,
+      "guesser": "This clue points to a league season rather than a rivalry. Six clubs competing with season statistics suggests a single season of a Philippine football league. My guess is a specific season:\n\nGUESS: 2017 Philippines Football League",
+      "guess": "2017 Philippines Football League",
+      "correct": false
+    },
+    {
+      "turn": 26,
+      "explainer_raw": "<msg>🚫 not PFL itself 🔗 separate league, sibling of PFL\n🧑🧑🧑🧑🧑🧑🧑 seven per team, small pitch\n🗓️ 2018 start, 🔁🔁🔁🔁 four seasons\n👨 👩 🧒 divisions</msg>",
+      "delivered": "🚫 🔗\n🧑🧑🧑🧑🧑🧑🧑\n🗓️ 🔁🔁🔁🔁\n👨 👩 🧒",
+      "dropped_chars": 92,
+      "retried": false,
+      "guesser": "The clues now suggest a league with separate men's, women's, and youth divisions, seven teams, and annual seasons. My guess is the United Football League in the Philippines:\n\nGUESS: United Football League (Philippines)",
+      "guess": "United Football League (Philippines)",
+      "correct": false
+    },
+    {
+      "turn": 27,
+      "explainer_raw": "<msg>⚽🇵🇭 football, sevens: 👤👤👤👤👤👤👤 PLAYERS per side on field\n🚫 teams count, 🚫 seven teams\n🔁📊 league table, many clubs' reps 🏢\n🗓️ 2018 start, four seasons</msg>",
+      "delivered": "⚽🇵🇭 👤👤👤👤👤👤👤\n🚫 🚫\n🔁📊 🏢\n🗓️",
+      "dropped_chars": 105,
+      "retried": false,
+      "guesser": "I'm running out of turns, so I need to narrow this down. The seven 👤 could mean seven players or seven participants. Is the article about a team's squad or roster, or about a specific match or event on a particular date? And does it cover a club, rather than a league or a national team?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 28,
+      "explainer_raw": "<msg>🚫👥 not a squad or roster\n🚫📅 not one match or date\n🚫🏢 not a club\n✅📊🔁 league, competition, all season</msg>",
+      "delivered": "🚫👥\n🚫📅\n🚫🏢\n✅📊🔁",
+      "dropped_chars": 70,
+      "retried": false,
+      "guesser": "The statistics clue fits, and 🚫👥 suggests the seven people aren't a team roster. They might be coaches or managers, which would make this a records article about the Philippine national team. My guess:\n\nGUESS: List of Philippines national football team managers",
+      "guess": "List of Philippines national football team managers",
+      "correct": false
+    },
+    {
+      "turn": 29,
+      "explainer_raw": "<msg>⚽🇵🇭 seven-a-side football league 👤👤👤👤👤👤👤 per team\n🗓️ 2018, 🔁🔁🔁🔁 four seasons\n👨 👩 🧒 men, women, youth\n🔓🏢 pro-club representative sides 🔁📊 table</msg>",
+      "delivered": "⚽🇵🇭 👤👤👤👤👤👤👤\n🗓️ 🔁🔁🔁🔁\n👨 👩 🧒\n🔓🏢 🔁📊",
+      "dropped_chars": 96,
+      "retried": false,
+      "guesser": "I have one guess left after this, and the clues still point to a recurring open event with men's, women's, youth, and statistics sections. My guess:\n\nGUESS: Philippines Open Football Tournament",
+      "guess": "Philippines Open Football Tournament",
+      "correct": false
+    },
+    {
+      "turn": 30,
+      "explainer_raw": "<msg>⚽🇵🇭 league, not tournament 🚫🏆\n👤👤👤👤👤👤👤 seven-a-side\n🗓️ 2018 🔁🔁🔁🔁 four seasons\n🔓🏢 pro clubs send teams 📊 table</msg>",
+      "delivered": "⚽🇵🇭 🚫🏆\n👤👤👤👤👤👤👤\n🗓️ 🔁🔁🔁🔁\n🔓🏢 📊",
+      "dropped_chars": 69,
+      "retried": false,
+      "guesser": "I've used all 30 turns without finding the article, and my final guess was also wrong. I couldn't decode the explainer's clues into a title that matched.\n\nHere is what the clues consistently pointed to: a recurring, annual, open football event in the Philippines with statistics and seven people involved, with no trophy. I never found a candidate that fit. The article is probably an obscure local tournament, league, or event that I wasn't able to identify.",
+      "guess": null,
+      "correct": null
+    }
+  ],
+  "sessions": {
+    "explainer": "5d9e1c38-3164-4787-a07b-f6b677e8e0b0",
+    "guesser": "4cf60bef-b004-477b-b9c9-be4821853a5e"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

@@ -1,0 +1,71 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Sage Derby",
+    "description": "Variety of cheese",
+    "extract": "Sage Derby is a variety of Derby cheese that is mild, mottled green and semi-hard, and has a sage flavour. The colour is from sage and sometimes other colouring added to the curds, producing a marbling effect and a subtle herb flavour. The colour is formed either by mixing sage leaves into the curd before it is pressed or by the addition of \"green curd\" from green corn or spinach juice. In the latter case, the flavour has to be created with colourless sage extract. Parsley, spinach and marigold leaves, bruised and steeped before use, can also be included instead of the sage leaves. It is aged for one to three months.",
+    "url": "https://en.wikipedia.org/wiki/Sage_Derby"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "keyboard": {
+    "fraction": 0.5,
+    "seed": "v1",
+    "size": 936
+  },
+  "max_turns": 30,
+  "seconds": 15.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 5894,
+      "cache_read_input_tokens": 588,
+      "output_tokens": 425,
+      "thinking_tokens": 363,
+      "cost_usd": 0.0557776,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 967,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 579,
+      "thinking_tokens": 440,
+      "cost_usd": 0.019324,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🧀🍃🏴󠁧󠁢󠁥󠁮󠁧󠁿 🧙‍♀️🦉 🐏🎩</msg>",
+      "delivered": "🧀🍃🏴󠁧󠁢󠁥󠁮󠁧󠁿 🧙‍♀️🦉 🐏🎩",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Cheese 🧀 + leaf 🍃 + England 🏴󠁧󠁢󠁥󠁮󠁧󠁿. Witch 🧙‍♀️ + owl 🦉 = wise, so \"sage\" (also the herb leaf). Ram 🐏 (the Derby Ram) + hat 🎩 (a derby hat) = Derby.\n\nGUESS: Sage Derby",
+      "guess": "Sage Derby",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "bbdcc508-f0cf-4482-802b-9a3f93dfb73a",
+    "guesser": "9513d23d-ca2d-45e1-bcde-74aa6b65d4b2"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

@@ -1,0 +1,88 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Philadelphia Commercial Museum",
+    "description": "Former museum in Pennsylvania, USA",
+    "extract": "The Philadelphia Commercial Museum was established in Philadelphia, Pennsylvania in 1895. Its permanent home was a neo-classical building situated at 34th Street and Civic Center Blvd, erected as part of the 1899 National Export Exposition. The museum had business offices at 332 South Fourth Street.",
+    "url": "https://en.wikipedia.org/wiki/Philadelphia_Commercial_Museum"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 74.2,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 3248,
+      "cache_read_input_tokens": 2246,
+      "output_tokens": 2383,
+      "thinking_tokens": 2116,
+      "cost_usd": 0.0745664,
+      "calls": 2,
+      "cost_usd_reported": 0.11953660000000002
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 3186,
+      "cache_read_input_tokens": 974,
+      "output_tokens": 3050,
+      "thinking_tokens": 2602,
+      "cost_usd": 0.08690160000000001,
+      "calls": 2,
+      "cost_usd_reported": 0.1366868
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 710,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0001442,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Philadelphia (Franklin's key, cracked bell, brotherly love, Declaration), then commerce and trade, then a museum-like exhibit idea.\n\n<msg>\n🔕 🌩️🗝️ 👦👦💗 📜✍️\n\n💱 💲 🚚 🧳 ⚖️\n\n🔍 🗃️ 🫙 🐚 🪨 👁️\n</msg>",
+      "delivered": "🔕 🌩️🗝️ 👦👦💗 📜✍️\n💱 💲 🚚 🧳 ⚖️\n🔍 🗃️ 🫙 🐚 🪨 👁️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Here's my reading so far:\n- **Line 1:** 🔕 = silent, maybe a Quaker or Silence Dogood. 🌩️🗝️ = Benjamin Franklin's kite and key. 👦👦💗 = Philadelphia (\"brotherly love\") or \"Friends\" (Quakers). 📜✍️ = letters or writings.\n- **Line 2:** a merchant or trader, possibly with a legal role.\n- **Line 3:** a collector or naturalist (shells, minerals, cabinet of curiosities), and 🫙 might be a Leyden jar.\n\nSo I'm thinking of a Quaker merchant and naturalist who corresponded with Franklin about electricity.\n\nIs this a person? Is it an 18th-century Philadelphian? If I'm off, tell me which line I've misread.\n\nGUESS: Peter Collinson",
+      "guess": "Peter Collinson",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "Telling them it's not a person but a building, confirming Philadelphia, then hinting at people viewing collections, commerce and export, a world's fair, and that it closed.\n\n<msg>\n👤🙅 🧱🏗️\n\n👦👦💗 👏👏\n\n👥👁️🗃️🐚🪨🫙\n\n💱🚚🌊\n\n🎡\n\n🔒🚪\n</msg>",
+      "delivered": "👤🙅 🧱🏗️\n👦👦💗 👏👏\n👥👁️🗃️🐚🪨🫙\n💱🚚🌊\n🎡\n🔒🚪",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Got it: not a person but a building. It's in Philadelphia, and people looked at collections of shells, minerals and jars there. Trade and overseas shipping fit, the 🎡 suggests a world's fair, and it's now closed.\n\nThat sounds like the museum founded with exhibits from the 1893 exposition to promote international trade. What did 🔕🌩️🗝️ mean in the first message: \"not Franklin,\" or something else?\n\nGUESS: Philadelphia Commercial Museum",
+      "guess": "Philadelphia Commercial Museum",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "ec6621a7-c01a-46f5-b2b6-17ae76eaddfb",
+    "guesser": "0ff4bc3b-46af-4b7c-895c-f73a701b2a8c"
+  },
+  "ladder": {
+    "article_no": 14,
+    "round": 4,
+    "n_banned": 100,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

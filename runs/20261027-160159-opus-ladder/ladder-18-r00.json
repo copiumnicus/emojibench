@@ -1,0 +1,81 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Motorchuna",
+    "description": "River in Yakutia (Sakha Republic), Russia",
+    "extract": "The Motorchuna is a river in Yakutia, Russia. It is a left tributary of the Lena with a length of 423 kilometres (263 mi). Its drainage basin area is 9,250 square kilometres (3,570 mi2). Since its river basin is uninhabited, the Motorchuna is one of the most untouched rivers in Yakutia; the waters are clean and there is abundant wildlife.",
+    "url": "https://en.wikipedia.org/wiki/Motorchuna"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "max_turns": 30,
+  "seconds": 34.2,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1801,
+      "cache_read_input_tokens": 1164,
+      "output_tokens": 690,
+      "thinking_tokens": 612,
+      "cost_usd": 0.0286976,
+      "calls": 2,
+      "cost_usd_reported": 0.0460448
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1352,
+      "cache_read_input_tokens": 887,
+      "output_tokens": 1273,
+      "thinking_tokens": 995,
+      "cost_usd": 0.0366548,
+      "calls": 2,
+      "cost_usd_reported": 0.0514214
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 706,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00014340000000000002,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇷🇺 🥶🦣💎 🏞️〰️</msg>",
+      "delivered": "🇷🇺 🥶🦣💎 🏞️〰️",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Russia, cold, mammoth, diamond, river. This sounds like a **river in Yakutia (Sakha Republic)**, which is known for both mammoths and diamonds. Is that right?\n\n- If the river is a tributary, can you show which bigger river it flows into (Lena, Vilyuy, Anabar, Kolyma, Indigirka...)?\n- Do the mammoth and diamond refer to the region (Yakutia), or to this specific river?\n\nMy first guess is the river famous for its mammoth cemetery:\n\nGUESS: Berelyokh",
+      "guess": "Berelyokh",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👍🗺️\n⬅️〰️➡️🌊👑\n🗣️🏍️⚙️</msg>",
+      "delivered": "👍🗺️\n⬅️〰️➡️🌊👑\n🗣️🏍️⚙️",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Thanks! So it's a tributary river in Yakutia, and its name sounds like \"motor\" (🏍️⚙️). That strongly suggests the Motorchuna, a tributary in the Muna/Lena basin, which is a diamond area.\n\nGUESS: Motorchuna",
+      "guess": "Motorchuna",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "36d0d8d1-58a2-4a5d-9077-0224e41f8b36",
+    "guesser": "90714bbc-70b5-4709-9203-49beb1aa73c4"
+  },
+  "ladder": {
+    "article_no": 18,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": "runs/20261027-151301-opus/game-18.json"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

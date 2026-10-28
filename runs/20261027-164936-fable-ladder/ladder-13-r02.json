@@ -1,0 +1,75 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Dorothy Cottrell",
+    "description": "Australian writer",
+    "extract": "Ida Dorothy Ottley Cottrell was an Australian writer. Born in Picton, she contracted infantile paralysis as a child and spent the rest of her life in a wheelchair. Cottrell married Walter Mackenzie Cottrell on 23 May 1922. Her first novel, The Singing Gold, was published in 1928. She wrote a story Wilderness Orphan (1936) which was the basis for the feature film Orphan of the Wilderness (1936). She lived for a time in the US and also worked as an artist and cartoonist.",
+    "url": "https://en.wikipedia.org/wiki/Dorothy_Cottrell"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 114.3,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 990,
+      "cache_read_input_tokens": 577,
+      "output_tokens": 5327,
+      "thinking_tokens": 5171,
+      "cost_usd": 0.28631425000000005,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1069,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 2392,
+      "thinking_tokens": 2249,
+      "cost_usd": 0.14100000000000001,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🙃🌍 🐊🐍🕷️🏏 ♀️ 🖊️📝📘📗\n🧸👦🤒💉 🦼 ♾️\n🌀🏚️ 🤖 🐒🪽 🟢🏙️ 🧙‍♂️ 👡❤️\n📽️🍿 👦❌👪 🏞️🌵 👝🥊\n🖍️🖼️ 🌎\n</msg>",
+      "delivered": "🙃🌍 🐊🐍🕷️🏏 ♀️ 🖊️📝📘📗\n🧸👦🤒💉 🦼 ♾️\n🌀🏚️ 🤖 🐒🪽 🟢🏙️ 🧙‍♂️ 👡❤️\n📽️🍿 👦❌👪 🏞️🌵 👝🥊\n🖍️🖼️ 🌎",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I think I've got it! Reading: Australia (upside-down world + croc/snake/spider/cricket), female writer; childhood illness (polio) → wheelchair for life; Wizard of Oz → \"Dorothy\"; film about an orphan in the wilderness with a boxing kangaroo → *Orphan of the Wilderness*; also an artist/illustrator who went abroad.\n\nGUESS: Dorothy Cottrell",
+      "guess": "Dorothy Cottrell",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "03170da5-07ae-44c2-8b47-55987e386032",
+    "guesser": "c7ef3298-f721-48fa-8c09-527e6259e7e4"
+  },
+  "ladder": {
+    "article_no": 13,
+    "round": 2,
+    "n_banned": 56,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

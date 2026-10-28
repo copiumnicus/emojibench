@@ -1,0 +1,101 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Richmond Hill South",
+    "description": "Federal electoral district in Ontario, Canada",
+    "extract": "Richmond Hill South is a federal electoral district in Ontario, Canada, that has been represented in the House of Commons of Canada since 2004.",
+    "url": "https://en.wikipedia.org/wiki/Richmond_Hill_South"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 110.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 4141,
+      "cache_read_input_tokens": 5662,
+      "output_tokens": 2895,
+      "thinking_tokens": 2635,
+      "cost_usd": 0.0933328,
+      "calls": 3,
+      "cost_usd_reported": 0.2093234
+    },
+    "guesser": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 6108,
+      "cache_read_input_tokens": 5747,
+      "output_tokens": 5210,
+      "thinking_tokens": 4666,
+      "cost_usd": 0.1554028,
+      "calls": 3,
+      "cost_usd_reported": 0.3722142
+    },
+    "judge": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 1420,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0002884,
+      "calls": 2
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🪿🥌 🐴📥🧾\n\n💷💶💴 🌙 🛷🏂 ⏬🧊🐋\n\n💷💶 🌙 🛷 ⏬\n</msg>",
+      "delivered": "🪿🥌 🐴📥🧾\n💷💶💴 🌙 🛷🏂 ⏬🧊🐋\n💷💶 🌙 🛷 ⏬",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I'm reading 🪿🥌 as **Canada** (Canada goose + curling), and 🐴📥🧾 as **horse racing** (horse + betting slip). So my guess is this is a Canadian racehorse, a race, or a Hall of Fame inductee.\n\nThe next lines look like a title of about 4 words: [money] [moon/night] [sled] [down/drop/dive]. I'm not sure which word each emoji stands for.\n\nQuestions:\n1. Is the subject a horse, or a person such as a jockey or trainer?\n2. Is the 💷 word \"Cash\", \"Pound\", \"Silver\", \"Gold\", \"Fortune\" or something else? Please send a different emoji that narrows it down.\n3. Does ⏬🧊🐋 mean something like \"dive\", \"plunge\", \"slide\" or \"drift\"?\n\nGUESS: Silver Moon",
+      "guess": "Silver Moon",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n🐴⛔\n📝📮 🏠🧑‍🤝‍🧑🧑‍🤝‍🧑\n\n💷🥂💳\n🇩🇪🌙\n🛷🌋\n⏬\n\n💷🇩🇪🌙 🛷 ⏬\n</msg>",
+      "delivered": "🐴⛔\n📝📮 🏠🧑‍🤝‍🧑🧑‍🤝‍🧑\n💷🥂💳\n🇩🇪🌙\n🛷🌋\n⏬\n💷🇩🇪🌙 🛷 ⏬",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Got it: not a horse. I read 📝📮🏠🧑‍🤝‍🧑 as a ballot box for a House, so this is a Canadian electoral district (riding).\n\n- 💷 + 🇩🇪🌙 (German \"Mond\") = **Richmond**\n- 🛷🌋 = **Hill**\n- I'm reading ⏬ as the \"lower\" level of government, so **provincial** rather than federal.\n\nGUESS: Richmond Hill (provincial electoral district)",
+      "guess": "Richmond Hill (provincial electoral district)",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n💷🇩🇪🌙 🛷🌋 ⏬🇦🇶\n\n⏬ = 🇦🇶🧊❄️ 🧭⛔\n\n🪿🥌🏠 ⭕\n</msg>",
+      "delivered": "💷🇩🇪🌙 🛷🌋 ⏬🇦🇶\n⏬ 🇦🇶🧊❄️ ⛔\n🪿🥌🏠 ⭕",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🧭"
+      ],
+      "retried": false,
+      "guesser": "So ⏬🇦🇶 means **South**, not ice or cold, and 🪿🥌🏠⭕ confirms it's a federal Canadian House of Commons riding. I think this is the new riding created in the 2023 redistribution.\n\nGUESS: Richmond Hill South",
+      "guess": "Richmond Hill South",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "f5efcb8d-3bac-440a-9d41-c22f8d93125f",
+    "guesser": "281c55dd-fe5d-4039-a299-11d9143418c4"
+  },
+  "ladder": {
+    "article_no": 8,
+    "round": 4,
+    "n_banned": 88,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

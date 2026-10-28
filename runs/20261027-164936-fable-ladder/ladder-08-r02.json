@@ -1,0 +1,88 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Richmond Hill South",
+    "description": "Federal electoral district in Ontario, Canada",
+    "extract": "Richmond Hill South is a federal electoral district in Ontario, Canada, that has been represented in the House of Commons of Canada since 2004.",
+    "url": "https://en.wikipedia.org/wiki/Richmond_Hill_South"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 96.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 2718,
+      "cache_read_input_tokens": 1923,
+      "output_tokens": 2376,
+      "thinking_tokens": 2214,
+      "cost_usd": 0.175123,
+      "calls": 2,
+      "cost_usd_reported": 0.269725
+    },
+    "guesser": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 2378,
+      "cache_read_input_tokens": 971,
+      "output_tokens": 4023,
+      "thinking_tokens": 3637,
+      "cost_usd": 0.24972100000000003,
+      "calls": 2,
+      "cost_usd_reported": 0.33093275
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 707,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0001436,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🫎 🇺🇸⬆️\n🏇 📢 🗣️\n💎💵 🌕\n🗻\n🔻🐧\n</msg>",
+      "delivered": "🫎 🇺🇸⬆️\n🏇 📢 🗣️\n💎💵 🌕\n🗻\n🔻🐧",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Let me decode what I think so far:\n- 🫎 🇺🇸⬆️ = north of the USA → **Canada** (or Alaska?)\n- 🏇 📢 🗣️ = horse racing announcer / race caller / commentator\n- 💎💵 🌕 = diamond / money / moon — a name? (\"Rich\", \"Luna\", \"Moon\"?)\n- 🗻 = mountain\n- 🔻🐧 = south / down under / Antarctica?\n\nQuestions: Is the article a **person** (a Canadian horse racing announcer)? Or is it a **racehorse**? Does 💎💵🌕 spell part of the name? Please answer with ✅/❌ for: (1) person, (2) Canada, (3) racehorse, (4) racetrack.\n\nGUESS: Dan Loiselle",
+      "guess": "Dan Loiselle",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n👎 👍 👎 👎\n🧩👂 🏇\n👔👔👔 🗣️ 🏟️ 🏴\n✍️📥 🐘🫏\n🧩👂 💵🌕 🗻 🔻🐧\n🦖🏀 ↕️\n</msg>",
+      "delivered": "👎 👍 👎 👎\n🧩👂 🏇\n👔👔👔 🗣️ 🏟️ 🏴\n✍️📥 🐘🫏\n🧩👂 💵🌕 🗻 🔻🐧\n🦖🏀 ↕️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Got it: 🧩👂🏇 = sounds like \"riding\" → a Canadian **electoral district**! And 💵🌕 = \"rich-moon\" → Richmond, 🗻 = Hill, 🔻🐧 = South, 🦖🏀↕️ = north of Toronto.\n\nGUESS: Richmond Hill South",
+      "guess": "Richmond Hill South",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "c6804df8-e026-44bf-9b1f-4cd41226e9a6",
+    "guesser": "425fd233-0fe1-4d35-8906-306b0c8c09dd"
+  },
+  "ladder": {
+    "article_no": 8,
+    "round": 2,
+    "n_banned": 33,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

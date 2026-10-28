@@ -1,0 +1,74 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Proceratium silaceum",
+    "description": "Species of ant",
+    "extract": "Proceratium silaceum is a species of ant in the family Formicidae.",
+    "url": "https://en.wikipedia.org/wiki/Proceratium_silaceum"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "max_turns": 30,
+  "seconds": 33.9,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1729,
+      "cache_read_input_tokens": 1044,
+      "output_tokens": 957,
+      "thinking_tokens": 733,
+      "cost_usd": 0.0334136,
+      "calls": 2,
+      "cost_usd_reported": 0.048624799999999996
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1524,
+      "cache_read_input_tokens": 910,
+      "output_tokens": 1127,
+      "thinking_tokens": 710,
+      "cost_usd": 0.03512,
+      "calls": 2,
+      "cost_usd_reported": 0.052966000000000006
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 698,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0001418,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Start by establishing that the article is about a single ant species. Then work toward the genus and species name.\n\n<msg>🐜 🔬 🧬 📛\n🐜 ➡️ 🦠❓ 👎\n🐜 = 🎯 (one 🐜 kind)</msg>",
+      "delivered": "🐜 🔬 🧬 📛\n🐜 ➡️ 🦠❓ 👎\n🐜 🎯 🐜",
+      "dropped_chars": 10,
+      "retried": false,
+      "guesser": "**What I understand so far:** the article is about an ant species with a scientific (Latin) name. It is not a fungus or microbe. It attacks or parasitizes other ants, so it might be a slave-making ant, a social parasite, or an ant that preys on ants.\n\n**Questions:**\n1. Is it a social parasite or slave-maker (it takes over other ants' colonies), or a predator that eats other ants?\n2. Can you spell the genus with letter emojis (🇦 🇧 🇨 …)? If that's too hard, give the first few letters.\n3. Where does it live? Use a map or flag emoji.\n\nGUESS: Polyergus rufescens",
+      "guess": "Polyergus rufescens",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>1️⃣ 👎 👑🐜❌ 🕷️🥚🍽️\n🇵 🇷 🇴 🇨 🇪 🇷 🇦 🇹 🇮 🇺 🇲\n🇸 🇮 🇱 🇦 🇨 🇪 🇺 🇲\n🗺️ 🇺🇸</msg>",
+      "delivered": "👎 👑🐜❌ 🕷️🥚🍽️\n🗺️ 🇺🇸",
+      "dropped_chars": 21,
+      "retried": false,
+      "guesser": "**My reading:** this ant is not a slave-maker and does not take over other colonies with its queen. It eats spider eggs and lives in the USA. Spider-egg specialists make me think of the genus *Proceratium*, or possibly *Discothyrea*.\n\n**Questions:**\n1. Is the genus *Proceratium*? Answer 👍 or 👎.\n2. If yes, which species? Can you hint at the second word, the species epithet? Use letter emojis or a picture clue.\n3. What did \"🐜 🎯 🐜\" mean in your first message?\n\nGUESS: Proceratium silaceum",
+      "guess": "Proceratium silaceum",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "ee53e970-ebd1-40a2-aac6-0d6e447f9427",
+    "guesser": "778a721d-cec1-4699-85fa-e23a63a5e05a"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

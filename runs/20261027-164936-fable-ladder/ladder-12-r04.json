@@ -1,0 +1,75 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Dora Akunyili",
+    "description": "Nigerian pharmacist and government official (1954–2014)",
+    "extract": "Dora Nkem Akunyili was a Nigerian pharmacist and politician who served as the director-general of National Agency for Food and Drug Administration and Control (NAFDAC) of Nigeria from 2001 to 2008.",
+    "url": "https://en.wikipedia.org/wiki/Dora_Akunyili"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 79.5,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1026,
+      "cache_read_input_tokens": 577,
+      "output_tokens": 4000,
+      "thinking_tokens": 3895,
+      "cost_usd": 0.22068425000000003,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1018,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1289,
+      "thinking_tokens": 1134,
+      "cost_usd": 0.08483,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🦊👢🧭🩷\n🇳🇪⬇️ 🛢️🎬⚽\n💃🥼🔬\n🤒🌡️🃏 🛑🕵️🔎 🥫🍼🧾\n🗳️🎖️\n🦀💀🌹\n</msg>",
+      "delivered": "🦊👢🧭🩷\n🇳🇪⬇️ 🛢️🎬⚽\n💃🥼🔬\n🤒🌡️🃏 🛑🕵️🔎 🥫🍼🧾\n🗳️🎖️\n🦀💀🌹",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Dora the Explorer (🦊 Swiper, 👢 Boots, 🧭 map) → \"Dora\"; 🇳🇪⬇️ → Nigeria; female pharmacist/scientist; fake drugs (🤒🌡️🃏), regulation (🛑🕵️🔎), food & drug agency (🥫🍼🧾 = NAFDAC); politician/minister; died of cancer.\n\nGUESS: Dora Akunyili",
+      "guess": "Dora Akunyili",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "33506ee3-416a-480c-957c-8fd706184ae7",
+    "guesser": "5623131e-06e2-4cc0-85a9-9b429c925b54"
+  },
+  "ladder": {
+    "article_no": 12,
+    "round": 4,
+    "n_banned": 81,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

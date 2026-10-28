@@ -1,0 +1,65 @@
+{
+  "model": "sonnet",
+  "model_id": "claude-sonnet-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Grande Seca",
+    "description": "Brazilian drought (1877–1878)",
+    "extract": "The Grande Seca, or the Brazilian drought of 1877–1878, was the largest and most devastating drought in Brazilian history. It caused the deaths of between 400,000 and 500,000 people. Of the 800,000 people who lived in the affected Northeastern region, around 120,000 migrated to the Amazon while 68,000 migrated to other parts of Brazil.",
+    "url": "https://en.wikipedia.org/wiki/Grande_Seca"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 12.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1158,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 82,
+      "thinking_tokens": 0,
+      "cost_usd": 0.005456,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 924,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 633,
+      "thinking_tokens": 470,
+      "cost_usd": 0.020059999999999998,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇧🇷☀️🏜️🥵💀💀💀🌵🥀🚶‍♂️🚶‍♀️🚶🌿📅1️⃣8️⃣7️⃣7️⃣</msg>",
+      "delivered": "🇧🇷☀️🏜️🥵💀💀💀🌵🥀🚶‍♂️🚶‍♀️🚶🌿📅",
+      "dropped_chars": 8,
+      "retried": false,
+      "guesser": "The emojis suggest Northeast Brazil, drought in the sertão, many deaths, and *retirantes* (refugees walking away from the drought) in a specific year. My first idea is the Great Drought of 1877–78. Other options would be *Vidas Secas* or *O Quinze*.\n\nIs it a historical drought event (👍) or a novel/film/artwork about one (🎬📖🖼️)? What does the 📅 refer to: a specific year?\n\nGUESS: Grande Seca",
+      "guess": "Grande Seca",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "78974dcc-be83-4bb1-b971-5092cb3b1053",
+    "guesser": "deb85e20-48a7-4ddf-a3c7-2fc99d7d666a"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

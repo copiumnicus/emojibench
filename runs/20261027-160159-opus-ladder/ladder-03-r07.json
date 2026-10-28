@@ -1,0 +1,101 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Baggio–Yoshinari syndrome",
+    "description": "Medical condition",
+    "extract": "Baggio–Yoshinari syndrome (BYS), formerly known as the Brazilian Lyme disease-like illness (BLDLI) and Brazilian Human Borreliosis, is an anthropozoonotic infectious disease of infectious-reactional character transmitted by bites of ticks from Amblyomma, Rhipicephalus and Dermacentor genera, that clinically resembles the Lyme Disease (LD) seen in the northern hemisphere. It is postulated to be caused by mutant Borrelia burgdorferi sensu lato spirochetes that assumed atypical pleomorphic forms and latent behavior in an attempt to adapt to the Brazilian ecosystem, explaining many particularities of the condition relative to the classical Lyme Disease, such as being transmitted by ticks others than those within the Ixodes ricinus complex, the difficulty culturing the etiological agent in traditional medium (BSK-II) and the poor growing of the spirochetes in atypical medium (SP-4), the frequent reactivations due to evading and surviving antibiotic treatment and eliciting low and transient immune response to Borrelia burgdorferi sensu lato antigens because of the hiding from the immune system. The pleomorphic forms are thought to include round bodies resembling Chlamydia, non spiralled spirochete-like forms, blebs and cell wall deficient variants resembling Mycoplasma as seen in dark field microscopy and electron field microscopy searching bacteria in the blood of patients. Spirochete-like structures are seen in around 90% of the patients when analyzing their peripheral blood in dark field microscopy.",
+    "url": "https://en.wikipedia.org/wiki/Baggio%E2%80%93Yoshinari_syndrome"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 307.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 12271,
+      "cache_read_input_tokens": 14885,
+      "output_tokens": 10828,
+      "thinking_tokens": 10580,
+      "cost_usd": 0.320722,
+      "calls": 3,
+      "cost_usd_reported": 0.7969724
+    },
+    "guesser": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 7629,
+      "cache_read_input_tokens": 4852,
+      "output_tokens": 13703,
+      "thinking_tokens": 12928,
+      "cost_usd": 0.3370888,
+      "calls": 3,
+      "cost_usd_reported": 0.6828211999999999
+    },
+    "judge": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 1419,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0002882,
+      "calls": 2
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n⏲️🪰👄 🔩 😩🥴🫠\n🔑🥧\n👙🩴🍹🫘 🌏\n👜 🍄🦖\n</msg>",
+      "delivered": "⏲️🪰👄 🔩 😩🥴🫠\n🔑🥧\n👙🩴🍹🫘 🌏\n👜 🍄🦖",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Working hypotheses:\n- Line 1: ⏲️🪰 = \"Time flies\"? Then 👄 (lips/mouth/kiss/talk?) 🔩 (bolt/nut/screw?) and 😩🥴🫠 (tired, drunk, melting, hangover?)\n- Line 2: 🔑🥧 = **Key Lime Pie**, with lime as a banned emoji?\n- Line 3: beach, cocktails, beans, and Asia/Australia, so a tropical setting?\n- Line 4: 👜🍄🦖 = a bag plus Mario-style mushroom and dinosaur (Yoshi?), meaning a video game?\n\nIs this music, such as a song, an album, or a band? Key Lime Pie is a Camper Van Beethoven album. Please send one emoji for the category: 🎵 for music, 📺 for TV, 🎬 for film, 🧑 for a person, 📍 for a place, 🎮 for a game, 🍰 for food.\n\nGUESS: Key Lime Pie (album)",
+      "guess": "Key Lime Pie (album)",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n🩻🩼🛏️😩\n\n🔑🥧👏 👂🔉\n⏲️🕒👂🔉 🪰👄\n👜👏 🍄🦖👏\n</msg>",
+      "delivered": "🩻🩼🛏️😩\n🔑🥧👏 👂🔉\n⏲️🕒👂🔉 🪰👄\n👜👏 🍄🦖👏",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Now it clicks: ⏲️ = **tick**, 🪰👄 = **bite**, and 🔑🥧 → key lime → **Lyme**. So the topic is a tick-borne illness, and 🌏 with beach summer points to **Australia**. The 🩻🩼🛏️😩 line says it's debilitating or chronic.\n\nMy candidates:\n- An Australian Lyme-like illness\n- The paralysis tick (*Ixodes holocyclus*)\n- Tick paralysis\n\nI still don't understand 👜🍄🦖. Is it a name I should build syllable by syllable? Please send ✅ if I'm on the right track with Australia and ticks, or ❌ if not.\n\nGUESS: Debilitating symptom complexes attributed to ticks",
+      "guess": "Debilitating symptom complexes attributed to ticks",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n⏲️👏 🔑🥧👏 🛏️😩👏\n\n🌏🛑\n🇨🇱🇪🇨 🤝 🇦🇴🇲🇿🇨🇻\n\n👜🧑 🍄🦖🧑 🧑‍🤝‍🧑\n</msg>",
+      "delivered": "⏲️👏 🔑🥧👏 🛏️😩👏\n🌏🛑\n🇨🇱🇪🇨 🇦🇴🇲🇿🇨🇻\n👜🧑 🍄🦖🧑 🧑‍🤝‍🧑",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🤝"
+      ],
+      "retried": false,
+      "guesser": "Tick, Lyme and disease confirmed, but not Australia. The flags point to the Spanish- and Portuguese-speaking world, so I think it's **Brazil** with the 🇧🇷 flag banned. The beans fit too. 👜 = **Bag**gio and 🍄🦖 = **Yoshi**nari (Yoshi is Mario's dinosaur). So it's a Lyme-like disease named after two people.\n\nGUESS: Baggio–Yoshinari syndrome",
+      "guess": "Baggio–Yoshinari syndrome",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "4642cf5d-80b5-42ae-ab74-b460cb9f3707",
+    "guesser": "21c521c3-7f6b-4361-88e9-b79ddab7fd54"
+  },
+  "ladder": {
+    "article_no": 3,
+    "round": 7,
+    "n_banned": 179,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

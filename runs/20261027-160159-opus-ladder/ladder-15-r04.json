@@ -1,0 +1,112 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Iglesia de Santa Ana (Santiago de Chile)",
+    "description": "National monument of Chile",
+    "extract": "The Iglesia de Santa Ana is a Catholic church in downtown Santiago de Chile. It is located at the northwest corner of Catedral and San Martín streets. The church was declared as a National Monument of Chile in 1970, within the category of Historic Monuments. Santa Ana metro station is named after the church.",
+    "url": "https://en.wikipedia.org/wiki/Iglesia_de_Santa_Ana_(Santiago_de_Chile)"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 164.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 7139,
+      "cache_read_input_tokens": 14873,
+      "output_tokens": 5712,
+      "thinking_tokens": 4991,
+      "cost_usd": 0.1773572,
+      "calls": 4,
+      "cost_usd_reported": 0.5575846
+    },
+    "guesser": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 7260,
+      "cache_read_input_tokens": 13285,
+      "output_tokens": 6420,
+      "thinking_tokens": 5675,
+      "cost_usd": 0.19185000000000002,
+      "calls": 4,
+      "cost_usd_reported": 0.6159302
+    },
+    "judge": {
+      "input_tokens": 8,
+      "cache_creation_input_tokens": 1435,
+      "cache_read_input_tokens": 1432,
+      "output_tokens": 84,
+      "thinking_tokens": 68,
+      "cost_usd": 0.00034412,
+      "calls": 4
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Church: 🧎📖👼🕊️ plus \"a mosque or synagogue, but a different kind.\" Chile: 🥶🫑 (chilly/chili), 🦙🍷, and 🌃 for the capital city. Santa: 🎄🧑‍🎄. Ana: 🌬️🔥🌴 (the Santa Ana winds). Metro: 🚃🔽.\n\n<msg>\n🧎📖👼🕊️ 🕌🕍🔀\n🥶🫑 🦙🍷 🌃\n🎄🧑‍🎄 🌬️🔥🌴\n🚃🔽\n</msg>",
+      "delivered": "🧎📖👼🕊️ 🕌🕍🔀\n🥶🫑 🦙🍷 🌃\n🎄🧑‍🎄 🌬️🔥🌴\n🚃🔽",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Here's my reading so far:\n- **Line 1:** Kneeling, a book, an angel and a dove suggest the Annunciation, or religious feasts generally.\n- 🕌🕍🔀 suggests a building converted between religions, or something interfaith.\n- **Line 2:** 🥶🫑 reads as \"chilly pepper\", so **Chile**. 🦙🍷 could mean Peru/Chile or pisco. 🌃 = night (\"noche\"?).\n- **Line 3:** Christmas and Santa. 🌬️🔥 could be **Pentecost** (wind and fire), 🌴 could be Palm Sunday.\n- **Line 4:** 🚃🔽 could be a metro/subway station, or a funicular going down.\n\nQuestions:\n1. Is it a place, a building, a person, or a work (song or film)?\n2. Is 🥶🫑 = Chile? 🦙 = Peru?\n3. Is 🚃🔽 a metro/underground station?\n4. Is 🌬️🔥 = Pentecost?\n\nGUESS: Methodist Pentecostal Church",
+      "guess": "Methodist Pentecostal Church",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "The guesser has the right ideas for Chile and the metro, but not for the building or the name. In order, the answers are: a building (🏰👌), Chile yes (👌), llama doesn't matter (🤷), metro yes (👌), Pentecost no (⛔). The wind, fire and palm stand for the Santa Ana winds, so I'll add California clues (🐻🎬) to point there. I'll also make clear the building is a Christian place of worship.\n\n<msg>\n🏰👌\n🥶🫑👌 🦙🤷\n🚃🔽👌\n🌬️🔥⛔🕊️\n\n🕌🕍🔀🎄🐣 🏰\n🧑‍🎄 🌬️🔥🌴🐻🎬\n</msg>",
+      "delivered": "🏰👌\n🥶🫑👌 🦙🤷\n🚃🔽👌\n🌬️🔥⛔🕊️\n🕌🕍🔀🎄🐣 🏰\n🧑‍🎄 🌬️🔥🌴🐻🎬",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Thanks. So it's a **Santiago Metro station** in Chile. 🧑‍🎄 means \"Santa\", 🕌🕍🔀🎄🐣 means Christian, and 🌬️🔥🌴🐻🎬 is the **Santa Ana winds** in California: wildfires, palms, the bear flag and Hollywood. Line 1 would be Saint Anne teaching Mary to read.\n\nGUESS: Santa Ana metro station",
+      "guess": "Santa Ana metro station",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "The guesser has the name and city right; the only miss is that the station is named after the church, and the article is about the church. I'll confirm the name, reject the station, and point to the building that gave the station its name.\n\n<msg>\n🧑‍🎄🌬️👌👌 🥶👌\n🚃🔽⛔\n🕌🕍🔀🎄🐣 👈👉 🏷️🚃\n</msg>",
+      "delivered": "🧑‍🎄🌬️👌👌 🥶👌\n🚃🔽⛔\n🕌🕍🔀🎄🐣 👉 🏷️🚃",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "👈"
+      ],
+      "retried": false,
+      "guesser": "So \"Santa Ana\" and Chile are right, but the title isn't \"... metro station\". The Christian/saint clue that names the train system would be **Santiago** (Saint James), so the title follows the format \"(Santiago Metro)\".\n\nGUESS: Santa Ana (Santiago Metro)",
+      "guess": "Santa Ana (Santiago Metro)",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "The guesser keeps reading it as the station, so I'll strongly reject the train. I'll stress that the answer is the Christian building, then show the station takes its name from it.\n\n<msg>\n🚃⛔⛔⛔\n🕍🔀🎄🐣🏰 🧎📖 👌👌👌\n🏰👉🏷️👉🚃\n</msg>",
+      "delivered": "🚃⛔⛔⛔\n🕍🔀🎄🐣🏰 🧎📖 👌👌👌\n🏰👉🏷️👉🚃",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "So it isn't a train at all. It's the **church** of Santa Ana in Santiago, and the metro station is named after it.\n\nIf this is wrong, could you hint at the title format? For example, does it start with \"Church of...\" or \"Iglesia de...\"? Does it end with \"(Santiago)\" or \", Santiago\"?\n\nGUESS: Church of Santa Ana (Santiago)",
+      "guess": "Church of Santa Ana (Santiago)",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "5d6e2941-63ce-4e46-8f2a-cf4da0c3764d",
+    "guesser": "203d8bf8-660a-4b58-840d-5bd51c20f0fd"
+  },
+  "ladder": {
+    "article_no": 15,
+    "round": 4,
+    "n_banned": 64,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

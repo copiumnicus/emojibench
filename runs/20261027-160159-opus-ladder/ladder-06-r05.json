@@ -1,0 +1,88 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Jakob von Washington",
+    "description": "Bavarian general (1778–1848)",
+    "extract": "\nBaron Jacobus von Washington was a lieutenant general in the Bavarian Army and a distant relative of US President George Washington. Born in The Hague, Netherlands, he was christened James Washington. Most of his adult life was shaped by his participation in wars for and against Napoleonic France and his service to Ludwig I of Bavaria.",
+    "url": "https://en.wikipedia.org/wiki/Jakob_von_Washington"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 116.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 6174,
+      "cache_read_input_tokens": 3854,
+      "output_tokens": 7021,
+      "thinking_tokens": 6928,
+      "cost_usd": 0.1913776,
+      "calls": 2,
+      "cost_usd_reported": 0.30930019999999997
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1833,
+      "cache_read_input_tokens": 938,
+      "output_tokens": 1970,
+      "thinking_tokens": 1525,
+      "cost_usd": 0.0544632,
+      "calls": 2,
+      "cost_usd_reported": 0.07870759999999999
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 704,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 9.24e-06,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🚣🧊🎄\n🩸🔗\n⬛🟥🟨 🏇🎺🥁\n</msg>",
+      "delivered": "🚣🧊🎄\n🩸🔗\n⬛🟥🟨 🏇🎺🥁",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "**What I'm reading so far:**\n- ⬛🟥🟨 = Germany (black-red-gold)\n- 🩸🔗 = blood relation / bloodline / family\n- 🏇🎺🥁 = cavalry, or a military march/band\n- 🚣🧊🎄 = I'm not sure. Is it a name built from sounds, like \"Row + Ice + Tree\", or German words like \"Eis\" or \"Tanne\"? Or does it describe the subject, such as a rower, winter, or Christmas?\n\n**Questions:**\n1. Is the subject a person, a military unit, a piece of music, or something else?\n2. Is 🚣🧊🎄 wordplay on the title? If so, could you split it into syllables?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n🧑☑️\n🖼️🚣🧊🎄\n🍎🌲☕🌧️\n</msg>",
+      "delivered": "🧑☑️\n🖼️🚣🧊🎄\n🍎🌲☕🌧️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "**My reading:**\n- 🖼️🚣🧊🎄 is the painting *Washington Crossing the Delaware*: a rowboat, ice, Christmas night.\n- 🍎🌲☕🌧️ is Washington State.\n\nSo both lines point to the name **Washington**. Add a German blood relation and cavalry, and I'm thinking of a German or Bavarian officer from a \"von Washington\" family, said to be related to George Washington's line.\n\nAnother possibility is a relative of the painter Emanuel Leutze, who was German. If that's what you mean, signal it.\n\nGUESS: Jacob von Washington",
+      "guess": "Jacob von Washington",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "f18a7d0b-640c-4fb1-b8df-f4eed1f7f9b1",
+    "guesser": "71aed756-f376-4040-913e-90f3722c0248"
+  },
+  "ladder": {
+    "article_no": 6,
+    "round": 5,
+    "n_banned": 145,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

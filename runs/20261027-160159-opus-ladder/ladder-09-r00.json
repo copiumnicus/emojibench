@@ -1,0 +1,69 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Jovan Hadži-Vasiljević",
+    "description": "Serbian historian, ethnographer, journalist and writer",
+    "extract": "Jovan Hadži-Vasiljević was a Serbian historian, ethnographer, journalist and writer.",
+    "url": "https://en.wikipedia.org/wiki/Jovan_Had%C5%BEi-Vasiljevi%C4%87"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "max_turns": 30,
+  "seconds": 15.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1077,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 476,
+      "thinking_tokens": 398,
+      "cost_usd": 0.018144,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 932,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 452,
+      "thinking_tokens": 343,
+      "cost_usd": 0.016503999999999998,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇷🇸 👨‍🦳 ⏳\n\n📜🔍 👗🏘️🎶 📰 ✍️📚\n\n🧎‍♂️🕋 ➖ 🌿👦</msg>",
+      "delivered": "🇷🇸 👨‍🦳 ⏳\n📜🔍 👗🏘️🎶 📰 ✍️📚\n🧎‍♂️🕋 ➖ 🌿👦",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "The clues fit a Serbian historian and ethnographer, likely a 19th–20th-century figure. \"Pilgrim to the Kaaba\" reads as *Hadži*, and \"herb (basil) + boy (son of)\" reads as *Vasiljević*.\n\nGUESS: Jovan Hadži-Vasiljević",
+      "guess": "Jovan Hadži-Vasiljević",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "f21f2033-9573-4976-9e77-3f5c19ee11fe",
+    "guesser": "f4756928-43c3-4511-b1d1-e07f47ec9312"
+  },
+  "ladder": {
+    "article_no": 9,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": "runs/20261027-151301-opus/game-09.json"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

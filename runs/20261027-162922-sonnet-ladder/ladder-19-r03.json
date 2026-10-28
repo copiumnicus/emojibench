@@ -1,0 +1,125 @@
+{
+  "model": "sonnet",
+  "model_id": "claude-sonnet-5-5",
+  "guesser_model": "sonnet",
+  "guesser_model_id": "claude-sonnet-5-5",
+  "effort": null,
+  "article": {
+    "title": "Sage Derby",
+    "description": "Variety of cheese",
+    "extract": "Sage Derby is a variety of Derby cheese that is mild, mottled green and semi-hard, and has a sage flavour. The colour is from sage and sometimes other colouring added to the curds, producing a marbling effect and a subtle herb flavour. The colour is formed either by mixing sage leaves into the curd before it is pressed or by the addition of \"green curd\" from green corn or spinach juice. In the latter case, the flavour has to be created with colourless sage extract. Parsley, spinach and marigold leaves, bruised and steeped before use, can also be included instead of the sage leaves. It is aged for one to three months.",
+    "url": "https://en.wikipedia.org/wiki/Sage_Derby"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "max_turns": 30,
+  "seconds": 78.5,
+  "usage": {
+    "explainer": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 2485,
+      "cache_read_input_tokens": 9265,
+      "output_tokens": 911,
+      "thinking_tokens": 619,
+      "cost_usd": 0.020939,
+      "calls": 5,
+      "cost_usd_reported": 0.0673125
+    },
+    "guesser": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 2842,
+      "cache_read_input_tokens": 6368,
+      "output_tokens": 2095,
+      "thinking_tokens": 1487,
+      "cost_usd": 0.0336276,
+      "calls": 5,
+      "cost_usd_reported": 0.0956669
+    },
+    "judge": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 3482,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 20,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0007074,
+      "calls": 5
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🐴🏆 🧙‍♂️🦉 🟨🔪🥦</msg>",
+      "delivered": "🐴🏆 🧙‍♂️🦉 🟨🔪🥦",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Initial read: a racehorse that won a trophy (🐴🏆), plus a wizard and owl (🧙‍♂️🦉), which might be a name like \"Merlin\" or \"Gandalf\", or a Harry Potter connection. I can't place the 🟨🔪🥦 part yet.\n\nQuestions:\n1. Is this a racehorse, or something else horse-related such as a person or a place?\n2. Is the wizard part of the horse's name?\n\nGUESS: Merlin (horse)",
+      "guess": "Merlin (horse)",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👎 🐴🏆 ➕ 🧙‍♂️ ➕ 🟨🔪🥦 🍕🧇 🐁 🍷</msg>",
+      "delivered": "🐴🏆 ➕ 🧙‍♂️ ➕ 🟨🔪🥦 🍕🧇 🐁 🍷",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "👎"
+      ],
+      "retried": false,
+      "guesser": "Reading this as cheese: 🟨 (cheese colour), 🍕, 🐁 and 🍷 all point that way. So a racehorse with a wizard and cheese in the name or story?\n\nCandidates are \"Gandalf\", \"Cheddar\" or \"Parmesan\" as the horse's name. Is the name one word, and is it a Grand National or Derby winner?\n\nGUESS: Cheddar (horse)",
+      "guess": "Cheddar (horse)",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🧙‍♂️🦉 ➕ 🐴🏆 ➕ 🟨🍕 ➕ 🥦🍀</msg>",
+      "delivered": "🧙‍♂️🦉 ➕ 🐴🏆 ➕ 🟨🍕 ➕ 🥦🍀",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I'm still stuck on the name. My best reading is that the horse's name combines \"wise\", \"wizard\" or \"Merlin\" with something cheesy or green. Could you:\n1. Show the number of words in the name (1️⃣/2️⃣)?\n2. Say whether it's Grand National, Derby or something else?\n\nGUESS: Gandalf (horse)",
+      "guess": "Gandalf (horse)",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>✅ 🍴😋 🍕🟨 ➕ 🧙‍♂️🦉 ➕ 🏆🐴 🥦</msg>",
+      "delivered": "✅ 🍴 🍕🟨 ➕ 🧙‍♂️🦉 ➕ 🏆🐴 🥦",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "😋"
+      ],
+      "retried": false,
+      "guesser": "Thanks for confirming the cheese reading. I'm thinking of a horse name like \"Cheese Wizard\" or a pun on \"Cheez Whiz\".\n\nGUESS: Cheese Wizard",
+      "guess": "Cheese Wizard",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>🍕 = 🍕🍕 type of cheese ✅ 🪴🧂🍗 = herb 🧙‍♂️ = wise 🏆🐴 = English town 🏙️</msg>",
+      "delivered": "🍕 🍕🍕 ✅ 🪴🧂🍗 🧙‍♂️ 🏆🐴 🏙️",
+      "dropped_chars": 35,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "New reading: 🍕🍕 might be \"Pizza Pizza\", the Toronto chain, or a hint at an Italian city. 🪴🧂🍗 sounds like herbs and seasoning: basil, sage, rosemary.\n\nIs the subject a racehorse, or a race or event held in a city? Is the city Italian?\n\nGUESS: Pizza Pizza",
+      "guess": "Pizza Pizza",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": "9aec3168-fb34-4bb5-ae29-de4e43088913",
+    "guesser": "af4e247e-3285-43d2-829a-7a25903731c7"
+  },
+  "ladder": {
+    "article_no": 19,
+    "round": 3,
+    "n_banned": 38,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

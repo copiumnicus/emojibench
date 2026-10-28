@@ -1,0 +1,133 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Dora Akunyili",
+    "description": "Nigerian pharmacist and government official (1954–2014)",
+    "extract": "Dora Nkem Akunyili was a Nigerian pharmacist and politician who served as the director-general of National Agency for Food and Drug Administration and Control (NAFDAC) of Nigeria from 2001 to 2008.",
+    "url": "https://en.wikipedia.org/wiki/Dora_Akunyili"
+  },
+  "solved": false,
+  "turns_taken": 2,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": true,
+  "max_turns": 30,
+  "seconds": 124.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 7057,
+      "cache_read_input_tokens": 2482,
+      "output_tokens": 6507,
+      "thinking_tokens": 6209,
+      "cost_usd": 0.1871164,
+      "calls": 2
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1834,
+      "cache_read_input_tokens": 948,
+      "output_tokens": 2992,
+      "thinking_tokens": 2335,
+      "cost_usd": 0.0747256,
+      "calls": 2
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "claude-opus-5-5",
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 1328,
+        "cache_read_input_tokens": 577,
+        "output_tokens": 5354,
+        "thinking_tokens": 5244,
+        "cost_usd": 0.1178274,
+        "duration_ms": 66957
+      },
+      {
+        "model": "claude-opus-5-5",
+        "input_tokens": 4,
+        "cache_creation_input_tokens": 5729,
+        "cache_read_input_tokens": 1905,
+        "output_tokens": 1153,
+        "thinking_tokens": 965,
+        "cost_usd": 0.06928899999999999,
+        "duration_ms": 15629
+      }
+    ],
+    "guesser": [
+      {
+        "model": "claude-opus-5-5",
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 948,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 789,
+        "thinking_tokens": 505,
+        "cost_usd": 0.023372,
+        "duration_ms": 9251
+      },
+      {
+        "model": "claude-opus-5-5",
+        "input_tokens": 4,
+        "cache_creation_input_tokens": 886,
+        "cache_read_input_tokens": 948,
+        "output_tokens": 2203,
+        "thinking_tokens": 1830,
+        "cost_usd": 0.0513536,
+        "duration_ms": 29778
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Plan: show the Nigerian flag through its colours (green-white-green), a Black woman, medicine that harms or kills, and someone fighting it.\n\n<msg>\n🥦◻️🥦 👠💄🏿\n🚑 ⚠️ 🤮 🪦\n💪🤺\n📰🎙️\n</msg>",
+      "delivered": "🥦◻️🥦 👠💄\n🚑 ⚠️ 🤮 🪦\n💪🤺\n📰🎙️",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "**What I've got so far:** 🥦◻️🥦 = green-white-green, so **Nigeria**. 👠💄 = a **woman**. 📰🎙️ = a **journalist or broadcaster**. 🚑⚠️🤮🪦 = sickness or poisoning leading to **death**. 💪🤺 = a **fighter, activist or campaigner**.\n\nSo my reading is a Nigerian woman journalist or broadcaster, maybe also an activist, who died of illness or poisoning.\n\nQuestions:\n1. Did she die of that illness or poisoning (🚑🤮🪦)? Or did she **campaign** about a health danger, like drugs or disease?\n2. Is 🤺 literally **fencing**, or does it just mean \"fighting/activism\"?\n3. Roughly when did she live? Please send an era emoji or a decade.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "The guesser read Nigeria and woman correctly. I need to fix two things: she campaigned against dangerous medicine rather than dying of it, and the 📰🎙️ meant government information work, not journalism. She died of cancer in 2014 and was most active in the 2000s.\n\n<msg>\n🤮🪦 🤚   🦀🪦\n🤺 = 💪🗣️\n💃🏿 🤺 👉 🚑⚠️⛑️🐺🐑\n📰🎙️ = 🗳️🎖️ \n💾📱\n</msg>",
+      "delivered": "🤮🪦 🤚 🦀🪦\n🤺 💪🗣️\n💃🏿 🤺 👉 🚑⚠️⛑️🐺🐑\n📰🎙️ 🗳️🎖️\n💾📱",
+      "dropped_chars": 2,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "**Updated picture:** a Nigerian woman journalist or broadcaster. She wasn't poisoned. She **died of cancer** (🦀🪦). She was an **activist or advocate** (💪🗣️) who campaigned about a health or safety issue (🚑⚠️⛑️🐺🐑). She may have won an award (🗳️🎖️), and something about her links to **digital media or phones** (💾📱).\n\nQuestions:\n1. **🐺🐑:** is this \"wolf in sheep's clothing\", meaning predators or abuse? Or is 🐺 \"lupus\" (the Latin word for wolf)? Or something else? Please rephrase the thing she campaigned for.\n2. **💾📱:** did she do online, digital or tech journalism, like a blogger or podcaster? Or did she found a media company?\n3. **🗳️🎖️:** is that politics or elections (she covered them, or held office)? Or an award she won?\n4. **💃🏿:** just \"Black woman\", or was she also a dancer or entertainer?\n5. **Era:** did she die before 2000, 2000–2015, or after 2015?",
+      "guess": null,
+      "correct": null
+    }
+  ],
+  "sessions": {
+    "explainer": "18967e2b-724e-4557-93f7-8e025f68e46a",
+    "guesser": "ab97a5f3-0d42-4ec7-9ee3-11959f7d372f"
+  },
+  "ladder": {
+    "article_no": 12,
+    "round": 8,
+    "n_banned": 157,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Franco Cozzo",
+    "description": "Australian businessman (1935–2023)",
+    "extract": "Franco Cozzo was an Italian-Australian businessman. After moving to Melbourne from Sicily in 1955, Cozzo became known for his television advertisements, in which he would speak in English, Greek, and Italian. He later produced Australia's first non-English TV show, Carosello, which was broadcast in Italian.",
+    "url": "https://en.wikipedia.org/wiki/Franco_Cozzo"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 130.4,
+  "usage": {
+    "explainer": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 6848,
+      "cache_read_input_tokens": 8186,
+      "output_tokens": 5861,
+      "thinking_tokens": 5265,
+      "cost_usd": 0.17368119999999998,
+      "calls": 3
+    },
+    "guesser": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 3419,
+      "cache_read_input_tokens": 3133,
+      "output_tokens": 4949,
+      "thinking_tokens": 4050,
+      "cost_usd": 0.12699860000000002,
+      "calls": 3
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "claude-opus-5-5",
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 1302,
+        "cache_read_input_tokens": 577,
+        "output_tokens": 3505,
+        "thinking_tokens": 3307,
+        "cost_usd": 0.08063939999999999,
+        "duration_ms": 42087
+      },
+      {
+        "model": "claude-opus-5-5",
+        "input_tokens": 4,
+        "cache_creation_input_tokens": 3851,
+        "cache_read_input_tokens": 1879,
+        "output_tokens": 1195,
+        "thinking_tokens": 984,
+        "cost_usd": 0.05509979999999999,
+        "duration_ms": 13978
+      },
+      {
+        "model": "claude-opus-5-5",
+        "input_tokens": 4,
+        "cache_creation_input_tokens": 1695,
+        "cache_read_input_tokens": 5730,
+        "output_tokens": 1161,
+        "thinking_tokens": 974,
+        "cost_usd": 0.037942000000000004,
+        "duration_ms": 14057
+      }
+    ],
+    "guesser": [
+      {
+        "model": "claude-opus-5-5",
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 972,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 1098,
+        "thinking_tokens": 770,
+        "cost_usd": 0.029744,
+        "duration_ms": 12116
+      },
+      {
+        "model": "claude-opus-5-5",
+        "input_tokens": 4,
+        "cache_creation_input_tokens": 1189,
+        "cache_read_input_tokens": 972,
+        "output_tokens": 1197,
+        "thinking_tokens": 836,
+        "cost_usd": 0.0336624,
+        "duration_ms": 13316
+      },
+      {
+        "model": "claude-opus-5-5",
+        "input_tokens": 4,
+        "cache_creation_input_tokens": 1258,
+        "cache_read_input_tokens": 2161,
+        "output_tokens": 2654,
+        "thinking_tokens": 2444,
+        "cost_usd": 0.06359220000000002,
+        "duration_ms": 29869
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Plan: show a businessman who flew from an Italian island to Melbourne, plus a Footscray hint and talking in three languages. Australia is hinted with the flags of Norfolk, Christmas and Cocos Islands (Australian territories). The tennis and race car stand for Melbourne. The dog plus football stands for Footscray (the Bulldogs).\n\n<msg>🕴️\n🇸🇲🏝️ 🛬 🇳🇫🇨🇽🇨🇨\n🎾🏎️ 🐕🏈\n😃🗨️🗨️🗨️</msg>",
+      "delivered": "🕴️\n🇸🇲🏝️ 🛬 🇳🇫🇨🇽🇨🇨\n🎾🏎️ 🐕🏈\n😃🗨️🗨️🗨️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "**My read so far:** 🕴️ means a person. 🇳🇫🇨🇽🇨🇨 are Australian external territories, so I think \"Australia\" (its flag is probably banned). 🛬 suggests they immigrated or moved there. 🎾🏎️🐕🏈 look like several sports, maybe including greyhound racing. 😃🗨️🗨️🗨️ suggests a talker: a sports commentator, broadcaster or race caller?\n\nI don't get 🇸🇲🏝️ yet. Is it an island country they came from (Malta? Sri Lanka? New Zealand?), or a hint at their name, like \"Marino\" or \"Saint\"?\n\nQuestions:\n1. Is this an Australian sports broadcaster or commentator? 👍/👎\n2. Is 🇸🇲🏝️ their birthplace? Can you give another hint for it?\n3. Radio or TV?\n\nNo guess yet. Please clarify the 🇸🇲🏝️ part.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "Answers: he is not a sports broadcaster. The boot plus island is his birthplace (Sicily, at the toe of Italy's boot). He is a businessman who sells things, and he talks in Italian, Greek and English. The tennis and race car mean Melbourne, and the dog plus football mean a Melbourne suburb (Footscray, home of the Bulldogs).\n\n<msg>✖️\n✔️ 👢🏝️\n🕴️🤝🪙\n🗨️👢 🗨️🔱🦉 🗨️🇳🇫\n🎾🏎️ 🌃   🐕🏈 🏘</msg>",
+      "delivered": "✖️\n✔️ 👢🏝️\n🕴️🤝🪙\n🗨️👢 🗨️🔱🦉 🗨️🇳🇫\n🎾🏎️ 🌃 🐕🏈",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🏘️"
+      ],
+      "retried": false,
+      "guesser": "**Updated read:**\n- ✖️: not a broadcaster.\n- 👢🏝️: born in Italy (the boot). I see now that 🇸🇲 was hinting at Italy.\n- 🕴️🤝🪙: a businessman who emigrated to Australia.\n- 🗨️👢 🗨️🔱🦉 🗨️🇳🇫: speaks Italian, Greek and English? Or perhaps he ran media (newspaper or radio) in Italian, Greek and English?\n- 🎾🏎️ 🌃 🐕🏈: sports plus night. Floodlights or night sporting events? Or did he own or run sports venues (greyhound track, speedway, football stadium)?\n\nQuestions:\n1. Did he run ethnic or multilingual media, like a newspaper or radio station? 👍/👎\n2. Is 🌃 about floodlit night sport, or about a nightclub or entertainment?\n3. Which city: Melbourne, Sydney, Adelaide, Perth?\n4. Rough era, e.g. 🕐 for the 1950s?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "He did use Italian, Greek and English, mostly in his own TV ads, and he later produced an Italian show, so \"multilingual media\" is partly right. The tram, tennis and race car point to Melbourne. The Bulldogs dog and football point to Footscray, where his shop was. Without the banned furniture emojis, the drawers, lamp and grinning pointer suggest a shop owner fronting his own ads.\n\n<msg>🤏✔️\n🚊🎾🏎️🌃\n🐕🏈 🏢\n🗃️💡 😃👉</msg>",
+      "delivered": "🤏✔️\n🚊🎾🏎️🌃\n🐕🏈 🏢\n🗃️💡 😃👉",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I think I've got it:\n- 👢🏝️: Sicily.\n- 🕴️🤝🪙: businessman.\n- 🗃️: furniture.\n- 😃🗨️🗨️🗨️ and 🗨️👢 🗨️🔱🦉 🗨️🇳🇫: famous for his talking TV ads in Italian, Greek (\"megalo, megalo!\") and English.\n- 🚊🎾🏎️🌃: Melbourne, with late-night TV.\n- 🐕🏈🏢: his store in Footscray, home of the Bulldogs.\n\nGUESS: Franco Cozzo",
+      "guess": "Franco Cozzo",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "6ad27154-2eb4-43e4-b154-746242bd938d",
+    "guesser": "c75fd6a6-5163-4ac2-b99f-c17d69ca9db5"
+  },
+  "ladder": {
+    "article_no": 20,
+    "round": 6,
+    "n_banned": 145,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Iron(III) sulfate",
+    "description": "Chemical compound",
+    "extract": "Iron(III) sulfate or ferric sulfate is a family of inorganic compounds with the formula Fe2(SO4)3(H2O)n. A variety of hydrates are known, including the most commonly encountered form of \"ferric sulfate\". Solutions are used in dyeing as a mordant and as a coagulant for industrial wastes. Solutions of ferric sulfate are also used in the processing of aluminum and steel.",
+    "url": "https://en.wikipedia.org/wiki/Iron(III)_sulfate"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 42.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 2301,
+      "cache_read_input_tokens": 1185,
+      "output_tokens": 1173,
+      "thinking_tokens": 1016,
+      "cost_usd": 0.105895,
+      "calls": 2,
+      "cost_usd_reported": 0.17752625
+    },
+    "guesser": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 1438,
+      "cache_read_input_tokens": 980,
+      "output_tokens": 400,
+      "thinking_tokens": 276,
+      "cost_usd": 0.049780000000000005,
+      "calls": 2,
+      "cost_usd_reported": 0.086065
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 700,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00014220000000000001,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🧪⚗️\n\n🔩🔩 💛🌋🫧🫧🫧🫧 💛🌋🫧🫧🫧🫧 💛🌋🫧🫧🫧🫧\n\n🔩➕➕➕\n\n🎨👕 🏭🚰💧</msg>",
+      "delivered": "🧪⚗️\n🔩🔩 💛🌋🫧🫧🫧🫧 💛🌋🫧🫧🫧🫧 💛🌋🫧🫧🫧🫧\n🔩➕➕➕\n🎨👕 🏭🚰💧",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Chemistry: a metal(III) sulfate — M₂(SO₄)₃ — used as a textile dye mordant and in water treatment. Sounds like alum.\n\nGUESS: Aluminium sulfate",
+      "guess": "Aluminium sulfate",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👍👍 🔩👎\n\n🧲 🩸 ⛓️ 🦾 🏋️ 🟠🟤☔</msg>",
+      "delivered": "👍👍 🔩👎\n🧲 🩸 ⛓️ 🦾 🏋️ 🟠🟤☔",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Close — the metal is iron (magnet, blood, chains, rust). Iron(III) sulfate.\n\nGUESS: Iron(III) sulfate",
+      "guess": "Iron(III) sulfate",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "50f6d027-f9d3-4406-a406-287b6fe290b8",
+    "guesser": "a899c523-40fb-457a-b651-5a83739566b0"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

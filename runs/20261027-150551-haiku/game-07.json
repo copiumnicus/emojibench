@@ -1,0 +1,124 @@
+{
+  "model": "haiku",
+  "model_id": "claude-haiku-5-5",
+  "effort": null,
+  "article": {
+    "title": "Mad River Mountain",
+    "description": "Ski resort in Ohio, United States",
+    "extract": "Mad River Mountain is a ski and snowboard resort in Valley Hi, Ohio, United States. The elevation of Mad River Mountain is 1,460 feet (450 m) with a vertical drop of 300 ft (91 m), and it has a ski season that runs from approximately mid-December through mid-March. The resort, which opened in 1962 as Valley Hi Ski Area, is owned by EPR Properties and operated by Vail Resorts, who bought the resort from Peak Resorts in 2019.",
+    "url": "https://en.wikipedia.org/wiki/Mad_River_Mountain"
+  },
+  "solved": true,
+  "turns_taken": 7,
+  "solved_turn": 7,
+  "max_turns": 30,
+  "seconds": 73.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 4947,
+      "cache_read_input_tokens": 15925,
+      "output_tokens": 2316,
+      "thinking_tokens": 1703,
+      "cost_usd": 0.00230805,
+      "calls": 7,
+      "cost_usd_reported": 0.009170959999999999
+    },
+    "guesser": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 4904,
+      "cache_read_input_tokens": 14375,
+      "output_tokens": 3657,
+      "thinking_tokens": 2588,
+      "cost_usd": 0.00295445,
+      "calls": 7,
+      "cost_usd_reported": 0.011289460000000001
+    },
+    "judge": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 708,
+      "cache_read_input_tokens": 703,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00015303,
+      "calls": 2
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>⛷️🏂❄️ 🏔️⬇️ 🇺🇸 🌰🌾</msg>",
+      "delivered": "⛷️🏂❄️ 🏔️⬇️ 🇺🇸 🌰🌾",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Working hypothesis: a US ski or snowboard place or person. The 🌰🌾 might point to a name, a region, or a farming or agricultural theme. Is the article about a place, a person, or something else? If it's a place, is it in the United States? And do 🌰 and 🌾 stand for a word in the name, such as \"Chestnut\" or \"Wheat\"?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👍 📍 🇺🇸 🌰➡️🗺️ ⛷️ 🏔️❌ ⬇️🔟🔟 🙅‍♂️ 🌾❌</msg>",
+      "delivered": "👍 📍 🇺🇸 🌰➡️🗺️ ⛷️ 🏔️❌ ⬇️ 🙅‍♂️ 🌾❌",
+      "dropped_chars": 2,
+      "retried": false,
+      "guesser": "Got it: it's a place in the US (📍🇺🇸), and skiing (⛷️) is involved somehow. 🌰➡️🗺️ looks like it's pointing to a name with \"Chestnut\" in it, maybe \"Chestnut Hill\" or \"Chestnut Ridge.\" The mountain, downhill, and grain signals are all ruled out.\n\nIs the article a ski area or resort that has \"Chestnut\" in its name? Or is it a town or place that shares a name with a ski area, and the skiing is just a side note?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>⛷️ 👍 ski place 👍 🇺🇸 🗺️ 🌰 = state nickname 🌰❌ not a name 🏞️ 🏞️ 🔽 small hill 🙅‍♂️ not 🌾 ❌ 🙌</msg>",
+      "delivered": "⛷️ 👍 👍 🇺🇸 🗺️ 🌰 🌰❌ 🏞️ 🏞️ 🔽 🙅‍♂️ 🌾 ❌ 🙌",
+      "dropped_chars": 42,
+      "retried": false,
+      "guesser": "Good, that narrows it. The skiing (⛷️) is a real part of the article, and it's a US place. Chestnut is out. The two 🏞️ emojis suggest a park or natural area, and 🔽 suggests low elevation.\n\nMy guess is a small ski hill inside a state park or national forest, not a big mountain resort. Is that right? And is the park or forest the main subject of the article, with the ski area as one part of it?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>👍 ⛷️ small hill 🔽 👎 park 🏞️❌ ⛷️🎯 the ski place itself 🌰🗺️ 🏢🔄💰 owners changed 🙌 🕰️ old 📅 👍</msg>",
+      "delivered": "👍 ⛷️ 🔽 👎 🏞️❌ ⛷️🎯 🌰🗺️ 🏢🔄💰 🙌 🕰️ 📅 👍",
+      "dropped_chars": 46,
+      "retried": false,
+      "guesser": "Thanks, that's very helpful. The 👍 and ⛷️🎯 mean the article is about the ski area itself, not a park. 🏢🔄💰 and 🕰️📅 point to a history of ownership changes and business shifts, and 🌰🗺️ may be where it sits or what it's named after.\n\nMy best candidate is Chestnut Mountain Resort, a small ski hill in Galena, Illinois.\n\nGUESS: Chestnut Mountain Resort",
+      "guess": "Chestnut Mountain Resort",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>❌ Illinois ❌ chestnut 🌰 = Ohio 🗺️ 🌰➡️ state 👍 ⛷️ in Ohio 👍 🏞️ valley name 🏞️ 🙌 🕰️ old 👍 ⬇️ small hill 🔽</msg>",
+      "delivered": "❌ ❌ 🌰 🗺️ 🌰➡️ 👍 ⛷️ 👍 🏞️ 🏞️ 🙌 🕰️ 👍 ⬇️ 🔽",
+      "dropped_chars": 54,
+      "retried": false,
+      "guesser": "Chestnut Mountain is ruled out. The 🌰 is still linked to a place (🗺️), but it seems to be a nearby feature, not the name itself. The 🏞️🏞️ and 🕰️ now fit a ski area inside a natural setting with a long history, and the ⬇️🔽 probably means it's low-elevation.\n\nIs the article's title a geographic feature like a ridge, hill, valley, or lake, rather than a mountain? And is the chestnut connection a nearby ridge or hill, not the resort's own name?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 6,
+      "explainer_raw": "<msg>❌ 🌰 not name 🌰🗺️ state Ohio 👍 📛 🏔️ in name ✅ 🌊 river in name 🌊 😡 in name 😡 🌊🏔️ 👍 ⛷️ 🏞️ 🙌</msg>",
+      "delivered": "❌ 🌰 🌰🗺️ 👍 📛 🏔️ ✅ 🌊 🌊 😡 😡 🌊🏔️ 👍 ⛷️ 🏞️ 🙌",
+      "dropped_chars": 39,
+      "retried": false,
+      "guesser": "The ❌ on the chestnut means 🌰 isn't in the name, but the 📛 and ✅ 🏔️ suggest the name includes a mountain-related word. The 🌊🌊 and 😡😡 together look like \"Mad River,\" which matches the 🏞️ setting. My candidate is Mad River Glen, a historic cooperative-owned ski area in Vermont.\n\nGUESS: Mad River Glen",
+      "guess": "Mad River Glen",
+      "correct": false
+    },
+    {
+      "turn": 7,
+      "explainer_raw": "<msg>👍👍 😡🌊🏔️ ✅ ✅ 🏔️ ✅ ❌ glen ❌ Vermont 🌰🗺️ Ohio ✅ ⛷️ 🙌</msg>",
+      "delivered": "👍👍 😡🌊🏔️ ✅ ✅ 🏔️ ✅ ❌ ❌ 🌰🗺️ ✅ ⛷️ 🙌",
+      "dropped_chars": 15,
+      "retried": false,
+      "guesser": "The 😡🌊🏔️ and ✅ 🏔️ are confirmed. The name is a \"Mad River\" phrase with \"Mountain\" in it, and the chestnut is ruled out as part of the name. \"Mad River Glen\" was wrong, but the Mad River idea still fits. Mad River Mountain is a low-elevation ski area in Ohio, which fits the 🇺🇸 and 🔽 clues.\n\nGUESS: Mad River Mountain",
+      "guess": "Mad River Mountain",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "752ab58b-72a2-4952-b051-da445001dce9",
+    "guesser": "5507ed6e-df4a-472d-b1f9-808cc109856a"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

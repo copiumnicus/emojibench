@@ -1,0 +1,62 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Mike Pieciak",
+    "description": "American politician (born 1983)",
+    "extract": "Michael Sullivan Pieciak is an American politician from Vermont. A member of the Democratic Party, Pieciak has served as Vermont State Treasurer since January 2023.",
+    "url": "https://en.wikipedia.org/wiki/Mike_Pieciak"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "max_turns": 30,
+  "seconds": 13.4,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1082,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 339,
+      "thinking_tokens": 260,
+      "cost_usd": 0.015444,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 933,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 467,
+      "thinking_tokens": 306,
+      "cost_usd": 0.016812,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇺🇸 🧑‍💼🏛️ 💰🏦🔑\n🗺️ 🍁🥞🐄⛰️🌲🍦\n🫏🔵\n🎤 🥧</msg>",
+      "delivered": "🇺🇸 🧑‍💼🏛️ 💰🏦🔑\n🗺️ 🍁🥞🐄⛰️🌲🍦\n🫏🔵\n🎤 🥧",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Decoding: 🇺🇸🧑‍💼🏛️💰🏦🔑 points to an American politician serving as a state treasurer. The maple, pancakes, cows, mountains and ice cream (Ben & Jerry's) point to Vermont, and 🫏🔵 means Democrat. 🎤🥧 reads as \"Mic\" + \"Pie\", so Mike Pieciak, the Vermont State Treasurer.\n\nGUESS: Mike Pieciak",
+      "guess": "Mike Pieciak",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "9cf18f41-80ac-4738-9e16-b3c238e87342",
+    "guesser": "2cea7150-f57f-43f6-86bc-57a23ab1d8e2"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

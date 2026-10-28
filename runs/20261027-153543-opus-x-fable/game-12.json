@@ -1,0 +1,65 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Dora Akunyili",
+    "description": "Nigerian pharmacist and government official (1954–2014)",
+    "extract": "Dora Nkem Akunyili was a Nigerian pharmacist and politician who served as the director-general of National Agency for Food and Drug Administration and Control (NAFDAC) of Nigeria from 2001 to 2008.",
+    "url": "https://en.wikipedia.org/wiki/Dora_Akunyili"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 14.1,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1115,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 259,
+      "thinking_tokens": 192,
+      "cost_usd": 0.014108000000000002,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 1962,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 402,
+      "thinking_tokens": 317,
+      "cost_usd": 0.0595,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇳🇬 👩 💊👩‍🔬\n\n🏛️👑 🍲💊🛡️\n\n⚔️ 💊🎭 🚫\n\n🕊️</msg>",
+      "delivered": "🇳🇬 👩 💊👩‍🔬\n🏛️👑 🍲💊🛡️\n⚔️ 💊🎭 🚫\n🕊️",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Nigerian woman, pharmacist/pharmacologist, headed a government agency protecting food and drugs (NAFDAC), famous for fighting counterfeit/fake drugs, and died (🕊️).\n\nGUESS: Dora Akunyili",
+      "guess": "Dora Akunyili",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "88b419bb-4cdb-4ab9-9357-3782e139dcc7",
+    "guesser": "b65a3b89-6c53-49f3-ae05-44c661f3abae"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

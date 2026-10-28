@@ -1,0 +1,101 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Jovan Hadži-Vasiljević",
+    "description": "Serbian historian, ethnographer, journalist and writer",
+    "extract": "Jovan Hadži-Vasiljević was a Serbian historian, ethnographer, journalist and writer.",
+    "url": "https://en.wikipedia.org/wiki/Jovan_Had%C5%BEi-Vasiljevi%C4%87"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 93.5,
+  "usage": {
+    "explainer": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 3412,
+      "cache_read_input_tokens": 4884,
+      "output_tokens": 2708,
+      "thinking_tokens": 2307,
+      "cost_usd": 0.0834496,
+      "calls": 3,
+      "cost_usd_reported": 0.1730476
+    },
+    "guesser": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 4535,
+      "cache_read_input_tokens": 3324,
+      "output_tokens": 3936,
+      "thinking_tokens": 3285,
+      "cost_usd": 0.11636960000000002,
+      "calls": 3,
+      "cost_usd_reported": 0.23213899999999998
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 719,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.000146,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🧔 ✒️📝 🏺⚔️ 🧑‍🌾🪕\n📍 🎾🥇 ⚡🔌\n</msg>",
+      "delivered": "🧔 ✒️📝 🏺⚔️ 🧑‍🌾🪕\n📍 🎾🥇 ⚡🔌",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "So far I'm reading this as a bearded man who was a writer of ancient/military history, and also a farmer and folk or banjo musician. The 📍 line is a place, maybe a wordplay. One idea is Ballarat (🎾 ball + 🥇 gold rush), but I'm not sure about ⚡🔌.\n\nQuestions:\n1. Is ⚡🔌 part of the place name (like Volt, Power, Edison or Watt), or the person's job (electrician or engineer)?\n2. Is 🎾🥇 something that sounds like the place name? Show the country with a flag, please.\n3. Which matters most: writer, historian, farmer or musician? Use 🥇 on the main one.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n❓1️⃣ 👎 ⚡🔌 = 🧑‍🔬 🌟 (🏠 🤝 📍)\n🎾🥇 = 🎾🧔🌟 (🏠 🤝 📍)\n🏳️ 🚫🙅\n\n🥇 🏺⚔️ \n🥈 🧑‍🌾🪕💃🏻 👉 🏘 🧑‍🤝‍🧑 🔎\n🥉 ✒️📝 🗣️🗒️\n</msg>",
+      "delivered": "❓ 👎 ⚡🔌 🧑‍🔬 🌟 🏠 🤝 📍\n🎾🥇 🎾🧔🌟 🏠 🤝 📍\n🏳️ 🚫🙅\n🥇 🏺⚔️\n🥈 🧑‍🌾🪕💃🏻 👉 🧑‍🤝‍🧑 🔎\n🥉 ✒️📝 🗣️🗒️",
+      "dropped_chars": 9,
+      "off_keyboard": [
+        "🏘️"
+      ],
+      "retried": false,
+      "guesser": "Got it. The place is home to a famous electrical scientist (Tesla?) and a tennis champion (Djokovic or Ivanišević?). The person is mainly an archaeologist or military historian (🏺⚔️), then a folklorist or ethnographer studying folk music and dance, then a writer or recorder of oral tradition.\n\nQuestions:\n1. Is the place Serbia (Tesla + Djokovic) or Croatia (Tesla + Ivanišević)? Reply 🇷🇸 or 🇭🇷 if you can't use the flag. Otherwise 1️⃣ = Serbia, 2️⃣ = Croatia.\n2. What century? Use 🕰️ plus a number.\n3. Is 🏺 archaeology (digging up artifacts), or is ⚔️ history of wars?\n\nSpeculative guess:\nGUESS: Ćiro Truhelka",
+      "guess": "Ćiro Truhelka",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n🇭🇷👎 🎾🥇 🏠 👍\n🐎➡️✈️ 🔫💥 🧔 ⚰️ 💣✈️\n🏺 👎 ⚔️ 👍 🧑‍🤝‍🧑 🔎 👍\n\n🏷️:\n🧔 ✝️💦🏞️\n🐪🚶‍♂️🕌 🔗 🍃🍕 👶\n</msg>",
+      "delivered": "🇭🇷👎 🎾🥇 🏠 👍\n🐎➡️✈️ 🔫💥 🧔 ⚰️ 💣✈️\n🏺 👎 ⚔️ 👍 🧑‍🤝‍🧑 🔎 👍\n🏷️\n🧔 ✝️💦🏞️\n🐪🚶‍♂️🕌 🔗 🍃🍕 👶",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Not Croatia, so probably Serbia. He was a war historian and ethnographer, and died in an air raid. The name is Jovan (✝️💦🏞️ = John the Baptist) + Hadži (pilgrim to Mecca) + Vasil (basil 🍃🍕) + -ević (son).\n\nGUESS: Jovan Hadži-Vasiljević",
+      "guess": "Jovan Hadži-Vasiljević",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "93015915-363f-4042-835b-62f3d6c638d7",
+    "guesser": "2e8c8335-535a-40bf-b08e-c98c65722d69"
+  },
+  "ladder": {
+    "article_no": 9,
+    "round": 2,
+    "n_banned": 34,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

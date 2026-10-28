@@ -1,0 +1,121 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Iron(III) sulfate",
+    "description": "Chemical compound",
+    "extract": "Iron(III) sulfate or ferric sulfate is a family of inorganic compounds with the formula Fe2(SO4)3(H2O)n. A variety of hydrates are known, including the most commonly encountered form of \"ferric sulfate\". Solutions are used in dyeing as a mordant and as a coagulant for industrial wastes. Solutions of ferric sulfate are also used in the processing of aluminum and steel.",
+    "url": "https://en.wikipedia.org/wiki/Iron(III)_sulfate"
+  },
+  "solved": true,
+  "turns_taken": 5,
+  "solved_turn": 5,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 228.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 9931,
+      "cache_read_input_tokens": 28413,
+      "output_tokens": 7676,
+      "thinking_tokens": 7427,
+      "cost_usd": 0.24440520000000002,
+      "calls": 5,
+      "cost_usd_reported": 0.9679158000000001
+    },
+    "guesser": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 8794,
+      "cache_read_input_tokens": 14482,
+      "output_tokens": 8198,
+      "thinking_tokens": 7205,
+      "cost_usd": 0.24017680000000002,
+      "calls": 5,
+      "cost_usd_reported": 0.7107666000000001
+    },
+    "judge": {
+      "input_tokens": 8,
+      "cache_creation_input_tokens": 2795,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 16,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0005678,
+      "calls": 4
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🫧🫗🌡️\n🎡 🦀\n⚔️🛡️🪓🔧\n🌻🌕\n⭐⭐⭐\n</msg>",
+      "delivered": "🫧🫗🌡️\n🎡 🦀\n⚔️🛡️🪓🔧\n🌻🌕\n⭐⭐⭐",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I'm reading this as possibly a video game. 🌻🌕 might stand in for \"Sun & Moon\" (e.g. Pokémon Sun and Moon). ⚔️🛡️🪓🔧 could mean weapons/tools, gear, or crafting. 🎡🦀 might be a crab character or a wheel. 🫧🫗🌡️ might be water/steam/heat. ⭐⭐⭐ could be a rating or \"three\".\n\nQuestions:\n1. Is the topic a video game, or something inside one (a character or species)?\n2. Is it related to Pokémon?\n3. Does 🎡🦀 refer to one name made of two parts, like \"Wheel + Crab\"?\n\nNo confident guess yet, so here's a placeholder:\n\nGUESS: Crabrawler",
+      "guess": "Crabrawler",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n🛑\n🛑\n🤷\n\n🎡👂\n🦀👂\n🏌️🦸\n</msg>",
+      "delivered": "🛑\n🛑\n🤷\n🎡👂\n🦀👂\n🏌️🦸",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Got it: not a game, not Pokémon.\n\nHere's my reading now:\n- 🎡👂 means \"sounds like Ferris,\" which could be **ferrous / ferro- / Fe**.\n- 🏌️🦸 is golf iron + hero, which gives **Iron Man**.\n- ⚔️🛡️🪓🔧 are metal things, and 🫧🫗🌡️ looks like molten metal being poured.\n\nSo **iron** seems to be central.\n\nStill unclear:\n- 🦀👂: what does \"crab\" sound like? Maybe \"carb\" (carbon)?\n- 🌻🌕: maybe sun + moon, as in helio- and seleno-?\n\nQuestions:\n1. Is it a mineral or chemical compound?\n2. Is it a person?\n3. Is the 🦀 sound \"carb\"?\n\nGUESS: Ferroselite",
+      "guess": "Ferroselite",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n💯\n🛑\n🛑\n\n🎡 ⭐⭐⭐\n🌻🍌🧀🐥 🐓😵\n</msg>",
+      "delivered": "💯\n🛑\n🛑\n🎡 ⭐⭐⭐\n🌻🍌🧀🐥 🐓😵",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Reading this as:\n- 💯 It's a chemical compound or mineral.\n- 🎡⭐⭐⭐ means ferric, i.e. **iron(III)**.\n- 🌻🍌🧀🐥 means it's **yellow**.\n- 🐓😵 means it's toxic.\n- 🦀👂 \"crab\" sounds like **Cr**, chromium, so chromate?\n\nGUESS: Iron(III) chromate",
+      "guess": "Iron(III) chromate",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>\n🎡⭐⭐⭐ 💯\n🦀 🛑\n🌻🐥 + 🐓🫢 = 🌻🐥 element\n</msg>",
+      "delivered": "🎡⭐⭐⭐ 💯\n🦀 🛑\n🌻🐥 🐓🫢 🌻🐥",
+      "dropped_chars": 9,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Iron(III) is confirmed, and crab is not chromium.\n\nNew reading of 🌻🐥 🐓🫢 🌻🐥: yellow + \"fowl\"/foul, like rotten eggs, + yellow. That points to **sulfur**.\n\n🦀 might mean \"sideways,\" which would give the ending **-ide**. Or is it something else?\n\nQuestions:\n1. Is sulfur right?\n2. Is it sulfide or sulfate?\n3. Is 🦀 something like \"side,\" \"claw,\" or \"shell\"?\n\nGUESS: Iron(III) sulfide",
+      "guess": "Iron(III) sulfide",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>\n💯\n😋🍽️\n🛑\n</msg>",
+      "delivered": "💯\n😋🍽️\n🛑",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "😋🍽️ = \"ate,\" so it's a **sulfate**. That gives iron(III) sulfate, i.e. ferric sulfate.\n\nIf it's not the plain compound, is it a mineral form? The 🐓 might hint at \"coq,\" as in coquimbite.\n\nGUESS: Iron(III) sulfate",
+      "guess": "Iron(III) sulfate",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "f170d67b-034f-4d53-8b36-024ff068e26f",
+    "guesser": "ee6ab794-2870-4709-8400-a5dc48b7acde"
+  },
+  "ladder": {
+    "article_no": 2,
+    "round": 7,
+    "n_banned": 142,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

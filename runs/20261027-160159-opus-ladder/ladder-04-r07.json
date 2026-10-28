@@ -1,0 +1,121 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Mike Pieciak",
+    "description": "American politician (born 1983)",
+    "extract": "Michael Sullivan Pieciak is an American politician from Vermont. A member of the Democratic Party, Pieciak has served as Vermont State Treasurer since January 2023.",
+    "url": "https://en.wikipedia.org/wiki/Mike_Pieciak"
+  },
+  "solved": true,
+  "turns_taken": 5,
+  "solved_turn": 5,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 215.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 11283,
+      "cache_read_input_tokens": 28220,
+      "output_tokens": 10329,
+      "thinking_tokens": 9463,
+      "cost_usd": 0.30820400000000003,
+      "calls": 5,
+      "cost_usd_reported": 1.0495216
+    },
+    "guesser": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 6083,
+      "cache_read_input_tokens": 11243,
+      "output_tokens": 6298,
+      "thinking_tokens": 4895,
+      "cost_usd": 0.17919320000000002,
+      "calls": 5,
+      "cost_usd_reported": 0.5072158
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "I'll open with three lines: Vermont (Bernie's mittens, cold, dairy, maple wood), treasurer (treasure chest and pirate, plus government scales), and a man.\n\n<msg>\n🧓🧶🥶 🧈 🪵🫙 ☃️🛷\n🧰☠️🦜 ⚖️\n👱‍♂️\n</msg>",
+      "delivered": "🧓🧶🥶 🧈 🪵🫙 ☃️🛷\n🧰☠️🦜 ⚖️\n👱‍♂️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Here's my read so far:\n- **Line 1:** 🧓🥶☃️🛷 suggests winter or \"Old Man Winter.\" 🧈🪵🫙 might be a butter churn or old-fashioned rural life. 🧶 could be knitting, or \"yarn\" in the sense of a story.\n- **Line 2:** 🧰☠️🦜 looks like pirates, and ⚖️ like law, justice or a trial.\n- **Line 3:** 👱‍♂️, a blond man.\n\nQuestions:\n1. Is the article about a **person** (👍), a **creative work** like a film or book (🎬), or a **place** (📍)?\n2. Is line 1 a **sound-alike pun on the name** (🔤), or does it describe the subject (📖)?\n3. Is the blond man the subject (👍) or someone else (👎)?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "The 👍 and 👎 emojis are banned, so I'm answering line by line: 🙆‍♂️ means yes. The first line says yes, the subject is the man. The second line repeats the Bernie Sanders mittens hint with glasses and a 🏠 for \"his home state.\" The third adds a ring to make the pirate line read as \"treasure.\"\n\n<msg>\n👱‍♂️🙆‍♂️\n🧓👓🧶🥶 🏠\n🧰💍☠️🦜 ⚖️\n</msg>",
+      "delivered": "👱‍♂️🙆‍♂️\n🧓👓🧶🥶 🏠\n🧰💍☠️🦜 ⚖️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Okay, so the subject is a blond man. My new theory is that line 1 points to a cold, knitting-sweater, rural country, maybe in the Nordic region. Line 2 might be political: 🧰 = Labour, ☠️🦜 = Pirate Party, ⚖️ = law or a lawyer.\n\nQuestions:\n1. Which country? 🇮🇸 Iceland / 🇳🇴 Norway / 🇸🇪 Sweden / 🇫🇮 Finland / 🇩🇰 Denmark / other (you could spell it with letter emojis).\n2. Is ☠️🦜 the **Pirate Party** (👍), or real pirates or something else (👎)?\n3. What is his job: 🏛️ politician / ⚖️ lawyer or judge / ⚽ athlete / other?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "The guesser went to the Nordic countries and the Pirate Party, so I'm redirecting. The US flags are banned, so I'm using American icons (turkey, baseball, hot dog, fireworks) with a ↗️ for the Northeast. The megaphone and raised fist mean campaigning politician. The last line drops the pirates and keeps the treasure: chest, ring, trophy.\n\n<msg>\n🦃⚾🌭🎆 ↗️\n📢✊\n🧰💍🏆\n</msg>",
+      "delivered": "🦃⚾🌭🎆 ↗️\n📢✊\n🧰💍🏆",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "So he's American. My reading is 🦃⚾🌭🎆 = USA and ↗️ = the Northeast (New England: cold, knitting, maple syrup and butter). Then 💍🏆⚖️ suggests a fighting ring, championships and weight classes. ☠️🦜 might be a pirate ring name or gimmick, or a team. I'm less sure about 📢✊.\n\nQuestions:\n1. What is his sport or job? 🤼 pro wrestler / 🥊 boxer / 🥋 MMA / ✊ activist or union organizer / other?\n2. Which state? Vermont 🍁 / Maine 🦞 / New Hampshire / Massachusetts / Minnesota or Wisconsin / other? Feel free to spell it with letters.\n3. Is ☠️🦜 his nickname or ring name (👍)?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "The guesser listed Vermont with 🍁, which is banned, so I can't just echo it. I'm answering by elimination with ⛔ (not banned): not a fighter, not Maine, and the pirates aren't a nickname. Maple syrup (log and jar) plus the Bernie mittens point to Vermont. The last line tries \"treasure\" as the state's money: piggy-bank snout and a chart.\n\n<msg>\n🤼🥊🥋⛔\n🦞⛔ 🪵🫙 🧓👓🧶\n☠️🦜⛔ 🧰💍🏆 🐽📊\n</msg>",
+      "delivered": "🤼🥊🥋⛔\n🦞⛔ 🪵🫙 🧓👓🧶\n☠️🦜⛔ 🧰💍🏆 🐽📊",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I think 🧓👓🧶 = \"Gran-knit,\" so **Granite State = New Hampshire**. And 📢✊ suggests politics or activism, which made me think of New Hampshire's huge state House of Representatives, or the Free State Project and libertarian activism. I can't decode 🐽📊 and 🧰💍🏆 yet. Is 🐽 \"pork\" or a \"hog\"?\n\nQuestions:\n1. Is it New Hampshire (👍/👎)?\n2. Is he a **politician** (🏛️), for example a member of the NH House? Or an **activist** (📢)? Or something else (🎤 musician, 🎭 actor, 🎨 artist, 🏒 hockey, 🏈 football, 🎮 gaming)?\n3. What does 🐽📊 sound like? Is it part of his name?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "The guesser landed on New Hampshire. Vermont is its western neighbor, and ⬅️ isn't banned, so \"not the granite state, the one to its west\" should get them there. I'll confirm politics (📢 yes) and rule out the other careers. I'll recast the money line as piggy bank and savings jar, alongside treasure-island pirates.\n\n<msg>\n🪨⛔ ⬅️\n🏒🎮🎭🎨⛔ 📢🙆‍♂️\n🐽🫙 🧰🏝️☠️🦜\n</msg>",
+      "delivered": "🪨⛔ ⬅️\n🏒🎮🎭🎨⛔ 📢🙆‍♂️\n🐽🫙 🧰🏝️☠️🦜",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "So it's not granite. New idea: 🧰☠️🦜🏝️ = pirate **treasure** chest and 🐽🫙 = piggy bank, which makes him a **Treasurer**. 🐽📊 would be finance, and 📢✊ activism.\n\nFor the state, 🪵🫙 = maple syrup, and with 🥶🧈☃️ (cold, dairy, snow) I'm thinking **Vermont**.\n\nQuestions:\n1. Is he a **State Treasurer** (👍), or another money role such as 🏦 banker or 💼 financial officer?\n2. Is it Vermont 🍁 (👍/👎)? If not, Wisconsin 🧀, Minnesota, Michigan, New York?\n3. Is he alive now and in office recently (🆕), or historical (📜)?\n\nGUESS: Mike Pieciak",
+      "guess": "Mike Pieciak",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "a184450f-2108-4ea2-8080-b9af68e5d6b7",
+    "guesser": "abe68f99-52f9-4b8b-91d0-1aa29d4d8452"
+  },
+  "ladder": {
+    "article_no": 4,
+    "round": 7,
+    "n_banned": 172,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

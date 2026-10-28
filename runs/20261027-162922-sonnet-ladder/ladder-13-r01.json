@@ -1,0 +1,110 @@
+{
+  "model": "sonnet",
+  "model_id": "claude-sonnet-5-5",
+  "guesser_model": "sonnet",
+  "guesser_model_id": "claude-sonnet-5-5",
+  "effort": null,
+  "article": {
+    "title": "Dorothy Cottrell",
+    "description": "Australian writer",
+    "extract": "Ida Dorothy Ottley Cottrell was an Australian writer. Born in Picton, she contracted infantile paralysis as a child and spent the rest of her life in a wheelchair. Cottrell married Walter Mackenzie Cottrell on 23 May 1922. Her first novel, The Singing Gold, was published in 1928. She wrote a story Wilderness Orphan (1936) which was the basis for the feature film Orphan of the Wilderness (1936). She lived for a time in the US and also worked as an artist and cartoonist.",
+    "url": "https://en.wikipedia.org/wiki/Dorothy_Cottrell"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 103.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 2018,
+      "cache_read_input_tokens": 6085,
+      "output_tokens": 991,
+      "thinking_tokens": 723,
+      "cost_usd": 0.019227,
+      "calls": 4,
+      "cost_usd_reported": 0.05107110000000001
+    },
+    "guesser": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 2914,
+      "cache_read_input_tokens": 4442,
+      "output_tokens": 2258,
+      "thinking_tokens": 2009,
+      "cost_usd": 0.0351524,
+      "calls": 4,
+      "cost_usd_reported": 0.0823046
+    },
+    "judge": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2103,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 12,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00042720000000000003,
+      "calls": 3
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🐨🏜️ 👧➡️🧑‍🦽 ✒️📚 🎤🥇 🐺🏞️ 🎞️</msg>",
+      "delivered": "🐨🏜️ 👧➡️🧑‍🦽 ✒️📚 🎤🥇 🐺🏞️ 🎞️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Here is my reading so far: an Australian girl who became a wheelchair user, an author, a performer (singing or speaking) who won gold, plus wolves/wilderness and a film.\n\nMy guess is Karni Liddell, though I'm not sure about the wolf and film parts.\n\nGUESS: Karni Liddell",
+      "guess": "Karni Liddell",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🙅🏅 ⏳1920s 📕🥇🎤 💍 🇺🇸 🐺🏞️🎞️ 🖌️😄</msg>",
+      "delivered": "🙅🏅 ⏳ 📕🥇🎤 💍 🇺🇸 🐺🏞️🎞️ 🖌️😄",
+      "dropped_chars": 5,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Joni Eareckson Tada",
+      "guess": "Joni Eareckson Tada",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🐨 ⏳📻🎩 📕 🎤🥇 👶😭🏞️🐺 🎞️ 🧑‍🦽 💍</msg>",
+      "delivered": "🐨 ⏳📻🎩 📕 🎤🥇 👶😭🏞️🐺 🎞️ 🧑‍🦽 💍",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I now read the wolf, landscape, crying baby and film emojis as *A Cry in the Dark* (the dingo and Azaria Chamberlain story). Is the person connected to that film or case, perhaps as a radio host, author or journalist who uses a wheelchair?\n\nGUESS: Lindy Chamberlain-Creighton",
+      "guess": "Lindy Chamberlain-Creighton",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🙅🐺🏠 📽️⬛⬜ 🧒🏞️🐾 🐨➡️🇺🇸 ✏️📕 ⏳⏳⏳ 🧑‍🦽</msg>",
+      "delivered": "🙅🐺🏠 📽️⬛⬜ 🧒🏞️🐾 🐨➡️🇺🇸 ✏️📕 ⏳⏳⏳ 🧑‍🦽",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Dorothy Cottrell",
+      "guess": "Dorothy Cottrell",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "c312ab87-a038-4380-861e-fbd6fe7e63f9",
+    "guesser": "c823b345-f371-4e5e-ba9f-06f45d7c3cf1"
+  },
+  "ladder": {
+    "article_no": 13,
+    "round": 1,
+    "n_banned": 20,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

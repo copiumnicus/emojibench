@@ -1,0 +1,114 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Dorothy Cottrell",
+    "description": "Australian writer",
+    "extract": "Ida Dorothy Ottley Cottrell was an Australian writer. Born in Picton, she contracted infantile paralysis as a child and spent the rest of her life in a wheelchair. Cottrell married Walter Mackenzie Cottrell on 23 May 1922. Her first novel, The Singing Gold, was published in 1928. She wrote a story Wilderness Orphan (1936) which was the basis for the feature film Orphan of the Wilderness (1936). She lived for a time in the US and also worked as an artist and cartoonist.",
+    "url": "https://en.wikipedia.org/wiki/Dorothy_Cottrell"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 131.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 4371,
+      "cache_read_input_tokens": 9725,
+      "output_tokens": 2957,
+      "thinking_tokens": 2606,
+      "cost_usd": 0.098054,
+      "calls": 4,
+      "cost_usd_reported": 0.285348
+    },
+    "guesser": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 6892,
+      "cache_read_input_tokens": 7409,
+      "output_tokens": 6426,
+      "thinking_tokens": 5806,
+      "cost_usd": 0.18667560000000002,
+      "calls": 4,
+      "cost_usd_reported": 0.44073000000000007
+    },
+    "judge": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1395,
+      "cache_read_input_tokens": 698,
+      "output_tokens": 12,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00029258,
+      "calls": 3
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n👱‍♀️🖋️📙\n🌏⬇️🏜️\n🦼\n🎵💛💰\n🦁🤖🌾🧙‍♀️🧱💛\n</msg>",
+      "delivered": "👱‍♀️🖋️📙\n🌏⬇️🏜️\n🦼\n🎵💛💰\n🦁🤖🌾🧙‍♀️🧱💛",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "So far: a female writer/author 👱‍♀️🖋️📙, Australian 🌏⬇️🏜️, who used a wheelchair 🦼. The last line is clearly The Wizard of Oz (Lion, Tin Man, Scarecrow, Witch, Yellow Brick Road).\n\nQuestions:\n- Does the Oz line point to her NAME (e.g. Dorothy), or to \"Oz\" meaning Australia, or did she write something Oz-related?\n- 🎵💛💰: is this part of her name (Gold? Golden? Song/Singer?), or a book title or award?\n\nPlease spell out her first and last name with sound-alike emojis if you can.\n\nGUESS: Dorothy Gold",
+      "guess": "Dorothy Gold",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n🦁🤖🌾🧙‍♀️ 👌 👤\n🎵💛 📙 👌\n👤 ⏩ 👶🛏️ + 🛤️\n📽️ 🌲🏞️ 🧒💔\n</msg>",
+      "delivered": "🦁🤖🌾🧙‍♀️ 👌 👤\n🎵💛 📙 👌\n👤 ⏩ 🛏️ 🛤️\n📽️ 🌲🏞️ 🧒💔",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "👶"
+      ],
+      "retried": false,
+      "guesser": "Reading it: the Oz name belongs to a person (Dorothy → \"Dot\"?), music + book confirmed, someone ill/bedridden, and a film about a child lost in the bush. That sounds like *Dot and the Kangaroo*, written by a musician who died before it came out.\n\nGUESS: Ethel Pedley",
+      "guess": "Ethel Pedley",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n👎\n🦁🤖🌾🧙‍♀️ 👤 🔛 🔚... \n🗣️🎵 💛🏅 📙\n👤 🏕️🛏️ 🛤️\n</msg>",
+      "delivered": "👎\n🦁🤖🌾🧙‍♀️ 👤\n🗣️🎵 💛🏅 📙\n👤 🏕️🛏️ 🛤️",
+      "dropped_chars": 5,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I think I'm misreading some parts. My current hypotheses:\n- Oz → her first name is Dorothy (yes/no?)\n- 🗣️🎵 = poet/poetry? 💛🏅📙 = a gold medal for literature (e.g. the ALS Gold Medal)?\n- 🏕️🛏️🛤️: is this her SURNAME as a sound-alike? Or is it something that happened in her life?\n\nIf the surname is a sound-alike, please spell it out syllable by syllable.\n\nGUESS: Dorothy Green",
+      "guess": "Dorothy Green",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>\n🦁🤖🌾🧙‍♀️ 👌👌\n🗣️🎵💛🏅 👎 🏆\n🗣️🎵💛 👉📙 👌\n🏕️🛏️🛤️ 👌 👤\n🏕️🛏️     🛤️\n</msg>",
+      "delivered": "🦁🤖🌾🧙‍♀️ 👌👌\n🗣️🎵💛🏅 👎 🏆\n🗣️🎵💛 📙 👌\n🏕️🛏️🛤️ 👌 👤\n🏕️🛏️ 🛤️",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "👉"
+      ],
+      "retried": false,
+      "guesser": "Got it: Dorothy + Cot-rail-ish surname, wrote *The Singing Gold*, wheelchair (polio), and *Wilderness Orphan* was filmed as *Orphan of the Wilderness*.\n\nGUESS: Dorothy Cottrell",
+      "guess": "Dorothy Cottrell",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "79b65263-a747-4a09-9db7-90a1cb592f29",
+    "guesser": "c8d9f31a-4e22-4164-a91c-bf49f134a94f"
+  },
+  "ladder": {
+    "article_no": 13,
+    "round": 2,
+    "n_banned": 46,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

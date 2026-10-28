@@ -1,0 +1,88 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Accord Pond",
+    "description": "Lake in Massachusetts, USA",
+    "extract": "Accord Pond is a 100-acre (0.40 km2) reservoir in Hingham, Norwell and Rockland, Massachusetts. The reservoir is located off Route 228 at its terminus with Route 3. The reservoir is visible from Route 3 northbound at Exit 14, the Route 228 off-ramp. The reservoir is a Class A source of water supply for the town of Hingham and Hull Ma. The outflow of the reservoir is Accord Brook, a tributary of the Weir River.",
+    "url": "https://en.wikipedia.org/wiki/Accord_Pond"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 131.9,
+  "usage": {
+    "explainer": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 2299,
+      "cache_read_input_tokens": 1943,
+      "output_tokens": 1952,
+      "thinking_tokens": 1818,
+      "cost_usd": 0.145563,
+      "calls": 2,
+      "cost_usd_reported": 0.21559999999999996
+    },
+    "guesser": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 6558,
+      "cache_read_input_tokens": 976,
+      "output_tokens": 6145,
+      "thinking_tokens": 5696,
+      "cost_usd": 0.43942600000000004,
+      "calls": 2,
+      "cost_usd_reported": 0.731034
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 700,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00014220000000000001,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🦆💦🐸🌲🌲\n☮️🕊️📜✍️ 🚙🏁\n🫖🌊🏀🍀🦞</msg>",
+      "delivered": "🦆💦🐸🌲🌲\n☮️🕊️📜✍️ 🚙🏁\n🫖🌊🏀🍀🦞",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Let me parse what I see:\n\n- Line 1 🦆💦🐸🌲🌲 → a pond / marsh / swamp / wetland in the woods?\n- Line 2 ☮️🕊️📜✍️ → peace treaty / accord / \"Concord\"?\n- Line 3 🚙🏁 → car race / rally / speedway / finish?\n- Line 4 🫖🌊🏀🍀🦞 → Boston / Massachusetts / New England (Tea Party, harbor, Celtics, lobster)\n\nQuestions (answer with emojis as best you can, e.g. 👍/👎):\n1. Is it a town/place in Massachusetts? 🏘️\n2. Is line 1 part of the NAME (like \"Pond\", \"Marsh\", \"Swamp\", \"Lake\")? \n3. Is line 2 meant to be \"Concord\"? Or \"Peace\" / \"Salem\"?\n4. Is line 3 a car race event/track, or a person who races?\n\nGUESS: Walden Pond",
+      "guess": "Walden Pond",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🏘️👎 🌊👍\n🦆💦👍\n🔥🤏\n🏁👎\n\n🏍️🚙🤖 ↔️ ☮️🕊️📜✍️</msg>",
+      "delivered": "🏘️👎 🌊👍\n🦆💦👍\n🔥🤏\n🏁👎\n🏍️🚙🤖 ↔️ ☮️🕊️📜✍️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Got it! 🏍️🚙🤖 = Honda (motorcycles, cars, ASIMO), and Honda ↔ peace treaty = **Accord**. Line 1 = Pond. So a pond in Massachusetts called Accord Pond (Hingham/Norwell/Rockland area).\n\nGUESS: Accord Pond",
+      "guess": "Accord Pond",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "6a0d0c25-f1c8-40b3-80b2-0cb61581e819",
+    "guesser": "bda6db5e-238a-44b6-adf1-5520c4235f6b"
+  },
+  "ladder": {
+    "article_no": 10,
+    "round": 1,
+    "n_banned": 12,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

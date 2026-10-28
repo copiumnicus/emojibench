@@ -1,0 +1,75 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Philadelphia Commercial Museum",
+    "description": "Former museum in Pennsylvania, USA",
+    "extract": "The Philadelphia Commercial Museum was established in Philadelphia, Pennsylvania in 1895. Its permanent home was a neo-classical building situated at 34th Street and Civic Center Blvd, erected as part of the 1899 National Export Exposition. The museum had business offices at 332 South Fourth Street.",
+    "url": "https://en.wikipedia.org/wiki/Philadelphia_Commercial_Museum"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 67.1,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 874,
+      "cache_read_input_tokens": 577,
+      "output_tokens": 2572,
+      "thinking_tokens": 2491,
+      "cost_usd": 0.14624425,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 991,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1287,
+      "thinking_tokens": 1130,
+      "cost_usd": 0.08418999999999999,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🪁⚡ 🛎️🗽 🥩🥖🧅\n💲💵🏷️🛍️ 🛳️🌎⚓\n🎟️🦣🦴 🏚️🔚\n</msg>",
+      "delivered": "🪁⚡ 🛎️🗽 🥩🥖🧅\n💲💵🏷️🛍️ 🛳️🌎⚓\n🎟️🦣🦴 🏚️",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Reading this as: 🪁⚡🛎️🗽🥩🥖🧅 = Franklin + Liberty Bell + cheesesteak = **Philadelphia**; 💲💵🏷️🛍️ = commerce/trade; 🛳️🌎⚓ = world shipping/international trade; 🎟️🦣🦴 = museum; 🏚️ = now defunct/demolished.\n\nGUESS: Philadelphia Commercial Museum",
+      "guess": "Philadelphia Commercial Museum",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "a2f45401-0442-42df-8145-44d6b6483e27",
+    "guesser": "4246ae0e-2f7f-4cc6-91f2-8bed736ce15e"
+  },
+  "ladder": {
+    "article_no": 14,
+    "round": 2,
+    "n_banned": 47,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

@@ -1,0 +1,75 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Iglesia de Santa Ana (Santiago de Chile)",
+    "description": "National monument of Chile",
+    "extract": "The Iglesia de Santa Ana is a Catholic church in downtown Santiago de Chile. It is located at the northwest corner of Catedral and San Martín streets. The church was declared as a National Monument of Chile in 1970, within the category of Historic Monuments. Santa Ana metro station is named after the church.",
+    "url": "https://en.wikipedia.org/wiki/Iglesia_de_Santa_Ana_(Santiago_de_Chile)"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 125.2,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 822,
+      "cache_read_input_tokens": 577,
+      "output_tokens": 3403,
+      "thinking_tokens": 3302,
+      "cost_usd": 0.18675425000000004,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1014,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4123,
+      "thinking_tokens": 3888,
+      "cost_usd": 0.22644999999999998,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 722,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 9.420000000000001e-06,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🇻🇦🏠🕯️🍞🍷\n🗿 🇦🇷⬅️ 🌆👑\n👩‍🦳👴♀️ ▶️ 🌹💙 ▶️ 👼🐟\n🚆🪧 🏆\n</msg>",
+      "delivered": "🇻🇦🏠🕯️🍞🍷\n🗿 🇦🇷⬅️ 🌆👑\n👩‍🦳👴♀️ ▶️ 🌹💙 ▶️ 👼🐟\n🚆🪧 🏆",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "My read so far: 🇻🇦🏠🕯️🍞🍷 = a Catholic church. 🗿 🇦🇷⬅️ = Chile (moai, west of Argentina), 🌆👑 = the capital, Santiago. 👩‍🦳👴♀️▶️🌹💙▶️👼🐟 = grandmother → Mary → Jesus = Saint Anne. 🚆🪧 = a metro station named after it, 🏆 = national monument.\n\nIs it Saint Anne's church in Santiago? If wrong, tell me: is the country Chile (👍/👎), and is the city the capital?\n\nGUESS: Iglesia de Santa Ana (Santiago)",
+      "guess": "Iglesia de Santa Ana (Santiago)",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "6fd7b9e7-2a38-4809-9886-719d48db02ae",
+    "guesser": "036d491c-299c-468f-afc5-3f6bd0834049"
+  },
+  "ladder": {
+    "article_no": 15,
+    "round": 2,
+    "n_banned": 32,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

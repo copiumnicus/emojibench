@@ -1,0 +1,99 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Dorothy Cottrell",
+    "description": "Australian writer",
+    "extract": "Ida Dorothy Ottley Cottrell was an Australian writer. Born in Picton, she contracted infantile paralysis as a child and spent the rest of her life in a wheelchair. Cottrell married Walter Mackenzie Cottrell on 23 May 1922. Her first novel, The Singing Gold, was published in 1928. She wrote a story Wilderness Orphan (1936) which was the basis for the feature film Orphan of the Wilderness (1936). She lived for a time in the US and also worked as an artist and cartoonist.",
+    "url": "https://en.wikipedia.org/wiki/Dorothy_Cottrell"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": {
+    "fraction": 0.5,
+    "seed": "v1",
+    "size": 936
+  },
+  "max_turns": 30,
+  "seconds": 70.5,
+  "usage": {
+    "explainer": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 7366,
+      "cache_read_input_tokens": 14120,
+      "output_tokens": 1239,
+      "thinking_tokens": 1000,
+      "cost_usd": 0.089396,
+      "calls": 3,
+      "cost_usd_reported": 0.21182260000000003
+    },
+    "guesser": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 3226,
+      "cache_read_input_tokens": 3000,
+      "output_tokens": 2963,
+      "thinking_tokens": 2408,
+      "cost_usd": 0.086308,
+      "calls": 3,
+      "cost_usd_reported": 0.1694752
+    },
+    "judge": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 1394,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0002832,
+      "calls": 2
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🇦🇺 👩 ✍️ 📚\n👩‍🦽\n🎶 🥇 📕\n🎥 🌳 👶 😢\n👩‍🎨 ✏️\n</msg>",
+      "delivered": "🇦🇺 👩 ✍️ 📚\n👩‍🦽\n🎶 🥇 📕\n🎥 🌳 👶\n👩‍🎨 ✏️",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "😢"
+      ],
+      "retried": false,
+      "guesser": "**What I've got so far:** An Australian woman who writes books. She may use a wheelchair or have a disability. Her work may involve music, a gold medal or award, a film adaptation, and something with trees and babies. She may also be an illustrator or artist.\n\nThe tree, baby and illustrator clues make me think of gumnut babies and May Gibbs. I'm not sure the wheelchair fits her, though.\n\n**Questions:**\n- Is the wheelchair literal, meaning she was disabled?\n- Is the 🎶🥇📕 line about a book award, or about music?\n- Is the 🎥🌳👶 line about a film, or about children's books set in nature?\n\nGUESS: May Gibbs",
+      "guess": "May Gibbs",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n👩‍🦽 👍 👧 🤒\n🎶 🥇 🟰 📕\n🎥 👍 🌳 🌳 🌳 👶 🙅 👨‍👩‍👧\n🇦🇺 ➡️ 🗽\n</msg>",
+      "delivered": "👩‍🦽 👍 👧 🤒\n🎶 🥇 🟰 📕\n🎥 👍 🌳 🌳 🌳 👶 🙅\n🇦🇺 ➡️ 🗽",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "👨‍👩‍👧"
+      ],
+      "retried": false,
+      "guesser": "**My read:** As a girl she got ill, maybe with polio, and ended up using a wheelchair. Later she moved from Australia to the USA. Something about music or a medal equals a book. There's also a film featuring a forest, and probably not about babies, or maybe not for kids.\n\nCould the forest film be *FernGully: The Last Rainforest*? It was based on stories by an Australian woman, Diana Young.\n\n**Questions:**\n- Is the film FernGully?\n- Did a song, or an award-winning song, become a book?\n\nGUESS: Diana Young (author)",
+      "guess": "Diana Young (author)",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n👎\n📕 🟰 🎤 🥇\n🎥 🟰 👶 ⚰️ ⚰️ 🌳 🌳 🌳\n</msg>",
+      "delivered": "👎\n📕 🟰 🎤 🥇\n🎥 🟰 👶 ⚰️ ⚰️ 🌳 🌳 🌳",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "**Got it:**\n- 📕 = 🎤🥇 is the book *The Singing Gold*.\n- 🎥 = 👶⚰️⚰️🌳 is a baby whose parents are dead in the wilderness, so *Orphan of the Wilderness*.\n\nThat's an Australian writer who had polio as a girl, used a wheelchair and moved to the USA.\n\nGUESS: Dorothy Cottrell",
+      "guess": "Dorothy Cottrell",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "175f062e-5b62-4276-820e-206de7160abb",
+    "guesser": "5e04edba-ccee-41c6-9476-f795086ed6ac"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

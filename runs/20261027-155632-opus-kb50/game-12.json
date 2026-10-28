@@ -1,0 +1,71 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Dora Akunyili",
+    "description": "Nigerian pharmacist and government official (1954–2014)",
+    "extract": "Dora Nkem Akunyili was a Nigerian pharmacist and politician who served as the director-general of National Agency for Food and Drug Administration and Control (NAFDAC) of Nigeria from 2001 to 2008.",
+    "url": "https://en.wikipedia.org/wiki/Dora_Akunyili"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "keyboard": {
+    "fraction": 0.5,
+    "seed": "v1",
+    "size": 936
+  },
+  "max_turns": 30,
+  "seconds": 12.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 5740,
+      "cache_read_input_tokens": 588,
+      "output_tokens": 434,
+      "thinking_tokens": 292,
+      "cost_usd": 0.0547256,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 959,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 279,
+      "thinking_tokens": 200,
+      "cost_usd": 0.013260000000000001,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Dora Akunyili was a Nigerian woman who ran NAFDAC, Nigeria's food and drug agency, and fought fake medicines. My message reads: Nigerian woman, pharmacist; food and drug agency boss; fights counterfeit pills.\n\n<msg>🇳🇬 👩 💊\n🍔 💊 🏢 🧑‍💼\n🤡💊 🚫 💪</msg>",
+      "delivered": "🇳🇬 👩 💊\n🍔 💊 🏢 🧑‍💼\n🤡💊 🚫 💪",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Nigerian woman, pharmacist, heading the food and drug agency (NAFDAC), famous for fighting fake/counterfeit drugs. That sounds like Dora Akunyili.\n\nGUESS: Dora Akunyili",
+      "guess": "Dora Akunyili",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "ab3554bb-1485-4d71-83a8-5cd8e5c2b831",
+    "guesser": "c41de0c4-79f0-4a9e-994c-38943ccee449"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

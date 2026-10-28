@@ -1,0 +1,97 @@
+{
+  "model": "sonnet",
+  "model_id": "claude-sonnet-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Motorchuna",
+    "description": "River in Yakutia (Sakha Republic), Russia",
+    "extract": "The Motorchuna is a river in Yakutia, Russia. It is a left tributary of the Lena with a length of 423 kilometres (263 mi). Its drainage basin area is 9,250 square kilometres (3,570 mi2). Since its river basin is uninhabited, the Motorchuna is one of the most untouched rivers in Yakutia; the waters are clean and there is abundant wildlife.",
+    "url": "https://en.wikipedia.org/wiki/Motorchuna"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 71.2,
+  "usage": {
+    "explainer": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 2780,
+      "cache_read_input_tokens": 4507,
+      "output_tokens": 566,
+      "thinking_tokens": 238,
+      "cost_usd": 0.0177094,
+      "calls": 4,
+      "cost_usd_reported": 0.0445484
+    },
+    "guesser": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 3447,
+      "cache_read_input_tokens": 5438,
+      "output_tokens": 2754,
+      "thinking_tokens": 1954,
+      "cost_usd": 0.0848872,
+      "calls": 4,
+      "cost_usd_reported": 0.217275
+    },
+    "judge": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1413,
+      "cache_read_input_tokens": 706,
+      "output_tokens": 250,
+      "thinking_tokens": 238,
+      "cost_usd": 0.00041526000000000003,
+      "calls": 3
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🌊🏞️🇷🇺❄️🥶 🐻🦌🐟🌲🌲 🚫🏠🚫👥 🧭⬅️ 🌊➡️🧊🌏</msg>",
+      "delivered": "🌊🏞️🇷🇺❄️🥶 🐻🦌🐟🌲🌲 🚫🏠🚫👥 🧭⬅️ 🌊➡️🧊🌏",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "My read: a remote, uninhabited river in cold Siberian Russia, with bears, deer, fish and taiga, flowing toward the Arctic Ocean. The ⬅️ might mean it's a left tributary of another river.\n\nQuestions:\n1. Is it a **river**? (✅ / ❌. If not, is it a 🏞️ lake?)\n2. Is it a **tributary** of a bigger river? If yes, which one? (e.g. Yenisei, Lena, Ob, Kolyma, Indigirka, Khatanga, Anadyr)\n3. Which **region**? Yakutia, Krasnoyarsk Krai/Taymyr, Chukotka, Magadan, Kamchatka, Khabarovsk?\n4. Does ⬅️ mean \"left tributary\"?\n\nReply with emojis or number/flag hints.\n\nGUESS: Olenyok River",
+      "guess": "Olenyok River",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👍🌊 👍⬅️ 👍 🇷🇺 ❄️🐻 🌊🅾️ 🚫 ➡️ 🌊 🧊🌏 🗺️ 🇷🇺 🦬🦬 ⛏️💎</msg>",
+      "delivered": "👍🌊 👍⬅️ 👍 🇷🇺 ❄️🐻 🌊 🚫 ➡️ 🌊 🧊🌏 🗺️ 🇷🇺 🦬🦬 ⛏️💎",
+      "dropped_chars": 1,
+      "retried": false,
+      "guesser": "Got it: a river in Yakutia (🦬 = yak, 💎 = diamonds), a **left tributary** of another river, not flowing directly to the sea, uninhabited, with diamond deposits nearby.\n\nCandidates: Muna (left of Lena), Markha (left of Vilyuy), Ebelyakh (Anabar), Daldyn, Malaya Botuobuya…\n\nQuestions:\n1. Which **parent river** is it a tributary of? Lena, Vilyuy, Anabar, Olenyok, Markha?\n2. Roughly how long is it? Over 500 km, or a small river under 300 km?\n\nGUESS: Muna (river)",
+      "guess": "Muna (river)",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>👍 Lena 🌊 ⬅️ 📏 ➡️ 4️⃣ 🚫 🏙️ 🧼💧 🐻🦌 🌲 🏞️🇷🇺 ❄️</msg>",
+      "delivered": "👍 🌊 ⬅️ 📏 ➡️ 🚫 🏙️ 🧼💧 🐻🦌 🌲 🏞️🇷🇺 ❄️",
+      "dropped_chars": 6,
+      "retried": false,
+      "guesser": "Thanks. The parent river is the key piece I'm missing. Please answer with a number emoji:\n\n**Which river does it flow into?**\n1️⃣ Lena\n2️⃣ Vilyuy\n3️⃣ Anabar\n4️⃣ Olenyok\n5️⃣ Markha\n6️⃣ Aldan\n7️⃣ Kolyma / Indigirka / Yana\n8️⃣ another river\n\n**Length?** 🔟 = under 100 km, 💯 = 100–500 km, 🏔️ = over 500 km\n\nGUESS: Ebelyakh",
+      "guess": "Ebelyakh",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>1️⃣ 👍 🌊 Lena ⬅️ 💯 🚫👥 🏞️ 🏍️ 🛵 ⚙️</msg>",
+      "delivered": "👍 🌊 ⬅️ 💯 🚫👥 🏞️ 🏍️ 🛵 ⚙️",
+      "dropped_chars": 6,
+      "retried": false,
+      "guesser": "The 🏍️ ⚙️ hint suggests the name sounds like \"Moto…\" / \"Motor…\". Combined with Yakutia and diamonds, that points to the Motorchuna, a tributary of the Muna.\n\nGUESS: Motorchuna",
+      "guess": "Motorchuna",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "019377da-56b8-43ac-b9c8-42f0ab4d178c",
+    "guesser": "c614dc00-ee2f-4d4d-a28b-cabb3494648e"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

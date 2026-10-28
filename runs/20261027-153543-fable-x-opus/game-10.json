@@ -1,0 +1,65 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Accord Pond",
+    "description": "Lake in Massachusetts, USA",
+    "extract": "Accord Pond is a 100-acre (0.40 km2) reservoir in Hingham, Norwell and Rockland, Massachusetts. The reservoir is located off Route 228 at its terminus with Route 3. The reservoir is visible from Route 3 northbound at Exit 14, the Route 228 off-ramp. The reservoir is a Class A source of water supply for the town of Hingham and Hull Ma. The outflow of the reservoir is Accord Brook, a tributary of the Weir River.",
+    "url": "https://en.wikipedia.org/wiki/Accord_Pond"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 22.4,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1221,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 802,
+      "thinking_tokens": 678,
+      "cost_usd": 0.06454,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 914,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 726,
+      "thinking_tokens": 572,
+      "cost_usd": 0.02184,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Private notes: \"Accord\" → handshake/agreement + Honda Accord car; \"Pond\" → water/duck; reservoir/town water supply; Massachusetts → lobster/Red Sox.\n\n<msg>\n🤝🕊️ 🚗\n💧🏞️🦆\n🚰🏘️\n🇺🇸🦞⚾🧦\n</msg>",
+      "delivered": "🤝🕊️ 🚗\n💧🏞️🦆\n🚰🏘️\n🇺🇸🦞⚾🧦",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Decoding: 🤝🕊️🚗 looks like \"Accord\" (agreement/peace, plus the Honda Accord). 💧🏞️🦆 suggests a pond, 🚰🏘️ a water supply for a town, and 🇺🇸🦞⚾🧦 points to Massachusetts (lobster, Red Sox). So my guess is a pond in Massachusetts that serves as a town water supply.\n\nGUESS: Accord Pond",
+      "guess": "Accord Pond",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "a147296d-5dc4-4bd2-aa40-b52886f6b9a6",
+    "guesser": "25e018d0-22ba-4fab-aa69-18efd4bed4af"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

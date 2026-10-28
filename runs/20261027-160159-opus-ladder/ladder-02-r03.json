@@ -1,0 +1,101 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Iron(III) sulfate",
+    "description": "Chemical compound",
+    "extract": "Iron(III) sulfate or ferric sulfate is a family of inorganic compounds with the formula Fe2(SO4)3(H2O)n. A variety of hydrates are known, including the most commonly encountered form of \"ferric sulfate\". Solutions are used in dyeing as a mordant and as a coagulant for industrial wastes. Solutions of ferric sulfate are also used in the processing of aluminum and steel.",
+    "url": "https://en.wikipedia.org/wiki/Iron(III)_sulfate"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 114.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 2712,
+      "cache_read_input_tokens": 5961,
+      "output_tokens": 2506,
+      "thinking_tokens": 2286,
+      "cost_usd": 0.07424040000000001,
+      "calls": 3,
+      "cost_usd_reported": 0.15158500000000003
+    },
+    "guesser": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 6042,
+      "cache_read_input_tokens": 4206,
+      "output_tokens": 4827,
+      "thinking_tokens": 4109,
+      "cost_usd": 0.1466144,
+      "calls": 3,
+      "cost_usd_reported": 0.36295459999999996
+    },
+    "judge": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 1398,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 0.000284,
+      "calls": 2
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🥼🧫💎\n\n🏋️⛏️🪨🗡️ 🟠\n\n👹🕯️💀\n\n☘️🔱</msg>",
+      "delivered": "🥼🧫💎\n🏋️⛏️🪨🗡️ 🟠\n👹🕯️💀\n☘️🔱",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "My read so far:\n- 🏋️⛏️🪨 = \"heavy metal\"? (heavy + ore/rock)\n- 👹🕯️💀 = dark/occult imagery, so black/doom metal?\n- ☘️ = Ireland; 🔱 = pagan, or a substitute for 🤘?\n- 🥼🧫💎 = a name involving science, culture or crystal? Maybe \"primordial soup\"?\n- 🗡️🟠 = unclear. A blade? Orange/amber?\n\nQuestions:\n1. Is it a band or musician? 👍/👎\n2. Is ☘️ Ireland?\n3. Is 🥼🧫💎 the name, and which word does each emoji stand for?\n\nGUESS: Primordial (band)",
+      "guess": "Primordial (band)",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>❌🎸🤘❌🇮🇪\n\n🥼🧫💊🧬\n\n🏋️ = 🦸‍♂️🤖🏌️‍♂️\n☘️ = ✌️☝️\n👹 = 🧨🔫🌋?❌ 😷💩</msg>",
+      "delivered": "❌🎸🤘❌🇮🇪\n🥼🧫💊🧬\n🏋️ 🦸‍♂️🤖🏌️‍♂️\n☘️ ✌️☝️\n👹 🧨🔫❌ 😷💩",
+      "dropped_chars": 5,
+      "off_keyboard": [
+        "🌋"
+      ],
+      "retried": false,
+      "guesser": "Decoded so far: not music, not Ireland. 🏋️/🦸‍♂️🤖/🏌️‍♂️ = **iron** (weight, Iron Man, golf iron). ☘️/✌️☝️/🔱 = **three / tri-** → so **iron(III) / ferric**. 👹🕯️💀/😷💩 = **toxic / poison**. 🥼🧫💊🧬💎 = science: chemistry/biochem/medicine, maybe a crystalline compound or a drug.\n\nSo I think it's an iron(III) compound — orange/rust colored (🟠), toxic.\n\nQuestions:\n1. Does the title literally contain the word \"Iron\"? 👍/👎\n2. Is it a chemical compound (vs. a protein/enzyme/disease)? \n3. What does 🕯️ stand for — is it part of the second word of the title?\n4. Can you spell the second word with letter-ish emojis or clue it word by word?\n\nGUESS: Iron(III) chloride",
+      "guess": "Iron(III) chloride",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>✅🏋️✅🥼 ❌🏊‍♂️🏊‍♀️\n\n👹🟨🧨🔋🍋 + 🍀</msg>",
+      "delivered": "✅🏋️✅🥼 ❌🏊‍♂️🏊‍♀️\n👹🟨🧨🔋🍋 🍀",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Got it: iron ✅, compound ✅, not chloride (🏊 = chlorine ❌).\n👹🟨🧨🔋🍋 = **sulfur** (brimstone, yellow, gunpowder, battery acid), and 🍀 = **four** → sulfate (SO₄).\n\nSo: iron(III) + sulfate.\n\nGUESS: Iron(III) sulfate",
+      "guess": "Iron(III) sulfate",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "b7c859d0-bc69-4979-a91e-7b3d29454a86",
+    "guesser": "4e6265cd-e313-4378-8f12-cccff5d5748d"
+  },
+  "ladder": {
+    "article_no": 2,
+    "round": 3,
+    "n_banned": 45,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

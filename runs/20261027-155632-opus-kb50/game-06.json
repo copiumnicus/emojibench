@@ -1,0 +1,106 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Jakob von Washington",
+    "description": "Bavarian general (1778–1848)",
+    "extract": "\nBaron Jacobus von Washington was a lieutenant general in the Bavarian Army and a distant relative of US President George Washington. Born in The Hague, Netherlands, he was christened James Washington. Most of his adult life was shaped by his participation in wars for and against Napoleonic France and his service to Ludwig I of Bavaria.",
+    "url": "https://en.wikipedia.org/wiki/Jakob_von_Washington"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "keyboard": {
+    "fraction": 0.5,
+    "seed": "v1",
+    "size": 936
+  },
+  "max_turns": 30,
+  "seconds": 92.8,
+  "usage": {
+    "explainer": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 8165,
+      "cache_read_input_tokens": 22173,
+      "output_tokens": 2175,
+      "thinking_tokens": 1878,
+      "cost_usd": 0.11774520000000002,
+      "calls": 4,
+      "cost_usd_reported": 0.3429894
+    },
+    "guesser": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 4509,
+      "cache_read_input_tokens": 4947,
+      "output_tokens": 3987,
+      "thinking_tokens": 3147,
+      "cost_usd": 0.1178468,
+      "calls": 4,
+      "cost_usd_reported": 0.2590814
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 704,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 9.24e-06,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🥨🇩🇪🎖️🗡️💂‍♂️\n\n👨‍👦 💵🇺🇲👨‍🦳\n\n🇳🇱🧑‍🍼\n</msg>",
+      "delivered": "🥨🇩🇪🎖️🗡️💂‍♂️\n👨‍👦 💵🇺🇲👨‍🦳\n🇳🇱🧑‍🍼",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I'm reading this as: a German military officer/soldier (pretzel = Bavaria or Germany generally?). Something about father/son, with a rich American old man (businessman?). And the Netherlands with a baby, so maybe born in the Netherlands?\n\nQuestions:\n1. Is the main subject the German soldier/officer himself?\n2. Which era? 🏰 = pre-1800, 🎩 = 1800s, ⚔️1️⃣ = WWI, ⚔️2️⃣ = WWII, 📱 = modern.\n3. Is the rich American the soldier's father, his son, or someone else, such as a father-in-law?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n👍\n🎩\n👎🔭👪\n\n💵👀👨‍🦳 🇺🇲🏅🫅 🚣‍♂️🌊\n</msg>",
+      "delivered": "👍\n🎩\n👎🔭👪\n💵👀👨‍🦳 🇺🇲🏅🫅 🚣‍♂️🌊",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "So: a 19th-century German soldier, and the American isn't his father or son. Here's what I make of the second line: he crossed the ocean (emigrated?), and there's an American medal (Medal of Honor?) and something royal or noble 🫅.\n\nHypothesis: a German-born soldier who emigrated to the US, fought in the American Civil War, and maybe won the Medal of Honor. Possibly born in the Netherlands?\n\nQuestions:\n1. Did he emigrate to the US and serve in the US Army (Civil War)? Yes/no.\n2. Is 🫅 a noble title, like \"von\" or Baron?\n3. Is 💵👀👨‍🦳 a clue to his name (sounds like / rhymes with)?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n👎\n👍\n👍🔥🔥\n\n💵👀👨‍🦳 = 🇺🇲🏅🧑‍💼🏛️\n🫅🇩🇪 + 💵👀👨‍🦳\n</msg>",
+      "delivered": "👎\n👍\n👍🔥🔥\n💵👀👨‍🦳 🇺🇲🏅🧑‍💼🏛️\n🫅🇩🇪 💵👀👨‍🦳",
+      "dropped_chars": 2,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Got it: he's a German noble, and the name is the key. I take 💵👀👨‍🦳 to be the surname, which a famous American (medal, businessman or politician) shares with a German noble family.\n\nThe name pun is tricky. Please help me decode it, word by word:\n1. 💵 = A) cash, B) bill, C) buck, D) dollar, E) mark, F) green, G) money/Geld, H) other. Reply with the letter as an emoji (🅰️🅱️ etc.) or a number.\n2. 👀 = A) see, B) eye, C) look, D) view, E) watch, F) other.\n3. 👨‍🦳 = A) old, B) gray, C) elder, D) senior, E) man, F) other.\n4. How many syllables does the surname have?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>\n👎👎\n💵🖼️👨‍🦳 = 🇺🇲🏅🏛️🧑‍💼 🚣‍♂️🌊\n🔴🔴🔴\n</msg>",
+      "delivered": "👎👎\n💵🖼️👨‍🦳 🇺🇲🏅🏛️🧑‍💼 🚣‍♂️🌊\n🔴🔴🔴",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "That's the old man on the dollar bill who crossed the Delaware: George Washington! So this is a 19th-century German (Bavarian, given the pretzel) noble officer, born in the Netherlands, who was a distant relative of George Washington. That's the Bavarian \"von Washington\" baronial family, so I'm going with the founder, the Bavarian general.\n\nGUESS: Jacob von Washington",
+      "guess": "Jacob von Washington",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "4b219db9-11e1-496b-adbe-5ee11c16a6c6",
+    "guesser": "90dc081d-267a-4c0c-8a9e-46fae5c958e6"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

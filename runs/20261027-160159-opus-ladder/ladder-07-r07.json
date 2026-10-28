@@ -1,0 +1,113 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Mad River Mountain",
+    "description": "Ski resort in Ohio, United States",
+    "extract": "Mad River Mountain is a ski and snowboard resort in Valley Hi, Ohio, United States. The elevation of Mad River Mountain is 1,460 feet (450 m) with a vertical drop of 300 ft (91 m), and it has a ski season that runs from approximately mid-December through mid-March. The resort, which opened in 1962 as Valley Hi Ski Area, is owned by EPR Properties and operated by Vail Resorts, who bought the resort from Peak Resorts in 2019.",
+    "url": "https://en.wikipedia.org/wiki/Mad_River_Mountain"
+  },
+  "solved": false,
+  "turns_taken": 1,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": true,
+  "max_turns": 30,
+  "seconds": 91.2,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1309,
+      "cache_read_input_tokens": 577,
+      "output_tokens": 4568,
+      "thinking_tokens": 4506,
+      "cost_usd": 0.10195539999999999,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 952,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 2562,
+      "thinking_tokens": 2289,
+      "cost_usd": 0.058864,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 705,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0001432,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "claude-opus-5-5",
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 1309,
+        "cache_read_input_tokens": 577,
+        "output_tokens": 4568,
+        "thinking_tokens": 4506,
+        "cost_usd": 0.10195539999999999,
+        "duration_ms": 58179
+      }
+    ],
+    "guesser": [
+      {
+        "model": "claude-opus-5-5",
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 952,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 2562,
+        "thinking_tokens": 2289,
+        "cost_usd": 0.058864,
+        "duration_ms": 29011
+      }
+    ],
+    "judge": [
+      {
+        "model": "claude-haiku-5-5",
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 705,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 0.0001432,
+        "duration_ms": 1574
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n👺😈\n🫗🚰🐍\n🔼🥾\n🪑↗️ 🥢🤍 🏄🤍\n🦌👁️\n</msg>",
+      "delivered": "👺😈\n🫗🚰🐍\n🔼🥾\n🪑↗️ 🥢🤍 🏄🤍\n🦌👁️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "**What I've got so far:**\n- 👺😈 = a devil, demon or goblin, probably part of the name.\n- 🪑↗️ 🥢🤍 🏄🤍 = chairlift, skiing on snow, snowboarding. So this is a **ski area or resort**.\n- 🔼🥾 = hiking uphill, so maybe a mountain with summer trails.\n- 🫗🚰🐍 = pouring water plus a snake. Is this the **Snake River**, or a spring or spout? Is it the location or part of the name?\n- 🦌👁️ = deer plus eye. Is this an animal in the name, like elk, buck or \"deer view\"?\n\n**Questions:**\n1. Is \"Devil\" in the title?\n2. Is it in the USA? Which state?\n\nGUESS: Devil's Head Resort",
+      "guess": "Devil's Head Resort",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": "6d3c9f80-ad9c-4abb-86b3-dbff1190ffd2",
+    "guesser": "d1c40f6f-5392-4ffa-8a0a-0f745850fb3f"
+  },
+  "ladder": {
+    "article_no": 7,
+    "round": 7,
+    "n_banned": 134,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

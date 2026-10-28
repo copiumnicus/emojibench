@@ -1,0 +1,131 @@
+{
+  "model": "sonnet",
+  "model_id": "claude-sonnet-5-5",
+  "effort": null,
+  "article": {
+    "title": "Mike Pieciak",
+    "description": "American politician (born 1983)",
+    "extract": "Michael Sullivan Pieciak is an American politician from Vermont. A member of the Democratic Party, Pieciak has served as Vermont State Treasurer since January 2023.",
+    "url": "https://en.wikipedia.org/wiki/Mike_Pieciak"
+  },
+  "solved": true,
+  "turns_taken": 7,
+  "solved_turn": 7,
+  "max_turns": 30,
+  "seconds": 72.9,
+  "usage": {
+    "explainer": {
+      "input_tokens": 26,
+      "cache_creation_input_tokens": 2882,
+      "cache_read_input_tokens": 9848,
+      "output_tokens": 412,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0176696,
+      "calls": 7,
+      "cost_usd_reported": 0.0765188
+    },
+    "guesser": {
+      "input_tokens": 26,
+      "cache_creation_input_tokens": 2535,
+      "cache_read_input_tokens": 9725,
+      "output_tokens": 1539,
+      "thinking_tokens": 725,
+      "cost_usd": 0.027527000000000003,
+      "calls": 7,
+      "cost_usd_reported": 0.11404349999999999
+    },
+    "judge": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2102,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 769,
+      "thinking_tokens": 757,
+      "cost_usd": 0.0008055,
+      "calls": 3
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇺🇸🏛️🧑‍💼🌳🍁⛰️💰🏦🔵🐴</msg>",
+      "delivered": "🇺🇸🏛️🧑‍💼🌳🍁⛰️💰🏦🔵🐴",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "I see a US politician or businessperson, plus a bank, mountains, trees and a horse. The maple leaf could point to Canada or to Vermont. Here are my questions:\n\n1. Is this a person?\n2. Is the person a state legislator or a banker?\n3. Is the 🍁 for Vermont, or for Canada?\n4. Is the 🔵 for a political party, such as the Democrats?\n5. Does the 🐴 mean horse breeding or racing, or is it a place name?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👍 👍 🍁👍 🔵👍 🐴👎</msg>",
+      "delivered": "👍 👍 🍁👍 🔵👍 🐴👎",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "So it's a person, probably a Vermont Democrat who was a legislator and a banker. Next questions:\n\n1. Is the person from the 1800s or early 1900s? Send 👴 for old or 🆕 for modern.\n2. Did they serve in the US Congress, as governor, or only in the Vermont state government?\n3. Are they a state treasurer?\n\nHere's a guess in the meantime.\n\nGUESS: Vermont State Treasurer",
+      "guess": "Vermont State Treasurer",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🆕 🏛️👍 💰👍🏦👍 🧑‍💼👍 👶 🎂8️⃣3️⃣</msg>",
+      "delivered": "🏛️👍 💰👍🏦👍 🧑‍💼👍 👶 🎂",
+      "dropped_chars": 5,
+      "retried": false,
+      "guesser": "The bank and the government building are both confirmed. I can't read 👶🎂, though. Do you mean they were born in a particular year, or that they were young when they started?\n\n1. Is this a modern person, born after 1950? Send 👍 or 👎.\n2. Were they in the US Congress, either the House (🏠) or the Senate (🏛️)?\n3. Did they serve as governor?\n4. Can you send their birth decade as numbers, like 1️⃣9️⃣5️⃣0️⃣?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>👍 👎 👎 💰👍 🏛️👍 🔵👍 🍁👍 👶 🎂 8️⃣ 3️⃣</msg>",
+      "delivered": "👍 👎 👎 💰👍 🏛️👍 🔵👍 🍁👍 👶 🎂",
+      "dropped_chars": 4,
+      "retried": false,
+      "guesser": "Here's how I read your answers: the person is modern, not in Congress, a Vermont Democrat, and a banker and legislator. I still need a birth year, so please send it digit by digit with keycap emojis. A few more questions:\n\n1. Were they a state senator or a state representative?\n2. Is 👶🎂 their birth year?\n3. Is there a famous Vermont bank connected to them?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>💰👍 🏛️👍 🍁👍 🔵👍 🧑‍💼👍 🏦👎 🪙🧑‍💼</msg>",
+      "delivered": "💰👍 🏛️👍 🍁👍 🔵👍 🧑‍💼👍 🏦👎 🪙🧑‍💼",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Reading 🪙🧑‍💼 as treasurer, the person isn't a banker but a Democratic Vermont state treasurer. My earlier guess was the office, not a person, so I'll guess a person now.\n\nGUESS: Beth Pearce",
+      "guess": "Beth Pearce",
+      "correct": false
+    },
+    {
+      "turn": 6,
+      "explainer_raw": "Beth Pearce was the previous treasurer. The current one took office in 2023, so I'll point to \"newer\" and \"after\" her.\n\n<msg>👎 ⏩ 🆕 2️⃣0️⃣2️⃣3️⃣ 🪙🧑‍💼 📈 🧑‍💼👍</msg>",
+      "delivered": "👎 ⏩ 🪙🧑‍💼 📈 🧑‍💼👍",
+      "dropped_chars": 9,
+      "retried": false,
+      "guesser": "⏩ looks like \"predecessor\" or \"next\". Beth Pearce's predecessor as treasurer was Jeb Spaulding, so I'm guessing him.\n\nGUESS: Jeb Spaulding",
+      "guess": "Jeb Spaulding",
+      "correct": false
+    },
+    {
+      "turn": 7,
+      "explainer_raw": "<msg>⏩ ⏩ 🪙🧑‍💼 🆕 👍 🔥</msg>",
+      "delivered": "⏩ ⏩ 🪙🧑‍💼 👍 🔥",
+      "dropped_chars": 1,
+      "retried": false,
+      "guesser": "If Spaulding is the reference point, ⏩⏩ means two treasurers later. That is Pearce's successor, Mike Pieciak.\n\nGUESS: Mike Pieciak",
+      "guess": "Mike Pieciak",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "b31e699d-fda5-498b-b9ed-eab15b3783fd",
+    "guesser": "d06b9ad9-f55e-47ae-93de-8121bd39be09"
+  },
+  "ladder": {
+    "article_no": 4,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": "runs/20261027-150551-sonnet/game-04.json"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

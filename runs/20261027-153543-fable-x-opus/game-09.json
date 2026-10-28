@@ -1,0 +1,65 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Jovan Hadži-Vasiljević",
+    "description": "Serbian historian, ethnographer, journalist and writer",
+    "extract": "Jovan Hadži-Vasiljević was a Serbian historian, ethnographer, journalist and writer.",
+    "url": "https://en.wikipedia.org/wiki/Jovan_Had%C5%BEi-Vasiljevi%C4%87"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 34.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1105,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1875,
+      "thinking_tokens": 1783,
+      "cost_usd": 0.11587,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 948,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 488,
+      "thinking_tokens": 366,
+      "cost_usd": 0.017352,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🇷🇸 👨 📜🏛️ 👥🗺️ 📰 ✍️📚\n🇲🇰 🇽🇰 🇦🇱\n🏷️ 🚽 🕋🚶➖🌿👦\n</msg>",
+      "delivered": "🇷🇸 👨 📜🏛️ 👥🗺️ 📰 ✍️📚\n🇲🇰 🇽🇰 🇦🇱\n🏷️ 🚽 🕋🚶➖🌿👦",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Serbian historian, ethnographer, journalist and writer focused on Macedonia, Kosovo and Albania. For the name, I read 🚽 as \"John\" → Jovan, 🕋🚶 as Hajj → Hadži, and 🌿👦 as basil + son → Vasiljević.\n\nGUESS: Jovan Hadži-Vasiljević",
+      "guess": "Jovan Hadži-Vasiljević",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "376d8643-163a-4898-b06d-25da01d681c7",
+    "guesser": "229495c4-9bce-4df9-bbab-1722ea155065"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

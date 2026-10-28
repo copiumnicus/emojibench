@@ -1,0 +1,112 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Philadelphia Commercial Museum",
+    "description": "Former museum in Pennsylvania, USA",
+    "extract": "The Philadelphia Commercial Museum was established in Philadelphia, Pennsylvania in 1895. Its permanent home was a neo-classical building situated at 34th Street and Civic Center Blvd, erected as part of the 1899 National Export Exposition. The museum had business offices at 332 South Fourth Street.",
+    "url": "https://en.wikipedia.org/wiki/Philadelphia_Commercial_Museum"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 170.8,
+  "usage": {
+    "explainer": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 8284,
+      "cache_read_input_tokens": 14745,
+      "output_tokens": 7520,
+      "thinking_tokens": 7120,
+      "cost_usd": 0.222626,
+      "calls": 4,
+      "cost_usd_reported": 0.5926472
+    },
+    "guesser": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 5086,
+      "cache_read_input_tokens": 6935,
+      "output_tokens": 6077,
+      "thinking_tokens": 4963,
+      "cost_usd": 0.165058,
+      "calls": 4,
+      "cost_usd_reported": 0.366798
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 709,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.000144,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🧑‍🤝‍🧑💕 🥯 ⛈️👓 ⚾🏀🏒\n\n🏬💶💷💴📊 🇯🇵🇮🇳🇧🇷🇨🇳🇪🇬 ☕🌾🍌🧶\n\n🤫🚫🤚🎧🖽\n</msg>",
+      "delivered": "🧑‍🤝‍🧑💕 🥯 ⛈️👓 ⚾🏀🏒\n🏬💶💷💴📊 🇯🇵🇮🇳🇧🇷🇨🇳🇪🇬 ☕🌾🍌🧶\n🤫🚫🤚🎧",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Here's how I read it:\n- **Line 1:** friendship/love, bagel, storm + glasses, baseball/basketball/hockey. These look like a list of unrelated topics, maybe songs, episodes or segments.\n- **Line 2:** shop + currencies + chart, which suggests trade, a market or an exchange. Then Japan, India, Brazil, China, Egypt, and coffee, rice/grain, banana, cotton/wool, which look like countries and the commodities they export.\n- **Line 3:** silent, no hands, headphones. Is that a silent disco, hands-free, or a ban on something?\n\nMy hunch is a book, album or video game that covers many topics, or maybe an economics/trade concept. Which category is it? Please send one emoji: 📀 album, 📚 book, 🎮 game, 📺 TV, 🎬 film, 🏛️ concept or organization, 🧑 person, 📍 place.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n🤷 🏬\n\n🥚🥚🥚🐔🏃🙌🎺 🧑‍🤝‍🧑💕 🌭🐄\n\n💶💷💴📊 🇯🇵🇮🇳🇧🇷 ☕🌾🍌🧶 🚫🤚🤫\n</msg>",
+      "delivered": "🤷 🏬\n🥚🥚🥚🐔🏃🙌🎺 🧑‍🤝‍🧑💕 🌭🐄\n💶💷💴📊 🇯🇵🇮🇳🇧🇷 ☕🌾🍌🧶 🚫🤚🤫",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The new message makes me think the dollar is your banned emoji. Euro, pound and yen all appear, but 💵 never does. 🤷🏬 could then be a \"general\" or \"variety\" store. 🧑‍🤝‍🧑💕 could be \"Family\", so I'm thinking of a dollar-store chain.\n\nStill unclear to me:\n- 🥚🥚🥚🐔🏃🙌🎺 (eggs, chicken running, cheering, trumpet)\n- 🌭🐄 (hot dog, cow)\n- 🚫🤚🤫 (no hand, silent). Maybe \"invisible hand\"?\n\nIs the hidden word \"dollar\"? Send ✅ or ❌. If I'm wrong, give me the main category.\n\nGUESS: Family Dollar",
+      "guess": "Family Dollar",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n🚫\n\n🌃 = 🧑‍🤝‍🧑💕  🪶📃🎩  🧓👓⛈️🔌  ⚾🏀🏒🏈\n</msg>",
+      "delivered": "🚫\n🌃 🧑‍🤝‍🧑💕 🪶📃🎩 🧓👓⛈️🔌 ⚾🏀🏒🏈",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Not a dollar store, got it. The new line reads to me like a list of programmes or sections:\n- 🌃 night\n- 🧑‍🤝‍🧑💕 love/friends\n- 🪶📃🎩 writing or opinion\n- 🧓👓⛈️🔌 an older weatherman\n- ⚾🏀🏒🏈 sports\n\nCombined with the business/markets line, world news, commodity prices and the morning rooster, it feels like a **radio or TV station, a channel, or a newspaper** carrying many kinds of content.\n\n- Is it a 📻 radio station, 📺 TV channel, or 📰 newspaper/magazine?\n- Which country is it in? Send a flag.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>\n🚫📻 🚫📺 🚫📰\n\n🇺🇲\n\n🤫🚫🤚🚫📸🎧🚶‍♀️🚶‍♂️ 🪟🗡🛡️🪆🧸💀\n</msg>",
+      "delivered": "🚫📻 🚫📺 🚫📰\n🇺🇲\n🤫🚫🤚🚫📸🎧🚶‍♀️🚶‍♂️ 🪟🛡️🪆🧸💀",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🗡️"
+      ],
+      "retried": false,
+      "guesser": "I think I've decoded the pieces:\n- 🧑‍🤝‍🧑💕 = Brotherly Love, so **Philadelphia**.\n- ⚾🏀🏒🏈 = the Phillies, 76ers, Flyers and Eagles.\n- 🧓👓⛈️🔌 = Ben Franklin. 🪶📃🎩 = the Declaration.\n- 🥚🏃🙌🎺 = Rocky. 🌭🐄 = cheesesteak.\n- 🤫🚫🤚🚫📸🎧🚶 🪟🛡️🪆🧸💀 = **museum** rules and display cases.\n- Currencies, Japan/India/Brazil/China/Egypt, and coffee/grain/banana/cotton = world trade goods.\n\nPut together, that's a Philadelphia museum of world commerce and trade.\n\nGUESS: Philadelphia Commercial Museum",
+      "guess": "Philadelphia Commercial Museum",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "83e70272-4f7d-4940-ad96-d0ebcae9f475",
+    "guesser": "b3979a77-f914-411e-947f-2a16f954634c"
+  },
+  "ladder": {
+    "article_no": 14,
+    "round": 5,
+    "n_banned": 128,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

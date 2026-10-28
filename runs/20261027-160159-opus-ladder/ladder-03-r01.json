@@ -1,0 +1,86 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Baggio–Yoshinari syndrome",
+    "description": "Medical condition",
+    "extract": "Baggio–Yoshinari syndrome (BYS), formerly known as the Brazilian Lyme disease-like illness (BLDLI) and Brazilian Human Borreliosis, is an anthropozoonotic infectious disease of infectious-reactional character transmitted by bites of ticks from Amblyomma, Rhipicephalus and Dermacentor genera, that clinically resembles the Lyme Disease (LD) seen in the northern hemisphere. It is postulated to be caused by mutant Borrelia burgdorferi sensu lato spirochetes that assumed atypical pleomorphic forms and latent behavior in an attempt to adapt to the Brazilian ecosystem, explaining many particularities of the condition relative to the classical Lyme Disease, such as being transmitted by ticks others than those within the Ixodes ricinus complex, the difficulty culturing the etiological agent in traditional medium (BSK-II) and the poor growing of the spirochetes in atypical medium (SP-4), the frequent reactivations due to evading and surviving antibiotic treatment and eliciting low and transient immune response to Borrelia burgdorferi sensu lato antigens because of the hiding from the immune system. The pleomorphic forms are thought to include round bodies resembling Chlamydia, non spiralled spirochete-like forms, blebs and cell wall deficient variants resembling Mycoplasma as seen in dark field microscopy and electron field microscopy searching bacteria in the blood of patients. Spirochete-like structures are seen in around 90% of the patients when analyzing their peripheral blood in dark field microscopy.",
+    "url": "https://en.wikipedia.org/wiki/Baggio%E2%80%93Yoshinari_syndrome"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "max_turns": 30,
+  "seconds": 56.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2992,
+      "cache_read_input_tokens": 1763,
+      "output_tokens": 1594,
+      "thinking_tokens": 1434,
+      "cost_usd": 0.056545200000000004,
+      "calls": 2,
+      "cost_usd_reported": 0.0891046
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2739,
+      "cache_read_input_tokens": 947,
+      "output_tokens": 2198,
+      "thinking_tokens": 1843,
+      "cost_usd": 0.0662748,
+      "calls": 2,
+      "cost_usd_reported": 0.1067494
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 710,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 298,
+      "thinking_tokens": 294,
+      "cost_usd": 0.00029120000000000003,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🪲🦌🔘🤕\n🦜💃🎭☕🌴🌎\n🥅👟🍝 🍣🗾\n</msg>",
+      "delivered": "🪲🦌🔘🤕\n🦜💃🎭☕🌴🌎\n🥅👟🍝 🍣🗾",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "**My read so far:**\n- Line 2 points to **Brazil** (parrot, samba, carnival, coffee, palms). Could it be Colombia instead?\n- Line 3 says **footballer**, who played in **Italy** 🍝 and **Japan** 🗾.\n- Line 1 seems to encode the **name or nickname** (beetle, deer, button, injured). Is it a sound-alike, or an animal nickname?\n\nCan you split line 1 into syllables or name parts? Are they first name / surname, and Portuguese or English sounds? Also, which country exactly: Brazil or Colombia?\n\nLong-shot guess, an \"animal\" nickname:\n\nGUESS: Edmundo Alves de Souza Neto",
+      "guess": "Edmundo Alves de Souza Neto",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n🦜👍\n\n🪲🦷👉😷🌡️💊🏥\n\n🇺🇸🦌🌲🪲🔘🤕 👯 🦜🪲🤕\n\n🍝👤🗣️ 🍣👤🗣️ 👉 📛🏥\n</msg>",
+      "delivered": "🦜👍\n🪲🦷👉😷🌡️💊🏥\n🇺🇸🦌🌲🪲🔘🤕 👯 🦜🪲🤕\n🍝👤🗣️ 🍣👤🗣️ 👉 📛🏥",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Got it! Line 2 is a bug bite causing illness. Line 3 is like US Lyme disease (deer tick), but the Brazilian version. Line 4 is a name made from an Italian surname plus a Japanese surname. That's the Brazilian Lyme-like disease.\n\nGUESS: Baggio–Yoshinari syndrome",
+      "guess": "Baggio–Yoshinari syndrome",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "d3404a00-1b29-4e09-8cb1-543d7b8c55aa",
+    "guesser": "98fef92c-3601-42d3-a374-979dc0feb73c"
+  },
+  "ladder": {
+    "article_no": 3,
+    "round": 1,
+    "n_banned": 18,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

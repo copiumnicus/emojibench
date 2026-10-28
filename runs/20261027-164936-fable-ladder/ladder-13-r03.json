@@ -1,0 +1,76 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Dorothy Cottrell",
+    "description": "Australian writer",
+    "extract": "Ida Dorothy Ottley Cottrell was an Australian writer. Born in Picton, she contracted infantile paralysis as a child and spent the rest of her life in a wheelchair. Cottrell married Walter Mackenzie Cottrell on 23 May 1922. Her first novel, The Singing Gold, was published in 1928. She wrote a story Wilderness Orphan (1936) which was the basis for the feature film Orphan of the Wilderness (1936). She lived for a time in the US and also worked as an artist and cartoonist.",
+    "url": "https://en.wikipedia.org/wiki/Dorothy_Cottrell"
+  },
+  "solved": false,
+  "turns_taken": 1,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": true,
+  "max_turns": 30,
+  "seconds": 101.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1735,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4911,
+      "thinking_tokens": 4842,
+      "cost_usd": 0.28026999999999996,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 982,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1068,
+      "thinking_tokens": 808,
+      "cost_usd": 0.07306,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 705,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0001432,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n💃🪶📙\n🇳🇿⬅️ 🪸🏄🩴\n🩼\n🧙🧹 🟩🏯 🐶🧺🩰\n</msg>",
+      "delivered": "💃🪶📙\n🇳🇿⬅️ 🪸🏄🩴\n🩼\n🧙🧹 🟩🏯 🐶🧺🩰",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Reading you: 🇳🇿⬅️ 🪸🏄🩴 = Australia (west of NZ, reef, surf, thongs) — maybe literally \"Oz\". 🧙🧹 🟩🏯 🐶🧺🩰 = The Wizard of Oz (witch, Emerald City, Toto, ruby slippers). 💃🪶📙 = dancer / writer (quill) / book → a performer-author? 🩼 = crutch/disability/limp?\n\nQuestions: Is the article a PERSON (👤) or a WORK like a book/film/stage show (🎬)? And is 🩼 about an actual injury/disability, or a word-clue (like \"limp\", \"stick\", \"lame\")?\n\nGUESS: The Wizard of Oz (1939 film)",
+      "guess": "The Wizard of Oz (1939 film)",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": "5727dd8c-73f7-4ab1-8f62-802cedf8d54f",
+    "guesser": "bc84097a-005e-49b2-9a67-deade732e377"
+  },
+  "ladder": {
+    "article_no": 13,
+    "round": 3,
+    "n_banned": 94,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

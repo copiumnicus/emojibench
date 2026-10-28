@@ -1,0 +1,261 @@
+{
+  "model": "sonnet",
+  "model_id": "claude-sonnet-5-5",
+  "effort": null,
+  "article": {
+    "title": "UFC BJJ 2",
+    "description": "Martial arts event in 2025",
+    "extract": "UFC BJJ 2: Tackett vs. Canuto was a submission grappling event produced by UFC Brazilian Jiu-Jitsu. The event was held at the UFC Apex in Las Vegas, Nevada, United States, on July 31, 2025 and was streamed live on YouTube.",
+    "url": "https://en.wikipedia.org/wiki/UFC_BJJ_2"
+  },
+  "solved": true,
+  "turns_taken": 20,
+  "solved_turn": 20,
+  "max_turns": 30,
+  "seconds": 240.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 78,
+      "cache_creation_input_tokens": 6867,
+      "cache_read_input_tokens": 67198,
+      "output_tokens": 2360,
+      "thinking_tokens": 741,
+      "cost_usd": 0.0646636,
+      "calls": 20,
+      "cost_usd_reported": 0.5882788999999999
+    },
+    "guesser": {
+      "input_tokens": 78,
+      "cache_creation_input_tokens": 11539,
+      "cache_read_input_tokens": 115933,
+      "output_tokens": 8697,
+      "thinking_tokens": 7389,
+      "cost_usd": 0.1564686,
+      "calls": 20,
+      "cost_usd_reported": 1.5641961000000002
+    },
+    "judge": {
+      "input_tokens": 36,
+      "cache_creation_input_tokens": 12780,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 208,
+      "thinking_tokens": 136,
+      "cost_usd": 0.0026636,
+      "calls": 18
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🥋🤼🇧🇷 🏟️🎰🇺🇸 📺▶️ 🥊🔶⭕</msg>",
+      "delivered": "🥋🤼🇧🇷 🏟️🎰🇺🇸 📺▶️ 🥊🔶⭕",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "I think this is a Brazilian MMA fighter, probably BJJ or judo-based, who fought in the UFC (🔶⭕ for the Octagon) in Las Vegas. The 📺▶️ might mean The Ultimate Fighter. I can't narrow it down further yet.\n\nQuestions:\n1. Is it a person or an event?\n2. Is the fighter male or female?\n3. Is it a TUF winner or contestant?\n4. Which weight class, with 🏋️ and a count of emojis for light, middle or heavy?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🎪📅 👎🧍</msg>",
+      "delivered": "🎪📅 👎🧍",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "GUESS: UFC Fight Night: The Ultimate Fighter: United States vs. Brazil Finale",
+      "guess": "UFC Fight Night: The Ultimate Fighter: United States vs. Brazil Finale",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🥋🤼 🚫🥊 🤝🔒 🦵🌀 📺▶️ 🟥 🏟️🎰 📅2️⃣0️⃣2️⃣5️⃣ ☀️7️⃣</msg>",
+      "delivered": "🥋🤼 🚫🥊 🤝🔒 🦵🌀 📺▶️ 🟥 🏟️🎰 📅 ☀️",
+      "dropped_chars": 10,
+      "retried": false,
+      "guesser": "GUESS: The Ultimate Fighter: Team Lesnar vs. Team dos Santos Finale",
+      "guess": "The Ultimate Fighter: Team Lesnar vs. Team dos Santos Finale",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🥋🤼 🚫🥊 🚫👊 🤝🔒 🎪 🔢2️⃣ 📺▶️ 🟥 🏟️ 📅☀️</msg>",
+      "delivered": "🥋🤼 🚫🥊 🚫👊 🤝🔒 🎪 📺▶️ 🟥 🏟️ 📅☀️",
+      "dropped_chars": 3,
+      "retried": false,
+      "guesser": "Maybe it isn't UFC. It could be a submission-grappling event, such as ADCC, Metamoris, or a BJJ tournament.\n\nQuestions:\n1. Is it a one-off event or a recurring championship, such as the Pan Ams or the World Championship?\n2. Was it a TV broadcast or a streamed card?\n3. Is 🟥 a promotion's color, like Fight to Win or Polaris, or the year?\n\nMy current guess is below.\n\nGUESS: Metamoris 3",
+      "guess": "Metamoris 3",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>🥋🤼 🤝🔒 🎪 👍 🔶⭕ 🏢 🥋🟥 ▶️📺 🔢2️⃣ 🇺🇸🎰 ☀️</msg>",
+      "delivered": "🥋🤼 🤝🔒 🎪 👍 🔶⭕ 🏢 🥋🟥 ▶️📺 🇺🇸🎰 ☀️",
+      "dropped_chars": 3,
+      "retried": false,
+      "guesser": "The octagon makes me think UFC. Is it a numbered UFC event, a Fight Night, or a TUF finale? Please send the number as digit emojis, or the year.\n\nGUESS: UFC 100",
+      "guess": "UFC 100",
+      "correct": false
+    },
+    {
+      "turn": 6,
+      "explainer_raw": "<msg>🔶⭕ 🏢 🥋🤼 🤝🔒 ▶️📺 🎪 🥈 🆕 🚫🥊 🚫👊 🇺🇸🎰 ☀️</msg>",
+      "delivered": "🔶⭕ 🏢 🥋🤼 🤝🔒 ▶️📺 🎪 🥈 🚫🥊 🚫👊 🇺🇸🎰 ☀️",
+      "dropped_chars": 1,
+      "retried": false,
+      "guesser": "Please give me digits in keycap emojis (0️⃣–9️⃣) for the number, or the year. Is 🥈 \"season 2\", \"UFC 2\", or \"second event\"?\n\nGUESS: The Ultimate Fighter: Team Nogueira vs. Team Mir",
+      "guess": "The Ultimate Fighter: Team Nogueira vs. Team Mir",
+      "correct": false
+    },
+    {
+      "turn": 7,
+      "explainer_raw": "<msg>🥈 👍 🎪 🥋🤼 🤝🔒 🔶⭕ 🏢 ▶️📺 🚫🥊 🚫👊</msg>",
+      "delivered": "🥈 👍 🎪 🥋🤼 🤝🔒 🔶⭕ 🏢 ▶️📺 🚫🥊 🚫👊",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "GUESS: The Ultimate Fighter 2 Finale",
+      "guess": "The Ultimate Fighter 2 Finale",
+      "correct": false
+    },
+    {
+      "turn": 8,
+      "explainer_raw": "<msg>🔶⭕ 🏢 🥋🤼 🤝🔒 🚫🥊 🚫👊 ▶️📺 🥈 🎪 🥋 🆕 🏢 🇺🇸🎰 ☀️ 🥇➡️🥈</msg>",
+      "delivered": "🔶⭕ 🏢 🥋🤼 🤝🔒 🚫🥊 🚫👊 ▶️📺 🥈 🎪 🥋 🏢 🇺🇸🎰 ☀️ 🥇➡️🥈",
+      "dropped_chars": 1,
+      "retried": false,
+      "guesser": "GUESS: UFC 2",
+      "guess": "UFC 2",
+      "correct": false
+    },
+    {
+      "turn": 9,
+      "explainer_raw": "<msg>🔶⭕ 🏢 🥋 🤼 🤝🔒 🚫🥊 🚫👊 ▶️📺 🥈 🎪 🇺🇸🎰 ☀️ 🥇➡️🥈 🥋🥋</msg>",
+      "delivered": "🔶⭕ 🏢 🥋 🤼 🤝🔒 🚫🥊 🚫👊 ▶️📺 🥈 🎪 🇺🇸🎰 ☀️ 🥇➡️🥈 🥋🥋",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "GUESS: UFC Ultimate Fight Night 2",
+      "guess": "UFC Ultimate Fight Night 2",
+      "correct": false
+    },
+    {
+      "turn": 10,
+      "explainer_raw": "<msg>🔥 🔶⭕ ➕ 🥋 ➕ 🥈 🤝🔒 🚫🥊 🚫👊 📺▶️</msg>",
+      "delivered": "🔥 🔶⭕ ➕ 🥋 ➕ 🥈 🤝🔒 🚫🥊 🚫👊 📺▶️",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "GUESS: UFC Fight Night: Sanchez vs. Riggs",
+      "guess": "UFC Fight Night: Sanchez vs. Riggs",
+      "correct": false
+    },
+    {
+      "turn": 11,
+      "explainer_raw": "<msg>🔶⭕ 🥋 🥈 🔥🔥 🏷️ 🤼🤝 🥋 🚫🥊 🚫👊 🚫🧍 🎪 📺▶️</msg>",
+      "delivered": "🔶⭕ 🥋 🥈 🔥🔥 🏷️ 🤼🤝 🥋 🚫🥊 🚫👊 🚫🧍 🎪 📺▶️",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "GUESS: UFC Fight Night: Burns vs. Brady",
+      "guess": "UFC Fight Night: Burns vs. Brady",
+      "correct": false
+    },
+    {
+      "turn": 12,
+      "explainer_raw": "<msg>🔶⭕🥋 🥇 ➡️ 🔶⭕🥋 🥈 👈🔥 🤼🤝 🚫🥊 🚫👊 ❌🐟🌙 ❌📺🏟️ ▶️📺</msg>",
+      "delivered": "🔶⭕🥋 🥇 ➡️ 🔶⭕🥋 🥈 👈🔥 🤼🤝 🚫🥊 🚫👊 ❌🐟🌙 ❌📺🏟️ ▶️📺",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Is it a numbered UFC event, and what's the number? Please use keycap digits like 4️⃣8️⃣, and don't worry about extra clues. Is the venue the MGM Grand, Mandalay Bay, or Thomas & Mack?\n\nGUESS: UFC 48",
+      "guess": "UFC 48",
+      "correct": false
+    },
+    {
+      "turn": 13,
+      "explainer_raw": "<msg>👎 🔢🔶⭕ 🔶⭕ ➕ 🥋🤼 🏷️ 🥈 🔥 🏟️ 👎🎰🏨 🏢 ⚪🏟️ ▶️📺</msg>",
+      "delivered": "👎 🔶⭕ 🔶⭕ ➕ 🥋🤼 🏷️ 🥈 🔥 🏟️ 👎🎰🏨 🏢 ⚪🏟️ ▶️📺",
+      "dropped_chars": 1,
+      "retried": false,
+      "guesser": "I think it's a UFC Apex event (the white arena), probably from 2020–2022. Is the title \"UFC on ESPN: X vs. Y\"? For the fighter names, are they Portuguese-sounding? Is 🔥 a fighter's name, like Burns, Hunt, or Blaze? Is 🥈 a name like Silva?\n\nGUESS: UFC on ESPN: Silva vs. Burns",
+      "guess": "UFC on ESPN: Silva vs. Burns",
+      "correct": false
+    },
+    {
+      "turn": 14,
+      "explainer_raw": "<msg>👎 🥊 👎 👊 🥋🤼 🤝🔒 🔶⭕ ➕ 🥋 🥈 🏷️ 👍 ▶️📺 💻 🆓 📅 🆕</msg>",
+      "delivered": "👎 🥊 👎 👊 🥋🤼 🤝🔒 🔶⭕ ➕ 🥋 🥈 🏷️ 👍 ▶️📺 💻 📅",
+      "dropped_chars": 2,
+      "retried": false,
+      "guesser": "Is the title \"UFC on ESPN+ X: Name vs. Name\"? Is 🥋🥈 one fighter's name (a BJJ silver medalist, perhaps Silva), and is 🔥 the opponent? Is the year before or after 2020, and is it a 2020 Apex card? Please tell me the main event's first letter, using 🅰️–style letter emojis.\n\nGUESS: UFC on ESPN: Burns vs. Silva",
+      "guess": "UFC on ESPN: Burns vs. Silva",
+      "correct": false
+    },
+    {
+      "turn": 15,
+      "explainer_raw": "<msg>🔶⭕ 🥋 🥈 ✅ 🏷️ 🔤👎 ➕ 🙅🧍🙅🧍 🏆 🥋🤼 🤝🔒 🌐▶️ 📺👎 📅 👉 🆕 ⬆️</msg>",
+      "delivered": "🔶⭕ 🥋 🥈 ✅ 🏷️ 👎 ➕ 🙅🧍🙅🧍 🏆 🥋🤼 🤝🔒 🌐▶️ 📺👎 📅 👉 ⬆️",
+      "dropped_chars": 2,
+      "retried": false,
+      "guesser": "GUESS: UFC Fight Pass Invitational 2",
+      "guess": "UFC Fight Pass Invitational 2",
+      "correct": false
+    },
+    {
+      "turn": 16,
+      "explainer_raw": "<msg>🔥 ↗️ 🔶⭕ ➕ 🇧🇷🥋 ➕ 🥈 🏷️ 👍 🚫🎟️ 🚫🏆 🚫🧍 ▶️📺</msg>",
+      "delivered": "🔥 ↗️ 🔶⭕ ➕ 🇧🇷🥋 ➕ 🥈 🏷️ 👍 🚫🎟️ 🚫🏆 🚫🧍 ▶️📺",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "GUESS: UFC Fight Pass Invitational 3",
+      "guess": "UFC Fight Pass Invitational 3",
+      "correct": false
+    },
+    {
+      "turn": 17,
+      "explainer_raw": "<msg>🔶⭕ ➕ 🇧🇷 🥋 🤼 ➕ 🥈 🏷️ 🔥 🚫🎟️ 🚫🏆 🚫🧍 🚫📺 ▶️ 🇺🇸🎰 🏟️ 🆕</msg>",
+      "delivered": "🔶⭕ ➕ 🇧🇷 🥋 🤼 ➕ 🥈 🏷️ 🔥 🚫🎟️ 🚫🏆 🚫🧍 🚫📺 ▶️ 🇺🇸🎰 🏟️",
+      "dropped_chars": 1,
+      "retried": false,
+      "guesser": "GUESS: UFC Fight Pass Invitational 1",
+      "guess": "UFC Fight Pass Invitational 1",
+      "correct": false
+    },
+    {
+      "turn": 18,
+      "explainer_raw": "<msg>🔶⭕ ➕ 🐝🪼🪼 ➕ 🥈 🏷️ 🔥 🥋🇧🇷 🤼 🚫🎟️</msg>",
+      "delivered": "🔶⭕ ➕ 🐝🪼🪼 ➕ 🥈 🏷️ 🔥 🥋🇧🇷 🤼 🚫🎟️",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "The 🐝🪼🪼 is \"BJJ\". So is this a UFC event headlined by two BJJ black belts? Is 🥈🏷️🔥 the main event \"X vs. Y\", where 🥈 is the first name (Silva?) and 🔥 the second? Was the event in Las Vegas, and is it a Fight Night?\n\nGUESS: UFC Fight Night: Silva vs. Hunt",
+      "guess": "UFC Fight Night: Silva vs. Hunt",
+      "correct": false
+    },
+    {
+      "turn": 19,
+      "explainer_raw": "<msg>👍 🐝🪼🪼 ✅ 🔶⭕ ➕ 🐝🪼🪼 ➕ 🥈 🔥🔥 🏷️ 🏁 👎 🥊 👎 🎪🥊 🎪 🥋🤼 🔥</msg>",
+      "delivered": "👍 🐝🪼🪼 ✅ 🔶⭕ ➕ 🐝🪼🪼 ➕ 🥈 🔥🔥 🏷️ 🏁 👎 🥊 👎 🎪🥊 🎪 🥋🤼 🔥",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "GUESS: UFC BJJ",
+      "guess": "UFC BJJ",
+      "correct": false
+    },
+    {
+      "turn": 20,
+      "explainer_raw": "<msg>🔥 ↗️ ➕ 🥈 ➡️ 🔶⭕ 🐝🪼🪼 🥈</msg>",
+      "delivered": "🔥 ↗️ ➕ 🥈 ➡️ 🔶⭕ 🐝🪼🪼 🥈",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "GUESS: UFC BJJ 2",
+      "guess": "UFC BJJ 2",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "853b09d7-4cff-4587-8971-ea64df772d67",
+    "guesser": "dda11e49-0696-4aaa-bafd-1aec32c63e86"
+  },
+  "ladder": {
+    "article_no": 5,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": "runs/20261027-150551-sonnet/game-05.json"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

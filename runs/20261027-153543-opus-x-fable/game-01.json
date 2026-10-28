@@ -1,0 +1,77 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Proceratium silaceum",
+    "description": "Species of ant",
+    "extract": "Proceratium silaceum is a species of ant in the family Formicidae.",
+    "url": "https://en.wikipedia.org/wiki/Proceratium_silaceum"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 34.1,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1477,
+      "cache_read_input_tokens": 1049,
+      "output_tokens": 494,
+      "thinking_tokens": 252,
+      "cost_usd": 0.022139600000000002,
+      "calls": 2,
+      "cost_usd_reported": 0.034749800000000004
+    },
+    "guesser": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 1531,
+      "cache_read_input_tokens": 925,
+      "output_tokens": 1256,
+      "thinking_tokens": 861,
+      "cost_usd": 0.09438500000000001,
+      "calls": 2,
+      "cost_usd_reported": 0.13536125
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 695,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0001412,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Start with the basics: it's an ant species. Proceratium are cryptic ants that eat spider eggs, and this one lives in eastern North America.\n\n<msg>🐜 🔬 🏷️\n🕷️🥚➡️🍽️\n🇺🇸</msg>",
+      "delivered": "🐜 🔬 🏷️\n🕷️🥚➡️🍽️\n🇺🇸",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "So far I understand: an insect species (scientific/taxonomic article), whose larvae eat spider eggs (a parasitoid/predator of spider egg sacs), found in the United States.\n\nQuestions:\n1. Is it a wasp (🐝)? A fly (🪰)? Or a mantidfly / lacewing (🦗)?\n2. Is the article about a species, or a genus/family?\n3. Is it restricted to a particular region of the US (west coast, east, south)?\n\nGUESS: Mantispidae",
+      "guess": "Mantispidae",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "The guesser missed the ant emoji, so I'll repeat it with a ✅ and answer the questions directly: not a wasp or fly, one single species, eastern US.\n\n<msg>🐜🐜🐜 ✅\n🐝👎 🪰👎 🦗👎\n1️⃣🐜 👍\n🇺🇸➡️ 👍\n🍂🕳️🐜 🕷️🥚😋 🟤🟡</msg>",
+      "delivered": "🐜🐜🐜 ✅\n🐝👎 🪰👎 🦗👎\n🐜 👍\n🇺🇸➡️ 👍\n🍂🕳️🐜 🕷️🥚😋 🟤🟡",
+      "dropped_chars": 2,
+      "retried": false,
+      "guesser": "Got it — an ant! An ant species that eats spider eggs, nesting in leaf litter/soil, brown-yellow colored, in the (eastern?) US. That strongly suggests the subfamily Proceratiinae — genus Proceratium or Discothyrea.\n\nQuestions:\n1. Does the genus name start with P (🅿️) or D? \n2. If Proceratium: silaceum, croceum, or pergandei? (Explainer could hint: croceum = saffron/yellow 🟡, silaceum = ochre 🟤, pergandei = named after a person 👤)\n3. Is it eastern US only (➡️ = east)?\n\nGUESS: Proceratium silaceum",
+      "guess": "Proceratium silaceum",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "293811c7-875b-4ef0-8065-a5c17b5f11d1",
+    "guesser": "f5cc89a5-1320-4c35-be88-51e0e30754f9"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

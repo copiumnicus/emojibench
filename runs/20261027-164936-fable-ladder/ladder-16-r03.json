@@ -1,0 +1,75 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Grande Seca",
+    "description": "Brazilian drought (1877–1878)",
+    "extract": "The Grande Seca, or the Brazilian drought of 1877–1878, was the largest and most devastating drought in Brazilian history. It caused the deaths of between 400,000 and 500,000 people. Of the 800,000 people who lived in the affected Northeastern region, around 120,000 migrated to the Amazon while 68,000 migrated to other parts of Brazil.",
+    "url": "https://en.wikipedia.org/wiki/Grande_Seca"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 86.5,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1113,
+      "cache_read_input_tokens": 577,
+      "output_tokens": 2688,
+      "thinking_tokens": 2555,
+      "cost_usd": 0.15682425,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 2158,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 2831,
+      "thinking_tokens": 2605,
+      "cost_usd": 0.12512500000000001,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🇦🇴🇲🇿🇨🇻 🎉🎭🥁 🦥🐆\n\n🌅🔆🔆🔆 💦👎 🟫🟫🟫 🍂🐪\n\n😢 👥👥👥 🕊️🕊️🕊️\n\n👥👥 ⏩ 🦥🐆🏞️\n\n📷⌛\n</msg>",
+      "delivered": "🇦🇴🇲🇿🇨🇻 🎉🎭🥁 🦥🐆\n🌅🔆🔆🔆 💦👎 🟫🟫🟫 🍂🐪\n😢 👥👥👥 🕊️🕊️🕊️\n👥👥 ⏩ 🦥🐆🏞️\n📷⌛",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Reading you: Portuguese-speaking (flags as a stand-in — maybe the real flag is banned, so possibly **Brazil**), carnival/music/theatre culture, sloth + jaguar = Amazon/Neotropical fauna. Then: blazing sun, no water, brown barren land, dry scrub — a **drought**. Sad masses + birds (vultures?) = famine deaths. Survivors migrate toward the rainforest. And it was documented in early photography / long ago.\n\nThat reads to me like the Great Drought of 1877–78 in the Brazilian sertão, with refugees fleeing to the Amazon rubber boom.\n\nGUESS: Grande Seca",
+      "guess": "Grande Seca",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "76cd1b5a-f214-4f02-95a6-1fd3d267912f",
+    "guesser": "b42859b2-799e-4fd7-8699-1c8472b9a0a1"
+  },
+  "ladder": {
+    "article_no": 16,
+    "round": 3,
+    "n_banned": 89,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

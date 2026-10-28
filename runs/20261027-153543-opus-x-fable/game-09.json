@@ -1,0 +1,77 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Jovan Hadži-Vasiljević",
+    "description": "Serbian historian, ethnographer, journalist and writer",
+    "extract": "Jovan Hadži-Vasiljević was a Serbian historian, ethnographer, journalist and writer.",
+    "url": "https://en.wikipedia.org/wiki/Jovan_Had%C5%BEi-Vasiljevi%C4%87"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 49.8,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1782,
+      "cache_read_input_tokens": 1082,
+      "output_tokens": 914,
+      "thinking_tokens": 655,
+      "cost_usd": 0.0329928,
+      "calls": 2,
+      "cost_usd_reported": 0.049940399999999996
+    },
+    "guesser": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 2293,
+      "cache_read_input_tokens": 974,
+      "output_tokens": 2116,
+      "thinking_tokens": 1782,
+      "cost_usd": 0.152674,
+      "calls": 2,
+      "cost_usd_reported": 0.2276435
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 719,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 9.39e-06,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇷🇸 👨 ⚰️\n📜🏛️ 📰 ✍️ 👥🧑‍🌾🗺️\n🕰️ 🎩👴 ➡️ 💥🔫 ➡️ ✈️💣</msg>",
+      "delivered": "🇷🇸 👨 ⚰️\n📜🏛️ 📰 ✍️ 👥🧑‍🌾🗺️\n🕰️ 🎩👴 ➡️ 💥🔫 ➡️ ✈️💣",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "So far I understand: a Serbian man, deceased. He seems to have been a historian/politician (📜🏛️), journalist (📰), writer (✍️), and maybe studied people/peasants/geography (ethnographer or agrarian politician?). He lived from the old Kingdom era, through WWI, into WWII (bombing).\n\nQuestions:\n1. Was he a politician (🏛️ = parliament/government)? Or 📜🏛️ = historian?\n2. Did he die during WWII (in a bombing / plane)?\n3. Is 👥🧑‍🌾 about peasants — an agrarian/peasant party, or ethnography of village people?\n\nGUESS: Vladimir Ćorović",
+      "guess": "Vladimir Ćorović",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>1️⃣ 🏛️👎 📜👍\n2️⃣ ✈️💣👎 ⚰️ ➡️ ☮️\n3️⃣ 👍 👥🧑‍🌾📖\n\n🏷️:\n👶✝️💧 = 👨‍🦳🐑🧔 (✝️ 📖)\n🧎‍♂️🚶‍♂️➡️ ✝️🏙️🇮🇱 — \n👑🌿</msg>",
+      "delivered": "🏛️👎 📜👍\n✈️💣👎 ⚰️ ➡️ ☮️\n👍 👥🧑‍🌾📖\n🏷️\n👶✝️💧 👨‍🦳🐑🧔 ✝️ 📖\n🧎‍♂️🚶‍♂️➡️ ✝️🏙️🇮🇱\n👑🌿",
+      "dropped_chars": 11,
+      "retried": false,
+      "guesser": "Got it — not a politician, a historian and ethnographer who died after WWII. The name clue: baptism → John (Jovan); pilgrim walking to Jerusalem → \"Hadži\"; crown + herb = Basil → Vasiljević.\n\nGUESS: Jovan Hadži-Vasiljević",
+      "guess": "Jovan Hadži-Vasiljević",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "723aea6b-1eb9-4bcf-9b74-f511abbd3267",
+    "guesser": "c7f994e8-1e96-43fd-920e-de738203b648"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

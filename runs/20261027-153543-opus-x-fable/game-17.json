@@ -1,0 +1,77 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "7's Football League",
+    "description": "Football league",
+    "extract": "The 7's Football League is a seven-a-side football league in the Philippines. Established in 2018, the league already had four seasons. It has a two-tiered men's division, a women's division, and youth divisions. The league is an open tournament with participation from representative sides of the domestic football competition, the Philippines Football League.",
+    "url": "https://en.wikipedia.org/wiki/7's_Football_League"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 42.5,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1591,
+      "cache_read_input_tokens": 1118,
+      "output_tokens": 564,
+      "thinking_tokens": 237,
+      "cost_usd": 0.0244792,
+      "calls": 2,
+      "cost_usd_reported": 0.0392076
+    },
+    "guesser": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 1644,
+      "cache_read_input_tokens": 962,
+      "output_tokens": 725,
+      "thinking_tokens": 531,
+      "cost_usd": 0.070132,
+      "calls": 2,
+      "cost_usd_reported": 0.1122205
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 691,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 9.11e-06,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Seven players per side plus the Philippine flag should point toward a seven-a-side football league in the Philippines.\n\n<msg>🇵🇭 ⚽\n🏃🏃🏃🏃🏃🏃🏃 ⚔️ 🏃🏃🏃🏃🏃🏃🏃\n🏆📅🔁</msg>",
+      "delivered": "🇵🇭 ⚽\n🏃🏃🏃🏃🏃🏃🏃 ⚔️ 🏃🏃🏃🏃🏃🏃🏃\n🏆📅🔁",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Philippines + football + two teams facing off + annual trophy — sounds like a Filipino football competition. \n\nQuestions: Is it a league (season-long) or a knockout cup? Is the article about a specific season/year (e.g. \"2018 ...\")? Men's or women's? Does the \"7 vs 7\" mean anything special (7-a-side), or just two teams?\n\nGUESS: Philippines Football League",
+      "guess": "Philippines Football League",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "The guesser was close, so I'll confirm it's a league, say it isn't one specific season, show men, women and kids, and stress that the seven per side matters.\n\n<msg>🏆 = 📊📅 👍\n🔪🏆 👎\n📅❓ 👎\n👨 👩 🧒 👍👍👍\n🏃🏃🏃🏃🏃🏃🏃 ⚽ = ❗❗❗🔥🔥🔥 👍👍👍\n🇵🇭⚽🏆 ➡️ 🏃🏃🏃🏃🏃🏃🏃 ⚽🏆</msg>",
+      "delivered": "🏆 📊📅 👍\n🔪🏆 👎\n📅❓ 👎\n👨 👩 🧒 👍👍👍\n🏃🏃🏃🏃🏃🏃🏃 ⚽ ❗❗❗🔥🔥🔥 👍👍👍\n🇵🇭⚽🏆 ➡️ 🏃🏃🏃🏃🏃🏃🏃 ⚽🏆",
+      "dropped_chars": 2,
+      "retried": false,
+      "guesser": "A seven-a-side football league in the Philippines, with men's, women's and youth divisions — that sounds like the one founded by Anton del Rosario.\n\nGUESS: 7's Football League",
+      "guess": "7's Football League",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "4874b30e-7392-45c1-9d35-aaf054e4da14",
+    "guesser": "ab06387d-c1bb-498b-b0d4-ba165bc4008b"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

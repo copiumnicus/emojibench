@@ -1,0 +1,90 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Ayribobo",
+    "description": "Highest mountain of Turkmenistan",
+    "extract": "Ayribobo or Aýrybaba, officially named the Great Saparmyrat Turkmenbashi Peak in Turkmenistan since 2004, is a mountain in Central Asia. At 3,138 metres (10,295 ft) Aýrybaba is the highest mountain in Turkmenistan. It is located in the Köýtendag Range of the Pamir-Alay chain in the southeast of Turkmenistan on the Uzbekistani border.",
+    "url": "https://en.wikipedia.org/wiki/Ayribobo"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 62.3,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2764,
+      "cache_read_input_tokens": 2128,
+      "output_tokens": 2075,
+      "thinking_tokens": 1916,
+      "cost_usd": 0.0644872,
+      "calls": 2,
+      "cost_usd_reported": 0.10145699999999999
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2213,
+      "cache_read_input_tokens": 949,
+      "output_tokens": 1883,
+      "thinking_tokens": 1470,
+      "cost_usd": 0.0557676,
+      "calls": 2,
+      "cost_usd_reported": 0.08611780000000001
+    },
+    "judge": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 702,
+      "cache_read_input_tokens": 702,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00015182000000000002,
+      "calls": 2
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n💚☪️🖐️🌟 🚪😈🕯️\n\n🐐🚵🏞️ 🪜☝️☝️☝️\n</msg>",
+      "delivered": "💚☪️🖐️🌟 🚪😈🕯️\n🐐🚵🏞️ 🪜☝️☝️☝️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I read 💚☪️🌟 as **Pakistan** (flag), and possibly 🖐️ = five → **Punjab**? 🐐🚵🏞️ suggests **mountains/valley**, maybe a pass or a hill area. 🚪 might be a **door/gate/pass**, or a name sounding like \"Dir\"/\"Bab\". 😈🕯️ isn't clear to me yet: devil + candle? 🪜☝️☝️☝️ could be climbing, or the number 111?\n\nQuestions:\n1. Is it in Pakistan? Is it a place, like a village or valley?\n2. Is 🖐️ = \"five\" (Punjab) or something else?\n3. Is 🚪😈🕯️ a sound-alike for the name? Please break it into syllables if you can.\n\nGUESS: Babusar Pass",
+      "guess": "Babusar Pass",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n🇵🇰⛔ 🙅\n\n💚☪️🌟🌟🌟🌟🌟 🧵🧵\n🚪😈💨🕯️🕯️ 🏜🙅\n\n🐐🚵 = 👌 ☝️ 🔝\n</msg>",
+      "delivered": "🇵🇰⛔ 🙅\n💚☪️🌟🌟🌟🌟🌟 🧵🧵\n🚪😈💨🕯️🕯️ 🙅\n🐐🚵 👌 ☝️",
+      "dropped_chars": 3,
+      "off_keyboard": [
+        "🏜️"
+      ],
+      "retried": false,
+      "guesser": "Got it: not Pakistan. Green flag + crescent + five stars + carpet 🧵 = **Turkmenistan**. 🚪😈🕯️ is the **Door to Hell** (Darvaza crater), and you're saying the article is not that. So it's a **mountain**, and ☝️ with the ladder suggests the **highest point** of Turkmenistan.\n\nGUESS: Aýrybaba",
+      "guess": "Aýrybaba",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "e410bd04-8394-4bdc-a40f-caa4da959130",
+    "guesser": "562d4b83-86a8-4de0-aa5b-faf6f0c14fe8"
+  },
+  "ladder": {
+    "article_no": 11,
+    "round": 5,
+    "n_banned": 60,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

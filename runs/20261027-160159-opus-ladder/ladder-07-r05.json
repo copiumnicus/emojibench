@@ -1,0 +1,88 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Mad River Mountain",
+    "description": "Ski resort in Ohio, United States",
+    "extract": "Mad River Mountain is a ski and snowboard resort in Valley Hi, Ohio, United States. The elevation of Mad River Mountain is 1,460 feet (450 m) with a vertical drop of 300 ft (91 m), and it has a ski season that runs from approximately mid-December through mid-March. The resort, which opened in 1962 as Valley Hi Ski Area, is owned by EPR Properties and operated by Vail Resorts, who bought the resort from Peak Resorts in 2019.",
+    "url": "https://en.wikipedia.org/wiki/Mad_River_Mountain"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 78.2,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 3483,
+      "cache_read_input_tokens": 3270,
+      "output_tokens": 3763,
+      "thinking_tokens": 3623,
+      "cost_usd": 0.10445600000000001,
+      "calls": 2,
+      "cost_usd_reported": 0.16939699999999996
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1676,
+      "cache_read_input_tokens": 948,
+      "output_tokens": 1569,
+      "thinking_tokens": 1213,
+      "cost_usd": 0.0451912,
+      "calls": 2,
+      "cost_usd_reported": 0.06493360000000001
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 705,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0001432,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🎩🫖🐇\n🦫🪵💦🐊\n🏕️📈\n🛹🌲🥌 🎢🛩️\n</msg>",
+      "delivered": "🎩🫖🐇\n🦫🪵💦🐊\n🏕️📈\n🛹🌲🥌 🎢🛩️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "**My reading:** 🎩🫖🐇 suggests Alice in Wonderland, so \"Wonderland\". 🦫 suggests Canada, and 🪵💦 looks like a log flume. 🎢 points to an amusement park. Together that reads as Canada's Wonderland. The 🏕️📈 and 🛹🌲🥌🛩️ might point to a specific ride or attraction inside the park instead.\n\nIs the article the park itself, or a particular ride or area in it?\n\nGUESS: Canada's Wonderland",
+      "guess": "Canada's Wonderland",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n❌🇨🇦 ❌🎢\n🫖🎩 🐄😵‍💫 🚗🔥🏜️\n🦛🐊💦🚢\n🏕️📈🧗‍♂️\n</msg>",
+      "delivered": "❌🇨🇦 ❌🎢\n🫖🎩 🐄😵‍💫 🚗🔥🏜️\n🦛🐊💦🚢\n🏕️📈🧗‍♂️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The pattern I see: 🎩🫖, 🐄😵‍💫 and 🚗🔥🏜️ are the Mad Hatter, mad cow and Mad Max, so the word is **\"Mad\"**. 🦛🐊💦🚢 (and 🦫🪵💦🐊 before it) means **\"River\"**. 🏕️📈🧗 means **\"Mountain\"**. 🛹🌲🥌 looks like snowboarding or skiing, so it's a ski area.\n\nGUESS: Mad River Mountain",
+      "guess": "Mad River Mountain",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "2b2971b8-5cf4-49b1-9941-a006d999ef12",
+    "guesser": "242ee802-d396-459f-a54e-15c56f6499ec"
+  },
+  "ladder": {
+    "article_no": 7,
+    "round": 5,
+    "n_banned": 78,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

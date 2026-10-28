@@ -1,0 +1,121 @@
+{
+  "model": "sonnet",
+  "model_id": "claude-sonnet-5-5",
+  "effort": null,
+  "article": {
+    "title": "Iron(III) sulfate",
+    "description": "Chemical compound",
+    "extract": "Iron(III) sulfate or ferric sulfate is a family of inorganic compounds with the formula Fe2(SO4)3(H2O)n. A variety of hydrates are known, including the most commonly encountered form of \"ferric sulfate\". Solutions are used in dyeing as a mordant and as a coagulant for industrial wastes. Solutions of ferric sulfate are also used in the processing of aluminum and steel.",
+    "url": "https://en.wikipedia.org/wiki/Iron(III)_sulfate"
+  },
+  "solved": true,
+  "turns_taken": 6,
+  "solved_turn": 6,
+  "max_turns": 30,
+  "seconds": 80.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 22,
+      "cache_creation_input_tokens": 1599,
+      "cache_read_input_tokens": 8879,
+      "output_tokens": 674,
+      "thinking_tokens": 311,
+      "cost_usd": 0.014955799999999998,
+      "calls": 6,
+      "cost_usd_reported": 0.0427986
+    },
+    "guesser": {
+      "input_tokens": 22,
+      "cache_creation_input_tokens": 3032,
+      "cache_read_input_tokens": 8656,
+      "output_tokens": 1856,
+      "thinking_tokens": 1387,
+      "cost_usd": 0.0324632,
+      "calls": 6,
+      "cost_usd_reported": 0.117108
+    },
+    "judge": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 2801,
+      "cache_read_input_tokens": 701,
+      "output_tokens": 20,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00057821,
+      "calls": 5
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🧪⚗️🔩🔴🟤🧱☁️🔥🧂🍋</msg>",
+      "delivered": "🧪⚗️🔩🔴🟤🧱☁️🔥🧂🍋",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "My read so far: a chemistry topic involving a metal (the bolt), red-brown color, bricks, smoke/fire, salt, and an acid (the lemon). It could be rust or iron oxide. Is it a chemical compound or mineral rather than a place or person?\n\nGUESS: Iron(III) oxide",
+      "guess": "Iron(III) oxide",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👍 ⚗️🔩☝️ 🟤 🍋🧂 🎨👖 🏭🚰 ➖🧱</msg>",
+      "delivered": "👍 ⚗️🔩☝️ 🟤 🍋🧂 🎨👖 🏭🚰 ➖🧱",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Updated read: the one-metal compound is brown, used for paint or dye (the jeans), in industry and water treatment, and it isn't the brick-like oxide. That fits ferric chloride.\n\nGUESS: Iron(III) chloride",
+      "guess": "Iron(III) chloride",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>👎 🧂 ➡️ 🍋🔥💛 ☁️🔥 ➕ 🔩 ✖️ 2️⃣ 🔩🧪 ✖️ 3️⃣</msg>",
+      "delivered": "👎 🧂 ➡️ 🍋🔥💛 ☁️🔥 ➕ 🔩 ✖️ 🔩🧪 ✖️",
+      "dropped_chars": 4,
+      "retried": false,
+      "guesser": "Updated read: it isn't a salt or a metal, but it may be made from salt or brine. It is a red-brown fuming substance, and it's used in water treatment and industry. That fits bromine.\n\nGUESS: Bromine",
+      "guess": "Bromine",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🔩 ➕ 🌋💛 ➕ 💨 🧪 🎨👖 🚰🏭</msg>",
+      "delivered": "🔩 ➕ 🌋💛 ➕ 💨 🧪 🎨👖 🚰🏭",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Updated read: iron plus sulfur (the volcano) plus oxygen (the gas) makes an iron sulfate. That fits the dye, water treatment and industrial uses.\n\nGUESS: Iron(II) sulfate",
+      "guess": "Iron(II) sulfate",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>🔥 ⬆️ 🟤 🔩 🔴🔴🔴 🔄 👆</msg>",
+      "delivered": "🔥 ⬆️ 🟤 🔩 🔴🔴🔴 🔄 👆",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Updated read: heating a brown iron compound turns it red, which suggests the red-brown pigment ore. I'll guess the iron oxide-hydroxide.\n\nGUESS: Iron(III) oxide-hydroxide",
+      "guess": "Iron(III) oxide-hydroxide",
+      "correct": false
+    },
+    {
+      "turn": 6,
+      "explainer_raw": "<msg>🔥 🔩 3️⃣ ➕ 🌋💛💨 🧪 🔩🔩🔩 🔥⬆️ 👍 ⚗️ ☝️ ✅ 🟤🔩🌋💛💨</msg>",
+      "delivered": "🔥 🔩 ➕ 🌋💛💨 🧪 🔩🔩🔩 🔥⬆️ 👍 ⚗️ ☝️ ✅ 🟤🔩🌋💛💨",
+      "dropped_chars": 2,
+      "retried": false,
+      "guesser": "Updated read: the brown iron-sulfur-oxygen compound is the ferric (3+) one, so iron(III) sulfate.\n\nGUESS: Iron(III) sulfate",
+      "guess": "Iron(III) sulfate",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "ad74c607-9a27-43f2-8b81-4e8112dd05f8",
+    "guesser": "7bf4eee8-b6cb-4197-967b-ffec66ea8789"
+  },
+  "ladder": {
+    "article_no": 2,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": "runs/20261027-150412-sonnet/game-02.json"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

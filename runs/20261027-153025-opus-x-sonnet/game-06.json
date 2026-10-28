@@ -1,0 +1,97 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "sonnet",
+  "guesser_model_id": "claude-sonnet-5-5",
+  "effort": null,
+  "article": {
+    "title": "Jakob von Washington",
+    "description": "Bavarian general (1778–1848)",
+    "extract": "\nBaron Jacobus von Washington was a lieutenant general in the Bavarian Army and a distant relative of US President George Washington. Born in The Hague, Netherlands, he was christened James Washington. Most of his adult life was shaped by his participation in wars for and against Napoleonic France and his service to Ludwig I of Bavaria.",
+    "url": "https://en.wikipedia.org/wiki/Jakob_von_Washington"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 74.4,
+  "usage": {
+    "explainer": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 3109,
+      "cache_read_input_tokens": 5820,
+      "output_tokens": 1584,
+      "thinking_tokens": 1114,
+      "cost_usd": 0.058936,
+      "calls": 4,
+      "cost_usd_reported": 0.16053520000000002
+    },
+    "guesser": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 2700,
+      "cache_read_input_tokens": 4607,
+      "output_tokens": 1593,
+      "thinking_tokens": 1374,
+      "cost_usd": 0.0276794,
+      "calls": 4,
+      "cost_usd_reported": 0.0717889
+    },
+    "judge": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 703,
+      "cache_read_input_tokens": 703,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00015203,
+      "calls": 2
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n👤 🎖️⚔️\n\n🪓🍒💵🇺🇸👨‍🦳 ➡️ 👨‍👩‍👧‍👦🧬 ➡️ 👤\n\n👶🇳🇱 ➡️ 🥨🍺🏰🇩🇪 🎖️\n\n⚔️🇫🇷👑🤏 (Napoleon)\n</msg>",
+      "delivered": "👤 🎖️⚔️\n🪓🍒💵🇺🇸👨‍🦳 ➡️ 👨‍👩‍👧‍👦🧬 ➡️ 👤\n👶🇳🇱 ➡️ 🥨🍺🏰🇩🇪 🎖️\n⚔️🇫🇷👑🤏",
+      "dropped_chars": 10,
+      "retried": false,
+      "guesser": "I read this as a person related to George Washington's family, born in the Netherlands, who became a German military officer and then fought for France under a \"small\" king (perhaps Pepin the Short, or a king who was short?).\n\nQuestions:\n1. Is the person from the 18th or 19th century?\n2. Is \"🤏\" about a nickname like \"the Short\" or \"the Small\", or does it mean a minor role?\n\nI don't have a confident guess yet.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n👍\n\n🤏👑🇫🇷 = 🇫🇷🦅👑🏝️⛓️ 👍 ⚔️🤝 ↔️ ⚔️💥\n\n🏷️👤 = 🏷️🪓🍒💵🇺🇸 👍👍\n\n🥨🍺🏰🇩🇪 = 🏔️🍺🥨🤍💙🦁\n</msg>",
+      "delivered": "👍\n🤏👑🇫🇷 🇫🇷🦅👑🏝️⛓️ 👍 ⚔️🤝 ↔️ ⚔️💥\n🏷️👤 🏷️🪓🍒💵🇺🇸 👍👍\n🥨🍺🏰🇩🇪 🏔️🍺🥨🤍💙🦁",
+      "dropped_chars": 3,
+      "retried": false,
+      "guesser": "Reading this: a Bavarian officer who fought alongside and then against Napoleon, with the name \"Washington\".\n\nGUESS: Karl von Washington",
+      "guess": "Karl von Washington",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n🏷️ ❌ ➡️ 🪜👼☁️ (👴📜 🐑👨‍👦‍👦 ×🔟➕🔟) \n\n🏷️ ✅ ➡️ 🔤 ... 👍 🪓🍒💵 👍\n</msg>",
+      "delivered": "🏷️ ❌ ➡️ 🪜👼☁️ 👴📜 🐑👨‍👦‍👦 ➕\n🏷️ ✅ ➡️ 👍 🪓🍒💵 👍",
+      "dropped_chars": 9,
+      "retried": false,
+      "guesser": "GUESS: Georg von Washington",
+      "guess": "Georg von Washington",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>\n🏷️🥇 ❌🪓🍒 ❌\n\n🏷️🥇 = 📖👴 👬🍲🫘 🪜👼⬆️☁️ ➡️ 🇮🇱\n</msg>",
+      "delivered": "🏷️🥇 ❌🪓🍒 ❌\n🏷️🥇 📖👴 👬🍲🫘 🪜👼⬆️☁️ ➡️ 🇮🇱",
+      "dropped_chars": 1,
+      "retried": false,
+      "guesser": "GUESS: Jakob von Washington",
+      "guess": "Jakob von Washington",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "8afd21cd-074c-4918-b660-94b85324bd76",
+    "guesser": "3d139dea-a98f-44ce-adf5-be979a8b1ab8"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

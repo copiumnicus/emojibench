@@ -1,0 +1,87 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Proceratium silaceum",
+    "description": "Species of ant",
+    "extract": "Proceratium silaceum is a species of ant in the family Formicidae.",
+    "url": "https://en.wikipedia.org/wiki/Proceratium_silaceum"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 91.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 3168,
+      "cache_read_input_tokens": 3592,
+      "output_tokens": 2278,
+      "thinking_tokens": 2110,
+      "cost_usd": 0.18091200000000002,
+      "calls": 3,
+      "cost_usd_reported": 0.39338475000000006
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2782,
+      "cache_read_input_tokens": 2703,
+      "output_tokens": 3119,
+      "thinking_tokens": 2615,
+      "cost_usd": 0.21435300000000002,
+      "calls": 3,
+      "cost_usd_reported": 0.38472625
+    },
+    "judge": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 698,
+      "cache_read_input_tokens": 697,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00015097,
+      "calls": 2
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🐜 🕷️🥚🍴 🪝 🇺🇸🌳 🟠🟡</msg>",
+      "delivered": "🐜 🕷️🥚🍴 🪝 🇺🇸🌳 🟠🟡",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Reading your clues: an insect (🐜) whose larvae eat spider eggs (🕷️🥚🍴), with a hook/claw (🪝 — raptorial forelegs?), found in US forests, colored orange/yellow. That sounds like a mantidfly (Mantispidae) — maybe the wasp mantidfly.\n\nQuestions: Is it a mantidfly? 👍/👎 If not, is it a wasp? Is 🪝 part of the name?\n\nGUESS: Climaciella brunnea",
+      "guess": "Climaciella brunnea",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👎 👎 👎\n🐜🐜🐜🐜🐜\n🐜🍑↩️\n🐜🔬🪵🌱\n🕷️🥚🍴</msg>",
+      "delivered": "👎 👎 👎\n🐜🐜🐜🐜🐜\n🐜🍑↩️\n🐜🔬🪵🌱\n🕷️🥚🍴",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Got it — an ant. Colony (🐜🐜🐜🐜🐜), with its gaster curled forward/under (🐜🍑↩️), tiny, lives in rotten wood/leaf litter, and specializes in eating spider eggs. That's the genus Proceratium — and orange/yellow suggests \"croceum\" (saffron).\n\nIf wrong: is it Proceratium at all? Or Discothyrea?\n\nGUESS: Proceratium croceum",
+      "guess": "Proceratium croceum",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>👍🐜 👎\n🇺🇸⬅️🌳🌳🌳\n🎨🟡🟤\n🥈✂️</msg>",
+      "delivered": "👍🐜 👎\n🇺🇸⬅️🌳🌳🌳\n🎨🟡🟤\n🥈✂️",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Trying to parse: yellow-brown color (🎨🟡🟤) + 🥈✂️ — \"sil(ver)\"... ochre-colored = \"silaceum\"? But 🇺🇸⬅️ suggests western US, which would point to Proceratium californicum.\n\nPlease confirm: 1) Is the genus Proceratium? 2) Does 🇺🇸⬅️ mean western US (California)? 3) Is 🥈✂️ a sound-alike for part of the species name?\n\nGUESS: Proceratium silaceum",
+      "guess": "Proceratium silaceum",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "94c032a4-d60c-43b1-a6a4-338da846247c",
+    "guesser": "a56b4520-bb38-4535-af47-4a8c13f3f5ef"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

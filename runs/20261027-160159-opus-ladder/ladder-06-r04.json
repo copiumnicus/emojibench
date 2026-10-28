@@ -1,0 +1,121 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Jakob von Washington",
+    "description": "Bavarian general (1778–1848)",
+    "extract": "\nBaron Jacobus von Washington was a lieutenant general in the Bavarian Army and a distant relative of US President George Washington. Born in The Hague, Netherlands, he was christened James Washington. Most of his adult life was shaped by his participation in wars for and against Napoleonic France and his service to Ludwig I of Bavaria.",
+    "url": "https://en.wikipedia.org/wiki/Jakob_von_Washington"
+  },
+  "solved": true,
+  "turns_taken": 5,
+  "solved_turn": 5,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 386.2,
+  "usage": {
+    "explainer": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 12919,
+      "cache_read_input_tokens": 30715,
+      "output_tokens": 10951,
+      "thinking_tokens": 9535,
+      "cost_usd": 0.33473,
+      "calls": 5,
+      "cost_usd_reported": 1.1719054
+    },
+    "guesser": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 20076,
+      "cache_read_input_tokens": 24919,
+      "output_tokens": 21796,
+      "thinking_tokens": 20267,
+      "cost_usd": 0.6065676,
+      "calls": 5,
+      "cost_usd_reported": 1.5853106000000001
+    },
+    "judge": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 2860,
+      "cache_read_input_tokens": 704,
+      "output_tokens": 20,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00059004,
+      "calls": 5
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "The guesser can't see these notes. The target is Jakob von Washington, a Bavarian general who was a distant relative of George Washington. The flag, eagle, dollar bill, cherry and soap emojis are all banned, so I'll use substitutes.\n\n- **Washington family:** 🗿 for Mount Rushmore, 💲 for the dollar, 🌸 for the DC cherry blossoms, and 👨‍👩‍👦 for a relative.\n- **European general:** 🌍 for Europe (🌎 is banned) and 💂 with stars.\n- **Bavaria and Ludwig I:** 🩳 for lederhosen, ⛰️ for the Alps, and 🫅 for a crowned king.\n- **Born in the Netherlands:** 🍊 for the House of Orange, 🚲 for Dutch bikes, and 🤰 for birth.\n- **Fought Napoleon:** 🇨🇵 (Clipperton, which uses the French flag) and 🛡️.\n\n<msg>\n🗿💲🌸 👨‍👩‍👦\n🌍 💂🌟🌟🌟\n🩳⛰️ 🫅\n🍊🚲 🤰\n🇨🇵 🛡️\n</msg>",
+      "delivered": "🗿💲🌸 👨‍👩‍👦\n🌍 💂🌟🌟🌟\n🩳⛰️ 🫅\n🍊🚲 🤰\n🇨🇵 🛡️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "**My reading so far:**\n- 🇨🇵🛡️ = a French noble family with a coat of arms?\n- 🗿💲🌸 👨‍👩‍👦 = the family name, built from syllables: stone/rock (Roche? Pierre?) + money (sou? argent? mark?) + flower (fleur? rose? lys?)?\n- 🌍💂🌟🌟🌟 = a member who was a three-star general?\n- 🩳⛰️🫅 = a member who was a prince of some \"short-mountain\" place?\n- 🍊🚲🤰 = a member born in the Netherlands, or a House of Orange connection?\n\n**Questions:**\n1. Is the article about a whole family (yes/no)?\n2. Is 🗿💲🌸 a sound-alike for the family name? If so, can you spell out the first syllable more clearly?\n3. Is it French (🇨🇵) or Belgian/Dutch?\n\nGUESS: Rothschild family",
+      "guess": "Rothschild family",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "The guesser read 🗿💲🌸 as a sound-alike family name and France as the person's home. My answers in order:\n\n1. 👎 to \"a whole family\": it is one man.\n2. I'll rebuild the name as a rebus: 🛀 for \"wash\", plus the Washington symbols, plus 🤠🍔 for America.\n3. 🇨🇵 means France was the enemy, so 😡 plus 🤺 for fighting.\n\n<msg>\n👎👨‍👩‍👦 🧍\n🛀 🗿💲🌸 🤠🍔\n🇨🇵😡🤺\n</msg>",
+      "delivered": "👎👨‍👩‍👦 🧍\n🛀 🗿💲🌸 🤠🍔\n🇨🇵😡🤺",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Got it: not a family, a single person. And 🇨🇵😡🤺 sounds like they fought against France, or in the French Revolutionary/Napoleonic wars.\n\n**Current hypothesis:** a nobleman and senior general (three stars, maybe a lieutenant-general or field marshal) who fought the French. Maybe a Dutch/Orange connection (🍊🚲), and he had or held a princely title (🩳⛰️🫅).\n\n**Questions (please answer with 👍/👎 in order):**\n1. Is 🛀 the Order of the Bath (a British knighthood)?\n2. Is 🤠🍔 \"American\", e.g. he fought in the American Revolutionary War?\n3. Is 🗿💲🌸 his surname or title split into sound pieces? If so, please re-spell it syllable by syllable using different emojis.\n4. Is he British, or in British service?\n5. Is 🍊🚲🤰 \"born in the Netherlands\"?\n\nLong shot, based on 🗿 = Roche/rock + 🤠 = America + French fighting:\n\nGUESS: Donatien-Marie-Joseph de Vimeur, vicomte de Rochambeau",
+      "guess": "Donatien-Marie-Joseph de Vimeur, vicomte de Rochambeau",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "The guesser's questions, answered in order:\n\n1. 👎: 🛀 is not the Order of the Bath; it means \"wash\".\n2. 🤷: he was not American, but a relative of one.\n3. 🙆: it is his surname. Wash + 🗿💲🌸 + America + 🏆 (the first president) should point to Washington.\n4. 👎: he was not British.\n5. 🙆 (👍 is banned): yes, born in the Netherlands.\n\n<msg>\n👎 🛀\n🤷 👨‍👩‍👦 🤠🍔\n🙆 🛀 🗿💲🌸 🤠🍔🏆\n👎\n🙆\n</msg>",
+      "delivered": "👎 🛀\n🤷 👨‍👩‍👦 🤠🍔\n🙆 🛀 🗿💲🌸 🤠🍔🏆\n👎\n🙆",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Decoding your answers:\n- 🛀 is not the Bath.\n- 🤠🍔 is a family/house name. Is it **Coburg** (\"Cow\"+\"burg\")?\n- The name is built as 🛀 + 🗿💲🌸 + 🤠🍔🏆, so something like \"Prince ___ of Saxe-Coburg-___\".\n- Not British; born in the Netherlands.\n\nSo I'm thinking of a Saxe-Coburg prince, a general or field marshal who fought Revolutionary/Napoleonic France.\n\n**Questions:**\n1. Is 🤠🍔 = Coburg? Is 🏆 = Saalfeld or Gotha?\n2. Is 🛀 = \"Saxe\"? Or is 🛀 the first name?\n3. Is 🗿💲🌸 his first name? Please give the number of syllables using digits/keycaps.\n\nGUESS: Prince Josias of Saxe-Coburg-Saalfeld",
+      "guess": "Prince Josias of Saxe-Coburg-Saalfeld",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "The guesser read 🤠🍔 as \"Coburg\" and is building a compound title name. I need to push harder on \"wash\" plus the first American president.\n\n- 👎 to Coburg.\n- 🛀🛀 🙆 confirms that 🛀 really means the sound \"wash\".\n- 🏆🤠🍔🦃🏈 means first and American, adding Thanksgiving and football. 🧑‍🦳💲🗿 means the man in the powdered wig on the dollar and Mount Rushmore. 👨‍👩‍👦 says he is a relative.\n- 💂 plus Bavaria repeats that he was a general there.\n\n<msg>\n👎 🤠🍔\n🛀🛀 🙆\n🏆🤠🍔🦃🏈 🧑‍🦳💲🗿 👨‍👩‍👦\n💂🩳⛰️\n</msg>",
+      "delivered": "👎 🤠🍔\n🛀🛀 🙆\n🏆🤠🍔🦃🏈 🧑‍🦳💲🗿 👨‍👩‍👦\n💂🩳⛰️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Hmm. So 🤠🍔 is not Coburg, and 🛀🛀 might be a doubled name? Let me check my readings. **Please answer with 👍/👎 in order:**\n\n1. Is 🗿💲 = \"noble/aristocratic\", i.e. 🗿💲🌸👨‍👩‍👦 = \"noble family\", and not part of the name?\n2. Is 🛀🛀 = **Baden-Baden** (bath = Bad)?\n3. Is 🩳⛰️ = lederhosen + Alps, so Austria (Habsburg)? Or Bavaria?\n4. Is 💂🩳⛰️ = he served in the Austrian (Imperial) army?\n5. Is 🤠🍔🦃🏈 = \"American\" / USA?\n6. Was he a margrave or prince by birth?\n7. Was he born before 1700?\n\nIf 🩳⛰️ is something else (Switzerland? Tyrol?), please re-describe it with other emojis.\n\nGUESS: Margrave Hermann of Baden-Baden",
+      "guess": "Margrave Hermann of Baden-Baden",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "The guesser asked seven yes/no questions:\n\n1. 👎: 🗿💲 is not \"noble family\".\n2. 👎: not Baden-Baden.\n3. 🙆 with the blue-and-white lozenges 🔹◻️ points to Bavaria rather than Austria.\n4. 👎: he did not serve in the Austrian army.\n5. 🙆🙆🙆: yes, 🤠🍔 means American.\n6. 👎: not a margrave or prince by birth.\n7. 👎: born after 1700.\n\nThe last line restates the name as \"wash\" plus the first American president.\n\n<msg>\n👎\n👎\n🙆 🔹◻️🔹◻️\n👎\n🙆🙆🙆\n👎\n👎\n🛀 ➕ 🏆🤠🍔🧑‍🦳💲\n</msg>",
+      "delivered": "👎\n👎\n🙆 🔹◻️🔹◻️\n👎\n🙆🙆🙆\n👎\n👎\n🛀 ➕ 🏆🤠🍔🧑‍🦳💲",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I think I've got it! 🗿💲🌸 = **Washington**: Mount Rushmore + the dollar bill + the cherry tree. And 🛀 = \"Wash\". So he is a Washington-family member, born in the Netherlands, who served Bavaria as a general and fought the French. I'm thinking of the Bavarian general Baron Jacob von Washington.\n\nGUESS: Jacob von Washington",
+      "guess": "Jacob von Washington",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "6e7702f6-a7ab-4db4-8089-eb5e42b05715",
+    "guesser": "157a8c65-8747-42b9-bf77-6cb5b64cfb19"
+  },
+  "ladder": {
+    "article_no": 6,
+    "round": 4,
+    "n_banned": 114,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

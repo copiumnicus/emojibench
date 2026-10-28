@@ -1,0 +1,90 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Philadelphia Commercial Museum",
+    "description": "Former museum in Pennsylvania, USA",
+    "extract": "The Philadelphia Commercial Museum was established in Philadelphia, Pennsylvania in 1895. Its permanent home was a neo-classical building situated at 34th Street and Civic Center Blvd, erected as part of the 1899 National Export Exposition. The museum had business offices at 332 South Fourth Street.",
+    "url": "https://en.wikipedia.org/wiki/Philadelphia_Commercial_Museum"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 77.1,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2144,
+      "cache_read_input_tokens": 2006,
+      "output_tokens": 1465,
+      "thinking_tokens": 1290,
+      "cost_usd": 0.047278400000000005,
+      "calls": 2,
+      "cost_usd_reported": 0.0722766
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2224,
+      "cache_read_input_tokens": 981,
+      "output_tokens": 4910,
+      "thinking_tokens": 4202,
+      "cost_usd": 0.11640840000000001,
+      "calls": 2,
+      "cost_usd_reported": 0.1468082
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 710,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0001442,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🪁⚡🔑 🥪🧅 🐿️\n🪙💳🧾💸 🛍️\n🦣🦴🦋 🔎 🖌️\n🌎🌏🗺️ ⚓🚂 🎪\n</msg>",
+      "delivered": "🪁⚡🔑 🥪🧅 🐿️\n🪙💳🧾💸 🛍️\n🦣🦴🦋 🔎 🖌️\n🌎🌏🗺️ ⚓🚂 🎪",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "**My reading so far:**\n- 🪁⚡🔑 = **Benjamin Franklin** (kite experiment). I think this means the name \"Franklin.\"\n- 🥪🧅🐿️ I'm not sure about these. Are they other parts of the name, or other features?\n- 🪙💳🧾💸🛍️ = money and shopping. Maybe a mall, a store, or a mint (🪙 → Franklin Mint?).\n- 🦣🦴🦋🔎🖌️ = a natural history or art museum.\n- 🌎🌏🗺️⚓🚂🎪 = world travel, ships, trains, circus. Maybe exhibits or collectibles?\n\n**Questions:**\n1. Is it a place, like a town, mall or neighborhood, or a company or organization?\n2. Is \"Franklin\" part of the title? If so, do 🥪🧅🐿️ make up the rest of the name?\n3. Is it in the USA?\n\nGUESS: Franklin Mint",
+      "guess": "Franklin Mint",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n👎🪁 👎🌱\n🪁⚡🔑👴 🏠 ⬇️\n🌆🥪🧅🔔‍\n🌆 🪙💳🧾 🦣🦴\n🙆\n</msg>",
+      "delivered": "👎🪁 👎🌱\n🪁⚡🔑👴 🏠 ⬇️\n🌆🥪🧅\n🌆 🪙💳🧾 🦣🦴\n🙆",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🔔"
+      ],
+      "retried": false,
+      "guesser": "Okay, so it's **not Franklin himself and not a mint**. I think the 🪁⚡🔑👴🏠 line plus the cheesesteak 🥪🧅 just mean **Philadelphia** (Franklin's home city).\n\n**Updated reading:**\n- 🐿️ = maybe **collecting or hoarding**, the way a squirrel stashes nuts?\n- 🪙💳🧾💸🛍️ = buying and selling (coins, cards, receipts)\n- 🦣🦴🦋🖌️ = fossils, butterflies, art\n- 🌎🗺️⚓🚂🎪 = maps, ships, trains, circus items\n\nSo I'm picturing a Philadelphia place or business that collects, sells or displays all kinds of objects. That could be a museum, an auction house, or a dealer or collector.\n\n**Questions:**\n1. Is 🐿️ about collecting? If not, what does it mean?\n2. Is the subject a **building or institution**, a **company**, or a **person**?\n3. Is it actually in Philadelphia, or just connected to it?\n\nGUESS: Philadelphia Commercial Museum",
+      "guess": "Philadelphia Commercial Museum",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "764ba459-49af-4648-bad8-ec2451713bd2",
+    "guesser": "29ac5887-72ee-438b-850a-04c3e3a0c8ff"
+  },
+  "ladder": {
+    "article_no": 14,
+    "round": 2,
+    "n_banned": 47,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

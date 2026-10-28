@@ -1,0 +1,88 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Mike Pieciak",
+    "description": "American politician (born 1983)",
+    "extract": "Michael Sullivan Pieciak is an American politician from Vermont. A member of the Democratic Party, Pieciak has served as Vermont State Treasurer since January 2023.",
+    "url": "https://en.wikipedia.org/wiki/Mike_Pieciak"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 57.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2883,
+      "cache_read_input_tokens": 2201,
+      "output_tokens": 2198,
+      "thinking_tokens": 2099,
+      "cost_usd": 0.0679284,
+      "calls": 2,
+      "cost_usd_reported": 0.1081276
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1936,
+      "cache_read_input_tokens": 942,
+      "output_tokens": 1559,
+      "thinking_tokens": 1206,
+      "cost_usd": 0.0470688,
+      "calls": 2,
+      "cost_usd_reported": 0.0728044
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 700,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00014220000000000001,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🥦🌄 🌳🫗 🧸 🍧\n🐷🤑🧾📈\n🐴🧑\n</msg>",
+      "delivered": "🥦🌄 🌳🫗 🧸 🍧\n🐷🤑🧾📈\n🐴🧑",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I'm reading the first line as **Vermont**: Green Mountains (🥦🌄), maple syrup (🌳🫗), the Vermont Teddy Bear Company (🧸), and Ben & Jerry's (🍧). The second line looks like money, banking, finance or the economy. I'm not sure about 🐴🧑. It could be a Morgan horse, so maybe a person named Morgan, a horseman, or a jockey.\n\nIs this an article about Vermont's economy, or about a specific bank or finance person?\n\nGUESS: Economy of Vermont",
+      "guess": "Economy of Vermont",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n🧑🎯\n🐴🫲 🐘🚫\n✋📖 🐷🔒🤑\n</msg>",
+      "delivered": "🧑🎯\n🐴🫲 🐘🚫\n✋📖 🐷🔒🤑",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "So the article is about a person (🧑🎯), a Democrat (donkey yes, elephant no) who was sworn in (✋📖) as treasurer (🐷🔒🤑). That points to a **Democratic Vermont State Treasurer**. The candidates I can think of are Mike Pieciak, Beth Pearce, Jeb Spaulding and Paul Ruse. Since 📈 suggests a finance background, I'll start with Pieciak.\n\nGUESS: Mike Pieciak",
+      "guess": "Mike Pieciak",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "ec2810a5-4303-46d7-b8db-4817080a14a6",
+    "guesser": "f0c454f9-231e-44c7-97e8-a47ca9dd3425"
+  },
+  "ladder": {
+    "article_no": 4,
+    "round": 4,
+    "n_banned": 101,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

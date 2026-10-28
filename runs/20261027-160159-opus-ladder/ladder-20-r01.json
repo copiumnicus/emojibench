@@ -1,0 +1,75 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Franco Cozzo",
+    "description": "Australian businessman (1935–2023)",
+    "extract": "Franco Cozzo was an Italian-Australian businessman. After moving to Melbourne from Sicily in 1955, Cozzo became known for his television advertisements, in which he would speak in English, Greek, and Italian. He later produced Australia's first non-English TV show, Carosello, which was broadcast in Italian.",
+    "url": "https://en.wikipedia.org/wiki/Franco_Cozzo"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 21.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 732,
+      "cache_read_input_tokens": 577,
+      "output_tokens": 882,
+      "thinking_tokens": 813,
+      "cost_usd": 0.023619400000000002,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 959,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 473,
+      "thinking_tokens": 371,
+      "cost_usd": 0.01714,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🧓🤌🍝 🚢 🦘\n\n🏪 🪞🗄️🚪 💰\n\n📹📣 💬💬💬 🍝🏛️💂\n</msg>",
+      "delivered": "🧓🤌🍝 🚢 🦘\n🏪 🪞🗄️🚪 💰\n📹📣 💬💬💬 🍝🏛️💂",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "This looks like an elderly Italian man who emigrated to Australia by ship and ran a furniture store (mirrors, cabinets), famous for TV ads with multilingual catchphrases (Italian, Greek...). That sounds like the Melbourne furniture king.\n\nGUESS: Franco Cozzo",
+      "guess": "Franco Cozzo",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "6248de45-8852-49a5-85a9-279096676cc1",
+    "guesser": "f8ef4ee1-2236-4f50-95a2-a3639b35d626"
+  },
+  "ladder": {
+    "article_no": 20,
+    "round": 1,
+    "n_banned": 15,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

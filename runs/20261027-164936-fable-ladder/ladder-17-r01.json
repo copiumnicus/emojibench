@@ -1,0 +1,101 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "7's Football League",
+    "description": "Football league",
+    "extract": "The 7's Football League is a seven-a-side football league in the Philippines. Established in 2018, the league already had four seasons. It has a two-tiered men's division, a women's division, and youth divisions. The league is an open tournament with participation from representative sides of the domestic football competition, the Philippines Football League.",
+    "url": "https://en.wikipedia.org/wiki/7's_Football_League"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 152.2,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 3419,
+      "cache_read_input_tokens": 4699,
+      "output_tokens": 2947,
+      "thinking_tokens": 2459,
+      "cost_usd": 0.22048900000000002,
+      "calls": 3,
+      "cost_usd_reported": 0.44104950000000004
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 6020,
+      "cache_read_input_tokens": 3105,
+      "output_tokens": 7191,
+      "thinking_tokens": 6697,
+      "cost_usd": 0.48311500000000007,
+      "calls": 3,
+      "cost_usd_reported": 0.809356
+    },
+    "judge": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 1393,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00028300000000000005,
+      "calls": 2
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🏃🏃🏃🏃🏃🏃🏃 🥅 🏃🏃🏃🏃🏃🏃🏃\n🟨🟥 🧤 👟 🦵\n📊🏅\n☀️⭐⭐⭐ 🔵🔴⚪ 🏝️🏝️🏝️ 🌏\n</msg>",
+      "delivered": "🏃🏃🏃🏃🏃🏃🏃 🥅 🏃🏃🏃🏃🏃🏃🏃\n🟨🟥 🧤 👟 🦵\n📊🏅\n☀️⭐⭐⭐ 🔵🔴⚪ 🏝️🏝️🏝️ 🌏",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I see: football/soccer (goal, cards, goalkeeper gloves, boots, kick), and a flag with a sun, three stars, blue/red/white, islands in Asia → the Philippines. The 📊🏅 suggests statistics/records or awards.\n\nQuestions: Is it a team (🏃), a single player (👤), a competition/league (🏆), or a list/statistics article (📋)? Is it men's or women's? Is it the national team or a club?\n\nGUESS: Philippines national football team",
+      "guess": "Philippines national football team",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n📊🏅 ✅ 🏃❌ 👤❌\n🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃 🥅 ❌\n🏃🏃🏃🏃🏃🏃🏃 🥅 ✅ 🖐️☝️☝️\n🏷️ ➡ 🖐️☝️☝️ 🥅 📊\n🚹 🚺 🧑‍🎓 ✅\n</msg>",
+      "delivered": "📊🏅 ✅ 🏃❌ 👤❌\n🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃🏃 🥅 ❌\n🏃🏃🏃🏃🏃🏃🏃 🥅 ✅ 🖐️☝️☝️\n🏷️ 🖐️☝️☝️ 🥅 📊\n🚹 🚺 🧑‍🎓 ✅",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "➡️"
+      ],
+      "retried": false,
+      "guesser": "Got it: handball (hand + goal, 7-a-side), statistics/records/medals article, not a team or a person, in the Philippines, covering men's and women's.\n\nQuestions: Is it an event at a multi-sport games (🏆🎪) like the SEA Games? Does the title contain a year (📅)? Is 🧑‍🎓 meaning university/student games (🎓🏆) like ASEAN University Games? Or is it \"Handball in the Philippines\" (the sport in the country, 🗺️)?\n\nGUESS: Handball at the 2019 Southeast Asian Games",
+      "guess": "Handball at the 2019 Southeast Asian Games",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n🤾❌ 🏐❌ 🖐️❌ 🎪❌ 🎓❌ 🗺️❌\n🦵👟 ⚪⚫ 🥅 ✅✅✅\n🏃🏃🏃🏃🏃🏃🏃 ⚡ 🏃🏃🏃🏃🏃🏃🏃\n🌈 🎵🎶 🪐 🔢\n🏷️ 🌈 🦵⚪⚫ 📊🏅\n🗓️🗓️🗓️🗓️\n</msg>",
+      "delivered": "🤾❌ 🏐❌ 🖐️❌ 🎪❌ 🎓❌ 🗺️❌\n🦵👟 ⚪⚫ 🥅 ✅✅✅\n🏃🏃🏃🏃🏃🏃🏃 ⚡ 🏃🏃🏃🏃🏃🏃🏃\n🌈 🎵🎶 🪐\n🏷️ 🌈 🦵⚪⚫ 📊🏅\n🗓️🗓️🗓️🗓️",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Aha — 🌈 (7 colors), 🎵 (7 notes), 🪐 (7 classical planets) → the number SEVEN. 7-a-side football in the Philippines, a league with stats/awards → the 7's Football League!\n\nIf this is wrong: does the title include a specific year (e.g. \"2019 7's Football League\")? Or is it a list of seasons/champions?\n\nGUESS: 7's Football League",
+      "guess": "7's Football League",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "8b8d5396-abd0-4044-8fed-618c0bd52377",
+    "guesser": "a3cd0237-d090-4fe9-9e8a-191d6b776b77"
+  },
+  "ladder": {
+    "article_no": 17,
+    "round": 1,
+    "n_banned": 17,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

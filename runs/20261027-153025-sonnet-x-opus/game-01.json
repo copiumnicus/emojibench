@@ -1,0 +1,97 @@
+{
+  "model": "sonnet",
+  "model_id": "claude-sonnet-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Proceratium silaceum",
+    "description": "Species of ant",
+    "extract": "Proceratium silaceum is a species of ant in the family Formicidae.",
+    "url": "https://en.wikipedia.org/wiki/Proceratium_silaceum"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 77.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 2462,
+      "cache_read_input_tokens": 3954,
+      "output_tokens": 469,
+      "thinking_tokens": 300,
+      "cost_usd": 0.0153568,
+      "calls": 4,
+      "cost_usd_reported": 0.0431676
+    },
+    "guesser": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 4055,
+      "cache_read_input_tokens": 4446,
+      "output_tokens": 3100,
+      "thinking_tokens": 2483,
+      "cost_usd": 0.09627440000000001,
+      "calls": 4,
+      "cost_usd_reported": 0.22102860000000002
+    },
+    "judge": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1391,
+      "cache_read_input_tokens": 696,
+      "output_tokens": 12,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00029175999999999996,
+      "calls": 3
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🐜🔬📖 🌍🌳 🐜</msg>",
+      "delivered": "🐜🔬📖 🌍🌳 🐜",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Looks like this is an **ant species** (🐜🔬📖 suggests a scientific description, and 🌍🌳 suggests a forest habitat or distribution).\n\nQuestions to narrow it down:\n1. Which region or country is it found in? Please use flag emojis.\n2. Do you know the genus? Hint at it with sounds or objects, e.g. 🐂 for *Camponotus*, ⚡ for *Pheidole*, 🥁 for *Tetramorium*.\n3. Is it a species (two-word name), or a genus?\n\nGUESS: Pheidole",
+      "guess": "Pheidole",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👍 👎 🇺🇸 🟡 🕳️🐜 ⏩🦏</msg>",
+      "delivered": "👍 👎 🇺🇸 🟡 🕳️🐜 ⏩🦏",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Here's how I read it: 👍 = it's a species, 👎 = not a genus, 🇺🇸 = found in the USA, 🟡🕳️🐜 = a yellow ant that lives underground. Something like a citronella / yellow ant (*Lasius*, subgenus *Acanthomyops*), or maybe a thief ant (*Solenopsis*)?\n\nI'm not sure about ⏩🦏. Is it a hint about the genus name (horn → *Acantho-*/*Cerato-*?) or the species name? Could you spell part of the name another way?\n\nGUESS: Lasius claviger",
+      "guess": "Lasius claviger",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>👍 ⏩🦏 🐜 🕳️ 🔥 🇺🇸 🟡 🔬 ⬅️🦏 ⏩ 🏃</msg>",
+      "delivered": "👍 ⏩🦏 🐜 🕳️ 🔥 🇺🇸 🟡 🔬 ⬅️🦏 ⏩ 🏃",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "I think ⏩🦏 = **Pro-** + **cerat** (horn), so the genus is ***Proceratium***: cryptic, underground, stinging ants. The 🟡 should then be a species name meaning \"yellow\". There are two candidates in the US: *croceum* (saffron) and *silaceum* (ochre). Trying one now. If it's wrong, the other one is my next guess.\n\nGUESS: Proceratium croceum",
+      "guess": "Proceratium croceum",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>👍 🟡 ↗️ 🟤 🏺</msg>",
+      "delivered": "👍 🟡 ↗️ 🟤 🏺",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "*Proceratium* is confirmed. 🟡↗️🟤🏺 reads as a yellow-brown, clay or earthen colour, which is **ochre** = *silaceum*.\n\nGUESS: Proceratium silaceum",
+      "guess": "Proceratium silaceum",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "171a23d3-01de-479b-9a60-e31ae5a13ee6",
+    "guesser": "5228b72d-f790-4a67-9d96-2a9e4ab63e38"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

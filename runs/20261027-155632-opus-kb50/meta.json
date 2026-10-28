@@ -1,0 +1,10 @@
+{
+  "explainer": "opus",
+  "guesser": "opus",
+  "effort": null,
+  "keyboard": 0.5,
+  "keyboard_seed": "v1",
+  "articles": "articles/set1.json",
+  "max_turns": 30,
+  "judge": "haiku"
+}

@@ -1,0 +1,121 @@
+{
+  "model": "sonnet",
+  "model_id": "claude-sonnet-5-5",
+  "guesser_model": "sonnet",
+  "guesser_model_id": "claude-sonnet-5-5",
+  "effort": null,
+  "article": {
+    "title": "Iglesia de Santa Ana (Santiago de Chile)",
+    "description": "National monument of Chile",
+    "extract": "The Iglesia de Santa Ana is a Catholic church in downtown Santiago de Chile. It is located at the northwest corner of Catedral and San Martín streets. The church was declared as a National Monument of Chile in 1970, within the category of Historic Monuments. Santa Ana metro station is named after the church.",
+    "url": "https://en.wikipedia.org/wiki/Iglesia_de_Santa_Ana_(Santiago_de_Chile)"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "max_turns": 30,
+  "seconds": 73.9,
+  "usage": {
+    "explainer": {
+      "input_tokens": 22,
+      "cache_creation_input_tokens": 2131,
+      "cache_read_input_tokens": 9787,
+      "output_tokens": 760,
+      "thinking_tokens": 527,
+      "cost_usd": 0.0181254,
+      "calls": 6,
+      "cost_usd_reported": 0.0659156
+    },
+    "guesser": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 2596,
+      "cache_read_input_tokens": 5867,
+      "output_tokens": 1746,
+      "thinking_tokens": 1164,
+      "cost_usd": 0.0290534,
+      "calls": 5,
+      "cost_usd_reported": 0.08288000000000001
+    },
+    "judge": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 2851,
+      "cache_read_input_tokens": 713,
+      "output_tokens": 20,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00058833,
+      "calls": 5
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>👵✝️🔔 🌎⛰️🍷 🚉</msg>",
+      "delivered": "👵✝️🔔 🌎⛰️🍷 🚉",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "My first read is a railway station or village in a mountain wine region, with a church (cross and bell) and something tied to an \"old lady\", maybe \"Our Lady\". The 🌎 might mean \"world\" or \"New World\".\n\nQuestions:\n1. Is it a place, such as a station or village?\n2. Is it in Europe?\n3. Does 👵 stand for \"Our Lady\" or \"Mother\"?\n\nGUESS: Notre-Dame station",
+      "guess": "Notre-Dame station",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👎</msg>\n\n[RETRY]\n<msg>👍 ❌ 🦙⛰️ 🌎 👵 ✝️ 🏠</msg>",
+      "delivered": "👍 ❌ 🦙⛰️ 🌎 👵 ✝️ 🏠",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": true,
+      "guesser": "Understood: a place in the Andes (South America), not Europe. 👵✝️ could be \"Santa Ana\" (Saint Anne, the grandmother), and 🏠 could be a town or a church.\n\nQuestions:\n1. Is it in Argentina (Mendoza or Salta wine country)?\n2. Is it a town or district named Santa Ana?\n\nGUESS: Santa Ana, Mendoza",
+      "guess": "Santa Ana, Mendoza",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🏠 ✝️ 👍 ❌ 🌎 ⬅️ 🍷 ⛰️ 🌆 🚉</msg>",
+      "delivered": "🏠 ✝️ 👍 ❌ 🌎 ⬅️ 🍷 ⛰️ 🌆 🚉",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Reading this as a church/house with a cross, near wine and mountains, in a city with a station. I'm taking the \"⬅️\" to mean going back to the earlier idea of the station.\n\nIs the article about a railway station in Mendoza city?\n\nGUESS: Mendoza railway station",
+      "guess": "Mendoza railway station",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>⛰️⬅️ 🌊 🐚 👑 🌆 ✝️👵 🏠</msg>",
+      "delivered": "⛰️⬅️ 🌊 🐚 👑 🌆 ✝️👵 🏠",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I'm reading this as a coastal city on the Pacific with the Andes behind it. 🐚👑 might be \"Queen of the Sea\" or \"Reina del Mar\", which would point to Chile's Valparaíso region.\n\nIs it Viña del Mar or Valparaíso, and is the article about a church or a district there?\n\nGUESS: Viña del Mar",
+      "guess": "Viña del Mar",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>🐚 👑 🌆 👍 ✝️👵 🏠 👍 🌊❌</msg>",
+      "delivered": "🐚 👑 🌆 👍 ✝️👵 🏠 👍 🌊❌",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Shell plus crown could be \"Santiago\" (the scallop shell of St James, with 👑 for capital), and 👵✝️ is Santa Ana. Together with the 🚉 from before, this looks like a metro station in Santiago, Chile.\n\nGUESS: Santa Ana metro station",
+      "guess": "Santa Ana metro station",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": "4943f49c-b015-47b0-a4ae-1ff1c41ef151",
+    "guesser": "2e8f2ba2-dff7-48ac-aa76-7016f17350a9"
+  },
+  "ladder": {
+    "article_no": 15,
+    "round": 1,
+    "n_banned": 8,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

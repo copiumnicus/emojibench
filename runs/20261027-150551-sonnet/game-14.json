@@ -1,0 +1,84 @@
+{
+  "model": "sonnet",
+  "model_id": "claude-sonnet-5-5",
+  "effort": null,
+  "article": {
+    "title": "Philadelphia Commercial Museum",
+    "description": "Former museum in Pennsylvania, USA",
+    "extract": "The Philadelphia Commercial Museum was established in Philadelphia, Pennsylvania in 1895. Its permanent home was a neo-classical building situated at 34th Street and Civic Center Blvd, erected as part of the 1899 National Export Exposition. The museum had business offices at 332 South Fourth Street.",
+    "url": "https://en.wikipedia.org/wiki/Philadelphia_Commercial_Museum"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "max_turns": 30,
+  "seconds": 30.3,
+  "usage": {
+    "explainer": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 2005,
+      "cache_read_input_tokens": 2272,
+      "output_tokens": 277,
+      "thinking_tokens": 0,
+      "cost_usd": 0.011264399999999999,
+      "calls": 3,
+      "cost_usd_reported": 0.025180900000000003
+    },
+    "guesser": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 1799,
+      "cache_read_input_tokens": 2261,
+      "output_tokens": 978,
+      "thinking_tokens": 665,
+      "cost_usd": 0.0174482,
+      "calls": 3,
+      "cost_usd_reported": 0.0357836
+    },
+    "judge": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 1424,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0002892,
+      "calls": 2
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🏛️🖼️🏺🌍🛍️💰📦🚢🇺🇸🔔🗽🏙️📅🕰️1️⃣8️⃣9️⃣5️⃣</msg>",
+      "delivered": "🏛️🖼️🏺🌍🛍️💰📦🚢🇺🇸🔔🗽🏙️📅🕰️",
+      "dropped_chars": 8,
+      "retried": false,
+      "guesser": "My read so far: a historic building or district in a US city, probably New York, tied to trade, shopping or shipping, and possibly now a museum or art-related site.\n\nIs it a building (yes/no)? Is it a department store or a commercial district?\n\nGUESS: Ladies' Mile Historic District",
+      "guess": "Ladies' Mile Historic District",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👍🏛️ 👎🛍️ 🔔🏙️🇺🇸 🏺🌍🐘🦜🐊🌴🚢📦 🏛️➡️🏺🖼️ 👀🎓 ⏳❌🏛️</msg>",
+      "delivered": "👍🏛️ 👎🛍️ 🔔🏙️🇺🇸 🏺🌍🐘🦜🐊🌴🚢📦 🏛️➡️🏺🖼️ 👀🎓 ⏳❌🏛️",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Reading your emojis as a building (👍🏛️), not shopping (👎🛍️), a city with a bell, in the US. It holds artifacts and art from around the world, with animals and palms suggesting natural history or ethnography, and it's tied to a university (🎓). The bell suggests Philadelphia, so my guess is the Penn Museum.\n\nGUESS: Penn Museum",
+      "guess": "Penn Museum",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🔔🏙️🇺🇸 🏛️🏺🌍📦🚢💰🤝🏭 👎🎓 ⏳❌🏛️ 🪦 1️⃣8️⃣9️⃣9️⃣🎪🎉 🌐📈💼</msg>",
+      "delivered": "🔔🏙️🇺🇸 🏛️🏺🌍📦🚢💰🤝🏭 👎🎓 ⏳❌🏛️ 🪦 🎪🎉 🌐📈💼",
+      "dropped_chars": 8,
+      "retried": false,
+      "guesser": "Not a university, and a defunct museum (🪦). The mix of global trade, artifacts, shipping, business and exhibitions sounds like the Commercial Museum in Philadelphia, which promoted international commerce.\n\nGUESS: Philadelphia Commercial Museum",
+      "guess": "Philadelphia Commercial Museum",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "d1f2f96b-ba5d-4559-925c-e7320b5431a9",
+    "guesser": "b8dbd53a-69ed-4142-844d-2382a9436a12"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

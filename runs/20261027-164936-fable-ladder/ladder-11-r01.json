@@ -1,0 +1,75 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Ayribobo",
+    "description": "Highest mountain of Turkmenistan",
+    "extract": "Ayribobo or Aýrybaba, officially named the Great Saparmyrat Turkmenbashi Peak in Turkmenistan since 2004, is a mountain in Central Asia. At 3,138 metres (10,295 ft) Aýrybaba is the highest mountain in Turkmenistan. It is located in the Köýtendag Range of the Pamir-Alay chain in the southeast of Turkmenistan on the Uzbekistani border.",
+    "url": "https://en.wikipedia.org/wiki/Ayribobo"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 36.9,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 755,
+      "cache_read_input_tokens": 577,
+      "output_tokens": 1348,
+      "thinking_tokens": 1267,
+      "cost_usd": 0.08266425000000001,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 994,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 964,
+      "thinking_tokens": 773,
+      "cost_usd": 0.0681,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 702,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 153,
+      "thinking_tokens": 149,
+      "cost_usd": 0.00021710000000000002,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🗻👑🏆\n\n🌍❓ ↔️ 🇮🇷🇦🇫🇰🇿🌊\n\n🔥🕳️ 🏜️ 🐎 🏙️🤍\n</msg>",
+      "delivered": "🗻👑🏆\n🌍❓ ↔️ 🇮🇷🇦🇫🇰🇿🌊\n🔥🕳️ 🏜️ 🐎 🏙️🤍",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I read the location as Turkmenistan (between Iran/Afghanistan/Kazakhstan and the Caspian Sea; Door to Hell crater, Karakum desert, Akhal-Teke horses, white marble Ashgabat). The subject line 🗻👑🏆 — mountain + crown + trophy — I'm reading as \"the highest mountain\" (king of peaks). Is it a mountain/peak? Or is 🏆 pointing to a sports club (e.g. Köpetdag)? If a person, show me 👤.\n\nGUESS: Ayrybaba",
+      "guess": "Ayrybaba",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "4e431fa8-64f2-47c3-8580-ac805444c512",
+    "guesser": "cd975af6-9cb5-4ca5-98d8-7f9a47d66b6b"
+  },
+  "ladder": {
+    "article_no": 11,
+    "round": 1,
+    "n_banned": 6,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

@@ -1,0 +1,133 @@
+{
+  "model": "sonnet",
+  "model_id": "claude-sonnet-5-5",
+  "guesser_model": "sonnet",
+  "guesser_model_id": "claude-sonnet-5-5",
+  "effort": null,
+  "article": {
+    "title": "Franco Cozzo",
+    "description": "Australian businessman (1935–2023)",
+    "extract": "Franco Cozzo was an Italian-Australian businessman. After moving to Melbourne from Sicily in 1955, Cozzo became known for his television advertisements, in which he would speak in English, Greek, and Italian. He later produced Australia's first non-English TV show, Carosello, which was broadcast in Italian.",
+    "url": "https://en.wikipedia.org/wiki/Franco_Cozzo"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "max_turns": 30,
+  "seconds": 68.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 2553,
+      "cache_read_input_tokens": 9157,
+      "output_tokens": 917,
+      "thinking_tokens": 519,
+      "cost_usd": 0.0212494,
+      "calls": 5,
+      "cost_usd_reported": 0.07250319999999999
+    },
+    "guesser": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 2611,
+      "cache_read_input_tokens": 6398,
+      "output_tokens": 1587,
+      "thinking_tokens": 1153,
+      "cost_usd": 0.027629600000000004,
+      "calls": 5,
+      "cost_usd_reported": 0.0852365
+    },
+    "judge": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 3519,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 20,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0007148,
+      "calls": 5
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🌋🛳️ 🏠🛌 📽️🗯️🗯️🗯️ 🧑‍🦱🤌</msg>",
+      "delivered": "🌋🛳️ 🏠🛌 📽️🗯️🗯️🗯️ 🧑‍🦱🤌",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The volcano, the film projector and the Italian hand gesture suggest an Italian film set on a volcanic island, so my first guess is Stromboli, the 1950 film. The ship, house and bed might point to a different film, though. Is it the film, or the island?\n\nGUESS: Stromboli (film)",
+      "guess": "Stromboli (film)",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👤 🏪❌ 🛌🏠 🪟 💲💲 📽️📣 🌋🛳️ 🇲🇰🇪🇺 🌏❌ 🦘❌ 🏙️❌ 🍝 🤌 🗯️🗯️🗯️</msg>",
+      "delivered": "👤 ❌ 🛌🏠 🪟 💲💲 📽️📣 🌋🛳️ 🇲🇰🇪🇺 ❌ ❌ ❌ 🍝 🤌 🗯️🗯️🗯️",
+      "dropped_chars": 4,
+      "off_keyboard": [
+        "🏪",
+        "🌏",
+        "🦘",
+        "🏙️"
+      ],
+      "retried": false,
+      "guesser": "The explainer says it's not a person and not Stromboli. The pasta and Italian gesture still point to Italy, and the volcano and film suggest the rival 1950 Anna Magnani film that came out alongside Stromboli, so I'll guess that.\n\nGUESS: Vulcano (film)",
+      "guess": "Vulcano (film)",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🧑‍💼 🪃 🛌🏠 📽️📣 🌋➡️🛳️ 🗯️🇬🇷 🗯️🤌 🗯️🔤</msg>",
+      "delivered": "🧑‍💼 🪃 🛌🏠 📽️📣 🌋🛳️ 🗯️ 🗯️🤌 🗯️",
+      "dropped_chars": 3,
+      "off_keyboard": [
+        "➡️",
+        "🇬🇷"
+      ],
+      "retried": false,
+      "guesser": "Boomerang might mean Australia, but I'm not sure. Is the subject a person (a film producer, say) with a connection to Australia and Italy? Does the volcano stand for a place, such as an island or Naples?\n\nGUESS: Stromboli (island)",
+      "guess": "Stromboli (island)",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🧑‍💼🪃 🌋 🛳️ 🛌🏠 🪟 📽️📣 📣📣📣 🤌 🕰️1️⃣9️⃣5️⃣5️⃣ 🏙️</msg>",
+      "delivered": "🧑‍💼🪃 🌋 🛳️ 🛌🏠 🪟 📽️📣 📣📣📣 🤌 🕰️",
+      "dropped_chars": 9,
+      "off_keyboard": [
+        "🏙️"
+      ],
+      "retried": false,
+      "guesser": "I'm still unsure. Is this a film about a businessman who returns to Italy after some time, with the volcano and ship marking the setting (Sicily or an island)? Is the hotel or house central to the plot?\n\nGUESS: The Return of Don Camillo",
+      "guess": "The Return of Don Camillo",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>🧑‍💼🪃 🌋 🛳️ 🛌🏠 📣📣📣 💲 🏷️ 🛍️ 🪟 🎞️ 🇮🇹</msg>",
+      "delivered": "🧑‍💼🪃 🌋 🛳️ 🛌🏠 📣📣📣 💲 🏷️ 🛍️ 🪟 🎞️",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🇮🇹"
+      ],
+      "retried": false,
+      "guesser": "I can't pin it down. Is the subject an Australian businessman who owned shops, hotels or a film company? Or is it a film about a businessman who goes back to a volcanic island?\n\nGUESS: Stromboli",
+      "guess": "Stromboli",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": "bf718d79-4449-49b3-ad20-658882c8d22c",
+    "guesser": "663ca102-7390-4da3-8bcb-d720ee27fd89"
+  },
+  "ladder": {
+    "article_no": 20,
+    "round": 2,
+    "n_banned": 38,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

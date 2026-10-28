@@ -1,0 +1,147 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "sonnet",
+  "guesser_model_id": "claude-sonnet-5-5",
+  "effort": null,
+  "article": {
+    "title": "7's Football League",
+    "description": "Football league",
+    "extract": "The 7's Football League is a seven-a-side football league in the Philippines. Established in 2018, the league already had four seasons. It has a two-tiered men's division, a women's division, and youth divisions. The league is an open tournament with participation from representative sides of the domestic football competition, the Philippines Football League.",
+    "url": "https://en.wikipedia.org/wiki/7's_Football_League"
+  },
+  "solved": true,
+  "turns_taken": 9,
+  "solved_turn": 9,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 126.4,
+  "usage": {
+    "explainer": {
+      "input_tokens": 34,
+      "cache_creation_input_tokens": 3993,
+      "cache_read_input_tokens": 19056,
+      "output_tokens": 2307,
+      "thinking_tokens": 1347,
+      "cost_usd": 0.0858424,
+      "calls": 9,
+      "cost_usd_reported": 0.4076832
+    },
+    "guesser": {
+      "input_tokens": 34,
+      "cache_creation_input_tokens": 4324,
+      "cache_read_input_tokens": 18364,
+      "output_tokens": 2340,
+      "thinking_tokens": 1951,
+      "cost_usd": 0.0444368,
+      "calls": 9,
+      "cost_usd_reported": 0.21106490000000003
+    },
+    "judge": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 4157,
+      "cache_read_input_tokens": 2075,
+      "output_tokens": 36,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00087195,
+      "calls": 9
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>⚽ 🇵🇭\n🧍🧍🧍🧍🧍🧍🧍 🆚 🧍🧍🧍🧍🧍🧍🧍\n🏆 📅 🗓️ 🏟️ 👨 👩 🧒</msg>",
+      "delivered": "⚽ 🇵🇭\n🧍🧍🧍🧍🧍🧍🧍 🧍🧍🧍🧍🧍🧍🧍\n🏆 📅 🗓️ 🏟️ 👨 👩 🧒",
+      "dropped_chars": 1,
+      "retried": false,
+      "guesser": "Football in the Philippines, with a tournament or season in a given year. Is it a league season, or the national team at a tournament, such as the AFF Championship or the Southeast Asian Games?\n\nGUESS: Philippines Football League",
+      "guess": "Philippines Football League",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👍🔥 🤏\n✋✌️ 🧍🧍🧍🧍🧍🧍🧍 ⚽\n🚫 ✋✋🧍 ⚽\n✋✌️ ⚽ 🏆</msg>",
+      "delivered": "👍🔥 🤏\n✋✌️ 🧍🧍🧍🧍🧍🧍🧍 ⚽\n🚫 ✋✋🧍 ⚽\n✋✌️ ⚽ 🏆",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Getting warmer. Is it the women's national team?\n\nGUESS: Philippines women's national football team",
+      "guess": "Philippines women's national football team",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>👎 👩\n🧍🧍🧍🧍🧍🧍🧍 ⚽ 🧍🧍🧍🧍🧍🧍🧍 ✅\n🧍🧍🧍🧍🧍🧍🧍🧍🧍🧍🧍 ⚽ 🧍🧍🧍🧍🧍🧍🧍🧍🧍🧍🧍 ❌\n🇵🇭 🏆</msg>",
+      "delivered": "👎 👩\n🧍🧍🧍🧍🧍🧍🧍 ⚽ 🧍🧍🧍🧍🧍🧍🧍 ✅\n🧍🧍🧍🧍🧍🧍🧍🧍🧍🧍🧍 ⚽ 🧍🧍🧍🧍🧍🧍🧍🧍🧍🧍🧍 ❌\n🇵🇭 🏆",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Is it 7-a-side football (CP football) at the ASEAN Para Games, held in the Philippines?\n\nGUESS: 2005 ASEAN Para Games",
+      "guess": "2005 ASEAN Para Games",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>👍 🧍🧍🧍🧍🧍🧍🧍 ⚽\n👎 ♿ 👎 🌏\n🇵🇭 🏆 🔁🔁🔁🔁 🗓️\n👨 👩 🧒 🏟️ ⬆️ ⬇️</msg>",
+      "delivered": "👍 🧍🧍🧍🧍🧍🧍🧍 ⚽\n👎 ♿ 👎 🌏\n🇵🇭 🏆 🔁🔁🔁🔁 🗓️\n👨 👩 🧒 🏟️ ⬆️ ⬇️",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Is it a 7-a-side league or cup in the Philippines with promotion and relegation, run annually? Do you know the name, or is it something like \"Pinoy 7s\" or \"Premier 7s\"?\n\nGUESS: United Football League (Philippines)",
+      "guess": "United Football League (Philippines)",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>👍 🏆 🔁\n🏷️ = ✋✌️ ⚽ 🏆\n🏷️ 🚫 🇵🇭\n🏷️ 🚫 👑 🚫 🤝</msg>",
+      "delivered": "👍 🏆 🔁\n🏷️ ✋✌️ ⚽ 🏆\n🏷️ 🚫 🇵🇭\n🏷️ 🚫 👑 🚫 🤝",
+      "dropped_chars": 1,
+      "retried": false,
+      "guesser": "Is it the Danone Nations Cup, the 7-a-side kids' world tournament?\n\nGUESS: Danone Nations Cup",
+      "guess": "Danone Nations Cup",
+      "correct": false
+    },
+    {
+      "turn": 6,
+      "explainer_raw": "<msg>👎 🌍 \n📍 🇵🇭 👍👍\n🇵🇭 ⚽ 📊 ➡️ ✋✌️ ⚽ 📊\n🏷️ 🇵🇭 ✂️ ✋✌️ ➕</msg>",
+      "delivered": "👎 🌍\n📍 🇵🇭 👍👍\n🇵🇭 ⚽ 📊 ➡️ ✋✌️ ⚽ 📊\n🏷️ 🇵🇭 ✂️ ✋✌️ ➕",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Is it a second-tier league in the Philippines?\n\nGUESS: Philippines Football League 2",
+      "guess": "Philippines Football League 2",
+      "correct": false
+    },
+    {
+      "turn": 7,
+      "explainer_raw": "<msg>👎 ✌️\n🏷️ 🇵🇭 ❌ ⚽ ✅ 📊 ✅\n🏷️ ✋✌️ ✅ ⚽ ✅ 📊 ✅\n🧍🧍🧍🧍🧍🧍🧍 ⚽ 📊</msg>",
+      "delivered": "👎 ✌️\n🏷️ 🇵🇭 ❌ ⚽ ✅ 📊 ✅\n🏷️ ✋✌️ ✅ ⚽ ✅ 📊 ✅\n🧍🧍🧍🧍🧍🧍🧍 ⚽ 📊",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Seven-a-side football, then.\n\nGUESS: Seven-a-side football",
+      "guess": "Seven-a-side football",
+      "correct": false
+    },
+    {
+      "turn": 8,
+      "explainer_raw": "<msg>🔥🔥 ➕ 📊\n✋✌️ ⚽ 📊 🏆 🔁🔁🔁🔁\n🥇 ⚽ 🇵🇭 ⚽ 📊 ➡️ ✋✌️ ⚽ 📊</msg>",
+      "delivered": "🔥🔥 ➕ 📊\n✋✌️ ⚽ 📊 🏆 🔁🔁🔁🔁\n🥇 ⚽ 🇵🇭 ⚽ 📊 ➡️ ✋✌️ ⚽ 📊",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Is it \"7s Football\"?\n\nGUESS: 7s Football",
+      "guess": "7s Football",
+      "correct": false
+    },
+    {
+      "turn": 9,
+      "explainer_raw": "<msg>🔥🔥🔥 ➕ ➡️ 🔚\n✋✌️ ⚽ ❓\n❓ = 📊 🪜 🗓️ 🔁 🏟️🏟️🏟️ \n❓ = 🥇 🇵🇭 ⚽ ❓</msg>",
+      "delivered": "🔥🔥🔥 ➕ ➡️\n✋✌️ ⚽ ❓\n❓ 📊 🪜 🗓️ 🔁 🏟️🏟️🏟️\n❓ 🥇 🇵🇭 ⚽ ❓",
+      "dropped_chars": 3,
+      "retried": false,
+      "guesser": "GUESS: 7s Football League",
+      "guess": "7s Football League",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "e4604ab0-4b46-4aa9-aa56-b8032ca47c23",
+    "guesser": "351de6a4-52c2-4f2b-956f-da07d3756745"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

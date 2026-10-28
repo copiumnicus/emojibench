@@ -1,0 +1,87 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "sonnet",
+  "guesser_model_id": "claude-sonnet-5-5",
+  "effort": null,
+  "article": {
+    "title": "Accord Pond",
+    "description": "Lake in Massachusetts, USA",
+    "extract": "Accord Pond is a 100-acre (0.40 km2) reservoir in Hingham, Norwell and Rockland, Massachusetts. The reservoir is located off Route 228 at its terminus with Route 3. The reservoir is visible from Route 3 northbound at Exit 14, the Route 228 off-ramp. The reservoir is a Class A source of water supply for the town of Hingham and Hull Ma. The outflow of the reservoir is Accord Brook, a tributary of the Weir River.",
+    "url": "https://en.wikipedia.org/wiki/Accord_Pond"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 48.8,
+  "usage": {
+    "explainer": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 2614,
+      "cache_read_input_tokens": 2975,
+      "output_tokens": 1383,
+      "thinking_tokens": 1087,
+      "cost_usd": 0.049802,
+      "calls": 3,
+      "cost_usd_reported": 0.1011398
+    },
+    "guesser": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 2298,
+      "cache_read_input_tokens": 2505,
+      "output_tokens": 1496,
+      "thinking_tokens": 1175,
+      "cost_usd": 0.024673,
+      "calls": 3,
+      "cost_usd_reported": 0.050671299999999996
+    },
+    "judge": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 1410,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0002864,
+      "calls": 2
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🇺🇸 🦞🫖🦃\n💧🏞️🦆🐸 🚰\n\n🤝📜✍️ ➕ 🦆🐸💧\n</msg>",
+      "delivered": "🇺🇸 🦞🫖🦃\n💧🏞️🦆🐸 🚰\n🤝📜✍️ ➕ 🦆🐸💧",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "The flag, lobster, tea and turkey suggest North America, maybe the US and Canada. The wetland, ducks, frogs and tap water suggest a water or wetlands treaty. The handshake and signed scroll suggest it's an agreement.\n\nGUESS: North American Waterfowl Management Plan",
+      "guess": "North American Waterfowl Management Plan",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n🚫📜 👉 📍🗺️\n\n📍 = 🦆💧 (🏞️)\n🏷️ = 🤝 ➕ 🦆💧\n🤝 = 🚗🇯🇵\n\n🇺🇸 🫖🦃 🦞 ↘️\n</msg>",
+      "delivered": "🚫📜 👉 📍🗺️\n📍 🦆💧 🏞️\n🏷️ 🤝 ➕ 🦆💧\n🤝 🚗🇯🇵\n🇺🇸 🫖🦃 🦞 ↘️",
+      "dropped_chars": 5,
+      "retried": false,
+      "guesser": "So it's a place, not a treaty. It seems to be in the US, southeast of New England, with a duck-and-water name and a tie to a Japanese car city, perhaps a sister city. Is it a town or village with \"Duck\" or \"Pond\" in the name, on the Atlantic coast somewhere like Long Island, New Jersey or Maryland?\n\nGUESS: Duck, North Carolina",
+      "guess": "Duck, North Carolina",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n👍 🦆💧 = 🏷️ \n🚫🏘️ ✅💧🏞️ 🚰\n\n🏷️ 👉 🤝 🦆💧\n🤝 = 🚗 (🇯🇵 🚗 🤝)\n\n🇺🇸 🫖🦃🦞 🏛️ \n</msg>",
+      "delivered": "👍 🦆💧 🏷️\n🚫🏘️ ✅💧🏞️ 🚰\n🏷️ 👉 🤝 🦆💧\n🤝 🚗 🇯🇵 🚗 🤝\n🇺🇸 🫖🦃🦞 🏛️",
+      "dropped_chars": 4,
+      "retried": false,
+      "guesser": "The name seems to be an agreement word like \"Accord\" (the Honda car) plus a pond, and a water-supply pond fits the tap-water emoji. Accord Pond in Massachusetts is a reservoir that supplies Hingham.\n\nGUESS: Accord Pond",
+      "guess": "Accord Pond",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "6d7f9fb0-b0db-497d-81e1-1b94a8db99b9",
+    "guesser": "f5cc71f7-512c-4ad2-8dbf-664f649da5b4"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

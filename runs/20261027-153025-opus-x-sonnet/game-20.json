@@ -1,0 +1,77 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "sonnet",
+  "guesser_model_id": "claude-sonnet-5-5",
+  "effort": null,
+  "article": {
+    "title": "Franco Cozzo",
+    "description": "Australian businessman (1935–2023)",
+    "extract": "Franco Cozzo was an Italian-Australian businessman. After moving to Melbourne from Sicily in 1955, Cozzo became known for his television advertisements, in which he would speak in English, Greek, and Italian. He later produced Australia's first non-English TV show, Carosello, which was broadcast in Italian.",
+    "url": "https://en.wikipedia.org/wiki/Franco_Cozzo"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 24.4,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1722,
+      "cache_read_input_tokens": 1143,
+      "output_tokens": 705,
+      "thinking_tokens": 429,
+      "cost_usd": 0.0283572,
+      "calls": 2,
+      "cost_usd_reported": 0.04610059999999999
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1433,
+      "cache_read_input_tokens": 943,
+      "output_tokens": 675,
+      "thinking_tokens": 460,
+      "cost_usd": 0.0126826,
+      "calls": 2,
+      "cost_usd_reported": 0.020184300000000002
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 702,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00014260000000000002,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Key hooks are the Italian-to-Australia move, the Melbourne furniture store, and the famous TV ads in English, Greek and Italian.\n\n<msg>🇮🇹🌋➡️🇦🇺🚋 👨‍💼🏬 🛋️🛏️🪑 📺📢 🗣️🇬🇧🇬🇷🇮🇹</msg>",
+      "delivered": "🇮🇹🌋➡️🇦🇺🚋 👨‍💼🏬 🛋️🛏️🪑 📺📢 🗣️🇬🇧🇬🇷🇮🇹",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "The emojis read as: an Italian-born (volcano, so maybe Sicily) businessman who moved to Australia, a furniture retailer, and TV advertising. That sounds like Nick Scali's furniture business, but I'm not sure of the exact article title.\n\nGUESS: Nick Scali",
+      "guess": "Nick Scali",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "The guesser has the right kind of person, so I'll keep that and point at what makes Cozzo different: speaking Greek and Italian in his ads, the over-the-top commercials, and his death in 2023.\n\n<msg>👍🛋️📺 👎👨‍💼\n🧔‍♂️🗣️🇬🇷🇮🇹🇬🇧 📺🤪📢 🚋🏙️ ⚰️</msg>",
+      "delivered": "👍🛋️📺 👎👨‍💼\n🧔‍♂️🗣️🇬🇷🇮🇹🇬🇧 📺🤪📢 🚋🏙️ ⚰️",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "The emojis say furniture and TV are right but \"businessman\" is wrong. The man speaks Greek, Italian and English, did wacky TV ads, lived in a tram city (Melbourne), and has died. That points to Franco Cozzo, the Melbourne furniture seller known for his multilingual TV ads.\n\nGUESS: Franco Cozzo",
+      "guess": "Franco Cozzo",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "7558bcb4-386a-49ad-8591-7633b01297ba",
+    "guesser": "4b665f7c-ac4c-4969-bf58-21cb2697f302"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

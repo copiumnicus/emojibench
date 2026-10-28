@@ -1,0 +1,99 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Mad River Mountain",
+    "description": "Ski resort in Ohio, United States",
+    "extract": "Mad River Mountain is a ski and snowboard resort in Valley Hi, Ohio, United States. The elevation of Mad River Mountain is 1,460 feet (450 m) with a vertical drop of 300 ft (91 m), and it has a ski season that runs from approximately mid-December through mid-March. The resort, which opened in 1962 as Valley Hi Ski Area, is owned by EPR Properties and operated by Vail Resorts, who bought the resort from Peak Resorts in 2019.",
+    "url": "https://en.wikipedia.org/wiki/Mad_River_Mountain"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 117.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 3093,
+      "cache_read_input_tokens": 4592,
+      "output_tokens": 2166,
+      "thinking_tokens": 1698,
+      "cost_usd": 0.0699408,
+      "calls": 3,
+      "cost_usd_reported": 0.13799860000000003
+    },
+    "guesser": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 6109,
+      "cache_read_input_tokens": 3362,
+      "output_tokens": 7079,
+      "thinking_tokens": 6167,
+      "cost_usd": 0.1918368,
+      "calls": 3,
+      "cost_usd_reported": 0.3450012
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Building the name word by word: an angry face for \"Mad,\" a bridge and boat for \"River,\" and a climber and goat for \"Mountain,\" with sled and gloves to suggest a ski resort.\n\n<msg>\n🛷🧤🧣🏆\n\n😤👿 ➕ 🌉🛥️ ➕ 🧗🐐\n</msg>",
+      "delivered": "🛷🧤🧣🏆\n😤👿 ➕ 🌉🛥️ ➕ 🧗🐐",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "**My read so far:** 🛷🧤🧣🏆 is a winter sledding competition or championship (luge, bobsleigh, skeleton, or maybe a sled dog race). The second line looks like three pieces added together, maybe syllables of a name or place, or three parts of the event.\n\n- 😤👿 could be \"angry devil,\" \"mad,\" \"fury,\" \"demon,\" or \"Teufel.\"\n- 🌉🛥️ could be \"bridge + boat,\" which might mean ferry, port, or river crossing (\"-bruck\" as in Innsbruck?).\n- 🧗🐐 could be \"climbing goat,\" which might mean ibex, chamois, \"Steinbock,\" or mountain.\n\n**Questions:**\n1. Is it a specific event or championship (for example, a particular year's World Championships), rather than a person?\n2. Are the three ➕ parts pieces of a name you're spelling out? If so, are they in English or another language?\n3. Is 🛷 the actual sport (luge or bobsleigh), or a stand-in for something else, like a dog sled or skiing?\n\nNot guessing yet.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "The trophy misled them. Here I say it's a place you buy a ticket for, not an event, and confirm the parts are English. Goggles plus downhill should point toward skiing rather than sledding.\n\n<msg>\n👎🏆 ➡️ 📍🎟️🏢\n\n👍 🇬🇧 😤 ➕ 🌉 ➕ 🧗\n\n🛷🤏 ➡️ 🥽🧤⬇️⬇️\n</msg>",
+      "delivered": "👎🏆 ➡️ 📍🎟️🏢\n👍 🇬🇧 😤 ➕ 🌉 ➕ 🧗\n🛷🤏 ➡️ 🥽🧤⬇️⬇️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "**What I've got:** it's not a championship. It's a place or venue (📍🎟️🏢) where you ride a small sled downhill with goggles and gloves, so a luge, skeleton or toboggan run, or a sledding hill or attraction. The name is built from English parts: 😤 + 🌉 + 🧗.\n\n**Candidate words for each part:**\n- 😤: Mad, Cross, Fury, Rage, Ire, Wrath, Huff, Steam, Hell (from 😤👿 earlier).\n- 🌉 (with 🛥️ earlier): Bridge, Ferry, Port, Ford, Pier, Dock.\n- 🧗 (with 🐐 earlier): Climb, Scale, Mount, Hill, Peak, Rock, Crag.\n\n**Questions:**\n1. Are those three parts whole words, or syllables that sound like parts of a single word?\n2. Which country is it in? Please send a flag.\n3. How many words are in the article title?\n4. Can you pin down 😤? Which of my words is right, or is it close?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "They listed \"Mad\" first, so I'm confirming their top pick, saying the title is three words, and steering them from \"bridge\" to the water under it and from \"climb\" to the big peak. 🗽🦅 stands in for the banned US flag, with corn and astronauts as Ohio hints.\n\n<msg>\n👍 🧩🧩🧩\n\n😤 ➡️ 🥇👍\n\n🌉 ➡️ ⬇️🚤\n\n🧗 ➡️ 🐐⬆️⬆️⬆️\n\n🗽🦅 🌽🧑‍🚀✈️\n</msg>",
+      "delivered": "👍 🧩🧩🧩\n😤 ➡️ 🥇👍\n🌉 ➡️ ⬇️🚤\n🧗 ➡️ 🐐⬆️⬆️⬆️\n🗽🦅 🌽🧑‍🚀✈️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I think the pieces are:\n- 😤 = **Mad**, since 🥇👍 says the first word on my list was right.\n- 🌉 = **River**, the thing under the bridge that boats go down.\n- 🧗 = **Mountain**, where the goat climbs up high.\n\nThe place is in Ohio (🌽🧑‍🚀✈️, for corn, astronauts and aviation), and 🥽🧤⬇️⬇️ says it's really about skiing downhill, not just sledding. That points to the ski resort in Zanesfield, Ohio.\n\nGUESS: Mad River Mountain",
+      "guess": "Mad River Mountain",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "3fa9d163-2d25-4cb1-824d-c9bda113f091",
+    "guesser": "393c739c-bd1d-4bcf-b777-7eb1ce23e9b2"
+  },
+  "ladder": {
+    "article_no": 7,
+    "round": 3,
+    "n_banned": 31,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

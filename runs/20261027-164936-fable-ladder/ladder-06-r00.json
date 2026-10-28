@@ -1,0 +1,72 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Jakob von Washington",
+    "description": "Bavarian general (1778–1848)",
+    "extract": "\nBaron Jacobus von Washington was a lieutenant general in the Bavarian Army and a distant relative of US President George Washington. Born in The Hague, Netherlands, he was christened James Washington. Most of his adult life was shaped by his participation in wars for and against Napoleonic France and his service to Ludwig I of Bavaria.",
+    "url": "https://en.wikipedia.org/wiki/Jakob_von_Washington"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 27.4,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1163,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 929,
+      "thinking_tokens": 799,
+      "cost_usd": 0.06973,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1005,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 883,
+      "thinking_tokens": 784,
+      "cost_usd": 0.06427,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🇺🇸👨‍🦳💵🍒🪓 🧬👨‍👩‍👧‍👦↔️↔️🔭\n👶🇳🇱🌷\n🥨🍺🏰🇩🇪 🪖🎖️🎖️🎖️⚔️\n⚔️🇫🇷👑🐎 👑🥨\n</msg>",
+      "delivered": "🇺🇸👨‍🦳💵🍒🪓 🧬👨‍👩‍👧‍👦↔️↔️🔭\n👶🇳🇱🌷\n🥨🍺🏰🇩🇪 🪖🎖️🎖️🎖️⚔️\n⚔️🇫🇷👑🐎 👑🥨",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "I think I've got it: a distant relative of George Washington (DNA/family/far/telescope), born in the Netherlands, who became a Bavarian/German general and fought against Napoleon's France for the Bavarian king — that's the Bavarian Washington family.\n\nGUESS: Jakob von Washington",
+      "guess": "Jakob von Washington",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "062961e5-68d0-4918-8825-7cb7d727c210",
+    "guesser": "55add183-3443-4bf6-b151-99f7593b9f64"
+  },
+  "ladder": {
+    "article_no": 6,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": "runs/20261027-153308-fable/game-06.json"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

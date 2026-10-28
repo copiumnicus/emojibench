@@ -1,0 +1,95 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "7's Football League",
+    "description": "Football league",
+    "extract": "The 7's Football League is a seven-a-side football league in the Philippines. Established in 2018, the league already had four seasons. It has a two-tiered men's division, a women's division, and youth divisions. The league is an open tournament with participation from representative sides of the domestic football competition, the Philippines Football League.",
+    "url": "https://en.wikipedia.org/wiki/7's_Football_League"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": {
+    "fraction": 0.5,
+    "seed": "v1",
+    "size": 936
+  },
+  "max_turns": 30,
+  "seconds": 57.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 7720,
+      "cache_read_input_tokens": 14827,
+      "output_tokens": 1504,
+      "thinking_tokens": 1037,
+      "cost_usd": 0.0978108,
+      "calls": 3,
+      "cost_usd_reported": 0.2456532
+    },
+    "guesser": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 2985,
+      "cache_read_input_tokens": 3029,
+      "output_tokens": 1944,
+      "thinking_tokens": 1576,
+      "cost_usd": 0.0640116,
+      "calls": 3,
+      "cost_usd_reported": 0.13885039999999998
+    },
+    "judge": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1391,
+      "cache_read_input_tokens": 690,
+      "output_tokens": 12,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0002917,
+      "calls": 3
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Football: no ⚽ on my keyboard, so I'll use foot + goal (🦶🥅). Seven: five fingers plus two fingers (🖐️✌️), then seven players on each side. Philippines: no 🇵🇭 flag, so I'll draw the flag's sun, three stars and blue, plus islands.\n\n<msg>\n🦶🥅\n🖐️✌️ 🏃🏃🏃🏃🏃🏃🏃 🆚 🏃🏃🏃🏃🏃🏃🏃\n☀️⭐⭐⭐🔵 🏝️🏝️🏝️\n</msg>",
+      "delivered": "🦶🥅\n🖐️✌️ 🏃🏃🏃🏃🏃🏃🏃 🏃🏃🏃🏃🏃🏃🏃\n☀️⭐⭐⭐🔵 🏝️🏝️🏝️",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Reading it: ⚽ football, 🖐️✌️ = 7, and two teams of 7 runners = **7-a-side football**. ☀️⭐⭐⭐🔵 + islands = the **Philippines** flag (sun and three stars).\n\nSo, a Philippine 7-a-side football team or competition? Is it a national team, a league, or a tournament? If I've misread something, please correct that part.\n\nGUESS: Philippines national 7-a-side football team",
+      "guess": "Philippines national 7-a-side football team",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n👍👍 🖐️✌️🦶🥅 ☀️⭐⭐⭐🔵\n👎 🇵🇬🇵🇬\n👥👥👥👥👥👥 🗓️🔄🔄🔄🔄\n🧔‍♀️🧔‍♀️ ⬇️ 🧔‍♀️ 👩🏻‍🤝‍👩🏼 🧒\n</msg>",
+      "delivered": "👍👍 🖐️✌️🦶🥅 ☀️⭐⭐⭐🔵\n👎 🇵🇬🇵🇬\n👥👥👥👥👥👥 🗓️🔄🔄🔄🔄\n🧔‍♀️🧔‍♀️ ⬇️ 🧔‍♀️ 👩🏻‍🤝‍👩🏼 🧒",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "So it's a Philippine 7-a-side football **league/competition**, not a national team. My reading: about 6 teams (👥×6), held every season (🗓️🔄), with men's divisions (🧔‍♀️🧔‍♀️⬇️) plus women's (👩🏻‍🤝‍👩🏼) and youth (🧒) categories. Is that right?\n\nCan you hint at the name? For example, does it contain \"League,\" \"Cup,\" \"Sevens,\" \"7s,\" or a sponsor or city name?\n\nGUESS: Philippine 7s Football League",
+      "guess": "Philippine 7s Football League",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "The guesser is very close. The real title is just \"7's Football League\", so I'll approve those parts and show that the \"Philippine\" part should be cut.\n\n<msg>\n👍 🖐️✌️ 🦶🥅 👥👥👥\n✂️❌ ☀️⭐⭐⭐🔵\n</msg>",
+      "delivered": "👍 🖐️✌️ 🦶🥅 👥👥👥\n✂️❌ ☀️⭐⭐⭐🔵",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Got it: drop \"Philippine\" from the title.\n\nGUESS: 7s Football League",
+      "guess": "7s Football League",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "d2aafc4c-678a-46a3-b547-ff104684de52",
+    "guesser": "d7798ddd-598c-43d9-a597-2df1f3987ec5"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

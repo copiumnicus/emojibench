@@ -1,0 +1,97 @@
+{
+  "model": "sonnet",
+  "model_id": "claude-sonnet-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Dorothy Cottrell",
+    "description": "Australian writer",
+    "extract": "Ida Dorothy Ottley Cottrell was an Australian writer. Born in Picton, she contracted infantile paralysis as a child and spent the rest of her life in a wheelchair. Cottrell married Walter Mackenzie Cottrell on 23 May 1922. Her first novel, The Singing Gold, was published in 1928. She wrote a story Wilderness Orphan (1936) which was the basis for the feature film Orphan of the Wilderness (1936). She lived for a time in the US and also worked as an artist and cartoonist.",
+    "url": "https://en.wikipedia.org/wiki/Dorothy_Cottrell"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 83.1,
+  "usage": {
+    "explainer": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 2443,
+      "cache_read_input_tokens": 4212,
+      "output_tokens": 649,
+      "thinking_tokens": 365,
+      "cost_usd": 0.0171324,
+      "calls": 4,
+      "cost_usd_reported": 0.041318
+    },
+    "guesser": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 4767,
+      "cache_read_input_tokens": 4805,
+      "output_tokens": 4986,
+      "thinking_tokens": 4263,
+      "cost_usd": 0.139834,
+      "calls": 4,
+      "cost_usd_reported": 0.2878798
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇦🇺👩✍️📖 ♿👩🎨 🐕🌿🎬 🪙✨🎶</msg>",
+      "delivered": "🇦🇺👩✍️📖 ♿👩🎨 🐕🌿🎬 🪙✨🎶",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "I'm reading this as an Australian woman writer or author who may be a disabled (wheelchair-using) artist. The other clues seem to be a dog, nature or plants, a film, and something about coins or money, sparkle and music.\n\nQuestions:\n1. Is the article about a single person, the Australian woman author herself?\n2. Is she disabled (wheelchair user), and also a painter or illustrator?\n3. Is 🐕🌿🎬 the title or subject of one of her works, like a children's book that became a film?\n4. Does 🪙✨🎶 point to an award, maybe a \"golden\" something, or a song title?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👍 👍 👍 👍 🪙✨🎶🔥 🎤🎶➡️🥇 📅1️⃣9️⃣2️⃣8️⃣</msg>",
+      "delivered": "👍 👍 👍 👍 🪙✨🎶🔥 🎤🎶➡️🥇 📅",
+      "dropped_chars": 8,
+      "retried": false,
+      "guesser": "So she's an Australian woman author and wheelchair-using painter or illustrator. One of her works about a dog in nature or the bush became a film, and something connected to it, maybe a song, went gold or to number one.\n\nQuestions:\n1. Can you spell out the dog work's title more literally with emojis, one word at a time?\n2. Is the dog a specific breed, like a cattle dog, dingo or kelpie?\n3. Roughly what era was she active? Send a decade if you can, e.g. 1950s.\n4. What first letter does her surname start with? Send the emoji letter or a word that starts with it.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🇦🇺 🐕🌿 🎬 👍 📅🕰️ 🎞️⬛⬜ 🧓👈 🐑🐕🔥 ☕🐄 ☕🏠</msg>",
+      "delivered": "🇦🇺 🐕🌿 🎬 👍 📅🕰️ 🎞️⬛⬜ 🧓👈 🐑🐕🔥 ☕🐄 ☕🏠",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "I'm picturing an old black-and-white Australian film about a sheepdog. Is the gold song connected to Slim Dusty's \"A Pub With No Beer\", or Gundagai and the \"Dog on the Tuckerbox\"? I'm not sure about ☕🐄 and ☕🏠. Do they mean milk/billy tea and a café/tea house?\n\nQuestions:\n1. Does the dog film's title contain the dog's name? If so, spell it with emojis.\n2. Is the gold record by Slim Dusty? (👍/👎)\n3. Is her surname or first name something I could depict, like a color, animal or object? Send it.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>👎 👎 📖1️⃣ 🎤🪙✨ 🎬 👶😢🏚️❌ 🌲🏞️🐾 ♿👩 🛏️👶 🇺🇸🏠</msg>",
+      "delivered": "👎 👎 📖 🎤🪙✨ 🎬 👶😢🏚️❌ 🌲🏞️🐾 ♿👩 🛏️👶 🇺🇸🏠",
+      "dropped_chars": 2,
+      "retried": false,
+      "guesser": "That fits Dorothy Cottrell: an Australian writer and artist who had polio, used a wheelchair, moved to the US, and wrote \"The Singing Gold\" (🪙✨🎶). Her \"Wilderness Orphan\" became the black-and-white film \"Orphan of the Wilderness\".\n\nGUESS: Dorothy Cottrell",
+      "guess": "Dorothy Cottrell",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "d994fe8e-339a-4814-a2b4-8e0970a8eb5f",
+    "guesser": "871d1956-bef5-4be2-91a4-bff68ec71349"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

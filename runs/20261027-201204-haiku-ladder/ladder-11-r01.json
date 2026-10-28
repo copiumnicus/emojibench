@@ -1,0 +1,114 @@
+{
+  "model": "haiku",
+  "model_id": "claude-haiku-5-5",
+  "guesser_model": "haiku",
+  "guesser_model_id": "claude-haiku-5-5",
+  "effort": null,
+  "article": {
+    "title": "Ayribobo",
+    "description": "Highest mountain of Turkmenistan",
+    "extract": "Ayribobo or Aýrybaba, officially named the Great Saparmyrat Turkmenbashi Peak in Turkmenistan since 2004, is a mountain in Central Asia. At 3,138 metres (10,295 ft) Aýrybaba is the highest mountain in Turkmenistan. It is located in the Köýtendag Range of the Pamir-Alay chain in the southeast of Turkmenistan on the Uzbekistani border.",
+    "url": "https://en.wikipedia.org/wiki/Ayribobo"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 47.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 8,
+      "cache_creation_input_tokens": 3601,
+      "cache_read_input_tokens": 6324,
+      "output_tokens": 1651,
+      "thinking_tokens": 1371,
+      "cost_usd": 0.0016097400000000001,
+      "calls": 4,
+      "cost_usd_reported": 0.00409152
+    },
+    "guesser": {
+      "input_tokens": 8,
+      "cache_creation_input_tokens": 3486,
+      "cache_read_input_tokens": 4940,
+      "output_tokens": 3289,
+      "thinking_tokens": 2315,
+      "cost_usd": 0.0023918999999999998,
+      "calls": 4,
+      "cost_usd_reported": 0.005434350000000001
+    },
+    "judge": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 1406,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 294,
+      "thinking_tokens": 286,
+      "cost_usd": 0.0004286,
+      "calls": 2
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🗻❄️🏔️ ➡️ ⛰️? 🌏📍 🇺🇿🏜️🐫 🌄</msg>",
+      "delivered": "🗻❄️ ➡️ 🌏📍 🇺🇿🏜️🐫 🌄",
+      "dropped_chars": 3,
+      "off_keyboard": [
+        "🏔️",
+        "⛰️"
+      ],
+      "retried": false,
+      "guesser": "Here's my reading so far: 🗻❄️ suggests a snowy mountain, ➡️ a direction or movement, 🌏📍 a location in Asia, 🇺🇿 Uzbekistan, 🏜️🐫 desert and camels, and 🌄 a sunrise or mountain landscape.\n\nMy hypothesis is a village or settlement in Uzbekistan near desert and mountains, possibly in Karakalpakstan or near the Kyzylkum.\n\nQuestions:\n1. Is the article about a place (village, town, district)?\n2. Is it about a person, such as an athlete or politician?\n3. Is it about a natural feature, such as a mountain range, river, or lake?\n4. Does ➡️ mean the article is about a route or a border crossing?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👎 1️⃣ 👎 2️⃣ 🔥 3️⃣ ↗️ 4️⃣ 🗻❄️🌨️ 🇺🇿↔️🗺️ 📏🔝</msg>",
+      "delivered": "👎 👎 🔥 ↗️ 🗻❄️🌨️ 🇺🇿↔️🗺️ 📏",
+      "dropped_chars": 9,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Reading this turn: 👎👎 probably means no and no, so the article is likely not about a person or a village. 🔥↗️ could mean a high or hot elevated area, 🗻❄️🌨️ a snowy mountain, 🇺🇿↔️🗺️ a border or crossing in Uzbekistan, and 📏 a measurement such as length or height.\n\nMy new hypothesis is a mountain range, pass, or river that starts in snowy mountains and crosses into or runs along the Uzbekistan border. The Zarafshan River or a peak on the Tajikistan–Uzbekistan border are candidates.\n\nQuestions:\n1. Is it a river?\n2. Is it a mountain or mountain range?\n3. Is the 📏 about length (for a river) or height (for a mountain)?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>👎 1️⃣ 🔥 2️⃣ 🔝📏 3️⃣ 🥇🗻 🏜️🐫 🇺🇿🤏 📍↙️</msg>",
+      "delivered": "👎 🔥 📏 🥇🗻 🏜️🐫 🇺🇿🤏 📍↙️",
+      "dropped_chars": 7,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Reading this turn: 👎 means not a river, 🔥📏 suggests a high elevation being measured, 🥇🗻 a highest peak, 🏜️🐫 desert, 🇺🇿🤏 a small part of Uzbekistan, and 📍↙️ a location to the southwest.\n\nMy hypothesis is a peak or mountain that is the highest point of a region or of a particular range, located in Uzbekistan. Candidates include Hazrat Sultan, Adelung Peak, and other high points in the Tian Shan or Pamir-Alai.\n\nLet me test one: is the article a mountain peak named after a person or saint? Is it in the southern part of Uzbekistan, such as Surxondaryo?\n\nGUESS: Hazrat Sultan",
+      "guess": "Hazrat Sultan",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>❌🇺🇿 🐫🏜️ ↙️ 🥇🔝 🏷️🔄 👑📛 🇺🇿➡️↙️</msg>",
+      "delivered": "❌🇺🇿 🐫🏜️ ↙️ 🥇 🏷️🔄 👑📛 🇺🇿➡️↙️",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Reading this turn: ❌🇺🇿 means the article is not in Uzbekistan. 🐫🏜️ suggests desert with camels, ↙️ southwest, 🥇 highest point, 🏷️🔄 a renamed place, and 👑📛 a name tied to a royal or title. 🇺🇿➡️↙️ means it lies southwest of Uzbekistan.\n\nThat points to Turkmenistan, the Karakum desert, or the Kopet Dag range. Turkmenistan's highest point is a strong candidate, and it may have been renamed.\n\nGUESS: Ayrybaba",
+      "guess": "Ayrybaba",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "81fc9e8b-a8b4-4648-8992-e31589018bff",
+    "guesser": "9411342b-bfcf-4277-b338-3059113dfc0e"
+  },
+  "ladder": {
+    "article_no": 11,
+    "round": 1,
+    "n_banned": 5,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

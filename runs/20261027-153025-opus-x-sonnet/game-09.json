@@ -1,0 +1,97 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "sonnet",
+  "guesser_model_id": "claude-sonnet-5-5",
+  "effort": null,
+  "article": {
+    "title": "Jovan Hadži-Vasiljević",
+    "description": "Serbian historian, ethnographer, journalist and writer",
+    "extract": "Jovan Hadži-Vasiljević was a Serbian historian, ethnographer, journalist and writer.",
+    "url": "https://en.wikipedia.org/wiki/Jovan_Had%C5%BEi-Vasiljevi%C4%87"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 57.1,
+  "usage": {
+    "explainer": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 2725,
+      "cache_read_input_tokens": 4824,
+      "output_tokens": 1346,
+      "thinking_tokens": 931,
+      "cost_usd": 0.0507056,
+      "calls": 4,
+      "cost_usd_reported": 0.1264538
+    },
+    "guesser": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 2716,
+      "cache_read_input_tokens": 4190,
+      "output_tokens": 1578,
+      "thinking_tokens": 1164,
+      "cost_usd": 0.02751,
+      "calls": 4,
+      "cost_usd_reported": 0.0673088
+    },
+    "judge": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1441,
+      "cache_read_input_tokens": 719,
+      "output_tokens": 12,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00030199000000000003,
+      "calls": 3
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇷🇸 👨 📜🏛️ 🧑‍🌾👘🎻 📰✍️ 📚</msg>",
+      "delivered": "🇷🇸 👨 📜🏛️ 🧑‍🌾👘🎻 📰✍️ 📚",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "I see Serbia, a man, and a newspaper/writing/books theme. He could be a Serbian writer or journalist, perhaps 19th century, since the emojis suggest folk or rural life and music.\n\nQuestions:\n1. Is he a writer, a poet, or a politician?\n2. Is he from the 19th century or earlier?\n\nGUESS: Vuk Stefanović Karadžić",
+      "guess": "Vuk Stefanović Karadžić",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>✍️👍 📜👍 📰👍 🎭👎 🏛️👎\n🕰️ ↗️ 1️⃣ 🔚 ⏳➡️ 🌍⚔️⚔️\n👎 Vuk 👍 🔥 🇷🇸 🧑‍🏫📜🧑‍🌾\n\n🗣️ 🏷️ ➡️ 🕋🚶‍♂️ ➖ 🌿👦</msg>",
+      "delivered": "✍️👍 📜👍 📰👍 🎭👎 🏛️👎\n🕰️ ↗️ ⏳➡️ 🌍⚔️⚔️\n👎 👍 🔥 🇷🇸 🧑‍🏫📜🧑‍🌾\n🗣️ 🏷️ ➡️ 🕋🚶‍♂️ ➖ 🌿👦",
+      "dropped_chars": 6,
+      "retried": false,
+      "guesser": "Understood so far: a writer and journalist, not tied to theatre, active around the time of a world war, a teacher, and perhaps nicknamed \"Hadži\" after a pilgrimage.\n\nIs the \"Hadži\" a nickname or title of his? Was he a folklorist or ethnographer? Was he a WWI-era war correspondent?\n\nGUESS: Tihomir Đorđević",
+      "guess": "Tihomir Đorđević",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🕋🚶‍♂️ 👍👍 🏷️ ➕ 🌿👶 \n🧑‍🌾👘📜 👍🔥\n🕋🚶‍♂️ ➖ 🌿🌿🌿 ➡️ 👶</msg>",
+      "delivered": "🕋🚶‍♂️ 👍👍 🏷️ ➕ 🌿👶\n🧑‍🌾👘📜 👍🔥\n🕋🚶‍♂️ ➖ 🌿🌿🌿 ➡️ 👶",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Understood: a name linked to the Hajji pilgrimage plus a plant or child element, and strongly tied to folk life and writing. Could the name contain something like \"Cvet\" (flower) or \"Mladen\"?\n\nGUESS: Hadži Ruvim",
+      "guess": "Hadži Ruvim",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>👎🌸 👎👶\n🕋🚶‍♂️ ➖ 👑🇬🇷 ➡️ 🌿 ➡️ 👨‍👦\n🧔💧✝️ ➡️ 🕋🚶‍♂️➖👑🌿</msg>",
+      "delivered": "👎🌸 👎👶\n🕋🚶‍♂️ ➖ 👑🇬🇷 ➡️ 🌿 ➡️ 👨‍👦\n🧔💧✝️ ➡️ 🕋🚶‍♂️➖👑🌿",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "The hint reads as Hajji minus a Greek crown (basileus), giving basil, so Vasilije, and \"son of\" gives Vasiljević.\n\nGUESS: Jovan Hadži-Vasiljević",
+      "guess": "Jovan Hadži-Vasiljević",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "35a62876-8c53-4823-80ce-ae47d26b418d",
+    "guesser": "4dddf37a-ab73-468d-b5f0-3b1a24573536"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

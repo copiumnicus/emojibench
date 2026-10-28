@@ -1,0 +1,75 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Sage Derby",
+    "description": "Variety of cheese",
+    "extract": "Sage Derby is a variety of Derby cheese that is mild, mottled green and semi-hard, and has a sage flavour. The colour is from sage and sometimes other colouring added to the curds, producing a marbling effect and a subtle herb flavour. The colour is formed either by mixing sage leaves into the curd before it is pressed or by the addition of \"green curd\" from green corn or spinach juice. In the latter case, the flavour has to be created with colourless sage extract. Parsley, spinach and marigold leaves, bruised and steeped before use, can also be included instead of the sage leaves. It is aged for one to three months.",
+    "url": "https://en.wikipedia.org/wiki/Sage_Derby"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 56.4,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 958,
+      "cache_read_input_tokens": 577,
+      "output_tokens": 2747,
+      "thinking_tokens": 2667,
+      "cost_usd": 0.15667425000000001,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 993,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 667,
+      "thinking_tokens": 531,
+      "cost_usd": 0.05323,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🐮🧈🍕🟨\n🟨🥦🟨🥦🟨 🪴🧂\n🧠🎓👵\n🛼🎠🦄🏎️\n👑🌧️🚂\n</msg>",
+      "delivered": "🐮🧈🍕🟨\n🟨🥦🟨🥦🟨 🪴🧂\n🧠🎓👵\n🛼🎠🦄🏎️\n👑🌧️🚂",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Cheese (🐮🧈🍕🟨) that's marbled yellow and green with an herb — the herb is \"sage\" (🧠🎓👵 = wise/sage), and 🛼🎠🦄🏎️ = Derby (roller derby, Kentucky Derby), with 👑🌧️🚂 = Royal Crown Derby / Derby, England.\n\nGUESS: Sage Derby",
+      "guess": "Sage Derby",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "3e84e513-5a2c-45aa-bf0b-18afb23df710",
+    "guesser": "2af4dadc-02fe-4b22-a02e-6f60ff00b9a2"
+  },
+  "ladder": {
+    "article_no": 19,
+    "round": 3,
+    "n_banned": 42,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

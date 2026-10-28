@@ -1,0 +1,88 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Mad River Mountain",
+    "description": "Ski resort in Ohio, United States",
+    "extract": "Mad River Mountain is a ski and snowboard resort in Valley Hi, Ohio, United States. The elevation of Mad River Mountain is 1,460 feet (450 m) with a vertical drop of 300 ft (91 m), and it has a ski season that runs from approximately mid-December through mid-March. The resort, which opened in 1962 as Valley Hi Ski Area, is owned by EPR Properties and operated by Vail Resorts, who bought the resort from Peak Resorts in 2019.",
+    "url": "https://en.wikipedia.org/wiki/Mad_River_Mountain"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 60.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 3085,
+      "cache_read_input_tokens": 2137,
+      "output_tokens": 2700,
+      "thinking_tokens": 2351,
+      "cost_usd": 0.07955880000000001,
+      "calls": 2,
+      "cost_usd_reported": 0.12307879999999999
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2108,
+      "cache_read_input_tokens": 939,
+      "output_tokens": 1618,
+      "thinking_tokens": 1252,
+      "cost_usd": 0.049623600000000004,
+      "calls": 2,
+      "cost_usd_reported": 0.0782958
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 710,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0001442,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Breaking it into parts: \"Mad\" → 😾🗯️ (angry faces are banned), \"River\" → 🦦〰️ (river otter plus wavy water), \"Mountain\" → 🌄🚵 (sunrise over mountains, mountain biker). The second line hints at winter sports, since the skiing and snow emojis are banned.\n\n<msg>\n😾🗯️ 🦦〰️ 🌄🚵\n\n🧊⛸️🌬️🧥\n</msg>",
+      "delivered": "😾🗯️ 🦦〰️ 🌄🚵\n🧊⛸️🌬️🧥",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I'm reading line 1 as possible name parts: 😾🗯️ might be \"wild cat\" or \"bobcat\", or maybe a hiss or growl. 🦦〰️ might be \"Otter Creek\" or \"Otter Lake\". 🌄🚵 is mountain biking. Line 2 looks like winter: ice skating, cold wind, coats.\n\nMy working idea is a park or recreation area, maybe a ski hill, with mountain biking in summer and skating in winter.\n\nQuestions:\n1. Is it a place? Show 📍 for yes or 🧑 if it's a person or thing.\n2. Is line 1 sounding out the name? Show ✅ or ❌.\n3. Which country? Show a flag.\n\nGUESS: Wildcat Mountain Ski Area",
+      "guess": "Wildcat Mountain Ski Area",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "Answering the guesser: it is a place (✅🗺️, since 📍 is banned). Line 1 sounds out the name, but 😾🗯️ means \"mad\" (crazy/angry), not a cat. 🦦 stands for \"river\", not otter. The mountain part is right. The US flag is banned, so I'm pointing to the US with 🍔🏈.\n\n<msg>\n✅🗺️\n\n😾🗯️ 👉 🤯🥴\n🦦 👉 〰️〰️\n🌄 👉 ✅\n\n🍔🏈\n</msg>",
+      "delivered": "✅🗺️\n😾🗯️ 👉 🤯🥴\n🦦 👉 〰️〰️\n🌄 👉 ✅\n🍔🏈",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Here's how I read it. 😾 means \"Mad\", and 🦦〰️〰️ is the otter's river, so \"River\". 🌄 confirms \"Mountain\", and 🍔🏈 points to the USA. Together that gives Mad River Mountain, the ski area in Ohio.\n\nGUESS: Mad River Mountain",
+      "guess": "Mad River Mountain",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "a3c98562-7634-4e7e-8a1b-7afe3878fa1c",
+    "guesser": "f309733a-ab1d-423e-8e0f-7a258b15f7b0"
+  },
+  "ladder": {
+    "article_no": 7,
+    "round": 4,
+    "n_banned": 61,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

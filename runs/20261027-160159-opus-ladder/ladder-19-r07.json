@@ -1,0 +1,195 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Sage Derby",
+    "description": "Variety of cheese",
+    "extract": "Sage Derby is a variety of Derby cheese that is mild, mottled green and semi-hard, and has a sage flavour. The colour is from sage and sometimes other colouring added to the curds, producing a marbling effect and a subtle herb flavour. The colour is formed either by mixing sage leaves into the curd before it is pressed or by the addition of \"green curd\" from green corn or spinach juice. In the latter case, the flavour has to be created with colourless sage extract. Parsley, spinach and marigold leaves, bruised and steeped before use, can also be included instead of the sage leaves. It is aged for one to three months.",
+    "url": "https://en.wikipedia.org/wiki/Sage_Derby"
+  },
+  "solved": false,
+  "turns_taken": 3,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": true,
+  "max_turns": 30,
+  "seconds": 141.4,
+  "usage": {
+    "explainer": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 6018,
+      "cache_read_input_tokens": 8044,
+      "output_tokens": 4887,
+      "thinking_tokens": 4459,
+      "cost_usd": 0.14753280000000002,
+      "calls": 3
+    },
+    "guesser": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 4983,
+      "cache_read_input_tokens": 3401,
+      "output_tokens": 5237,
+      "thinking_tokens": 4633,
+      "cost_usd": 0.14532420000000001,
+      "calls": 3
+    },
+    "judge": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2087,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 61,
+      "thinking_tokens": 49,
+      "cost_usd": 0.0004485,
+      "calls": 3
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "claude-opus-5-5",
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 1255,
+        "cache_read_input_tokens": 577,
+        "output_tokens": 3536,
+        "thinking_tokens": 3420,
+        "cost_usd": 0.0808834,
+        "duration_ms": 43445
+      },
+      {
+        "model": "claude-opus-5-5",
+        "input_tokens": 4,
+        "cache_creation_input_tokens": 3803,
+        "cache_read_input_tokens": 1832,
+        "output_tokens": 716,
+        "thinking_tokens": 587,
+        "cost_usd": 0.04512640000000001,
+        "duration_ms": 10306
+      },
+      {
+        "model": "claude-opus-5-5",
+        "input_tokens": 4,
+        "cache_creation_input_tokens": 960,
+        "cache_read_input_tokens": 5635,
+        "output_tokens": 635,
+        "thinking_tokens": 452,
+        "cost_usd": 0.021523000000000014,
+        "duration_ms": 9782
+      }
+    ],
+    "guesser": [
+      {
+        "model": "claude-opus-5-5",
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 932,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 1467,
+        "thinking_tokens": 1242,
+        "cost_usd": 0.036803999999999996,
+        "duration_ms": 18183
+      },
+      {
+        "model": "claude-opus-5-5",
+        "input_tokens": 4,
+        "cache_creation_input_tokens": 1537,
+        "cache_read_input_tokens": 932,
+        "output_tokens": 2426,
+        "thinking_tokens": 2224,
+        "cost_usd": 0.06101840000000001,
+        "duration_ms": 31962
+      },
+      {
+        "model": "claude-opus-5-5",
+        "input_tokens": 4,
+        "cache_creation_input_tokens": 2514,
+        "cache_read_input_tokens": 2469,
+        "output_tokens": 1344,
+        "thinking_tokens": 1167,
+        "cost_usd": 0.04750180000000001,
+        "duration_ms": 16551
+      }
+    ],
+    "judge": [
+      {
+        "model": "claude-haiku-5-5",
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 696,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 0.0001414,
+        "duration_ms": 923
+      },
+      {
+        "model": "claude-haiku-5-5",
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 694,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 53,
+        "thinking_tokens": 49,
+        "cost_usd": 0.00016549999999999998,
+        "duration_ms": 921
+      },
+      {
+        "model": "claude-haiku-5-5",
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 697,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 0.0001416,
+        "duration_ms": 1486
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "I can't use 🧀 or 🌿, so I'll suggest cheese with a sponge and a water buffalo (dairy) and green with green things. For \"sage\" I'll use a wise old woman, a witch and a leaf.\n\n<msg>\n🐃🧽\n\n📗🐢🍵 🍂\n\n👵🧙‍♀️\n</msg>",
+      "delivered": "🐃🧽\n📗🐢🍵 🍂\n👵🧙‍♀️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Here's how I read it:\n- 🐃🧽 looks like a bovine plus something spongy. My first thought is a bolete (a mushroom with spongy pores), something like the \"bovine bolete.\"\n- 📗🐢🍵🍂 might be green, slow, tea and autumn, or a turtle-coloured cap.\n- 👵🧙‍♀️ might mean old woman or witch, maybe a folk name like \"Old Man of the Woods\" or a witch's bolete.\n\nAm I in the right area (fungus, bolete)? If not, send 👎. If it's the right kind of thing but the wrong species, send something like ↔️.\n\nGUESS: Suillus bovinus",
+      "guess": "Suillus bovinus",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "The guesser read it as a mushroom, so I need to say no to that and push harder on cheese. 👎 is banned, so I'll use 🚫. Milk turning into a holey block you slice, plus a moon (made of cheese) and \"say cheese\" for a photo.\n\n<msg>\n🚫🍄\n\n🐃🍶👉🧽🔪\n\n🌙 😃📹\n</msg>",
+      "delivered": "🚫🍄\n🐃🍶👉🧽🔪\n🌙 😃📹",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "So it's not a fungus. My new reading is that it's made from buffalo milk (🐃🍶) and becomes spongy and gets cut (🧽🔪). That sounds like a fresh cheese or curd. The 🍂 could mean it's wrapped in leaves, maybe banana leaves. I can't decode 👵🧙‍♀️ or 🌙😃📹 yet. Is that a folk story, or a film or TV connection?\n\nQuestions:\n1. Is it a food or dish? Reply 👍 or 👎.\n2. Which country? Please send a flag.\n\nGUESS: Kesong puti",
+      "guess": "Kesong puti",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "The guesser has worked out it's a cheese, so I'll confirm that and point to England with a guard and crown, since the UK and England flags are banned. For \"sage\" I'll stress wise (old woman plus a lightbulb) and herb (leaf in the green cheese). For \"Derby\" I'll hint at a race with a zebra and a donkey, since horse emojis are banned.\n\n<msg>\n👍\n\n💂👑☕\n\n🍂👉📗🐢\n\n💡👵 \n\n🦓🫏🏃‍♂️🏃‍♂️\n</msg>",
+      "delivered": "👍\n💂👑☕\n🍂👉📗🐢\n💡👵\n🦓🫏🏃‍♂️🏃‍♂️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Thanks. 💂👑☕ suggests a British teatime item. 🐃🧽 could be a water hint pointing to a bath sponge, so maybe the city of Bath. 💡👵 suggests a woman invented it or it's named after her. 🌙 could be \"Lunn\" (lune means moon). So I'm thinking of the Bath teacake that's cut in half horizontally.\n\nIf I'm wrong, tell me if it's sweet or savory, and whether \"Bath\" is right.\n\nGUESS: Sally Lunn bun",
+      "guess": "Sally Lunn bun",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": "6602383d-4382-4cdd-9bcb-9eef21dc6d2f",
+    "guesser": "24547726-a91f-4c1f-a0dd-cf522408cdee"
+  },
+  "ladder": {
+    "article_no": 19,
+    "round": 7,
+    "n_banned": 117,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

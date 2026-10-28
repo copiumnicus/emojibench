@@ -1,0 +1,157 @@
+{
+  "model": "sonnet",
+  "model_id": "claude-sonnet-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "7's Football League",
+    "description": "Football league",
+    "extract": "The 7's Football League is a seven-a-side football league in the Philippines. Established in 2018, the league already had four seasons. It has a two-tiered men's division, a women's division, and youth divisions. The league is an open tournament with participation from representative sides of the domestic football competition, the Philippines Football League.",
+    "url": "https://en.wikipedia.org/wiki/7's_Football_League"
+  },
+  "solved": true,
+  "turns_taken": 10,
+  "solved_turn": 10,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 152.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 38,
+      "cache_creation_input_tokens": 4855,
+      "cache_read_input_tokens": 23756,
+      "output_tokens": 974,
+      "thinking_tokens": 149,
+      "cost_usd": 0.0339872,
+      "calls": 10,
+      "cost_usd_reported": 0.1895313
+    },
+    "guesser": {
+      "input_tokens": 38,
+      "cache_creation_input_tokens": 7246,
+      "cache_read_input_tokens": 35530,
+      "output_tokens": 5605,
+      "thinking_tokens": 4053,
+      "cost_usd": 0.18443199999999998,
+      "calls": 10,
+      "cost_usd_reported": 1.0574634
+    },
+    "judge": {
+      "input_tokens": 20,
+      "cache_creation_input_tokens": 4157,
+      "cache_read_input_tokens": 2771,
+      "output_tokens": 40,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0008811099999999999,
+      "calls": 10
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>⚽🏆🇵🇭 🏝️🥅👟 🏟️👥👥</msg>",
+      "delivered": "⚽🏆🇵🇭 🏝️🥅👟 🏟️👥👥",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "I'm reading this as football (soccer) in the Philippines, possibly tied to an island, with a trophy, so maybe a club, league or tournament.\n\nQuestions:\n1. Is it a **club/team** (👥), a **league/tournament** (🏆), or a **single season** (📅)?\n2. Is it men's or women's (👨/👩)?\n3. Is it from a specific island or region? Please show it (e.g., 🌋 for Bicol, 🏙️ for Manila).\n\nGUESS: Philippines Football League",
+      "guess": "Philippines Football League",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🏆👍 🔥 7️⃣ 👨👩🧒 ⚽👥</msg>",
+      "delivered": "🏆👍 🔥 👨👩🧒 ⚽👥",
+      "dropped_chars": 2,
+      "retried": false,
+      "guesser": "So it's a **tournament** 🏆. 🔥 might mean \"hot / popular / intense\" or part of the name, and 👨👩🧒 might mean family, community, or all ages (youth plus adults).\n\nQuestions:\n1. Is 🔥 part of the **name**, or does it describe it (e.g., a rivalry or \"hot\" event)?\n2. Is it a **specific year or season** of the tournament? Please show digits like 2️⃣0️⃣1️⃣9️⃣.\n3. Which island or region: Luzon, Visayas (e.g., Cebu, Panay, Negros), or Mindanao? Point to it somehow.\n4. Is it a youth or grassroots tournament (🧒)?\n\nGUESS: Copa Paulino Alcantara",
+      "guess": "Copa Paulino Alcantara",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🔥👎 👨👩🧒👍 ⚽⚽⚽⚽⚽⚽⚽ 🏆 🇵🇭 🗓️</msg>",
+      "delivered": "🔥👎 👨👩🧒👍 ⚽⚽⚽⚽⚽⚽⚽ 🏆 🇵🇭 🗓️",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "So it's a **youth/grassroots tournament** with lots of teams or games (⚽×7), held regularly (🗓️), maybe annually.\n\nQuestions:\n1. Do the 7 balls mean **many teams**, a **7-a-side** format, or a number like the 7th edition?\n2. Is it held on a specific island, like **Cebu**? Is the 🏝️ from your first message a real clue?\n3. Is the 🗓️ about it being **annual**, or about a specific year/edition?\n\nGUESS: Aboitiz Football Cup",
+      "guess": "Aboitiz Football Cup",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>👍 7-a-side 👍 ⚽⚽⚽⚽⚽⚽⚽ 🏆 🏝️👎 🗓️👍 🔢 👥🆚👥 👨👩🧒 🏆🏆</msg>",
+      "delivered": "👍 👍 ⚽⚽⚽⚽⚽⚽⚽ 🏆 🏝️👎 🗓️👍 👥👥 👨👩🧒 🏆🏆",
+      "dropped_chars": 10,
+      "retried": false,
+      "guesser": "I think 👨👩🧒 + 🏆🏆 means **men's, women's and juniors/boys divisions**, each with its own trophy. That fits a **collegiate/school league** like the UAAP or NCAA (Philippines).\n\nQuestions:\n1. Is it a **university/school** competition (🎓)? UAAP or NCAA?\n2. Is it a **specific season** (e.g., \"UAAP Season 80 football tournaments\")? If so, send the season number as digits.\n\nGUESS: UAAP Football Championship",
+      "guess": "UAAP Football Championship",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>🎓👎 ⚽ 7️⃣ 🏟️ 🔤 ⚽⚽⚽⚽⚽⚽⚽ 🏆 🇵🇭 🆕2018 👥 🔄 🏅 🥇🥈 ⚽🏆 🏟️ ⬆️⬇️ 2️⃣ 🏅 PFL ⚽🔗</msg>",
+      "delivered": "🎓👎 ⚽ 🏟️ ⚽⚽⚽⚽⚽⚽⚽ 🏆 🇵🇭 👥 🔄 🏅 🥇🥈 ⚽🏆 🏟️ ⬆️⬇️ 🏅 ⚽🔗",
+      "dropped_chars": 13,
+      "retried": false,
+      "guesser": "**Promotion/relegation** (⬆️⬇️) with rounds (🔄) and divisions points me to the **United Football League (UFL)** in the Philippines, which had Division 1 and Division 2. 👨👩🧒 could mean \"united\".\n\nIf that's right, is it a **specific season** (send the year as digits) or **Division 2** specifically?\n\nGUESS: United Football League (Philippines)",
+      "guess": "United Football League (Philippines)",
+      "correct": false
+    },
+    {
+      "turn": 6,
+      "explainer_raw": "<msg>👍 ⚽⚽⚽⚽⚽⚽⚽ 🏆 🇵🇭 🆕 🕖 📛 🎰 🥅 🏃🏃🏃🏃🏃🏃🏃 🤏🏟️ 🔗 🇵🇭⚽🏆 👨 👩 🧒</msg>",
+      "delivered": "👍 ⚽⚽⚽⚽⚽⚽⚽ 🏆 🇵🇭 🕖 📛 🎰 🥅 🏃🏃🏃🏃🏃🏃🏃 🤏🏟️ 🔗 🇵🇭⚽🏆 👨 👩 🧒",
+      "dropped_chars": 1,
+      "retried": false,
+      "guesser": "Now I get it: 🕖 + 🏃×7 + 🤏🏟️ = a **7-a-side (small-sided) football tournament** in the Philippines, with men's, women's and kids' divisions. 🎰 might mean \"777\" → \"Sevens\" in the name, or a sponsor.\n\nQuestions:\n1. Is the word **\"Sevens\"** or **\"7s\"** in the title?\n2. Is a **city or place** in the title? Show it if you can (🏙️ Manila? 🏝️ another island?).\n3. Is a **sponsor/brand** in the title (🎰)?\n\nGUESS: Manila Sevens",
+      "guess": "Manila Sevens",
+      "correct": false
+    },
+    {
+      "turn": 7,
+      "explainer_raw": "<msg>👍 \"7's\" 📛 🕖 ⚽ 🏆 🏟️ 🏙️👎 🏷️👎 🧩 ⚽🏆 ➡️ 🕖 ⚽ 🏆 🔠👎</msg>",
+      "delivered": "👍 📛 🕖 ⚽ 🏆 🏟️ 🏙️👎 🏷️👎 🧩 ⚽🏆 ➡️ 🕖 ⚽ 🏆 👎",
+      "dropped_chars": 6,
+      "retried": false,
+      "guesser": "\"Sevens\" is in the title, with no city and no sponsor. Let's pin down the exact title word by word.\n\n1. Is **\"Philippine\"/\"Philippines\"** in the title?\n2. Is **\"Football\"** in the title?\n3. Is it a **\"League\"**, **\"Cup\"**, **\"Championship\"**, or **\"Tournament\"**?\n4. If you can, spell the other words with letter emojis (🇦🇧🇨... or 🅰️🅱️).\n\nGUESS: Philippine Football Sevens",
+      "guess": "Philippine Football Sevens",
+      "correct": false
+    },
+    {
+      "turn": 8,
+      "explainer_raw": "<msg>🕖 ⚽ 🏆 🔁🔁🔁🔁 🗓️ 🇵🇭 ❌🇵🇭 📛 ⚽ 🏆 League 🥇 🕖➕⚽➕🏆</msg>",
+      "delivered": "🕖 ⚽ 🏆 🔁🔁🔁🔁 🗓️ 🇵🇭 ❌🇵🇭 📛 ⚽ 🏆 🥇 🕖➕⚽➕🏆",
+      "dropped_chars": 6,
+      "retried": false,
+      "guesser": "So the title is something like **Sevens + Football + 🏆**, without \"Philippines\". Is the 🏆 word \"Cup\" (🏆), \"League\" (📋), or \"Championship\" (🥇)? Please answer with just one of those emojis. Are there any other words in the title?\n\nGUESS: Sevens Football Cup",
+      "guess": "Sevens Football Cup",
+      "correct": false
+    },
+    {
+      "turn": 9,
+      "explainer_raw": "<msg>📋 🕖 ⚽ 📋 👍 🥇 👎 🏆 👎 🤏🏟️ 🕖'🅂 </msg>",
+      "delivered": "📋 🕖 ⚽ 📋 👍 🥇 👎 🏆 👎 🤏🏟️ 🕖",
+      "dropped_chars": 2,
+      "retried": false,
+      "guesser": "So it's a **League**, not a Cup or Championship.\n\nGUESS: Sevens Football League",
+      "guess": "Sevens Football League",
+      "correct": false
+    },
+    {
+      "turn": 10,
+      "explainer_raw": "<msg>🔥 ↗️ 🕖 ⚽ 📋 🇵🇭 🔢👎 \"Sevens\"👎 7️⃣ 🕖🔤 ✏️ 7's</msg>",
+      "delivered": "🔥 ↗️ 🕖 ⚽ 📋 🇵🇭 👎 👎 🕖 ✏️",
+      "dropped_chars": 15,
+      "retried": false,
+      "guesser": "Getting warmer 🔥↗️, and the **7 is written differently** ✏️. Is it the digit **\"7s\"**, **\"Seven\"**, or **\"Seven-a-side\"**? Use 7️⃣ for the digit, 🔤 for the word, or ➖ for a hyphenated \"-a-side\".\n\nGUESS: 7s Football League",
+      "guess": "7s Football League",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "51488b84-978e-42f5-be26-e327c307d831",
+    "guesser": "0f4bda54-9388-4e17-91e4-e75dd214ef51"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

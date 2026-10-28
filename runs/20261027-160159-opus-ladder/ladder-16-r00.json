@@ -1,0 +1,69 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Grande Seca",
+    "description": "Brazilian drought (1877–1878)",
+    "extract": "The Grande Seca, or the Brazilian drought of 1877–1878, was the largest and most devastating drought in Brazilian history. It caused the deaths of between 400,000 and 500,000 people. Of the 800,000 people who lived in the affected Northeastern region, around 120,000 migrated to the Amazon while 68,000 migrated to other parts of Brazil.",
+    "url": "https://en.wikipedia.org/wiki/Grande_Seca"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "max_turns": 30,
+  "seconds": 11.9,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1149,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 255,
+      "thinking_tokens": 146,
+      "cost_usd": 0.0143,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 961,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 384,
+      "thinking_tokens": 263,
+      "cost_usd": 0.015376,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🇧🇷 ☀️🔥🏜️ 🌧️❌ 🌾🥀 🐄💀\n💀💀💀💀💀 👥\n🚶‍♂️🚶‍♀️➡️🌳🦜🐍\n📜⏳ 🎩🚂\n</msg>",
+      "delivered": "🇧🇷 ☀️🔥🏜️ 🌧️❌ 🌾🥀 🐄💀\n💀💀💀💀💀 👥\n🚶‍♂️🚶‍♀️➡️🌳🦜🐍\n📜⏳ 🎩🚂",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "This looks like a catastrophic historical drought in Brazil's northeast (sertão): crops and cattle died, there was mass death, and survivors migrated to the Amazon. The top hat suggests the Empire under Dom Pedro II, and the train suggests relief railway construction. That points to the Great Drought of 1877–1878.\n\nGUESS: Grande Seca",
+      "guess": "Grande Seca",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "fd4f9053-832d-4ecc-876f-4710b94d2a76",
+    "guesser": "e7d72079-3a31-4b22-813b-2300afe1f1c3"
+  },
+  "ladder": {
+    "article_no": 16,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": "runs/20261027-151301-opus/game-16.json"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

@@ -1,0 +1,110 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Baggio–Yoshinari syndrome",
+    "description": "Medical condition",
+    "extract": "Baggio–Yoshinari syndrome (BYS), formerly known as the Brazilian Lyme disease-like illness (BLDLI) and Brazilian Human Borreliosis, is an anthropozoonotic infectious disease of infectious-reactional character transmitted by bites of ticks from Amblyomma, Rhipicephalus and Dermacentor genera, that clinically resembles the Lyme Disease (LD) seen in the northern hemisphere. It is postulated to be caused by mutant Borrelia burgdorferi sensu lato spirochetes that assumed atypical pleomorphic forms and latent behavior in an attempt to adapt to the Brazilian ecosystem, explaining many particularities of the condition relative to the classical Lyme Disease, such as being transmitted by ticks others than those within the Ixodes ricinus complex, the difficulty culturing the etiological agent in traditional medium (BSK-II) and the poor growing of the spirochetes in atypical medium (SP-4), the frequent reactivations due to evading and surviving antibiotic treatment and eliciting low and transient immune response to Borrelia burgdorferi sensu lato antigens because of the hiding from the immune system. The pleomorphic forms are thought to include round bodies resembling Chlamydia, non spiralled spirochete-like forms, blebs and cell wall deficient variants resembling Mycoplasma as seen in dark field microscopy and electron field microscopy searching bacteria in the blood of patients. Spirochete-like structures are seen in around 90% of the patients when analyzing their peripheral blood in dark field microscopy.",
+    "url": "https://en.wikipedia.org/wiki/Baggio%E2%80%93Yoshinari_syndrome"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 176.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 11914,
+      "cache_read_input_tokens": 25953,
+      "output_tokens": 10043,
+      "thinking_tokens": 9720,
+      "cost_usd": 0.3066092,
+      "calls": 4,
+      "cost_usd_reported": 1.0415678000000002
+    },
+    "guesser": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 3533,
+      "cache_read_input_tokens": 5594,
+      "output_tokens": 2990,
+      "thinking_tokens": 2472,
+      "cost_usd": 0.09035760000000001,
+      "calls": 4,
+      "cost_usd_reported": 0.23252640000000002
+    },
+    "judge": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2115,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 12,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00042960000000000003,
+      "calls": 3
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Tick bite, a target-like rash, fever and fatigue should point to Lyme disease first. Then I'll add Brazil.\n\n<msg>🌿🥾🏕️ 🕸️⌚ 🫦\n🛟 🥵 🥱</msg>",
+      "delivered": "🌿🥾🏕️ 🕸️⌚ 🫦\n🛟 🥵 🥱",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "My read: 🌿🥾🏕️ is a summer camp. 🛟🥵 could be \"Wet Hot,\" with the sexy 🫦 fitting that comedy. 🕸️⌚ (cobwebs plus a watch) suggests time has passed, maybe \"years later.\" I'm not sure about 🥱.\n\nGUESS: Wet Hot American Summer: Ten Years Later",
+      "guess": "Wet Hot American Summer: Ten Years Later",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "The guesser read it as a film. This message signals medicine first, then the tick.\n\n<msg>🚑🧪🩹\n🕸️⌚🕐 🫦\n🛟 🥵 🥱</msg>",
+      "delivered": "🚑🧪🩹\n🕸️⌚🕐 🫦\n🛟 🥵 🥱",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I think I've got it. 🚑🧪🩹 points to a medical topic, and 🕸️ plus ⌚🕐 suggests a spider with an hourglass marking, so a black widow. 🫦 would be the bite, and 🥵🥱 the symptoms (sweating, fatigue) after an outdoor encounter.\n\nGUESS: Latrodectism",
+      "guess": "Latrodectism",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "They are close: an arachnid bite is right. I need to push from spider to tick by using the sound a watch makes.\n\n<msg>🙂🕸️🫦 🚫⌛\n⌚🔊🔊\n🛟 🥵🥱🦶</msg>",
+      "delivered": "🙂🕸️🫦 🚫⌛\n⌚🔊🔊\n🛟 🥵🥱🦶",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Got it: it's like a spider bite (an arachnid), but not the hourglass black widow. ⌚🔊🔊 reads as \"tick tock,\" so a TICK bite. 🛟 could be a ring-shaped rash, 🥵 fever, 🥱 fatigue, and 🦶 maybe leg weakness or paralysis. If it's not Lyme, is it tick paralysis, or a rarer tick-borne illness?\n\nGUESS: Lyme disease",
+      "guess": "Lyme disease",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "Lyme is the base. Now I'll signal \"very close, but not the US version\" and point toward Brazil.\n\n<msg>😀😀 🫂\n🗽🚫\n🪇🪶🦥🏄🔽</msg>",
+      "delivered": "😀😀 🫂\n🗽🚫\n🪇🪶🦥🏄🔽",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I think 😀😀🫂 means close, and 🗽🚫 means not the US. 🪇🪶🦥🏄🔽 then points south, to Latin America and probably Brazil. So my guess is a Lyme-like disease from Brazil.\n\nGUESS: Baggio–Yoshinari syndrome",
+      "guess": "Baggio–Yoshinari syndrome",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "911004a3-c0c1-4085-b03f-0b6cff1b66c5",
+    "guesser": "01d39848-b9b1-401d-b03b-0265b4dd6b37"
+  },
+  "ladder": {
+    "article_no": 3,
+    "round": 6,
+    "n_banned": 153,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

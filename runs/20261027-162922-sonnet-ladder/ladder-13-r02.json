@@ -1,0 +1,123 @@
+{
+  "model": "sonnet",
+  "model_id": "claude-sonnet-5-5",
+  "guesser_model": "sonnet",
+  "guesser_model_id": "claude-sonnet-5-5",
+  "effort": null,
+  "article": {
+    "title": "Dorothy Cottrell",
+    "description": "Australian writer",
+    "extract": "Ida Dorothy Ottley Cottrell was an Australian writer. Born in Picton, she contracted infantile paralysis as a child and spent the rest of her life in a wheelchair. Cottrell married Walter Mackenzie Cottrell on 23 May 1922. Her first novel, The Singing Gold, was published in 1928. She wrote a story Wilderness Orphan (1936) which was the basis for the feature film Orphan of the Wilderness (1936). She lived for a time in the US and also worked as an artist and cartoonist.",
+    "url": "https://en.wikipedia.org/wiki/Dorothy_Cottrell"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "max_turns": 30,
+  "seconds": 72.3,
+  "usage": {
+    "explainer": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 2474,
+      "cache_read_input_tokens": 8328,
+      "output_tokens": 1187,
+      "thinking_tokens": 355,
+      "cost_usd": 0.023467599999999998,
+      "calls": 5,
+      "cost_usd_reported": 0.0705754
+    },
+    "guesser": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 2457,
+      "cache_read_input_tokens": 6198,
+      "output_tokens": 1534,
+      "thinking_tokens": 1137,
+      "cost_usd": 0.0264436,
+      "calls": 5,
+      "cost_usd_reported": 0.0829602
+    },
+    "judge": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 697,
+      "cache_read_input_tokens": 701,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00015081,
+      "calls": 2
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇦🇺❓ 👱‍♀️📘 ♿🧑‍🦼 🎥🐶🌲 🖋️🖼️</msg>\n\nWait, banned emojis get deleted, so let me reconsider what I'm sending. 🇦🇺 is banned, and 🐶 is fine, but 🖋️ and 🖼️ may be problematic (🖼️ is banned). I'll resend cleanly.\n\n<msg>👱‍♀️📘 🧑‍🦼♿ 🎥🐶🌲 🖋️ 🦗🌾 💒</msg>",
+      "delivered": "👱‍♀️📘 🧑‍🦼♿ 🎥🐶🌲 🖋️ 🦗🌾 💒",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Possible reading: a blonde woman author who uses a wheelchair, has a film made about her, and has a Christian connection (church). My first candidate is Joni Eareckson Tada. Is she a writer who became disabled, with a faith theme?\n\nGUESS: Joni Eareckson Tada",
+      "guess": "Joni Eareckson Tada",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👎</msg>\n\nOops, 👎 is banned. Resending.\n\n<msg>🙂‍↔️ 🌏</msg>\n\nAlso banned. Final answer:\n\n<msg>🙂‍↔️ 🇬🇧❌ 🕰️ 🔙 1️⃣9️⃣2️⃣0️⃣ 🧑‍🦼 🐶🌲🎥 🌾🏡 🇦🇺</msg>\n\nAgain, some of those are banned. Cleaned version:\n\n<msg>🙂‍↔️ ⏪ 🧑‍🦼 🐶🌲🎥 🌾🏡 🦜🦎🐑</msg>",
+      "delivered": "🙂‍↔️ ⏪ 🧑‍🦼 🐶🌲🎥 🌾🏡 🦜🦎🐑",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Not Joni. Rewinding: the wheelchair woman, a book, a film, and a farm with animals. Is the article a film or a book rather than a person? Is it set in Australia or New Zealand? Is the wheelchair character fictional?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🙂‍↔️ 🧑‍🦼 👍 ✅ 🧑‍🦼 🐑🦘 🌅 🎥 📝 👩‍🎨</msg>\n\nSeveral of those are banned or awkward. Sending a cleaned version only:\n\n<msg>👍 🧑 ♿ 🐑🌾 🌅 🎥 🖊️ 👱‍♀️</msg>",
+      "delivered": "👍 🧑 ♿ 🐑🌾 🌅 🎥 🖊️ 👱‍♀️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Got it: a person (writer) who uses a wheelchair, with a sheep and grain farm background, and a film connection. Is she Australian? A memoirist, or a screenwriter? Can you show a country flag and a time period (an old or modern clock)?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>👍 🦘 ⏪ 🕰️ 🎥 📝</msg>\n\nCorrection: 🦘 and 🕰️ are banned and would be deleted. Here is my clean version, which is the one to send:\n\n<msg>👍 🌏🐨 ⏪ 🎥 📝 1️⃣9️⃣3️⃣0️⃣</msg>\n\nThose are banned too. Final, using only allowed emojis:\n\n<msg>👍 🐑 ⏪ 🎥 🖊️ 📔 🐕‍🦺</msg>",
+      "delivered": "👍 🐑 ⏪ 🎥 🖊️ 📔 🐕‍🦺",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Still unsure of the country. Please show a flag, and tell me whether the film was based on her diary or memoir. Is it a sheepdog story?\n\nGUESS: Sally Morgan",
+      "guess": "Sally Morgan",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>👍🪃 🙂‍↔️📔 📘➡️🎥 🎷🚂 🤠🌆 🧑‍🦼</msg>",
+      "delivered": "👍🪃 🙂‍↔️📔 📘🎥 🎷🚂 🤠🌆 🧑‍🦼",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "➡️"
+      ],
+      "retried": false,
+      "guesser": "Boomerang means Australia. It's not a diary but a book that became a film. Is the book about a dog? Is the wheelchair user the author or the subject? Is the story set in the 1920s to 1940s (jazz and trains)?",
+      "guess": null,
+      "correct": null
+    }
+  ],
+  "sessions": {
+    "explainer": "4be1e303-addf-49b7-8f5d-b3425803edee",
+    "guesser": "9ddb2804-7d11-4e12-806e-ebcb669d87a9"
+  },
+  "ladder": {
+    "article_no": 13,
+    "round": 2,
+    "n_banned": 51,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

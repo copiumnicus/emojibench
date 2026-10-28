@@ -1,0 +1,77 @@
+{
+  "model": "sonnet",
+  "model_id": "claude-sonnet-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Mad River Mountain",
+    "description": "Ski resort in Ohio, United States",
+    "extract": "Mad River Mountain is a ski and snowboard resort in Valley Hi, Ohio, United States. The elevation of Mad River Mountain is 1,460 feet (450 m) with a vertical drop of 300 ft (91 m), and it has a ski season that runs from approximately mid-December through mid-March. The resort, which opened in 1962 as Valley Hi Ski Area, is owned by EPR Properties and operated by Vail Resorts, who bought the resort from Peak Resorts in 2019.",
+    "url": "https://en.wikipedia.org/wiki/Mad_River_Mountain"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 40.2,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1810,
+      "cache_read_input_tokens": 898,
+      "output_tokens": 239,
+      "thinking_tokens": 141,
+      "cost_usd": 0.0098216,
+      "calls": 2,
+      "cost_usd_reported": 0.015055799999999998
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1603,
+      "cache_read_input_tokens": 912,
+      "output_tokens": 1042,
+      "thinking_tokens": 740,
+      "cost_usd": 0.0340528,
+      "calls": 2,
+      "cost_usd_reported": 0.05343439999999999
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 704,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.000143,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>⛷️🏂🏔️❄️🇺🇸 🌽🏞️ 🌊🐎🏔️</msg>",
+      "delivered": "⛷️🏂🏔️❄️🇺🇸 🌽🏞️ 🌊🐎🏔️",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "You're describing a US ski or snowboard area. My guesses so far: 🌽 means a Corn Belt state like Iowa, Nebraska or Illinois, or it means \"corn snow.\" 🌊🐎🏔️ looks like the name, maybe something like \"Seahorse,\" \"White Horse\" or \"Wild Horse Mountain.\"\n\nQuestions:\n1. Is 🌽 the state? If so, which one? (Iowa = 🐷? Nebraska? Illinois?)\n2. Does the name literally include \"Horse\"? Is 🌊 water, a river, or a lake?\n\nGUESS: Sundown Mountain",
+      "guess": "Sundown Mountain",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👎🐎 👍🌊 😡🌊🏔️ 🌰 👋 ⬅️🌽</msg>",
+      "delivered": "👎🐎 👍🌊 😡🌊🏔️ 🌰 👋 ⬅️🌽",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "So it's not a horse, and 🌊 is water. 😡🌊🏔️ reads as \"Mad River Mountain.\" 🌰 is a buckeye, so the state is Ohio, which fits 👋 for \"Hi-o\" too.\n\nGUESS: Mad River Mountain",
+      "guess": "Mad River Mountain",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "37492803-e2ad-4789-9a94-a3f74f498191",
+    "guesser": "4f370027-3e69-40ab-8483-4ecfa4b8853d"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

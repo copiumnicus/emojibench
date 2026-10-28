@@ -1,0 +1,77 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "sonnet",
+  "guesser_model_id": "claude-sonnet-5-5",
+  "effort": null,
+  "article": {
+    "title": "Mike Pieciak",
+    "description": "American politician (born 1983)",
+    "extract": "Michael Sullivan Pieciak is an American politician from Vermont. A member of the Democratic Party, Pieciak has served as Vermont State Treasurer since January 2023.",
+    "url": "https://en.wikipedia.org/wiki/Mike_Pieciak"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 32.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1862,
+      "cache_read_input_tokens": 1093,
+      "output_tokens": 740,
+      "thinking_tokens": 459,
+      "cost_usd": 0.030157200000000002,
+      "calls": 2,
+      "cost_usd_reported": 0.050470600000000004
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 1473,
+      "cache_read_input_tokens": 945,
+      "output_tokens": 744,
+      "thinking_tokens": 545,
+      "cost_usd": 0.013533,
+      "calls": 2,
+      "cost_usd_reported": 0.021762499999999997
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 699,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 9.19e-06,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Mike Pieciak is the Vermont State Treasurer. Plan: show a US Democratic politician (🇺🇸🏛️🫏), Vermont (maple syrup, cows, mountains, cheese) and the treasurer role (money, bank, vault). Then a name hint: 🎤 for \"Mike\", 🥧 for \"Pie\", and 🎬 because \"ciak\" is Italian for a clapperboard.\n\n<msg>\n🇺🇸 🏛️ 🫏 👨‍💼\n\n🍁🥞 🐄 🏔️ 🧀\n\n💰 🏦 🗝️ 👑💵\n\n🎤 🥧🎬\n</msg>",
+      "delivered": "🇺🇸 🏛️ 🫏 👨‍💼\n🍁🥞 🐄 🏔️ 🧀\n💰 🏦 🗝️ 👑💵\n🎤 🥧🎬",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Reading your emojis: a US government figure, a Democrat (donkey), from Vermont (maple, cow, mountain, cheese), tied to money and banking (a state treasurer?). The microphone, pie, and movie might point to something extra, like a singer or an actor. I'm not sure about that part yet.\n\nIs this a Vermont State Treasurer? My first guess is the current one.\n\nGUESS: Beth Pearce",
+      "guess": "Beth Pearce",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n👍 🍁💰\n\n👩 ➡️ 👨 🆕\n\n🎤 = 👨\n\n🥧 + 🎬\n</msg>",
+      "delivered": "👍 🍁💰\n👩 ➡️ 👨\n🎤 👨\n🥧 🎬",
+      "dropped_chars": 3,
+      "retried": false,
+      "guesser": "Pearce (a woman) is followed by a man, and \"Mike\" (microphone) plus \"Pie\" fits the name Pieciak.\n\nGUESS: Mike Pieciak",
+      "guess": "Mike Pieciak",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "30cf9122-1f77-49fe-bb68-b0bd844ae964",
+    "guesser": "b0b5a6e3-0251-4045-8d97-3611a26dfb49"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

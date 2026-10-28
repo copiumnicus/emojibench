@@ -1,0 +1,62 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Ayribobo",
+    "description": "Highest mountain of Turkmenistan",
+    "extract": "Ayribobo or Aýrybaba, officially named the Great Saparmyrat Turkmenbashi Peak in Turkmenistan since 2004, is a mountain in Central Asia. At 3,138 metres (10,295 ft) Aýrybaba is the highest mountain in Turkmenistan. It is located in the Köýtendag Range of the Pamir-Alay chain in the southeast of Turkmenistan on the Uzbekistani border.",
+    "url": "https://en.wikipedia.org/wiki/Ayribobo"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "max_turns": 30,
+  "seconds": 10.8,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1178,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 179,
+      "thinking_tokens": 129,
+      "cost_usd": 0.013012,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 904,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 173,
+      "thinking_tokens": 108,
+      "cost_usd": 0.0107,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 702,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.00014260000000000002,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇹🇲 🏔️🥇⬆️\n🇹🇲🇺🇿 🤝 🏔️</msg>",
+      "delivered": "🇹🇲 🏔️🥇⬆️\n🇹🇲🇺🇿 🤝 🏔️",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Turkmenistan's highest peak, on the border with Uzbekistan, is Aýrybaba in the Köýtendag (Kugitang) range.\n\nGUESS: Aýrybaba",
+      "guess": "Aýrybaba",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "77cc6774-4e88-4876-94d9-e37124eb1fbb",
+    "guesser": "ee2c9056-7adb-4d35-bf08-b793d4fb9676"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

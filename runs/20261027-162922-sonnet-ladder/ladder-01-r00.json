@@ -1,0 +1,141 @@
+{
+  "model": "sonnet",
+  "model_id": "claude-sonnet-5-5",
+  "effort": null,
+  "article": {
+    "title": "Proceratium silaceum",
+    "description": "Species of ant",
+    "extract": "Proceratium silaceum is a species of ant in the family Formicidae.",
+    "url": "https://en.wikipedia.org/wiki/Proceratium_silaceum"
+  },
+  "solved": true,
+  "turns_taken": 8,
+  "solved_turn": 8,
+  "max_turns": 30,
+  "seconds": 84.9,
+  "usage": {
+    "explainer": {
+      "input_tokens": 30,
+      "cache_creation_input_tokens": 3449,
+      "cache_read_input_tokens": 12851,
+      "output_tokens": 967,
+      "thinking_tokens": 411,
+      "cost_usd": 0.0260962,
+      "calls": 8,
+      "cost_usd_reported": 0.1187285
+    },
+    "guesser": {
+      "input_tokens": 30,
+      "cache_creation_input_tokens": 3564,
+      "cache_read_input_tokens": 13698,
+      "output_tokens": 2112,
+      "thinking_tokens": 1607,
+      "cost_usd": 0.038175600000000004,
+      "calls": 8,
+      "cost_usd_reported": 0.16991
+    },
+    "judge": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 4683,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 28,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0009519999999999999,
+      "calls": 7
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🐜🔬🌿🔍🪨</msg>",
+      "delivered": "🐜🔬🌿🔍🪨",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Clues so far: ant, microscope, plant, magnifier, rock. This looks like a small species, probably an ant, that lives on plants or under rocks.\n\nQuestions:\n1. Is it an ant species or genus (versus something else associated with ants)?\n2. Is it described from a particular region? Please send a flag or a continent/biome emoji.\n\nGUESS: Pheidole",
+      "guess": "Pheidole",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👍 🐜🔬 🔎 🐜 1️⃣ 🌏🌴 🏝️</msg>",
+      "delivered": "👍 🐜🔬 🔎 🐜 🌏🌴 🏝️",
+      "dropped_chars": 2,
+      "retried": false,
+      "guesser": "An ant species, tropical Asia-Pacific, island. Which island or country? Please send a flag emoji. Is it a genus, or a single species?\n\nGUESS: Technomyrmex",
+      "guess": "Technomyrmex",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>👎🌴 👎🏝️ 🇺🇸 🌳🍂 🕳️⬇️ 🟡 👍 🐜 1 species</msg>",
+      "delivered": "👎🌴 👎🏝️ 🇺🇸 🌳🍂 🕳️⬇️ 🟡 👍 🐜",
+      "dropped_chars": 8,
+      "retried": false,
+      "guesser": "USA, a forest with leaf litter, nesting in the ground, yellow. Is it a genus or a species?\n\nGUESS: Acanthomyops",
+      "guess": "Acanthomyops",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>👍 species 🐜 🔬 🔎 🟡 🕳️ 🇺🇸 🌳 🐜➡️🐉 🦂 ⏩ 🅿️ 🔤</msg>",
+      "delivered": "👍 🐜 🔬 🔎 🟡 🕳️ 🇺🇸 🌳 🐜➡️🐉 🦂 ⏩",
+      "dropped_chars": 9,
+      "retried": false,
+      "guesser": "Is \"ant → dragon, scorpion, fast\" a hint at the name, or at behavior (a fast ant with a sting)? Is it a species with a two-word name?\n\nGUESS: Ponera pennsylvanica",
+      "guess": "Ponera pennsylvanica",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>👍 two words 🐜 ➡️ 🐉 🦂 ⏩ ❌ 👎 sting ✅ 🧬 genus: 🦏 ⬆️ ⛏️ 🕳️ 🐜 🐜 🐜 🥇 🏹 🏆 🎯 🔎</msg>",
+      "delivered": "👍 🐜 ➡️ 🐉 🦂 ⏩ ❌ 👎 ✅ 🧬 🦏 ⬆️ ⛏️ 🕳️ 🐜 🐜 🐜 🥇 🏹 🏆 🎯 🔎",
+      "dropped_chars": 19,
+      "retried": false,
+      "guesser": "Is it a genus with a few species? I can't decode the rhino, digging, and trophy/target emojis. Is it something like a \"champion\" or \"best\" ant, or are these name hints?\n\nGUESS: Neivamyrmex",
+      "guess": "Neivamyrmex",
+      "correct": false
+    },
+    {
+      "turn": 6,
+      "explainer_raw": "<msg>🐜 🕳️⬇️ 🇺🇸 🟡 🧬 👉 🦏 🐜 🏆 🔬 🐌 🐢 🦥 🪨 🌑 🔦</msg>",
+      "delivered": "🐜 🕳️⬇️ 🇺🇸 🟡 🧬 👉 🦏 🐜 🏆 🔬 🐌 🐢 🦥 🪨 🌑 🔦",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Slow, underground, dark, yellow-ish, a USA forest. This sounds like a slow, dragon-like predator ant.\n\nGUESS: Amblyopone pallipes",
+      "guess": "Amblyopone pallipes",
+      "correct": false
+    },
+    {
+      "turn": 7,
+      "explainer_raw": "<msg>🔥 close 🐜 👉 🧑‍💼 🕯️ 🐜 🥚 🕷️🥚 🍽️ ⬇️🕳️</msg>",
+      "delivered": "🔥 🐜 👉 🧑‍💼 🕯️ 🐜 🥚 🕷️🥚 🍽️ ⬇️🕳️",
+      "dropped_chars": 5,
+      "retried": false,
+      "guesser": "Spider-egg eating points to Proceratium, and the yellow color fits the species croceum.\n\nGUESS: Proceratium croceum",
+      "guess": "Proceratium croceum",
+      "correct": false
+    },
+    {
+      "turn": 8,
+      "explainer_raw": "<msg>🔥 genus ✅ 👍 species ❌ 👎 croceum 🟡 ➡️ 🧱 🪨 🏺 🧈 🧪 ✨ 🟡 🔤 si...</msg>",
+      "delivered": "🔥 ✅ 👍 ❌ 👎 🟡 ➡️ 🧱 🪨 🏺 🧈 🧪 ✨ 🟡",
+      "dropped_chars": 25,
+      "retried": false,
+      "guesser": "GUESS: Proceratium silaceum",
+      "guess": "Proceratium silaceum",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "645deb62-267a-4c4a-a978-0fad1011da95",
+    "guesser": "dabfd9db-cb80-44e7-accc-fc59eaafc63e"
+  },
+  "ladder": {
+    "article_no": 1,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": "runs/20261027-150314-sonnet/game-01.json"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

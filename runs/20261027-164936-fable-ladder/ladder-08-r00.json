@@ -1,0 +1,72 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Richmond Hill South",
+    "description": "Federal electoral district in Ontario, Canada",
+    "extract": "Richmond Hill South is a federal electoral district in Ontario, Canada, that has been represented in the House of Commons of Canada since 2004.",
+    "url": "https://en.wikipedia.org/wiki/Richmond_Hill_South"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 20.1,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1100,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 603,
+      "thinking_tokens": 551,
+      "cost_usd": 0.05217,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 927,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 664,
+      "thinking_tokens": 582,
+      "cost_usd": 0.05176,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🇨🇦 🗳️ 🏛️ 🪑\n💰🌙 ⛰️ ⬇️\n</msg>",
+      "delivered": "🇨🇦 🗳️ 🏛️ 🪑\n💰🌙 ⛰️ ⬇️",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Canada + election + legislature + seat = an electoral district (riding). 💰🌙 = \"Rich\" + \"moon\" = Richmond, ⛰️ = Hill, ⬇️ = South?\n\nGUESS: Richmond Hill South",
+      "guess": "Richmond Hill South",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "0107b9a1-9bb2-4e44-9507-3802a3c47aba",
+    "guesser": "8c981ccc-c4a9-4bfa-9161-ba21d10e3e00"
+  },
+  "ladder": {
+    "article_no": 8,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": "runs/20261027-153308-fable/game-08.json"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

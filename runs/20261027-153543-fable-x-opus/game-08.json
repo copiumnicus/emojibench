@@ -1,0 +1,77 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Richmond Hill South",
+    "description": "Federal electoral district in Ontario, Canada",
+    "extract": "Richmond Hill South is a federal electoral district in Ontario, Canada, that has been represented in the House of Commons of Canada since 2004.",
+    "url": "https://en.wikipedia.org/wiki/Richmond_Hill_South"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 42.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 4,
+      "cache_creation_input_tokens": 1856,
+      "cache_read_input_tokens": 1105,
+      "output_tokens": 755,
+      "thinking_tokens": 602,
+      "cost_usd": 0.076015,
+      "calls": 2,
+      "cost_usd_reported": 0.12175625000000001
+    },
+    "guesser": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 2098,
+      "cache_read_input_tokens": 915,
+      "output_tokens": 1495,
+      "thinking_tokens": 1166,
+      "cost_usd": 0.047074000000000005,
+      "calls": 2,
+      "cost_usd_reported": 0.075439
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 707,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0001436,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇨🇦 🗳️ 🏛️ 🗺️\n🗼 ↗️\n💰 ⛰️ ⬇️</msg>",
+      "delivered": "🇨🇦 🗳️ 🏛️ 🗺️\n🗼 ↗️\n💰 ⛰️ ⬇️",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "I read this as a **Canadian electoral district** (federal or provincial). The 🗼 might be the Calgary Tower, with ↗️ meaning \"north-east\" or \"sky/up\". Line 3 (💰⛰️⬇️) has me stuck. Could it be \"Gold\" + \"Valley\", \"Rich\" + \"Hill\", or \"Mountain View\"?\n\nQuestions:\n- Is it in Calgary? Is it federal (🍁 Ottawa) or provincial?\n- Does line 3 describe part of the name, or what the area is known for?\n\nGUESS: Calgary Skyview",
+      "guess": "Calgary Skyview",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🏙️🤠👎\n🍁🏛️👍\n💰⛰️ = 📛👍 ✅ 💰 ⛰️ ✅\n⬇️ = 🧭⬇️\n🗼 = 🦖🏀 🏒🍁</msg>",
+      "delivered": "🏙️🤠👎\n🍁🏛️👍\n💰⛰️ 📛👍 ✅ 💰 ⛰️ ✅\n⬇️ 🧭⬇️\n🗼 🦖🏀 🏒🍁",
+      "dropped_chars": 3,
+      "retried": false,
+      "guesser": "Got it. It's not Calgary, it's a federal riding, and the 🗼🦖🏀🏒🍁 points to the Toronto area (CN Tower, Raptors, Maple Leafs). 💰⛰️ gives \"Rich\" + \"Hill\", so **Richmond Hill**, and ⬇️🧭⬇️ adds \"South\".\n\nGUESS: Richmond Hill South",
+      "guess": "Richmond Hill South",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "3b69284f-4a7f-428c-bb63-d34c530d1201",
+    "guesser": "3dbfb602-c72c-41d4-9864-fca65e154290"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

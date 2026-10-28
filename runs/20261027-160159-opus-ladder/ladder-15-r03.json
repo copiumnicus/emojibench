@@ -1,0 +1,75 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "opus",
+  "guesser_model_id": "claude-opus-5-5",
+  "effort": null,
+  "article": {
+    "title": "Iglesia de Santa Ana (Santiago de Chile)",
+    "description": "National monument of Chile",
+    "extract": "The Iglesia de Santa Ana is a Catholic church in downtown Santiago de Chile. It is located at the northwest corner of Catedral and San Martín streets. The church was declared as a National Monument of Chile in 1970, within the category of Historic Monuments. Santa Ana metro station is named after the church.",
+    "url": "https://en.wikipedia.org/wiki/Iglesia_de_Santa_Ana_(Santiago_de_Chile)"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 49.9,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 893,
+      "cache_read_input_tokens": 577,
+      "output_tokens": 2312,
+      "thinking_tokens": 2241,
+      "cost_usd": 0.0535074,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 961,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1535,
+      "thinking_tokens": 1326,
+      "cost_usd": 0.038396,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 717,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 9.37e-06,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🇻🇦☦️🧱\n\n🟦⬜⬜⬜\n🟥🟥🟥🟥\n🌆\n\n🦌🛷 ☃️❄️👭\n</msg>",
+      "delivered": "🇻🇦☦️🧱\n🟦⬜⬜⬜\n🟥🟥🟥🟥\n🌆\n🦌🛷 ☃️❄️👭",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Reading so far:\n- 🇻🇦☦️🧱 → a (Catholic?) church building\n- 🟦⬜⬜⬜ / 🟥🟥🟥🟥 → flag of **Chile**\n- 🌆 → a city, maybe Santiago?\n- 🦌🛷 → **Santa** (Claus), and ☃️❄️👭 → Frozen's sisters → **Anna**\n\nSo I think this is the Church of Santa Ana in a Chilean city, probably Santiago. If the city is wrong, show me a hint for the right one.\n\nGUESS: Santa Ana Church, Santiago",
+      "guess": "Santa Ana Church, Santiago",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "554db848-3c36-4c3c-baa5-214302ee8bed",
+    "guesser": "2962db47-a66e-437c-8cd9-2d0dca96c153"
+  },
+  "ladder": {
+    "article_no": 15,
+    "round": 3,
+    "n_banned": 52,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

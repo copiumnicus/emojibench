@@ -1,0 +1,65 @@
+{
+  "model": "opus",
+  "model_id": "claude-opus-5-5",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Mike Pieciak",
+    "description": "American politician (born 1983)",
+    "extract": "Michael Sullivan Pieciak is an American politician from Vermont. A member of the Democratic Party, Pieciak has served as Vermont State Treasurer since January 2023.",
+    "url": "https://en.wikipedia.org/wiki/Mike_Pieciak"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 13.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1087,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 384,
+      "thinking_tokens": 204,
+      "cost_usd": 0.016384000000000003,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 946,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 403,
+      "thinking_tokens": 335,
+      "cost_usd": 0.03909,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "The secret is Mike Pieciak, Vermont State Treasurer. My first message shows an American politician, then Vermont (maple, cows, mountains), then the treasury (money, vault, coins), then the Democratic donkey. The last line hints at the name: 🎤 for \"Mike\" and 🥧 for the \"Pie\" in Pieciak.\n\n<msg>👨‍💼🇺🇸🗳️\n🍁🐄⛰️🧀\n🏛️💰🏦🪙\n🫏\n🎤 🥧</msg>",
+      "delivered": "👨‍💼🇺🇸🗳️\n🍁🐄⛰️🧀\n🏛️💰🏦🪙\n🫏\n🎤 🥧",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "Vermont Democrat in treasury/finance... 🎤 = \"Mike\", 🥧 = \"Pie...\" — the Vermont State Treasurer!\n\nGUESS: Mike Pieciak",
+      "guess": "Mike Pieciak",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "b0f806d5-afe5-4c8e-bc31-8a9280057da5",
+    "guesser": "9c1a2e8b-a759-4c60-97c9-130a1bbd0cd5"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

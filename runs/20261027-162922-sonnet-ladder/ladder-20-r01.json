@@ -1,0 +1,115 @@
+{
+  "model": "sonnet",
+  "model_id": "claude-sonnet-5-5",
+  "guesser_model": "sonnet",
+  "guesser_model_id": "claude-sonnet-5-5",
+  "effort": null,
+  "article": {
+    "title": "Franco Cozzo",
+    "description": "Australian businessman (1935–2023)",
+    "extract": "Franco Cozzo was an Italian-Australian businessman. After moving to Melbourne from Sicily in 1955, Cozzo became known for his television advertisements, in which he would speak in English, Greek, and Italian. He later produced Australia's first non-English TV show, Carosello, which was broadcast in Italian.",
+    "url": "https://en.wikipedia.org/wiki/Franco_Cozzo"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "max_turns": 30,
+  "seconds": 50.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 1698,
+      "cache_read_input_tokens": 5841,
+      "output_tokens": 562,
+      "thinking_tokens": 255,
+      "cost_usd": 0.0136082,
+      "calls": 4,
+      "cost_usd_reported": 0.040039
+    },
+    "guesser": {
+      "input_tokens": 14,
+      "cache_creation_input_tokens": 2308,
+      "cache_read_input_tokens": 4289,
+      "output_tokens": 1412,
+      "thinking_tokens": 1154,
+      "cost_usd": 0.0242378,
+      "calls": 4,
+      "cost_usd_reported": 0.0628448
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 712,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0001446,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🏝️🍕🚢 ➡ 🌏🏪🪞🗄️🚪👑 🇬🇷🇬🇧🍕 🎬📡👴⚰️</msg>",
+      "delivered": "🏝️🍕🚢 🌏🏪🪞🗄️🚪👑 🇬🇷🇬🇧🍕 🎬📡👴⚰️",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "➡️"
+      ],
+      "retried": false,
+      "guesser": "Island, ship, pizza (Italy?), Greece, UK, and a film. My first thought is a film set on a Greek island with Italians and Brits.\n\nGUESS: Captain Corelli's Mandolin (film)",
+      "guess": "Captain Corelli's Mandolin (film)",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👎 🏪🪞🗄️🚪🛒💰 👑 🚢🏝️ ➕ 🌏🦘 📡🎬 🗣️🇬🇷🇬🇧🍕 👴</msg>",
+      "delivered": "👎 🏪🪞🗄️🚪🛒💰 👑 🚢🏝️ ➕ 🌏 📡🎬 🇬🇷🇬🇧🍕 👴",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🦘",
+        "🗣️"
+      ],
+      "retried": false,
+      "guesser": "Is it a TV or film production? Is the store/furniture part (mirror, cabinet, door) the central theme, perhaps a furniture retailer? Is the old man the main character?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>👍 👍 👍 👴🏪🗄️🪞 💰📡 🏝️🚢🌏 🍕 🇬🇷 🇬🇧 🎬 🕺🎤</msg>",
+      "delivered": "👍 👍 👍 👴🏪🗄️🪞 💰📡 🏝️🚢🌏 🍕 🇬🇷 🇬🇧 🎬 🕺🎤",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is the article about a person, perhaps an old furniture-store owner who became known through TV ads or singing? Is he Greek-born and based in the UK, or Italian-born?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>👍 🍕🏝️ 🚢 🌏 ⬇️🧭 🐨🏄 🏪🗄️ 📡🎬 🇬🇷🇬🇧🍕</msg>",
+      "delivered": "👍 🍕🏝️ 🚢 🌏 ⬇️🧭 🐨🏄 🏪🗄️ 📡🎬 🇬🇷🇬🇧🍕",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Island + ship + Australia + furniture store + TV ads: this sounds like Franco Cozzo, the Sicilian-born Melbourne furniture seller.\n\nGUESS: Franco Cozzo",
+      "guess": "Franco Cozzo",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "ab9dd222-b9cd-40da-9110-bc0add8d3893",
+    "guesser": "d139ca80-22e6-425b-b8b4-2b7f8b5436c7"
+  },
+  "ladder": {
+    "article_no": 20,
+    "round": 1,
+    "n_banned": 12,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

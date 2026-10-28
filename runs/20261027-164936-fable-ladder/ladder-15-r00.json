@@ -1,0 +1,72 @@
+{
+  "model": "fable",
+  "model_id": "claude-fable-5-1",
+  "guesser_model": "fable",
+  "guesser_model_id": "claude-fable-5-1",
+  "effort": null,
+  "article": {
+    "title": "Iglesia de Santa Ana (Santiago de Chile)",
+    "description": "National monument of Chile",
+    "extract": "The Iglesia de Santa Ana is a Catholic church in downtown Santiago de Chile. It is located at the northwest corner of Catedral and San Martín streets. The church was declared as a National Monument of Chile in 1970, within the category of Historic Monuments. Santa Ana metro station is named after the church.",
+    "url": "https://en.wikipedia.org/wiki/Iglesia_de_Santa_Ana_(Santiago_de_Chile)"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "max_turns": 30,
+  "seconds": 28.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1161,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 833,
+      "thinking_tokens": 763,
+      "cost_usd": 0.06489,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 947,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 722,
+      "thinking_tokens": 633,
+      "cost_usd": 0.05506,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 719,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 9.39e-06,
+      "calls": 1
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇨🇱🏙️ ⛪ 🏛️\n🚇 ⛪ 🟰\n👵✝️ 👩‍👧 👶✨\n🎅👵</msg>",
+      "delivered": "🇨🇱🏙️ ⛪ 🏛️\n🚇 ⛪ 🟰\n👵✝️ 👩‍👧 👶✨\n🎅👵",
+      "dropped_chars": 0,
+      "retried": false,
+      "guesser": "I think this is **Santa Ana** (Saint Anne – mother of Mary, grandmother of Jesus) in Santiago, Chile. Is the article about the church itself, or the metro station named after it?\n\nGUESS: Church of Santa Ana (Santiago)",
+      "guess": "Church of Santa Ana (Santiago)",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": "e30ada63-7078-4ef2-9197-e69701d761fa",
+    "guesser": "e40e7508-0710-408f-925d-ece55801e141"
+  },
+  "ladder": {
+    "article_no": 15,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": "runs/20261027-153308-fable/game-15.json"
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}

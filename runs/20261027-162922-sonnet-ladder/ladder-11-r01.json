@@ -1,0 +1,123 @@
+{
+  "model": "sonnet",
+  "model_id": "claude-sonnet-5-5",
+  "guesser_model": "sonnet",
+  "guesser_model_id": "claude-sonnet-5-5",
+  "effort": null,
+  "article": {
+    "title": "Ayribobo",
+    "description": "Highest mountain of Turkmenistan",
+    "extract": "Ayribobo or Aýrybaba, officially named the Great Saparmyrat Turkmenbashi Peak in Turkmenistan since 2004, is a mountain in Central Asia. At 3,138 metres (10,295 ft) Aýrybaba is the highest mountain in Turkmenistan. It is located in the Köýtendag Range of the Pamir-Alay chain in the southeast of Turkmenistan on the Uzbekistani border.",
+    "url": "https://en.wikipedia.org/wiki/Ayribobo"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "max_turns": 30,
+  "seconds": 73.9,
+  "usage": {
+    "explainer": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 2547,
+      "cache_read_input_tokens": 7214,
+      "output_tokens": 733,
+      "thinking_tokens": 481,
+      "cost_usd": 0.018996799999999998,
+      "calls": 5,
+      "cost_usd_reported": 0.0624568
+    },
+    "guesser": {
+      "input_tokens": 18,
+      "cache_creation_input_tokens": 2364,
+      "cache_read_input_tokens": 5453,
+      "output_tokens": 1307,
+      "thinking_tokens": 876,
+      "cost_usd": 0.023652600000000003,
+      "calls": 5,
+      "cost_usd_reported": 0.07007519999999999
+    },
+    "judge": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 3512,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 20,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0007134000000000001,
+      "calls": 5
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🏔️🐪🏜️🐎🕌🌏</msg>",
+      "delivered": "🏔️🐪🏜️🐎🕌🌏",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Mountains, camel, desert, horse, mosque, Asia: this looks like Central Asia. Is it a country, a region, a town, or a person? Is it a place, or something like a battle, a people, or a sport (horse)?\n\nGUESS: Turkmenistan",
+      "guess": "Turkmenistan",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👍🏔️ 🔝🌍 🇰🇿➡️</msg>",
+      "delivered": "👍🏔️ 🌍 🇰🇿",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "➡️"
+      ],
+      "retried": false,
+      "guesser": "Kazakhstan, then. Is it a town, village, or district in Kazakhstan? Or a person, such as a horse rider or athlete? Is it in the mountains of the southeast, near Almaty?\n\nGUESS: Almaty Region",
+      "guess": "Almaty Region",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>❌🇰🇿 🔥🐪🏜️ 🏔️☝️🌍 🔺1️⃣</msg>",
+      "delivered": "❌🇰🇿 🔥🐪🏜️ 🏔️☝️🌍 🔺",
+      "dropped_chars": 2,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Not Kazakhstan. Is it a neighbouring country, such as Uzbekistan, Kyrgyzstan, Tajikistan, Afghanistan, or Iran? The ☝️🏔️🔺 could mean a highest peak or a single mountain. Is it a mountain?\n\nGUESS: Uzbekistan",
+      "guess": "Uzbekistan",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>👍🏔️☝️🔺 🐪🏜️ 🔥 ↗️ 🇦🇫❌ 🇮🇷❌ 🇹🇯❌</msg>",
+      "delivered": "👍🏔️☝️🔺 🐪🏜️ 🔥 ↗️ 🇦🇫❌ 🇮🇷❌ 🇹🇯❌",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "So it's a single mountain in a hot desert, not in Afghanistan, Iran or Tajikistan. Is it in Xinjiang, China, or Mongolia? ↗️ might point northeast. My guess is the Flaming Mountains.\n\nGUESS: Flaming Mountains",
+      "guess": "Flaming Mountains",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>🔥🕳️🐪 = country 👍 🏔️☝️🔺 = its tallest peak 👍 ❌🇨🇳 ❌🇲🇳</msg>",
+      "delivered": "🔥🕳️🐪 👍 🏔️☝️🔺 👍 ❌🇨🇳 ❌🇲🇳",
+      "dropped_chars": 23,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "🔥🕳️ suggests a fiery pit, like the Darvaza gas crater in the Karakum Desert.\n\nGUESS: Darvaza gas crater",
+      "guess": "Darvaza gas crater",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": "7526e1b5-4d3e-4e54-a62b-cbf3f34b6ef0",
+    "guesser": "8ec78e7e-73a2-4c5f-80a0-4dcaa0de9dbc"
+  },
+  "ladder": {
+    "article_no": 11,
+    "round": 1,
+    "n_banned": 12,
+    "break_turns": 5,
+    "reused_from": null
+  },
+  "cost_fix": "multi-call Claude roles recomputed from tokens at list price; the old figure summed session running totals"
+}
