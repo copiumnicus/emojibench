@@ -1,0 +1,209 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Richmond Hill South",
+    "description": "Federal electoral district in Ontario, Canada",
+    "extract": "Richmond Hill South is a federal electoral district in Ontario, Canada, that has been represented in the House of Commons of Canada since 2004.",
+    "url": "https://en.wikipedia.org/wiki/Richmond_Hill_South"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 60.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 3460,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 722,
+      "thinking_tokens": 484,
+      "cost_usd": 0.014733,
+      "calls": 4
+    },
+    "guesser": {
+      "input_tokens": 1928,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 863,
+      "thinking_tokens": 647,
+      "cost_usd": 0.012486,
+      "calls": 4
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 625,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 289,
+        "thinking_tokens": 248,
+        "cost_usd": 0.00414,
+        "duration_ms": 11837
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 720,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 143,
+        "thinking_tokens": 80,
+        "cost_usd": 0.00287,
+        "duration_ms": 6213
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 926,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 178,
+        "thinking_tokens": 96,
+        "cost_usd": 0.003632,
+        "duration_ms": 7016
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1189,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 112,
+        "thinking_tokens": 60,
+        "cost_usd": 0.004091,
+        "duration_ms": 4091
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 302,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 139,
+        "thinking_tokens": 95,
+        "cost_usd": 0.001994,
+        "duration_ms": 5027
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 410,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 159,
+        "thinking_tokens": 106,
+        "cost_usd": 0.00241,
+        "duration_ms": 5756
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 544,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 221,
+        "thinking_tokens": 148,
+        "cost_usd": 0.003298,
+        "duration_ms": 8686
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 672,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 344,
+        "thinking_tokens": 298,
+        "cost_usd": 0.004784,
+        "duration_ms": 12048
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "🥞🥍🥶　🗼💦\n🙋📥　🏠🏠🏠\n💸💸　🛝　👇",
+      "delivered": "🥞🥍🥶 🗼💦\n🙋📥 🏠🏠🏠\n💸💸 🛝 👇",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is this about a place in Canada, or about housing/economics? Does 🗼💦 mean Niagara Falls? Please separate the article’s main subject from clues about its location.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "📚🎯　🙋🙋🙋📩📥🏆　🏠\n\n🌎　🥶🥍🥞　🔴⚪🔴\n🗼💦　🚫\n💸💸　🛝　👇",
+      "delivered": "📚 🙋🙋🙋📩📥🏆 🏠\n🌎 🥶🥍🥞 🔴⚪🔴\n🗼💦 🚫\n💸💸 🛝 👇",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🎯"
+      ],
+      "retried": false,
+      "guesser": "I read 📚 as “a book,” set in or about Canada, involving people obtaining homes and falling housing prices. Is it a nonfiction book about Canadian housing affordability, or a novel? Can you encode the title word by word?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "🚫📚　🚫🏠💹\n🙋📨📥　📊　🏆　🏠🎙️\n\n🥶🥍🥞　🔴⚪🔴\n🗼　🚘🏭　💧💧💧💧💧\n\n💶💶💶　🚵　👇",
+      "delivered": "🚫📚 🚫🏠💹\n🙋📨📥 📊 🏆 🏠🎙️\n🥶🥍🥞 🔴⚪🔴\n🗼 🚘 💧💧💧💧💧\n💶💶💶 🚵 👇",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🏭"
+      ],
+      "retried": false,
+      "guesser": "Is the subject a Canadian politician elected to the House of Commons? Does 🗼 mean Toronto, and 💶💶💶 🚵 👇 describe their riding (perhaps Don Valley or Richmond Hill), or a policy of lowering taxes? Please indicate whether we need a person’s name, an electoral district, or an election.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "🙋　🚫\n🙋📨📥🌍　🟢\n📅🙋📨📥　🚫\n\n💶💶💶　🚵　👇\n🔥🔥🔥",
+      "delivered": "🙋 🚫\n🙋📨📥🌍 🟢\n📅🙋📨📥 🚫\n💶💶💶 🚵 👇\n🔥🔥🔥",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "So this is a Canadian electoral district, not a person or an election. Is 💶💶💶 🚵 👇 the name “Richmond Hill South”?\n\nGUESS: Richmond Hill South",
+      "guess": "Richmond Hill South",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 8,
+    "round": 3,
+    "n_banned": 75,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

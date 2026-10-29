@@ -1,0 +1,303 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Dora Akunyili",
+    "description": "Nigerian pharmacist and government official (1954–2014)",
+    "extract": "Dora Nkem Akunyili was a Nigerian pharmacist and politician who served as the director-general of National Agency for Food and Drug Administration and Control (NAFDAC) of Nigeria from 2001 to 2008.",
+    "url": "https://en.wikipedia.org/wiki/Dora_Akunyili"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 181.8,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2705,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 8179,
+      "output_tokens": 3255,
+      "thinking_tokens": 2856,
+      "cost_usd": 0.0401229,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 2882,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1478,
+      "thinking_tokens": 1205,
+      "cost_usd": 0.020544,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 742,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 16,
+      "thinking_tokens": 0,
+      "cost_usd": 8.219999999999999e-05,
+      "calls": 4
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1708,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 957,
+        "thinking_tokens": 912,
+        "cost_usd": 0.0138385,
+        "duration_ms": 35704
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 194,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1705,
+        "output_tokens": 593,
+        "thinking_tokens": 516,
+        "cost_usd": 0.006584,
+        "duration_ms": 20997
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 256,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1896,
+        "output_tokens": 616,
+        "thinking_tokens": 516,
+        "cost_usd": 0.0069881,
+        "duration_ms": 23048
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 283,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 2149,
+        "output_tokens": 568,
+        "thinking_tokens": 482,
+        "cost_usd": 0.0066009,
+        "duration_ms": 22171
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 264,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 2429,
+        "output_tokens": 521,
+        "thinking_tokens": 430,
+        "cost_usd": 0.0061114,
+        "duration_ms": 19732
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 292,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 159,
+        "thinking_tokens": 76,
+        "cost_usd": 0.002174,
+        "duration_ms": 5371
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 427,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 284,
+        "thinking_tokens": 223,
+        "cost_usd": 0.003694,
+        "duration_ms": 10646
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 579,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 373,
+        "thinking_tokens": 327,
+        "cost_usd": 0.004888,
+        "duration_ms": 12470
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 719,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 244,
+        "thinking_tokens": 194,
+        "cost_usd": 0.003878,
+        "duration_ms": 9902
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 865,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 418,
+        "thinking_tokens": 385,
+        "cost_usd": 0.00591,
+        "duration_ms": 17899
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 187,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.07e-05,
+        "duration_ms": 1169
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 186,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.06e-05,
+        "duration_ms": 872
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 183,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.03e-05,
+        "duration_ms": 831
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 186,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.06e-05,
+        "duration_ms": 941
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🎌 🫑 🦢 🫑\n👰‍♀️ 📣\n🍚 🍼 🧑‍⚕️ 🚫</msg>",
+      "delivered": "🎌 🫑 🦢 🫑\n👰‍♀️ 📣\n🍚 🍼",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🧑‍⚕️",
+        "🚫"
+      ],
+      "retried": false,
+      "guesser": "Is the article about a Japanese person—perhaps a woman who is a singer/actress and mother? Please indicate the category (person, place, food, species, work), and give more clues to the name.\n\nIs it about a Japanese person, perhaps a female singer or actress? Please clarify the category and give more clues to the name.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🇯🇵 😞\n👰‍♀️ 🧑‍💼\n🇸🇩 🇪🇹 🇨🇩 🇹🇿\n🫑 🦢 🫑\n🫀 🫁 🩽\n🍽 🧯 🕵🏻</msg>",
+      "delivered": "🇯🇵 😞\n👰‍♀️\n🇸🇩 🇪🇹 🇨🇩 🇹🇿\n🫑 🦢 🫑\n🫀 🫁",
+      "dropped_chars": 5,
+      "off_keyboard": [
+        "🧑‍💼",
+        "🍽️",
+        "🧯",
+        "🕵🏻"
+      ],
+      "retried": false,
+      "guesser": "I now suspect an African bird, with “white” (bride/swan) and “bellied” (bell peppers/internal organs) in its name. Is that right? Can you clue the remaining part of the name?\n\nGUESS: White-bellied bustard",
+      "guess": "White-bellied bustard",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🐦 🙅🏽‍♀️\n🧑‍🦰 👰‍♀️ 👨‍💼\n🏴‍☠️ 🙅🏽‍♀️\n❇️ 🔳 ❇️\n🇨🇩 🇪🇹 🇹🇿 🌍\n🫀 🫁 🥽 👨‍💼\n🍚 🍼 🛑</msg>",
+      "delivered": "🐦\n🧑‍🦰 👰‍♀️ 👨‍💼\n❇️ 🔳 ❇️\n🇨🇩 🇪🇹 🇹🇿\n🫀 🫁 🥽 👨‍💼\n🍚 🍼",
+      "dropped_chars": 5,
+      "off_keyboard": [
+        "🙅🏽‍♀️",
+        "🏴‍☠️",
+        "🙅🏽‍♀️",
+        "🌍",
+        "🛑"
+      ],
+      "retried": false,
+      "guesser": "Are the clues describing a bird with green upperparts, a white belly, and a black face or breast? Does 🍚 🍼 mean it eats seeds?\n\nGUESS: White-bellied tit",
+      "guess": "White-bellied tit",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🐦 ❓ 😣😣😣\n👰‍♀️ 🧑‍🦰 🗣 ❓ 😃\n👨‍💼 🫀 🫁 🏬\n🌍 ❓ 🇪🇹 🇨🇩 🇸🇩 😃\n❇️ ⬜ ❇️</msg>",
+      "delivered": "🐦 ❓ 😣😣😣\n👰‍♀️ 🧑‍🦰 ❓ 😃\n👨‍💼 🫀 🫁 🏬\n❓ 🇪🇹 🇨🇩 🇸🇩 😃\n❇️ ❇️",
+      "dropped_chars": 3,
+      "off_keyboard": [
+        "🗣️",
+        "🌍",
+        "⬜"
+      ],
+      "retried": false,
+      "guesser": "I misunderstood: not a bird! Is this an African ethnic group or people, found in Ethiopia, DR Congo, Sudan, and Tanzania? Or is it a marriage custom involving brides and payments?\n\nGUESS: Bride price",
+      "guess": "Bride price",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>👥 ❓ 😣\n👰‍♀️ ❓ 😃\n👰‍♀️ 👨‍💼 🥽 🫀 🫁\n🇨🇩 ⬅️ ⬅️ ⬅️\n❇️ 🔳 ❇️\n🍚 🍼 🍪 🧁 🧑‍⚕️</msg>",
+      "delivered": "👥 ❓ 😣\n👰‍♀️ ❓ 😃\n👰‍♀️ 👨‍💼 🥽 🫀 🫁\n🇨🇩 ⬅️ ⬅️ ⬅️\n❇️ 🔳 ❇️\n🍚 🍼 🍪 🧁",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🧑‍⚕️"
+      ],
+      "retried": false,
+      "guesser": "Is it a plant—specifically white ginger, with medicinal uses and roots used to flavor foods?\n\nGUESS: Mondia whitei",
+      "guess": "Mondia whitei",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 12,
+    "round": 20,
+    "n_banned": 419,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

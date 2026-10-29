@@ -1,0 +1,143 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Grande Seca",
+    "description": "Brazilian drought (1877–1878)",
+    "extract": "The Grande Seca, or the Brazilian drought of 1877–1878, was the largest and most devastating drought in Brazilian history. It caused the deaths of between 400,000 and 500,000 people. Of the 800,000 people who lived in the affected Northeastern region, around 120,000 migrated to the Amazon while 68,000 migrated to other parts of Brazil.",
+    "url": "https://en.wikipedia.org/wiki/Grande_Seca"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 44.3,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1521,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1186,
+      "output_tokens": 1493,
+      "thinking_tokens": 1154,
+      "cost_usd": 0.00942405,
+      "calls": 2
+    },
+    "guesser": {
+      "input_tokens": 1017,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1294,
+      "thinking_tokens": 1208,
+      "cost_usd": 0.007487,
+      "calls": 2
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 1189,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 1088,
+        "thinking_tokens": 959,
+        "cost_usd": 0.0069255,
+        "duration_ms": 20230
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 332,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1186,
+        "output_tokens": 405,
+        "thinking_tokens": 195,
+        "cost_usd": 0.00249855,
+        "duration_ms": 5754
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 381,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 739,
+        "thinking_tokens": 692,
+        "cost_usd": 0.004076,
+        "duration_ms": 9917
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 636,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 555,
+        "thinking_tokens": 516,
+        "cost_usd": 0.003411,
+        "duration_ms": 8377
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🧩 🐝 🤖 🍎 ⚡ 🧊 🦁\n\n🔅 🐫 🫸 ⛲\n🐂 🪹 😨 💔\n\n📰\n🟠\n🟠🟠🟠🟠🟠🟠🟠🟠\n🟠🟠🟠🟠🟠🟠🟠\n🟠🟠🟠🟠🟠🟠🟠\n</msg>",
+      "delivered": "🧩 🤖 🍎 ⚡ 🧊 🦁\n🔅 🐫 🫸 ⛲\n🐂 🪹 😨 💔\n📰\n🟠\n🟠🟠🟠🟠🟠🟠🟠🟠\n🟠🟠🟠🟠🟠🟠🟠\n🟠🟠🟠🟠🟠🟠🟠",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🐝"
+      ],
+      "retried": false,
+      "guesser": "I read the first line as **BRAZIL**, and the orange dots as **1989**. Does 📰 mean a newspaper founded in 1989? What do the two middle lines signify?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n🤖 🍎 ⚡ 🧊 🦁\n\n🔅 🐫 🫸 ⛲\n😨 🍽 🫸 🥔\n👨 👩 👶 😵‍💫 🖤\n\n🧓\n🟠 🟠🟠🟠🟠🟠🟠🟠🟠 🟠🟠🟠🟠🟠🟠🟠 🟠🟠🟠🟠🟠🟠🟠\n🟠 🟠🟠🟠🟠🟠🟠🟠🟠 🟠🟠🟠🟠🟠🟠🟠 🟠🟠🟠🟠🟠🟠🟠🟠\n</msg>",
+      "delivered": "🤖 🍎 ⚡ 🧊 🦁\n🔅 🐫 🫸 ⛲\n😨 🫸 🥔\n👨 👩 👶 😵‍💫 🖤\n🧓\n🟠 🟠🟠🟠🟠🟠🟠🟠🟠 🟠🟠🟠🟠🟠🟠🟠 🟠🟠🟠🟠🟠🟠🟠\n🟠 🟠🟠🟠🟠🟠🟠🟠🟠 🟠🟠🟠🟠🟠🟠🟠 🟠🟠🟠🟠🟠🟠🟠🟠",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🍽️"
+      ],
+      "retried": false,
+      "guesser": "Brazilian drought and famine, affecting families? Are the dates 1977–1978, or 1877–1878?\n\nGUESS: Grande Seca",
+      "guess": "Grande Seca",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 16,
+    "round": 11,
+    "n_banned": 257,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

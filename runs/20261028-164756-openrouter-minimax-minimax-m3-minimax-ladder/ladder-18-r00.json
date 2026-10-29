@@ -1,0 +1,238 @@
+{
+  "model": "openrouter:minimax/minimax-m3@minimax",
+  "model_id": "minimax/minimax-m3",
+  "guesser_model": "openrouter:minimax/minimax-m3@minimax",
+  "guesser_model_id": "minimax/minimax-m3",
+  "effort": null,
+  "article": {
+    "title": "Motorchuna",
+    "description": "River in Yakutia (Sakha Republic), Russia",
+    "extract": "The Motorchuna is a river in Yakutia, Russia. It is a left tributary of the Lena with a length of 423 kilometres (263 mi). Its drainage basin area is 9,250 square kilometres (3,570 mi2). Since its river basin is uninhabited, the Motorchuna is one of the most untouched rivers in Yakutia; the waters are clean and there is abundant wildlife.",
+    "url": "https://en.wikipedia.org/wiki/Motorchuna"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 489.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1194,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 3553,
+      "output_tokens": 3234,
+      "thinking_tokens": 3070,
+      "cost_usd": 0.00445218,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 1011,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2816,
+      "output_tokens": 49014,
+      "thinking_tokens": 48368,
+      "cost_usd": 0.059289060000000005,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 473,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 128,
+        "output_tokens": 2207,
+        "thinking_tokens": 2129,
+        "cost_usd": 0.00279798,
+        "duration_ms": 29055
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 177,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 601,
+        "output_tokens": 69,
+        "thinking_tokens": 50,
+        "cost_usd": 0.00017196,
+        "duration_ms": 3899
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 141,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 778,
+        "output_tokens": 189,
+        "thinking_tokens": 167,
+        "cost_usd": 0.00031578,
+        "duration_ms": 2461
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 208,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 919,
+        "output_tokens": 747,
+        "thinking_tokens": 724,
+        "cost_usd": 0.00101394,
+        "duration_ms": 18964
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 195,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1127,
+        "output_tokens": 22,
+        "thinking_tokens": 0,
+        "cost_usd": 0.00015252,
+        "duration_ms": 1467
+      }
+    ],
+    "guesser": [
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 96,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 384,
+        "output_tokens": 2021,
+        "thinking_tokens": 1941,
+        "cost_usd": 0.00247704,
+        "duration_ms": 20994
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 205,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 384,
+        "output_tokens": 5395,
+        "thinking_tokens": 5292,
+        "cost_usd": 0.00655854,
+        "duration_ms": 50942
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 212,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 8244,
+        "thinking_tokens": 8086,
+        "cost_usd": 0.00998712,
+        "duration_ms": 66824
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 284,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 640,
+        "output_tokens": 28618,
+        "thinking_tokens": 28465,
+        "cost_usd": 0.0344652,
+        "duration_ms": 257059
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 214,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 896,
+        "output_tokens": 4736,
+        "thinking_tokens": 4584,
+        "cost_usd": 0.00580116,
+        "duration_ms": 37310
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇷🇺❄️\n👩🌊↙️🏞️💧\n📏🧮 🟥🟥🟥🟥 🟨🟨 🟦🟦🟦\n🚫🏠 ✨💧 🦌🐺🐟</msg>",
+      "delivered": "🇷🇺❄️\n👩🌊↙️🏞️💧\n📏🧮 🟥🟥🟥🟥 🟨🟨 🟦🟦🟦\n🚫🏠 ✨💧 🦌🐺🐟",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Please answer each with ✅ (yes) or ❌ (no), in order:\nA. Is the subject Russian or mainly associated with Russia?\nB. Is it a real person?\nC. Is it a geographic place or natural feature?\nD. Is it an animal or species?\nE. Is it connected to folklore, mythology, or fiction?\nF. Does the title contain a number?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>✅ ❌ ✅ ❌ ❌ ❌</msg>",
+      "delivered": "✅ ❌ ✅ ❌ ❌ ❌",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Let me pin down the category:\nA. Is it a river?\nB. Is it a lake?\nC. Is it a mountain, peak, or mountain range?\nD. Is it a sea, gulf, or bay?\nE. Does the 👩 represent a woman's name appearing in the title?\nF. Do the colored squares depict a flag or coat of arms?\nG. Do the deer, wolf, and fish actually live in this place?\nH. Is the place essentially uninhabited by people?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>✅ ❌ ❌ ❌ ❌ ❌ ✅ ✅</msg>",
+      "delivered": "✅ ❌ ❌ ❌ ❌ ❌ ✅ ✅",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Clear so far: an uninhabited, crystal-clear Russian river (not Siberia, not Arctic-draining directly, main river, wildlife: deer/wolf/fish).\n\nLet me test my decoding of the squares and narrow the region:]<]minimax[>[<tool_call>\nA. Do the colored squares encode the river's length in kilometres?\nB. If so, is the length exactly 423 km?\nC. Is it in the Republic of Karelia?\nD. Is it in Murmansk Oblast?\nE. Is it in the Komi Republic?\nF. Does it empty into the White Sea?\nG. Does 👩 refer to the name meaning \"woman/maiden\" in a local language?\nH. Is the name of Finnic/Sámi (non-Slavic) origin?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>✅ ✅ ❌ ❌ ❌ ❌ ❌ ❌</msg>",
+      "delivered": "✅ ✅ ❌ ❌ ❌ ❌ ❌ ❌",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Let me narrow down the drainage basin and region with yes/no questions:\n\nA. Does it drain into the Arctic Ocean (Pechora, Northern Dvina, Ob, Yenisei, Lena basins)?\nB. Does it drain into the Pacific Ocean (Amur basin)?\nC. Does it drain into the Atlantic Ocean (Baltic, Black or White Sea basins)?\nD. Does it drain into the Caspian Sea (Volga, Ural, Terek basins)?\nE. Is it in the Ob or Yenisei basin?\nF. Is it in the Lena or Kolyma basin?\nG. Is it in the Amur or Primorye region?\nH. Is it in the Volga–Kama–Ural region?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>✅ ❌ ❌ ❌ ❌ ✅ ❌ ❌</msg>",
+      "delivered": "✅ ❌ ❌ ❌ ❌ ✅ ❌ ❌",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Good — the picture is sharpening: a clear-water, uninhabited 423-km river in the Lena or Kolyma basin. Let me localize it:\n\nA. Is it in the Republic of Sakha (Yakutia)?\nB. Is it in Irkutsk Oblast or Buryatia instead?\nC. Is it a tributary of the Aldan River?\nD. Is it a tributary of the Vilyuy River?\nE. Is it a tributary of the Olyokma or Vitim River?\nF. Does the river's name mean \"woman\" or \"maiden\" in the local language?\nG. Is the name of Evenki origin?\nH. Is the name of Yakut (Sakha) origin?",
+      "guess": null,
+      "correct": null
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 18,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

@@ -1,0 +1,294 @@
+{
+  "model": "openrouter:xiaomi/mimo-v2.6-pro@gmicloud/bf16",
+  "model_id": "xiaomi/mimo-v2.6-pro",
+  "guesser_model": "openrouter:xiaomi/mimo-v2.6-pro@gmicloud/bf16",
+  "guesser_model_id": "xiaomi/mimo-v2.6-pro",
+  "effort": null,
+  "article": {
+    "title": "Iglesia de Santa Ana (Santiago de Chile)",
+    "description": "National monument of Chile",
+    "extract": "The Iglesia de Santa Ana is a Catholic church in downtown Santiago de Chile. It is located at the northwest corner of Catedral and San Martín streets. The church was declared as a National Monument of Chile in 1970, within the category of Historic Monuments. Santa Ana metro station is named after the church.",
+    "url": "https://en.wikipedia.org/wiki/Iglesia_de_Santa_Ana_(Santiago_de_Chile)"
+  },
+  "solved": true,
+  "turns_taken": 5,
+  "solved_turn": 5,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 475.3,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2184,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2560,
+      "output_tokens": 1326,
+      "thinking_tokens": 1115,
+      "cost_usd": 0.001796815,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 2097,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1536,
+      "output_tokens": 16025,
+      "thinking_tokens": 15178,
+      "cost_usd": 0.01263107565,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 962,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 172,
+      "thinking_tokens": 152,
+      "cost_usd": 0.00018219999999999998,
+      "calls": 5
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 154,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 492,
+        "thinking_tokens": 467,
+        "cost_usd": 0.0004216459,
+        "duration_ms": 15288
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 252,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 384,
+        "output_tokens": 132,
+        "thinking_tokens": 93,
+        "cost_usd": 0.0001920966,
+        "duration_ms": 6844
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 401,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 190,
+        "thinking_tokens": 148,
+        "cost_usd": 0.00029051555,
+        "duration_ms": 7165
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 1018,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 442,
+        "thinking_tokens": 386,
+        "cost_usd": 0.0007041349,
+        "duration_ms": 13189
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 359,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1152,
+        "output_tokens": 70,
+        "thinking_tokens": 21,
+        "cost_usd": 0.00018842205,
+        "duration_ms": 2919
+      }
+    ],
+    "guesser": [
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 268,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 1312,
+        "thinking_tokens": 1145,
+        "cost_usd": 0.001069317,
+        "duration_ms": 37884
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 226,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 1198,
+        "thinking_tokens": 1030,
+        "cost_usd": 0.0009703549,
+        "duration_ms": 36464
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 319,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 384,
+        "output_tokens": 9910,
+        "thinking_tokens": 9662,
+        "cost_usd": 0.00744770085,
+        "duration_ms": 264857
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 1010,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 237,
+        "thinking_tokens": 135,
+        "cost_usd": 0.000548709,
+        "duration_ms": 8510
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 274,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 896,
+        "output_tokens": 3368,
+        "thinking_tokens": 3206,
+        "cost_usd": 0.0025949939,
+        "duration_ms": 76855
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 189,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.09e-05,
+        "duration_ms": 821
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 195,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.15e-05,
+        "duration_ms": 940
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 194,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.14e-05,
+        "duration_ms": 947
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 194,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.14e-05,
+        "duration_ms": 1223
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 190,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 156,
+        "thinking_tokens": 152,
+        "cost_usd": 9.7e-05,
+        "duration_ms": 1380
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>⛪ 🙏 👩 🇨🇱 🏙️ 🚇</msg>",
+      "delivered": "⛪ 🙏 👩 🇨🇱 🏙️ 🚇",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Interpretation so far: ⛪🙏 = church/prayer/religion, 👩 = a woman (perhaps a saint or nun, or \"Our Lady\"), 🇨🇱 = Chile, 🏙️ = a big city (Santiago?), 🚇 = metro (Santiago has a metro).\n\nMy working hypothesis: a Chilean woman religious figure (saint/nun) connected to Santiago.\n\nA few quick questions to narrow it down:\n1. Is the article about a **person** (as I suspect) or about a **place/building** (e.g., a church or metro station)?\n2. Is she a **saint/blessed/nun** (religious figure)?\n3. Is the city **Santiago**?\n\nGUESS: Teresa of the Andes",
+      "guess": "Teresa of the Andes",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>1️⃣ 👍 ⛪ 2️⃣ 👎 3️⃣ 👍 👩‍👧</msg>",
+      "delivered": "👍 ⛪ 👎 👍 👩‍👧",
+      "dropped_chars": 6,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Good — so it sounds like it's a **church** (not a person), in **Santiago**, dedicated to the **Virgin Mary** (👩‍👧 = Mary & child)? And 🚇 means it's associated with a **metro station**?\n\nA couple of quick questions:\n1. Is the article about a **church/building** (not a person)? \n2. Is it dedicated to a specific title of Mary — e.g., Our Lady of Lourdes / Guadalupe / Carmen / Merced / Mount Carmel?\n3. Is the metro link because the station is named after it, or because it sits above/near a metro?\n\nMy current guess: I'll try the most prominent Marian church in Santiago.\n\nGUESS: Catedral Metropolitana de Santiago",
+      "guess": "Catedral Metropolitana de Santiago",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>1️⃣ 👍 2️⃣ 👎 3️⃣ 👍 👵 ✝️ 📍 🛣️</msg>",
+      "delivered": "👍 👎 👍 👵 ✝️ 📍 🛣️",
+      "dropped_chars": 6,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Working summary so far:\n- 🇨🇱🏙️🚇 = a big Chilean city with a metro (Santiago, or possibly Valparaíso/Merval)\n- ⛪🙏 = a church\n- 👩‍👧 = mother & daughter (St. Anne + Mary?), or \"a woman and her girl\"\n- 👵 ✝️ 📍 🛣️ = an old woman + a cross + at a location + on a road/street\n\nQuestions to pin down the title:\n1. Is the article about a **building/place** (church, shrine, station, neighborhood) or about a **person**?\n2. Does the article's **title literally contain the word \"Cruz\"** (cross)? Or is ✝️ just describing something (a monument, a death)?\n3. Does 👵 mean \"old woman / vieja / abuela\" as part of the name, or is it describing a person (e.g., a grandmother/legend figure)?\n4. Is 🛣️ a **road/camino/street** that appears in the title, or just \"located on a road\"?\n\nGUESS: Iglesia de la Vera Cruz",
+      "guess": "Iglesia de la Vera Cruz",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>1️⃣ 👍 2️⃣ 👎 3️⃣ 👍 4️⃣ 👍 ⛪ 🎅 👵 👧 ✝️ 🇨🇱</msg>",
+      "delivered": "👍 👎 👍 👍 ⛪ 🎅 👵 👧 ✝️ 🇨🇱",
+      "dropped_chars": 8,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Parsing the recent message: ⛪ church, 🎅 santa, 👵 old woman, 👧 girl, ✝️ cruz, 🇨🇱 Chile.\n\nQuestions to narrow the exact title:\n1. Is \"Cruz\" (cross) part of the article title?\n2. Is the church named after a **female saint** (👧👵 = \"Santa ___\")? Which one?\n3. Is this in Santiago specifically?\n\nGUESS: Iglesia de la Santa Cruz",
+      "guess": "Iglesia de la Santa Cruz",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>1️⃣ 👎 2️⃣ 👍 👵 🤱 👧 ✝️ 3️⃣ 👍 🏙️ 🇨🇱</msg>",
+      "delivered": "👎 👍 👵 🤱 👧 ✝️ 👍 🏙️ 🇨🇱",
+      "dropped_chars": 6,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "New info: 👵🤱👧 = an old woman feeding/raising a girl (iconographically = **Santa Ana raising the Virgin Niña**), plus ✝️, in a 🏙️ in 🇨🇱.\n\nSo my hypothesis is now: a church in Santiago dedicated to **Santa Ana**, and 🚇 = the **Santa Ana** metro station (Santiago Line 2/5, near Patronato/Independencia).\n\nTwo quick questions:\n1. Is the article's title centered on **\"Santa Ana\"** (the saint or the church/station named after her)?\n2. Is the article about a **building (church/templo)**, a **metro station**, or a **place/neighborhood**?\n\nGUESS: Templo de Santa Ana",
+      "guess": "Templo de Santa Ana",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 15,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

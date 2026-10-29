@@ -1,0 +1,151 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Iglesia de Santa Ana (Santiago de Chile)",
+    "description": "National monument of Chile",
+    "extract": "The Iglesia de Santa Ana is a Catholic church in downtown Santiago de Chile. It is located at the northwest corner of Catedral and San Martín streets. The church was declared as a National Monument of Chile in 1970, within the category of Historic Monuments. Santa Ana metro station is named after the church.",
+    "url": "https://en.wikipedia.org/wiki/Iglesia_de_Santa_Ana_(Santiago_de_Chile)"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 24.8,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1135,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 392,
+      "thinking_tokens": 280,
+      "cost_usd": 0.006189999999999999,
+      "calls": 2
+    },
+    "guesser": {
+      "input_tokens": 762,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 245,
+      "thinking_tokens": 132,
+      "cost_usd": 0.003974,
+      "calls": 2
+    },
+    "judge": {
+      "input_tokens": 197,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 2.17e-05,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 494,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 218,
+        "thinking_tokens": 171,
+        "cost_usd": 0.003168,
+        "duration_ms": 7931
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 641,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 174,
+        "thinking_tokens": 109,
+        "cost_usd": 0.003022,
+        "duration_ms": 6334
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 303,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 187,
+        "thinking_tokens": 90,
+        "cost_usd": 0.002476,
+        "duration_ms": 5796
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 459,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 58,
+        "thinking_tokens": 42,
+        "cost_usd": 0.001498,
+        "duration_ms": 3939
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 197,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.17e-05,
+        "duration_ms": 789
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🌎📍🌶️\n🇻🇦🛐🔔\n🎅🧓🤱\n🚉\n📜🛡️</msg>",
+      "delivered": "🌎📍🌶️\n🇻🇦🛐🔔\n🎅🧓🤱\n🚉\n📜🛡️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is this a place in Chile, with a name beginning “Santa” or “San”? Does 🚉 mean the article is specifically about a railway station, rather than a town?\n\nI’m reading this as a Chilean place with a Catholic name, perhaps beginning “Santa” or “San.” Is the article about a town, or specifically a railway station? What do 🧓🤱 represent in its name?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👍🌶️ 👍🎅\n👎🚉 👎🏘️\n🛐🔔🏗️ 🇻🇦\n📍👑🌶️\n🧓🤱 🧬 🤱🕊️</msg>",
+      "delivered": "👍🌶️ 👍🎅\n👎🚉 👎🏘️\n🛐🔔🏗️ 🇻🇦\n📍👑🌶️\n🧓🤱 🧬 🤱🕊️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Santa Ana Church, Santiago de Chile",
+      "guess": "Santa Ana Church, Santiago de Chile",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 15,
+    "round": 1,
+    "n_banned": 13,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

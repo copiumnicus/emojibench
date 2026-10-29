@@ -1,0 +1,106 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Jakob von Washington",
+    "description": "Bavarian general (1778–1848)",
+    "extract": "\nBaron Jacobus von Washington was a lieutenant general in the Bavarian Army and a distant relative of US President George Washington. Born in The Hague, Netherlands, he was christened James Washington. Most of his adult life was shaped by his participation in wars for and against Napoleonic France and his service to Ludwig I of Bavaria.",
+    "url": "https://en.wikipedia.org/wiki/Jakob_von_Washington"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 12.4,
+  "usage": {
+    "explainer": {
+      "input_tokens": 397,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 190,
+      "thinking_tokens": 107,
+      "cost_usd": 0.002694,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 314,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 141,
+      "thinking_tokens": 129,
+      "cost_usd": 0.002038,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 397,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 190,
+        "thinking_tokens": 107,
+        "cost_usd": 0.002694,
+        "duration_ms": 6395
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 314,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 141,
+        "thinking_tokens": 129,
+        "cost_usd": 0.002038,
+        "duration_ms": 5995
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇳🇱👶➡️🇩🇪🥨🍺🎖️👨‍✈️\n⚔️🇫🇷👑\n👨‍✈️🧬👨‍🦳🇺🇸💵\n👑🇩🇪🥨🤝🎖️</msg>",
+      "delivered": "🇳🇱👶➡️🇩🇪🥨🍺🎖️👨‍✈️\n⚔️🇫🇷👑\n👨‍✈️🧬👨‍🦳🇺🇸💵\n👑🇩🇪🥨🤝🎖️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Jakob von Washington",
+      "guess": "Jakob von Washington",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 6,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

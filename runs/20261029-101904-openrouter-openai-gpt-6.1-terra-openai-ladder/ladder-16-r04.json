@@ -1,0 +1,108 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Grande Seca",
+    "description": "Brazilian drought (1877–1878)",
+    "extract": "The Grande Seca, or the Brazilian drought of 1877–1878, was the largest and most devastating drought in Brazilian history. It caused the deaths of between 400,000 and 500,000 people. Of the 800,000 people who lived in the affected Northeastern region, around 120,000 migrated to the Amazon while 68,000 migrated to other parts of Brazil.",
+    "url": "https://en.wikipedia.org/wiki/Grande_Seca"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 19.3,
+  "usage": {
+    "explainer": {
+      "input_tokens": 714,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 556,
+      "thinking_tokens": 473,
+      "cost_usd": 0.003494,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 335,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 335,
+      "thinking_tokens": 323,
+      "cost_usd": 0.00201,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 714,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 556,
+        "thinking_tokens": 473,
+        "cost_usd": 0.003494,
+        "duration_ms": 12773
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 335,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 335,
+        "thinking_tokens": 323,
+        "cost_usd": 0.00201,
+        "duration_ms": 6487
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n💚💛💙 🌴🐆🦥🦜\n\n🌦️❎ 🚰❎ 🌡️📈\n🌍 😵😵😵😵\n🕯️🐎🚂\n🧳🧳🧳 🛶 🌴🌴🌴\n</msg>",
+      "delivered": "💚💛💙 🌴🐆🦥\n🌦️❎ 🚰❎ 🌡️📈\n🌍 😵😵😵😵\n🕯️🐎🚂\n🧳🧳🧳 🛶 🌴🌴🌴",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🦜"
+      ],
+      "retried": false,
+      "guesser": "GUESS: Grande Seca",
+      "guess": "Grande Seca",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 16,
+    "round": 4,
+    "n_banned": 84,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

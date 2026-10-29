@@ -1,0 +1,174 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Iglesia de Santa Ana (Santiago de Chile)",
+    "description": "National monument of Chile",
+    "extract": "The Iglesia de Santa Ana is a Catholic church in downtown Santiago de Chile. It is located at the northwest corner of Catedral and San Martín streets. The church was declared as a National Monument of Chile in 1970, within the category of Historic Monuments. Santa Ana metro station is named after the church.",
+    "url": "https://en.wikipedia.org/wiki/Iglesia_de_Santa_Ana_(Santiago_de_Chile)"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 73.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2462,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 814,
+      "thinking_tokens": 590,
+      "cost_usd": 0.013064,
+      "calls": 3
+    },
+    "guesser": {
+      "input_tokens": 1477,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1138,
+      "thinking_tokens": 941,
+      "cost_usd": 0.014334,
+      "calls": 3
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 603,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 404,
+        "thinking_tokens": 340,
+        "cost_usd": 0.005246,
+        "duration_ms": 15081
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 856,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 235,
+        "thinking_tokens": 152,
+        "cost_usd": 0.004062,
+        "duration_ms": 9102
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1003,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 175,
+        "thinking_tokens": 98,
+        "cost_usd": 0.003756,
+        "duration_ms": 7396
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 322,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 561,
+        "thinking_tokens": 459,
+        "cost_usd": 0.006254,
+        "duration_ms": 21619
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 508,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 459,
+        "thinking_tokens": 405,
+        "cost_usd": 0.005606,
+        "duration_ms": 14566
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 647,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 118,
+        "thinking_tokens": 77,
+        "cost_usd": 0.002474,
+        "duration_ms": 5843
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "🗺️ 🇵🇪 🇧🇴 🏔️\n🔵🌟⚪\n🔴🔴🔴\n\n🏙 🐚\n🛕 ➕ 📖 🧎\n👭 👧\n🚈 🚏",
+      "delivered": "🗺️ 🇵🇪 🇧🇴 🏔️\n🔵🌟⚪\n🔴🔴🔴\n🐚\n🛕 ➕ 📖 🧎\n👭 👧\n🚈 🚏",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🏙️"
+      ],
+      "retried": false,
+      "guesser": "I read this as Chile, probably a railway/metro station named after a Catholic school or convent for girls. Is the article a station? Does 🐚 mean “Concha,” or Santiago/St James?\n\n\nIs it in Santiago, Chile? 🚈🚏 = a metro station, and 🛕➕📖🧎👭👧 = a Catholic girls’ school/convent? What does 🐚 represent?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "🐚 ✅\n🚈🚏 ❌\n🛕 ✅\n🛕 ⏩ 🚈🚏\n\n👧 ⏩ 👰 ⏩ 👦\n👧 👰 👦\n🧑‍🦱 ⏪ 👰 ⏪ 👦\n🛕 🧑‍🦱 🌹",
+      "delivered": "🐚 ✅\n🚈🚏 ❌\n🛕 ✅\n🛕 ⏩ 🚈🚏\n👧 ⏩ 👰 ⏩ 👦\n👧 👰 👦\n🧑‍🦱 ⏪ 👰 ⏪ 👦\n🛕 🧑‍🦱 🌹",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is the church in Santiago, Chile, with a nearby metro station named after it? Does 🐚 refer to the surname Concha? And does 🧑‍🦱🌹 mean Saint Rose, or someone named Rosario?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "🐚 🧑‍🦯 🥾 🥾 🟨 🌌 ✅\n🛕 ⏩ 🚈🚏 ✅\n🌹 ❌\n\n♀️\n⬇️\n♀️ 🔵 ⚪\n⬇️\n🍼 ➕\n🛕 ⬆️♀️",
+      "delivered": "🐚 🧑‍🦯 🥾 🥾 🟨 🌌 ✅\n🛕 ⏩ 🚈🚏 ✅\n🌹 ❌\n♀️\n⬇️\n♀️ 🔵 ⚪\n⬇️\n🍼 ➕\n🛕 ⬆️♀️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The shell and pilgrimage mean Santiago. The family clues suggest Saint Anne → Mary (blue and white) → baby Jesus.\n\nGUESS: Iglesia de Santa Ana, Santiago de Chile",
+      "guess": "Iglesia de Santa Ana, Santiago de Chile",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 15,
+    "round": 3,
+    "n_banned": 53,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

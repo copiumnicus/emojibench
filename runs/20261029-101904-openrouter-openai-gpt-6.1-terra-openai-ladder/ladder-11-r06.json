@@ -1,0 +1,195 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Ayribobo",
+    "description": "Highest mountain of Turkmenistan",
+    "extract": "Ayribobo or Aýrybaba, officially named the Great Saparmyrat Turkmenbashi Peak in Turkmenistan since 2004, is a mountain in Central Asia. At 3,138 metres (10,295 ft) Aýrybaba is the highest mountain in Turkmenistan. It is located in the Köýtendag Range of the Pamir-Alay chain in the southeast of Turkmenistan on the Uzbekistani border.",
+    "url": "https://en.wikipedia.org/wiki/Ayribobo"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 69.1,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2544,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1667,
+      "thinking_tokens": 1483,
+      "cost_usd": 0.010879,
+      "calls": 3
+    },
+    "guesser": {
+      "input_tokens": 1230,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1638,
+      "thinking_tokens": 1536,
+      "cost_usd": 0.00942,
+      "calls": 3
+    },
+    "judge": {
+      "input_tokens": 357,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 310,
+      "thinking_tokens": 302,
+      "cost_usd": 0.0001907,
+      "calls": 2
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 746,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 732,
+        "thinking_tokens": 689,
+        "cost_usd": 0.004406,
+        "duration_ms": 15420
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 835,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 485,
+        "thinking_tokens": 418,
+        "cost_usd": 0.00326,
+        "duration_ms": 11579
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 963,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 450,
+        "thinking_tokens": 376,
+        "cost_usd": 0.003213,
+        "duration_ms": 10016
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 299,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 442,
+        "thinking_tokens": 406,
+        "cost_usd": 0.002509,
+        "duration_ms": 8385
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 403,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 801,
+        "thinking_tokens": 764,
+        "cost_usd": 0.004408,
+        "duration_ms": 12848
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 528,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 395,
+        "thinking_tokens": 366,
+        "cost_usd": 0.002503,
+        "duration_ms": 7661
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 179,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.99e-05,
+        "duration_ms": 1190
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 178,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 306,
+        "thinking_tokens": 302,
+        "cost_usd": 0.0001708,
+        "duration_ms": 2002
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇦🇿 💧 🥬🔴🌘💫\n\n🏕️ 🔼 🥾\n\n👂 🎻 🎻</msg>",
+      "delivered": "🇦🇿 💧 🥬🔴🌘💫\n🏕️ 🔼 🥾\n👂 🎻 🎻",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I see Azerbaijan, perhaps a lake or mountain hiking location. Does the last line give a pronunciation clue? Please clarify the article’s type and name.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>✅ 🗣️\n\n🇦🇿 🙅\n🇦🇿 💧 🚢 💧 👉 🍗 👥 🏠\n\n🌲 🔼 🌲\n🔼 🔼 🔼\n\n🛫 🍖 😮 😮</msg>",
+      "delivered": "✅ 🗣️\n🇦🇿 🙅\n🇦🇿 💧 🚢 💧 👉 🍗 👥 🏠\n🌲 🔼 🌲\n🔼 🔼 🔼\n🛫 🍖 😮 😮",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is it a mountainous forested place in Armenia, perhaps Dilijan National Park? Please give more clues to the name.\n\nGUESS: Dilijan National Park",
+      "guess": "Dilijan National Park",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🇦🇲 🙅\n\n🇦🇿 💧💧💧 👉 🥬 🧣 🌘 💫💫💫\n\n👆 🌲 🔼 🌲\n🔼 🔼 🔼\n\n🗣️ 🛫 🍖 👴 👴</msg>",
+      "delivered": "🇦🇲 🙅\n🇦🇿 💧💧💧 👉 🥬 🧣 🌘 💫💫💫\n👆 🌲 🔼 🌲\n🔼 🔼 🔼\n🗣️ 🛫 🍖 👴 👴",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "That sounds like Airy Baba, the highest mountain in Turkmenistan!\n\nGUESS: Aýrybaba",
+      "guess": "Aýrybaba",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 11,
+    "round": 6,
+    "n_banned": 93,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

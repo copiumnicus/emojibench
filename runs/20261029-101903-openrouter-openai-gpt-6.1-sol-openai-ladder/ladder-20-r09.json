@@ -1,0 +1,292 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Franco Cozzo",
+    "description": "Australian businessman (1935–2023)",
+    "extract": "Franco Cozzo was an Italian-Australian businessman. After moving to Melbourne from Sicily in 1955, Cozzo became known for his television advertisements, in which he would speak in English, Greek, and Italian. He later produced Australia's first non-English TV show, Carosello, which was broadcast in Italian.",
+    "url": "https://en.wikipedia.org/wiki/Franco_Cozzo"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 185.2,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2141,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 6408,
+      "output_tokens": 3229,
+      "thinking_tokens": 2832,
+      "cost_usd": 0.0382758,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 2628,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1343,
+      "thinking_tokens": 1200,
+      "cost_usd": 0.018686,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 542,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 12,
+      "thinking_tokens": 0,
+      "cost_usd": 6.02e-05,
+      "calls": 3
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1300,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 1037,
+        "thinking_tokens": 975,
+        "cost_usd": 0.0136185,
+        "duration_ms": 39906
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 203,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1297,
+        "output_tokens": 594,
+        "thinking_tokens": 516,
+        "cost_usd": 0.0065757,
+        "duration_ms": 26700
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 210,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1497,
+        "output_tokens": 594,
+        "thinking_tokens": 516,
+        "cost_usd": 0.0066132,
+        "duration_ms": 22149
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 209,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1704,
+        "output_tokens": 411,
+        "thinking_tokens": 329,
+        "cost_usd": 0.0048014,
+        "duration_ms": 16835
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 219,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1910,
+        "output_tokens": 593,
+        "thinking_tokens": 496,
+        "cost_usd": 0.006667,
+        "duration_ms": 24196
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 306,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 540,
+        "thinking_tokens": 488,
+        "cost_usd": 0.006012,
+        "duration_ms": 18779
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 428,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 220,
+        "thinking_tokens": 208,
+        "cost_usd": 0.003056,
+        "duration_ms": 8499
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 525,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 72,
+        "thinking_tokens": 59,
+        "cost_usd": 0.00177,
+        "duration_ms": 3837
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 632,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 214,
+        "thinking_tokens": 201,
+        "cost_usd": 0.003404,
+        "duration_ms": 9969
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 737,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 297,
+        "thinking_tokens": 244,
+        "cost_usd": 0.004444,
+        "duration_ms": 11502
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 180,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2e-05,
+        "duration_ms": 886
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 182,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.02e-05,
+        "duration_ms": 934
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 180,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2e-05,
+        "duration_ms": 972
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🧑‍🦲👨‍🦲\n🛵🍧🛫🛬🪼🕸️\n🛎️\n💱🛖\n📀🗣️</msg>",
+      "delivered": "🧑‍🦲👨‍🦲\n🛵🍧🛫🛬🪼🕸️\n💱\n📀",
+      "dropped_chars": 3,
+      "off_keyboard": [
+        "🛎️",
+        "🛖",
+        "🗣️"
+      ],
+      "retried": false,
+      "guesser": "Is this a music album by a duo of two bald men, perhaps Orbital? Do 🛵🍧🛫🛬🪼🕸️ represent tracks, and 💱 the album title?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🙅‍♂️ 🎧💿🙅‍♂️\n👨‍🦲💱🧺🪜🛁\n🛵🍜🍧 🛫 🐕🦢🏏\n👨‍🦲🗯️🇲🇹</msg>",
+      "delivered": "🙅‍♂️ 🎧💿🙅‍♂️\n👨‍🦲💱🧺🪜\n🛵🍜🍧 🛫 🐕🦢\n👨‍🦲🇲🇹",
+      "dropped_chars": 3,
+      "off_keyboard": [
+        "🛁",
+        "🏏",
+        "🗯️"
+      ],
+      "retried": false,
+      "guesser": "GUESS: Joseph Gatt",
+      "guess": "Joseph Gatt",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🙅‍♂️ 🇲🇹🙅‍♂️\n👨‍🦲 💱 🏚️ 🧺 🚿 🪠 🧹\n🛫🛬 🐴🏅 🐨\n🛜 👨‍🦲 🗫</msg>",
+      "delivered": "🙅‍♂️ 🇲🇹🙅‍♂️\n👨‍🦲 💱 🏚️ 🧺 🚿 🪠 🧹\n🛫🛬 🐴🏅\n🛜 👨‍🦲",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🐨"
+      ],
+      "retried": false,
+      "guesser": "GUESS: Bald and Bankrupt",
+      "guess": "Bald and Bankrupt",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🙅‍♂️\n🇨🇭⏬ 🛵 🤏 🧄\n🛫🛬\n🇮🇩⏬ 🐚🦔\n🕴️💱 🏚️\n📟📠📀 🕴️💭💭💭</msg>",
+      "delivered": "🙅‍♂️\n🇨🇭⏬ 🛵 🤏\n🛫🛬\n🇮🇩⏬ 🐚🦔\n🕴️💱 🏚️\n📟📠📀 🕴️💭💭💭",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🧄"
+      ],
+      "retried": false,
+      "guesser": "GUESS: The Zero Theorem",
+      "guess": "The Zero Theorem",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>🙅‍♂️ 🎞️🙅‍♂️\n🧑 🍼🕯️🪦\n🧑 💱 🏚️ 🦽 🌲\n🇨🇭⏬ 👠🍝\n🛫🛬\n🇮🇩⏬ 🕷️🦂🐍\n🎾🚈🐴🏅</msg>",
+      "delivered": "🙅‍♂️ 🙅‍♂️\n🧑 🍼🪦\n🧑 💱 🏚️ 🦽 🌲\n🇨🇭⏬ 👠\n🛫🛬\n🇮🇩⏬\n🚈🐴🏅",
+      "dropped_chars": 7,
+      "off_keyboard": [
+        "🎞️",
+        "🕯️",
+        "🍝",
+        "🕷️",
+        "🦂",
+        "🐍",
+        "🎾"
+      ],
+      "retried": false,
+      "guesser": "Are we looking for a film, a person, or a television programme? Does 🇨🇭⏬ mean Italy, and 🇮🇩⏬ mean Australia? Is 💱 “exchange” or “swap”?",
+      "guess": null,
+      "correct": null
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 20,
+    "round": 9,
+    "n_banned": 297,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

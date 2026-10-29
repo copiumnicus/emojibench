@@ -1,0 +1,217 @@
+{
+  "model": "openrouter:deepseek/deepseek-v4-pro-0813@baidu/fp8",
+  "model_id": "deepseek/deepseek-v4-pro-0813",
+  "guesser_model": "openrouter:deepseek/deepseek-v4-pro-0813@baidu/fp8",
+  "guesser_model_id": "deepseek/deepseek-v4-pro-0813",
+  "effort": null,
+  "article": {
+    "title": "Grande Seca",
+    "description": "Brazilian drought (1877–1878)",
+    "extract": "The Grande Seca, or the Brazilian drought of 1877–1878, was the largest and most devastating drought in Brazilian history. It caused the deaths of between 400,000 and 500,000 people. Of the 800,000 people who lived in the affected Northeastern region, around 120,000 migrated to the Amazon while 68,000 migrated to other parts of Brazil.",
+    "url": "https://en.wikipedia.org/wiki/Grande_Seca"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 386.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1132,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1280,
+      "output_tokens": 2005,
+      "thinking_tokens": 1881,
+      "cost_usd": 0.0013093164,
+      "calls": 4
+    },
+    "guesser": {
+      "input_tokens": 728,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1024,
+      "output_tokens": 19223,
+      "thinking_tokens": 19065,
+      "cost_usd": 0.010643532624,
+      "calls": 4
+    },
+    "judge": {
+      "input_tokens": 177,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 1.97e-05,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 237,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 333,
+        "thinking_tokens": 312,
+        "cost_usd": 0.000226633536,
+        "duration_ms": 7202
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 314,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 429,
+        "thinking_tokens": 402,
+        "cost_usd": 0.000293121936,
+        "duration_ms": 9058
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 374,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 502,
+        "thinking_tokens": 469,
+        "cost_usd": 0.000343944576,
+        "duration_ms": 9832
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 207,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 741,
+        "thinking_tokens": 698,
+        "cost_usd": 0.000445616352,
+        "duration_ms": 15443
+      }
+    ],
+    "guesser": [
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 76,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 5862,
+        "thinking_tokens": 5818,
+        "cost_usd": 0.003218793696,
+        "duration_ms": 112422
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 150,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 7047,
+        "thinking_tokens": 7026,
+        "cost_usd": 0.003879852336,
+        "duration_ms": 122753
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 207,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 3630,
+        "thinking_tokens": 3602,
+        "cost_usd": 0.002022913296,
+        "duration_ms": 63201
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 295,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 2684,
+        "thinking_tokens": 2619,
+        "cost_usd": 0.001521973296,
+        "duration_ms": 45513
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 177,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.97e-05,
+        "duration_ms": 1241
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇧🇷🏜️☀️🔥💀</msg>",
+      "delivered": "🇧🇷🏜️☀️🔥💀",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I see Brazil + arid backlands + heat + violence/death. Is the article about a specific person, like Lampião, rather than a place/biome/event? Answer ✅/❌.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>❌🕰️📜🇧🇷🏜️💧🚫</msg>",
+      "delivered": "❌🕰️📜🇧🇷🏜️💧🚫",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is the article a book, like \"Os Sertões\"? Answer ✅ or ❌.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>❌📕 🇧🇷🏜️☀️🚫💧⏳💀👥</msg>",
+      "delivered": "❌📕 🇧🇷🏜️☀️🚫💧⏳💀👥",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The clues point to the historical conflict in the Brazilian sertão, not the book about it.\n\nGUESS: War of Canudos",
+      "guess": "War of Canudos",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>❌⚔️\n🇧🇷🏜️☀️🔥\n💧🚫🌾💀👥\n📅⏳</msg>",
+      "delivered": "❌⚔️\n🇧🇷🏜️☀️🔥\n💧🚫🌾💀👥\n📅⏳",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The emojis strongly suggest a severe drought in Brazil's sertão: 🇧🇷 + desert + sun + no water + failed crops + many deaths + a historical time period. This matches the Great Drought (Grande Seca) of 1877–1878.\n\nGUESS: Grande Seca",
+      "guess": "Grande Seca",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 16,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

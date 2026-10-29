@@ -1,0 +1,294 @@
+{
+  "model": "openrouter:minimax/minimax-m3@minimax",
+  "model_id": "minimax/minimax-m3",
+  "guesser_model": "openrouter:minimax/minimax-m3@minimax",
+  "guesser_model_id": "minimax/minimax-m3",
+  "effort": null,
+  "article": {
+    "title": "Iglesia de Santa Ana (Santiago de Chile)",
+    "description": "National monument of Chile",
+    "extract": "The Iglesia de Santa Ana is a Catholic church in downtown Santiago de Chile. It is located at the northwest corner of Catedral and San Martín streets. The church was declared as a National Monument of Chile in 1970, within the category of Historic Monuments. Santa Ana metro station is named after the church.",
+    "url": "https://en.wikipedia.org/wiki/Iglesia_de_Santa_Ana_(Santiago_de_Chile)"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 114.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 779,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2909,
+      "output_tokens": 1794,
+      "thinking_tokens": 1661,
+      "cost_usd": 0.00256104,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 612,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2326,
+      "output_tokens": 4339,
+      "thinking_tokens": 4201,
+      "cost_usd": 0.00552996,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 935,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 20,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0001035,
+      "calls": 5
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 444,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 128,
+        "output_tokens": 615,
+        "thinking_tokens": 589,
+        "cost_usd": 0.00087888,
+        "duration_ms": 6103
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 78,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 572,
+        "output_tokens": 277,
+        "thinking_tokens": 251,
+        "cost_usd": 0.00039012,
+        "duration_ms": 3388
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 81,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 650,
+        "output_tokens": 271,
+        "thinking_tokens": 243,
+        "cost_usd": 0.0003885,
+        "duration_ms": 3333
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 97,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 731,
+        "output_tokens": 275,
+        "thinking_tokens": 251,
+        "cost_usd": 0.00040296,
+        "duration_ms": 2679
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 79,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 828,
+        "output_tokens": 356,
+        "thinking_tokens": 327,
+        "cost_usd": 0.00050058,
+        "duration_ms": 7632
+      }
+    ],
+    "guesser": [
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 313,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 128,
+        "output_tokens": 215,
+        "thinking_tokens": 192,
+        "cost_usd": 0.00035958,
+        "duration_ms": 2875
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 68,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 441,
+        "output_tokens": 429,
+        "thinking_tokens": 403,
+        "cost_usd": 0.00056166,
+        "duration_ms": 13951
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 73,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 509,
+        "output_tokens": 1852,
+        "thinking_tokens": 1815,
+        "cost_usd": 0.00227484,
+        "duration_ms": 26410
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 84,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 582,
+        "output_tokens": 973,
+        "thinking_tokens": 949,
+        "cost_usd": 0.00122772,
+        "duration_ms": 32291
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 74,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 666,
+        "output_tokens": 870,
+        "thinking_tokens": 842,
+        "cost_usd": 0.00110616,
+        "duration_ms": 11560
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 184,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.04e-05,
+        "duration_ms": 860
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 181,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.01e-05,
+        "duration_ms": 884
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 195,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.15e-05,
+        "duration_ms": 936
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 186,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.06e-05,
+        "duration_ms": 862
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 189,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.09e-05,
+        "duration_ms": 853
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇨🇱 ⛪ 🏛️ 🚇 🏙️</msg>",
+      "delivered": "🇨🇱 ⛪ 🏛️ 🚇 🏙️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "This suggests a Chilean city with historic architecture and a metro system, possibly Santiago.\n\nGUESS: Santiago",
+      "guess": "Santiago",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>⛪👩‍🦳🇨🇱🏙️🚇</msg>",
+      "delivered": "⛪👩‍🦳🇨🇱🏙️🚇",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Are we looking for a Chilean woman associated with a church and a city served by a subway?\n\nGUESS: María",
+      "guess": "María",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>⛪👩‍🦰👶🇨🇱🚇🏙️</msg>",
+      "delivered": "⛪👩‍🦰👶🇨🇱🚇🏙️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The woman with a baby likely represents Saint Anne, mother of the Virgin Mary; this points to Santa Ana station in Santiago.\n\nGUESS: Santa Ana (Santiago Metro)",
+      "guess": "Santa Ana (Santiago Metro)",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>⛪🏛️🇨🇱👩‍🦳</msg>",
+      "delivered": "⛪🏛️🇨🇱👩‍🦳",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The clues may describe an elderly Catholic religious sister connected to a notable building in Santiago.\n\nGUESS: Maria Ho",
+      "guess": "Maria Ho",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>⛪🏙️🇨🇱🏛️🚇➡️⛪</msg>",
+      "delivered": "⛪🏙️🇨🇱🏛️🚇➡️⛪",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The church, woman with child, city, and transit clues suggest Saint Anne and Santiago Metro.\n\nGUESS: Santa Ana metro station",
+      "guess": "Santa Ana metro station",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 15,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "model": "openrouter:deepseek/deepseek-v4-pro-0813@baidu/fp8",
+  "model_id": "deepseek/deepseek-v4-pro-0813",
+  "guesser_model": "openrouter:deepseek/deepseek-v4-pro-0813@baidu/fp8",
+  "guesser_model_id": "deepseek/deepseek-v4-pro-0813",
+  "effort": null,
+  "article": {
+    "title": "Jovan Hadži-Vasiljević",
+    "description": "Serbian historian, ethnographer, journalist and writer",
+    "extract": "Jovan Hadži-Vasiljević was a Serbian historian, ethnographer, journalist and writer.",
+    "url": "https://en.wikipedia.org/wiki/Jovan_Had%C5%BEi-Vasiljevi%C4%87"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 258.1,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1180,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1792,
+      "output_tokens": 2208,
+      "thinking_tokens": 2127,
+      "cost_usd": 0.001431963072,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 1030,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1280,
+      "output_tokens": 12385,
+      "thinking_tokens": 12186,
+      "cost_usd": 0.00696319848,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 186,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 1500,
+        "thinking_tokens": 1477,
+        "cost_usd": 0.000855085536,
+        "duration_ms": 30086
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 293,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 162,
+        "thinking_tokens": 151,
+        "cost_usd": 0.000143386416,
+        "duration_ms": 3225
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 335,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 103,
+        "thinking_tokens": 93,
+        "cost_usd": 0.000118794816,
+        "duration_ms": 2564
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 147,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 233,
+        "thinking_tokens": 218,
+        "cost_usd": 0.000157074912,
+        "duration_ms": 4486
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 219,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 210,
+        "thinking_tokens": 188,
+        "cost_usd": 0.000157621392,
+        "duration_ms": 4278
+      }
+    ],
+    "guesser": [
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 78,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 5408,
+        "thinking_tokens": 5336,
+        "cost_usd": 0.002971056096,
+        "duration_ms": 93753
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 165,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 1364,
+        "thinking_tokens": 1344,
+        "cost_usd": 0.000776938896,
+        "duration_ms": 23911
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 197,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 685,
+        "thinking_tokens": 639,
+        "cost_usd": 0.000411708096,
+        "duration_ms": 12693
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 261,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 1964,
+        "thinking_tokens": 1920,
+        "cost_usd": 0.001122314256,
+        "duration_ms": 34003
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 329,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 2964,
+        "thinking_tokens": 2947,
+        "cost_usd": 0.001681181136,
+        "duration_ms": 49126
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇷🇸📜👥✍️📰👨</msg>",
+      "delivered": "🇷🇸📜👥✍️📰👨",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I see 🇷🇸📜👥✍️📰👨. To narrow it down: is the article mainly a biography of a person (🧑), an organization/association (🏢), a newspaper/publication (📰), or a list (📜)? Reply with the closest one or ✅/❌.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🧑✅</msg>",
+      "delivered": "🧑✅",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Was the person born in the 18th century? Reply ✅ or ❌.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>❌</msg>",
+      "delivered": "❌",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Please answer with ✅/❌ for each:\n1. Was he born in the 20th century?\n2. Is he primarily known as a writer/author?\n3. Is he primarily known as a politician?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>❌\n✅\n❌</msg>",
+      "delivered": "❌\n✅\n❌",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "1. Was he primarily a poet?\n2. Was he primarily a novelist?\n3. Was he primarily a playwright?\n4. Was he primarily a journalist?\n5. Was he born before 1850?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>❌\n❌\n❌\n✅\n❌</msg>",
+      "delivered": "❌\n❌\n❌\n✅\n❌",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is the person Vladislav Ribnikar? Reply ✅ or ❌.",
+      "guess": null,
+      "correct": null
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 9,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

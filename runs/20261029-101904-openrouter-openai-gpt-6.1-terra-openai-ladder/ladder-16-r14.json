@@ -1,0 +1,269 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Grande Seca",
+    "description": "Brazilian drought (1877–1878)",
+    "extract": "The Grande Seca, or the Brazilian drought of 1877–1878, was the largest and most devastating drought in Brazilian history. It caused the deaths of between 400,000 and 500,000 people. Of the 800,000 people who lived in the affected Northeastern region, around 120,000 migrated to the Amazon while 68,000 migrated to other parts of Brazil.",
+    "url": "https://en.wikipedia.org/wiki/Grande_Seca"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 146.8,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2489,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 7359,
+      "output_tokens": 5409,
+      "thinking_tokens": 4943,
+      "cost_usd": 0.03052045,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 2889,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 2145,
+      "thinking_tokens": 1947,
+      "cost_usd": 0.013614000000000001,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 178,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 1.98e-05,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 1490,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 1824,
+        "thinking_tokens": 1752,
+        "cost_usd": 0.01098175,
+        "duration_ms": 36341
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 206,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1487,
+        "output_tokens": 1139,
+        "thinking_tokens": 1034,
+        "cost_usd": 0.0060261,
+        "duration_ms": 23646
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 279,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1690,
+        "output_tokens": 593,
+        "thinking_tokens": 503,
+        "cost_usd": 0.0033975,
+        "duration_ms": 12291
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 253,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1966,
+        "output_tokens": 916,
+        "thinking_tokens": 824,
+        "cost_usd": 0.0049938,
+        "duration_ms": 18498
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 261,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 2216,
+        "output_tokens": 937,
+        "thinking_tokens": 830,
+        "cost_usd": 0.0051213,
+        "duration_ms": 19187
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 319,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 166,
+        "thinking_tokens": 125,
+        "cost_usd": 0.001149,
+        "duration_ms": 3388
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 452,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 761,
+        "thinking_tokens": 719,
+        "cost_usd": 0.004257,
+        "duration_ms": 11097
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 573,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 511,
+        "thinking_tokens": 480,
+        "cost_usd": 0.003128,
+        "duration_ms": 8040
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 699,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 343,
+        "thinking_tokens": 293,
+        "cost_usd": 0.002414,
+        "duration_ms": 6349
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 846,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 364,
+        "thinking_tokens": 330,
+        "cost_usd": 0.002666,
+        "duration_ms": 7033
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 178,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.98e-05,
+        "duration_ms": 933
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🍀🔶🧿  🪗🎭\n\n🌫️ 🔽🔽🔽  🏄 🔽🔽🔽\n🍀 🔽🔽🔽  🐐 🤒\n\n⏲️ 🔙  📽️\n</msg>",
+      "delivered": "🍀🔶🧿 🪗\n🌫️ 🔽🔽🔽 🏄 🔽🔽🔽\n🍀 🔽🔽🔽 🐐 🤒\n⏲️ 📽️",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🎭"
+      ],
+      "retried": false,
+      "guesser": "Is this a film? Please give the title phonetically, one part at a time. Also, what do the first-line emojis represent? (Use emojis to answer.)",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>📽️ 🙅‍♀️\n\n🍏🔶🧿 🟰 🌎 🙅‍♀️\n🍏🔶🧿 🏐 🦜 🎉 🙅‍♀️\n\n🔊\n🧋 🦍\n⏲️ 🐱\n\n🍶 🔽🔽🔽\n🥗 🔽🔽🔽\n🧑‍🌾 😖\n</msg>",
+      "delivered": "📽️ 🙅‍♀️\n🍏🔶🧿 🙅‍♀️\n🍏🔶🧿 🙅‍♀️\n🔊\n🧋 🦍\n⏲️ 🐱\n🍶 🔽🔽🔽\n🥗 🔽🔽🔽\n🧑‍🌾 😖",
+      "dropped_chars": 5,
+      "off_keyboard": [
+        "🟰",
+        "🌎",
+        "🏐",
+        "🦜",
+        "🎉"
+      ],
+      "retried": false,
+      "guesser": "I understand this is not a film. Are 🧋🦍 and ⏲️🐱 two separate names? Please spell the first name in smaller sound chunks.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🔊\n\n🇫🇷 🏰\n🚢 🚗\n\n🍶 🔽🔽🔽\n🌫️ 🔽🔽🔽\n🧑‍🌾 😖\n🐐 😵‍💫\n\n🍏🔶🧿\n🦵🥋\n🛒📦 🦧 🐍\n</msg>",
+      "delivered": "🔊\n🇫🇷 🏰\n🚢 🚗\n🍶 🔽🔽🔽\n🌫️ 🔽🔽🔽\n🧑‍🌾 😖\n🐐\n🍏🔶🧿\n🥋\n🛒📦 🦧",
+      "dropped_chars": 3,
+      "off_keyboard": [
+        "😵‍💫",
+        "🦵",
+        "🐍"
+      ],
+      "retried": false,
+      "guesser": "Is 🇫🇷🏰 🚢🚗 “Château-Thierry”?\n\nGUESS: Château-Thierry",
+      "guess": "Château-Thierry",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🔊 🏰 🇫🇷\n🔊 🗨️ 🐱\n\n🍶 🫗 🙅‍♀️\n🌫️ 🙅‍♀️\n🧑‍🌾 😖 🐐 😖\n\n🇵🇹 🔊 🌏\n🥋 🏄 🪗\n🍏 🔶 🧿\n</msg>",
+      "delivered": "🔊 🏰 🇫🇷\n🔊 🐱\n🍶 🙅‍♀️\n🌫️ 🙅‍♀️\n🧑‍🌾 😖 🐐 😖\n🔊 🌏\n🥋 🏄 🪗\n🍏 🔶 🧿",
+      "dropped_chars": 3,
+      "off_keyboard": [
+        "🗨️",
+        "🫗",
+        "🇵🇹"
+      ],
+      "retried": false,
+      "guesser": "Is this an animal disease? Does 🏰🇫🇷 🔊🐱 mean the word sounds like “château” or “chat”? Please give more clues about the subject, not just the pronunciation.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>🐐 🤒 🙅‍♀️\n\n🌫️ 🙅‍♀️\n🍶 🙅‍♀️\n🧑‍🌾 😖\n🥗 🙅‍♀️\n👨‍🌾 👩‍🌾 👶‍🍼 😖 💐\n\n🔊 🩲 🪚 🤐\n🥋 🏄 🪗\n⏲️ 🔙🔙🔙\n</msg>",
+      "delivered": "🐐 🤒 🙅‍♀️\n🌫️ 🙅‍♀️\n🍶 🙅‍♀️\n🧑‍🌾 😖\n🥗 🙅‍♀️\n👨‍🌾 👩‍🌾 😖 💐\n🔊 🩲 🪚 🤐\n🥋 🏄 🪗\n⏲️",
+      "dropped_chars": 6,
+      "off_keyboard": [
+        "👶",
+        "🍼"
+      ],
+      "retried": false,
+      "guesser": "Are the farmers suffering because of a famine, crop failure or economic hardship? Is 🍏🔶🧿 a country’s flag?",
+      "guess": null,
+      "correct": null
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 16,
+    "round": 14,
+    "n_banned": 368,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

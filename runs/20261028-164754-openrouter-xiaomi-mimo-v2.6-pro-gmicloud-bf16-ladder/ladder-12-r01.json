@@ -1,0 +1,242 @@
+{
+  "model": "openrouter:xiaomi/mimo-v2.6-pro@gmicloud/bf16",
+  "model_id": "xiaomi/mimo-v2.6-pro",
+  "guesser_model": "openrouter:xiaomi/mimo-v2.6-pro@gmicloud/bf16",
+  "guesser_model_id": "xiaomi/mimo-v2.6-pro",
+  "effort": null,
+  "article": {
+    "title": "Dora Akunyili",
+    "description": "Nigerian pharmacist and government official (1954–2014)",
+    "extract": "Dora Nkem Akunyili was a Nigerian pharmacist and politician who served as the director-general of National Agency for Food and Drug Administration and Control (NAFDAC) of Nigeria from 2001 to 2008.",
+    "url": "https://en.wikipedia.org/wiki/Dora_Akunyili"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 430.4,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2190,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 3200,
+      "output_tokens": 2726,
+      "thinking_tokens": 2500,
+      "cost_usd": 0.0028365095,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 1312,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2944,
+      "output_tokens": 10982,
+      "thinking_tokens": 9823,
+      "cost_usd": 0.0086163106,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 502,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 953,
+        "thinking_tokens": 926,
+        "cost_usd": 0.000890358,
+        "duration_ms": 28254
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 373,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 384,
+        "output_tokens": 604,
+        "thinking_tokens": 579,
+        "cost_usd": 0.00058588035,
+        "duration_ms": 18709
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 379,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 640,
+        "output_tokens": 144,
+        "thinking_tokens": 108,
+        "cost_usd": 0.00024879925,
+        "duration_ms": 7371
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 482,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 896,
+        "output_tokens": 282,
+        "thinking_tokens": 238,
+        "cost_usd": 0.0003898049,
+        "duration_ms": 13657
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 454,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1280,
+        "output_tokens": 743,
+        "thinking_tokens": 649,
+        "cost_usd": 0.000721667,
+        "duration_ms": 25858
+      }
+    ],
+    "guesser": [
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 39,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 749,
+        "thinking_tokens": 540,
+        "cost_usd": 0.00056917615,
+        "duration_ms": 23222
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 284,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 1199,
+        "thinking_tokens": 981,
+        "cost_usd": 0.0009925399,
+        "duration_ms": 41092
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 294,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 2408,
+        "thinking_tokens": 2104,
+        "cost_usd": 0.0018911633,
+        "duration_ms": 78669
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 393,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 768,
+        "output_tokens": 1497,
+        "thinking_tokens": 1266,
+        "cost_usd": 0.00125495445,
+        "duration_ms": 47126
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 302,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1152,
+        "output_tokens": 5129,
+        "thinking_tokens": 4932,
+        "cost_usd": 0.0039084768,
+        "duration_ms": 146433
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🌍 🌴 🧕 🧪 💉 📜 ⚖️</msg>",
+      "delivered": "🌍 🌴 🧕 🧪 💉 📜 ⚖️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Quick read so far: 🌍 world / 🌴 tropical / 🧕 a woman (possibly Muslim, wearing hijab) / 🧪💉 science & medicine (research, vaccine or injection) / 📜⚖️ law, charter, or justice. So maybe a woman from a tropical Muslim-majority country who worked in medicine/science and was involved in law or human rights?\n\nA few yes/no questions to narrow it down:\n1. Is the article about a **person** (a biography)?\n2. Is that person **female**?\n3. Is she associated with **medicine/vaccine research** (rather than just being a patient)?\n4. Are 📜⚖️ about **law/justice/rights** — did she campaign for something, win a legal case, or help draft a charter/law?\n5. Is she from **Africa, Asia, or the Americas** (roughly which region)?\n\nNo guess yet — just tell me what fits and I'll narrow it down!",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👍👍👍👍 🌍 🧪 🔍 📦 😈</msg>",
+      "delivered": "👍👍👍👍 🌍 🧪 🔍 📦 😈",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Great, so: **person, female, medicine/vaccine, law/justice** from Africa (🌍) — and now 🧪🔍📦😈.\n\nA few targeted questions to pin this down:\n\n1. **Which part of Africa?** Egypt / North Africa / West Africa / East Africa / Southern Africa? (Or is 🌍 just \"the world\" broadly?)\n2. **Is she a scientist/doctor researching a disease** (🧪🔍🔬), or was she **affected by / fought against** a disease (😈)?\n3. **What does 📦 mean here?** — a container, samples, shipment, box of drugs/aid?\n4. **What does ⚖️📜 mean in context?** — did she help draft a law/charter, fight a court case, or campaign for rights (e.g. against FGM, for healthcare access)?\n5. **Is she living or historical?** — and is this more likely a scientist, a doctor, or an activist?\n\nHappy to keep narrowing before guessing!",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🌍 ➡️ 🌊 🧪 ⚗️ 📦 ⚖️ ✝️ 🗳️</msg>",
+      "delivered": "🌍 ➡️ 🌊 🧪 ⚗️ 📦 ⚖️ ✝️ 🗳️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Interesting mix now: 🌍➡️🌊 (crossing the sea / an island? / migration) + 🧪⚗️ (chemistry, pharmacy, alchemy) + 📦 (package? ballot box?) + ⚖️ (law) + ✝️ (Christian / \"cross\" / crusade?) + 🗳️ (vote/election).\n\nQuick questions to sharpen this:\n1. **Is her primary role a scientist (chemist/pharmacist)** or a **politician/lawyer/activist**? (Or both?)\n2. **Does ✝️ mean \"Christian\"** — or does it hint at her **name** (Cruz/Cross/Croce/Christie…)? Or a crusade?\n3. **Is 🌍➡️🌊 about her emigrating across the sea**, or about her country being an **island/archipelago** (Caribbean, Philippines, Pacific, Zanzibar…)?\n4. **What is 📦** — drugs/medicine package, samples/laboratory specimens, or a ballot box?\n5. Roughly **which century** — 1800s, 1900s, or living today?\n\nWorking hypothesis: a woman (possibly with \"Cruz/cross\" in her name?) from a tropical island/coastal country, who worked in chemistry/pharmacy and later got into politics or lawmaking (🗳️⚖️).",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🧮 💊 ❌ 😈 📦 ✅ 🗳️ ⚖️ 🌍 🏙️ 📅 🔟 ✝️</msg>",
+      "delivered": "🧮 ❌ 😈 📦 ✅ 🗳️ ⚖️ 🌍 🏙️ 📅 ✝️",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "💊"
+      ],
+      "retried": false,
+      "guesser": "More clues now: 🧮(counting/math) ❌😈 (against evil/disease?) 📦✅ (package approved?) 🗳️⚖️ (vote/law) 🌍🏙️📅✝️ (world/city/date/cross?).\n\nQuick clarifications to pin it down:\n1. **Is the subject a person, place, event, organization, or concept?** (I want to make sure I'm not mis-anchoring on a biography.)\n2. **What is 🧮?** Counting votes, accounting/statistics, or just \"mathematics\"?\n3. **What is 😈 here?** Disease, drugs/crime, corruption, or sin?\n4. **What is 📦?** Ballot box, cargo/drugs package, aid/medicine package?\n5. **Does ✝️ mean \"Christian\" or \"Cross\"** (as in Red Cross / a crusade / her name)?\n6. **Does 📅 mark a specific year or an era** (e.g. \"in 1994\")?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>1️⃣ 👤 🧑‍🦱 ✅\n2️⃣ 📏 🧪\n3️⃣ 😈 📦 💊 ❌\n4️⃣ 📦 💉 🧪\n5️⃣ ✝️ ❌ 🙅\n6️⃣ 📅 🔚 ⚰️</msg>",
+      "delivered": "👤 🧑‍🦱 ✅\n📏 🧪\n😈 📦 ❌\n📦 💉 🧪\n✝️ ❌ 🙅\n📅 ⚰️",
+      "dropped_chars": 14,
+      "off_keyboard": [
+        "💊"
+      ],
+      "retried": false,
+      "guesser": "Let me zero in on the actual topic category:\n\n1. **Is the article about a PERSON (biography)?** If yes, is she a **scientist/researcher** by profession (📏🧪), or is the chemistry imagery metaphorical?\n2. **Does ✝️❌🙅 mean \"rejected/denied Christianity\"** (e.g. a conversion, an excommunication, anti-clericalism), or is it about the **Red Cross / a crusade / a cross-shaped thing** being rejected?\n3. **Does 📦 mean \"box/package/container\" literally** (ballot box? medicine box? coffin? crate/cargo)?\n4. **Does 📅⚰️ mark her date of death**, or a period/event where people died?\n5. **What region of the world is 🌍?** (Europe, Americas, Africa, Asia?)\n\nJust those five and I'll commit to a guess next turn.",
+      "guess": null,
+      "correct": null
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 12,
+    "round": 1,
+    "n_banned": 11,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

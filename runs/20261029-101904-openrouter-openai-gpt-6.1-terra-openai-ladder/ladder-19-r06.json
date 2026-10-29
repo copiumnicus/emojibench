@@ -1,0 +1,259 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Sage Derby",
+    "description": "Variety of cheese",
+    "extract": "Sage Derby is a variety of Derby cheese that is mild, mottled green and semi-hard, and has a sage flavour. The colour is from sage and sometimes other colouring added to the curds, producing a marbling effect and a subtle herb flavour. The colour is formed either by mixing sage leaves into the curd before it is pressed or by the addition of \"green curd\" from green corn or spinach juice. In the latter case, the flavour has to be created with colourless sage extract. Parsley, spinach and marigold leaves, bruised and steeped before use, can also be included instead of the sage leaves. It is aged for one to three months.",
+    "url": "https://en.wikipedia.org/wiki/Sage_Derby"
+  },
+  "solved": true,
+  "turns_taken": 5,
+  "solved_turn": 5,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 78.1,
+  "usage": {
+    "explainer": {
+      "input_tokens": 3433,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2483,
+      "output_tokens": 2057,
+      "thinking_tokens": 1704,
+      "cost_usd": 0.014237399999999999,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 2534,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1569,
+      "thinking_tokens": 1408,
+      "cost_usd": 0.010379,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 170,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 1.9e-05,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 879,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 847,
+        "thinking_tokens": 800,
+        "cost_usd": 0.005114,
+        "duration_ms": 18386
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 964,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 439,
+        "thinking_tokens": 378,
+        "cost_usd": 0.003159,
+        "duration_ms": 8981
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 1137,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 287,
+        "thinking_tokens": 217,
+        "cost_usd": 0.0028555,
+        "duration_ms": 6251
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 218,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1134,
+        "output_tokens": 334,
+        "thinking_tokens": 248,
+        "cost_usd": 0.00199845,
+        "duration_ms": 7131
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 235,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1349,
+        "output_tokens": 150,
+        "thinking_tokens": 61,
+        "cost_usd": 0.00111045,
+        "duration_ms": 3260
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 302,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 262,
+        "thinking_tokens": 234,
+        "cost_usd": 0.001612,
+        "duration_ms": 6030
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 388,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 265,
+        "thinking_tokens": 226,
+        "cost_usd": 0.001713,
+        "duration_ms": 6773
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 485,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 793,
+        "thinking_tokens": 755,
+        "cost_usd": 0.00445,
+        "duration_ms": 12766
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 619,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 170,
+        "thinking_tokens": 134,
+        "cost_usd": 0.001469,
+        "duration_ms": 4436
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 740,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 79,
+        "thinking_tokens": 59,
+        "cost_usd": 0.001135,
+        "duration_ms": 3207
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 170,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.9e-05,
+        "duration_ms": 895
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n📸 😁\n🐑 🤱 🫓 🥒\n🌳 🍵 👨‍🏫 🧘\n🎠 🏅\n</msg>",
+      "delivered": "📸 😁\n🐑 🤱 🫓 🥒\n🌳 🍵 👨‍🏫 🧘\n🎠 🏅",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is this a person? Please clarify each line, especially whether the last line means an equestrian medalist.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n🙅 👤\n📸 😁 🗣️\n🐑 🤱 🫗 ⬜ 🥧\n🥧 🥒 🌳 🍵\n🎠 🆚 🎠 🏅\n</msg>",
+      "delivered": "🙅 👤\n📸 😁 🗣️\n🐑 🤱 🫗 ⬜ 🥧\n🥧 🥒 🌳 🍵\n🎠 🎠 🏅",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I think this is a cheese or cheese-based dish: sheep’s milk, white cheese, cucumber and herbs. Does the last line mean a cheese-rolling competition?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n✅ 📸 😁 🗣️ 🥧\n🙅 🧀 🌀\n🥧 🥒 🌳 🍵\n🧘 💬 🌳 🍵\n🇺🇸 🥃 🎠 🏅 🗣️\n</msg>",
+      "delivered": "✅ 📸 😁 🗣️ 🥧\n🙅\n🥧 🥒 🌳 🍵\n🧘 🌳 🍵\n🥃 🎠 🏅 🗣️",
+      "dropped_chars": 4,
+      "off_keyboard": [
+        "🧀",
+        "🌀",
+        "💬",
+        "🇺🇸"
+      ],
+      "retried": false,
+      "guesser": "The food sounds like yogurt or cheese with cucumber and herbs, perhaps a Greek dip. Is the last line a pronunciation clue?\n\nGUESS: Tzatziki",
+      "guess": "Tzatziki",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>\n🙅 🥒 🥣\n📸 😁 🗣️\n🌕 🐹 🥧\n🥧 🇳🇱 🇮🇪\n🥧 🥝 🍵\n🧘 👨‍🏫 🗣️ 🍵\n🎠 🎠 🎠 🏅 🥃\n</msg>",
+      "delivered": "🙅 🥒\n📸 😁 🗣️\n🌕 🐹 🥧\n🥧 🇳🇱 🇮🇪\n🥧 🥝 🍵\n🧘 👨‍🏫 🗣️ 🍵\n🎠 🎠 🎠 🏅 🥃",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🥣"
+      ],
+      "retried": false,
+      "guesser": "We’re looking for a cheese, not cucumber. Are the kiwi and tea phonetic clues for its name? What does the carousel and medal represent?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>\n🙅 🥝 🗣️\n🥝 🎨 🥧\n🍵 🌳 🧘 👨‍🏫 🗣️\n🎠 🎠 🎠 🏅 🥃 🇺🇸 🗣️\n🍵 🧘 🗣️ 🤝 🎠 🏅 🗣️\n</msg>",
+      "delivered": "🙅 🥝 🗣️\n🥝 🎨 🥧\n🍵 🌳 🧘 👨‍🏫 🗣️\n🎠 🎠 🎠 🏅 🥃 🗣️\n🍵 🧘 🗣️ 🤝 🎠 🏅 🗣️",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🇺🇸"
+      ],
+      "retried": false,
+      "guesser": "Green cheese, sage, and a derby!\n\nGUESS: Sage Derby",
+      "guess": "Sage Derby",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 19,
+    "round": 6,
+    "n_banned": 121,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

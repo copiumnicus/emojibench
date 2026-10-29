@@ -1,0 +1,270 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "7's Football League",
+    "description": "Football league",
+    "extract": "The 7's Football League is a seven-a-side football league in the Philippines. Established in 2018, the league already had four seasons. It has a two-tiered men's division, a women's division, and youth divisions. The league is an open tournament with participation from representative sides of the domestic football competition, the Philippines Football League.",
+    "url": "https://en.wikipedia.org/wiki/7's_Football_League"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 86.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 3532,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2674,
+      "output_tokens": 1273,
+      "thinking_tokens": 761,
+      "cost_usd": 0.0209744,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 3152,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1028,
+      "thinking_tokens": 867,
+      "cost_usd": 0.016584,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 328,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 3.68e-05,
+      "calls": 2
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 737,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 408,
+        "thinking_tokens": 326,
+        "cost_usd": 0.005554,
+        "duration_ms": 15374
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 960,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 229,
+        "thinking_tokens": 131,
+        "cost_usd": 0.00421,
+        "duration_ms": 8426
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1196,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 250,
+        "thinking_tokens": 148,
+        "cost_usd": 0.0054885,
+        "duration_ms": 7918
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 291,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1193,
+        "output_tokens": 194,
+        "thinking_tokens": 49,
+        "cost_usd": 0.0027853,
+        "duration_ms": 4772
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 348,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1481,
+        "output_tokens": 192,
+        "thinking_tokens": 107,
+        "cost_usd": 0.0029366,
+        "duration_ms": 7329
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 340,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 153,
+        "thinking_tokens": 112,
+        "cost_usd": 0.00221,
+        "duration_ms": 6318
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 481,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 188,
+        "thinking_tokens": 177,
+        "cost_usd": 0.002842,
+        "duration_ms": 8405
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 608,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 289,
+        "thinking_tokens": 233,
+        "cost_usd": 0.004106,
+        "duration_ms": 10534
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 813,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 94,
+        "thinking_tokens": 83,
+        "cost_usd": 0.002566,
+        "duration_ms": 4606
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 910,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 304,
+        "thinking_tokens": 262,
+        "cost_usd": 0.00486,
+        "duration_ms": 11242
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 164,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.84e-05,
+        "duration_ms": 899
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 164,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.84e-05,
+        "duration_ms": 899
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "🫛 👄 🌲🌲\n🌊 🏞️ 🌊\n\n🟢🟢🟢🟢🟢🟢🟢\n🆚\n🟠🟠🟠🟠🟠🟠🟠\n🦿 🪩 🥳",
+      "delivered": "🫛 👄 🌲🌲\n🌊 🏞️ 🌊\n🟢🟢🟢🟢🟢🟢🟢\n🟠🟠🟠🟠🟠🟠🟠\n🦿 🪩 🥳",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is this a place, a living species, or a music-related article? Please indicate which, and whether 🫛 👄 is a phonetic clue to the title.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "🙅 🎵 🙅 🐾 🙅 🏙️\n🫛 👄 🌲🌲 🙂‍↕️ 🗣️\n🎮 🦿 🪩\n🟢🟢🟢🟢🟢🟢🟢\n🆚️\n🟠🟠🟠🟠🟠🟠🟠",
+      "delivered": "🙅 🎵 🙅 🐾 🙅 🏙️\n🫛 👄 🌲🌲 🙂‍↕️ 🗣️\n🎮 🦿 🪩\n🟢🟢🟢🟢🟢🟢🟢\n🟠🟠🟠🟠🟠🟠🟠",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Peggle",
+      "guess": "Peggle",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "🙅 🕹️\n🚩 🫛 👄 🌲🌲 🗣️\n🏀 🙅\n🎾 🙅\n🦿 ⚽️\n🟢🟢🟢🟢🟢🟢🟢\n🟠🟠🟠🟠🟠🟠🟠\n🏋️ 🤸 🏋️ 🤸",
+      "delivered": "🙅 🕹️\n🚩 🫛 👄 🌲🌲 🗣️\n🏀 🙅\n🎾 🙅\n🦿\n🟢🟢🟢🟢🟢🟢🟢\n🟠🟠🟠🟠🟠🟠🟠\n🏋️ 🤸 🏋️ 🤸",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "⚽"
+      ],
+      "retried": false,
+      "guesser": "Is it a sport with two teams of seven players (the green and orange rows)? Does 🦿 mean kicking, and is 🫛👄🌲🌲 a sound-alike for the sport’s name or its country of origin?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "🙂‍↕️ 🟢🟢🟢🟢🟢🟢🟢 🤜🤛 🟠🟠🟠🟠🟠🟠🟠\n🙂‍↕️ 🦿 💢 🪩\n🫛 👄 🌲🌲 🗣️ 🛂 🚩\n🏟️ 🙅 🏀🙅 🎾🙅 🏑🙅\n🥷🥷🥷🥷🥷🥷🥷\n🤜🤛\n🥷🥷🥷🥷🥷🥷🥷",
+      "delivered": "🙂‍↕️ 🟢🟢🟢🟢🟢🟢🟢 🤜🤛 🟠🟠🟠🟠🟠🟠🟠\n🙂‍↕️ 🦿 💢 🪩\n🫛 👄 🌲🌲 🗣️ 🛂 🚩\n🙅 🏀🙅 🎾🙅 🏑🙅\n🥷🥷🥷🥷🥷🥷🥷\n🤜🤛\n🥷🥷🥷🥷🥷🥷🥷",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🏟️"
+      ],
+      "retried": false,
+      "guesser": "GUESS: Sipa",
+      "guess": "Sipa",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "🙅\n🫗 👄 🌲🌲 🗣️ 🚩\n🌞 🌟🌟🌟 🔷 🔻 ⬜\n🦿 💢 🌐 🥷🥷🥷🥷🥷🥷🥷\n🏅️ 🏅️ 🏅️\n🔗 🏅️ 🔗",
+      "delivered": "🙅\n🫗 👄 🌲🌲 🗣️ 🚩\n🌞 🌟🌟🌟 🔷 🔻 ⬜\n🦿 💢 🌐 🥷🥷🥷🥷🥷🥷🥷\n🔗 🔗",
+      "dropped_chars": 4,
+      "off_keyboard": [
+        "🏅",
+        "🏅",
+        "🏅",
+        "🏅"
+      ],
+      "retried": false,
+      "guesser": "The flag clue seems to mean the Philippines. Is this the seven-player form of sipa, with players holding hands or linking arms? Please clarify what 🔗🔗 means.",
+      "guess": null,
+      "correct": null
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 17,
+    "round": 5,
+    "n_banned": 98,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

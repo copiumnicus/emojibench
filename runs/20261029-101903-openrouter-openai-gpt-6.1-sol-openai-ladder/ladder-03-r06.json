@@ -1,0 +1,191 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Baggio–Yoshinari syndrome",
+    "description": "Medical condition",
+    "extract": "Baggio–Yoshinari syndrome (BYS), formerly known as the Brazilian Lyme disease-like illness (BLDLI) and Brazilian Human Borreliosis, is an anthropozoonotic infectious disease of infectious-reactional character transmitted by bites of ticks from Amblyomma, Rhipicephalus and Dermacentor genera, that clinically resembles the Lyme Disease (LD) seen in the northern hemisphere. It is postulated to be caused by mutant Borrelia burgdorferi sensu lato spirochetes that assumed atypical pleomorphic forms and latent behavior in an attempt to adapt to the Brazilian ecosystem, explaining many particularities of the condition relative to the classical Lyme Disease, such as being transmitted by ticks others than those within the Ixodes ricinus complex, the difficulty culturing the etiological agent in traditional medium (BSK-II) and the poor growing of the spirochetes in atypical medium (SP-4), the frequent reactivations due to evading and surviving antibiotic treatment and eliciting low and transient immune response to Borrelia burgdorferi sensu lato antigens because of the hiding from the immune system. The pleomorphic forms are thought to include round bodies resembling Chlamydia, non spiralled spirochete-like forms, blebs and cell wall deficient variants resembling Mycoplasma as seen in dark field microscopy and electron field microscopy searching bacteria in the blood of patients. Spirochete-like structures are seen in around 90% of the patients when analyzing their peripheral blood in dark field microscopy.",
+    "url": "https://en.wikipedia.org/wiki/Baggio%E2%80%93Yoshinari_syndrome"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 53.4,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1521,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2539,
+      "output_tokens": 1019,
+      "thinking_tokens": 818,
+      "cost_usd": 0.0142419,
+      "calls": 3
+    },
+    "guesser": {
+      "input_tokens": 1354,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 481,
+      "thinking_tokens": 343,
+      "cost_usd": 0.007518,
+      "calls": 3
+    },
+    "judge": {
+      "input_tokens": 178,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 1.98e-05,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1157,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 565,
+        "thinking_tokens": 503,
+        "cost_usd": 0.008541,
+        "duration_ms": 19639
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 234,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1154,
+        "output_tokens": 266,
+        "thinking_tokens": 193,
+        "cost_usd": 0.0033589,
+        "duration_ms": 8233
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 130,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1385,
+        "output_tokens": 188,
+        "thinking_tokens": 122,
+        "cost_usd": 0.002342,
+        "duration_ms": 6561
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 313,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 257,
+        "thinking_tokens": 168,
+        "cost_usd": 0.003196,
+        "duration_ms": 8351
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 469,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 136,
+        "thinking_tokens": 104,
+        "cost_usd": 0.002298,
+        "duration_ms": 5524
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 572,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 88,
+        "thinking_tokens": 71,
+        "cost_usd": 0.002024,
+        "duration_ms": 4159
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 178,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.98e-05,
+        "duration_ms": 911
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🟡🔷🌟 🎊🪘👙🏝️\n🦂👄 🪱\n🧑‍⚕️🤒 🩼\n🍋‍🟩 🟰❓</msg>",
+      "delivered": "🟡🔷🌟 🎊🪘👙🏝️\n🦂👄 🪱\n🧑‍⚕️ 🩼\n🍋‍🟩 ❓",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🤒",
+        "🟰"
+      ],
+      "retried": false,
+      "guesser": "Is the article about a place, a person, an animal, or a disease? What do 🦂👄 🪱 and 🧑‍⚕️🩼 represent?\n\nIs this about a place, a person, an animal, or a disease? Please clarify 🦂👄 🪱 and 🧑‍⚕️🩼.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🧑‍⚕️ 😰😵‍💫🩼\n🍋‍🟩 🪱 🦂👄\n🏳️ 🟡🔷🌟 🎊🪘👙\n🧑‍⚕️📚❓</msg>",
+      "delivered": "🧑‍⚕️ 😰😵‍💫🩼\n🍋‍🟩 🪱 🦂👄\n🏳️ 🟡🔷🌟 🎊🪘👙\n🧑‍⚕️📚❓",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I think this is a Brazilian physician known for treating venomous bites, especially snake and scorpion bites.\n\nGUESS: Vital Brazil",
+      "guess": "Vital Brazil",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🙅🙅\n🧑‍⚕️📛 🙅\n☣️🤒🛏️ 🩼\n🟡🔷🌟 🍋‍🟩 ☣️\n🦂👄 🩸</msg>",
+      "delivered": "🙅🙅\n🧑‍⚕️ 🙅\n☣️🛏️ 🩼\n🟡🔷🌟 🍋‍🟩 ☣️\n🦂👄",
+      "dropped_chars": 3,
+      "off_keyboard": [
+        "📛",
+        "🤒",
+        "🩸"
+      ],
+      "retried": false,
+      "guesser": "GUESS: Baggio–Yoshinari syndrome",
+      "guess": "Baggio–Yoshinari syndrome",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 3,
+    "round": 6,
+    "n_banned": 156,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

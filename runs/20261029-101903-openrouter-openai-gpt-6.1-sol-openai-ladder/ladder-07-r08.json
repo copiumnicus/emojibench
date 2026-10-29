@@ -1,0 +1,258 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Mad River Mountain",
+    "description": "Ski resort in Ohio, United States",
+    "extract": "Mad River Mountain is a ski and snowboard resort in Valley Hi, Ohio, United States. The elevation of Mad River Mountain is 1,460 feet (450 m) with a vertical drop of 300 ft (91 m), and it has a ski season that runs from approximately mid-December through mid-March. The resort, which opened in 1962 as Valley Hi Ski Area, is owned by EPR Properties and operated by Vail Resorts, who bought the resort from Peak Resorts in 2019.",
+    "url": "https://en.wikipedia.org/wiki/Mad_River_Mountain"
+  },
+  "solved": true,
+  "turns_taken": 5,
+  "solved_turn": 5,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 123.5,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2705,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 3995,
+      "output_tokens": 1978,
+      "thinking_tokens": 1677,
+      "cost_usd": 0.0264635,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 2627,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1167,
+      "thinking_tokens": 913,
+      "cost_usd": 0.016924,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 945,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 562,
+        "thinking_tokens": 516,
+        "cost_usd": 0.00751,
+        "duration_ms": 23973
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1146,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 347,
+        "thinking_tokens": 291,
+        "cost_usd": 0.0063335,
+        "duration_ms": 12831
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 182,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1143,
+        "output_tokens": 471,
+        "thinking_tokens": 401,
+        "cost_usd": 0.0052778,
+        "duration_ms": 17497
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 211,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1322,
+        "output_tokens": 340,
+        "thinking_tokens": 273,
+        "cost_usd": 0.0040582,
+        "duration_ms": 14941
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 221,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1530,
+        "output_tokens": 258,
+        "thinking_tokens": 196,
+        "cost_usd": 0.003284,
+        "duration_ms": 9914
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 298,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 229,
+        "thinking_tokens": 138,
+        "cost_usd": 0.002886,
+        "duration_ms": 8235
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 423,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 239,
+        "thinking_tokens": 195,
+        "cost_usd": 0.003236,
+        "duration_ms": 10909
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 524,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 360,
+        "thinking_tokens": 315,
+        "cost_usd": 0.004648,
+        "duration_ms": 12074
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 632,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 205,
+        "thinking_tokens": 143,
+        "cost_usd": 0.003314,
+        "duration_ms": 7678
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 750,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 134,
+        "thinking_tokens": 122,
+        "cost_usd": 0.00284,
+        "duration_ms": 5470
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🎫 🏐🧦 ⚪🌧️ 🎄\n👺 ➰🟦 🛤️\n🔴🐦 🌰</msg>",
+      "delivered": "🎫 🏐🧦 ⚪🌧️\n👺 ➰🟦 🛤️\n🔴🐦",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🎄",
+        "🌰"
+      ],
+      "retried": false,
+      "guesser": "Is the article about a person, a sports team, or a place? I’m seeing sports/tickets, white rain, a blue devil or blue loop, railroad tracks, and a red bird—possibly team nicknames?\n\nIs this a **person, sports team, or place**? Are the emoji groups team nicknames—perhaps **White Sox, Blue Devils, and Cardinals**?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>📌 🏢\n🌍 🇺🇸\n🥶 🎿 🏂\n👺🗯️  🟦➰  🔺\n🐿️ 🔴🐦</msg>",
+      "delivered": "📌 🏢\n🌍\n👺🗯️ 🟦➰\n🐿️ 🔴🐦",
+      "dropped_chars": 5,
+      "off_keyboard": [
+        "🇺🇸",
+        "🥶",
+        "🎿",
+        "🏂",
+        "🔺"
+      ],
+      "retried": false,
+      "guesser": "Is this a **building or sports venue**? Do 🔴🐦 mean the **Cardinals** or the **Illinois State Redbirds**? What country or city is it in?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>⛔ 👤 ⛔ 🏟️\n🏢 🎫 👢🦯🦯 🌨️\n📛 👺🗯️  🟦🐍  🌄\n🗣️ 😡 🌊 ⛰️</msg>",
+      "delivered": "⛔ 👤 ⛔ 🏟️\n🏢 🎫 👢🦯🦯\n👺🗯️ 🟦🐍 🌄\n🗣️",
+      "dropped_chars": 5,
+      "off_keyboard": [
+        "🌨️",
+        "📛",
+        "😡",
+        "🌊",
+        "⛰️"
+      ],
+      "retried": false,
+      "guesser": "Could this be a **record label**, with the other emojis representing bands or musicians? For example, 🐿️ might mean **Squirrel Nut Zippers**. Is that interpretation right?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>⛔ 🎵 ⛔ 💿\n🌄 ⚪⚪⚪ 👢🦯🦯 🎫\n🗓️ 🎁 🧦\n📛\n👹  🚤🐍💙  🌄</msg>",
+      "delivered": "⛔ 🎵 ⛔ 💿\n🌄 ⚪⚪⚪ 👢🦯🦯 🎫\n🗓️ 🎁 🧦\n👹 🚤🐍💙 🌄",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "📛"
+      ],
+      "retried": false,
+      "guesser": "Are we talking about a **ski resort or ski area**? I read 👢🦯🦯 as skiing, ⚪🌧️ as snow, and 🎫 as lift tickets. Is 👹 part of its name, such as “Devil’s”?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>☑️ ☑️ 👢🦯🦯 🎫 🌄\n⛔ 👿\n😵🧠  🚤💙🐍  🌄\n📌 🐿️ 👁️</msg>",
+      "delivered": "☑️ ☑️ 👢🦯🦯 🎫 🌄\n⛔\n😵🧠 🚤💙🐍 🌄\n📌 🐿️",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "👿",
+        "👁️"
+      ],
+      "retried": false,
+      "guesser": "GUESS: Mad River Mountain",
+      "guess": "Mad River Mountain",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 7,
+    "round": 8,
+    "n_banned": 161,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

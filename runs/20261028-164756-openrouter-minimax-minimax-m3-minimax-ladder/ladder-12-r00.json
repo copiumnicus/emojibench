@@ -1,0 +1,294 @@
+{
+  "model": "openrouter:minimax/minimax-m3@minimax",
+  "model_id": "minimax/minimax-m3",
+  "guesser_model": "openrouter:minimax/minimax-m3@minimax",
+  "guesser_model_id": "minimax/minimax-m3",
+  "effort": null,
+  "article": {
+    "title": "Dora Akunyili",
+    "description": "Nigerian pharmacist and government official (1954–2014)",
+    "extract": "Dora Nkem Akunyili was a Nigerian pharmacist and politician who served as the director-general of National Agency for Food and Drug Administration and Control (NAFDAC) of Nigeria from 2001 to 2008.",
+    "url": "https://en.wikipedia.org/wiki/Dora_Akunyili"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 152.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 876,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2996,
+      "output_tokens": 2780,
+      "thinking_tokens": 2580,
+      "cost_usd": 0.00377856,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 747,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2511,
+      "output_tokens": 10234,
+      "thinking_tokens": 10036,
+      "cost_usd": 0.01265556,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 943,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 20,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0001043,
+      "calls": 5
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 430,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 128,
+        "output_tokens": 426,
+        "thinking_tokens": 397,
+        "cost_usd": 0.00064788,
+        "duration_ms": 4529
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 104,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 558,
+        "output_tokens": 345,
+        "thinking_tokens": 309,
+        "cost_usd": 0.00047868,
+        "duration_ms": 14965
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 105,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 662,
+        "output_tokens": 481,
+        "thinking_tokens": 437,
+        "cost_usd": 0.00064842,
+        "duration_ms": 4627
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 114,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 767,
+        "output_tokens": 876,
+        "thinking_tokens": 835,
+        "cost_usd": 0.00113142,
+        "duration_ms": 9175
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 123,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 881,
+        "output_tokens": 652,
+        "thinking_tokens": 602,
+        "cost_usd": 0.00087216,
+        "duration_ms": 9358
+      }
+    ],
+    "guesser": [
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 316,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 128,
+        "output_tokens": 526,
+        "thinking_tokens": 483,
+        "cost_usd": 0.00073368,
+        "duration_ms": 5732
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 103,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 443,
+        "output_tokens": 5190,
+        "thinking_tokens": 5157,
+        "cost_usd": 0.00628548,
+        "duration_ms": 50878
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 103,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 545,
+        "output_tokens": 2303,
+        "thinking_tokens": 2265,
+        "cost_usd": 0.0028272,
+        "duration_ms": 24023
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 102,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 647,
+        "output_tokens": 664,
+        "thinking_tokens": 614,
+        "cost_usd": 0.00086622,
+        "duration_ms": 6915
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 123,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 748,
+        "output_tokens": 1551,
+        "thinking_tokens": 1517,
+        "cost_usd": 0.00194298,
+        "duration_ms": 16598
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 189,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.09e-05,
+        "duration_ms": 2035
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 189,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.09e-05,
+        "duration_ms": 910
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 188,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.08e-05,
+        "duration_ms": 948
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 186,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.06e-05,
+        "duration_ms": 977
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 191,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.11e-05,
+        "duration_ms": 927
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🚪 🇳🇬 👩🏾‍⚕️ 💊 🏛️</msg>",
+      "delivered": "🚪 🇳🇬 👩🏾‍⚕️ 💊 🏛️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "My leading hypothesis is a Nigerian hospital—possibly the national hospital in Abuja. Does the door emoji indicate “Abuja,” while the final emoji represents the hospital building?\n\nGUESS: National Hospital, Abuja",
+      "guess": "National Hospital, Abuja",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👩🏾‍⚕️ 🇳🇬 💊 ⚗️ 🚫 💰 🏛️ 🎖️</msg>",
+      "delivered": "👩🏾‍⚕️ 🇳🇬 💊 ⚗️ 🚫 💰 🏛️ 🎖️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The clues strongly suggest a Nigerian jurist with a pharmacy background who served in an international court and received a national honour.\n\nGUESS: Evelyn Anyadike",
+      "guess": "Evelyn Anyadike",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>👩🏾‍⚕️ 🇳🇬 🧪 💊 🚫 🏛️ 🗂️ 👩‍💼 🕯️</msg>",
+      "delivered": "👩🏾‍⚕️ 🇳🇬 🧪 💊 🚫 🏛️ 🗂️ 👩‍💼 🕯️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The clues fit a Nigerian lawyer and politician who initially studied pharmacy, dropped out, and later became a senior finance official and senator.\n\nGUESS: Kemi Adeosun",
+      "guess": "Kemi Adeosun",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🇳🇬 👩🏾‍⚕️ 💊 🍎 🏛️ 🗳️ 🚫 💰 🕯️</msg>",
+      "delivered": "🇳🇬 👩🏾‍⚕️ 💊 🍎 🏛️ 🗳️ 🚫 💰 🕯️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The sequence now strongly points to a Nigerian female jurist trained as a pharmacist, later elevated to chief justice and honored with a national order. The “candle” likely encodes “Zakari.”\n\nGUESS: Amina Zakari",
+      "guess": "Amina Zakari",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>👩🏾‍⚕️ 🇳🇬 🎓 💊 🍎 📦 🚫 👩‍⚖️ 🏛️ 🏥 🎓 🕯️</msg>",
+      "delivered": "👩🏾‍⚕️ 🇳🇬 🎓 💊 🍎 📦 🚫 👩‍⚖️ 🏛️ 🏥 🎓 🕯️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "These clues fit a Nigerian pharmacist-turned-jurist who became Kano State’s first female chief judge and later died.\n\nGUESS: Mariam Shamsuddeen",
+      "guess": "Mariam Shamsuddeen",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 12,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

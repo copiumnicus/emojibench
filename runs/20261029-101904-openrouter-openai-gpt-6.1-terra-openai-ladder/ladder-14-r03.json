@@ -1,0 +1,141 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Philadelphia Commercial Museum",
+    "description": "Former museum in Pennsylvania, USA",
+    "extract": "The Philadelphia Commercial Museum was established in Philadelphia, Pennsylvania in 1895. Its permanent home was a neo-classical building situated at 34th Street and Civic Center Blvd, erected as part of the 1899 National Export Exposition. The museum had business offices at 332 South Fourth Street.",
+    "url": "https://en.wikipedia.org/wiki/Philadelphia_Commercial_Museum"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 29.1,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1415,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 919,
+      "thinking_tokens": 780,
+      "cost_usd": 0.00601,
+      "calls": 2
+    },
+    "guesser": {
+      "input_tokens": 743,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 410,
+      "thinking_tokens": 352,
+      "cost_usd": 0.002793,
+      "calls": 2
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 611,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 542,
+        "thinking_tokens": 479,
+        "cost_usd": 0.003321,
+        "duration_ms": 12404
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 804,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 377,
+        "thinking_tokens": 301,
+        "cost_usd": 0.002689,
+        "duration_ms": 7749
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 311,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 331,
+        "thinking_tokens": 285,
+        "cost_usd": 0.001966,
+        "duration_ms": 5678
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 432,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 79,
+        "thinking_tokens": 67,
+        "cost_usd": 0.000827,
+        "duration_ms": 3270
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🏃🪜🎬  🏈🟢  🏀🔵\n\n🌎💱🏪  👀🗃️🏬\n\n🕰️❌  🎪🌎💱\n</msg>",
+      "delivered": "🏃🪜🎬 🏈🟢 🏀🔵\n🌎💱🏪 👀🗃️🏬\n❌ 🎪🌎💱",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🕰️"
+      ],
+      "retried": false,
+      "guesser": "I think the first line points to Philadelphia: the Rocky steps, the Eagles and the 76ers. Is the article about a Philadelphia building or shopping center? What does the last line rule out?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n✅ 📍🏃🪜🎬\n\n🏪❌\n🏬 🎟️👀🗃️📚 ✅\n\n🌎💱📊\n🎪🌎💱\n⏱️⏪ ✅  ⏱️⏩ ❌\n</msg>",
+      "delivered": "✅ 📍🏃🪜🎬\n🏪❌\n🏬 🎟️👀🗃️📚 ✅\n🌎💱📊\n🎪🌎💱\n⏱️⏪ ✅ ⏱️⏩ ❌",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Philadelphia Commercial Museum",
+      "guess": "Philadelphia Commercial Museum",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 14,
+    "round": 3,
+    "n_banned": 60,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

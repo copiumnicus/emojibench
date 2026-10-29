@@ -1,0 +1,205 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Proceratium silaceum",
+    "description": "Species of ant",
+    "extract": "Proceratium silaceum is a species of ant in the family Formicidae.",
+    "url": "https://en.wikipedia.org/wiki/Proceratium_silaceum"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 61.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2625,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1256,
+      "thinking_tokens": 958,
+      "cost_usd": 0.008905,
+      "calls": 4
+    },
+    "guesser": {
+      "input_tokens": 1914,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1918,
+      "thinking_tokens": 1794,
+      "cost_usd": 0.011504,
+      "calls": 4
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 494,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 481,
+        "thinking_tokens": 419,
+        "cost_usd": 0.002899,
+        "duration_ms": 10351
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 592,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 301,
+        "thinking_tokens": 234,
+        "cost_usd": 0.002097,
+        "duration_ms": 5885
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 699,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 234,
+        "thinking_tokens": 155,
+        "cost_usd": 0.001869,
+        "duration_ms": 4549
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 840,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 240,
+        "thinking_tokens": 150,
+        "cost_usd": 0.00204,
+        "duration_ms": 5045
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 318,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 236,
+        "thinking_tokens": 210,
+        "cost_usd": 0.001498,
+        "duration_ms": 4331
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 412,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 488,
+        "thinking_tokens": 458,
+        "cost_usd": 0.002852,
+        "duration_ms": 10055
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 521,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 568,
+        "thinking_tokens": 516,
+        "cost_usd": 0.003361,
+        "duration_ms": 9918
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 663,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 626,
+        "thinking_tokens": 610,
+        "cost_usd": 0.003793,
+        "duration_ms": 10880
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🐝👑 🐛👑 🏘️⛏️ 🍬\n🕷️🥚 🍽️\n🏅 🦕 ⚗️\n🥈 👟🪢 ⚗️\n</msg>",
+      "delivered": "🐝👑 🐛👑 🏘️⛏️ 🍬\n🕷️🥚 🍽️\n🏅 🦕 ⚗️\n🥈 👟🪢 ⚗️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is the article about an animal, a place, or a person? What does each line represent?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n🐾 🪲 🐝 🏘️⛏️ 👑\n🕷️🥚🍽️\n\n📛 👂\n🏅 🦕 ⚗️\n🥈 👟🪢 🏛️\n</msg>",
+      "delivered": "🐾 🪲 🐝 🏘️⛏️ 👑\n🕷️🥚🍽️\n📛 👂\n🏅 🦕 ⚗️\n🥈 👟🪢 🏛️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is it a mantisfly or another lacewing whose larvae eat spider eggs? What do the last two lines mean?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n❌ 🪰\n🪲 🏘️⛏️ 👑 💂💂💂 🍬 🧺\n🕷️🥚🍽️\n\n📛👂\n🥇 🦏 🦕\n🌊 👟🪢 🏛️\n</msg>",
+      "delivered": "❌ 🪰\n🪲 🏘️⛏️ 👑 💂💂💂 🍬 🧺\n🕷️🥚🍽️\n📛👂\n🥇 🦏 🦕\n🌊 👟🪢 🏛️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is the insect a beetle that lives in an ant colony and eats spider eggs? Does 🌊👟🪢 mean Wallace? What do 🥇🦏🦕 and 📛👂 mean?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>\n❌ 🪲 ❌ 🪰\n🐛 🍬 🧺 🏘️⛏️ 👑 💂💂💂\n🎬 🦸‍♂️🐛 🔍🔽\n\n📛👂\n🥇 🏅 🦕\n🥈 🌊 👟🪢 🏛️\n</msg>",
+      "delivered": "❌ 🪲 ❌ 🪰\n🐛 🍬 🧺 🏘️⛏️ 👑 💂💂💂\n🎬 🦸‍♂️🐛 🔍🔽\n📛👂\n🥇 🏅 🦕\n🥈 🌊 👟🪢 🏛️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Proceratium silaceum",
+      "guess": "Proceratium silaceum",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 1,
+    "round": 1,
+    "n_banned": 29,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

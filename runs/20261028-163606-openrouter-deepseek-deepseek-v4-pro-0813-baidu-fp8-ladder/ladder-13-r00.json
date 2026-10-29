@@ -1,0 +1,151 @@
+{
+  "model": "openrouter:deepseek/deepseek-v4-pro-0813@baidu/fp8",
+  "model_id": "deepseek/deepseek-v4-pro-0813",
+  "guesser_model": "openrouter:deepseek/deepseek-v4-pro-0813@baidu/fp8",
+  "guesser_model_id": "deepseek/deepseek-v4-pro-0813",
+  "effort": null,
+  "article": {
+    "title": "Dorothy Cottrell",
+    "description": "Australian writer",
+    "extract": "Ida Dorothy Ottley Cottrell was an Australian writer. Born in Picton, she contracted infantile paralysis as a child and spent the rest of her life in a wheelchair. Cottrell married Walter Mackenzie Cottrell on 23 May 1922. Her first novel, The Singing Gold, was published in 1928. She wrote a story Wilderness Orphan (1936) which was the basis for the feature film Orphan of the Wilderness (1936). She lived for a time in the US and also worked as an artist and cartoonist.",
+    "url": "https://en.wikipedia.org/wiki/Dorothy_Cottrell"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 524.1,
+  "usage": {
+    "explainer": {
+      "input_tokens": 672,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 512,
+      "output_tokens": 5406,
+      "thinking_tokens": 5287,
+      "cost_usd": 0.003079649952,
+      "calls": 2
+    },
+    "guesser": {
+      "input_tokens": 360,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 512,
+      "output_tokens": 23350,
+      "thinking_tokens": 23247,
+      "cost_usd": 0.012828853152,
+      "calls": 2
+    },
+    "judge": {
+      "input_tokens": 174,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 1.94e-05,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 266,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 2030,
+        "thinking_tokens": 1974,
+        "cost_usd": 0.001159292736,
+        "duration_ms": 39545
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 406,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 3376,
+        "thinking_tokens": 3313,
+        "cost_usd": 0.001920357216,
+        "duration_ms": 63475
+      }
+    ],
+    "guesser": [
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 111,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 15016,
+        "thinking_tokens": 14960,
+        "cost_usd": 0.008227647216,
+        "duration_ms": 271790
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 249,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 8334,
+        "thinking_tokens": 8287,
+        "cost_usd": 0.004601205936,
+        "duration_ms": 148455
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 174,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.94e-05,
+        "duration_ms": 841
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>👧🌪️👠🇦🇺✍️👩‍🦽\n🥇📖🎶💰\n🏜️🧒📖➡️🎬\n🇺🇸🎨</msg>",
+      "delivered": "👧🌪️👠🇦🇺✍️👩‍🦽\n🥇📖🎶💰\n🏜️🧒📖➡️🎬\n🇺🇸🎨",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "This looks like it points to *Wicked*: the Oz clues (girl, tornado, ruby slippers, Australia/Oz), the wheelchair-using character Nessarose, and the award-winning musical/money clues.\n\nGUESS: Wicked (musical)",
+      "guess": "Wicked (musical)",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>❌🧙‍♀️\n🚪⭕🍵 🛏️🛤️\n🇦🇺👩‍🦽✍️\n📖🎤🥇\n🎬🏜️🧒\n🎨</msg>",
+      "delivered": "❌🧙‍♀️\n🚪⭕🍵 🛏️🛤️\n🇦🇺👩‍🦽✍️\n📖🎤🥇\n🎬🏜️🧒\n🎨",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Rebus: 🚪⭕🍵 = D-O-T (Dot/Dorothy), 🛏️🛤️ = cot + rail = Cottrell.\n\nGUESS: Dorothy Cottrell",
+      "guess": "Dorothy Cottrell",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 13,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

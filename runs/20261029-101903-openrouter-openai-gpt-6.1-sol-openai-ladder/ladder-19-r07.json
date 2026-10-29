@@ -1,0 +1,212 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Sage Derby",
+    "description": "Variety of cheese",
+    "extract": "Sage Derby is a variety of Derby cheese that is mild, mottled green and semi-hard, and has a sage flavour. The colour is from sage and sometimes other colouring added to the curds, producing a marbling effect and a subtle herb flavour. The colour is formed either by mixing sage leaves into the curd before it is pressed or by the addition of \"green curd\" from green corn or spinach juice. In the latter case, the flavour has to be created with colourless sage extract. Parsley, spinach and marigold leaves, bruised and steeped before use, can also be included instead of the sage leaves. It is aged for one to three months.",
+    "url": "https://en.wikipedia.org/wiki/Sage_Derby"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 104.2,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2595,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2585,
+      "output_tokens": 1311,
+      "thinking_tokens": 1068,
+      "cost_usd": 0.0193545,
+      "calls": 4
+    },
+    "guesser": {
+      "input_tokens": 1983,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1332,
+      "thinking_tokens": 1131,
+      "cost_usd": 0.017286,
+      "calls": 4
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 994,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 503,
+        "thinking_tokens": 458,
+        "cost_usd": 0.007018,
+        "duration_ms": 20096
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1195,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 414,
+        "thinking_tokens": 355,
+        "cost_usd": 0.007126,
+        "duration_ms": 16024
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 204,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1192,
+        "output_tokens": 200,
+        "thinking_tokens": 133,
+        "cost_usd": 0.0026277,
+        "duration_ms": 8726
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 202,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1393,
+        "output_tokens": 194,
+        "thinking_tokens": 122,
+        "cost_usd": 0.0025828,
+        "duration_ms": 8768
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 299,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 262,
+        "thinking_tokens": 170,
+        "cost_usd": 0.003218,
+        "duration_ms": 8597
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 442,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 545,
+        "thinking_tokens": 488,
+        "cost_usd": 0.006334,
+        "duration_ms": 21769
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 564,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 401,
+        "thinking_tokens": 360,
+        "cost_usd": 0.005138,
+        "duration_ms": 14243
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 678,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 124,
+        "thinking_tokens": 113,
+        "cost_usd": 0.002596,
+        "duration_ms": 6001
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🍶 🍽 🟧 ⚫⚫\n🍏 🍁 👩‍🏫\n🐏 📍 🏴‍☠️</msg>",
+      "delivered": "🍶 🟧 ⚫⚫\n🍏 🍁 👩‍🏫\n🐏 📍 🏴‍☠️",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🍽️"
+      ],
+      "retried": false,
+      "guesser": "Is this a person or fictional character, a place, or a food/drink? My first thought is a rum brand or something related to pirates. Please indicate the category and give another clue.\n\nIs this a person/fictional character, a place, or a food/drink? My first thought is a rum brand or something related to pirates. Please indicate the category and give another clue.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🍎🍖🍚 🥄\n🥤🤍 ➡ ❎\n🐸🟫🤍 🪨\n🪻🍁 👩‍🎓\n🐏 🏙️</msg>",
+      "delivered": "🍎🍖🍚 🥄\n🥤🤍 ❎\n🐸🟫🤍 🪨\n🪻🍁 👩‍🎓\n🐏 🏙️",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "➡️"
+      ],
+      "retried": false,
+      "guesser": "Do the food and spoon mean **pottery/ceramics**, rather than food itself? And does 🐏🏙️ mean **Derby**, the English city? Is the article about a ceramic artist who studied or taught at an art school?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🏺 ❎\n👩‍🎨 ❎\n🐏🏙️ 🙂‍↕️\n🍴 ❎ 🥄🍴 ❎\n🪤 🪤 🪤\n🐸🌳🍁 🪤</msg>",
+      "delivered": "🏺 ❎\n👩‍🎨 ❎\n🐏🏙️ 🙂‍↕️\n❎ 🥄 ❎\n🪤 🪤 🪤\n🐸🌳🍁 🪤",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🍴",
+        "🍴"
+      ],
+      "retried": false,
+      "guesser": "Are the 🪤 clues pointing to **carnivorous plants**, especially pitcher plants? Is the article about a plant species, or a botanist associated with Derby?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🌺🌳 ❎\n🍗🍰🍚 🙂‍↕️\n🐏🏙️ 🙂‍↕️\n🦬 🍶 🤍 🧱 🪤\n🤍🐸🤍🐸🤍\n🤓📖 🍁</msg>",
+      "delivered": "🌺🌳 ❎\n🍗🍰🍚 🙂‍↕️\n🐏🏙️ 🙂‍↕️\n🦬 🍶 🤍 🧱 🪤\n🤍🐸🤍🐸🤍\n🤓📖 🍁",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Sage Derby",
+      "guess": "Sage Derby",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 19,
+    "round": 7,
+    "n_banned": 159,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Dorothy Cottrell",
+    "description": "Australian writer",
+    "extract": "Ida Dorothy Ottley Cottrell was an Australian writer. Born in Picton, she contracted infantile paralysis as a child and spent the rest of her life in a wheelchair. Cottrell married Walter Mackenzie Cottrell on 23 May 1922. Her first novel, The Singing Gold, was published in 1928. She wrote a story Wilderness Orphan (1936) which was the basis for the feature film Orphan of the Wilderness (1936). She lived for a time in the US and also worked as an artist and cartoonist.",
+    "url": "https://en.wikipedia.org/wiki/Dorothy_Cottrell"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 40.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1052,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 243,
+      "thinking_tokens": 90,
+      "cost_usd": 0.004534,
+      "calls": 2
+    },
+    "guesser": {
+      "input_tokens": 799,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 827,
+      "thinking_tokens": 710,
+      "cost_usd": 0.009868,
+      "calls": 2
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 438,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 126,
+        "thinking_tokens": 57,
+        "cost_usd": 0.002136,
+        "duration_ms": 5036
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 614,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 117,
+        "thinking_tokens": 33,
+        "cost_usd": 0.002398,
+        "duration_ms": 4522
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 306,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 735,
+        "thinking_tokens": 631,
+        "cost_usd": 0.007962,
+        "duration_ms": 26501
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 493,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 92,
+        "thinking_tokens": 79,
+        "cost_usd": 0.001906,
+        "duration_ms": 4527
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "🇦🇺 👩‍🦽 ✍️📚 🎨🖌️\n\n📖 🎶🪙\n\n📖 🌳🦘👶💔 ➡️ 🎬 🦘🌳\n\n🇦🇺 ➡️ 🇺🇸",
+      "delivered": "🇦🇺 👩‍🦽 ✍️📚 🎨🖌️\n📖 🎶🪙\n📖 🌳🦘👶💔 ➡️ 🎬 🦘🌳\n🇦🇺 ➡️ 🇺🇸",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I’m looking for an Australian woman who used a wheelchair, wrote books and painted, and later moved to the United States. Is the film adaptation “Dot and the Kangaroo,” or a different film? Can you give more clues to the book titles or her name?\n\n\nIs she the author of “Dot and the Kangaroo,” or is 🦘🌳 hinting at a different film? Please give more clues to her name or book titles.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "👎 🔴⚪️🦘\n\n👩‍🦽✍️ 📖 🎤🎶 🥇🪙\n\n🎬 👶🚫👨‍👩‍👧 🌲🌳🦘\n\n👩 🌀🏠 👠👠 🦁🤖🌾 🧙‍♂️",
+      "delivered": "👎 🔴⚪🦘\n👩‍🦽✍️ 📖 🎤🎶 🥇🪙\n🎬 👶🚫👨‍👩‍👧 🌲🌳🦘\n👩 🌀🏠 👠👠 🦁🤖🌾 🧙‍♂️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Dorothy Cottrell",
+      "guess": "Dorothy Cottrell",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 13,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

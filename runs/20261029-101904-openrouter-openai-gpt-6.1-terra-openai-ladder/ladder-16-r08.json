@@ -1,0 +1,198 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Grande Seca",
+    "description": "Brazilian drought (1877–1878)",
+    "extract": "The Grande Seca, or the Brazilian drought of 1877–1878, was the largest and most devastating drought in Brazilian history. It caused the deaths of between 400,000 and 500,000 people. Of the 800,000 people who lived in the affected Northeastern region, around 120,000 migrated to the Amazon while 68,000 migrated to other parts of Brazil.",
+    "url": "https://en.wikipedia.org/wiki/Grande_Seca"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 56.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2319,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1101,
+      "output_tokens": 1640,
+      "thinking_tokens": 1381,
+      "cost_usd": 0.0109088,
+      "calls": 3
+    },
+    "guesser": {
+      "input_tokens": 1391,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1319,
+      "thinking_tokens": 1217,
+      "cost_usd": 0.007986,
+      "calls": 3
+    },
+    "judge": {
+      "input_tokens": 380,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 4.2000000000000004e-05,
+      "calls": 2
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 974,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 1111,
+        "thinking_tokens": 1034,
+        "cost_usd": 0.006529,
+        "duration_ms": 20423
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 1104,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 315,
+        "thinking_tokens": 234,
+        "cost_usd": 0.00295425,
+        "duration_ms": 8800
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 241,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1101,
+        "output_tokens": 214,
+        "thinking_tokens": 113,
+        "cost_usd": 0.00142555,
+        "duration_ms": 4479
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 330,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 534,
+        "thinking_tokens": 491,
+        "cost_usd": 0.003,
+        "duration_ms": 7470
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 452,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 507,
+        "thinking_tokens": 465,
+        "cost_usd": 0.002987,
+        "duration_ms": 8037
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 609,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 278,
+        "thinking_tokens": 261,
+        "cost_usd": 0.001999,
+        "duration_ms": 5477
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 195,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.15e-05,
+        "duration_ms": 964
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 185,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.05e-05,
+        "duration_ms": 908
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🐝 🪒 🦭   🗿 🙆 🏙️\n\n🤏 🌩️   🔆 🐪   😫 😇\n\n🕜 🕣 🕢 🕢 〰️ 🕜 🕣 🕢 🕣\n</msg>",
+      "delivered": "🐝 🪒 🦭 🗿 🙆 🏙️\n🤏 🌩️ 🔆 🐪 😫 😇\n🕜 🕣 🕢 🕢 〰️ 🕜 🕣 🕢 🕣",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I read the dates as 1877–1878 and the first line as Brazil and a city. Is the article about a drought or famine? What does the city clue signify?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n🙌 🐪 🌩️ 🫥\n\n🗿 🙆 🏙️ ＝ 🐝 🪒 🦭\n\n🦛 🐪\n🕜 🕣 🕢 🕢 〰️ 🕜 🕣 🕢 🕣\n</msg>",
+      "delivered": "🙌 🐪 🌩️ 🫥\n🗿 🙆 🏙️ 🐝 🪒 🦭\n🦛 🐪\n🕜 🕣 🕢 🕢 〰️ 🕜 🕣 🕢 🕣",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The statue and city look like Rio de Janeiro, Brazil. Is this an epidemic rather than a drought?\n\nGUESS: 1877–1878 Rio de Janeiro smallpox epidemic",
+      "guess": "1877–1878 Rio de Janeiro smallpox epidemic",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n🦠 🤺\n\n🐝 🪒 🦭\n🕜 🕣 🕢 🕢 〰️ 🕜 🕣 🕢 🕣\n\n🌩️ 🫥\n🔆 🔆 🔆\n🏞️ 🫥\n🐪 😫\n🍞 🫥\n😇 😇 😇\n\n🐘 🐪\n</msg>",
+      "delivered": "🦠 🤺\n🐝 🪒 🦭\n🕜 🕣 🕢 🕢 〰️ 🕜 🕣 🕢 🕣\n🌩️ 🫥\n🔆 🔆 🔆\n🫥\n🐪 😫\n🍞 🫥\n😇 😇 😇\n🐪",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🏞️",
+        "🐘"
+      ],
+      "retried": false,
+      "guesser": "GUESS: 1877–1878 Brazilian drought",
+      "guess": "1877–1878 Brazilian drought",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 16,
+    "round": 8,
+    "n_banned": 179,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

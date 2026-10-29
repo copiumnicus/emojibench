@@ -1,0 +1,238 @@
+{
+  "model": "openrouter:deepseek/deepseek-v4-pro-0813@baidu/fp8",
+  "model_id": "deepseek/deepseek-v4-pro-0813",
+  "guesser_model": "openrouter:deepseek/deepseek-v4-pro-0813@baidu/fp8",
+  "guesser_model_id": "deepseek/deepseek-v4-pro-0813",
+  "effort": null,
+  "article": {
+    "title": "Dora Akunyili",
+    "description": "Nigerian pharmacist and government official (1954–2014)",
+    "extract": "Dora Nkem Akunyili was a Nigerian pharmacist and politician who served as the director-general of National Agency for Food and Drug Administration and Control (NAFDAC) of Nigeria from 2001 to 2008.",
+    "url": "https://en.wikipedia.org/wiki/Dora_Akunyili"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 665.2,
+  "usage": {
+    "explainer": {
+      "input_tokens": 799,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 3072,
+      "output_tokens": 8542,
+      "thinking_tokens": 8432,
+      "cost_usd": 0.004831383312,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 1151,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1280,
+      "output_tokens": 27862,
+      "thinking_tokens": 27641,
+      "cost_usd": 0.0154431108,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 121,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 4681,
+        "thinking_tokens": 4656,
+        "cost_usd": 0.002583081792,
+        "duration_ms": 88200
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 194,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 2278,
+        "thinking_tokens": 2252,
+        "cost_usd": 0.001283188032,
+        "duration_ms": 40811
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 259,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 179,
+        "thinking_tokens": 170,
+        "cost_usd": 0.000147966912,
+        "duration_ms": 3782
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 65,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 768,
+        "output_tokens": 974,
+        "thinking_tokens": 947,
+        "cost_usd": 0.000548563248,
+        "duration_ms": 17688
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 160,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 768,
+        "output_tokens": 430,
+        "thinking_tokens": 407,
+        "cost_usd": 0.000268583328,
+        "duration_ms": 6976
+      }
+    ],
+    "guesser": [
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 110,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 10991,
+        "thinking_tokens": 10955,
+        "cost_usd": 0.006027883056,
+        "duration_ms": 196024
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 175,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 5766,
+        "thinking_tokens": 5739,
+        "cost_usd": 0.003184365456,
+        "duration_ms": 105094
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 214,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 2622,
+        "thinking_tokens": 2581,
+        "cost_usd": 0.001473336576,
+        "duration_ms": 51640
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 285,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 5982,
+        "thinking_tokens": 5926,
+        "cost_usd": 0.003322442736,
+        "duration_ms": 109442
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 367,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 2501,
+        "thinking_tokens": 2440,
+        "cost_usd": 0.001435082976,
+        "duration_ms": 45504
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🎒🗺️🥼🧬🗳️🌍🛑</msg>",
+      "delivered": "🎒🗺️🥼🧬🗳️🌍🛑",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is the target an international treaty, convention, or protocol (e.g., a biological-weapons ban or biodiversity agreement) rather than an organization, person, or place?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>✖️👤 🥼🧬🗳️🌍🛑</msg>",
+      "delivered": "✖️👤 🥼🧬🗳️🌍🛑",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Please answer with ✅ for yes and ✖️ for no. Is the target article about a specific person (a biography)?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>✅</msg>",
+      "delivered": "✅",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is the person known mainly as a scientist (biologist/geneticist) AND also as a politician/activist? Did they hold elected office? Are they European? Male? Still alive?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>✖️\n✖️\n✖️\n✖️\n✖️</msg>",
+      "delivered": "✖️\n✖️\n✖️\n✖️\n✖️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Please answer each with ✅ or ✖️:\n1. Was she American?\n2. Was she a biologist/ecologist (not a geneticist)?\n3. Is she known for inspiring a ban on a pesticide or chemical?\n4. Is the article Rachel Carson?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>✖️\n✖️\n✖️\n✖️</msg>",
+      "delivered": "✖️\n✖️\n✖️\n✖️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Please answer with ✅/✖️:\n1. Was she born before 1900?\n2. Was she a scientist?\n3. Was she a politician or political activist?\n4. Was she known for work on human genetics/eugenics?\n5. Was she a Nobel laureate?",
+      "guess": null,
+      "correct": null
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 12,
+    "round": 3,
+    "n_banned": 34,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

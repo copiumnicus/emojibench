@@ -1,0 +1,279 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "UFC BJJ 2",
+    "description": "Martial arts event in 2025",
+    "extract": "UFC BJJ 2: Tackett vs. Canuto was a submission grappling event produced by UFC Brazilian Jiu-Jitsu. The event was held at the UFC Apex in Las Vegas, Nevada, United States, on July 31, 2025 and was streamed live on YouTube.",
+    "url": "https://en.wikipedia.org/wiki/UFC_BJJ_2"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 95.5,
+  "usage": {
+    "explainer": {
+      "input_tokens": 3175,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2495,
+      "output_tokens": 1094,
+      "thinking_tokens": 777,
+      "cost_usd": 0.0182745,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 3087,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1291,
+      "thinking_tokens": 945,
+      "cost_usd": 0.019084,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 540,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 123,
+      "thinking_tokens": 111,
+      "cost_usd": 0.0001155,
+      "calls": 3
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 713,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 379,
+        "thinking_tokens": 308,
+        "cost_usd": 0.005216,
+        "duration_ms": 13680
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 983,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 204,
+        "thinking_tokens": 149,
+        "cost_usd": 0.004006,
+        "duration_ms": 8067
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1177,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 195,
+        "thinking_tokens": 134,
+        "cost_usd": 0.004891,
+        "duration_ms": 8240
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 150,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1174,
+        "output_tokens": 186,
+        "thinking_tokens": 116,
+        "cost_usd": 0.0023509,
+        "duration_ms": 7720
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 152,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1321,
+        "output_tokens": 130,
+        "thinking_tokens": 70,
+        "cost_usd": 0.0018106,
+        "duration_ms": 5332
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 323,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 287,
+        "thinking_tokens": 178,
+        "cost_usd": 0.003516,
+        "duration_ms": 10072
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 484,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 261,
+        "thinking_tokens": 196,
+        "cost_usd": 0.003578,
+        "duration_ms": 10512
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 617,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 304,
+        "thinking_tokens": 241,
+        "cost_usd": 0.004274,
+        "duration_ms": 12885
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 768,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 230,
+        "thinking_tokens": 173,
+        "cost_usd": 0.003836,
+        "duration_ms": 8589
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 895,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 209,
+        "thinking_tokens": 157,
+        "cost_usd": 0.00388,
+        "duration_ms": 6940
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 175,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.95e-05,
+        "duration_ms": 872
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 182,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.02e-05,
+        "duration_ms": 1303
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 183,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 115,
+        "thinking_tokens": 111,
+        "cost_usd": 7.58e-05,
+        "duration_ms": 1300
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "🥷🤝🦾😵‍💫🏳️‍☠️\n🆚\n🥷🤝🦾😵‍💫\n\n✊✊\n\n♠️♥️♦️♣️ 🎤 🏢\n📱🔊 🌐",
+      "delivered": "🥷🤝🦾😵‍💫☠️\n🥷🤝🦾😵‍💫\n✊✊\n♠️♥️♦️♣️ 🎤 🏢\n📱🔊",
+      "dropped_chars": 4,
+      "off_keyboard": [
+        "🏳️",
+        "🌐"
+      ],
+      "retried": false,
+      "guesser": "Is this a musical act or song? The repeated first lines suggest a name with and without “death,” and ✊✊ might mean “grips.” Are you pointing toward Death Grips, or toward Ninja Tune and electronic music?\n\n\nIs this a musical act or song? The repeated first lines suggest a name with and without “death,” and ✊✊ might mean “grips.” Are you pointing toward Death Grips, or toward Ninja Tune and electronic music?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "⛔🎵\n🤺👘🤝🦾😵‍💫\n🏅\n♠️♥️♦️♣️ 🏢\n👘👘\n⏳🆕",
+      "delivered": "⛔🎵\n🤺👘🤝🦾😵‍💫\n🏅\n♠️♥️♦️♣️ 🏢\n👘👘\n⏳",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is this a martial-arts fighting video game? Do the first two lines represent “Dead or Alive” and “Dead or Alive” without “Dead,” or perhaps “Mortal Kombat”? What do the card suits signify: a game developer, a platform, or part of the title?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "⛔🎮 ⛔🎵\n🏅🤝👘 🦾😵 🫷😫\n💲♠️♥️♦️♣️🏨\n👴🏻🤍🎤\n✊✊",
+      "delivered": "⛔🎮 ⛔🎵\n🏅🤝👘 🦾😵 🫷😫\n💲♠️♥️♦️♣️🏨\n👴🏻🤍🎤\n✊✊",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is the subject a martial artist known for “no-touch knockouts” or the “touch of death”? Is 👴🏻🤍🎤 Elvis Presley, and is 💲♠️♥️♦️♣️🏨 Las Vegas?\n\nGUESS: George Dillman",
+      "guess": "George Dillman",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "💲♠️♥️♦️♣️🏨 🙆\n👴🏻🤍🎤 ⛔\n👤 ⛔\n🏅🤝👘 🙆\n🥷🦾🫷😵\n🐙🔶\n✊✊",
+      "delivered": "💲♠️♥️♦️♣️🏨 🙆\n👴🏻🤍🎤 ⛔\n👤 ⛔\n🏅🤝👘 🙆\n🥷🦾🫷😵\n🐙🔶\n✊✊",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "So this is not a person, song, or video game; it is a martial-arts competition or organization associated with Las Vegas. 🐙🔶 means an octagon, and ✊✊ means fighting.\n\nGUESS: Ultimate Fighting Championship",
+      "guess": "Ultimate Fighting Championship",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "🐙🔶 🙆\n🐙🔶 👘🤝\n💚💛💙 👘🤝\n⛔✊ ⛔🦶\n🏅\n🥚 🐣\n☝🏻 ✌🏻",
+      "delivered": "🐙🔶 🙆\n🐙🔶 👘🤝\n💚💛💙 👘🤝\n⛔✊ ⛔\n🏅\n🥚 🐣",
+      "dropped_chars": 3,
+      "off_keyboard": [
+        "🦶",
+        "☝🏻",
+        "✌🏻"
+      ],
+      "retried": false,
+      "guesser": "Is this a Brazilian jiu-jitsu or submission-grappling tournament held inside the UFC octagon in Las Vegas, with no punching? Does 🥚🐣 mean its first edition?\n\nGUESS: UFC Fight Pass Invitational",
+      "guess": "UFC Fight Pass Invitational",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 5,
+    "round": 3,
+    "n_banned": 98,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

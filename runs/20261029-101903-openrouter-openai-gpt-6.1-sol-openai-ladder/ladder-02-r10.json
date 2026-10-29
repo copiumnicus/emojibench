@@ -1,0 +1,293 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Iron(III) sulfate",
+    "description": "Chemical compound",
+    "extract": "Iron(III) sulfate or ferric sulfate is a family of inorganic compounds with the formula Fe2(SO4)3(H2O)n. A variety of hydrates are known, including the most commonly encountered form of \"ferric sulfate\". Solutions are used in dyeing as a mordant and as a coagulant for industrial wastes. Solutions of ferric sulfate are also used in the processing of aluminum and steel.",
+    "url": "https://en.wikipedia.org/wiki/Iron(III)_sulfate"
+  },
+  "solved": true,
+  "turns_taken": 5,
+  "solved_turn": 5,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 123.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1975,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 5725,
+      "output_tokens": 2296,
+      "thinking_tokens": 1874,
+      "cost_usd": 0.028462499999999998,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 2948,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1018,
+      "thinking_tokens": 785,
+      "cost_usd": 0.016076,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 522,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 12,
+      "thinking_tokens": 0,
+      "cost_usd": 5.82e-05,
+      "calls": 3
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1086,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 568,
+        "thinking_tokens": 486,
+        "cost_usd": 0.0083935,
+        "duration_ms": 21359
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 261,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1083,
+        "output_tokens": 564,
+        "thinking_tokens": 502,
+        "cost_usd": 0.0063993,
+        "duration_ms": 19257
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 178,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1341,
+        "output_tokens": 444,
+        "thinking_tokens": 351,
+        "cost_usd": 0.0050176,
+        "duration_ms": 14777
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 272,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1516,
+        "output_tokens": 391,
+        "thinking_tokens": 297,
+        "cost_usd": 0.0047401,
+        "duration_ms": 14225
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 178,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1785,
+        "output_tokens": 329,
+        "thinking_tokens": 238,
+        "cost_usd": 0.003912,
+        "duration_ms": 11141
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 332,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 173,
+        "thinking_tokens": 107,
+        "cost_usd": 0.002394,
+        "duration_ms": 7290
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 439,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 180,
+        "thinking_tokens": 145,
+        "cost_usd": 0.002678,
+        "duration_ms": 6171
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 569,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 270,
+        "thinking_tokens": 210,
+        "cost_usd": 0.003838,
+        "duration_ms": 10803
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 724,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 235,
+        "thinking_tokens": 177,
+        "cost_usd": 0.003798,
+        "duration_ms": 8927
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 884,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 160,
+        "thinking_tokens": 146,
+        "cost_usd": 0.003368,
+        "duration_ms": 6818
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 171,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.91e-05,
+        "duration_ms": 1028
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 175,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.95e-05,
+        "duration_ms": 966
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 176,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.96e-05,
+        "duration_ms": 872
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🔗 🔗 🏋️‍♀️\n🍋 😷😷😷😷\n🍋 😷😷😷😷\n🍋 😷😷😷😷\n\n👩‍🎓 📐 📝\n🧻 🟪 🧻\n🏞️ 🚾</msg>",
+      "delivered": "🔗 🔗 🏋️‍♀️\n🍋 😷😷😷😷\n🍋 😷😷😷😷\n🍋 😷😷😷😷\n👩‍🎓 📐 📝\n🧻 🟪 🧻",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🏞️"
+      ],
+      "retried": false,
+      "guesser": "I see linked chains/strength, three repeated acidic-looking rows, studying or testing, and purple paper—possibly chemistry and an acid indicator.\nGUESS: Litmus\n\n\nIs this chemistry—perhaps an acid or an indicator used with paper?\nGUESS: Litmus",
+      "guess": "Litmus",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🙅 📄🟪\n🥌 ↔️ 👘\n👌\n🐤 😤😤😤😤\n🐤 😤😤😤😤\n🐤 😤😤😤😤</msg>",
+      "delivered": "📄🟪\n🥌 ↔️ 👘\n👌\n🐤\n🐤\n🐤",
+      "dropped_chars": 13,
+      "off_keyboard": [
+        "🙅",
+        "😤",
+        "😤",
+        "😤",
+        "😤",
+        "😤",
+        "😤",
+        "😤",
+        "😤",
+        "😤",
+        "😤",
+        "😤",
+        "😤"
+      ],
+      "retried": false,
+      "guesser": "Are you describing a game—especially rock, paper, scissors? Do the three chicks mean “chicken”?\nGUESS: Rock paper scissors",
+      "guess": "Rock paper scissors",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🙅‍♂️ 🎮\n👩‍🎓 🧑‍🏫\n🗝️ 🗝️\n🌝 😷😷😷😷\n🌝 😷😷😷😷\n🌝 😷😷😷😷\n🏋️‍♀️ 👘 ♨\n🚾 🏊‍♀️</msg>",
+      "delivered": "🙅‍♂️ 🎮\n👩‍🎓\n🗝️ 🗝️\n🌝 😷😷😷😷\n🌝 😷😷😷😷\n🌝 😷😷😷😷\n🏋️‍♀️ 👘\n🏊‍♀️",
+      "dropped_chars": 3,
+      "off_keyboard": [
+        "🧑‍🏫",
+        "♨️"
+      ],
+      "retried": false,
+      "guesser": "Is the article about a real woman—an academic or athlete? Are 🏋️‍♀️ 👘 🏊‍♀️ sports she practised, and do the three repeated rows encode her name or a date? Please indicate her country or field.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🙅‍♂️ 👩 🙅‍♂️ 🏅 🙅‍♂️ 🎮\n☑️ 👩‍🎓 🔍 🌡️\n\n🧑‍🏭 🧑‍🏭\n🌻 ⚫⚫⚫⚫\n🌻 ⚫⚫⚫⚫\n🌻 ⚫⚫⚫⚫</msg>",
+      "delivered": "🙅‍♂️ 👩 🙅‍♂️ 🏅 🙅‍♂️ 🎮\n☑️ 👩‍🎓 🔍 🌡️\n🧑‍🏭 🧑‍🏭\n🌻 ⚫⚫⚫⚫\n🌻 ⚫⚫⚫⚫\n🌻 ⚫⚫⚫⚫",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I think this is a chemical compound: the three 🌻⚫⚫⚫⚫ groups may mean three sulfate groups, (SO₄)₃. Paper-making, textiles, and swimming-pool treatment suggest:\nGUESS: Aluminium sulfate",
+      "guess": "Aluminium sulfate",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>🤏 🎯\n☑️ 🌻⚫⚫⚫⚫ 🌻⚫⚫⚫⚫ 🌻⚫⚫⚫⚫\n🙅‍♂️ 🥈\n🚄 🪡 🛞 🧑‍🏭 🏋️‍♀️\n🟩🟩🟩</msg>",
+      "delivered": "🎯\n☑️ 🌻⚫⚫⚫⚫ 🌻⚫⚫⚫⚫ 🌻⚫⚫⚫⚫\n🙅‍♂️ 🥈\n🚄 🪡 🛞 🧑‍🏭 🏋️‍♀️\n🟩🟩🟩",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🤏"
+      ],
+      "retried": false,
+      "guesser": "GUESS: Iron(III) sulfate",
+      "guess": "Iron(III) sulfate",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 2,
+    "round": 10,
+    "n_banned": 213,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

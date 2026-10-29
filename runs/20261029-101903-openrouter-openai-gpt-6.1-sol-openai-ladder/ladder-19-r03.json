@@ -1,0 +1,141 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Sage Derby",
+    "description": "Variety of cheese",
+    "extract": "Sage Derby is a variety of Derby cheese that is mild, mottled green and semi-hard, and has a sage flavour. The colour is from sage and sometimes other colouring added to the curds, producing a marbling effect and a subtle herb flavour. The colour is formed either by mixing sage leaves into the curd before it is pressed or by the addition of \"green curd\" from green corn or spinach juice. In the latter case, the flavour has to be created with colourless sage extract. Parsley, spinach and marigold leaves, bruised and steeped before use, can also be included instead of the sage leaves. It is aged for one to three months.",
+    "url": "https://en.wikipedia.org/wiki/Sage_Derby"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 32.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1516,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 451,
+      "thinking_tokens": 331,
+      "cost_usd": 0.007542,
+      "calls": 2
+    },
+    "guesser": {
+      "input_tokens": 786,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 386,
+      "thinking_tokens": 254,
+      "cost_usd": 0.005432,
+      "calls": 2
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 676,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 291,
+        "thinking_tokens": 244,
+        "cost_usd": 0.004262,
+        "duration_ms": 9888
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 840,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 160,
+        "thinking_tokens": 87,
+        "cost_usd": 0.00328,
+        "duration_ms": 6535
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 304,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 311,
+        "thinking_tokens": 190,
+        "cost_usd": 0.003718,
+        "duration_ms": 11169
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 482,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 75,
+        "thinking_tokens": 64,
+        "cost_usd": 0.001714,
+        "duration_ms": 4971
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🐮💧🧂🟡🔪\n🥬🌱🟡🌱🥬\n👴📚　🐴🏟️</msg>",
+      "delivered": "🐮💧🧂🟡🔪\n🥬🌱🟡🌱🥬\n👴📚 🐴🏟️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I read the first line as “butter” (made from cow’s milk, salted, yellow, spread with a knife). Is the article about a plant—perhaps butterhead lettuce or a buttercup? What does the horse/stadium clue refer to?\n\n\nIs the secret a type of lettuce named after a person, such as Bibb lettuce?\n\n\nIs “butter” the key word, and is the article about a plant? Please expand the 👴📚🐴🏟️ clue.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🧈⛔ 🥬⛔\n🐮💧 🧂 🥣 🗜️ 🟡 🔪 🐁\n🌱👃👅\n👴📚💡　🐴🏟️🥇🥈🥉</msg>",
+      "delivered": "⛔ 🥬⛔\n🐮💧 🧂 🥣 🗜️ 🟡 🔪 🐁\n🌱👃👅\n👴📚💡 🐴🏟️🥇🥈🥉",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🧈"
+      ],
+      "retried": false,
+      "guesser": "GUESS: Sage Derby",
+      "guess": "Sage Derby",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 19,
+    "round": 3,
+    "n_banned": 47,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

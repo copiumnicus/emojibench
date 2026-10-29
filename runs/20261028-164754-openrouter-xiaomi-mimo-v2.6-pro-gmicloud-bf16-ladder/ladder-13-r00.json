@@ -1,0 +1,238 @@
+{
+  "model": "openrouter:xiaomi/mimo-v2.6-pro@gmicloud/bf16",
+  "model_id": "xiaomi/mimo-v2.6-pro",
+  "guesser_model": "openrouter:xiaomi/mimo-v2.6-pro@gmicloud/bf16",
+  "guesser_model_id": "xiaomi/mimo-v2.6-pro",
+  "effort": null,
+  "article": {
+    "title": "Dorothy Cottrell",
+    "description": "Australian writer",
+    "extract": "Ida Dorothy Ottley Cottrell was an Australian writer. Born in Picton, she contracted infantile paralysis as a child and spent the rest of her life in a wheelchair. Cottrell married Walter Mackenzie Cottrell on 23 May 1922. Her first novel, The Singing Gold, was published in 1928. She wrote a story Wilderness Orphan (1936) which was the basis for the feature film Orphan of the Wilderness (1936). She lived for a time in the US and also worked as an artist and cartoonist.",
+    "url": "https://en.wikipedia.org/wiki/Dorothy_Cottrell"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 404.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2656,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1920,
+      "output_tokens": 1425,
+      "thinking_tokens": 1259,
+      "cost_usd": 0.0020423715,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 1347,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2048,
+      "output_tokens": 12567,
+      "thinking_tokens": 11942,
+      "cost_usd": 0.00979831295,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 204,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 643,
+        "thinking_tokens": 615,
+        "cost_usd": 0.0005517979,
+        "duration_ms": 18878
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 693,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 530,
+        "thinking_tokens": 488,
+        "cost_usd": 0.00064817175,
+        "duration_ms": 16103
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 290,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 640,
+        "output_tokens": 51,
+        "thinking_tokens": 15,
+        "cost_usd": 0.000147118,
+        "duration_ms": 4608
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 1140,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 136,
+        "thinking_tokens": 108,
+        "cost_usd": 0.000522087,
+        "duration_ms": 7090
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 329,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1024,
+        "output_tokens": 65,
+        "thinking_tokens": 33,
+        "cost_usd": 0.00017319685,
+        "duration_ms": 4367
+      }
+    ],
+    "guesser": [
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 270,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 364,
+        "thinking_tokens": 178,
+        "cost_usd": 0.0003690105,
+        "duration_ms": 12813
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 252,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 1600,
+        "thinking_tokens": 1424,
+        "cost_usd": 0.0012772474,
+        "duration_ms": 49533
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 327,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 384,
+        "output_tokens": 1965,
+        "thinking_tokens": 1837,
+        "cost_usd": 0.00157533135,
+        "duration_ms": 65358
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 231,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 640,
+        "output_tokens": 3014,
+        "thinking_tokens": 2880,
+        "cost_usd": 0.00231644125,
+        "duration_ms": 86150
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 267,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 768,
+        "output_tokens": 5624,
+        "thinking_tokens": 5623,
+        "cost_usd": 0.00426028245,
+        "duration_ms": 139761
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🌪️ 👠 🇦🇺 ♿ ✍️ 📚 🎬\n</msg>",
+      "delivered": "🌪️ 👠 🇦🇺 ♿ ✍️ 📚 🎬",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Interesting set! Let me share my read: 🇦🇺 Australian person, ♿ uses a wheelchair / has a disability, ✍️📚 writer/author of books, 🎬 also works in film/TV. The 🌪️ and 👠 are the puzzling bits — could mean something specific (a tornado story? \"Wizard of Oz\"? shoes? fashion?).\n\nA few quick questions to narrow this down:\n\n1. Is this a **person** (biography article) rather than a book/film/place?\n2. Is the person **alive** today?\n3. Is 🌪️ literal (a tornado/cyclone event, e.g. an Australian natural disaster) or figurative/the title of a work?\n4. Does 👠 refer to **women's fashion/heels**, or is it part of a phrase/title (e.g. \"Wizard of Oz\")?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n👩 ✅\n🪦 ✅\n🌪️ 👠 🐕 🧙‍♀️ 🏠 ➡️ 📛\n</msg>",
+      "delivered": "👩 ✅\n🪦 ✅\n🌪️ 👠 🐕 🧙‍♀️ 🏠 ➡️ 📛",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Great clues! The second line reads to me as **The Wizard of Oz** (🌪️👠🐕🧙‍♀️🏠) giving a **name** (➡️📛).\n\nSo my working hypothesis: a deceased Australian woman, wheelchair user, writer/books + film, whose **name or nickname comes from The Wizard of Oz** (a character or the title itself).\n\nQuestions:\n1. Is her name/nickname derived from a Wizard of Oz character (e.g., Dorothy, Ozma, Toto, \"the Wicked Witch\") — or is it \"Oz\" itself / from the author L. Frank Baum?\n2. Is she **Australian by nationality** (not just living there)?\n3. Did she personally act in / make films, or is 🎬 about a film about her (e.g. a biopic or documentary)?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n1️⃣ 💃\n2️⃣ ✅\n3️⃣ 📖➡️🎬\n</msg>",
+      "delivered": "💃\n✅\n📖➡️🎬",
+      "dropped_chars": 6,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Very helpful! So: woman, deceased, she was a **dancer** (💃✅) — presumably before her wheelchair use — and her **books were adapted into films** (📖➡️🎬).\n\nTwo quick questions to pin down the name:\n\n1. Is her given or family name **\"Dorothy\"** (from Dorothy Gale in The Wizard of Oz)?\n2. Was the dance a specific genre (ballet? tap? ballroom? musical theatre?) — or is 💃 also pointing at something in her name/works (e.g. a dance-themed book or the \"Jitterbug\")?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>\n1️⃣ 👍\n💃 ❌ 👧 🌪️ 👠\n</msg>",
+      "delivered": "👍\n💃 ❌ 👧 🌪️ 👠",
+      "dropped_chars": 2,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Good, so her name is **Dorothy** (from the Oz girl 🐶🌪️👠). And 💃 wasn't about dancing.\n\nWorking summary: Australian woman, Dorothy, deceased, wheelchair user, wrote books (📖) that were adapted into films (🎬).\n\nTwo questions to help me pin the exact Dorothy:\n\n1. Was her disability caused by **polio** (contracted in childhood), or by an accident/other illness?\n2. Is **\"Dorothy\" her given name** at birth (so the article title is \"Dorothy [Surname]\"), or is it a pen name / later adopted name?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>\n1️⃣ 🦠 🦴 👶\n2️⃣ 👶 ✅\n</msg>",
+      "delivered": "🦠 🦴 👶\n👶 ✅",
+      "dropped_chars": 4,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The request was rejected because it was considered high risk",
+      "guess": null,
+      "correct": null
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 13,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

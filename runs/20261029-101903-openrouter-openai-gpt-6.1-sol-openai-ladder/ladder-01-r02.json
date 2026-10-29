@@ -1,0 +1,228 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Proceratium silaceum",
+    "description": "Species of ant",
+    "extract": "Proceratium silaceum is a species of ant in the family Formicidae.",
+    "url": "https://en.wikipedia.org/wiki/Proceratium_silaceum"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 93.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 3172,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1252,
+      "thinking_tokens": 790,
+      "cost_usd": 0.019417,
+      "calls": 4
+    },
+    "guesser": {
+      "input_tokens": 2589,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1348,
+      "thinking_tokens": 1119,
+      "cost_usd": 0.018658,
+      "calls": 4
+    },
+    "judge": {
+      "input_tokens": 352,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 3.9200000000000004e-05,
+      "calls": 2
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 492,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 429,
+        "thinking_tokens": 345,
+        "cost_usd": 0.005274,
+        "duration_ms": 14069
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 686,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 260,
+        "thinking_tokens": 129,
+        "cost_usd": 0.003972,
+        "duration_ms": 7118
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 885,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 327,
+        "thinking_tokens": 194,
+        "cost_usd": 0.00504,
+        "duration_ms": 11431
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1109,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 236,
+        "thinking_tokens": 122,
+        "cost_usd": 0.005131,
+        "duration_ms": 6790
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 336,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 342,
+        "thinking_tokens": 251,
+        "cost_usd": 0.004092,
+        "duration_ms": 10976
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 564,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 415,
+        "thinking_tokens": 357,
+        "cost_usd": 0.005278,
+        "duration_ms": 17824
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 750,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 516,
+        "thinking_tokens": 452,
+        "cost_usd": 0.00666,
+        "duration_ms": 17727
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 939,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 75,
+        "thinking_tokens": 59,
+        "cost_usd": 0.002628,
+        "duration_ms": 4509
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 177,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.97e-05,
+        "duration_ms": 1650
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 175,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.95e-05,
+        "duration_ms": 1489
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🐝🚫🪽  🏘️⛏️  🦵🦵🦵🦵🦵🦵\n🧭🌅  🇨🇦🇲🇽\n🍳🍴  🍑↩️\n🏆🦏  🤫🏖️</msg>",
+      "delivered": "🐝🚫🪽 🏘️⛏️ 🦵🦵🦵🦵🦵🦵\n🧭🌅 🇨🇦🇲🇽\n🍳🍴 🍑↩️\n🏆🦏 🤫🏖️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I’m reading this as a wingless, six-legged insect—perhaps a velvet ant or burrowing wasp—from eastern North America. Is the peach clue describing a red abdomen?\nGUESS: Dasymutilla occidentalis\n\nIs it a velvet ant (a wingless female wasp), or a true ant? What do 🍳🍴 and 🏆🦏 represent?",
+      "guess": "Dasymutilla occidentalis",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🐝👎  🪽🚫🐛🦵🦵🦵🦵🦵🦵👍\n🍑🔴👎  🍑⤵️👍\n🍴🍳  🦵🦵🦵🦵🦵🦵🦵🦵\n🎨🍊🥕  📏🤌\n🧭🌅 🇨🇦🇲🇽\n🏆🦏👉📛  🤫🏖️👉📛</msg>",
+      "delivered": "🐝👎 🪽🚫🐛🦵🦵🦵🦵🦵🦵👍\n🍑🔴👎 🍑⤵️👍\n🍴🍳 🦵🦵🦵🦵🦵🦵🦵🦵\n🎨🍊🥕 📏🤌\n🧭🌅 🇨🇦🇲🇽\n🏆🦏👉📛 🤫🏖️👉📛",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is this a springtail, with its springing “tail” folded underneath its abdomen? Or is it a wingless cricket that eats spider eggs? Do 🏆🦏 and 🤫🏖️ encode the two words of its scientific name?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🦗👎  🦘👎\n📛📛👍\n🏘️👸🤴👶👶👶  🍃✂️  🧪🍋\n🍴🪺  🦵🦵🦵🦵🦵🦵🦵🦵🥅\n🍑⤵️⤴️\n🏆🦏  🤫🌊🤔\n🎨🥕🍊  🧭🌅 🇨🇦🇲🇽</msg>",
+      "delivered": "🦗👎 🦘👎\n📛📛👍\n🏘️👸🤴👶👶👶 🍃✂️ 🧪🍋\n🍴🪺 🦵🦵🦵🦵🦵🦵🦵🦵🥅\n🍑⤵️⤴️\n🏆🦏 🤫🌊🤔\n🎨🥕🍊 🧭🌅 🇨🇦🇲🇽",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The colony, leaf-cutting and acid clues suggest an ant. Is it an acrobat ant, which raises its abdomen over its body? I’m trying to decode the scientific name from “trophy/horn” and “silent/sea.”\nGUESS: Crematogaster cerasi",
+      "guess": "Crematogaster cerasi",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>👎\n🍑⤴️👎  🍑⤵️👍\n🍴🪺🥅  🦵🦵🦵🦵🦵🦵🦵🦵\n🤫🙈  🌱⛏️  📏🤌  🎨🥕\n📛 🥇🎺  🤫🏖️\n🧭🌅 🇨🇦 🇲🇽</msg>",
+      "delivered": "👎\n🍑⤴️👎 🍑⤵️👍\n🍴🪺🥅 🦵🦵🦵🦵🦵🦵🦵🦵\n🤫🙈 🌱⛏️ 📏🤌 🎨🥕\n📛 🥇🎺 🤫🏖️\n🧭🌅 🇨🇦 🇲🇽",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Proceratium silaceum",
+      "guess": "Proceratium silaceum",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 1,
+    "round": 2,
+    "n_banned": 28,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

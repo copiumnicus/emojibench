@@ -1,0 +1,280 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Dorothy Cottrell",
+    "description": "Australian writer",
+    "extract": "Ida Dorothy Ottley Cottrell was an Australian writer. Born in Picton, she contracted infantile paralysis as a child and spent the rest of her life in a wheelchair. Cottrell married Walter Mackenzie Cottrell on 23 May 1922. Her first novel, The Singing Gold, was published in 1928. She wrote a story Wilderness Orphan (1936) which was the basis for the feature film Orphan of the Wilderness (1936). She lived for a time in the US and also worked as an artist and cartoonist.",
+    "url": "https://en.wikipedia.org/wiki/Dorothy_Cottrell"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 159.4,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2047,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 6162,
+      "output_tokens": 1942,
+      "thinking_tokens": 1522,
+      "cost_usd": 0.0251462,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 2921,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 2106,
+      "thinking_tokens": 1892,
+      "cost_usd": 0.026902000000000002,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 353,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 3.93e-05,
+      "calls": 2
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1198,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 566,
+        "thinking_tokens": 516,
+        "cost_usd": 0.0086535,
+        "duration_ms": 24156
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 207,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1195,
+        "output_tokens": 418,
+        "thinking_tokens": 315,
+        "cost_usd": 0.0048155,
+        "duration_ms": 18201
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 270,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1399,
+        "output_tokens": 490,
+        "thinking_tokens": 403,
+        "cost_usd": 0.0057134,
+        "duration_ms": 18540
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 239,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1666,
+        "output_tokens": 194,
+        "thinking_tokens": 123,
+        "cost_usd": 0.0027026,
+        "duration_ms": 6675
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 133,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1902,
+        "output_tokens": 274,
+        "thinking_tokens": 165,
+        "cost_usd": 0.0032612,
+        "duration_ms": 9382
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 299,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 482,
+        "thinking_tokens": 401,
+        "cost_usd": 0.005418,
+        "duration_ms": 17220
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 473,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 369,
+        "thinking_tokens": 352,
+        "cost_usd": 0.004636,
+        "duration_ms": 12162
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 595,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 413,
+        "thinking_tokens": 380,
+        "cost_usd": 0.00532,
+        "duration_ms": 16503
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 706,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 470,
+        "thinking_tokens": 421,
+        "cost_usd": 0.006112,
+        "duration_ms": 19587
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 848,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 372,
+        "thinking_tokens": 338,
+        "cost_usd": 0.005416,
+        "duration_ms": 15097
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 178,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.98e-05,
+        "duration_ms": 891
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 175,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.95e-05,
+        "duration_ms": 938
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "🦔 🦆 🐑‍❄️\n✏️ 📒 👨‍🦽\n📒 🎸 🔶\n📑 🏞️ 🐣 🎬",
+      "delivered": "🦔 🦆 ❄️\n✏️ 📒 👨‍🦽\n📒 🎸 🔶\n📑",
+      "dropped_chars": 5,
+      "off_keyboard": [
+        "🐑",
+        "🏞️",
+        "🐣",
+        "🎬"
+      ],
+      "retried": false,
+      "guesser": "Is this a cartoonist or writer who used a wheelchair, and also made music? Are 🦔 🦆 ❄️ clues to animated shows they worked on?\n\nIs this a cartoonist or writer who used a wheelchair and also made music? Do 🦔 🦆 ❄️ represent animated shows they worked on?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "✏️ 📒 ✔️\n👨‍🦽 ✔️\n🎸 ❎\n\n🗾 ❎\n🦔 🦆 ❄️ ❎\n\n🇬🇧 🚢 🪸 🏖️ 🐨 ❎\n\n📒 « 😙 🔶 »\n📑 « 🏔️ 🥾 🧑‍🧑‍🧒‍🧒 💀 » 📺",
+      "delivered": "✏️ 📒 ✔️\n👨‍🦽 ✔️\n🎸 ❎\n🗾 ❎\n🦔 🦆 ❄️ ❎\n🇬🇧 🚢 🪸 🏖️ ❎\n📒 😙 🔶\n📑 🥾 🧑‍🧑‍🧒‍🧒 💀 📺",
+      "dropped_chars": 6,
+      "off_keyboard": [
+        "🐨",
+        "🏔️"
+      ],
+      "retried": false,
+      "guesser": "GUESS: John Callahan (cartoonist)",
+      "guess": "John Callahan (cartoonist)",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "❎\n👩‍🦳 ✏️ 📒\n🙃 🏖️ 🪸 🌉 🎭\n👨‍🦽 🧫 🦿\n\n📒 👨‍🎤 🔶\n📑 🏞️ 🧑‍🧑‍🧒 💀 📺\n\n🦤 🫖",
+      "delivered": "❎\n👩‍🦳 ✏️ 📒\n🙃 🏖️ 🪸 🌉 🎭\n👨‍🦽 🧫 🦿\n📒 👨‍🎤 🔶\n📑 🧑‍🧑‍🧒 💀 📺\n🦤 🫖",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🏞️"
+      ],
+      "retried": false,
+      "guesser": "Is she an Australian woman writer, with a disability caused by polio? Are the last emojis clues to a book adapted for television?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "✔️ ✔️ ✔️\n👩‍🦳 🙃 🪸 ✏️ 📒 🧫 👨‍🦽\n\n📺 ❎\n🍿 🎟️ ✔️\n\n📒 👨‍🎤 🟧 🔶\n🦤 🫖",
+      "delivered": "✔️ ✔️ ✔️\n👩‍🦳 🙃 🪸 ✏️ 📒 🧫 👨‍🦽\n📺 ❎\n🍿 🎟️ ✔️\n📒 👨‍🎤 🟧 🔶\n🦤 🫖",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Was her disability definitely caused by polio, rather than multiple sclerosis? Is 📒 👨‍🎤 🟧 a book title involving a singer or an orange? Was the film based on her autobiography?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "🧫 👨‍🦽 ✔️\n🟧 🍊 ❎\n📒 👨‍🎤 🔶 🤑 ✔️\n👩‍🦳 🪞 📒 ❎\n\n📑 🥾 🏞️ 🌲 👨‍👩‍👧‍👦 ⚰️ 🧒\n🍿 🎟️\n\n👩‍🦳 👠 🌪️ 🧙 🦁 🐕",
+      "delivered": "🧫 👨‍🦽 ✔️\n🟧 🍊 ❎\n📒 👨‍🎤 🔶 🤑 ✔️\n👩‍🦳 🪞 📒 ❎\n📑 🥾 👨‍👩‍👧‍👦 ⚰️\n🍿 🎟️\n👩‍🦳",
+      "dropped_chars": 8,
+      "off_keyboard": [
+        "🏞️",
+        "🌲",
+        "🧒",
+        "👠",
+        "🌪️",
+        "🧙",
+        "🦁",
+        "🐕"
+      ],
+      "retried": false,
+      "guesser": "Is it Dymphna Cusack, whose books include Come In Spinner and Say No to Death?\n\nGUESS: Dymphna Cusack",
+      "guess": "Dymphna Cusack",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 13,
+    "round": 7,
+    "n_banned": 233,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Grande Seca",
+    "description": "Brazilian drought (1877–1878)",
+    "extract": "The Grande Seca, or the Brazilian drought of 1877–1878, was the largest and most devastating drought in Brazilian history. It caused the deaths of between 400,000 and 500,000 people. Of the 800,000 people who lived in the affected Northeastern region, around 120,000 migrated to the Amazon while 68,000 migrated to other parts of Brazil.",
+    "url": "https://en.wikipedia.org/wiki/Grande_Seca"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 35.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1663,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1023,
+      "thinking_tokens": 897,
+      "cost_usd": 0.006778,
+      "calls": 2
+    },
+    "guesser": {
+      "input_tokens": 758,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 536,
+      "thinking_tokens": 489,
+      "cost_usd": 0.003438,
+      "calls": 2
+    },
+    "judge": {
+      "input_tokens": 185,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 2.05e-05,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 759,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 800,
+        "thinking_tokens": 717,
+        "cost_usd": 0.004759,
+        "duration_ms": 18544
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 904,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 223,
+        "thinking_tokens": 180,
+        "cost_usd": 0.002019,
+        "duration_ms": 5670
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 332,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 408,
+        "thinking_tokens": 373,
+        "cost_usd": 0.002372,
+        "duration_ms": 6714
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 426,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 128,
+        "thinking_tokens": 116,
+        "cost_usd": 0.001066,
+        "duration_ms": 3781
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 185,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.05e-05,
+        "duration_ms": 986
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🇺🇾 ⬆️   🇬🇾 ⬇️   ☕ 🐒 🌿\n\n⌛ 🏺\n\n🚿 🙅   🌊 ⬇️   🌱 🙅\n🍽️ 🙅   😰   ⚱️ ⚱️ ⚱️\n👑\n</msg>",
+      "delivered": "🇺🇾 ⬆️ 🇬🇾 ⬇️ ☕ 🐒 🌿\n⌛ 🏺\n🚿 🙅 🌊 ⬇️ 🌱 🙅\n🍽️ 🙅 😰 ⚱️ ⚱️ ⚱️\n👑",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Brazil, a historical drought and famine with many deaths, during the reign of an emperor?\n\nGUESS: 1877–1879 Brazilian drought",
+      "guess": "1877–1879 Brazilian drought",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n✔️ ✔️ ✔️\n\n👄 🇺🇾 ⬆️\n\n🦖 🌊 🙅\n\n📣 ❓\n</msg>",
+      "delivered": "✔️ ✔️ ✔️\n👄 🇺🇾 ⬆️\n🦖 🌊 🙅\n📣 ❓",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Grande Seca",
+      "guess": "Grande Seca",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 16,
+    "round": 5,
+    "n_banned": 102,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

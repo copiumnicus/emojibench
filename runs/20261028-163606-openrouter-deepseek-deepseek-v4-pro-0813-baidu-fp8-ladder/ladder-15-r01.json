@@ -1,0 +1,184 @@
+{
+  "model": "openrouter:deepseek/deepseek-v4-pro-0813@baidu/fp8",
+  "model_id": "deepseek/deepseek-v4-pro-0813",
+  "guesser_model": "openrouter:deepseek/deepseek-v4-pro-0813@baidu/fp8",
+  "guesser_model_id": "deepseek/deepseek-v4-pro-0813",
+  "effort": null,
+  "article": {
+    "title": "Iglesia de Santa Ana (Santiago de Chile)",
+    "description": "National monument of Chile",
+    "extract": "The Iglesia de Santa Ana is a Catholic church in downtown Santiago de Chile. It is located at the northwest corner of Catedral and San Martín streets. The church was declared as a National Monument of Chile in 1970, within the category of Historic Monuments. Santa Ana metro station is named after the church.",
+    "url": "https://en.wikipedia.org/wiki/Iglesia_de_Santa_Ana_(Santiago_de_Chile)"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 229.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1048,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1024,
+      "output_tokens": 4720,
+      "thinking_tokens": 4660,
+      "cost_usd": 0.002776224384,
+      "calls": 3
+    },
+    "guesser": {
+      "input_tokens": 646,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 768,
+      "output_tokens": 7735,
+      "thinking_tokens": 7552,
+      "cost_usd": 0.004349149488,
+      "calls": 3
+    },
+    "judge": {
+      "input_tokens": 193,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 2.13e-05,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 314,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 4193,
+        "thinking_tokens": 4158,
+        "cost_usd": 0.002350072656,
+        "duration_ms": 77828
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 465,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 367,
+        "thinking_tokens": 354,
+        "cost_usd": 0.000286746336,
+        "duration_ms": 7018
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 269,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 160,
+        "thinking_tokens": 148,
+        "cost_usd": 0.000139405392,
+        "duration_ms": 4402
+      }
+    ],
+    "guesser": [
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 119,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 4098,
+        "thinking_tokens": 3994,
+        "cost_usd": 0.002262635856,
+        "duration_ms": 75263
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 239,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 1901,
+        "thinking_tokens": 1866,
+        "cost_usd": 0.001083878496,
+        "duration_ms": 33458
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 288,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 1736,
+        "thinking_tokens": 1692,
+        "cost_usd": 0.001002635136,
+        "duration_ms": 30725
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 193,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.13e-05,
+        "duration_ms": 972
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>✝️🏠\n👩‍🦳🙏\n🌶️🗿🏔️\n🏛️</msg>",
+      "delivered": "✝️🏠\n👩‍🦳🙏\n🌶️🗿🏔️\n🏛️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I see clues for: church (✝️🏠), an old woman praying (👩‍🦳🙏), Chile/Easter Island/Andes (🌶️🗿🏔️), and a building (🏛️).\n\nIs the article about a **church in Chile**?  \nIs the old woman praying a **specific saint**?  \nDoes 🏛️ mean the article is a **building** (like a church/cathedral) rather than a person?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>✅\n✅\n✅</msg>",
+      "delivered": "✅\n✅\n✅",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is the saint’s name **Santa Ana** (Saint Anne)?  \nIs the church located in **Santiago** (the capital) rather than another city?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>✅\n✅</msg>",
+      "delivered": "✅\n✅",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I think I have enough: the saint is **Saint Anne** (Santa Ana), the church is in **Santiago, Chile**, and it's a church building.\n\nGUESS: Santa Ana Church, Santiago",
+      "guess": "Santa Ana Church, Santiago",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 15,
+    "round": 1,
+    "n_banned": 7,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

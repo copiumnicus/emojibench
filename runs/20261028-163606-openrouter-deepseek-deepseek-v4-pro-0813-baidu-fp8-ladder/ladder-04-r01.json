@@ -1,0 +1,274 @@
+{
+  "model": "openrouter:deepseek/deepseek-v4-pro-0813@baidu/fp8",
+  "model_id": "deepseek/deepseek-v4-pro-0813",
+  "guesser_model": "openrouter:deepseek/deepseek-v4-pro-0813@baidu/fp8",
+  "guesser_model_id": "deepseek/deepseek-v4-pro-0813",
+  "effort": null,
+  "article": {
+    "title": "Mike Pieciak",
+    "description": "American politician (born 1983)",
+    "extract": "Michael Sullivan Pieciak is an American politician from Vermont. A member of the Democratic Party, Pieciak has served as Vermont State Treasurer since January 2023.",
+    "url": "https://en.wikipedia.org/wiki/Mike_Pieciak"
+  },
+  "solved": true,
+  "turns_taken": 5,
+  "solved_turn": 5,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 976.2,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1529,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2304,
+      "output_tokens": 12199,
+      "thinking_tokens": 12054,
+      "cost_usd": 0.007765155552,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 1158,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1536,
+      "output_tokens": 41941,
+      "thinking_tokens": 41724,
+      "cost_usd": 0.024995398224,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 525,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 12,
+      "thinking_tokens": 0,
+      "cost_usd": 5.85e-05,
+      "calls": 3
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 309,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 2040,
+        "thinking_tokens": 2014,
+        "cost_usd": 0.001308542928,
+        "duration_ms": 39012
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 164,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 1904,
+        "thinking_tokens": 1877,
+        "cost_usd": 0.001197784896,
+        "duration_ms": 37015
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 264,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 1874,
+        "thinking_tokens": 1847,
+        "cost_usd": 0.001199817696,
+        "duration_ms": 34592
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 68,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 768,
+        "output_tokens": 1801,
+        "thinking_tokens": 1771,
+        "cost_usd": 0.001117112304,
+        "duration_ms": 35073
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 724,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 4580,
+        "thinking_tokens": 4545,
+        "cost_usd": 0.002941897728,
+        "duration_ms": 81677
+      }
+    ],
+    "guesser": [
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 110,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 2709,
+        "thinking_tokens": 2650,
+        "cost_usd": 0.001676073168,
+        "duration_ms": 48225
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 212,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 3824,
+        "thinking_tokens": 3763,
+        "cost_usd": 0.002376779328,
+        "duration_ms": 71884
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 302,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 5571,
+        "thinking_tokens": 5563,
+        "cost_usd": 0.003460465008,
+        "duration_ms": 98752
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 352,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 16847,
+        "thinking_tokens": 16813,
+        "cost_usd": 0.010347184848,
+        "duration_ms": 297589
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 182,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 12990,
+        "thinking_tokens": 12935,
+        "cost_usd": 0.007134895872,
+        "duration_ms": 229185
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 172,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.92e-05,
+        "duration_ms": 869
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 176,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.96e-05,
+        "duration_ms": 1244
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 177,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.97e-05,
+        "duration_ms": 1076
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🌲🥞🧀🍦⛷️💵🏦🔵</msg>",
+      "delivered": "🌲🥞🧀🍦⛷️💵🏦🔵",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "This sounds like Vermont: Green Mountains 🌲, maple syrup on pancakes 🥞, cheddar cheese 🧀, Ben & Jerry's ice cream 🍦, skiing ⛷️, and a blue US state 💵🏦🔵.\n\nGUESS: Vermont",
+      "guess": "Vermont",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>❌🤏🟩\n🗳️🏦💵🔑🧑</msg>",
+      "delivered": "❌🤏🟩\n🗳️🏦💵🔑🧑",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is the article a country or territory? Those clues (🤏🟩🗳️🏦💵🔑🧑) make me think of a small, green, wealthy European state with banking and elections — maybe Liechtenstein or Luxembourg. Am I on the right track?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>❌🌍 👤 🗳️🏦💵 🌲🥞</msg>",
+      "delivered": "❌🌍 👤 🗳️🏦💵 🌲🥞",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Bernie Sanders",
+      "guess": "Bernie Sanders",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>❌\n🇺🇸🌲🥞\n👤💼🏦💵🧾</msg>",
+      "delivered": "❌\n🌲🥞\n👤💼🏦💵🧾",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🇺🇸"
+      ],
+      "retried": false,
+      "guesser": "I think the person may be Calvin Coolidge — a U.S. president from Vermont known for fiscal conservatism and tax cuts.\n\nGUESS: Calvin Coolidge",
+      "guess": "Calvin Coolidge",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>❌\n👤🌲🥞\n🎙️🍕✔️\n💼🏦💵🔵</msg>",
+      "delivered": "❌\n👤🌲🥞\n🎙️🍕✔️\n💼🏦💵🔵",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The emojis 🎙️🍕✔️ = mic + pizza/pie + check → “Mike Pieciak.” And the clues match Vermont State Treasurer (briefcase, bank, money, receipt, vote).\n\nGUESS: Mike Pieciak",
+      "guess": "Mike Pieciak",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 4,
+    "round": 1,
+    "n_banned": 15,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

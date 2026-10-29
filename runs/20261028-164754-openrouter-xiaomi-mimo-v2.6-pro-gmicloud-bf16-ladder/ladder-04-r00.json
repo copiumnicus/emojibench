@@ -1,0 +1,238 @@
+{
+  "model": "openrouter:xiaomi/mimo-v2.6-pro@gmicloud/bf16",
+  "model_id": "xiaomi/mimo-v2.6-pro",
+  "guesser_model": "openrouter:xiaomi/mimo-v2.6-pro@gmicloud/bf16",
+  "guesser_model_id": "xiaomi/mimo-v2.6-pro",
+  "effort": null,
+  "article": {
+    "title": "Mike Pieciak",
+    "description": "American politician (born 1983)",
+    "extract": "Michael Sullivan Pieciak is an American politician from Vermont. A member of the Democratic Party, Pieciak has served as Vermont State Treasurer since January 2023.",
+    "url": "https://en.wikipedia.org/wiki/Mike_Pieciak"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 170.2,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2421,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1408,
+      "output_tokens": 1121,
+      "thinking_tokens": 870,
+      "cost_usd": 0.00172893145,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 1781,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1408,
+      "output_tokens": 3667,
+      "thinking_tokens": 2924,
+      "cost_usd": 0.00337505845,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 377,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 158,
+        "thinking_tokens": 136,
+        "cost_usd": 0.00025623675,
+        "duration_ms": 6014
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 289,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 64,
+        "thinking_tokens": 26,
+        "cost_usd": 0.00015505615,
+        "duration_ms": 2977
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 208,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 109,
+        "thinking_tokens": 65,
+        "cost_usd": 0.0001592543,
+        "duration_ms": 3884
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 303,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 640,
+        "output_tokens": 358,
+        "thinking_tokens": 294,
+        "cost_usd": 0.00037895125,
+        "duration_ms": 8240
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 1244,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 432,
+        "thinking_tokens": 349,
+        "cost_usd": 0.000779433,
+        "duration_ms": 16752
+      }
+    ],
+    "guesser": [
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 265,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 994,
+        "thinking_tokens": 867,
+        "cost_usd": 0.00083304675,
+        "duration_ms": 35399
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 185,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 561,
+        "thinking_tokens": 443,
+        "cost_usd": 0.00048413365,
+        "duration_ms": 20928
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 230,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 384,
+        "output_tokens": 768,
+        "thinking_tokens": 608,
+        "cost_usd": 0.0006542841,
+        "duration_ms": 27707
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 828,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 772,
+        "thinking_tokens": 608,
+        "cost_usd": 0.000877047,
+        "duration_ms": 26468
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 273,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 768,
+        "output_tokens": 572,
+        "thinking_tokens": 398,
+        "cost_usd": 0.00052654695,
+        "duration_ms": 21814
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🧑‍💼🇺🇸🫏💰🏔️🍁🎿</msg>",
+      "delivered": "🧑‍💼🇺🇸🫏💰🏔️🍁🎿",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Quick read so far: 🧑‍💼 = a businessperson, 🇺🇸 = American, 🫏 = Democrat, 💰 = wealthy/finance, and 🏔️🍁🎿 = a mountainous, maple-syrup, skiing place (Vermont? Colorado? Canada?).\n\nA few clarifying questions:\n1. Is the article about a **person** (rather than a place or organization)?\n2. Does 🍁 mean **Vermont** (maple syrup) or **Canada**?\n3. Is this person primarily known as a **politician**?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👍🧑‍💼\n\n👍🏔️🍁\n\n👍🫏\n\n💰➡️🏛️🤵‍♂️💎🪙</msg>",
+      "delivered": "👍🧑‍💼\n👍🏔️🍁\n👍🫏\n💰➡️🏛️🤵‍♂️💎🪙",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "More clues gathered: a wealthy businessman (💎🪙🤵‍♂️) who used his money to get into politics/government (💰➡️🏛️).\n\nA few yes/no questions to narrow it down:\n1. Is this person **male**?\n2. Are they **living** today?\n3. Did they hold **elected office** (as opposed to being appointed/just a donor)?\n4. Was their political career in **Vermont** specifically?\n5. Did they ever run for **President** (e.g., in a primary)?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>👍👨\n\n👍🫀\n\n👍🗳️\n\n👍🏔️🍁\n\n👎🇺🇸🗳️\n\n⚠️🔄➡️💰🇺🇸💵🪙📊</msg>",
+      "delivered": "👍👨\n👍🫀\n👍🗳️\n👍🏔️🍁\n👎🇺🇸🗳️\n⚠️🔄➡️💰🇺🇸💵🪙📊",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Good progress: a living male businessman from Vermont (🎿🏔️🍁) who was elected to office at a **state or local** level (not U.S. Congress), and there's something controversial (⚠️) about **switching** something (party?) to get money/funding.\n\nClarifying questions:\n1. Did he switch **political party** (e.g., Democrat → Republican) to gain money/support?\n2. Did he serve in the **Vermont state legislature** or as **governor/mayor**?\n3. Is the article mainly about **him as a person**, or about a **company/organization** he was involved with?\n4. Is he most famous for something **other than** politics (e.g., a business he founded)?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>1️⃣ 👎\n\n2️⃣ 👎 ➕ 💰🪙💼\n\n3️⃣ 👍\n\n4️⃣ 👎\n\n👨‍⚖️🎓 🛡️📋🔍 🗳️🫏",
+      "delivered": "👎\n👎 ➕ 💰🪙💼\n👍\n👎\n👨‍⚖️🎓 🛡️📋🔍 🗳️🫏",
+      "dropped_chars": 13,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Progress: he's a person (a living male), elected as a Democrat at state/local level (not U.S. Congress), and seems to have a law/judge background (👨‍⚖️🎓) with some kind of oversight/regulatory role (🛡️📋🔍). The 💰🪙💼 suggests a business career rather than being a legislator/governor.\n\nQuestions:\n1. Is he a **lawyer** (or was he a **judge**)?\n2. Does 🛡️📋🔍 mean he works in **regulation/oversight** (e.g., attorney general, inspector general, ethics board)?\n3. Is he an elected official **today**?\n4. Did he run for **U.S. Senate or Governor** of Vermont at some point?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>1️⃣ 👎\n\n2️⃣ 👍 📊🏦💼🔍\n\n3️⃣ 👍\n\n4️⃣ 🤷\n\n🏆2️⃣0️⃣2️⃣3️⃣ ➡️ 💰💵 🏛️ 🏔️🍁</msg>",
+      "delivered": "👎\n👍 📊🏦💼🔍\n👍\n🤷\n🏆 ➡️ 💰💵 🏛️ 🏔️🍁",
+      "dropped_chars": 16,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Getting clearer: he's a living male, currently an elected Democrat in Vermont, with a finance/banking/business oversight background (📊🏦💼🔍) — not a lawyer. The last group is puzzling: something about a \"champion/win\" (🏆) that led to money flowing to government in Vermont.\n\nQuestions:\n1. Is he best known for a **competition, contest, or award** he won (e.g., lottery, game show, sports, business award)?\n2. Or does 🏆 mean he **championed/advocated** for money going to Vermont's government (e.g., tax policy, federal funding)?\n3. What is his **current office** — state treasurer, state auditor, state senator, or something else?\n4. Is he **widely known outside Vermont**, or mostly a local figure?",
+      "guess": null,
+      "correct": null
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 4,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Iron(III) sulfate",
+    "description": "Chemical compound",
+    "extract": "Iron(III) sulfate or ferric sulfate is a family of inorganic compounds with the formula Fe2(SO4)3(H2O)n. A variety of hydrates are known, including the most commonly encountered form of \"ferric sulfate\". Solutions are used in dyeing as a mordant and as a coagulant for industrial wastes. Solutions of ferric sulfate are also used in the processing of aluminum and steel.",
+    "url": "https://en.wikipedia.org/wiki/Iron(III)_sulfate"
+  },
+  "solved": true,
+  "turns_taken": 5,
+  "solved_turn": 5,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 117.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2683,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 3962,
+      "output_tokens": 1777,
+      "thinking_tokens": 1347,
+      "cost_usd": 0.0244067,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 2928,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1322,
+      "thinking_tokens": 1098,
+      "cost_usd": 0.019076,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 711,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 16,
+      "thinking_tokens": 0,
+      "cost_usd": 7.91e-05,
+      "calls": 4
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 922,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 400,
+        "thinking_tokens": 362,
+        "cost_usd": 0.005844,
+        "duration_ms": 17253
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1099,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 364,
+        "thinking_tokens": 290,
+        "cost_usd": 0.006386,
+        "duration_ms": 13961
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 229,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1096,
+        "output_tokens": 403,
+        "thinking_tokens": 312,
+        "cost_usd": 0.0047106,
+        "duration_ms": 13440
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 225,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1322,
+        "output_tokens": 355,
+        "thinking_tokens": 243,
+        "cost_usd": 0.0042432,
+        "duration_ms": 11298
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 208,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1544,
+        "output_tokens": 255,
+        "thinking_tokens": 140,
+        "cost_usd": 0.0032229,
+        "duration_ms": 7512
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 292,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 291,
+        "thinking_tokens": 212,
+        "cost_usd": 0.003494,
+        "duration_ms": 9665
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 441,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 256,
+        "thinking_tokens": 207,
+        "cost_usd": 0.003442,
+        "duration_ms": 9711
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 567,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 255,
+        "thinking_tokens": 232,
+        "cost_usd": 0.003684,
+        "duration_ms": 10588
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 715,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 457,
+        "thinking_tokens": 398,
+        "cost_usd": 0.006,
+        "duration_ms": 15217
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 913,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 63,
+        "thinking_tokens": 49,
+        "cost_usd": 0.002456,
+        "duration_ms": 4220
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 176,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.96e-05,
+        "duration_ms": 1797
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 174,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.94e-05,
+        "duration_ms": 1100
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 174,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.94e-05,
+        "duration_ms": 941
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 187,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.07e-05,
+        "duration_ms": 933
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🫙 🗜️ 🦿 🤟\n👖 ♣️\n🏢 🚾 🧽</msg>",
+      "delivered": "🫙 🗜️ 🦿 🤟\n👖 ♣️\n🏢 🧽",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is this about a musician or band? The first two emojis make me think “jar + vice” = Jarvis. Is the person Jarvis Cocker?\nGUESS: Jarvis Cocker\n\nIs this about a musician or band? “Jar + vice” makes me think “Jarvis.”\nGUESS: Jarvis Cocker",
+      "guess": "Jarvis Cocker",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>⛔ 🎤🎶👨\n☣️ 🫙\n🦿🦿   🟨🔵🔵🔵🔵   🟨🔵🔵🔵🔵   🟨🔵🔵🔵🔵\n🤟</msg>",
+      "delivered": "⛔ 🎤🎶👨\n☣️ 🫙\n🦿🦿 🔵🔵🔵🔵 🔵🔵🔵🔵 🔵🔵🔵🔵\n🤟",
+      "dropped_chars": 3,
+      "off_keyboard": [
+        "🟨",
+        "🟨",
+        "🟨"
+      ],
+      "retried": false,
+      "guesser": "The jar and hazardous material suggest “Jar of Flies” and “Dirt,” and the artificial legs might hint at the three-legged dog album cover. Are you describing the band?\nGUESS: Alice in Chains",
+      "guess": "Alice in Chains",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>⛔🎸 ⛔🎶 ⛔👨\n📖 ☢️ ☣️ 🫙\n🍳 🤺 🏗\n🤟\n🔵🔵\n🟧⚪⚪⚪⚪\n🟧⚪⚪⚪⚪\n🟧⚪⚪⚪⚪</msg>",
+      "delivered": "⛔🎸 ⛔🎶 ⛔👨\n📖 ☢️ ☣️ 🫙\n🍳 🤺\n🤟\n🔵🔵\n🟧\n🟧\n🟧",
+      "dropped_chars": 13,
+      "off_keyboard": [
+        "🏗️",
+        "⚪",
+        "⚪",
+        "⚪",
+        "⚪",
+        "⚪",
+        "⚪",
+        "⚪",
+        "⚪",
+        "⚪",
+        "⚪",
+        "⚪",
+        "⚪"
+      ],
+      "retried": false,
+      "guesser": "Is this fictional writing about containing dangerous or anomalous objects?\nGUESS: SCP Foundation",
+      "guess": "SCP Foundation",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>⛔📖 ⛔🎶 ⛔👨 ⛔👽\n🧑‍🔬 🧑‍🔬 🧑‍🔬\n🧯 ☣️ 🫙\n🥄🍴🔪 🦿\n🤟\n🔵🔵 🟧🔵🔵🔵🔵 🟧🔵🔵🔵🔵 🟧🔵🔵🔵🔵</msg>",
+      "delivered": "⛔📖 ⛔🎶 ⛔👨 ⛔👽\n🧑‍🔬 🧑‍🔬 🧑‍🔬\n🧯 ☣️ 🫙\n🥄🍴🔪 🦿\n🤟\n🔵🔵 🟧🔵🔵🔵🔵 🟧🔵🔵🔵🔵 🟧🔵🔵🔵🔵",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is this a chemical substance, perhaps a toxic flame retardant used in clothing and building foam? Do 🤟 and the three orange squares mean “tris” or three chemical groups?\nGUESS: Tris(2,3-dibromopropyl) phosphate",
+      "guess": "Tris(2,3-dibromopropyl) phosphate",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>🙆 🧑‍🔬 ☣️ 🫙\n🍳 🗼 ☄️ 🥄 🔪\n🤟\n🇫🇮🇪🇪\n🇸🇪 🇴🇲🇴🇲🇴🇲🇴🇲\n🇸🇪 🇴🇲🇴🇲🇴🇲🇴🇲\n🇸🇪 🇴🇲🇴🇲🇴🇲🇴🇲</msg>",
+      "delivered": "🙆 🧑‍🔬 ☣️ 🫙\n🍳 🗼 ☄️ 🥄 🔪\n🤟\n🇫🇮🇪🇪\n🇸🇪 🇴🇲🇴🇲🇴🇲🇴🇲\n🇸🇪 🇴🇲🇴🇲🇴🇲🇴🇲\n🇸🇪 🇴🇲🇴🇲🇴🇲🇴🇲",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Iron(III) sulfate",
+      "guess": "Iron(III) sulfate",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 2,
+    "round": 8,
+    "n_banned": 159,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

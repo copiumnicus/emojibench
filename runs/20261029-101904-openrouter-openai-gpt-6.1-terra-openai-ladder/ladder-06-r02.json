@@ -1,0 +1,254 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Jakob von Washington",
+    "description": "Bavarian general (1778–1848)",
+    "extract": "\nBaron Jacobus von Washington was a lieutenant general in the Bavarian Army and a distant relative of US President George Washington. Born in The Hague, Netherlands, he was christened James Washington. Most of his adult life was shaped by his participation in wars for and against Napoleonic France and his service to Ludwig I of Bavaria.",
+    "url": "https://en.wikipedia.org/wiki/Jakob_von_Washington"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 129.4,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2843,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2472,
+      "output_tokens": 2492,
+      "thinking_tokens": 1972,
+      "cost_usd": 0.0157856,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 3288,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 3980,
+      "thinking_tokens": 3791,
+      "cost_usd": 0.023188,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 182,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 2.02e-05,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 633,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 1086,
+        "thinking_tokens": 1003,
+        "cost_usd": 0.006063,
+        "duration_ms": 22374
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 765,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 659,
+        "thinking_tokens": 497,
+        "cost_usd": 0.00406,
+        "duration_ms": 14233
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 1155,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 340,
+        "thinking_tokens": 225,
+        "cost_usd": 0.003143,
+        "duration_ms": 7618
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 171,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1152,
+        "output_tokens": 208,
+        "thinking_tokens": 141,
+        "cost_usd": 0.0013106,
+        "duration_ms": 5255
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 119,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1320,
+        "output_tokens": 199,
+        "thinking_tokens": 106,
+        "cost_usd": 0.001209,
+        "duration_ms": 4647
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 338,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 240,
+        "thinking_tokens": 201,
+        "cost_usd": 0.001538,
+        "duration_ms": 4502
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 531,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 976,
+        "thinking_tokens": 947,
+        "cost_usd": 0.005411,
+        "duration_ms": 20400
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 689,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 726,
+        "thinking_tokens": 683,
+        "cost_usd": 0.004319,
+        "duration_ms": 14161
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 799,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 1071,
+        "thinking_tokens": 1032,
+        "cost_usd": 0.006154,
+        "duration_ms": 17454
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 931,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 967,
+        "thinking_tokens": 928,
+        "cost_usd": 0.005766,
+        "duration_ms": 17739
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 182,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.02e-05,
+        "duration_ms": 964
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🇺🇲 ☝️ 🧑‍💼 💰\n👪\n🧑 🕍 👬 🍲\n🇪🇺 🔷⬜ 🦁 💂 🫡\n🇨🇵 🐝 🤏 💣\n🇱🇺 🎂\n🕰️\n</msg>",
+      "delivered": "🇺🇲 ☝️ 🧑‍💼 💰\n👪\n🧑 🕍 👬 🍲\n🇪🇺 🔷⬜ 🦁 💂 🫡\n🇨🇵 🐝 🤏 💣\n🇱🇺 🎂\n🕰️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is this article about an American Jewish businessman or philanthropist? What do the France and Luxembourg clues mean? Please give more clues about the person’s name or occupation.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n🙅 ✡️ 🙅 💰\n\n🧑 💂 🫡 ⚔ 🙅\n🧑 💂 🫡 💣 🪖 🙅\n🧑 💂 🫡 🔫 🪖 🙅\n🧑 💂 🫡 🔫 🐴\n\n🇪🇺 🔷⬜ 🦁 ⚽ 🏟️\n🗼 🥐 🧑 🐴 💣\n\n🧑‍🦳 ☝️ 🧑‍💼 🏠 ⬜ 🌎 💲\n👪\n🧑 💂 🫡\n\n🧼 🚿 🧽\n</msg>",
+      "delivered": "🙅 ✡️ 🙅 💰\n🧑 💂 🫡 🙅\n🧑 💂 🫡 💣 🙅\n🧑 💂 🫡 🔫 🙅\n🧑 💂 🫡 🔫 🐴\n🇪🇺 🔷⬜ 🦁 ⚽ 🏟️\n🗼 🥐 🧑 🐴 💣\n🧑‍🦳 ☝️ 🧑‍💼 🏠 ⬜ 🌎 💲\n👪\n🧑 💂 🫡\n🧼 🚿 🧽",
+      "dropped_chars": 3,
+      "off_keyboard": [
+        "⚔️",
+        "🪖",
+        "🪖"
+      ],
+      "retried": false,
+      "guesser": "Is the soldier related to George Washington, and did he fight at Waterloo?\n\nGUESS: George Washington de La Fayette",
+      "guess": "George Washington de La Fayette",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n🧑‍🦳 ☝️ 🏠 ⬜ 🌎\n👪\n🧑 💂 🫡 🔫 🐴\n\n🗼 🥐 🧑 🐴 💣\n🇪🇺 🔷⬜ 🦁 ⚽ 🏟️ 💂 🫡\n⚖️ 🪵 👞 🌬️ 🎂\n\n🎃 🌽\n🧼 🚿 🏋️\n</msg>",
+      "delivered": "🧑‍🦳 ☝️ 🏠 ⬜ 🌎\n👪\n🧑 💂 🫡 🔫 🐴\n🗼 🥐 🧑 🐴 💣\n🇪🇺 🔷⬜ 🦁 ⚽ 🏟️ 💂 🫡\n⚖️ 🪵 👞 🌬️ 🎂\n🎃 🌽\n🧼 🚿 🏋️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I understand: a relative of George Washington, a cavalry officer who fought Napoleon at Waterloo, born in the Netherlands? Please spell out the person’s first name using emoji sounds or initials.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>\n🎃 🔊 🌽 🔊\n\n🧑‍🦳 ☝️ 🏠 ⬜ 🌎\n👪\n🧑 💂 🫡\n\n🎃 🌽\n🧼 🚿 🏋️\n</msg>",
+      "delivered": "🎃 🔊 🌽 🔊\n🧑‍🦳 ☝️ 🏠 ⬜ 🌎\n👪\n🧑 💂 🫡\n🎃 🌽\n🧼 🚿 🏋️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Does 🎃🌽 sound like “Jack Corn” or “gourd maize”? Is the first name John, George, or James? Is Waterloo the battle?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>\n🙆 🤵 🔫 🍸\n🎂 🤵 🔫 🍸\n🕰️\n🎃 🌽 🧼 🚿 🏋️\n\n🎃 🔊 🌽 🔊\n🐦‍⬛ 🌽\n\n💂 🫡 🇪🇺 🔷⬜ 🦁\n\n💣 🪵 👞 🤷\n</msg>",
+      "delivered": "🙆 🤵 🔫 🍸\n🎂 🤵 🔫 🍸\n🕰️\n🎃 🌽 🧼 🚿 🏋️\n🎃 🔊 🌽 🔊\n🐦‍⬛ 🌽\n💂 🫡 🇪🇺 🔷⬜ 🦁\n💣 🪵 👞 🤷",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I hear “Jack corn Washington” or “Corbin Washington.” Is the name Washington? Can you spell the first name with emoji initials, one emoji per letter?",
+      "guess": null,
+      "correct": null
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 6,
+    "round": 2,
+    "n_banned": 61,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

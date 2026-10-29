@@ -1,0 +1,238 @@
+{
+  "model": "openrouter:deepseek/deepseek-v4-pro-0813@baidu/fp8",
+  "model_id": "deepseek/deepseek-v4-pro-0813",
+  "guesser_model": "openrouter:deepseek/deepseek-v4-pro-0813@baidu/fp8",
+  "guesser_model_id": "deepseek/deepseek-v4-pro-0813",
+  "effort": null,
+  "article": {
+    "title": "Sage Derby",
+    "description": "Variety of cheese",
+    "extract": "Sage Derby is a variety of Derby cheese that is mild, mottled green and semi-hard, and has a sage flavour. The colour is from sage and sometimes other colouring added to the curds, producing a marbling effect and a subtle herb flavour. The colour is formed either by mixing sage leaves into the curd before it is pressed or by the addition of \"green curd\" from green corn or spinach juice. In the latter case, the flavour has to be created with colourless sage extract. Parsley, spinach and marigold leaves, bruised and steeped before use, can also be included instead of the sage leaves. It is aged for one to three months.",
+    "url": "https://en.wikipedia.org/wiki/Sage_Derby"
+  },
+  "solved": true,
+  "turns_taken": 5,
+  "solved_turn": 5,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 447.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1359,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2560,
+      "output_tokens": 4162,
+      "thinking_tokens": 4076,
+      "cost_usd": 0.00227948208,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 1204,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1536,
+      "output_tokens": 20345,
+      "thinking_tokens": 19944,
+      "cost_usd": 0.010195279008,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 290,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 1377,
+        "thinking_tokens": 1361,
+        "cost_usd": 0.000724962528,
+        "duration_ms": 27384
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 428,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 1575,
+        "thinking_tokens": 1560,
+        "cost_usd": 0.000844776288,
+        "duration_ms": 28020
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 271,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 144,
+        "thinking_tokens": 125,
+        "cost_usd": 0.000117733536,
+        "duration_ms": 3182
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 130,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 768,
+        "output_tokens": 179,
+        "thinking_tokens": 161,
+        "cost_usd": 0.000113174304,
+        "duration_ms": 3906
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 240,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 768,
+        "output_tokens": 887,
+        "thinking_tokens": 869,
+        "cost_usd": 0.000478835424,
+        "duration_ms": 16554
+      }
+    ],
+    "guesser": [
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 72,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 10467,
+        "thinking_tokens": 10357,
+        "cost_usd": 0.005152833888,
+        "duration_ms": 192121
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 200,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 4995,
+        "thinking_tokens": 4924,
+        "cost_usd": 0.002486814048,
+        "duration_ms": 88289
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 293,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 1485,
+        "thinking_tokens": 1402,
+        "cost_usd": 0.000778485888,
+        "duration_ms": 25289
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 397,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 2400,
+        "thinking_tokens": 2320,
+        "cost_usd": 0.001244810208,
+        "duration_ms": 43914
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 242,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 998,
+        "thinking_tokens": 941,
+        "cost_usd": 0.000532334976,
+        "duration_ms": 18387
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🧀🌿💚🏇</msg>",
+      "delivered": "🧀🌿💚🏇",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I see 🧀 cheese, 🌿 herb/leaf, 💚 green, 🏇 horse racing. My early thoughts are something like **Cheveley Park Stakes** or a cheese-rolling event, but I’m not sure.\n\nQuick yes/no questions:\n1. Is the article **about horse racing**?  \n2. Is it a **place or event** rather than a living thing?  \n3. Is **“cheese”** literal in the title?  \n\nPlease answer with ✅/❌.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>❌\n❌\n✅</msg>",
+      "delivered": "❌\n❌\n✅",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Got it — not horse racing, not a place/event, and “cheese” is literal in the title.\n\nPlease answer:\n1. Plant? ✅/❌  \n2. Animal? ✅/❌  \n3. Person? ✅/❌  \n4. Does the title contain the word “horse”? ✅/❌",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>❌\n❌\n❌\n❌</msg>",
+      "delivered": "❌\n❌\n❌\n❌",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Not plant, animal, person, place/event. “Cheese” literal in title.\n\nLet’s narrow the category:\n\n1. Food or dish? ✅/❌  \n2. Fictional character? ✅/❌  \n3. Work of art (film/book/song/painting)? ✅/❌  \n4. Does the title contain the word “green”? ✅/❌",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>✅\n❌\n❌\n❌</msg>",
+      "delivered": "✅\n❌\n❌\n❌",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Great — food/dish, “cheese” literal, not “green”.\n\nLet’s narrow the title.\n\n1. Does the title contain the word **herb**?  \n2. Does the title contain the word **leaf**?  \n3. Does the title contain the word **cheese**?  \n4. Is the article about a **specific named cheese variety**?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>❌\n❌\n❌\n✅</msg>",
+      "delivered": "❌\n❌\n❌\n✅",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Specific cheese variety, no “cheese” in title. The emojis fit **Sage Derby**: 🧀 cheese, 🌿 sage (herb), 💚 green (sage is green), 🏇 Derby (horse race).\n\nGUESS: Sage Derby",
+      "guess": "Sage Derby",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 19,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "model": "openrouter:minimax/minimax-m3@minimax",
+  "model_id": "minimax/minimax-m3",
+  "guesser_model": "openrouter:minimax/minimax-m3@minimax",
+  "guesser_model_id": "minimax/minimax-m3",
+  "effort": null,
+  "article": {
+    "title": "Accord Pond",
+    "description": "Lake in Massachusetts, USA",
+    "extract": "Accord Pond is a 100-acre (0.40 km2) reservoir in Hingham, Norwell and Rockland, Massachusetts. The reservoir is located off Route 228 at its terminus with Route 3. The reservoir is visible from Route 3 northbound at Exit 14, the Route 228 off-ramp. The reservoir is a Class A source of water supply for the town of Hingham and Hull Ma. The outflow of the reservoir is Accord Brook, a tributary of the Weir River.",
+    "url": "https://en.wikipedia.org/wiki/Accord_Pond"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 59.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 758,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2952,
+      "output_tokens": 1574,
+      "thinking_tokens": 1491,
+      "cost_usd": 0.00229332,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 543,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2186,
+      "output_tokens": 2835,
+      "thinking_tokens": 2665,
+      "cost_usd": 0.00369606,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 354,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 3.94e-05,
+      "calls": 2
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 480,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 128,
+        "output_tokens": 214,
+        "thinking_tokens": 200,
+        "cost_usd": 0.00040848,
+        "duration_ms": 2979
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 57,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 608,
+        "output_tokens": 229,
+        "thinking_tokens": 216,
+        "cost_usd": 0.00032838,
+        "duration_ms": 2627
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 72,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 665,
+        "output_tokens": 565,
+        "thinking_tokens": 545,
+        "cost_usd": 0.0007395,
+        "duration_ms": 6085
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 77,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 737,
+        "output_tokens": 161,
+        "thinking_tokens": 142,
+        "cost_usd": 0.00026052,
+        "duration_ms": 2649
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 72,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 814,
+        "output_tokens": 405,
+        "thinking_tokens": 388,
+        "cost_usd": 0.00055644,
+        "duration_ms": 5567
+      }
+    ],
+    "guesser": [
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 301,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 128,
+        "output_tokens": 509,
+        "thinking_tokens": 484,
+        "cost_usd": 0.00070878,
+        "duration_ms": 5887
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 46,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 429,
+        "output_tokens": 325,
+        "thinking_tokens": 297,
+        "cost_usd": 0.00042954,
+        "duration_ms": 4648
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 69,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 475,
+        "output_tokens": 694,
+        "thinking_tokens": 669,
+        "cost_usd": 0.000882,
+        "duration_ms": 6767
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 66,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 544,
+        "output_tokens": 1251,
+        "thinking_tokens": 1215,
+        "cost_usd": 0.00155364,
+        "duration_ms": 17071
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 61,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 610,
+        "output_tokens": 56,
+        "thinking_tokens": 0,
+        "cost_usd": 0.0001221,
+        "duration_ms": 3510
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 177,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.97e-05,
+        "duration_ms": 908
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 177,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.97e-05,
+        "duration_ms": 933
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🤝🏞️</msg>",
+      "delivered": "🤝🏞️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is the title a place or organization whose name combines “peace/friendship/cooperation” with “park”?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🤝💧</msg>",
+      "delivered": "🤝💧",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Does 🤝 mean “friendship” and 💧 mean “spring” or “water”?  \nGUESS: Friendship Springs",
+      "guess": "Friendship Springs",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🤝💧🏞️🇺🇸</msg>",
+      "delivered": "🤝💧🏞️🇺🇸",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The emojis may encode “Peace River State Park” in the United States.\n\nGUESS: Peace River State Park",
+      "guess": "Peace River State Park",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🪗🏞️🇺🇸</msg>",
+      "delivered": "🪗🏞️🇺🇸",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Does 🪗 literally mean “banjo,” and is the target a specific U.S. national park named after a banjo player or a song featuring a banjo?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>🤝⚖️🪷</msg>",
+      "delivered": "🤝⚖️🪷",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Could 🤝⚖️🪷 mean “United States v. ...”? I need a clearer title breakdown.\n\nDoes the title contain “Justice,” “Fair,” or “Balance,” and does 🪷 refer to a flower or the game “Hearts”?",
+      "guess": null,
+      "correct": null
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 10,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

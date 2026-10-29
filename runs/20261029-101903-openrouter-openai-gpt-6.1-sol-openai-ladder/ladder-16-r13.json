@@ -1,0 +1,296 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Grande Seca",
+    "description": "Brazilian drought (1877–1878)",
+    "extract": "The Grande Seca, or the Brazilian drought of 1877–1878, was the largest and most devastating drought in Brazilian history. It caused the deaths of between 400,000 and 500,000 people. Of the 800,000 people who lived in the affected Northeastern region, around 120,000 migrated to the Amazon while 68,000 migrated to other parts of Brazil.",
+    "url": "https://en.wikipedia.org/wiki/Grande_Seca"
+  },
+  "solved": true,
+  "turns_taken": 5,
+  "solved_turn": 5,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 148.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2220,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 6420,
+      "output_tokens": 2331,
+      "thinking_tokens": 1922,
+      "cost_usd": 0.0294945,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 3119,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1196,
+      "thinking_tokens": 906,
+      "cost_usd": 0.018198,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 730,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 16,
+      "thinking_tokens": 0,
+      "cost_usd": 8.099999999999999e-05,
+      "calls": 4
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1308,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 596,
+        "thinking_tokens": 516,
+        "cost_usd": 0.0092285,
+        "duration_ms": 28444
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 185,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1305,
+        "output_tokens": 420,
+        "thinking_tokens": 364,
+        "cost_usd": 0.0047915,
+        "duration_ms": 18680
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 210,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1487,
+        "output_tokens": 434,
+        "thinking_tokens": 359,
+        "cost_usd": 0.0050122,
+        "duration_ms": 19096
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 243,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1694,
+        "output_tokens": 583,
+        "thinking_tokens": 490,
+        "cost_usd": 0.0066054,
+        "duration_ms": 22879
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 274,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1934,
+        "output_tokens": 298,
+        "thinking_tokens": 193,
+        "cost_usd": 0.0038569,
+        "duration_ms": 10012
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 336,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 209,
+        "thinking_tokens": 110,
+        "cost_usd": 0.002762,
+        "duration_ms": 7846
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 483,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 233,
+        "thinking_tokens": 183,
+        "cost_usd": 0.003296,
+        "duration_ms": 7813
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 606,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 347,
+        "thinking_tokens": 295,
+        "cost_usd": 0.004682,
+        "duration_ms": 13243
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 766,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 325,
+        "thinking_tokens": 279,
+        "cost_usd": 0.004782,
+        "duration_ms": 11166
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 928,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 82,
+        "thinking_tokens": 39,
+        "cost_usd": 0.002676,
+        "duration_ms": 5676
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 187,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.07e-05,
+        "duration_ms": 969
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 185,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.05e-05,
+        "duration_ms": 960
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 176,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.96e-05,
+        "duration_ms": 1005
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 182,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.02e-05,
+        "duration_ms": 955
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🧉 🪅 🤸 🥭\n🌝 🌝 🌝 🏕️ 🟫 🟫 🟫\n🥄 😩 🥄 😩 🥄 😩\n🧑‍🦯 🧑‍🦯 🧑‍🦯</msg>",
+      "delivered": "🧉 🪅 🤸 🥭\n🌝 🌝 🌝 🏕️ 🟫 🟫 🟫\n🥄 😩 🥄 😩 🥄 😩\n🧑‍🦯 🧑‍🦯 🧑‍🦯",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The repeated 🧑‍🦯 makes me think of “three blind” people or mice. Is this a song/story/film, or a real place/person? Please give another clue to the title.\n\n\nThe repeated 🧑‍🦯 makes me think of “three blind” people or mice. Is this a song/story/film, or a real place/person? Please give another clue to the title.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🎥 👈 🚫\n⌛ ⚠️ 🥄 😩 🦂 🟫\n🧉 🦎 🥭 🏄 🤸\n🔰 🔰 🔰</msg>",
+      "delivered": "🎥 👈\n⌛ ⚠️ 🥄 😩 🦂 🟫\n🧉 🦎 🥭 🏄 🤸\n🔰 🔰 🔰",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🚫"
+      ],
+      "retried": false,
+      "guesser": "Is it a Western film set in Mexico or near the US–Mexico border? Are the repeated groups of three pointing to “Three” in the title?\n\nGUESS: The Three Burials of Melquiades Estrada",
+      "guess": "The Three Burials of Melquiades Estrada",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🎬 🤚\n🇧🇷\n🏜️ ☀️ 🚱\n🥕 🍅 🥦 🟫 🟫 🟫\n😩 😩 😩\n⚠️ 🆘 ⚠️\n🧉 🌰 🥋 🎇</msg>",
+      "delivered": "🤚\n🥕 🍅 🥦 🟫 🟫 🟫\n😩 😩 😩\n⚠️ ⚠️\n🧉 🌰 🎇",
+      "dropped_chars": 7,
+      "off_keyboard": [
+        "🎬",
+        "🇧🇷",
+        "🏜️",
+        "☀️",
+        "🚱",
+        "🥋"
+      ],
+      "retried": false,
+      "guesser": "Is this an Indian film about three men, possibly blind men? Please indicate the country or language, and whether 🥕🍅🥦 means farming or vegetables.\n\nGUESS: Three Blind Mice (2008 film)",
+      "guess": "Three Blind Mice (2008 film)",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🎞️ 🙅‍♂️\n🎼 🙅‍♂️\n📃 🧐\n🌝 🌝 🌝\n⛲ 🙅‍♂️ 🧽 🟫\n🥕 🥦 🙅‍♂️\n🧟 🧟 🧟 🧟 🧟\n🤸 👙 🧉 🏐</msg>",
+      "delivered": "🎞️ 🙅‍♂️\n🎼 🙅‍♂️\n📃 🧐\n🌝 🌝 🌝\n⛲ 🙅‍♂️ 🧽 🟫\n🥕 🥦 🙅‍♂️\n🧟 🧟 🧟 🧟 🧟\n🤸 👙 🧉",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🏐"
+      ],
+      "retried": false,
+      "guesser": "I misunderstood the film clue. Is this a place in Brazil, with “Três” (“three”) in its name? The tropical and carnival clues suggest Brazil.\n\nGUESS: Três Corações",
+      "guess": "Três Corações",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>🤸 👙 🧉 👏\n🏘️ 🙅‍♂️\n📃 ⌛ ⚠️\n⛲ 🙅‍♂️ ⛲ 🙅‍♂️ ⛲ 🙅‍♂️\n🧽 🟫 🦂 🦎\n🥕 🥦 🙅‍♂️ 😩\n🧟 🧟 🧟 🧟 🧟</msg>",
+      "delivered": "🤸 👙 🧉 👏\n🙅‍♂️\n📃 ⌛ ⚠️\n⛲ 🙅‍♂️ ⛲ 🙅‍♂️ ⛲ 🙅‍♂️\n🧽 🟫 🦂 🦎\n🥕 🥦 🙅‍♂️ 😩\n🧟 🧟 🧟 🧟 🧟",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🏘️"
+      ],
+      "retried": false,
+      "guesser": "The clues now look like a historical Brazilian drought: no water, dry soil, failed crops, suffering and many deaths, lasting three years.\n\nGUESS: Great Drought (Brazil)",
+      "guess": "Great Drought (Brazil)",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 16,
+    "round": 13,
+    "n_banned": 292,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

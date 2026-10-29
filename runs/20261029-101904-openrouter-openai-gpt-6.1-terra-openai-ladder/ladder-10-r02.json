@@ -1,0 +1,276 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Accord Pond",
+    "description": "Lake in Massachusetts, USA",
+    "extract": "Accord Pond is a 100-acre (0.40 km2) reservoir in Hingham, Norwell and Rockland, Massachusetts. The reservoir is located off Route 228 at its terminus with Route 3. The reservoir is visible from Route 3 northbound at Exit 14, the Route 228 off-ramp. The reservoir is a Class A source of water supply for the town of Hingham and Hull Ma. The outflow of the reservoir is Accord Brook, a tributary of the Weir River.",
+    "url": "https://en.wikipedia.org/wiki/Accord_Pond"
+  },
+  "solved": true,
+  "turns_taken": 5,
+  "solved_turn": 5,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 68.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 3529,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1167,
+      "output_tokens": 1249,
+      "thinking_tokens": 861,
+      "cost_usd": 0.0101776,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 2731,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1816,
+      "thinking_tokens": 1691,
+      "cost_usd": 0.011811,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 532,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 12,
+      "thinking_tokens": 0,
+      "cost_usd": 5.92e-05,
+      "calls": 3
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 589,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 414,
+        "thinking_tokens": 374,
+        "cost_usd": 0.002659,
+        "duration_ms": 10387
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 673,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 171,
+        "thinking_tokens": 99,
+        "cost_usd": 0.001528,
+        "duration_ms": 4103
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 880,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 275,
+        "thinking_tokens": 166,
+        "cost_usd": 0.002255,
+        "duration_ms": 6917
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 1170,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 135,
+        "thinking_tokens": 53,
+        "cost_usd": 0.00213675,
+        "duration_ms": 3350
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 217,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1167,
+        "output_tokens": 254,
+        "thinking_tokens": 169,
+        "cost_usd": 0.00159885,
+        "duration_ms": 5388
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 296,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 173,
+        "thinking_tokens": 139,
+        "cost_usd": 0.001161,
+        "duration_ms": 3398
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 402,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 748,
+        "thinking_tokens": 714,
+        "cost_usd": 0.004142,
+        "duration_ms": 12330
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 557,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 544,
+        "thinking_tokens": 510,
+        "cost_usd": 0.003277,
+        "duration_ms": 10442
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 683,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 259,
+        "thinking_tokens": 247,
+        "cost_usd": 0.001978,
+        "duration_ms": 5224
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 793,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 92,
+        "thinking_tokens": 81,
+        "cost_usd": 0.001253,
+        "duration_ms": 4252
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 176,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.96e-05,
+        "duration_ms": 925
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 180,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2e-05,
+        "duration_ms": 969
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 176,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.96e-05,
+        "duration_ms": 1027
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🚘 🤲 📝\n\n🪷 🐟 🩵\n\n🫘 🔴 🧦 ⚾ 🌎</msg>",
+      "delivered": "🚘 🤲 📝\n🪷 🐟 🩵\n🫘 🔴 🧦 ⚾ 🌎",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I see Boston Red Sox and baseball, perhaps a World Series. Is the article about a player? Please break down the first two lines.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🙅 ⚾ 🧑\n\n🚘 🏷️\n🧑 👍 📝 👍 🧑\n🔁\n\n🪷 🐟 🩵 = 🏝️ 🐟 💦\n\n🫘 🔴 🧦 ⚾ 🌎</msg>",
+      "delivered": "🙅 ⚾ 🧑\n🚘 🏷️\n🧑 👍 📝 👍 🧑\n🔁\n🪷 🐟 🩵 🏝️ 🐟 💦\n🫘 🔴 🧦 ⚾ 🌎",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The Florida Marlins and Boston Red Sox suggest their former/current owner, who also owns a NASCAR team.\n\nGUESS: John W. Henry",
+      "guess": "John W. Henry",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🙅 🧑 🙅 ⚾\n\n🪷 🐟 💦 🤏\n🌳 🌳 🪷 🐟 💦 🌳 🌳\n\n🇬🇧 🧳 ⛵ 🪨\n🔴 🧦 ⚾ 🏠\n🧙‍♀️ 🔥\n📚 🏫 🎓\n\n🚘 🏭 🗾\n📝 🖊️ 🙂 🙂</msg>",
+      "delivered": "🙅 🧑 🙅 ⚾\n🪷 🐟 💦 🤏\n🌳 🌳 🪷 🐟 💦 🌳 🌳\n🇬🇧 🧳 ⛵ 🪨\n🔴 🧦 ⚾ 🏠\n🧙‍♀️ 🔥\n📚 🏫\n🚘 🏭 🗾\n📝 🖊️ 🙂 🙂",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🎓"
+      ],
+      "retried": false,
+      "guesser": "Walden Pond, Boston, Salem, Harvard, and Plymouth point to Massachusetts; “accord” suggests concord.\n\nGUESS: Concord, Massachusetts",
+      "guess": "Concord, Massachusetts",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🔥🔥🔥\n\n🤏 🪷 🐟 💦\n\n🚘 🏷️\n🇯🇵 🏭 🚘\n🚘 🏷️ 🤲 📝\n🧑 👍 📝 👍 🧑\n\n🙅 🏘️\n👍 🪷 🐟 💦</msg>",
+      "delivered": "🔥🔥🔥\n🤏 🪷 🐟 💦\n🚘 🏷️\n🏭 🚘\n🚘 🏷️ 🤲 📝\n🧑 👍 📝 👍 🧑\n🙅 🏘️\n👍 🪷 🐟 💦",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🇯🇵"
+      ],
+      "retried": false,
+      "guesser": "GUESS: Walden Pond",
+      "guess": "Walden Pond",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>👍 🪷 🐟 💦\n🙅 🌳 🧑‍🏫 📖\n\n🚘 🏭 🍣 🗾\n🚘 🏷️\n🧑 👍 📝 👍 🧑\n🎸 🎼 🎵\n\n🚘 🏷️ 🪷 🐟 💦</msg>",
+      "delivered": "👍 🪷 🐟 💦\n🙅 🌳 🧑‍🏫 📖\n🚘 🏭 🍣 🗾\n🚘 🏷️\n🧑 👍 📝 👍 🧑\n🎸 🎼 🎵\n🚘 🏷️ 🪷 🐟 💦",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Accord Pond",
+      "guess": "Accord Pond",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 10,
+    "round": 2,
+    "n_banned": 36,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

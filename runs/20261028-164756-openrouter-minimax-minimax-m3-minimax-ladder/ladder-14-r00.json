@@ -1,0 +1,272 @@
+{
+  "model": "openrouter:minimax/minimax-m3@minimax",
+  "model_id": "minimax/minimax-m3",
+  "guesser_model": "openrouter:minimax/minimax-m3@minimax",
+  "guesser_model_id": "minimax/minimax-m3",
+  "effort": null,
+  "article": {
+    "title": "Philadelphia Commercial Museum",
+    "description": "Former museum in Pennsylvania, USA",
+    "extract": "The Philadelphia Commercial Museum was established in Philadelphia, Pennsylvania in 1895. Its permanent home was a neo-classical building situated at 34th Street and Civic Center Blvd, erected as part of the 1899 National Export Exposition. The museum had business offices at 332 South Fourth Street.",
+    "url": "https://en.wikipedia.org/wiki/Philadelphia_Commercial_Museum"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 216.3,
+  "usage": {
+    "explainer": {
+      "input_tokens": 885,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 3042,
+      "output_tokens": 1623,
+      "thinking_tokens": 1491,
+      "cost_usd": 0.00239562,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 720,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2492,
+      "output_tokens": 21128,
+      "thinking_tokens": 20835,
+      "cost_usd": 0.02571912,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 575,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 12,
+      "thinking_tokens": 0,
+      "cost_usd": 6.35e-05,
+      "calls": 3
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 439,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 128,
+        "output_tokens": 450,
+        "thinking_tokens": 421,
+        "cost_usd": 0.00067938,
+        "duration_ms": 7377
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 87,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 567,
+        "output_tokens": 346,
+        "thinking_tokens": 316,
+        "cost_usd": 0.00047532,
+        "duration_ms": 3581
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 118,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 654,
+        "output_tokens": 577,
+        "thinking_tokens": 539,
+        "cost_usd": 0.00076704,
+        "duration_ms": 5772
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 149,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 772,
+        "output_tokens": 117,
+        "thinking_tokens": 101,
+        "cost_usd": 0.00023142,
+        "duration_ms": 3060
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 92,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 921,
+        "output_tokens": 133,
+        "thinking_tokens": 114,
+        "cost_usd": 0.00024246,
+        "duration_ms": 1990
+      }
+    ],
+    "guesser": [
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 316,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 128,
+        "output_tokens": 2107,
+        "thinking_tokens": 2066,
+        "cost_usd": 0.00263088,
+        "duration_ms": 19452
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 81,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 443,
+        "output_tokens": 12780,
+        "thinking_tokens": 12723,
+        "cost_usd": 0.01538688,
+        "duration_ms": 112404
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 118,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 523,
+        "output_tokens": 2637,
+        "thinking_tokens": 2557,
+        "cost_usd": 0.00323118,
+        "duration_ms": 23495
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 119,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 640,
+        "output_tokens": 3547,
+        "thinking_tokens": 3489,
+        "cost_usd": 0.0043305,
+        "duration_ms": 33946
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 86,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 758,
+        "output_tokens": 57,
+        "thinking_tokens": 0,
+        "cost_usd": 0.00013968,
+        "duration_ms": 2337
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 190,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.1e-05,
+        "duration_ms": 950
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 192,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.12e-05,
+        "duration_ms": 951
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 193,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.13e-05,
+        "duration_ms": 968
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🔔 💼 🏛️ 🦁 🇺🇸 ⏳ ❌</msg>",
+      "delivered": "🔔 💼 🏛️ 🦁 🇺🇸 ⏳ ❌",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is the subject a person 👤, organization 🏢, place 📍, or creative work 🎬? Are the seven emojis literal title-word clues, or facts about the subject?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🏢 👍 📍 💼 🏛️ 👎 🇺🇸 📍 🚫</msg>",
+      "delivered": "🏢 👍 📍 💼 🏛️ 👎 🇺🇸 📍 🚫",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I think this may be a former office/company building associated with Bell Telephone, located in Detroit (🦁 = Detroit Lions), and now demolished. Is that right, and is the exact title **Bell Building (Detroit)**?\n\nGUESS: Bell Building (Detroit)",
+      "guess": "Bell Building (Detroit)",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>👎 🦁 🏢 🏛️ 🔔 🦅 🇺🇸 💼 ✅ ⏳ 📍</msg>",
+      "delivered": "👎 🦁 🏢 🏛️ 🔔 🦅 🇺🇸 💼 ✅ ⏳ 📍",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Please answer with ✅/❌ in order: (1) “Bell” appears in the title; (2) it is a building; (3) it is in Philadelphia 🦅 rather than Detroit 🦁; (4) it was associated with a telephone company ☎️; (5) it is historic or demolished.\n\nGUESS: Bell Building (Philadelphia)",
+      "guess": "Bell Building (Philadelphia)",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>❌ ✅ ✅ ❌ ✅</msg>",
+      "delivered": "❌ ✅ ✅ ❌ ✅",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Please answer these five questions in order with ✅ or ❌: (1) Is the title “Independence Hall”? (2) “Philadelphia City Hall”? (3) “Pennsylvania Museum”? (4) “Land Title Building”? (5) “Philadelphia Masonic Temple”?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>❌ ❌ ❌ ❌ ❌</msg>",
+      "delivered": "❌ ❌ ❌ ❌ ❌",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Does the subject have “Building” in its title? Is it in Philadelphia? Is it associated with 🔔/Bell? Is it at 123-125 South Broad Street? Is the subject itself historic rather than merely old?\n\nGUESS: Old City Hall (Philadelphia)",
+      "guess": "Old City Hall (Philadelphia)",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 14,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

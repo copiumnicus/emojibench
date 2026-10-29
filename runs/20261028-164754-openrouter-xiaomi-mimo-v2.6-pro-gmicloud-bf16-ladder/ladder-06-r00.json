@@ -1,0 +1,238 @@
+{
+  "model": "openrouter:xiaomi/mimo-v2.6-pro@gmicloud/bf16",
+  "model_id": "xiaomi/mimo-v2.6-pro",
+  "guesser_model": "openrouter:xiaomi/mimo-v2.6-pro@gmicloud/bf16",
+  "guesser_model_id": "xiaomi/mimo-v2.6-pro",
+  "effort": null,
+  "article": {
+    "title": "Jakob von Washington",
+    "description": "Bavarian general (1778–1848)",
+    "extract": "\nBaron Jacobus von Washington was a lieutenant general in the Bavarian Army and a distant relative of US President George Washington. Born in The Hague, Netherlands, he was christened James Washington. Most of his adult life was shaped by his participation in wars for and against Napoleonic France and his service to Ludwig I of Bavaria.",
+    "url": "https://en.wikipedia.org/wiki/Jakob_von_Washington"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 347.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 3223,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1536,
+      "output_tokens": 2328,
+      "thinking_tokens": 2017,
+      "cost_usd": 0.00291848265,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 1864,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1536,
+      "output_tokens": 12114,
+      "thinking_tokens": 11290,
+      "cost_usd": 0.0096527394,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 158,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 839,
+        "thinking_tokens": 740,
+        "cost_usd": 0.0006797314,
+        "duration_ms": 18950
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 277,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 384,
+        "output_tokens": 1009,
+        "thinking_tokens": 931,
+        "cost_usd": 0.00084988185,
+        "duration_ms": 17858
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 708,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 229,
+        "thinking_tokens": 174,
+        "cost_usd": 0.0004319989,
+        "duration_ms": 9381
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 614,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 640,
+        "output_tokens": 148,
+        "thinking_tokens": 104,
+        "cost_usd": 0.0003386485,
+        "duration_ms": 3881
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 1466,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 103,
+        "thinking_tokens": 68,
+        "cost_usd": 0.000618222,
+        "duration_ms": 2782
+      }
+    ],
+    "guesser": [
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 263,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 346,
+        "thinking_tokens": 217,
+        "cost_usd": 0.00035311125,
+        "duration_ms": 13552
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 176,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 974,
+        "thinking_tokens": 768,
+        "cost_usd": 0.0007862194,
+        "duration_ms": 34426
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 308,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 384,
+        "output_tokens": 1333,
+        "thinking_tokens": 1171,
+        "cost_usd": 0.0011009421,
+        "duration_ms": 47130
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 909,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4380,
+        "thinking_tokens": 4231,
+        "cost_usd": 0.00357511275,
+        "duration_ms": 91142
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 208,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 896,
+        "output_tokens": 5081,
+        "thinking_tokens": 4903,
+        "cost_usd": 0.0038373539,
+        "duration_ms": 108448
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Looking at this article, I need to convey:\n- The name \"Washington\" (George Washington connection)\n- German/Bavarian nobility (\"von\")\n- Military general\n- Napoleonic era\n\nKey insight: the $1 bill 💵 is the most iconic George Washington symbol. \"Von\" = German nobility 👑. Bavaria = Germany 🇩🇪.\n\n<msg>\n🇩🇪 🎖️ 👑 👪 💵\n</msg>",
+      "delivered": "🇩🇪 🎖️ 👑 👪 💵",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Thanks for the emojis! My reading so far: **German + military/decoration + royalty/nobility + family + wealth/money**.\n\nA couple of quick questions to narrow it down:\n\n1. Is the article about a **person** (an individual) rather than a family/dynasty or a place?\n2. If a family/dynasty — is it a **noble/princely German family** known for great wealth (e.g., Thurn and Taxis, Fugger)?\n\nAny extra emoji hint on the century or the field (banking, land ownership, military command?) would help too!",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "I need to correct the guesser's direction - it's a person, not a family, and the 💵 is meant to hint at the name \"Washington\" (his face is on the dollar), not wealth. Let me clarify.\n\n<msg>\n👤 🎖️ 🇩🇪 ⚔️ 🇫🇷 👪 💵\n</msg>",
+      "delivered": "👤 🎖️ 🇩🇪 ⚔️ 🇫🇷 👪 💵",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Good, this narrows it: a **German individual, career military (decorated), fought a war against France, with notable family + wealth**.\n\nA few quick clarifiers so I can name the right article title:\n\n1. **Which war against France?** Napoleonic Wars / Wars of Liberation (⚔️🇫🇷 early 1800s) — or the Franco-Prussian War (1870–71) — or an earlier one (Seven Years' War, etc.)?\n2. Is the person **Prussian**, or from another German state (Bavaria, Saxony, Austria...)?\n3. Is the 💵 about their own estate/family fortune (noble wealth), or something else (e.g. war reparations, being bought out, a ransom)?\n\nAlso, if it helps, is this person mainly notable as a **commander/general**, or as a **nobleman/scion of a wealthy family** who happened to serve?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n👤 🎖️ 🇺🇸 👤 💵 🇩🇪 🍺 🥨 ⚔️ 🇫🇷 🗓️ 1️⃣8️⃣\n</msg>",
+      "delivered": "👤 🎖️ 🇺🇸 👤 💵 🇩🇪 🍺 🥨 ⚔️ 🇫🇷 🗓️",
+      "dropped_chars": 4,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Interesting — now it looks like there's a strong **German-American (beer & pretzel) element**, plus a war with France and a specific date. My current mental picture: someone of German descent, military, from a wealthy family, connected to America and brewing/German-American culture, and a war involving France.\n\nTwo quick questions before I guess:\n\n1. Is the person **German-born but famous in the US** (e.g., German-American brewer/politician/general), or a **German noble in Europe** with ties to America?\n2. Is the \"war vs France\" the **Napoleonic Wars**, the **Franco-Prussian War (1870–71)**, or something else (even the American Revolution, where France was involved)?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>\n🇪🇺 👤 🎖️ 👑 🇩🇪 🍺 ⚔️ 🗓️ 🔗 🇺🇸 👤 💵\n</msg>",
+      "delivered": "🇪🇺 👤 🎖️ 👑 🇩🇪 🍺 ⚔️ 🗓️ 🔗 🇺🇸 👤 💵",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Getting a clearer picture: a **European German noble/royal with a military career**, linked (🔗) to **America** and **money**, with a beer/Bavarian flavor.\n\nBefore I commit to a title, three quick questions:\n\n1. Is the 🍺🥨 **literal** (the person is connected to a brewery / beer brand / brewing industry), or just \"German/Bavarian culture\"?\n2. What kind of **link to the US** (🇺🇸): emigration, a business/financial deal, a war (e.g., American Revolution), or marriage to an American?\n3. Is the 🗓️ a **year of a war battle**, or a birth/founding date?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>\n🍺 🍺 🇩🇪 🇺🇸 👤 💵 👤 👪 🎖️ 👑\n</msg>",
+      "delivered": "🍺 🍺 🇩🇪 🇺🇸 👤 💵 👤 👪 🎖️ 👑",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Now it feels like beer is literally central: a **German–American brewing story** — two people (👤💵👤) and a family, with military service and a royal/noble title in the mix.\n\nBefore I guess a title, one key disambiguation (reply with one option's number):\n\n**What is the article primarily about?**\n1. An **individual person** (e.g., a German-born brewer/\"beer baron\" in the US)\n2. A **family/dynasty** (brewing clan)\n3. A **company / brewery / brand**\n4. A **place or event** (e.g., a brewery town, a beer festival)\n\nAlso: is the 👑 an actual **noble/royal title** (Baron/Prince/Count/King), or a nickname like \"beer king/baron\"?",
+      "guess": null,
+      "correct": null
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 6,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

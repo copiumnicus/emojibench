@@ -1,0 +1,274 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Iron(III) sulfate",
+    "description": "Chemical compound",
+    "extract": "Iron(III) sulfate or ferric sulfate is a family of inorganic compounds with the formula Fe2(SO4)3(H2O)n. A variety of hydrates are known, including the most commonly encountered form of \"ferric sulfate\". Solutions are used in dyeing as a mordant and as a coagulant for industrial wastes. Solutions of ferric sulfate are also used in the processing of aluminum and steel.",
+    "url": "https://en.wikipedia.org/wiki/Iron(III)_sulfate"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 89.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 3049,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2295,
+      "output_tokens": 2188,
+      "thinking_tokens": 1875,
+      "cost_usd": 0.014432500000000001,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 2547,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 2003,
+      "thinking_tokens": 1900,
+      "cost_usd": 0.012562,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 522,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 12,
+      "thinking_tokens": 0,
+      "cost_usd": 5.8200000000000005e-05,
+      "calls": 3
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 812,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 877,
+        "thinking_tokens": 822,
+        "cost_usd": 0.005197,
+        "duration_ms": 17203
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 913,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 374,
+        "thinking_tokens": 313,
+        "cost_usd": 0.002783,
+        "duration_ms": 9124
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 1085,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 429,
+        "thinking_tokens": 332,
+        "cost_usd": 0.0035005,
+        "duration_ms": 10213
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 134,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1082,
+        "output_tokens": 306,
+        "thinking_tokens": 244,
+        "cost_usd": 0.00175085,
+        "duration_ms": 6742
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 105,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1213,
+        "output_tokens": 202,
+        "thinking_tokens": 164,
+        "cost_usd": 0.00120115,
+        "duration_ms": 4894
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 312,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 106,
+        "thinking_tokens": 70,
+        "cost_usd": 0.000842,
+        "duration_ms": 3277
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 407,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 178,
+        "thinking_tokens": 166,
+        "cost_usd": 0.001297,
+        "duration_ms": 4849
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 529,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 202,
+        "thinking_tokens": 191,
+        "cost_usd": 0.001539,
+        "duration_ms": 4358
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 615,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 516,
+        "thinking_tokens": 486,
+        "cost_usd": 0.003195,
+        "duration_ms": 8995
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 684,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 1001,
+        "thinking_tokens": 987,
+        "cost_usd": 0.005689,
+        "duration_ms": 17218
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 173,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.93e-05,
+        "duration_ms": 845
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 172,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.92e-05,
+        "duration_ms": 925
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 177,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.97e-05,
+        "duration_ms": 982
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🥼 ⚙️ ◼️◼️◼️ 🧼\n\n⚙️ ⚙️ 🧼 🧼 🧼\n\n🌊 🖌️ 🧶</msg>",
+      "delivered": "🥼 ⚙️ ◼️◼️◼️ 🧼\n⚙️ ⚙️ 🧼 🧼 🧼\n🌊 🖌️ 🧶",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is this article about a person, a place, or a thing? What do the black squares represent? Do the emojis describe manufacturing or cleaning textiles?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>📦\n\n🥼 🔎 ⚙️ 🧼\n\n⚙️ 🗡️ 🏰\n\n⚙️ ◼️◼️◼️\n\n🧼 🧴 🚿 🧶</msg>",
+      "delivered": "📦\n🥼 🔎 ⚙️ 🧼\n⚙️ 🗡️ 🏰\n⚙️ ◼️◼️◼️\n🧼 🚿 🧶",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🧴"
+      ],
+      "retried": false,
+      "guesser": "GUESS: Fulling mill",
+      "guess": "Fulling mill",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>❌ 🏠 🧶\n\n🥼 📦 ⚙️ 🧼\n\n⚙️ 🗡️ 🏰\n\n⚙️ ⚙️\n\n🧼 🌪️ 🌪️ 🌪️ 🌪️\n\n🧼 🌪️ 🌪️ 🌪️ 🌪️\n\n🧼 🌪️ 🌪️ 🌪️ 🌪️</msg>",
+      "delivered": "❌ 🏠 🧶\n🥼 📦 ⚙️ 🧼\n⚙️ 🗡️ 🏰\n⚙️ ⚙️\n🧼 🌪️ 🌪️ 🌪️ 🌪️\n🧼 🌪️ 🌪️ 🌪️ 🌪️\n🧼 🌪️ 🌪️ 🌪️ 🌪️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Washing machine",
+      "guess": "Washing machine",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🗣️ 🧩\n\n👁️ 🏃\n\n👻 🎲\n\n👁️ 🏃 ◼️◼️◼️ 👻 🎲\n\n🥼 🧑‍🎓 📖</msg>",
+      "delivered": "🗣️ 🧩\n👁️ 🏃\n👻 🎲\n👁️ 🏃 ◼️◼️◼️ 👻 🎲\n🥼 🧑‍🎓 📖",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is the name pronounced like “iron” followed by “ghost dice”? Can you spell it out in smaller sound chunks?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>👁️ 🏃\n\n◼️ ◼️ ◼️\n\n🏄 🔮\n\n🥼 📖</msg>",
+      "delivered": "👁️ 🏃\n◼️ ◼️ ◼️\n🏄 🔮\n🥼 📖",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Erwin Schrödinger",
+      "guess": "Erwin Schrödinger",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 2,
+    "round": 7,
+    "n_banned": 121,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

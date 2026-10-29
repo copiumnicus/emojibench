@@ -1,0 +1,174 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "UFC BJJ 2",
+    "description": "Martial arts event in 2025",
+    "extract": "UFC BJJ 2: Tackett vs. Canuto was a submission grappling event produced by UFC Brazilian Jiu-Jitsu. The event was held at the UFC Apex in Las Vegas, Nevada, United States, on July 31, 2025 and was streamed live on YouTube.",
+    "url": "https://en.wikipedia.org/wiki/UFC_BJJ_2"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 51.8,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2390,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1381,
+      "thinking_tokens": 1094,
+      "cost_usd": 0.009295000000000001,
+      "calls": 3
+    },
+    "guesser": {
+      "input_tokens": 1536,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1086,
+      "thinking_tokens": 937,
+      "cost_usd": 0.006966,
+      "calls": 3
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 625,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 739,
+        "thinking_tokens": 651,
+        "cost_usd": 0.00432,
+        "duration_ms": 18085
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 807,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 344,
+        "thinking_tokens": 247,
+        "cost_usd": 0.002527,
+        "duration_ms": 7359
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 958,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 298,
+        "thinking_tokens": 196,
+        "cost_usd": 0.002448,
+        "duration_ms": 6249
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 344,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 581,
+        "thinking_tokens": 490,
+        "cost_usd": 0.003249,
+        "duration_ms": 9513
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 525,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 307,
+        "thinking_tokens": 263,
+        "cost_usd": 0.00206,
+        "duration_ms": 6779
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 667,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 198,
+        "thinking_tokens": 184,
+        "cost_usd": 0.001657,
+        "duration_ms": 3846
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🥷🤜🤛🥷 🚧 🩸\n🥷🪢🥷 🫱🫲 🛌\n🌎 🇵🇹 ✝️🗿 🕺\n🍎 ⏭️ 🍎🍎\n🏜️ 🎡 💸 🦅\n🟥 📹 🌐\n</msg>",
+      "delivered": "🥷🤜🤛🥷 🚧 🩸\n🥷🪢🥷 🫱🫲 🛌\n🌎 🇵🇹 ✝️🗿 🕺\n🍎 ⏭️ 🍎🍎\n🏜️ 🎡 💸 🦅\n🟥 📹 🌐",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I think this may be a Brazilian martial artist or wrestler, with clues about Rio, New York, Las Vegas and YouTube. Is the article about a person? What do the apples mean?\n\nI think this may be a Brazilian martial artist or wrestler, with clues about Rio, New York, Las Vegas and YouTube.\n\nIs the article about a person? What do the apples mean?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n🚫 🧑\n🎪 🤜🤛 🥷🪢🥷\n👑 🤜🤛\n🌎 🗿 🚠 🥷🪢🥷\n🍎🍎 🟰 🕑\n🎪 🕐 ⏭️ 🎪 🕑\n🏜️ 🎡 💸\n🟥 📹 🌐\n</msg>",
+      "delivered": "🚫 🧑\n🎪 🤜🤛 🥷🪢🥷\n👑 🤜🤛\n🌎 🗿 🚠 🥷🪢🥷\n🍎🍎 🟰 🕑\n🎪 🕐 ⏭️ 🎪 🕑\n🏜️ 🎡 💸\n🟥 📹 🌐",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "A combat-sports event, specifically the second edition, held in Las Vegas and shown online? What kind of fighting, and can you spell or sound out the event’s title in emojis?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n🪢 🥷🤜🤛🥷 🛌 🫳🫴 🔒\n🗿 🚠 🌎\n\n🗣️ 🚫\n👂 🎶\n🫵 🤬 🌊\n🐝 🐦 🐦\n🕑\n\n🏁 🤜🤛 👑\n🌎 🗿 🪢 🥷\n🕑\n</msg>",
+      "delivered": "🪢 🥷🤜🤛🥷 🛌 🫳🫴 🔒\n🗿 🚠 🌎\n🚫\n👂 🎶\n🫵 🤬 🌊\n🐝 🐦 🐦\n🕑\n🏁 🤜🤛 👑\n🌎 🗿 🪢 🥷\n🕑",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🗣️"
+      ],
+      "retried": false,
+      "guesser": "GUESS: UFC BJJ 2",
+      "guess": "UFC BJJ 2",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 5,
+    "round": 2,
+    "n_banned": 61,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

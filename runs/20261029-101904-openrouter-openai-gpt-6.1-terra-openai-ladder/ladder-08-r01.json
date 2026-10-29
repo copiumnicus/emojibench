@@ -1,0 +1,239 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Richmond Hill South",
+    "description": "Federal electoral district in Ontario, Canada",
+    "extract": "Richmond Hill South is a federal electoral district in Ontario, Canada, that has been represented in the House of Commons of Canada since 2004.",
+    "url": "https://en.wikipedia.org/wiki/Richmond_Hill_South"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 43.4,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2379,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1007,
+      "thinking_tokens": 752,
+      "cost_usd": 0.0074140000000000005,
+      "calls": 4
+    },
+    "guesser": {
+      "input_tokens": 1753,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 956,
+      "thinking_tokens": 872,
+      "cost_usd": 0.006533000000000001,
+      "calls": 4
+    },
+    "judge": {
+      "input_tokens": 555,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 123,
+      "thinking_tokens": 111,
+      "cost_usd": 0.000117,
+      "calls": 3
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 458,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 400,
+        "thinking_tokens": 359,
+        "cost_usd": 0.002458,
+        "duration_ms": 7663
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 533,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 249,
+        "thinking_tokens": 193,
+        "cost_usd": 0.001778,
+        "duration_ms": 4221
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 632,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 194,
+        "thinking_tokens": 115,
+        "cost_usd": 0.001602,
+        "duration_ms": 4912
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 756,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 164,
+        "thinking_tokens": 85,
+        "cost_usd": 0.001576,
+        "duration_ms": 3371
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 296,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 169,
+        "thinking_tokens": 145,
+        "cost_usd": 0.001141,
+        "duration_ms": 4517
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 373,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 247,
+        "thinking_tokens": 227,
+        "cost_usd": 0.001608,
+        "duration_ms": 5027
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 485,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 274,
+        "thinking_tokens": 251,
+        "cost_usd": 0.001855,
+        "duration_ms": 5043
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 599,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 266,
+        "thinking_tokens": 249,
+        "cost_usd": 0.001929,
+        "duration_ms": 5595
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 186,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.06e-05,
+        "duration_ms": 1041
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 180,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 115,
+        "thinking_tokens": 111,
+        "cost_usd": 7.55e-05,
+        "duration_ms": 1068
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 189,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.09e-05,
+        "duration_ms": 933
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🤑 🌄 🌄 🔻\n\n🦫 🏒 ❄️\n🏠 🗣️ 📜 ✅\n</msg>",
+      "delivered": "🤑 🌄 🌄 🔻\n🦫 🏒 ❄️\n🏠 🗣️ 📜 ✅",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is this a place, a person, or something else? What does each row represent?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n🗺️ 📍\n\n🤑 💎   🌄   🔻\n\n🦫 🏒 ❄️\n\n👥 ✍️ 📋   🏠 🗣️\n</msg>",
+      "delivered": "🗺️ 📍\n🤑 💎 🌄 🔻\n🦫 🏒 ❄️\n👥 ✍️ 📋 🏠 🗣️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Rich Valley, Alberta\n\nIs the place in Alberta?",
+      "guess": "Rich Valley, Alberta",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n🙅 ❌\n\n🦫 🏒 ❄️\n🗺️ 📍\n🗼 🦖 🏀 🌆\n↖️ 🤑 💎 🌄\n👇 🤑 💎 🌄\n\n👥 ✍️ 📋 🏠 🗣️\n</msg>",
+      "delivered": "🙅 ❌\n🦫 🏒 ❄️\n🗺️ 📍\n🗼 🦖 🏀 🌆\n↖️ 🤑 💎 🌄\n👇 🤑 💎 🌄\n👥 ✍️ 📋 🏠 🗣️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: South Richvale\n\nIs the article about a neighbourhood in Richmond Hill?",
+      "guess": "South Richvale",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>\n✅ 🤑💎 🌄\n✅ 🔻\n❌ 🏘️\n\n🗺️ ✂️ 📍\n👥 📝 ✅ 🧑‍💼\n🧑‍💼 ➡️ 🦫 🏒 ❄️ 🏠 🗣️\n</msg>",
+      "delivered": "✅ 🤑💎 🌄\n✅ 🔻\n❌ 🏘️\n🗺️ ✂️ 📍\n👥 📝 ✅ 🧑‍💼\n🧑‍💼 ➡️ 🦫 🏒 ❄️ 🏠 🗣️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Richmond Hill South (electoral district)",
+      "guess": "Richmond Hill South (electoral district)",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 8,
+    "round": 1,
+    "n_banned": 13,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

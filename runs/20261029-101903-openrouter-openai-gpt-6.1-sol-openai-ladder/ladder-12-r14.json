@@ -1,0 +1,265 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Dora Akunyili",
+    "description": "Nigerian pharmacist and government official (1954–2014)",
+    "extract": "Dora Nkem Akunyili was a Nigerian pharmacist and politician who served as the director-general of National Agency for Food and Drug Administration and Control (NAFDAC) of Nigeria from 2001 to 2008.",
+    "url": "https://en.wikipedia.org/wiki/Dora_Akunyili"
+  },
+  "solved": true,
+  "turns_taken": 5,
+  "solved_turn": 5,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 173.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2158,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 6272,
+      "output_tokens": 3258,
+      "thinking_tokens": 2906,
+      "cost_usd": 0.0385947,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 2801,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1346,
+      "thinking_tokens": 1100,
+      "cost_usd": 0.019062000000000003,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 187,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 2.07e-05,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1253,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 963,
+        "thinking_tokens": 906,
+        "cost_usd": 0.012761,
+        "duration_ms": 33104
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 206,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1250,
+        "output_tokens": 551,
+        "thinking_tokens": 485,
+        "cost_usd": 0.0061485,
+        "duration_ms": 21501
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 205,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1453,
+        "output_tokens": 567,
+        "thinking_tokens": 483,
+        "cost_usd": 0.0063263,
+        "duration_ms": 21230
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 262,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1655,
+        "output_tokens": 593,
+        "thinking_tokens": 516,
+        "cost_usd": 0.006749,
+        "duration_ms": 23343
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 232,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1914,
+        "output_tokens": 584,
+        "thinking_tokens": 516,
+        "cost_usd": 0.0066099,
+        "duration_ms": 20634
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 304,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 226,
+        "thinking_tokens": 151,
+        "cost_usd": 0.002868,
+        "duration_ms": 8136
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 436,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 270,
+        "thinking_tokens": 224,
+        "cost_usd": 0.003572,
+        "duration_ms": 10471
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 563,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 366,
+        "thinking_tokens": 300,
+        "cost_usd": 0.004786,
+        "duration_ms": 14485
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 687,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 370,
+        "thinking_tokens": 324,
+        "cost_usd": 0.005074,
+        "duration_ms": 15161
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 811,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 114,
+        "thinking_tokens": 101,
+        "cost_usd": 0.002762,
+        "duration_ms": 4678
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 187,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.07e-05,
+        "duration_ms": 924
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>👱‍♀️ 👩‍🎓\n🏴 🐢 ◽ 🐢\n🍛 🩽 🏷️ 🧐 👿 ⛓️\n👩‍💼</msg>",
+      "delivered": "👱‍♀️ 👩‍🎓\n🏴 🐢 ◽ 🐢\n🍛 🏷️ 🧐 👿 ⛓️",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "👩‍💼"
+      ],
+      "retried": false,
+      "guesser": "Is this a woman academic associated with race, racism, or slavery? Does 🍛 represent her name (“Curry”), or a topic such as food?\n\nIs this a woman academic associated with race, racism, or slavery? Does 🍛 represent her name (“Curry”), or a topic such as food?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👋 ⛓️ 👋\n🍛 🤝\n👱‍♀️ 🏷️ 🧐 🍕 🍣 🍶\n🌍\n🐢 ◽ 🐢\n🔦 🏔️ 👱‍♀️</msg>",
+      "delivered": "👋 ⛓️ 👋\n🍛 🤝\n👱‍♀️ 🏷️ 🧐 🍕 🍣 🍶\n🐢 ◽ 🐢\n🔦 🏔️ 👱‍♀️",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🌍"
+      ],
+      "retried": false,
+      "guesser": "Is 🍛 a clue to the woman’s name (Rice or Curry), or does she study food? Is ⛓️ about slavery and abolition? Please indicate her country and field of study.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🙅 ⛓️\n🍛 🍣 🍜 🧐\n👱‍♀️ 🚬 🍷 🧐\n🇿🇦 ⬆️⬆️ 🇨🇮 ▶️\n🐊 ◽ 🐊\n👱‍♀️ 🏷️ 🎭 🛒 ⛓️</msg>",
+      "delivered": "⛓️\n🍛 🍣 🍜 🧐\n👱‍♀️ 🚬 🍷 🧐\n🇿🇦 ⬆️⬆️ 🇨🇮 ▶️\n🐊 ◽ 🐊\n👱‍♀️ 🏷️ 🛒 ⛓️",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🙅",
+        "🎭"
+      ],
+      "retried": false,
+      "guesser": "I’m considering a female historian or anthropologist who studies food, tobacco, alcohol, and slavery—perhaps Judith Carney, Marcy Norton, or Jane Guyer. Is one of these close? Are the geographic clues Ghana and Zimbabwe? What does 🐊 ◽ 🐊 represent?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🙅‍♂️ 🙅‍♂️ 🙅‍♂️\n🐊 ◽ 🐊 🎨 🚩\n🇧🇫 ↘️↘️\n👱‍♀️ 💼\n🍜 🍶 🧐 🔏\n💊\n📢 💬 💼</msg>",
+      "delivered": "🐊 ◽ 🐊 🎨\n🇧🇫 ↘️↘️\n👱‍♀️ 💼\n🍜 🍶 🧐 🔏\n📢 💬 💼",
+      "dropped_chars": 5,
+      "off_keyboard": [
+        "🙅‍♂️",
+        "🙅‍♂️",
+        "🙅‍♂️",
+        "🚩",
+        "💊"
+      ],
+      "retried": false,
+      "guesser": "Is the country Ghana? Is she a scholar researching food and alcohol, or a businesswoman selling them? My strongest candidate is a Ghanaian historian of slavery.\n\nGUESS: Akosua Perbi",
+      "guess": "Akosua Perbi",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>👎🏻\n🇬🇶 ⬆️⬆️\n🥎 ◽ 🥎\n👱‍♀️ 💼\n🍜 🍶 🧐\n👿 🍶 ⛓️\n😇 🍶 🛒\n</msg>",
+      "delivered": "🇬🇶 ⬆️⬆️\n🥎 ◽ 🥎\n👱‍♀️ 💼\n🍜 🍶 🧐\n👿 🍶 ⛓️\n😇 🍶 🛒",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "👎🏻"
+      ],
+      "retried": false,
+      "guesser": "GUESS: Dora Akunyili",
+      "guess": "Dora Akunyili",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 12,
+    "round": 14,
+    "n_banned": 271,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

@@ -214,11 +214,11 @@ footer { padding: 32px 0 56px; font-size: 15px; color: var(--muted); }
   </ol>
   <div class="scroll">
     <table class="board">
-      <thead><tr><th>Model</th><th class="r">EMOJIBENCH</th><th class="r">Won–drawn–lost</th><th class="r">Rungs per article</th></tr></thead>
+      <thead><tr><th>Model</th><th class="r">EMOJIBENCH</th><th class="r">Won–drawn–lost</th><th class="r">Rungs per article</th><th class="r">Minutes per article</th></tr></thead>
       <tbody id="eb-board"></tbody>
     </table>
   </div>
-  <p class="muted" style="margin-top:10px">EMOJIBENCH is an Elo rating with Sonnet 5.5 fixed at 1000. On each article, the model that climbed more rungs wins the head-to-head, and equal rungs is a draw. Comparing within an article means hard articles don't drag anyone's score down. A 200-point gap means winning about 3 articles in 4.</p>
+  <p class="muted" style="margin-top:10px">EMOJIBENCH is an Elo rating with Sonnet 5.5 fixed at 1000. On each article, the model that climbed more rungs wins the head-to-head, and equal rungs is a draw. Comparing within an article means hard articles don't drag anyone's score down. A 200-point gap means winning about 3 articles in 4. Minutes per article is how long a model took to play its ladder on one article, rung after rung. It isn't part of the score, since it depends on the host as much as the model, but it shows what a score costs in waiting.</p>
 
   <h3 style="margin-top:26px">Every ladder</h3>
   <div class="scroll"><table class="grid" id="eb-grid"></table></div>
@@ -346,7 +346,8 @@ showPuzzle(0);
   const L = DATA.ladder;
   $("eb-board").innerHTML = L.board.map((b) =>
     `<tr><td>${esc(name(b.model))}</td><td class="r"><span class="elo">${Math.round(b.elo)}</span></td>` +
-    `<td class="r">${b.wdl.join("–")}</td><td class="r">${b.rungs.toFixed(2)}</td></tr>`).join("");
+    `<td class="r">${b.wdl.join("–")}</td><td class="r">${b.rungs.toFixed(2)}</td>` +
+    `<td class="r">${Math.round(b.minutes)}</td></tr>`).join("");
   const models = L.board.map((b) => b.model);
   const titles = DATA.articles.map((a) => a.title).filter((t) => L.grid[t]);
   const ends = { money: "", fail: "✗", cut: "⚠", cap: "🏁" };

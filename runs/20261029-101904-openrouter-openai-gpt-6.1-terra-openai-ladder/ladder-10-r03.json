@@ -1,0 +1,270 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Accord Pond",
+    "description": "Lake in Massachusetts, USA",
+    "extract": "Accord Pond is a 100-acre (0.40 km2) reservoir in Hingham, Norwell and Rockland, Massachusetts. The reservoir is located off Route 228 at its terminus with Route 3. The reservoir is visible from Route 3 northbound at Exit 14, the Route 228 off-ramp. The reservoir is a Class A source of water supply for the town of Hingham and Hull Ma. The outflow of the reservoir is Accord Brook, a tributary of the Weir River.",
+    "url": "https://en.wikipedia.org/wiki/Accord_Pond"
+  },
+  "solved": true,
+  "turns_taken": 5,
+  "solved_turn": 5,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 80.3,
+  "usage": {
+    "explainer": {
+      "input_tokens": 3827,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1132,
+      "output_tokens": 1570,
+      "thinking_tokens": 1163,
+      "cost_usd": 0.012089599999999999,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 2681,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 2288,
+      "thinking_tokens": 2134,
+      "cost_usd": 0.014121,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 364,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 4.04e-05,
+      "calls": 2
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 697,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 478,
+        "thinking_tokens": 425,
+        "cost_usd": 0.003087,
+        "duration_ms": 10044
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 785,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 213,
+        "thinking_tokens": 150,
+        "cost_usd": 0.00185,
+        "duration_ms": 4977
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 915,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 313,
+        "thinking_tokens": 227,
+        "cost_usd": 0.00248,
+        "duration_ms": 6921
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 1135,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 286,
+        "thinking_tokens": 175,
+        "cost_usd": 0.002848,
+        "duration_ms": 6948
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 295,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1132,
+        "output_tokens": 280,
+        "thinking_tokens": 186,
+        "cost_usd": 0.0018246,
+        "duration_ms": 6311
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 307,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 121,
+        "thinking_tokens": 96,
+        "cost_usd": 0.000912,
+        "duration_ms": 3376
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 394,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 541,
+        "thinking_tokens": 499,
+        "cost_usd": 0.003099,
+        "duration_ms": 8543
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 529,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 728,
+        "thinking_tokens": 703,
+        "cost_usd": 0.004169,
+        "duration_ms": 13439
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 658,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 354,
+        "thinking_tokens": 320,
+        "cost_usd": 0.002428,
+        "duration_ms": 8241
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 793,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 544,
+        "thinking_tokens": 516,
+        "cost_usd": 0.003513,
+        "duration_ms": 9767
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 186,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.06e-05,
+        "duration_ms": 894
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 178,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.98e-05,
+        "duration_ms": 882
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>📄 ✍️ ✔️  🚙 🏍️\n\n🌾 🦢 🏊 🌾\n\n🏃 🏁  ☕ 🛥️ 🫗</msg>",
+      "delivered": "📄 ✍️ ✔️ 🚙 🏍️\n🌾 🦢 🏊 🌾\n🏃 🏁 ☕ 🛥️ 🫗",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is this a person, place, event, or something else? What does each line represent?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>📌 🌾 🦢 🏊 🌾\n\n📄 ✍️ ✔️  🚙\n\n⛪ 🦷 🪑\n⛴️ ☕ 🗑️  🏃 🏁</msg>",
+      "delivered": "📌 🌾 🦢 🏊 🌾\n📄 ✍️ ✔️ 🚙\n⛪ 🦷 🪑\n⛴️ ☕ 🗑️ 🏃 🏁",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Does the second line refer to the Driver and Vehicle Licensing Agency, based in Swansea? What do the church, tooth, and chair mean?\n\nGUESS: Driver and Vehicle Licensing Agency",
+      "guess": "Driver and Vehicle Licensing Agency",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🚫 🧑  🚫 🏢\n✔️ 📌\n\n🟦🟦🟦\n🌾 🦢 🟦 🌾\n\n📄 ✍️ ✔️  🟰 🚙 🗻 🌸\n📌 🦅 🏃 🏁 ☕ ⛴️</msg>",
+      "delivered": "🚫 🚫 🏢\n✔️ 📌\n🟦🟦🟦\n🌾 🦢 🟦 🌾\n📄 ✍️ ✔️ 🚙 🗻 🌸\n📌 🦅 🏃 🏁 ☕ ⛴️",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🧑",
+        "🟰"
+      ],
+      "retried": false,
+      "guesser": "Is this a lake in Japan, near Mount Fuji? What do the car and document signify?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🚫 🗻 🌸\n✔️ 🦅 🗽\n\n📌 🌾 🟦🟦🟦 🌾\n🟦 🦢 🏊 🟦\n\n📛 🚫\n📄 ✍️ ✔️  🚙 🇯🇵\n➖\n🟦 🦢 🟦\n\n📌 ☕ 🍃 ⛴️ 🫗  🏃 🏁</msg>",
+      "delivered": "🚫 🗻 🌸\n✔️ 🦅 🗽\n📌 🌾 🟦🟦🟦 🌾\n🟦 🦢 🏊 🟦\n🚫\n📄 ✍️ ✔️ 🚙\n➖\n🟦 🦢 🟦\n📌 ☕ 🍃 ⛴️ 🫗 🏃 🏁",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "📛",
+        "🇯🇵"
+      ],
+      "retried": false,
+      "guesser": "The location clues suggest Boston: the Tea Party and the marathon. Is this the pond in Boston Public Garden?\n\nGUESS: Boston Public Garden",
+      "guess": "Boston Public Garden",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>✔️ 📌 ☕ 🍃 ⛴️ 🏃 🏁\n📌 ⬇️ 🏙️\n\n🟦🟦🟦 🌾\n🟦 🦢 🟦 🌾\n\n📄 ✍️ 👥 ✔️\n🚙 🏢 🌸 🗼\n🪢 🎸 👂</msg>",
+      "delivered": "✔️ 📌 ☕ 🍃 ⛴️ 🏃 🏁\n📌 ⬇️\n🟦🟦🟦 🌾\n🟦 🦢 🟦 🌾\n📄 ✍️ 👥 ✔️\n🚙 🏢 🌸 🗼\n🪢 👂",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🏙️",
+        "🎸"
+      ],
+      "retried": false,
+      "guesser": "Is it Lake Accord, south of Boston, sharing its name with the Honda Accord?\n\nGUESS: Accord Pond",
+      "guess": "Accord Pond",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 10,
+    "round": 3,
+    "n_banned": 76,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

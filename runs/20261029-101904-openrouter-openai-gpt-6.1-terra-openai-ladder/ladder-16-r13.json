@@ -1,0 +1,248 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Grande Seca",
+    "description": "Brazilian drought (1877–1878)",
+    "extract": "The Grande Seca, or the Brazilian drought of 1877–1878, was the largest and most devastating drought in Brazilian history. It caused the deaths of between 400,000 and 500,000 people. Of the 800,000 people who lived in the affected Northeastern region, around 120,000 migrated to the Amazon while 68,000 migrated to other parts of Brazil.",
+    "url": "https://en.wikipedia.org/wiki/Grande_Seca"
+  },
+  "solved": true,
+  "turns_taken": 5,
+  "solved_turn": 5,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 148.2,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2129,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 6316,
+      "output_tokens": 4059,
+      "thinking_tokens": 3579,
+      "cost_usd": 0.0232683,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 2835,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4569,
+      "thinking_tokens": 4371,
+      "cost_usd": 0.025679999999999998,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 1373,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 1626,
+        "thinking_tokens": 1548,
+        "cost_usd": 0.0098455,
+        "duration_ms": 30586
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 116,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1370,
+        "output_tokens": 724,
+        "thinking_tokens": 660,
+        "cost_usd": 0.00383275,
+        "duration_ms": 14401
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 123,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1483,
+        "output_tokens": 697,
+        "thinking_tokens": 603,
+        "cost_usd": 0.00371215,
+        "duration_ms": 14985
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 260,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1603,
+        "output_tokens": 607,
+        "thinking_tokens": 516,
+        "cost_usd": 0.0034394,
+        "duration_ms": 12733
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 257,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1860,
+        "output_tokens": 405,
+        "thinking_tokens": 252,
+        "cost_usd": 0.0024385,
+        "duration_ms": 6563
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 329,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 1014,
+        "thinking_tokens": 989,
+        "cost_usd": 0.005399,
+        "duration_ms": 16003
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 414,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 396,
+        "thinking_tokens": 350,
+        "cost_usd": 0.002394,
+        "duration_ms": 7194
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 547,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 1379,
+        "thinking_tokens": 1333,
+        "cost_usd": 0.007442,
+        "duration_ms": 20778
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 680,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 1083,
+        "thinking_tokens": 1034,
+        "cost_usd": 0.006095,
+        "duration_ms": 16176
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 865,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 697,
+        "thinking_tokens": 665,
+        "cost_usd": 0.00435,
+        "duration_ms": 8802
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🥦🌻🟦  🪩🎸\n👵📻\n🚷🍼  🚷🫖  💨\n😓😮‍💨  🚷🍗  😿😿😿\n🚌 🐈‍⬛🐢🍄\n</msg>",
+      "delivered": "🥦🌻🟦 🪩🎸\n👵📻\n🚷🍼 🚷🫖 💨\n😓😮‍💨 🚷🍗 😿😿😿\n🚌 🐈‍⬛🐢🍄",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is the article about a Brazilian song or rock band? What do the last four emojis represent?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n🚷🎸\n🤷\n\n🇺🇸 🔻 🥦🌻🟦\n🤠👵  🏊🚷  🌷🚷  🐑😿  😿😿😿\n</msg>",
+      "delivered": "🚷🎸\n🤷\n🇺🇸 🔻 🥦🌻🟦\n🤠👵 🏊🚷 🌷🚷 🐑😿 😿😿😿",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I think 🥦🌻🟦 means bluegrass. Is this a sad bluegrass song sung by an older American woman? Can you spell out the title phonetically with emojis?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n🚷🎸 🚷🎤\n🇺🇸 👇 🇲🇽 👇 🥦🌻🟦\n\n🌀 🚷🫖\n🚷🥛 🚷🍗\n😿😿😿 🪰🪰🪰\n\n👧🎤👸🫧  ➕  🐚🐈\n</msg>",
+      "delivered": "🚷🎸 🚷🎤\n🇺🇸 👇 🇲🇽 👇 🥦🌻🟦\n🌀 🚷🫖\n🚷 🚷🍗\n😿😿😿 🪰🪰🪰\n👧🎤👸 ➕ 🐚🐈",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🥛",
+        "🫧"
+      ],
+      "retried": false,
+      "guesser": "Country music, not bluegrass? Is 🌀🚷🫖 Conway Twitty? And is 👧🎤👸 Loretta Lynn? What does 🐚🐈 mean?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>\n🚷🎸 🚷🎤 🚷🎼\n🇺🇸 👇 🇲🇽 👇 🇵🇦 👇 🧱💤\n\n👵👵👵\n🚷🏊 🚷🌷 🚷🍗\n😿😿😿 ⚱️\n\n📢 🏢  🐚🐈\n</msg>",
+      "delivered": "🚷🎸 🚷🎤 🚷🎼\n🇺🇸 👇 🇲🇽 👇 🇵🇦 👇 🧱💤\n👵👵👵\n🚷🏊 🚷🌷 🚷🍗\n😿😿😿\n📢 🏢 🐚🐈",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "⚱️"
+      ],
+      "retried": false,
+      "guesser": "I think this is a Brazilian drought or famine: no water, no plants, no food, and widespread suffering. Is that right? What do 👵👵👵 and 🐚🐈 mean?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>\n🤝 🇧🇷 🚷🏊 🚷🍗 😿😿😿\n\n👵👵👵 🟰 🕰️\n🐚🐈 🟰 📢 🐚🐈\n\n🏢 🚷🏊\n👵🦌 🐚🐈\n\n🟣  🟣🟣🟣🟣🟣🟣🟣🟣  🟣🟣🟣🟣🟣🟣🟣  🟣🟣🟣🟣🟣🟣🟣\n</msg>",
+      "delivered": "🤝 🚷🏊 🚷🍗 😿😿😿\n👵👵👵\n🐚🐈 📢 🐚🐈\n🏢 🚷🏊\n👵🦌 🐚🐈\n🟣 🟣🟣🟣🟣🟣🟣🟣🟣 🟣🟣🟣🟣🟣🟣🟣 🟣🟣🟣🟣🟣🟣🟣",
+      "dropped_chars": 4,
+      "off_keyboard": [
+        "🇧🇷",
+        "🟰",
+        "🕰️",
+        "🟰"
+      ],
+      "retried": false,
+      "guesser": "🐚🐈 = “seca,” and 👵🦌 = “grande”!\n\nGUESS: Grande Seca",
+      "guess": "Grande Seca",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 16,
+    "round": 13,
+    "n_banned": 323,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

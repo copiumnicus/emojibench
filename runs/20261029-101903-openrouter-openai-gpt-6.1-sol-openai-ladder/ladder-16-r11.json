@@ -1,0 +1,262 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Grande Seca",
+    "description": "Brazilian drought (1877–1878)",
+    "extract": "The Grande Seca, or the Brazilian drought of 1877–1878, was the largest and most devastating drought in Brazilian history. It caused the deaths of between 400,000 and 500,000 people. Of the 800,000 people who lived in the affected Northeastern region, around 120,000 migrated to the Amazon while 68,000 migrated to other parts of Brazil.",
+    "url": "https://en.wikipedia.org/wiki/Grande_Seca"
+  },
+  "solved": true,
+  "turns_taken": 5,
+  "solved_turn": 5,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 161.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 906,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 6788,
+      "output_tokens": 2217,
+      "thinking_tokens": 1822,
+      "cost_usd": 0.025106299999999998,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 2851,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1648,
+      "thinking_tokens": 1408,
+      "cost_usd": 0.022182,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 176,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 1.96e-05,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 3,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1100,
+        "output_tokens": 581,
+        "thinking_tokens": 516,
+        "cost_usd": 0.005926,
+        "duration_ms": 23601
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 222,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1100,
+        "output_tokens": 518,
+        "thinking_tokens": 453,
+        "cost_usd": 0.0058435,
+        "duration_ms": 19767
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 201,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1319,
+        "output_tokens": 433,
+        "thinking_tokens": 353,
+        "cost_usd": 0.0049629,
+        "duration_ms": 18077
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 238,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1517,
+        "output_tokens": 417,
+        "thinking_tokens": 327,
+        "cost_usd": 0.0049152,
+        "duration_ms": 15981
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 242,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1752,
+        "output_tokens": 268,
+        "thinking_tokens": 173,
+        "cost_usd": 0.0034587,
+        "duration_ms": 10214
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 321,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 409,
+        "thinking_tokens": 341,
+        "cost_usd": 0.004732,
+        "duration_ms": 14442
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 448,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 146,
+        "thinking_tokens": 108,
+        "cost_usd": 0.002356,
+        "duration_ms": 6536
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 561,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 543,
+        "thinking_tokens": 498,
+        "cost_usd": 0.006552,
+        "duration_ms": 18033
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 690,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 331,
+        "thinking_tokens": 291,
+        "cost_usd": 0.00469,
+        "duration_ms": 12929
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 831,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 219,
+        "thinking_tokens": 170,
+        "cost_usd": 0.003852,
+        "duration_ms": 8105
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 176,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.96e-05,
+        "duration_ms": 863
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "🦶🏅🏅🏅🏅🏅 🌲🐊🐬\n🔆🔆🔆 🫙 🪴🍁 🆘\n🧑‍🧑‍🧒‍🧒 ⚕️ 🪦",
+      "delivered": "🦶🏅🏅🏅🏅🏅 🌲🐊🐬\n🔆🔆🔆 🫙 🪴🍁\n🧑‍🧑‍🧒‍🧒 ⚕️",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🪦"
+      ],
+      "retried": false,
+      "guesser": "Is this an American football player, associated with the Florida Gators and Miami Dolphins? Does ⚕️ mean he later became a doctor?\n\nIs this an American football player associated with the Florida Gators and Miami Dolphins? Does ⚕️ mean he later became a doctor?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "🏈 🚷 🚷\n🔆🔆🔆 🌧️🚷 🫙 🪴🍁 🧑‍🌾 😔 🍛🚷\n🌍 🇦🇴 🇲🇿 🗨️ 🏐🚷",
+      "delivered": "🏈 🚷 🚷\n🔆🔆🔆 🚷 🫙 🪴🍁 🧑‍🌾 😔 🍛🚷\n🌍 🇦🇴 🇲🇿 🗨️ 🚷",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🌧️",
+        "🏐"
+      ],
+      "retried": false,
+      "guesser": "Is the article about a plant or tree used as food and medicine? Is it found in Africa, especially Angola and Mozambique? What do the five medals represent?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "🌍🚷 🌏\n🇦🇴🇲🇿 🗨️ 🟰 🗨️ 🌲🐊🐬\n🔆🔆🔆 💦🚷 🌧️🚷\n🫙 🧑‍🌾 🍛🚷 🏥 🤕\n🕰️ 📜",
+      "delivered": "🌍🚷 🌏\n🇦🇴🇲🇿 🗨️ 🟰 🗨️ 🌲🐊🐬\n🔆🔆🔆 🚷 🚷\n🫙 🧑‍🌾 🍛🚷 🏥 🤕",
+      "dropped_chars": 4,
+      "off_keyboard": [
+        "💦",
+        "🌧️",
+        "🕰️",
+        "📜"
+      ],
+      "retried": false,
+      "guesser": "So: an Asian plant, cultivated but not eaten, with medicinal uses? Are 🌲🐊🐬 clues to its common names in Portuguese? Can you show its flowers or leaf shape?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "🪴 🚷\n🧑‍⚕️ 🚷\n🏈 🚷\n🆘 🆘 🆘\n🔆🔆🔆 🫙 🐪 🍁 😔\n🇨🇱 🌐 🗨️🇦🇴🇲🇿\n🎸 🥇🥇🥇🥇🥇 🦶",
+      "delivered": "🪴 🚷\n🧑‍⚕️ 🚷\n🏈 🚷\n🔆🔆🔆 🫙 🐪 🍁 😔\n🇨🇱 🗨️🇦🇴🇲🇿\n🎸 🥇🥇🥇🥇🥇 🦶",
+      "dropped_chars": 4,
+      "off_keyboard": [
+        "🌐"
+      ],
+      "retried": false,
+      "guesser": "Is this a musician or musical group? Does 🎸 mean rock music, and do the five medals mean five Grammy Awards? Are you indicating Portuguese-language music from Brazil?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "🗨️🇦🇴🇲🇿 🌲🐊🐬 ✔️\n🎸 🚷 🏈 🚷 🪴 🚷\n🔆🔆🔆🔆🔆\n☂️ 🚷 🫙 🫙 🫙\n🧑‍🌾 🍛🚷 🤕 🏥\n💔💔💔💔💔",
+      "delivered": "🗨️🇦🇴🇲🇿 🌲🐊🐬 ✔️\n🎸 🚷 🏈 🚷 🪴 🚷\n🔆🔆🔆🔆🔆\n☂️ 🚷 🫙 🫙 🫙\n🧑‍🌾 🍛🚷 🤕 🏥\n💔💔💔💔💔",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I understand the Portuguese-language clue means Brazil. Is the subject a drought or disaster in Brazil—intense sun, no rain, failed crops, hunger, disease, and many deaths?\n\nGUESS: Great Drought",
+      "guess": "Great Drought",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 16,
+    "round": 11,
+    "n_banned": 222,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

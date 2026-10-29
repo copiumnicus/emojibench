@@ -1,0 +1,268 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Philadelphia Commercial Museum",
+    "description": "Former museum in Pennsylvania, USA",
+    "extract": "The Philadelphia Commercial Museum was established in Philadelphia, Pennsylvania in 1895. Its permanent home was a neo-classical building situated at 34th Street and Civic Center Blvd, erected as part of the 1899 National Export Exposition. The museum had business offices at 332 South Fourth Street.",
+    "url": "https://en.wikipedia.org/wiki/Philadelphia_Commercial_Museum"
+  },
+  "solved": true,
+  "turns_taken": 5,
+  "solved_turn": 5,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 106.1,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2750,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 3994,
+      "output_tokens": 1647,
+      "thinking_tokens": 1197,
+      "cost_usd": 0.0232929,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 3166,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1278,
+      "thinking_tokens": 1010,
+      "cost_usd": 0.019112,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 374,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 4.1400000000000003e-05,
+      "calls": 2
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 891,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 580,
+        "thinking_tokens": 516,
+        "cost_usd": 0.007582,
+        "duration_ms": 21855
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1131,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 376,
+        "thinking_tokens": 306,
+        "cost_usd": 0.006586,
+        "duration_ms": 14134
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 224,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1128,
+        "output_tokens": 244,
+        "thinking_tokens": 159,
+        "cost_usd": 0.0031113,
+        "duration_ms": 8493
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 171,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1349,
+        "output_tokens": 255,
+        "thinking_tokens": 132,
+        "cost_usd": 0.0031109,
+        "duration_ms": 8320
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 333,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1517,
+        "output_tokens": 192,
+        "thinking_tokens": 84,
+        "cost_usd": 0.0029027,
+        "duration_ms": 5772
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 313,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 305,
+        "thinking_tokens": 211,
+        "cost_usd": 0.003676,
+        "duration_ms": 10049
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 468,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 246,
+        "thinking_tokens": 190,
+        "cost_usd": 0.003396,
+        "duration_ms": 9249
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 610,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 376,
+        "thinking_tokens": 315,
+        "cost_usd": 0.00498,
+        "duration_ms": 12306
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 804,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 291,
+        "thinking_tokens": 246,
+        "cost_usd": 0.004518,
+        "duration_ms": 10226
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 971,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 60,
+        "thinking_tokens": 48,
+        "cost_usd": 0.002542,
+        "duration_ms": 3902
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 188,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.08e-05,
+        "duration_ms": 956
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 186,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.06e-05,
+        "duration_ms": 876
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🟥⬜🟦 🛣️ 🍫\n🥓🧅🍞 🏀 🔴🔵\n🏟️ 🧑‍💼 💶 🔁 🛫\n🕰 🏺</msg>",
+      "delivered": "🟥⬜🟦 🛣️ 🍫\n🥓🧅🍞 🏀 🔴🔵\n🏟️ 🧑‍💼 💶 🔁 🛫",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🕰️",
+        "🏺"
+      ],
+      "retried": false,
+      "guesser": "Is this about Strasbourg/Alsace (the bacon–onion–bread suggesting tarte flambée), and specifically the red-and-blue basketball club SIG Strasbourg? Or is the article a player/coach associated with that club?\n\n\nIs the article SIG Strasbourg itself, or a player, coach, or executive associated with it? The bacon, onion, and bread suggest Alsatian tarte flambée to me.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>❎ 🇫🇷 ❎ 🏀\n🇨🇦 ⬇️\n🎬 👊 😤 🏆\n📺 👑 😎 🌬️\n🧑‍💼 💶 🔁 🏟️ 🏺</msg>",
+      "delivered": "❎ 🇫🇷 ❎ 🏀\n🇨🇦 ⬇️\n🎬 👊 😤 🏆\n📺 👑 😎 🌬️\n🧑‍💼 💶 🔁 🏟️",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🏺"
+      ],
+      "retried": false,
+      "guesser": "Do 🎬👊🏆 and 📺👑🌬️ point to Philadelphia (Rocky and The Fresh Prince)? Is the subject an American sports-team owner, perhaps a Philadelphia Eagles owner such as Leonard Tose or Norman Braman?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🎬👊🏆 📺👑🌬️ 👌\n🧑 ❎ 🏀 ❎\n🚪 🧑‍🏫 🪆 🪔 🗂️ 🧑‍🔬\n💶 💷 💴 🔁 🧑‍💼\n⏳ 🥀</msg>",
+      "delivered": "🎬👊🏆 📺👑🌬️ 👌\n🧑 ❎ 🏀 ❎\n🚪 🧑‍🏫 🪆 🪔 🗂️ 🧑‍🔬\n💶 💷 💴 🔁 🧑‍💼\n⏳ 🥀",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Philadelphia seems confirmed, and I understand it is neither a person nor basketball. Is it a former arena, such as the Spectrum, or a financial company that bought arena naming rights, such as CoreStates, First Union, or Wachovia?\n\nGUESS: Spectrum (arena)",
+      "guess": "Spectrum (arena)",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>❎ 🏟️ ❎ 🏀 ❎ 🏦\n🧑‍🏫 🪆 🪔 🐌 🐞 🪲 🗂️\n🇫🇷 🧑‍🎨 👩‍🎨 🧑‍🏫\n🇬🇧 🇪🇬 ⚰️ 🧑‍🏫\n🎬👊🏆 📺👑🌬️\n🧑‍💼 💶 💷 💴 🔁</msg>",
+      "delivered": "❎ 🏟️ ❎ 🏀 ❎\n🧑‍🏫 🪆 🪔 🐌 🐞 🪲 🗂️\n🇫🇷 🧑‍🎨 👩‍🎨 🧑‍🏫\n🇬🇧 🇪🇬 ⚰️ 🧑‍🏫\n🎬👊🏆 📺👑🌬️\n🧑‍💼 💶 💷 💴 🔁",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🏦"
+      ],
+      "retried": false,
+      "guesser": "Are you describing a museum selling items from its collection—deaccessioning—with examples involving French art, a British museum’s Egyptian antiquities, and Philadelphia?\n\nGUESS: Deaccessioning",
+      "guess": "Deaccessioning",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>🧑‍🏫🪆🪔🗂️ 👌\n🎬👊🏆 📺👑🌬️ 👌\n💶💷💴 🧑‍💼 🔁 ⛴️ 🛫\n⏳🥀\n🧩 🎬👊🏆 ➖ 🧑‍💼💶 ➖ 🧑‍🏫🪆🪔</msg>",
+      "delivered": "🧑‍🏫🪆🪔🗂️ 👌\n🎬👊🏆 📺👑🌬️ 👌\n💶💷💴 🧑‍💼 🔁 ⛴️ 🛫\n⏳🥀\n🧩 🎬👊🏆 ➖ 🧑‍💼💶 ➖ 🧑‍🏫🪆🪔",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Philadelphia Commercial Museum",
+      "guess": "Philadelphia Commercial Museum",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 14,
+    "round": 6,
+    "n_banned": 154,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

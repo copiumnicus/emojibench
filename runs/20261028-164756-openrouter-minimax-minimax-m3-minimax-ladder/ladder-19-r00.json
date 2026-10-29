@@ -1,0 +1,238 @@
+{
+  "model": "openrouter:minimax/minimax-m3@minimax",
+  "model_id": "minimax/minimax-m3",
+  "guesser_model": "openrouter:minimax/minimax-m3@minimax",
+  "guesser_model_id": "minimax/minimax-m3",
+  "effort": null,
+  "article": {
+    "title": "Sage Derby",
+    "description": "Variety of cheese",
+    "extract": "Sage Derby is a variety of Derby cheese that is mild, mottled green and semi-hard, and has a sage flavour. The colour is from sage and sometimes other colouring added to the curds, producing a marbling effect and a subtle herb flavour. The colour is formed either by mixing sage leaves into the curd before it is pressed or by the addition of \"green curd\" from green corn or spinach juice. In the latter case, the flavour has to be created with colourless sage extract. Parsley, spinach and marigold leaves, bruised and steeped before use, can also be included instead of the sage leaves. It is aged for one to three months.",
+    "url": "https://en.wikipedia.org/wiki/Sage_Derby"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 153.4,
+  "usage": {
+    "explainer": {
+      "input_tokens": 955,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 3329,
+      "output_tokens": 2400,
+      "thinking_tokens": 2305,
+      "cost_usd": 0.00336624,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 705,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2461,
+      "output_tokens": 12777,
+      "thinking_tokens": 12469,
+      "cost_usd": 0.01569156,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 511,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 128,
+        "output_tokens": 216,
+        "thinking_tokens": 198,
+        "cost_usd": 0.00042018,
+        "duration_ms": 2779
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 96,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 639,
+        "output_tokens": 238,
+        "thinking_tokens": 225,
+        "cost_usd": 0.00035274,
+        "duration_ms": 2608
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 112,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 735,
+        "output_tokens": 1920,
+        "thinking_tokens": 1882,
+        "cost_usd": 0.0023817,
+        "duration_ms": 19290
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 133,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 847,
+        "output_tokens": 15,
+        "thinking_tokens": 0,
+        "cost_usd": 0.00010872,
+        "duration_ms": 1026
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 103,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 980,
+        "output_tokens": 11,
+        "thinking_tokens": 0,
+        "cost_usd": 0.0001029,
+        "duration_ms": 651
+      }
+    ],
+    "guesser": [
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 305,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 128,
+        "output_tokens": 2045,
+        "thinking_tokens": 1984,
+        "cost_usd": 0.00255318,
+        "duration_ms": 17326
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 82,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 433,
+        "output_tokens": 903,
+        "thinking_tokens": 831,
+        "cost_usd": 0.00113418,
+        "duration_ms": 11060
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 127,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 515,
+        "output_tokens": 4566,
+        "thinking_tokens": 4504,
+        "cost_usd": 0.0055482,
+        "duration_ms": 38436
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 101,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 642,
+        "output_tokens": 5221,
+        "thinking_tokens": 5150,
+        "cost_usd": 0.00633402,
+        "duration_ms": 58742
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 90,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 743,
+        "output_tokens": 42,
+        "thinking_tokens": 0,
+        "cost_usd": 0.00012198,
+        "duration_ms": 1440
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🧀🌿🎩🏇</msg>",
+      "delivered": "🧀🌿🎩🏇",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Quick checks: Is the subject a 👤 person, 📍 place, 🎬 film/TV work, 📚 book, or 📰 other? Also, are all four clues represented literally in the title (✅) or only indirectly (❌)? Please answer in that order.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>📰 ❌</msg>",
+      "delivered": "📰 ❌",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "For 🧀🌿🎩🏇, please give the key linked word or proper name for each (e.g., cheese→cheddar, plant→parsley, hat→?, rider→?). Also, what kind of “other” is it—an animal, plant, company, sport, magazine, etc.?]<]minimax[>[<tool_call>\nG",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🧀➡️🎩 🌿➡️🌿 🎩➡️🎩 🏇➡️🎩 🧀</msg>",
+      "delivered": "🧀➡️🎩 🌿➡️🌿 🎩➡️🎩 🏇➡️🎩 🧀",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Please answer these four yes/no questions in order, using ✅ for yes and ❌ for no: (1) Is the article about headgear/hats? (2) About plants? (3) About cheese/dairy? (4) About horses or horse riding?]<]minimax[>[<tool_call>\n]<]minimax[>[",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>❌ ❌ ✅ ❌</msg>",
+      "delivered": "❌ ❌ ✅ ❌",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Which is closest to the article’s subject: 🐄 (cow), 🐄🧀 (dairy cow), 🥛 (milk), 🧀 (cheese), 🧈 (butter), or 🐄🐄 (cattle)? Please reply with the chosen option’s emoji(s) only.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>🧀</msg>",
+      "delivered": "🧀",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Does 🧀 mean the article is specifically about cheese (rather than milk, butter, or cattle)? Also, is it an English-language Wikipedia article? Reply with two ✅/❌ symbols.",
+      "guess": null,
+      "correct": null
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 19,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

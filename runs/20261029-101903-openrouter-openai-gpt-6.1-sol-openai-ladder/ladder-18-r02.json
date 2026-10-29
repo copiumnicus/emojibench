@@ -1,0 +1,219 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Motorchuna",
+    "description": "River in Yakutia (Sakha Republic), Russia",
+    "extract": "The Motorchuna is a river in Yakutia, Russia. It is a left tributary of the Lena with a length of 423 kilometres (263 mi). Its drainage basin area is 9,250 square kilometres (3,570 mi2). Since its river basin is uninhabited, the Motorchuna is one of the most untouched rivers in Yakutia; the waters are clean and there is abundant wildlife.",
+    "url": "https://en.wikipedia.org/wiki/Motorchuna"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 74.3,
+  "usage": {
+    "explainer": {
+      "input_tokens": 3487,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1024,
+      "thinking_tokens": 764,
+      "cost_usd": 0.017765,
+      "calls": 4
+    },
+    "guesser": {
+      "input_tokens": 2094,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 941,
+      "thinking_tokens": 726,
+      "cost_usd": 0.013598,
+      "calls": 4
+    },
+    "judge": {
+      "input_tokens": 181,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 2.01e-05,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 618,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 294,
+        "thinking_tokens": 250,
+        "cost_usd": 0.004176,
+        "duration_ms": 11446
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 776,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 256,
+        "thinking_tokens": 188,
+        "cost_usd": 0.004112,
+        "duration_ms": 9705
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 988,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 231,
+        "thinking_tokens": 167,
+        "cost_usd": 0.004286,
+        "duration_ms": 8607
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1105,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 243,
+        "thinking_tokens": 159,
+        "cost_usd": 0.005191,
+        "duration_ms": 8878
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 300,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 178,
+        "thinking_tokens": 67,
+        "cost_usd": 0.00238,
+        "duration_ms": 5852
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 471,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 241,
+        "thinking_tokens": 179,
+        "cost_usd": 0.003352,
+        "duration_ms": 9410
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 599,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 345,
+        "thinking_tokens": 315,
+        "cost_usd": 0.004648,
+        "duration_ms": 12241
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 724,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 177,
+        "thinking_tokens": 165,
+        "cost_usd": 0.003218,
+        "duration_ms": 7217
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 181,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.01e-05,
+        "duration_ms": 933
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🌏 🇲🇳 ⬆️ ⛄ 🐺\n💦 🏔️ 🏕️\n🛵 🤧</msg>",
+      "delivered": "🌏 🇲🇳 ⬆️ ⛄ 🐺\n💦 🏔️ 🏕️\n🛵 🤧",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is this a place in northern Mongolia—perhaps a lake or a small settlement in Khövsgöl? Please distinguish: 🌊 lake, 🏘️ settlement, 🏔️ mountain, or 🧑 person. What do 🛵 🤧 indicate?\n\n\nIs it a place in northern Mongolia? Is the subject a 🌊 lake, 🏘️ settlement, 🏔️ mountain, or 🧑 person? What do 🛵 🤧 mean?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🇲🇳 ⬆️⬆️⬆️ 🌏\n🏔️ 💦 ⤵️ 💦 ⤵️ 💦\n🐎 🦊 🐺 ⛄\n🛵 🤧 🧩 🔤</msg>",
+      "delivered": "🇲🇳 ⬆️⬆️⬆️ 🌏\n🏔️ 💦 ⤵️ 💦 ⤵️ 💦\n🐎 🦊 🐺 ⛄\n🛵 🤧 🧩",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The repeated 💦 ⤵️ suggests a river. Is it north of Mongolia, in Russia/Siberia, rather than in Mongolia itself? Are 🛵 🤧 a sound clue to its name (such as “scooter” + “achoo”)?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>👌 💦 ⤵️ 💦\n👌 🇲🇳 ⬆️⬆️⬆️ ⛄ 🌏\n👌 🛵 🤧 🧩\n🛵 🔌 🔋\n🤧 👃</msg>",
+      "delivered": "👌 💦 ⤵️ 💦\n👌 🇲🇳 ⬆️⬆️⬆️ ⛄ 🌏\n👌 🛵 🤧 🧩\n🛵 🔌 🔋\n🤧 👃",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Yenisey\n\nIs the name clue “E” (electric scooter) + “sneeze”?",
+      "guess": "Yenisey",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>❌\n🛵 🤧 🇳🇦 🧩\n🛵 🟰 🚤 🔌\n💦 ⤵️ 💦 ⤵️ 🌊\n📐 🍎🍎🍎🍎 🍎🍎 🍎🍎🍎\n⛄ 🐘 💍 🌏</msg>",
+      "delivered": "❌\n🛵 🤧 🇳🇦 🧩\n🛵 🟰 🚤 🔌\n💦 ⤵️ 💦 ⤵️\n📐 🍎🍎🍎🍎 🍎🍎 🍎🍎🍎\n⛄ 🐘 💍 🌏",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🌊"
+      ],
+      "retried": false,
+      "guesser": "GUESS: Motorchuna",
+      "guess": "Motorchuna",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 18,
+    "round": 2,
+    "n_banned": 48,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

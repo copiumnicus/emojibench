@@ -1,0 +1,174 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Jovan Hadži-Vasiljević",
+    "description": "Serbian historian, ethnographer, journalist and writer",
+    "extract": "Jovan Hadži-Vasiljević was a Serbian historian, ethnographer, journalist and writer.",
+    "url": "https://en.wikipedia.org/wiki/Jovan_Had%C5%BEi-Vasiljevi%C4%87"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 49.4,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2467,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1407,
+      "thinking_tokens": 1174,
+      "cost_usd": 0.009502,
+      "calls": 3
+    },
+    "guesser": {
+      "input_tokens": 1337,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1022,
+      "thinking_tokens": 923,
+      "cost_usd": 0.006447,
+      "calls": 3
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 688,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 653,
+        "thinking_tokens": 577,
+        "cost_usd": 0.003953,
+        "duration_ms": 14286
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 810,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 452,
+        "thinking_tokens": 349,
+        "cost_usd": 0.00307,
+        "duration_ms": 9069
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 969,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 302,
+        "thinking_tokens": 248,
+        "cost_usd": 0.002479,
+        "duration_ms": 6617
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 325,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 224,
+        "thinking_tokens": 188,
+        "cost_usd": 0.001445,
+        "duration_ms": 4858
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 457,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 381,
+        "thinking_tokens": 335,
+        "cost_usd": 0.002362,
+        "duration_ms": 7036
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 555,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 417,
+        "thinking_tokens": 400,
+        "cost_usd": 0.00264,
+        "duration_ms": 7540
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🔴 🔵 ⚪  🎾  🇽🇰\n\n👤  ⏮️ 🔬  🎎 🔬  🎙️ 📺  🪶 📄\n\n☕ 🚚\n🎩 🚙\n🪴 🦭 🧹 🔮\n</msg>",
+      "delivered": "🔴 🔵 ⚪ 🎾 🇽🇰\n👤 ⏮️ 🔬 🎎 🔬 🎙️ 📺 🪶 📄\n☕ 🚚\n🎩 🚙\n🪴 🦭 🧹 🔮",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is the article about a person? What do the red, blue and white circles and the tennis ball represent? Can you clarify the last three lines?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n✔️ 👤\n\n🔴 🔵 ⚪  🏳️  🎾 🃏  🗺️ 🇪🇺\n\n👤  ⏪ 📅 🔬  🎎 🌏 🔬  📄 🖨️  🪶 📄\n\n🗨️ 👂\n☕ 🚚\n🇸🇦 🚙\n🪴 🦭 🔮\n</msg>",
+      "delivered": "✔️ 👤\n🔴 🔵 ⚪ 🏳️ 🎾 🃏 🗺️ 🇪🇺\n👤 ⏪ 📅 🔬 🎎 🌏 🔬 📄 🖨️ 🪶 📄\n🗨️ 👂\n☕ 🚚\n🇸🇦 🚙\n🪴 🦭 🔮",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is the person Serbian, and are they a historian, anthropologist and journalist? Are the last three lines clues to their name or to their works? Please spell the name phonetically with emojis.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n✔️ ✔️\n\n🗨️ 👂 👤 📛\n\n🧘 🚚\n\n🎩 🧀\n\n🪴 🦭 ✔️ 🧹 🎃\n</msg>",
+      "delivered": "✔️ ✔️\n🗨️ 👂 👤\n🧘 🚚\n🎩 🧀\n🪴 🦭 ✔️ 🧹 🎃",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "📛"
+      ],
+      "retried": false,
+      "guesser": "GUESS: Jovan Hadži-Vasiljević",
+      "guess": "Jovan Hadži-Vasiljević",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 9,
+    "round": 3,
+    "n_banned": 94,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

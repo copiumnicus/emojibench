@@ -3,7 +3,7 @@
 One copy of a model gets a random Wikipedia article and may only reply in emoji. A second copy of the same model has to name the article. Fewer turns is better.
 
 <!-- generated:meta -->
-20 random articles, 4 models so far, 160 normal games plus a ladder per model and article. Every game is in [`runs/`](runs).
+20 random articles, 9 models so far, 160 normal games plus a ladder per model and article. Every game is in [`runs/`](runs).
 <!-- /generated:meta -->
 
 ## Can you guess it?
@@ -113,47 +113,54 @@ The top models name most random articles in one or two turns, so the benchmark i
 4. Each model has $1 per article at its API list price. The climb ends when a rung fails or the money runs out.
 
 <!-- generated:board -->
-|  | Model | EMOJIBENCH | Won–drawn–lost | Rungs per article |
-|---:|---|---:|---:|---:|
-| 1 | [Opus 5.5](runs/20261027-160159-opus-ladder) | **1675** | 59–0–1 | 5.35 |
-| 2 | [Fable 5.1](runs/20261027-164936-fable-ladder) | **1370** | 40–1–19 | 2.95 |
-| 3 | [Sonnet 5.5](runs/20261027-162922-sonnet-ladder) | **1000** | 9–11–40 | 1.00 |
-| 4 | [Haiku 5.5](runs/20261027-201204-haiku-ladder) | **881** | 1–10–49 | 0.20 |
+|  | Model | EMOJIBENCH | Won–drawn–lost | Rungs per article | Minutes per article |
+|---:|---|---:|---:|---:|---:|
+| 1 | [GPT-6.1 Sol](runs/20261029-101903-openrouter-openai-gpt-6.1-sol-openai-ladder) | **1869** | 150–7–3 | 8.20 | 10 |
+| 2 | [GPT-6.1 Terra](runs/20261029-101904-openrouter-openai-gpt-6.1-terra-openai-ladder) | **1659** | 128–10–22 | 6.35 | 7 |
+| 3 | [Opus 5.5](runs/20261027-160159-opus-ladder) | **1622** | 125–8–27 | 5.35 | 12 |
+| 4 | [Fable 5.1](runs/20261027-164936-fable-ladder) | **1384** | 99–6–55 | 2.95 | 5 |
+| 5 | [DeepSeek V4 Pro 0813](runs/20261028-163606-openrouter-deepseek-deepseek-v4-pro-0813-baidu-fp8-ladder) | **1064** | 46–31–83 | 1.15 | 20 |
+| 6 | [Sonnet 5.5](runs/20261027-162922-sonnet-ladder) | **1000** | 32–40–88 | 1.00 | 2 |
+| 7 | [MiMo-V2.6-Pro](runs/20261028-164754-openrouter-xiaomi-mimo-v2.6-pro-gmicloud-bf16-ladder) | **891** | 12–47–101 | 0.35 | 14 |
+| 8 | [Haiku 5.5](runs/20261027-201204-haiku-ladder) | **853** | 6–48–106 | 0.20 | 1 |
+| 9 | [MiniMax M3](runs/20261028-164756-openrouter-minimax-minimax-m3-minimax-ladder) | **806** | 0–47–113 | 0.00 | 6 |
 <!-- /generated:board -->
 
 EMOJIBENCH is an Elo rating with Sonnet 5.5 fixed at 1000. On each article, the model that climbed more rungs wins the head-to-head, and equal rungs is a draw. Comparing within an article means hard articles don't drag anyone's score down. A 200-point gap means winning about 3 articles in 4. Every new model refits all the ratings except Sonnet's, so the others can move a little. Each model's name links to its games.
 
-Missing a model? [Add it](#add-a-model) with three commands and up to $20 of OpenRouter credit.
+Minutes per article is how long a model took to play its ladder on one article, rung after rung. It isn't part of the score, since it depends on the host as much as the model, but it shows what a score costs in waiting.
+
+Missing a model? [Add it](#add-a-model) with a few commands and up to $20 of OpenRouter credit.
 
 ### Every ladder
 
 <!-- generated:ladders -->
-| Article | Opus 5.5 | Fable 5.1 | Sonnet 5.5 | Haiku 5.5 |
-|---|---:|---:|---:|---:|
-| Proceratium silaceum | [4](runs/20261027-160159-opus-ladder/ladder-01-r04.md) ✗ | [2](runs/20261027-164936-fable-ladder/ladder-01-r02.md) | [0](runs/20261027-162922-sonnet-ladder/ladder-01-r00.md) ✗ | [0](runs/20261027-201204-haiku-ladder/ladder-01-r00.md) ✗ |
-| Iron(III) sulfate | [6](runs/20261027-160159-opus-ladder/ladder-02-r09.md) | [3](runs/20261027-164936-fable-ladder/ladder-02-r03.md) | [0](runs/20261027-162922-sonnet-ladder/ladder-02-r00.md) ✗ | [0](runs/20261027-201204-haiku-ladder/ladder-02-r00.md) ✗ |
-| Baggio–Yoshinari syndrome | [5](runs/20261027-160159-opus-ladder/ladder-03-r07.md) | [2](runs/20261027-164936-fable-ladder/ladder-03-r02.md) | [2](runs/20261027-162922-sonnet-ladder/ladder-03-r02.md) ✗ | [0](runs/20261027-201204-haiku-ladder/ladder-03-r00.md) ✗ |
-| Mike Pieciak | [6](runs/20261027-160159-opus-ladder/ladder-04-r09.md) | [3](runs/20261027-164936-fable-ladder/ladder-04-r03.md) | [0](runs/20261027-162922-sonnet-ladder/ladder-04-r00.md) ✗ | [0](runs/20261027-201204-haiku-ladder/ladder-04-r00.md) ✗ |
-| UFC BJJ 2 | [3](runs/20261027-160159-opus-ladder/ladder-05-r03.md) ✗ | [1](runs/20261027-164936-fable-ladder/ladder-05-r01.md) | [0](runs/20261027-162922-sonnet-ladder/ladder-05-r00.md) ✗ | [0](runs/20261027-201204-haiku-ladder/ladder-05-r00.md) ✗ |
-| Jakob von Washington | [4](runs/20261027-160159-opus-ladder/ladder-06-r05.md) | [2](runs/20261027-164936-fable-ladder/ladder-06-r02.md) | [0](runs/20261027-162922-sonnet-ladder/ladder-06-r00.md) ✗ | [0](runs/20261027-201204-haiku-ladder/ladder-06-r00.md) ✗ |
-| Mad River Mountain | [7](runs/20261027-160159-opus-ladder/ladder-07-r07.md) | [4](runs/20261027-164936-fable-ladder/ladder-07-r04.md) | [3](runs/20261027-162922-sonnet-ladder/ladder-07-r03.md) ✗ | [0](runs/20261027-201204-haiku-ladder/ladder-07-r00.md) ✗ |
-| Richmond Hill South | [4](runs/20261027-160159-opus-ladder/ladder-08-r05.md) | [3](runs/20261027-164936-fable-ladder/ladder-08-r03.md) | [0](runs/20261027-162922-sonnet-ladder/ladder-08-r00.md) ✗ | [0](runs/20261027-201204-haiku-ladder/ladder-08-r00.md) ✗ |
-| Jovan Hadži-Vasiljević | [6](runs/20261027-160159-opus-ladder/ladder-09-r06.md) | [3](runs/20261027-164936-fable-ladder/ladder-09-r03.md) | [0](runs/20261027-162922-sonnet-ladder/ladder-09-r00.md) ✗ | [0](runs/20261027-201204-haiku-ladder/ladder-09-r00.md) ✗ |
-| Accord Pond | [5](runs/20261027-160159-opus-ladder/ladder-10-r05.md) ✗ | [2](runs/20261027-164936-fable-ladder/ladder-10-r02.md) | [0](runs/20261027-162922-sonnet-ladder/ladder-10-r00.md) ✗ | [0](runs/20261027-201204-haiku-ladder/ladder-10-r00.md) ✗ |
-| Ayribobo | [7](runs/20261027-160159-opus-ladder/ladder-11-r07.md) | [4](runs/20261027-164936-fable-ladder/ladder-11-r04.md) | [1](runs/20261027-162922-sonnet-ladder/ladder-11-r01.md) ✗ | [2](runs/20261027-201204-haiku-ladder/ladder-11-r02.md) ✗ |
-| Dora Akunyili | [8](runs/20261027-160159-opus-ladder/ladder-12-r08.md) | [5](runs/20261027-164936-fable-ladder/ladder-12-r05.md) | [3](runs/20261027-162922-sonnet-ladder/ladder-12-r03.md) ✗ | [1](runs/20261027-201204-haiku-ladder/ladder-12-r01.md) ✗ |
-| Dorothy Cottrell | [5](runs/20261027-160159-opus-ladder/ladder-13-r05.md) | [3](runs/20261027-164936-fable-ladder/ladder-13-r03.md) | [2](runs/20261027-162922-sonnet-ladder/ladder-13-r02.md) ✗ | [0](runs/20261027-201204-haiku-ladder/ladder-13-r00.md) ✗ |
-| Philadelphia Commercial Museum | [5](runs/20261027-160159-opus-ladder/ladder-14-r05.md) | [3](runs/20261027-164936-fable-ladder/ladder-14-r03.md) | [1](runs/20261027-162922-sonnet-ladder/ladder-14-r01.md) ✗ | [0](runs/20261027-201204-haiku-ladder/ladder-14-r00.md) ✗ |
-| Iglesia de Santa Ana (Santiago de Chile) | [6](runs/20261027-160159-opus-ladder/ladder-15-r06.md) | [3](runs/20261027-164936-fable-ladder/ladder-15-r03.md) | [1](runs/20261027-162922-sonnet-ladder/ladder-15-r01.md) ✗ | [0](runs/20261027-201204-haiku-ladder/ladder-15-r00.md) ✗ |
-| Grande Seca | [8](runs/20261027-160159-opus-ladder/ladder-16-r08.md) | [4](runs/20261027-164936-fable-ladder/ladder-16-r04.md) | [2](runs/20261027-162922-sonnet-ladder/ladder-16-r02.md) ✗ | [0](runs/20261027-201204-haiku-ladder/ladder-16-r00.md) ✗ |
-| 7's Football League | [1](runs/20261027-160159-opus-ladder/ladder-17-r01.md) ✗ | [2](runs/20261027-164936-fable-ladder/ladder-17-r02.md) | [0](runs/20261027-162922-sonnet-ladder/ladder-17-r00.md) ✗ | [0](runs/20261027-201204-haiku-ladder/ladder-17-r00.md) ✗ |
-| Motorchuna | [4](runs/20261027-160159-opus-ladder/ladder-18-r05.md) | [1](runs/20261027-164936-fable-ladder/ladder-18-r01.md) | [0](runs/20261027-162922-sonnet-ladder/ladder-18-r00.md) ✗ | [0](runs/20261027-201204-haiku-ladder/ladder-18-r00.md) ✗ |
-| Sage Derby | [7](runs/20261027-160159-opus-ladder/ladder-19-r07.md) | [5](runs/20261027-164936-fable-ladder/ladder-19-r05.md) | [3](runs/20261027-162922-sonnet-ladder/ladder-19-r03.md) ✗ | [1](runs/20261027-201204-haiku-ladder/ladder-19-r01.md) ✗ |
-| Franco Cozzo | [6](runs/20261027-160159-opus-ladder/ladder-20-r06.md) | [4](runs/20261027-164936-fable-ladder/ladder-20-r04.md) | [2](runs/20261027-162922-sonnet-ladder/ladder-20-r02.md) ✗ | [0](runs/20261027-201204-haiku-ladder/ladder-20-r00.md) ✗ |
+| Article | GPT-6.1 Sol | GPT-6.1 Terra | Opus 5.5 | Fable 5.1 | DeepSeek V4 Pro 0813 | Sonnet 5.5 | MiMo-V2.6-Pro | Haiku 5.5 | MiniMax M3 |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Proceratium silaceum | [9](runs/20261029-101903-openrouter-openai-gpt-6.1-sol-openai-ladder/ladder-01-r09.md) ✗ | [3](runs/20261029-101904-openrouter-openai-gpt-6.1-terra-openai-ladder/ladder-01-r03.md) ✗ | [4](runs/20261027-160159-opus-ladder/ladder-01-r04.md) ✗ | [2](runs/20261027-164936-fable-ladder/ladder-01-r02.md) | [1](runs/20261028-163606-openrouter-deepseek-deepseek-v4-pro-0813-baidu-fp8-ladder/ladder-01-r01.md) ✗ | [0](runs/20261027-162922-sonnet-ladder/ladder-01-r00.md) ✗ | [0](runs/20261028-164754-openrouter-xiaomi-mimo-v2.6-pro-gmicloud-bf16-ladder/ladder-01-r00.md) ✗ | [0](runs/20261027-201204-haiku-ladder/ladder-01-r00.md) ✗ | [0](runs/20261028-164756-openrouter-minimax-minimax-m3-minimax-ladder/ladder-01-r00.md) ✗ |
+| Iron(III) sulfate | [14](runs/20261029-101903-openrouter-openai-gpt-6.1-sol-openai-ladder/ladder-02-r14.md) ✗ | [7](runs/20261029-101904-openrouter-openai-gpt-6.1-terra-openai-ladder/ladder-02-r07.md) ✗ | [6](runs/20261027-160159-opus-ladder/ladder-02-r09.md) | [3](runs/20261027-164936-fable-ladder/ladder-02-r03.md) | [1](runs/20261028-163606-openrouter-deepseek-deepseek-v4-pro-0813-baidu-fp8-ladder/ladder-02-r01.md) ✗ | [0](runs/20261027-162922-sonnet-ladder/ladder-02-r00.md) ✗ | [0](runs/20261028-164754-openrouter-xiaomi-mimo-v2.6-pro-gmicloud-bf16-ladder/ladder-02-r00.md) ✗ | [0](runs/20261027-201204-haiku-ladder/ladder-02-r00.md) ✗ | [0](runs/20261028-164756-openrouter-minimax-minimax-m3-minimax-ladder/ladder-02-r00.md) ✗ |
+| Baggio–Yoshinari syndrome | [7](runs/20261029-101903-openrouter-openai-gpt-6.1-sol-openai-ladder/ladder-03-r07.md) ✗ | [5](runs/20261029-101904-openrouter-openai-gpt-6.1-terra-openai-ladder/ladder-03-r05.md) ✗ | [5](runs/20261027-160159-opus-ladder/ladder-03-r07.md) | [2](runs/20261027-164936-fable-ladder/ladder-03-r02.md) | [1](runs/20261028-163606-openrouter-deepseek-deepseek-v4-pro-0813-baidu-fp8-ladder/ladder-03-r01.md) ✗ | [2](runs/20261027-162922-sonnet-ladder/ladder-03-r02.md) ✗ | [0](runs/20261028-164754-openrouter-xiaomi-mimo-v2.6-pro-gmicloud-bf16-ladder/ladder-03-r00.md) ✗ | [0](runs/20261027-201204-haiku-ladder/ladder-03-r00.md) ✗ | [0](runs/20261028-164756-openrouter-minimax-minimax-m3-minimax-ladder/ladder-03-r00.md) ✗ |
+| Mike Pieciak | [6](runs/20261029-101903-openrouter-openai-gpt-6.1-sol-openai-ladder/ladder-04-r06.md) ✗ | [7](runs/20261029-101904-openrouter-openai-gpt-6.1-terra-openai-ladder/ladder-04-r07.md) ✗ | [6](runs/20261027-160159-opus-ladder/ladder-04-r09.md) | [3](runs/20261027-164936-fable-ladder/ladder-04-r03.md) | [2](runs/20261028-163606-openrouter-deepseek-deepseek-v4-pro-0813-baidu-fp8-ladder/ladder-04-r02.md) ✗ | [0](runs/20261027-162922-sonnet-ladder/ladder-04-r00.md) ✗ | [0](runs/20261028-164754-openrouter-xiaomi-mimo-v2.6-pro-gmicloud-bf16-ladder/ladder-04-r00.md) ✗ | [0](runs/20261027-201204-haiku-ladder/ladder-04-r00.md) ✗ | [0](runs/20261028-164756-openrouter-minimax-minimax-m3-minimax-ladder/ladder-04-r00.md) ✗ |
+| UFC BJJ 2 | [3](runs/20261029-101903-openrouter-openai-gpt-6.1-sol-openai-ladder/ladder-05-r03.md) ✗ | [5](runs/20261029-101904-openrouter-openai-gpt-6.1-terra-openai-ladder/ladder-05-r05.md) ✗ | [3](runs/20261027-160159-opus-ladder/ladder-05-r03.md) ✗ | [1](runs/20261027-164936-fable-ladder/ladder-05-r01.md) | [0](runs/20261028-163606-openrouter-deepseek-deepseek-v4-pro-0813-baidu-fp8-ladder/ladder-05-r00.md) ✗ | [0](runs/20261027-162922-sonnet-ladder/ladder-05-r00.md) ✗ | [0](runs/20261028-164754-openrouter-xiaomi-mimo-v2.6-pro-gmicloud-bf16-ladder/ladder-05-r00.md) ✗ | [0](runs/20261027-201204-haiku-ladder/ladder-05-r00.md) ✗ | [0](runs/20261028-164756-openrouter-minimax-minimax-m3-minimax-ladder/ladder-05-r00.md) ✗ |
+| Jakob von Washington | [5](runs/20261029-101903-openrouter-openai-gpt-6.1-sol-openai-ladder/ladder-06-r05.md) ✗ | [2](runs/20261029-101904-openrouter-openai-gpt-6.1-terra-openai-ladder/ladder-06-r02.md) ✗ | [4](runs/20261027-160159-opus-ladder/ladder-06-r05.md) | [2](runs/20261027-164936-fable-ladder/ladder-06-r02.md) | [0](runs/20261028-163606-openrouter-deepseek-deepseek-v4-pro-0813-baidu-fp8-ladder/ladder-06-r00.md) ✗ | [0](runs/20261027-162922-sonnet-ladder/ladder-06-r00.md) ✗ | [0](runs/20261028-164754-openrouter-xiaomi-mimo-v2.6-pro-gmicloud-bf16-ladder/ladder-06-r00.md) ✗ | [0](runs/20261027-201204-haiku-ladder/ladder-06-r00.md) ✗ | [0](runs/20261028-164756-openrouter-minimax-minimax-m3-minimax-ladder/ladder-06-r00.md) ✗ |
+| Mad River Mountain | [9](runs/20261029-101903-openrouter-openai-gpt-6.1-sol-openai-ladder/ladder-07-r09.md) ✗ | [6](runs/20261029-101904-openrouter-openai-gpt-6.1-terra-openai-ladder/ladder-07-r06.md) ✗ | [7](runs/20261027-160159-opus-ladder/ladder-07-r07.md) | [4](runs/20261027-164936-fable-ladder/ladder-07-r04.md) | [4](runs/20261028-163606-openrouter-deepseek-deepseek-v4-pro-0813-baidu-fp8-ladder/ladder-07-r04.md) ✗ | [3](runs/20261027-162922-sonnet-ladder/ladder-07-r03.md) ✗ | [1](runs/20261028-164754-openrouter-xiaomi-mimo-v2.6-pro-gmicloud-bf16-ladder/ladder-07-r01.md) ✗ | [0](runs/20261027-201204-haiku-ladder/ladder-07-r00.md) ✗ | [0](runs/20261028-164756-openrouter-minimax-minimax-m3-minimax-ladder/ladder-07-r00.md) ✗ |
+| Richmond Hill South | [4](runs/20261029-101903-openrouter-openai-gpt-6.1-sol-openai-ladder/ladder-08-r04.md) ✗ | [2](runs/20261029-101904-openrouter-openai-gpt-6.1-terra-openai-ladder/ladder-08-r02.md) ✗ | [4](runs/20261027-160159-opus-ladder/ladder-08-r05.md) | [3](runs/20261027-164936-fable-ladder/ladder-08-r03.md) | [0](runs/20261028-163606-openrouter-deepseek-deepseek-v4-pro-0813-baidu-fp8-ladder/ladder-08-r00.md) ✗ | [0](runs/20261027-162922-sonnet-ladder/ladder-08-r00.md) ✗ | [0](runs/20261028-164754-openrouter-xiaomi-mimo-v2.6-pro-gmicloud-bf16-ladder/ladder-08-r00.md) ✗ | [0](runs/20261027-201204-haiku-ladder/ladder-08-r00.md) ✗ | [0](runs/20261028-164756-openrouter-minimax-minimax-m3-minimax-ladder/ladder-08-r00.md) ✗ |
+| Jovan Hadži-Vasiljević | [7](runs/20261029-101903-openrouter-openai-gpt-6.1-sol-openai-ladder/ladder-09-r07.md) ✗ | [4](runs/20261029-101904-openrouter-openai-gpt-6.1-terra-openai-ladder/ladder-09-r04.md) ✗ | [6](runs/20261027-160159-opus-ladder/ladder-09-r06.md) | [3](runs/20261027-164936-fable-ladder/ladder-09-r03.md) | [0](runs/20261028-163606-openrouter-deepseek-deepseek-v4-pro-0813-baidu-fp8-ladder/ladder-09-r00.md) ✗ | [0](runs/20261027-162922-sonnet-ladder/ladder-09-r00.md) ✗ | [0](runs/20261028-164754-openrouter-xiaomi-mimo-v2.6-pro-gmicloud-bf16-ladder/ladder-09-r00.md) ✗ | [0](runs/20261027-201204-haiku-ladder/ladder-09-r00.md) ✗ | [0](runs/20261028-164756-openrouter-minimax-minimax-m3-minimax-ladder/ladder-09-r00.md) ✗ |
+| Accord Pond | [5](runs/20261029-101903-openrouter-openai-gpt-6.1-sol-openai-ladder/ladder-10-r05.md) ✗ | [5](runs/20261029-101904-openrouter-openai-gpt-6.1-terra-openai-ladder/ladder-10-r05.md) ✗ | [5](runs/20261027-160159-opus-ladder/ladder-10-r05.md) ✗ | [2](runs/20261027-164936-fable-ladder/ladder-10-r02.md) | [0](runs/20261028-163606-openrouter-deepseek-deepseek-v4-pro-0813-baidu-fp8-ladder/ladder-10-r00.md) ✗ | [0](runs/20261027-162922-sonnet-ladder/ladder-10-r00.md) ✗ | [1](runs/20261028-164754-openrouter-xiaomi-mimo-v2.6-pro-gmicloud-bf16-ladder/ladder-10-r01.md) ✗ | [0](runs/20261027-201204-haiku-ladder/ladder-10-r00.md) ✗ | [0](runs/20261028-164756-openrouter-minimax-minimax-m3-minimax-ladder/ladder-10-r00.md) ✗ |
+| Ayribobo | [10](runs/20261029-101903-openrouter-openai-gpt-6.1-sol-openai-ladder/ladder-11-r10.md) ✗ | [10](runs/20261029-101904-openrouter-openai-gpt-6.1-terra-openai-ladder/ladder-11-r10.md) ✗ | [7](runs/20261027-160159-opus-ladder/ladder-11-r07.md) | [4](runs/20261027-164936-fable-ladder/ladder-11-r04.md) | [1](runs/20261028-163606-openrouter-deepseek-deepseek-v4-pro-0813-baidu-fp8-ladder/ladder-11-r01.md) ✗ | [1](runs/20261027-162922-sonnet-ladder/ladder-11-r01.md) ✗ | [1](runs/20261028-164754-openrouter-xiaomi-mimo-v2.6-pro-gmicloud-bf16-ladder/ladder-11-r01.md) ✗ | [2](runs/20261027-201204-haiku-ladder/ladder-11-r02.md) ✗ | [0](runs/20261028-164756-openrouter-minimax-minimax-m3-minimax-ladder/ladder-11-r00.md) ✗ |
+| Dora Akunyili | [20](runs/20261029-101903-openrouter-openai-gpt-6.1-sol-openai-ladder/ladder-12-r20.md) ✗ | [13](runs/20261029-101904-openrouter-openai-gpt-6.1-terra-openai-ladder/ladder-12-r13.md) ✗ | [8](runs/20261027-160159-opus-ladder/ladder-12-r08.md) | [5](runs/20261027-164936-fable-ladder/ladder-12-r05.md) | [3](runs/20261028-163606-openrouter-deepseek-deepseek-v4-pro-0813-baidu-fp8-ladder/ladder-12-r03.md) ✗ | [3](runs/20261027-162922-sonnet-ladder/ladder-12-r03.md) ✗ | [1](runs/20261028-164754-openrouter-xiaomi-mimo-v2.6-pro-gmicloud-bf16-ladder/ladder-12-r01.md) ✗ | [1](runs/20261027-201204-haiku-ladder/ladder-12-r01.md) ✗ | [0](runs/20261028-164756-openrouter-minimax-minimax-m3-minimax-ladder/ladder-12-r00.md) ✗ |
+| Dorothy Cottrell | [7](runs/20261029-101903-openrouter-openai-gpt-6.1-sol-openai-ladder/ladder-13-r07.md) ✗ | [3](runs/20261029-101904-openrouter-openai-gpt-6.1-terra-openai-ladder/ladder-13-r03.md) ✗ | [5](runs/20261027-160159-opus-ladder/ladder-13-r05.md) | [3](runs/20261027-164936-fable-ladder/ladder-13-r03.md) | [1](runs/20261028-163606-openrouter-deepseek-deepseek-v4-pro-0813-baidu-fp8-ladder/ladder-13-r01.md) ✗ | [2](runs/20261027-162922-sonnet-ladder/ladder-13-r02.md) ✗ | [0](runs/20261028-164754-openrouter-xiaomi-mimo-v2.6-pro-gmicloud-bf16-ladder/ladder-13-r00.md) ✗ | [0](runs/20261027-201204-haiku-ladder/ladder-13-r00.md) ✗ | [0](runs/20261028-164756-openrouter-minimax-minimax-m3-minimax-ladder/ladder-13-r00.md) ✗ |
+| Philadelphia Commercial Museum | [8](runs/20261029-101903-openrouter-openai-gpt-6.1-sol-openai-ladder/ladder-14-r08.md) ✗ | [7](runs/20261029-101904-openrouter-openai-gpt-6.1-terra-openai-ladder/ladder-14-r07.md) ✗ | [5](runs/20261027-160159-opus-ladder/ladder-14-r05.md) | [3](runs/20261027-164936-fable-ladder/ladder-14-r03.md) | [0](runs/20261028-163606-openrouter-deepseek-deepseek-v4-pro-0813-baidu-fp8-ladder/ladder-14-r00.md) ✗ | [1](runs/20261027-162922-sonnet-ladder/ladder-14-r01.md) ✗ | [0](runs/20261028-164754-openrouter-xiaomi-mimo-v2.6-pro-gmicloud-bf16-ladder/ladder-14-r00.md) ✗ | [0](runs/20261027-201204-haiku-ladder/ladder-14-r00.md) ✗ | [0](runs/20261028-164756-openrouter-minimax-minimax-m3-minimax-ladder/ladder-14-r00.md) ✗ |
+| Iglesia de Santa Ana (Santiago de Chile) | [8](runs/20261029-101903-openrouter-openai-gpt-6.1-sol-openai-ladder/ladder-15-r08.md) ✗ | [7](runs/20261029-101904-openrouter-openai-gpt-6.1-terra-openai-ladder/ladder-15-r07.md) ✗ | [6](runs/20261027-160159-opus-ladder/ladder-15-r06.md) | [3](runs/20261027-164936-fable-ladder/ladder-15-r03.md) | [2](runs/20261028-163606-openrouter-deepseek-deepseek-v4-pro-0813-baidu-fp8-ladder/ladder-15-r02.md) ✗ | [1](runs/20261027-162922-sonnet-ladder/ladder-15-r01.md) ✗ | [1](runs/20261028-164754-openrouter-xiaomi-mimo-v2.6-pro-gmicloud-bf16-ladder/ladder-15-r01.md) ✗ | [0](runs/20261027-201204-haiku-ladder/ladder-15-r00.md) ✗ | [0](runs/20261028-164756-openrouter-minimax-minimax-m3-minimax-ladder/ladder-15-r00.md) ✗ |
+| Grande Seca | [14](runs/20261029-101903-openrouter-openai-gpt-6.1-sol-openai-ladder/ladder-16-r14.md) ✗ | [14](runs/20261029-101904-openrouter-openai-gpt-6.1-terra-openai-ladder/ladder-16-r14.md) ✗ | [8](runs/20261027-160159-opus-ladder/ladder-16-r08.md) | [4](runs/20261027-164936-fable-ladder/ladder-16-r04.md) | [1](runs/20261028-163606-openrouter-deepseek-deepseek-v4-pro-0813-baidu-fp8-ladder/ladder-16-r01.md) ✗ | [2](runs/20261027-162922-sonnet-ladder/ladder-16-r02.md) ✗ | [0](runs/20261028-164754-openrouter-xiaomi-mimo-v2.6-pro-gmicloud-bf16-ladder/ladder-16-r00.md) ✗ | [0](runs/20261027-201204-haiku-ladder/ladder-16-r00.md) ✗ | [0](runs/20261028-164756-openrouter-minimax-minimax-m3-minimax-ladder/ladder-16-r00.md) ✗ |
+| 7's Football League | [5](runs/20261029-101903-openrouter-openai-gpt-6.1-sol-openai-ladder/ladder-17-r05.md) ✗ | [11](runs/20261029-101904-openrouter-openai-gpt-6.1-terra-openai-ladder/ladder-17-r11.md) ✗ | [1](runs/20261027-160159-opus-ladder/ladder-17-r01.md) ✗ | [2](runs/20261027-164936-fable-ladder/ladder-17-r02.md) | [1](runs/20261028-163606-openrouter-deepseek-deepseek-v4-pro-0813-baidu-fp8-ladder/ladder-17-r01.md) ✗ | [0](runs/20261027-162922-sonnet-ladder/ladder-17-r00.md) ✗ | [0](runs/20261028-164754-openrouter-xiaomi-mimo-v2.6-pro-gmicloud-bf16-ladder/ladder-17-r00.md) ✗ | [0](runs/20261027-201204-haiku-ladder/ladder-17-r00.md) ✗ | [0](runs/20261028-164756-openrouter-minimax-minimax-m3-minimax-ladder/ladder-17-r00.md) ✗ |
+| Motorchuna | [6](runs/20261029-101903-openrouter-openai-gpt-6.1-sol-openai-ladder/ladder-18-r06.md) ✗ | [1](runs/20261029-101904-openrouter-openai-gpt-6.1-terra-openai-ladder/ladder-18-r01.md) ✗ | [4](runs/20261027-160159-opus-ladder/ladder-18-r05.md) | [1](runs/20261027-164936-fable-ladder/ladder-18-r01.md) | [1](runs/20261028-163606-openrouter-deepseek-deepseek-v4-pro-0813-baidu-fp8-ladder/ladder-18-r01.md) ✗ | [0](runs/20261027-162922-sonnet-ladder/ladder-18-r00.md) ✗ | [0](runs/20261028-164754-openrouter-xiaomi-mimo-v2.6-pro-gmicloud-bf16-ladder/ladder-18-r00.md) ✗ | [0](runs/20261027-201204-haiku-ladder/ladder-18-r00.md) ✗ | [0](runs/20261028-164756-openrouter-minimax-minimax-m3-minimax-ladder/ladder-18-r00.md) ✗ |
+| Sage Derby | [8](runs/20261029-101903-openrouter-openai-gpt-6.1-sol-openai-ladder/ladder-19-r08.md) ✗ | [7](runs/20261029-101904-openrouter-openai-gpt-6.1-terra-openai-ladder/ladder-19-r07.md) ✗ | [7](runs/20261027-160159-opus-ladder/ladder-19-r07.md) | [5](runs/20261027-164936-fable-ladder/ladder-19-r05.md) | [2](runs/20261028-163606-openrouter-deepseek-deepseek-v4-pro-0813-baidu-fp8-ladder/ladder-19-r02.md) ✗ | [3](runs/20261027-162922-sonnet-ladder/ladder-19-r03.md) ✗ | [2](runs/20261028-164754-openrouter-xiaomi-mimo-v2.6-pro-gmicloud-bf16-ladder/ladder-19-r02.md) ✗ | [1](runs/20261027-201204-haiku-ladder/ladder-19-r01.md) ✗ | [0](runs/20261028-164756-openrouter-minimax-minimax-m3-minimax-ladder/ladder-19-r00.md) ✗ |
+| Franco Cozzo | [9](runs/20261029-101903-openrouter-openai-gpt-6.1-sol-openai-ladder/ladder-20-r09.md) ✗ | [8](runs/20261029-101904-openrouter-openai-gpt-6.1-terra-openai-ladder/ladder-20-r08.md) ✗ | [6](runs/20261027-160159-opus-ladder/ladder-20-r06.md) | [4](runs/20261027-164936-fable-ladder/ladder-20-r04.md) | [2](runs/20261028-163606-openrouter-deepseek-deepseek-v4-pro-0813-baidu-fp8-ladder/ladder-20-r02.md) ✗ | [2](runs/20261027-162922-sonnet-ladder/ladder-20-r02.md) ✗ | [0](runs/20261028-164754-openrouter-xiaomi-mimo-v2.6-pro-gmicloud-bf16-ladder/ladder-20-r00.md) ✗ | [0](runs/20261027-201204-haiku-ladder/ladder-20-r00.md) ✗ | [0](runs/20261028-164756-openrouter-minimax-minimax-m3-minimax-ladder/ladder-20-r00.md) ✗ |
 
 Each number is the rungs climbed within $1 and links to the transcript of the last rung played. ✗ means the next rung took more than 5 turns; no mark means the $1 ran out mid-climb.
 
-Out of 20 articles, Opus 5.5 failed a rung on 4 articles and Fable 5.1 on none. Every other climb of theirs ended because the dollar ran out. What separates them is price: Opus 5.5 spends less per game, so the same $1 buys it more rungs.
+Most climbs end on a rung that takes more than 5 turns. The dollar ran out first for Fable 5.1 on all 20 articles and Opus 5.5 on 16 articles, and never for the other models. GPT-6.1 Sol, on top, spends $0.22 per article, so money never stopped its climb.
 
 #### No Brazilian flag
 
@@ -164,6 +171,46 @@ Opus, rung 8 of Grande Seca, a drought in Brazil. 133 emoji were banned by then,
 Angola, Mozambique, Cape Verde, Guinea-Bissau, East Timor, and a mammoth for the biggest one. The guesser got Brazil, then the drought, then the title.
 <!-- /generated:ladders -->
 
+## What the models are doing
+
+### GPT-6.1 Sol is the one to beat
+
+Sol named all 20 articles on the first rung, 16 of them in one turn, then kept climbing: 8.2 rungs per article for $0.22. Opus climbs 5.35 rungs, and on most articles its dollar runs out first. GPT-6.1 Terra matches Opus's climbs for a tenth of the price. The OpenAI models think briefly: Sol writes about 285 tokens per reply, reasoning included, against about 1,300 for Opus and 4,250 for DeepSeek V4 Pro. That is most of their price advantage.
+
+### When the obvious emoji are gone
+
+Every rung bans the emoji used on the rungs before it, so by rung 10 a model has lost a couple of hundred. The best ladders show what they do instead.
+
+**Clock faces as digits.** Terra, [rung 9 of Grande Seca](runs/20261029-101904-openrouter-openai-gpt-6.1-terra-openai-ladder/ladder-16-r08.md), a Brazilian drought in 1877 and 1878, with 179 emoji banned. The last line of its first message:
+
+> 🕜 🕣 🕢 🕢 〰️ 🕜 🕣 🕢 🕣
+
+The guesser: “I read the dates as 1877–1878 and the first line as Brazil and a city.” A rung later the clocks were banned too, so [Terra ended a message with stars](runs/20261029-101904-openrouter-openai-gpt-6.1-terra-openai-ladder/ladder-16-r09.md):
+
+> ⭐<br>⭐⭐⭐⭐⭐⭐⭐⭐<br>⭐⭐⭐⭐⭐⭐⭐<br>⭐⭐⭐⭐⭐⭐⭐
+
+**Spelling with first letters.** Sol, [rung 19 of Dora Akunyili](runs/20261029-101903-openrouter-openai-gpt-6.1-sol-openai-ladder/ladder-12-r18.md), with 378 emoji banned:
+
+> 👇<br>🇳🇿 🇮🇸 🇬🇷 🇪🇸 🇷🇺 🇮🇸 🇦🇺<br>👩‍🦳<br>👇<br>🦌 🦧 🦏 🦙
+
+The guesser: “I read the flags as N-I-G-E-R-I-A and the animals as D-O-R-A (deer, orangutan, rhinoceros, alpaca), pointing to a Nigerian woman named Dora.” Solved in one turn. Sol climbed 20 rungs on this article.
+
+Spelling grows as the ladder goes on. From rung 6 on, guessers read out spelled letters in at least a quarter of Opus's solved rungs, a fifth of Terra's and a tenth of Sol's. Sol mostly wins by still finding new pictures.
+
+**Synonyms.** DeepSeek V4 Pro got [Mad River Mountain](runs/20261028-163606-openrouter-deepseek-deepseek-v4-pro-0813-baidu-fp8-ladder/ladder-07-r04.md) in one turn on four rungs in a row, with a different kind of mad each time:
+
+> 😡🌊⛰️⛷️🌰<br>🤪🏞️🏔️🎿🇺🇸<br>🗻😠💧 🏂❄️🚡<br>😤 🛶 🚠 🛷 🏨
+
+The fifth, 🤬💦➡️🌄, didn't land.
+
+### Cheap, and good or not
+
+DeepSeek V4 Pro climbs a little higher than Sonnet for half Sonnet's cost per article. Xiaomi's MiMo V2.6 Pro lands between Sonnet and Haiku. MiniMax M3 climbed no rungs at all: it missed every article within the first rung's 5 turns. On [Mike Pieciak](runs/20261028-164756-openrouter-minimax-minimax-m3-minimax-ladder/ladder-04-r00.md), Vermont's state treasurer, its explainer opened with 🎤 🥧 👁️ ✅, close to the 🎤🥧 that Opus solved in one turn. Its guesser went: American Pie, Don McLean, Sonny Bono, Wild Bill Hickok, Bubba Smith.
+
+### The host matters
+
+An open-weight model is sold by many hosts, at different prices, precisions and defaults. Given the same question, DeepSeek V4 Pro reasoned for over a thousand tokens on Baidu and on Novita, and not at all on DeepInfra. MiniMax M3 reasoned on MiniMax's own servers and not at all on GMICloud. So every OpenRouter run here is pinned to one host that serves the model at the precision its makers released, and the run's folder names that host.
+
 ## Add a model
 
 You need Python 3.11 or newer (nothing to install), an [OpenRouter key](https://openrouter.ai/keys), and up to about $20 of credit. Each article gets at most $1, and most models spend far less.
@@ -173,9 +220,10 @@ You need Python 3.11 or newer (nothing to install), an [OpenRouter key](https://
 
    ```sh
    export OPENROUTER_API_KEY=sk-or-...
-   ./emojibench.py models gemini      # find the model id and its price
-   ./emojibench.py bench -m openrouter:google/gemini-3.1-pro-preview
-   ./emojibench.py check              # the checks CI runs on your pull request
+   ./emojibench.py models gemini                      # find the model id and its price
+   ./emojibench.py hosts google/gemini-4-argon        # who serves it, at what precision
+   ./emojibench.py bench -m openrouter:google/gemini-4-argon@<host>
+   ./emojibench.py check                              # the checks CI runs on your pull request
    ```
 
 3. Commit the new folder in `runs/` and open a pull request.
@@ -279,7 +327,7 @@ The game is recorded as an error and left out of the scores. Every other model g
 ## How a game works
 
 1. The harness pulls an article from Wikipedia's random-article button. Most are obscure: small rivers, minor politicians, single ant species.
-2. The explainer sees the title and summary and writes a message. A filter deletes everything that is not a standard emoji, including emoji that contain letters or digits like 🅰️ 🆗 1️⃣ ℹ️, so spelling is impossible. Flags are allowed.
+2. The explainer sees the title and summary and writes a message. A filter deletes everything that is not a standard emoji, including emoji that contain letters or digits like 🅰️ 🆗 1️⃣ ℹ️, so the explainer can't type a word or a number. Flags are allowed. (The best models spell anyway, with the first letters of emoji; see [above](#when-the-obvious-emoji-are-gone).)
 3. The guesser reads the emoji and replies in plain text: questions, theories, and at most one guess per turn.
 4. A separate model, Claude Haiku 5.5, judges each guess against the title. Alternate names and missing accents count; a related topic does not.
 5. The game ends on a correct guess or after 30 turns.
@@ -324,6 +372,8 @@ The explainer writes its message inside `<msg>` tags and can think outside them;
 - `bench -m <model>` plays EMOJIBENCH @ $1. A model is `openrouter:<id>` for anything on OpenRouter, or `opus`, `sonnet`, `haiku` and `fable` for Claude models run through [Claude Code](https://claude.com/claude-code), which is how the Claude results here were played.
 - `report` prints the leaderboard and every ladder from `runs/`. `--budget 2` re-scores the same games with $2 per article, and `--ladder-break 3` with a 3-turn limit. Neither plays new games.
 - `run -m <model>` plays normal games only: no ladder, 30 turns per article. `-e` and `-g` pair two different models as explainer and guesser.
+- `openrouter:<id>@<host>` sends every call to one host, such as `openrouter:z-ai/glm-5.3@baidu/fp8`. Without a host, OpenRouter spreads calls over every host serving the model, cheap compressed (fp4) ones included. `hosts <id>` lists the hosts with their precision and prices.
+- `./sandbox.sh` takes the same arguments and runs the bench in a throwaway Docker container that sees only this folder and `OPENROUTER_API_KEY`. The judge then runs through OpenRouter, since Claude Code isn't in the container.
 - `--effort low|medium|high` sets reasoning effort. Without it each model runs at its provider's default.
 - `OPENROUTER_BASE_URL` points the OpenRouter backend at any OpenAI-compatible server, such as a local vLLM. Costs then come from the server's `usage.cost` if it reports one.
 - `fetch -n 50 -o articles/set2.json` freezes a new set of random articles.
@@ -333,13 +383,18 @@ The explainer writes its message inside `<msg>` tags and can think outside them;
 
 - Every model gets the same prompts. In self-play the explainer is told its partner is "another instance of the exact same AI model as you".
 - Cost is the list price of the tokens a model used: OpenRouter's `usage.cost`, or Claude Code's own accounting, which caches prompts with 1-hour cache writes. Claude games played before 28 October 2026 had their costs recomputed from token counts after a bug in reading Claude Code's totals; each such file has a `cost_fix` note.
+- Minutes are wall time per game, judge included, on the host named in the run's folder. Claude games also include Claude Code's start-up on every call, a few seconds each.
 - Ratings only compare models on articles both played, so every model plays the same 20.
+- OpenRouter models are pinned to one host (see [The host matters](#the-host-matters)) and priced at that host's list price. OpenAI models ran on OpenAI's standard tier, not the half-price, slower flex tier.
+- OpenRouter runs were played in Docker with `./sandbox.sh`, so their judge, Claude Haiku 5.5, ran through OpenRouter. The Claude runs used the same judge through Claude Code.
 - Every game records a fingerprint of the prompts and rules (`harness`), so results played under different rules can be told apart.
 - Twenty articles is a small sample. Read single games as anecdotes and the ratings as rough.
 
 ## What's next
 
 - More models, including other labs, through pull requests.
+- A harder ladder. Sol's longest climb used 20 of the 30 rungs the bench allows, so a stronger model will reach the cap.
+- Decide whether spelling with the first letters of emoji should count, and how a filter could tell.
 - More articles, 50 to 100, with an uncertainty range next to each rating.
 - A tie-break that gives the head-to-head to the cheaper model when both climb the same number of rungs.
 

@@ -6,15 +6,19 @@ A results pull request adds one folder under `runs/` and changes nothing else. T
 
 ```sh
 export OPENROUTER_API_KEY=sk-or-...
-./emojibench.py models deepseek          # search model ids and prices
-./emojibench.py bench -m openrouter:deepseek/deepseek-v4-pro
-./emojibench.py check                    # what CI will run
-./emojibench.py report --bench           # the leaderboard with your model in it
+./emojibench.py models deepseek                     # search model ids and prices
+./emojibench.py hosts deepseek/deepseek-v4-pro      # who serves it, at what precision
+./emojibench.py bench -m openrouter:deepseek/deepseek-v4-pro@<host>
+./emojibench.py check                               # what CI will run
+./emojibench.py report --bench                      # the leaderboard with your model in it
 ```
+
+`./sandbox.sh` takes the same arguments as `./emojibench.py` and runs it in a Docker container that sees only the repo folder and your key.
 
 `bench` climbs the ladder on all 20 articles in `articles/set1.json`, 4 articles at a time (`-j` changes that). It writes a new folder in `runs/` holding every game as JSON plus a readable transcript (`.md`).
 
 - **Keep the defaults:** $1 per article, 5 turns per rung, the 20-article set. `check` fails a run played with other settings.
+- **Pin one host** that serves the model at the precision its makers released (usually bf16 or fp8, sometimes fp4), never lower. If several do, take the cheapest one whose reasoning matches the makers' own servers. Without a pin, OpenRouter mixes hosts and precisions within one run.
 - **Use the paid model id.** A `:free` variant reports a cost of $0, so its $1 never runs out, and `check` rejects it.
 - **Reasoning effort** is the provider's default unless you pass `--effort low|medium|high`. A run with an effort level is a separate leaderboard entry, such as "Gemini 3.1 Pro Preview (high)".
 - **The judge** is Claude Haiku 5.5. It runs through Claude Code if you have it installed, otherwise through OpenRouter as `anthropic/claude-haiku-5.5`. Its cost, about a tenth of a percent of a game, counts toward the $1 like everything else.

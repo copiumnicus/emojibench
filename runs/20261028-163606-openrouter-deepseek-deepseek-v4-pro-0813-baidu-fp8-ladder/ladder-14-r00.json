@@ -1,0 +1,283 @@
+{
+  "model": "openrouter:deepseek/deepseek-v4-pro-0813@baidu/fp8",
+  "model_id": "deepseek/deepseek-v4-pro-0813",
+  "guesser_model": "openrouter:deepseek/deepseek-v4-pro-0813@baidu/fp8",
+  "guesser_model_id": "deepseek/deepseek-v4-pro-0813",
+  "effort": null,
+  "article": {
+    "title": "Philadelphia Commercial Museum",
+    "description": "Former museum in Pennsylvania, USA",
+    "extract": "The Philadelphia Commercial Museum was established in Philadelphia, Pennsylvania in 1895. Its permanent home was a neo-classical building situated at 34th Street and Civic Center Blvd, erected as part of the 1899 National Export Exposition. The museum had business offices at 332 South Fourth Street.",
+    "url": "https://en.wikipedia.org/wiki/Philadelphia_Commercial_Museum"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 809.9,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1375,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1792,
+      "output_tokens": 12642,
+      "thinking_tokens": 12486,
+      "cost_usd": 0.0071694565920000005,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 1158,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1280,
+      "output_tokens": 31610,
+      "thinking_tokens": 31477,
+      "cost_usd": 0.01749259296,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 757,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 16,
+      "thinking_tokens": 0,
+      "cost_usd": 8.37e-05,
+      "calls": 4
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 213,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 1053,
+        "thinking_tokens": 1038,
+        "cost_usd": 0.000615727296,
+        "duration_ms": 20880
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 293,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 3812,
+        "thinking_tokens": 3782,
+        "cost_usd": 0.002138038416,
+        "duration_ms": 71657
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 140,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 828,
+        "thinking_tokens": 797,
+        "cost_usd": 0.000480955392,
+        "duration_ms": 15759
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 186,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 4619,
+        "thinking_tokens": 4581,
+        "cost_usd": 0.002561040432,
+        "duration_ms": 84418
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 543,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 2330,
+        "thinking_tokens": 2288,
+        "cost_usd": 0.001373695056,
+        "duration_ms": 43666
+      }
+    ],
+    "guesser": [
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 71,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 2842,
+        "thinking_tokens": 2803,
+        "cost_usd": 0.001567513296,
+        "duration_ms": 56109
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 156,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 9373,
+        "thinking_tokens": 9327,
+        "cost_usd": 0.005152057776,
+        "duration_ms": 169382
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 250,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 4890,
+        "thinking_tokens": 4889,
+        "cost_usd": 0.002719310976,
+        "duration_ms": 87080
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 293,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 9408,
+        "thinking_tokens": 9373,
+        "cost_usd": 0.005196140496,
+        "duration_ms": 167384
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 388,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 5097,
+        "thinking_tokens": 5085,
+        "cost_usd": 0.002857570416,
+        "duration_ms": 89740
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 184,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.04e-05,
+        "duration_ms": 850
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 189,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.09e-05,
+        "duration_ms": 1071
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 191,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.11e-05,
+        "duration_ms": 907
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 193,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.13e-05,
+        "duration_ms": 963
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🏛️💼🔔</msg>",
+      "delivered": "🏛️💼🔔",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I read 🏛️=building/institution, 💼=business/office/work, 🔔=Bell. My first guess is the office complex:\n\nGUESS: Bell Works",
+      "guess": "Bell Works",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👎\n🔔➡️🏙️\n🧀🥩\n🏛️💼</msg>",
+      "delivered": "👎\n🔔➡️🏙️\n🧀🥩\n🏛️💼",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I now think the bell and cheesesteak point to Philadelphia, and 🏛️💼 suggests a government/office building. I’ll guess the city’s municipal building.\n\nGUESS: Philadelphia City Hall",
+      "guess": "Philadelphia City Hall",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>👎\n🏛️📦🌍🚢\n🖼️\n⏳💤</msg>",
+      "delivered": "👎\n🏛️📦🌍🚢\n🖼️\n⏳💤",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🔔🧀🥩\n🏛️🖼️🗿\n💼💰📦🌍\n⏳❌</msg>",
+      "delivered": "🔔🧀🥩\n🏛️🖼️🗿\n💼💰📦🌍\n⏳❌",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The bell and cheesesteak point to Philadelphia, and the building/image/statue line strongly suggests a major art museum there.\n\nGUESS: Philadelphia Museum of Art",
+      "guess": "Philadelphia Museum of Art",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>👎\n❌🖼️\n💼💰🚢📦🌐\n🏛️\n🔔🧀🥩\n⏳</msg>",
+      "delivered": "👎\n❌🖼️\n💼💰🚢📦🌐\n🏛️\n🔔🧀🥩\n⏳",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: United States Custom House (Philadelphia)",
+      "guess": "United States Custom House (Philadelphia)",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 14,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

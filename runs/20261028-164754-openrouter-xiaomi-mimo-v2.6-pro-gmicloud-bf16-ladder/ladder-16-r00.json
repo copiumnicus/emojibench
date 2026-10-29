@@ -1,0 +1,272 @@
+{
+  "model": "openrouter:xiaomi/mimo-v2.6-pro@gmicloud/bf16",
+  "model_id": "xiaomi/mimo-v2.6-pro",
+  "guesser_model": "openrouter:xiaomi/mimo-v2.6-pro@gmicloud/bf16",
+  "guesser_model_id": "xiaomi/mimo-v2.6-pro",
+  "effort": null,
+  "article": {
+    "title": "Grande Seca",
+    "description": "Brazilian drought (1877–1878)",
+    "extract": "The Grande Seca, or the Brazilian drought of 1877–1878, was the largest and most devastating drought in Brazilian history. It caused the deaths of between 400,000 and 500,000 people. Of the 800,000 people who lived in the affected Northeastern region, around 120,000 migrated to the Amazon while 68,000 migrated to other parts of Brazil.",
+    "url": "https://en.wikipedia.org/wiki/Grande_Seca"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 308.5,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1957,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 3712,
+      "output_tokens": 1740,
+      "thinking_tokens": 1377,
+      "cost_usd": 0.00202295155,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 2357,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1920,
+      "output_tokens": 7393,
+      "thinking_tokens": 6500,
+      "cost_usd": 0.00634515225,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 542,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 12,
+      "thinking_tokens": 0,
+      "cost_usd": 6.02e-05,
+      "calls": 3
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 192,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 620,
+        "thinking_tokens": 582,
+        "cost_usd": 0.0005303524,
+        "duration_ms": 11609
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 320,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 384,
+        "output_tokens": 120,
+        "thinking_tokens": 50,
+        "cost_usd": 0.0002083656,
+        "duration_ms": 6639
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 449,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 640,
+        "output_tokens": 282,
+        "thinking_tokens": 159,
+        "cost_usd": 0.00037673275,
+        "duration_ms": 7348
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 502,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1024,
+        "output_tokens": 605,
+        "thinking_tokens": 530,
+        "cost_usd": 0.0006364936,
+        "duration_ms": 17568
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 494,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1408,
+        "output_tokens": 113,
+        "thinking_tokens": 56,
+        "cost_usd": 0.0002710072,
+        "duration_ms": 4207
+      }
+    ],
+    "guesser": [
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 281,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 2939,
+        "thinking_tokens": 2740,
+        "cost_usd": 0.00227729025,
+        "duration_ms": 106056
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 305,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 1655,
+        "thinking_tokens": 1440,
+        "cost_usd": 0.00133751665,
+        "duration_ms": 59762
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 356,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 1620,
+        "thinking_tokens": 1431,
+        "cost_usd": 0.0013313618,
+        "duration_ms": 50201
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 1152,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 892,
+        "thinking_tokens": 704,
+        "cost_usd": 0.001085586,
+        "duration_ms": 30977
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 263,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1152,
+        "output_tokens": 287,
+        "thinking_tokens": 185,
+        "cost_usd": 0.00031339755,
+        "duration_ms": 11189
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 178,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.98e-05,
+        "duration_ms": 892
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 174,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.94e-05,
+        "duration_ms": 891
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 190,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.1e-05,
+        "duration_ms": 1161
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇧🇷 🏜️☀️🔥💧🚫 ⚰️⚰️⚰️ 🥇 🚶‍♂️🌍</msg>",
+      "delivered": "🇧🇷 🏜️☀️🔥💧🚫 ⚰️⚰️⚰️ 🥇 🚶‍♂️🌍",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Thanks — interesting! Let me check my reading so far:\n\n- 🇧🇷🏜️☀️🔥💧🚫 → a hot, dry region in Brazil (sertão/Caatinga-like)?\n- ⚰️⚰️⚰️ → many deaths (drought? tragedy?)\n- 🥇 → \"first\" / gold medal?\n- 🚶‍♂️🌍 → someone who walks the world (a walker/athlete, or literally walked around the world?)\n\nA few yes/no questions to narrow it down:\n\n1. Is the article about a **person** (biography)?\n2. Is 🥇 about **winning a gold medal in sports**, or something else (\"first ever\")?\n3. Is 🚶‍♂️🌍 literally **race walking / long-distance walking**, or something else?\n4. Are the ⚰️⚰️⚰️ deaths connected to **drought / heat / lack of water**?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n👎 🙅‍♂️👤\n🥇 ➡️ 🥇📜\n🚶‍♂️🌍 ➡️ 🚶‍♂️➡️🗺️ (🏃‍♂️💨)\n👍 ☀️🔥💧🚫 ➡️ ⚰️\n</msg>",
+      "delivered": "👎 🙅‍♂️👤\n🥇 ➡️ 🥇📜\n🚶‍♂️🌍 ➡️ 🚶‍♂️➡️🗺️ 🏃‍♂️💨\n👍 ☀️🔥💧🚫 ➡️ ⚰️",
+      "dropped_chars": 2,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Progress! Drought deaths in a hot, dry Brazilian region confirmed. Now clarifying the rest:\n\n1. What type of article is it? (a) a **place** (town, river, region, park), (b) an **event** (a drought, battle, migration), (c) a **work** (book, film, painting), or (d) something else?\n\n2. Is 🥇📜 meaning **\"first documented/recorded\"** something — e.g. the first recorded drought, or the first written record of a place?\n\n3. Is 🚶‍♂️➡️🗺️🏃‍♂️💨 about **people migrating/fleeing the drought** (retirantes/retreat), or is it a **name** whose meaning relates to walking/running (e.g. a word meaning \"swift\", \"trail\", \"ford\")?\n\n4. Roughly when does the article's main subject occur — 1800s? 1900s?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n👍 🎉 (📰📚)\n🥇 ➡️ 🥇🏆 (🇧🇷📜 ⬆️⬆️⬆️)\n👍 🚶‍♂️➡️🗺️ 🏃‍♂️💨\n📅 1️⃣8️⃣7️⃣7️⃣ ➡️ 1️⃣8️⃣7️⃣8️⃣\n🇧🇷 🇧🇷 🗣️: ☀️🔥🚫💧\n</msg>",
+      "delivered": "👍 🎉 📰📚\n🥇 ➡️ 🥇🏆 🇧🇷📜 ⬆️⬆️⬆️\n👍 🚶‍♂️➡️🗺️ 🏃‍♂️💨\n📅 ➡️\n🇧🇷 🇧🇷 🗣️ ☀️🔥🚫💧",
+      "dropped_chars": 21,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Great progress! My reading: a famous/award-winning 📰📚 Brazilian work about drought and people fleeing the sertão (migrants/retirantes), with deaths from the drought.\n\nA few quick clarifications:\n1. Is the article about a **novel** (fiction book)? Or a real historical drought/event?\n2. Is the title a **number** (e.g. \"O Quinze\") or a phrase about **dryness** (e.g. \"Vidas Secas\")?\n3. When was it published — 1900s? 1930s?\n4. Was the author a **woman**?\n\nMy working guess: it's one of the great Brazilian \"drought cycle\" novels (O Quinze, Vidas Secas, Os Sertões, A Bagaceira). Let me try:\n\nGUESS: Vidas Secas",
+      "guess": "Vidas Secas",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>\n👎 📚 ❌ 👍 🏛️📰 📖🚫\n🇧🇷 🇵🇹 🗣️ ➡️ ⬆️⬆️⬆️ 🏜️💧🚫\n(🗣️🚫🔤) ⬆️⬆️⬆️ 🏜️💧🚫\n</msg>",
+      "delivered": "👎 📚 ❌ 👍 🏛️📰 📖🚫\n🇧🇷 🇵🇹 🗣️ ➡️ ⬆️⬆️⬆️ 🏜️💧🚫\n🗣️🚫 ⬆️⬆️⬆️ 🏜️💧🚫",
+      "dropped_chars": 3,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Very helpful — so not a book, but a 🇧🇷🇵🇹 **Portuguese-language term/phenomenon** related to drought in Brazil (the concept of \"seca\" in the Northeast), with mass migration and deaths.\n\nOne clarifying question before I commit:\n\n1. Is the article **the word/phenomenon itself** (e.g. \"Seca\", \"Sertão\", \"Retirante\")?\n2. Or is it about a **specific historical drought event** (e.g. the Great Drought of 1877 in Ceará)?\n3. Or an **institution/program** to combat droughts (something like DNOCS/Departamento Nacional de Obras contra as Secas)?\n\nWorking hypotheses: \"Sertão\", \"Seca\", or \"Retirante\". Let me start guessing down this line:\n\nGUESS: Seca",
+      "guess": "Seca",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>\n👍 📜 🏛️ 🎯\n⭐⬆️⬆️⬆️ 🏜️💧🚫 ⬆️⬆️⬆️🇧🇷\n💪⬆️ 🆚 🏜️💧🚫\n</msg>",
+      "delivered": "👍 📜 🏛️ 🎯\n⭐⬆️⬆️⬆️ 🏜️💧🚫 ⬆️⬆️⬆️🇧🇷\n💪⬆️ 🏜️💧🚫",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "🏛️📜🎯 — an institution/agency (with a historic \"first in Brazil\" status) whose mission is combating drought in Brazil's dry region. That fits DNOCS (the *Departamento Nacional de Obras contra as Secas*, originally *Inspetoria de Obras contra as Secas*, 1909) — often noted as Brazil's first federal agency for regional development/infrastructure.\n\nGUESS: Departamento Nacional de Obras Contra as Secas",
+      "guess": "Departamento Nacional de Obras Contra as Secas",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 16,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

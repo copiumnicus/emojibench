@@ -1,0 +1,238 @@
+{
+  "model": "openrouter:xiaomi/mimo-v2.6-pro@gmicloud/bf16",
+  "model_id": "xiaomi/mimo-v2.6-pro",
+  "guesser_model": "openrouter:xiaomi/mimo-v2.6-pro@gmicloud/bf16",
+  "guesser_model_id": "xiaomi/mimo-v2.6-pro",
+  "effort": null,
+  "article": {
+    "title": "Iglesia de Santa Ana (Santiago de Chile)",
+    "description": "National monument of Chile",
+    "extract": "The Iglesia de Santa Ana is a Catholic church in downtown Santiago de Chile. It is located at the northwest corner of Catedral and San Martín streets. The church was declared as a National Monument of Chile in 1970, within the category of Historic Monuments. Santa Ana metro station is named after the church.",
+    "url": "https://en.wikipedia.org/wiki/Iglesia_de_Santa_Ana_(Santiago_de_Chile)"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 577.4,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2927,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2688,
+      "output_tokens": 5550,
+      "thinking_tokens": 5267,
+      "cost_usd": 0.00519562245,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 1814,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2304,
+      "output_tokens": 14807,
+      "thinking_tokens": 13734,
+      "cost_usd": 0.0116283366,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 523,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 1553,
+        "thinking_tokens": 1522,
+        "cost_usd": 0.00134182275,
+        "duration_ms": 37768
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 285,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 2231,
+        "thinking_tokens": 2193,
+        "cost_usd": 0.00175694405,
+        "duration_ms": 55068
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 324,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 768,
+        "output_tokens": 808,
+        "thinking_tokens": 711,
+        "cost_usd": 0.0007199262,
+        "duration_ms": 45263
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 1417,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 181,
+        "thinking_tokens": 112,
+        "cost_usd": 0.00065778525,
+        "duration_ms": 9772
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 378,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1408,
+        "output_tokens": 777,
+        "thinking_tokens": 729,
+        "cost_usd": 0.0007191442,
+        "duration_ms": 28502
+      }
+    ],
+    "guesser": [
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 42,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 2934,
+        "thinking_tokens": 2710,
+        "cost_usd": 0.0021860929,
+        "duration_ms": 84875
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 311,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 1417,
+        "thinking_tokens": 1224,
+        "cost_usd": 0.00116373415,
+        "duration_ms": 40159
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 298,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 3351,
+        "thinking_tokens": 3142,
+        "cost_usd": 0.0025899908,
+        "duration_ms": 100973
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 833,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 1802,
+        "thinking_tokens": 1591,
+        "cost_usd": 0.00164145115,
+        "duration_ms": 45642
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 330,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1024,
+        "output_tokens": 5303,
+        "thinking_tokens": 5067,
+        "cost_usd": 0.0040470676,
+        "duration_ms": 129365
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🛐 🔔 🏛️\n😇 🤰\n🌶️ 🏔️\n🇪🇸\n</msg>",
+      "delivered": "🛐 🔔 🏛️\n😇 🤰\n🌶️ 🏔️\n🇪🇸",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Let me read what I can so far: 🛐🔔🏛️ looks like a religious building — church/basilica/monastery with bells, maybe a sanctuary or pilgrimage site. 😇🤰 suggests Mary / the Immaculate Conception / Nativity. 🌶️🏔️ = a \"hot\" or \"red\" mountain (or a serrated peak?). 🇪🇸 = Spain.\n\nA few yes/no questions to narrow it down:\n\n1. Is the article about a **place or building** (a sanctuary, basilica, monastery, cathedral) rather than a person?\n2. Does 🤰😇 refer to the **Virgin Mary** (e.g. Our Lady of ..., Immaculate Conception, Nativity)?\n3. Does 🌶️🏔️ describe the **name of the place/mountain** (e.g. \"hot\", \"red\", \"serrated\", \"burning\" + mountain)?\n\nAnd one open question: what does 🌶️ stand for here — heat/fire, the colour red, or \"spicy/serrated\"?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n✅ ❌ ❌\n\n🇪🇸 🌎 🌶️ 🏔️\n\n🤰 = 🛐's 👶\n</msg>",
+      "delivered": "✅ ❌ ❌\n🇪🇸 🌎 🌶️ 🏔️\n🤰 🛐 👶",
+      "dropped_chars": 3,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Progress: it's a place/building, in the Spanish-speaking Americas, tied to 🌶️🏔️ and to a \"birth\" 🤰👶 (but not Mary specifically).\n\nQuick yes/no questions:\n\n1. Is 🌶️🏔️ meant to read as **Chile** (chili pepper) + Andes — i.e., the place is in **Chile**? Or is 🌶️ just \"hot/red\" and 🏔️ a separate mountain?\n2. Does 🤰👶 stand for the word **\"birth / Nacimiento\"** (or \"Belén/Bethlehem\") — something appearing in the article's **name**?\n3. Is the article primarily about a **settlement/commune** (town, village) rather than a single church building?\n\nAnd one open: what does 🌎 add here — South America, the Americas, \"the New World\"?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n✅ ❌ ❌\n\n🌶️ = 🌎 🏛️\n\n😇 = 🤰\n\n😇's 🧓 = 🛐's 📛\n</msg>",
+      "delivered": "✅ ❌ ❌\n🌶️ 🌎 🏛️\n😇 🤰\n😇 🧓 🛐 📛",
+      "dropped_chars": 7,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Good clues — so it's in **Chile** (🌶️ = Chile, 🌎 = South America), not a settlement, and 🤰👶 isn't literally \"Nacimiento.\"\n\nLet me narrow the subject matter:\n\n1. Is the article about a **work of art** (painting, sculpture, altarpiece) or a **religious event/festival** — rather than a building itself?\n2. Does the article's **title contain a word meaning \"child / baby / boy / birth\"** (e.g., \"Niño\", \"Infante\", \"Adoración\")?\n3. What does 📛 signal here — that the previous emojis give **the name/title** of the thing, or that it is **famous**, or that it's **\"the name of the child\"**?\n\nAnd one open question: who are 🧓 and 😇 in the scene — saints/biblical figures from the Nativity (Joseph, shepherds), or modern people?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>\n❌ ❌\n\n📛 = 🧓's 📛\n\n🤰 = 🧓's 👶\n\n😇 = 🤰\n\n🛐 📛 = 🧓\n\n🧑‍🎄 ❌ → 🙋‍♀️ 📅 📛\n</msg>",
+      "delivered": "❌ ❌\n📛 🧓 📛\n🤰 🧓 👶\n😇 🤰\n🛐 📛 🧓\n🧑‍🎄 ❌ 🙋‍♀️ 📅 📛",
+      "dropped_chars": 9,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Parsing 📛🧓📛 / 🤰🧓👶 / 😇🤰 / 🛐📛🧓 / 🧑‍🎄❌🙋‍♀️📅📛 — this reads like a biographical timeline: name of a man, his birth (parents), angelic/religious veneration, and a feast/date involving a woman's name.\n\nThree yes/no questions:\n\n1. Is the article about a **person** (a saint, blessed, or religious figure) — male, not female?\n2. Does 🤰🧓👶 mean **his parents / his birth** (mother, father, baby)?\n3. Is the article about a **shrine / image of the Virgin Mary in Chile** instead, with 🧓 meaning something else (e.g. \"the elderly\" or a saint)?\n\nAnd one open: what does 🧑‍🎄❌🙋‍♀️📅📛 mean exactly — \"his feast day is not Christmas but a date named after a woman\"?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>\n❌ ❌ ✅\n\n🧓 = ♀️\n🧓 = 🤰's 📛\n\n🏛️ 🔔 🛐\n\n🌶️ ⚜️\n</msg>",
+      "delivered": "❌ ❌ ✅\n🧓 ♀️\n🧓 🤰 📛\n🏛️ 🔔 🛐\n🌶️ ⚜️",
+      "dropped_chars": 4,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Now I know: a shrine/image of the Virgin Mary in Chile. Let me pin down the specific one.\n\n1. Is the article primarily about the **church/sanctuary building** (basilica, santuario) rather than the statue/image itself?\n2. Does the article's **title include a place name** (a town/city in Chile, e.g. \"de Maipú\", \"de Andacollo\", \"de la Tirana\")?\n3. Does 🧓 refer to a **person from the foundation legend** (an old man, an indigenous man, a hermit) who **gave the place/shrine its name**?\n4. What does ⚜️ signal here — **gold/crown**, **purity/lily**, or **a French / Bourbon connection**?\n\nAnd one open: does 🧑‍🎄❌🙋‍♀️📅📛 mean the feast is **not Christmas** but a date named after a woman? Which feast — something like **16 July (Carmen)**, **2 February (Candelaria)**, or **26 December**?",
+      "guess": null,
+      "correct": null
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 15,
+    "round": 1,
+    "n_banned": 16,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

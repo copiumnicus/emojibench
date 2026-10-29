@@ -1,0 +1,282 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Iglesia de Santa Ana (Santiago de Chile)",
+    "description": "National monument of Chile",
+    "extract": "The Iglesia de Santa Ana is a Catholic church in downtown Santiago de Chile. It is located at the northwest corner of Catedral and San Martín streets. The church was declared as a National Monument of Chile in 1970, within the category of Historic Monuments. Santa Ana metro station is named after the church.",
+    "url": "https://en.wikipedia.org/wiki/Iglesia_de_Santa_Ana_(Santiago_de_Chile)"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 152.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1825,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 5474,
+      "output_tokens": 2199,
+      "thinking_tokens": 1916,
+      "cost_usd": 0.0270924,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 2785,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1609,
+      "thinking_tokens": 1339,
+      "cost_usd": 0.02166,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 564,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 12,
+      "thinking_tokens": 0,
+      "cost_usd": 6.24e-05,
+      "calls": 3
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1063,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 554,
+        "thinking_tokens": 516,
+        "cost_usd": 0.008196,
+        "duration_ms": 24477
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 204,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1060,
+        "output_tokens": 412,
+        "thinking_tokens": 350,
+        "cost_usd": 0.0047345,
+        "duration_ms": 15919
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 203,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1261,
+        "output_tokens": 489,
+        "thinking_tokens": 415,
+        "cost_usd": 0.0055221,
+        "duration_ms": 19745
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 234,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1461,
+        "output_tokens": 459,
+        "thinking_tokens": 402,
+        "cost_usd": 0.0053196,
+        "duration_ms": 17188
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 121,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1692,
+        "output_tokens": 285,
+        "thinking_tokens": 233,
+        "cost_usd": 0.0033202,
+        "duration_ms": 10999
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 296,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 239,
+        "thinking_tokens": 150,
+        "cost_usd": 0.002982,
+        "duration_ms": 8688
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 447,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 315,
+        "thinking_tokens": 284,
+        "cost_usd": 0.004044,
+        "duration_ms": 12076
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 568,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 553,
+        "thinking_tokens": 501,
+        "cost_usd": 0.006666,
+        "duration_ms": 21085
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 684,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 208,
+        "thinking_tokens": 171,
+        "cost_usd": 0.003448,
+        "duration_ms": 7589
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 790,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 294,
+        "thinking_tokens": 233,
+        "cost_usd": 0.00452,
+        "duration_ms": 11548
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 191,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.11e-05,
+        "duration_ms": 898
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 184,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.04e-05,
+        "duration_ms": 898
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 189,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.09e-05,
+        "duration_ms": 921
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "🫑🔥 🧊\n🙌 🔕 🏗\n🛷🦌 👩‍🦰\n🚝",
+      "delivered": "🫑🔥 🧊\n🙌 🔕\n🛷🦌 👩‍🦰\n🚝",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🏗️"
+      ],
+      "retried": false,
+      "guesser": "The first line makes me think of Red Hot Chili Peppers, perhaps “Snow (Hey Oh).” Is this a song, a person, or a film? Can you give another clue for the title?\nGUESS: Snow (Hey Oh)\n\nDoes 🫑🔥 mean Red Hot Chili Peppers? Is the article a song?\nGUESS: Snow (Hey Oh)",
+      "guess": "Snow (Hey Oh)",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "🎵 🙅🏻‍♂️\n🗾 🇪🇨 🇨🇴 🇺🇾 🇵🇾\n🫑 🏔 🔕\n🏩 🙌 🐠\n👩‍🦰 🧕🏻",
+      "delivered": "🎵\n🗾 🇪🇨 🇨🇴 🇺🇾 🇵🇾\n🫑 🔕\n🏩 🙌 🐠\n👩‍🦰",
+      "dropped_chars": 3,
+      "off_keyboard": [
+        "🙅🏻‍♂️",
+        "🏔️",
+        "🧕🏻"
+      ],
+      "retried": false,
+      "guesser": "Is this a Red Hot Chili Peppers song? Do the flags indicate places mentioned in its lyrics?\nGUESS: Dani California",
+      "guess": "Dani California",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "🎵 🔇 🔇 🔇\n🏨 🙌 🐑 🐠\n🇮🇹 🤴\n🇺🇾 🇵🇾 🇪🇨 🇨🇴\n📏 ❄️ 🏝️\n👩‍🦰 ❄️ ⛄ 👭🏻",
+      "delivered": "🎵 🔇 🔇 🔇\n🏨 🙌 🐑 🐠\n🇮🇹 🤴\n🇺🇾 🇵🇾 🇪🇨 🇨🇴\n📏 ❄️ 🏝️\n👩‍🦰 ❄️ ⛄",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "👭🏻"
+      ],
+      "retried": false,
+      "guesser": "Are 🫑🔥 clues for the band Red Hot Chili Peppers, or for the words “hot” and “cold”? Is this a Christmas song? What does the hotel–hands–sheep–fish sequence represent?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "🛑 🎵 🛑 🎸 🛑 🎬\n🏳️ 🫑 📏\n🏥 🙌 🧑‍🎄\n🧑‍🎄 🍌\n🚝 🕰️",
+      "delivered": "🛑 🎵 🛑 🎸 🛑 🎬\n🏳️ 🫑 📏\n🏥 🙌 🧑‍🎄\n🧑‍🎄 🍌\n🚝 🕰️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I understand now: not music or film—Chile, the long country! Is this the Santiago Metro station Santa Ana?\nGUESS: Santa Ana metro station",
+      "guess": "Santa Ana metro station",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "🚝 🤏\n⛩️ 🙌 🐑 🐠\n🧑‍🎄 🍌\n🏳️ 🫑 📏\n🕰️ 🏨 🏵",
+      "delivered": "🚝 🤏\n⛩️ 🙌 🐑 🐠\n🧑‍🎄 🍌\n🏳️ 🫑 📏\n🕰️ 🏨",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🏵️"
+      ],
+      "retried": false,
+      "guesser": "Is the article a small railway station in Chile, named “Santa …”? Does 🧑‍🎄🍌 mean “Santa Ana,” or a different saint’s name? Please show the name in parts, and clarify whether 🚝 means a station or a town.",
+      "guess": null,
+      "correct": null
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 15,
+    "round": 8,
+    "n_banned": 205,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

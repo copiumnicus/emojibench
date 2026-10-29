@@ -1,0 +1,178 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Dora Akunyili",
+    "description": "Nigerian pharmacist and government official (1954–2014)",
+    "extract": "Dora Nkem Akunyili was a Nigerian pharmacist and politician who served as the director-general of National Agency for Food and Drug Administration and Control (NAFDAC) of Nigeria from 2001 to 2008.",
+    "url": "https://en.wikipedia.org/wiki/Dora_Akunyili"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 48.9,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2489,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1310,
+      "thinking_tokens": 1115,
+      "cost_usd": 0.009039,
+      "calls": 3
+    },
+    "guesser": {
+      "input_tokens": 1270,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 742,
+      "thinking_tokens": 648,
+      "cost_usd": 0.00498,
+      "calls": 3
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 636,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 516,
+        "thinking_tokens": 454,
+        "cost_usd": 0.003216,
+        "duration_ms": 12429
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 830,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 422,
+        "thinking_tokens": 356,
+        "cost_usd": 0.00294,
+        "duration_ms": 10895
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 1023,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 372,
+        "thinking_tokens": 305,
+        "cost_usd": 0.002883,
+        "duration_ms": 9237
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 316,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 422,
+        "thinking_tokens": 377,
+        "cost_usd": 0.002426,
+        "duration_ms": 7932
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 426,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 252,
+        "thinking_tokens": 216,
+        "cost_usd": 0.001686,
+        "duration_ms": 5893
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 528,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 68,
+        "thinking_tokens": 55,
+        "cost_usd": 0.000868,
+        "duration_ms": 2560
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>💚🤍💚 🎌 🌏\n👵 🩺 🧫 🏪\n🍛 🧫 📜 🔨\n⛔ 🎭 💰 🧫\n🏅 🕯️</msg>",
+      "delivered": "💚🤍💚 🎌 🌏\n👵 🩺 🧫 🏪\n🍛 🧫 📜 🔨\n⛔ 💰 🧫\n🏅 🕯️",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🎭"
+      ],
+      "retried": false,
+      "guesser": "I’m reading this as a woman microbiologist or doctor, perhaps associated with Nigeria and Japan, who received an award after her death. Is that close? What do the flags and curry represent?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👍 💚🤍💚 🦁🦒\n❌ 🇯🇵\n\n👵 🧫 🏪\n🍛 🧫 📜 🔨\n🧫 🎭 ❌\n🏅 🕯️</msg>",
+      "delivered": "👍 💚🤍💚 🦁🦒\n❌ 🇯🇵\n👵 🧫 🏪\n🍛 🧫 📜 🔨\n🧫 ❌\n🏅 🕯️",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🎭"
+      ],
+      "retried": false,
+      "guesser": "A Nigerian woman microbiologist, associated with food science and an award after her death? Can you give clues to her name using emoji sounds or initials?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🔊\n🍩 🐀\n😮 🦄 🪷\n\n👵 💚🤍💚\n🤒 🥄 🧫 🏪\n🍛 🧫 📜\n🎭 🧫 ⛔</msg>",
+      "delivered": "🔊\n🍩 🐀\n😮 🦄 🪷\n👵 💚🤍💚\n🤒 🥄 🧫 🏪\n🍛 🧫 📜\n🧫 ⛔",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🎭"
+      ],
+      "retried": false,
+      "guesser": "GUESS: Dora Akunyili",
+      "guess": "Dora Akunyili",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 12,
+    "round": 4,
+    "n_banned": 70,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

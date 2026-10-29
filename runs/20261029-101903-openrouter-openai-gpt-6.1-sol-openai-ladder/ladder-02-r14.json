@@ -1,0 +1,252 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Iron(III) sulfate",
+    "description": "Chemical compound",
+    "extract": "Iron(III) sulfate or ferric sulfate is a family of inorganic compounds with the formula Fe2(SO4)3(H2O)n. A variety of hydrates are known, including the most commonly encountered form of \"ferric sulfate\". Solutions are used in dyeing as a mordant and as a coagulant for industrial wastes. Solutions of ferric sulfate are also used in the processing of aluminum and steel.",
+    "url": "https://en.wikipedia.org/wiki/Iron(III)_sulfate"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 132.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2163,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 6581,
+      "output_tokens": 2483,
+      "thinking_tokens": 2182,
+      "cost_usd": 0.0308881,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 2620,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1019,
+      "thinking_tokens": 734,
+      "cost_usd": 0.01543,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1372,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 565,
+        "thinking_tokens": 516,
+        "cost_usd": 0.0090785,
+        "duration_ms": 23124
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 187,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1369,
+        "output_tokens": 529,
+        "thinking_tokens": 479,
+        "cost_usd": 0.0058929,
+        "duration_ms": 18467
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 178,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1553,
+        "output_tokens": 580,
+        "thinking_tokens": 516,
+        "cost_usd": 0.0063988,
+        "duration_ms": 22432
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 206,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1728,
+        "output_tokens": 504,
+        "thinking_tokens": 439,
+        "cost_usd": 0.0057263,
+        "duration_ms": 18856
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 220,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1931,
+        "output_tokens": 305,
+        "thinking_tokens": 232,
+        "cost_usd": 0.0037916,
+        "duration_ms": 11768
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 300,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 140,
+        "thinking_tokens": 70,
+        "cost_usd": 0.002,
+        "duration_ms": 5130
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 408,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 132,
+        "thinking_tokens": 82,
+        "cost_usd": 0.002136,
+        "duration_ms": 5859
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 520,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 181,
+        "thinking_tokens": 131,
+        "cost_usd": 0.00285,
+        "duration_ms": 5978
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 634,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 311,
+        "thinking_tokens": 249,
+        "cost_usd": 0.004378,
+        "duration_ms": 11745
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 758,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 255,
+        "thinking_tokens": 202,
+        "cost_usd": 0.004066,
+        "duration_ms": 9314
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🥘 🧡 👆👆👆\n🧙‍♂️ 🥣\n🚾 🏚️ 🟫\n🎡 🥘</msg>",
+      "delivered": "🥘 🧡 👆👆👆\n🧙‍♂️ 🥣\n🏚️\n🎡 🥘",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🟫"
+      ],
+      "retried": false,
+      "guesser": "Is this a food/dish, or a fictional work (book/film)? Please indicate the category and, if possible, its country or language.\n\nIs the article about a food/dish, or a fictional work (book/film)? Please indicate its category and country or language.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🍽️ 👎🏻\n🎬 📕 🙃\n👨‍🏫 🧑‍🔧 🥘\n🟨 👆👆👆</msg>",
+      "delivered": "🍽️\n🎬 📕 🙃\n👨‍🏫 🧑‍🔧 🥘\n👆👆👆",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "👎🏻",
+        "🟨"
+      ],
+      "retried": false,
+      "guesser": "I understand it’s a dish, not a film or book. Does 👆👆👆 mean “three,” “above,” or “the previous clues”? Can you show its main ingredients and place of origin?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🍽️ ✖️ 🎬 ✖️ 📕 ✖️\n👨‍🏫 🥽 ✖️\n⚕️ 🧰 🥘\n👁️ 🏃\n👆👆👆</msg>",
+      "delivered": "🍽️ ✖️ 🎬 ✖️ 📕 ✖️\n👨‍🏫 ✖️\n⚕️ 🧰 🥘\n👁️ 🏃\n👆👆👆",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🥽"
+      ],
+      "retried": false,
+      "guesser": "Could this be a person whose job involves repairing pots—a tinker? Does 👁️ 🏃 mean “I ran” → Iran? Please indicate whether it’s a person, place, object, or concept.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>👤 ✖️ 🗾 ✖️ 🍽️ ✖️\n👂 👁️ 🏃\n👆👆👆\n👂 👻 🔮\n🧑‍🔧 🧰 🥣</msg>",
+      "delivered": "✖️ 🗾 ✖️ 🍽️ ✖️\n👂 👁️ 🏃\n👆👆👆\n👂 👻 🔮\n🧑‍🔧 🧰 🥣",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "👤"
+      ],
+      "retried": false,
+      "guesser": "Does 👂 👁️ 🏃 mean the sound “iron”? Are you describing a band or musician—for example, Iron Maiden—or a term related to magic? Please give a category symbol: 👤 person, 📍 place, 🎵 music, 💡 concept.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>👂 👁️🏃 ✔️\n🎸 ✖️ 🎤 ✖️\n💡 ✔️\n👁️🏃 🤟 ✖️ 👆👆👆\n👂 👻 🔮\n🥘 🥣 🧑‍🏫</msg>",
+      "delivered": "👂 👁️🏃 ✔️\n✖️ ✖️\n💡 ✔️\n👁️🏃 ✖️ 👆👆👆\n👂 👻 🔮\n🥘 🥣",
+      "dropped_chars": 4,
+      "off_keyboard": [
+        "🎸",
+        "🎤",
+        "🤟",
+        "🧑‍🏫"
+      ],
+      "retried": false,
+      "guesser": "Is this a kind of divination or magic using a bowl or cauldron, such as lecanomancy? Or is the concept “irony”? What does 👆👆👆 add to the sound “iron”?",
+      "guess": null,
+      "correct": null
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 2,
+    "round": 14,
+    "n_banned": 309,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

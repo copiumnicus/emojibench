@@ -1,0 +1,184 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Dorothy Cottrell",
+    "description": "Australian writer",
+    "extract": "Ida Dorothy Ottley Cottrell was an Australian writer. Born in Picton, she contracted infantile paralysis as a child and spent the rest of her life in a wheelchair. Cottrell married Walter Mackenzie Cottrell on 23 May 1922. Her first novel, The Singing Gold, was published in 1928. She wrote a story Wilderness Orphan (1936) which was the basis for the feature film Orphan of the Wilderness (1936). She lived for a time in the US and also worked as an artist and cartoonist.",
+    "url": "https://en.wikipedia.org/wiki/Dorothy_Cottrell"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 39.3,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1837,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 537,
+      "thinking_tokens": 260,
+      "cost_usd": 0.004522,
+      "calls": 3
+    },
+    "guesser": {
+      "input_tokens": 1364,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1256,
+      "thinking_tokens": 1163,
+      "cost_usd": 0.007644,
+      "calls": 3
+    },
+    "judge": {
+      "input_tokens": 174,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 1.94e-05,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 438,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 194,
+        "thinking_tokens": 113,
+        "cost_usd": 0.001408,
+        "duration_ms": 5130
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 589,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 188,
+        "thinking_tokens": 97,
+        "cost_usd": 0.001529,
+        "duration_ms": 4081
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 810,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 155,
+        "thinking_tokens": 50,
+        "cost_usd": 0.001585,
+        "duration_ms": 2988
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 312,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 779,
+        "thinking_tokens": 712,
+        "cost_usd": 0.004207,
+        "duration_ms": 14637
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 460,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 306,
+        "thinking_tokens": 293,
+        "cost_usd": 0.00199,
+        "duration_ms": 7171
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 592,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 171,
+        "thinking_tokens": 158,
+        "cost_usd": 0.001447,
+        "duration_ms": 4463
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 174,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.94e-05,
+        "duration_ms": 855
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇦🇺 👩‍🦽 ✍️ 📚 🎨\n👶 🦠 ➡️ 👩‍🦽\n🎵 🥇 📖\n🌳 🐾 👶 🎬\n🌪️ 👧 🐕 👠 🧙‍♀️ 🌈</msg>",
+      "delivered": "🇦🇺 👩‍🦽 ✍️ 📚 🎨\n👶 🦠 ➡️ 👩‍🦽\n🎵 🥇 📖\n🌳 🐾 👶 🎬\n🌪️ 👧 🐕 👠 🧙‍♀️ 🌈",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is she the author or illustrator of a children’s book adapted into a film? Please give clues for her name and the book title.\n\nIs she the author or illustrator of a children’s book adapted into a film? Please give clues for her name and the book title.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👍 ✍️ 📖 ➡️ 🎬\n📖: 👶 ❌ 👨‍👩‍👧 🌳 🌿 🦘\n👩: 🌪️ 👧 🐕 👠 🧙‍♀️ 🌈\n👩: 🛏️ + 🚂🛤️\n📚 🎵 🥇</msg>",
+      "delivered": "👍 ✍️ 📖 ➡️ 🎬\n📖 👶 ❌ 👨‍👩‍👧 🌳 🌿 🦘\n👩 🌪️ 👧 🐕 👠 🧙‍♀️ 🌈\n👩 🛏️ 🚂🛤️\n📚 🎵 🥇",
+      "dropped_chars": 4,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Ethel Pedley",
+      "guess": "Ethel Pedley",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>👎\n👩 📛\n🌪️ 👧 🐕 👠 🧙‍♀️ 🌈\n➕\n👶 🛏️ ➕ 🚆 🛤️\n📖 🎵 🥇\n📖 🌲 🦘 👶 ❌ 👨‍👩‍👧 ➡️ 🎬\n🇦🇺 ✍️ 👩‍🦽 🎨</msg>",
+      "delivered": "👎\n👩 📛\n🌪️ 👧 🐕 👠 🧙‍♀️ 🌈\n➕\n👶 🛏️ ➕ 🚆 🛤️\n📖 🎵 🥇\n📖 🌲 🦘 👶 ❌ 👨‍👩‍👧 ➡️ 🎬\n🇦🇺 ✍️ 👩‍🦽 🎨",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Dorothy Cottrell",
+      "guess": "Dorothy Cottrell",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 13,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

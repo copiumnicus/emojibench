@@ -1,0 +1,174 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Jakob von Washington",
+    "description": "Bavarian general (1778–1848)",
+    "extract": "\nBaron Jacobus von Washington was a lieutenant general in the Bavarian Army and a distant relative of US President George Washington. Born in The Hague, Netherlands, he was christened James Washington. Most of his adult life was shaped by his participation in wars for and against Napoleonic France and his service to Ludwig I of Bavaria.",
+    "url": "https://en.wikipedia.org/wiki/Jakob_von_Washington"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 51.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2081,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 888,
+      "thinking_tokens": 653,
+      "cost_usd": 0.006521,
+      "calls": 3
+    },
+    "guesser": {
+      "input_tokens": 1341,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1611,
+      "thinking_tokens": 1517,
+      "cost_usd": 0.009396,
+      "calls": 3
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 570,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 547,
+        "thinking_tokens": 473,
+        "cost_usd": 0.003305,
+        "duration_ms": 12227
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 701,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 251,
+        "thinking_tokens": 180,
+        "cost_usd": 0.001956,
+        "duration_ms": 5758
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 810,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 90,
+        "thinking_tokens": 0,
+        "cost_usd": 0.00126,
+        "duration_ms": 1998
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 329,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 498,
+        "thinking_tokens": 444,
+        "cost_usd": 0.002819,
+        "duration_ms": 9062
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 447,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 961,
+        "thinking_tokens": 933,
+        "cost_usd": 0.005252,
+        "duration_ms": 18060
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 565,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 152,
+        "thinking_tokens": 140,
+        "cost_usd": 0.001325,
+        "duration_ms": 3919
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🔵⚪ 🍻 🏰 🪖 ⭐⭐\n\n👨 🔗 👨 🪓 🍒 🌳 🦅 🗽\n\n📖 🐑 👨\n\n🌷 🌊 🏙️\n\n🥖 🎩 🪖 💥\n</msg>",
+      "delivered": "🔵⚪ 🍻 🏰 🪖 ⭐⭐\n👨 🔗 👨 🪓 🍒 🌳 🦅 🗽\n📖 🐑 👨\n🌷 🌊 🏙️\n🥖 🎩 🪖 💥",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is this a military officer connected to George Washington? What do the book, sheep and man represent?\n\nIs this a military officer connected to George Washington? What do the book, sheep, and man represent?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n✅ 🪖 🩸 👨 🪓 🍒 🌳 🗽\n\n📖 🧔 🐑 🤼 😇\n\n🧔 🪖 🔵⚪ 🍻 🏰\n\n🥖 🎩 🪖 💥\n</msg>",
+      "delivered": "✅ 🪖 🩸 👨 🪓 🍒 🌳 🗽\n📖 🧔 🐑 🤼 😇\n🧔 🪖 🔵⚪ 🍻 🏰\n🥖 🎩 🪖 💥",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Does the biblical clue mean **Jacob** or **Israel**? Is the blue-and-white castle clue Bavaria?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n✅ 📖 🧔 🐑 🤼 😇\n\n✅ 🔵⚪ 🍻 🏰\n\n🧔 📛 ❌ 📖 🧔 🐑 🤼 😇\n\n🧔 🪖 🔵⚪ 🍻 🏰\n\n🧔 🩸 👨 🪓 🍒 🌳 🗽\n</msg>",
+      "delivered": "✅ 📖 🧔 🐑 🤼 😇\n✅ 🔵⚪ 🍻 🏰\n🧔 ❌ 📖 🧔 🐑 🤼 😇\n🧔 🪖 🔵⚪ 🍻 🏰\n🧔 🩸 👨 🪓 🍒 🌳 🗽",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "📛"
+      ],
+      "retried": false,
+      "guesser": "GUESS: Jakob von Washington",
+      "guess": "Jakob von Washington",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 6,
+    "round": 1,
+    "n_banned": 34,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

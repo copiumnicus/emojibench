@@ -1,0 +1,238 @@
+{
+  "model": "openrouter:deepseek/deepseek-v4-pro-0813@baidu/fp8",
+  "model_id": "deepseek/deepseek-v4-pro-0813",
+  "guesser_model": "openrouter:deepseek/deepseek-v4-pro-0813@baidu/fp8",
+  "guesser_model_id": "deepseek/deepseek-v4-pro-0813",
+  "effort": null,
+  "article": {
+    "title": "Sage Derby",
+    "description": "Variety of cheese",
+    "extract": "Sage Derby is a variety of Derby cheese that is mild, mottled green and semi-hard, and has a sage flavour. The colour is from sage and sometimes other colouring added to the curds, producing a marbling effect and a subtle herb flavour. The colour is formed either by mixing sage leaves into the curd before it is pressed or by the addition of \"green curd\" from green corn or spinach juice. In the latter case, the flavour has to be created with colourless sage extract. Parsley, spinach and marigold leaves, bruised and steeped before use, can also be included instead of the sage leaves. It is aged for one to three months.",
+    "url": "https://en.wikipedia.org/wiki/Sage_Derby"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 400.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 937,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 3328,
+      "output_tokens": 5439,
+      "thinking_tokens": 5357,
+      "cost_usd": 0.002740126848,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 1114,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1536,
+      "output_tokens": 16089,
+      "thinking_tokens": 15773,
+      "cost_usd": 0.007242464952,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 149,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 3763,
+        "thinking_tokens": 3741,
+        "cost_usd": 0.001874838336,
+        "duration_ms": 71615
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 259,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 570,
+        "thinking_tokens": 553,
+        "cost_usd": 0.000290884824,
+        "duration_ms": 10995
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 93,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 768,
+        "output_tokens": 511,
+        "thinking_tokens": 497,
+        "cost_usd": 0.000241821936,
+        "duration_ms": 10644
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 173,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 768,
+        "output_tokens": 423,
+        "thinking_tokens": 409,
+        "cost_usd": 0.000214862256,
+        "duration_ms": 8519
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 263,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 768,
+        "output_tokens": 172,
+        "thinking_tokens": 157,
+        "cost_usd": 0.000117719496,
+        "duration_ms": 4557
+      }
+    ],
+    "guesser": [
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 105,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 7228,
+        "thinking_tokens": 7154,
+        "cost_usd": 0.003193717752,
+        "duration_ms": 132732
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 202,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 2321,
+        "thinking_tokens": 2260,
+        "cost_usd": 0.001051009272,
+        "duration_ms": 41772
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 280,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 2162,
+        "thinking_tokens": 2107,
+        "cost_usd": 0.000992547792,
+        "duration_ms": 40365
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 351,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 1794,
+        "thinking_tokens": 1729,
+        "cost_usd": 0.000841192632,
+        "duration_ms": 31313
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 176,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 2584,
+        "thinking_tokens": 2523,
+        "cost_usd": 0.001163997504,
+        "duration_ms": 47468
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🦉🍃🟩🎩🫕</msg>",
+      "delivered": "🦉🍃🟩🎩🫕",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "🦉🍃🟩🎩🫕 — I see owl, leaf, green, top hat, fondue.\n\nPlease answer with ✅/❌:  \n(1) Is the article about a **place**?  \n(2) Is it a **living thing**?  \n(3) Is it a **creative/fictional work**?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>✖️✖️✖️</msg>",
+      "delivered": "✖️✖️✖️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Please answer ✅/❌:\n1. Is the article about a **physical object** (not a living thing or place)?\n2. Is it about a **concept/idea/phenomenon** (abstract)?\n3. Is it about an **event** (something that happened)?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🙆 🙅 🙅</msg>",
+      "delivered": "🙆 🙅 🙅",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "✅/❌ please:\n1. Is the physical object **edible** (a food/drink)?\n2. Is it something **worn** (clothing/accessory)?\n3. Is it a **tool/device** used by people?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🙆 🙅 🙅</msg>",
+      "delivered": "🙆 🙅 🙅",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "✅/❌ please:\n1. Is the article about a **beverage** (drink)?\n2. Is it a **plant or plant part** used as food (fruit, vegetable, herb, spice)?\n3. Is it a **prepared dish** (cooked/mixed food)?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>🙅 🙅 🙅</msg>",
+      "delivered": "🙅 🙅 🙅",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "✅/❌ please:\n\n1. Is the article about a **cheese or other dairy product**?\n2. Is the food **green in color**?\n3. Is it **named after a place** (e.g., Roquefort, Gouda, Parma)?",
+      "guess": null,
+      "correct": null
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 19,
+    "round": 2,
+    "n_banned": 16,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

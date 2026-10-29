@@ -1,0 +1,253 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "UFC BJJ 2",
+    "description": "Martial arts event in 2025",
+    "extract": "UFC BJJ 2: Tackett vs. Canuto was a submission grappling event produced by UFC Brazilian Jiu-Jitsu. The event was held at the UFC Apex in Las Vegas, Nevada, United States, on July 31, 2025 and was streamed live on YouTube.",
+    "url": "https://en.wikipedia.org/wiki/UFC_BJJ_2"
+  },
+  "solved": true,
+  "turns_taken": 5,
+  "solved_turn": 5,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 79.2,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2952,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2340,
+      "output_tokens": 1000,
+      "thinking_tokens": 640,
+      "cost_usd": 0.016889,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 3098,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1131,
+      "thinking_tokens": 850,
+      "cost_usd": 0.017506,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 180,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 2e-05,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 603,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 424,
+        "thinking_tokens": 365,
+        "cost_usd": 0.005446,
+        "duration_ms": 15289
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 838,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 163,
+        "thinking_tokens": 97,
+        "cost_usd": 0.003306,
+        "duration_ms": 6113
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1044,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 197,
+        "thinking_tokens": 118,
+        "cost_usd": 0.0045785,
+        "duration_ms": 8218
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 261,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1041,
+        "output_tokens": 86,
+        "thinking_tokens": 19,
+        "cost_usd": 0.0016151,
+        "duration_ms": 2994
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 206,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1299,
+        "output_tokens": 130,
+        "thinking_tokens": 41,
+        "cost_usd": 0.0019434,
+        "duration_ms": 4094
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 318,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 236,
+        "thinking_tokens": 130,
+        "cost_usd": 0.002996,
+        "duration_ms": 8099
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 487,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 251,
+        "thinking_tokens": 196,
+        "cost_usd": 0.003484,
+        "duration_ms": 10417
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 622,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 238,
+        "thinking_tokens": 181,
+        "cost_usd": 0.003624,
+        "duration_ms": 8996
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 763,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 357,
+        "thinking_tokens": 308,
+        "cost_usd": 0.005096,
+        "duration_ms": 11796
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 908,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 49,
+        "thinking_tokens": 35,
+        "cost_usd": 0.002306,
+        "duration_ms": 2262
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 180,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2e-05,
+        "duration_ms": 870
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "⛓️ 🤸 🧎 🔒 🦶\n\n🦄 🦊 🐈\n🐝 🃏 🃏\n🔢 ⚫⚫\n\n🌃 💵 🎡\n📹 🌍",
+      "delivered": "⛓️ 🤸 🧎 🔒 🦶\n🦄 🦊 🐈\n🐝 🃏 🃏\n⚫⚫\n🌃 💵 🎡\n📹 🌍",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is this about a person, a film, or a physical activity? The first line makes me think of bondage, restraints, or unusual gymnastics; the night/money/Ferris wheel line suggests Las Vegas. Could you clarify the main subject?\n\nIs it a person, a film, or a physical activity? I’m reading the first line as bondage/restraints or unusual gymnastics, and 🌃 💵 🎡 as Las Vegas. Please clarify the main subject.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "🤸 🆚 🤸\n🦶 🔒 🏳️‍🌈❓\n🌃 💵 🎡\n🎬 📡\n\n🦄 🦊 🐈\n🐝 🃏 🃏\n✖️✖️",
+      "delivered": "🤸 🤸\n🦶 🔒 🏳️‍🌈❓\n🌃 💵 🎡\n🎬 📡\n🦄 🦊 🐈\n🐝 🃏 🃏\n✖️✖️",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is the subject an acrobat or contortionist who performs in Las Vegas, perhaps a duo? Does ✖️✖️ mean “female,” “adult entertainment,” or simply “no”? Please distinguish a specific performer from a show.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "🙅 🎭 🙅 💃\n⚔️ 🛡️ 🩸\n🤸 🤜 🤛 🤸\n🦶 🔒 😖 🏳️‍⚧️\n🕸️ 🕸️ 🕸️\n🌃 💵 🎡\n🎬 📡\n✌︎",
+      "delivered": "🙅 🙅 💃\n⚔️ 🛡️ 🩸\n🤸 🤜 🤛 🤸\n🦶 🔒 😖 🏳️‍⚧️\n🕸️ 🕸️ 🕸️\n🌃 💵 🎡\n🎬 📡",
+      "dropped_chars": 3,
+      "off_keyboard": [
+        "🎭",
+        "✌️"
+      ],
+      "retried": false,
+      "guesser": "I now read 🦄🦊🐈 as UFC and 🐝🃏🃏 as BJJ. The leg locks, Las Vegas prize money, and worldwide streaming suggest a grappling event.\n\nGUESS: Craig Jones Invitational",
+      "guess": "Craig Jones Invitational",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "🎯 🦄🦊🐈 🐝🃏🃏 🎯\n🔢 👉 ⚫⚫\n🥉 ➖ ⚫\n📖 👉 🦄🦊🐈 🐝🃏🃏 ⚫⚫",
+      "delivered": "🎯 🦄🦊🐈 🐝🃏🃏 🎯\n👉 ⚫⚫\n🥉 ➖ ⚫\n📖 👉 🦄🦊🐈 🐝🃏🃏 ⚫⚫",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Are ⚫⚫ referring to a black belt rank, or to a person’s name? Is the article about an individual UFC fighter/BJJ practitioner? If so, please give clues to their name and nationality.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "🙅 🧑\n🎯 🦄🦊🐈 🐝🃏🃏\n☝️ ➕ ☝️ 🟰 🐈🐈\n🥉 ➖ ☝️ 🟰 🐈🐈\n📖 🦄🦊🐈 🐝🃏🃏 🐈🐈",
+      "delivered": "🙅 🧑\n🎯 🦄🦊🐈 🐝🃏🃏\n☝️ ➕ ☝️ 🟰 🐈🐈\n🥉 ➖ ☝️ 🟰 🐈🐈\n📖 🦄🦊🐈 🐝🃏🃏 🐈🐈",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: UFC BJJ 2",
+      "guess": "UFC BJJ 2",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 5,
+    "round": 2,
+    "n_banned": 58,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

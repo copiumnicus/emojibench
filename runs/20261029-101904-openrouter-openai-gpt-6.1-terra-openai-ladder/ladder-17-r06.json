@@ -1,0 +1,228 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "7's Football League",
+    "description": "Football league",
+    "extract": "The 7's Football League is a seven-a-side football league in the Philippines. Established in 2018, the league already had four seasons. It has a two-tiered men's division, a women's division, and youth divisions. The league is an open tournament with participation from representative sides of the domestic football competition, the Philippines Football League.",
+    "url": "https://en.wikipedia.org/wiki/7's_Football_League"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 70.5,
+  "usage": {
+    "explainer": {
+      "input_tokens": 3254,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1299,
+      "output_tokens": 1826,
+      "thinking_tokens": 1389,
+      "cost_usd": 0.01281395,
+      "calls": 4
+    },
+    "guesser": {
+      "input_tokens": 2344,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1385,
+      "thinking_tokens": 1230,
+      "cost_usd": 0.009269,
+      "calls": 4
+    },
+    "judge": {
+      "input_tokens": 348,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 3.88e-05,
+      "calls": 2
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 769,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 817,
+        "thinking_tokens": 720,
+        "cost_usd": 0.004854,
+        "duration_ms": 18555
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 1019,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 403,
+        "thinking_tokens": 302,
+        "cost_usd": 0.003034,
+        "duration_ms": 7403
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 1302,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 390,
+        "thinking_tokens": 276,
+        "cost_usd": 0.00357675,
+        "duration_ms": 8750
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 164,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1299,
+        "output_tokens": 216,
+        "thinking_tokens": 91,
+        "cost_usd": 0.0013492,
+        "duration_ms": 4045
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 348,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 276,
+        "thinking_tokens": 231,
+        "cost_usd": 0.001728,
+        "duration_ms": 6485
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 490,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 438,
+        "thinking_tokens": 391,
+        "cost_usd": 0.00268,
+        "duration_ms": 10392
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 674,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 387,
+        "thinking_tokens": 350,
+        "cost_usd": 0.002609,
+        "duration_ms": 7925
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 832,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 284,
+        "thinking_tokens": 258,
+        "cost_usd": 0.002252,
+        "duration_ms": 5136
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 182,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.02e-05,
+        "duration_ms": 952
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 166,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.86e-05,
+        "duration_ms": 856
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🇯🇵 🔽 🛺 🥭 🔼 🇦🇺\n\n🩴 🟤 🥢\n\n🟡🟡🟡🟡🟡🟡🟡\n🆚\n🟣🟣🟣🟣🟣🟣🟣\n\n🥈 🥉 📅\n</msg>",
+      "delivered": "🇯🇵 🔽 🛺 🥭 🔼 🇦🇺\n🩴 🟤 🥢\n🟡🟡🟡🟡🟡🟡🟡\n🟣🟣🟣🟣🟣🟣🟣\n🥈 🥉 📅",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I’m thinking the place is somewhere between Japan and Australia, perhaps the Philippines. Are we looking for a person, a place, or something else? What do the yellow and purple circles represent?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n🇯🇵 🔽 🛺 🥭 🔼 🇦🇺 ✔️\n\n🧔🧔🧔🧔🧔🧔🧔\n🆚\n👱👱👱👱👱👱👱👱\n\n🩴 💥 🟤\n🇬🇧 🏈\n🥈 🥉 📅\n</msg>",
+      "delivered": "🇯🇵 🔽 🛺 🥭 🔼 🇦🇺 ✔️\n🧔🧔🧔🧔🧔🧔🧔\n👱👱👱👱👱👱👱👱\n🩴 💥 🟤\n🇬🇧 🏈\n🥈 🥉 📅",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is this an event involving both men’s and women’s rugby sevens teams? Do the silver and bronze medals belong to the Philippines?\n\nGUESS: Rugby sevens at the 2019 Southeast Asian Games",
+      "guess": "Rugby sevens at the 2019 Southeast Asian Games",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n🏈 🙅\n🏀 🐼 🙅\n🏀 🐼 🥿 💥 ✔️\n\n🧔🧔🧔🧔🧔🧔🧔\n👱👱👱👱👱👱👱\n🤜🤛\n\n🇯🇵 🔽 🛺 🥭 🔼 🇦🇺\n📆 📆 📆 📆\n🪜 🪜\n</msg>",
+      "delivered": "🏈 🙅\n🏀 🐼 🙅\n🏀 🐼 🥿 💥 ✔️\n🧔🧔🧔🧔🧔🧔🧔\n👱👱👱👱👱👱👱\n🤜🤛\n🇯🇵 🔽 🛺 🥭 🔼 🇦🇺\n📆 📆 📆 📆\n🪜 🪜",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Football in the Philippines, with two groups of seven teams and league standings across several seasons? Are the silver and bronze clues about the second and third tiers?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>\n🇯🇵 🔽 🛺 🥭 🔼 🇦🇺 ✔️\n🥿 💥 🏀 ✔️\n\n🧔🧔🧔🧔🧔🧔🧔\n🆚\n🧔🧔🧔🧔🧔🧔🧔\n\n🟡🟡🟡🟡🟡🟡🟡\n🥿💥🏀\n🤝📆\n</msg>",
+      "delivered": "🇯🇵 🔽 🛺 🥭 🔼 🇦🇺 ✔️\n🥿 💥 🏀 ✔️\n🧔🧔🧔🧔🧔🧔🧔\n🧔🧔🧔🧔🧔🧔🧔\n🟡🟡🟡🟡🟡🟡🟡\n🥿💥🏀\n🤝📆",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Seven-a-side football in the Philippines—a league or tournament?\n\nGUESS: 7s Football League",
+      "guess": "7s Football League",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 17,
+    "round": 6,
+    "n_banned": 117,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

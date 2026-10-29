@@ -1,0 +1,297 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Iglesia de Santa Ana (Santiago de Chile)",
+    "description": "National monument of Chile",
+    "extract": "The Iglesia de Santa Ana is a Catholic church in downtown Santiago de Chile. It is located at the northwest corner of Catedral and San Martín streets. The church was declared as a National Monument of Chile in 1970, within the category of Historic Monuments. Santa Ana metro station is named after the church.",
+    "url": "https://en.wikipedia.org/wiki/Iglesia_de_Santa_Ana_(Santiago_de_Chile)"
+  },
+  "solved": true,
+  "turns_taken": 5,
+  "solved_turn": 5,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 128.9,
+  "usage": {
+    "explainer": {
+      "input_tokens": 3432,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2461,
+      "output_tokens": 3141,
+      "thinking_tokens": 2748,
+      "cost_usd": 0.0196718,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 2650,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 3134,
+      "thinking_tokens": 3013,
+      "cost_usd": 0.01832,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 762,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 16,
+      "thinking_tokens": 0,
+      "cost_usd": 8.42e-05,
+      "calls": 4
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 843,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 905,
+        "thinking_tokens": 859,
+        "cost_usd": 0.005368,
+        "duration_ms": 18488
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 933,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 397,
+        "thinking_tokens": 336,
+        "cost_usd": 0.002918,
+        "duration_ms": 8159
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 1112,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 774,
+        "thinking_tokens": 695,
+        "cost_usd": 0.00525925,
+        "duration_ms": 16948
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 246,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1109,
+        "output_tokens": 468,
+        "thinking_tokens": 342,
+        "cost_usd": 0.0027022,
+        "duration_ms": 10422
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 298,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1352,
+        "output_tokens": 597,
+        "thinking_tokens": 516,
+        "cost_usd": 0.00342435,
+        "duration_ms": 12207
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 303,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 322,
+        "thinking_tokens": 288,
+        "cost_usd": 0.001913,
+        "duration_ms": 6651
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 393,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 885,
+        "thinking_tokens": 870,
+        "cost_usd": 0.004818,
+        "duration_ms": 14899
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 502,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 921,
+        "thinking_tokens": 876,
+        "cost_usd": 0.005107,
+        "duration_ms": 16717
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 673,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 528,
+        "thinking_tokens": 516,
+        "cost_usd": 0.003313,
+        "duration_ms": 10496
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 779,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 478,
+        "thinking_tokens": 463,
+        "cost_usd": 0.003169,
+        "duration_ms": 10256
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 191,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.11e-05,
+        "duration_ms": 950
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 187,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.07e-05,
+        "duration_ms": 862
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 190,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.1e-05,
+        "duration_ms": 900
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 194,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.14e-05,
+        "duration_ms": 916
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🏫 🪦\n\n🎄 🍍\n\n🌉 🥪 🐅 🐈\n\n🥣 🔥\n\n🚂 🕳️</msg>",
+      "delivered": "🏫 🪦\n🎄 🍍\n🌉 🥪 🐅 🐈\n🥣 🔥\n🚂 🕳️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is this a place? What does each line represent: the name, location, or something associated with it? Please break down the clues.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🙆\n\n🏫 🪦 🧕 🪽\n\n🌏 🥣 🔥 🏙\n\n🚂 🕳️ 🏫\n\n🧕 🪽 🟰 🧕 🧕</msg>",
+      "delivered": "🙆\n🏫 🪦 🧕 🪽\n🌏 🥣 🔥\n🚂 🕳️ 🏫\n🧕 🪽 🧕 🧕",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🏙️",
+        "🟰"
+      ],
+      "retried": false,
+      "guesser": "GUESS: Convent Bukit Nanas",
+      "guess": "Convent Bukit Nanas",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🏫 🫸🫷 🧔 🪦\n\n📌 🌎 🦙 🥣 🔥\n📌 🥪 🐅 🐈\n\n🏫 📛\n🧔 🎄\n♀️ ⛄\n\n🚂 🕳️ 📛 🏫</msg>",
+      "delivered": "🏫 🫸🫷 🧔 🪦\n📌 🦙 🥣 🔥\n📌 🥪 🐅 🐈\n🏫 📛\n🧔 🎄\n♀️ ⛄\n🚂 🕳️ 📛 🏫",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🌎"
+      ],
+      "retried": false,
+      "guesser": "I understand Kuala Lumpur and a girls’ school. Does the school’s name refer to Santa Claus and Snow White? Is the railway tunnel named after the school?\n\nGUESS: St. John's Institution",
+      "guess": "St. John's Institution",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🙅\n\n🏫 🫸🫷 🧔 🪦\n🏫 🫸🫷 🧔 🪦\n\n🌎 🙅\n🌏 🙅\n🌍 🙅\n\n🇺🇾 🇵🇾 🇪🇨 🇨🇴\n🦙 🗾 🥣 🔥\n\n🏫 📛\n🎄\n♀️ 👈 ♀️ 👈 👦 🫸🫷\n\n🚂 🕳️ 📛 🏫</msg>",
+      "delivered": "🏫 🫸🫷 🧔 🪦\n🏫 🫸🫷 🧔 🪦\n🌏\n🇺🇾 🇵🇾 🇪🇨 🇨🇴\n🦙 🗾 🥣 🔥\n🏫 📛\n🎄\n♀️ 👈 ♀️ 👈 👦 🫸🫷\n🚂 🕳️ 📛 🏫",
+      "dropped_chars": 6,
+      "off_keyboard": [
+        "🙅",
+        "🌎",
+        "🙅",
+        "🙅",
+        "🌍",
+        "🙅"
+      ],
+      "retried": false,
+      "guesser": "GUESS: Colegio Santa Ana",
+      "guess": "Colegio Santa Ana",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>🔥🔥🔥\n\n🏫 🚫\n🛕 🕌 ⛩️ 🏫 🧔 🪦\n\n🎄 ♀️\n\n📌 🦙 🥣 🔥\n📌 🥪 🍵 🐈\n\n🚂 🕳️ 📛 🎄 ♀️</msg>",
+      "delivered": "🔥🔥🔥\n🏫\n🛕 🕌 ⛩️ 🏫 🧔 🪦\n🎄 ♀️\n📌 🦙 🥣 🔥\n📌 🥪 🍵 🐈\n🚂 🕳️ 📛 🎄 ♀️",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🚫"
+      ],
+      "retried": false,
+      "guesser": "GUESS: Church of Santa Ana, Santiago",
+      "guess": "Church of Santa Ana, Santiago",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 15,
+    "round": 6,
+    "n_banned": 143,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

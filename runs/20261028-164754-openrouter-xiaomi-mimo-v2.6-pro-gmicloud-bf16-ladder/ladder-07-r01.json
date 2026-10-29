@@ -1,0 +1,261 @@
+{
+  "model": "openrouter:xiaomi/mimo-v2.6-pro@gmicloud/bf16",
+  "model_id": "xiaomi/mimo-v2.6-pro",
+  "guesser_model": "openrouter:xiaomi/mimo-v2.6-pro@gmicloud/bf16",
+  "guesser_model_id": "xiaomi/mimo-v2.6-pro",
+  "effort": null,
+  "article": {
+    "title": "Mad River Mountain",
+    "description": "Ski resort in Ohio, United States",
+    "extract": "Mad River Mountain is a ski and snowboard resort in Valley Hi, Ohio, United States. The elevation of Mad River Mountain is 1,460 feet (450 m) with a vertical drop of 300 ft (91 m), and it has a ski season that runs from approximately mid-December through mid-March. The resort, which opened in 1962 as Valley Hi Ski Area, is owned by EPR Properties and operated by Vail Resorts, who bought the resort from Peak Resorts in 2019.",
+    "url": "https://en.wikipedia.org/wiki/Mad_River_Mountain"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 1225.1,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1958,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 3712,
+      "output_tokens": 2981,
+      "thinking_tokens": 2831,
+      "cost_usd": 0.0029410408,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 1385,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2816,
+      "output_tokens": 39473,
+      "thinking_tokens": 38202,
+      "cost_usd": 0.02971196165,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 356,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 75,
+      "thinking_tokens": 67,
+      "cost_usd": 7.31e-05,
+      "calls": 2
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 560,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 1137,
+        "thinking_tokens": 1092,
+        "cost_usd": 0.0010478715,
+        "duration_ms": 67489
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 320,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 627,
+        "thinking_tokens": 600,
+        "cost_usd": 0.0005837273,
+        "duration_ms": 20477
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 381,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 768,
+        "output_tokens": 379,
+        "thinking_tokens": 357,
+        "cost_usd": 0.00042375645,
+        "duration_ms": 13941
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 391,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1024,
+        "output_tokens": 235,
+        "thinking_tokens": 209,
+        "cost_usd": 0.00032183635,
+        "duration_ms": 12538
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 306,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1408,
+        "output_tokens": 603,
+        "thinking_tokens": 573,
+        "cost_usd": 0.0005638492,
+        "duration_ms": 20850
+      }
+    ],
+    "guesser": [
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 30,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 2328,
+        "thinking_tokens": 2094,
+        "cost_usd": 0.0017335189,
+        "duration_ms": 77605
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 302,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 5160,
+        "thinking_tokens": 4889,
+        "cost_usd": 0.0039283549,
+        "duration_ms": 157693
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 350,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 12083,
+        "thinking_tokens": 11869,
+        "cost_usd": 0.0090665318,
+        "duration_ms": 350623
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 352,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 768,
+        "output_tokens": 7997,
+        "thinking_tokens": 7791,
+        "cost_usd": 0.0060465447,
+        "duration_ms": 212682
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 351,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1024,
+        "output_tokens": 11905,
+        "thinking_tokens": 11559,
+        "cost_usd": 0.00893701135,
+        "duration_ms": 288599
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 175,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.95e-05,
+        "duration_ms": 1045
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Azure",
+        "input_tokens": 181,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 71,
+        "thinking_tokens": 67,
+        "cost_usd": 5.36e-05,
+        "duration_ms": 1534
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>😠🛶 🗻 🎿🚠🌰</msg>",
+      "delivered": "😠🛶 🗻 🎿🚠🌰",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Let me share my read so far and narrow it down.\n\nMy interpretation of the emojis: a mountainous place (🗻) with skiing (🎿) and a cable car/gondola lift (🚠), associated with chestnuts (🌰), and something about an angry/furious + canoe/boat (😠🛶) — maybe whitewater/rafting, or maybe that's a name pun.\n\nA few quick yes/no questions (answer with 👍/👎 style or any emojis):\n\n1. Is the article about a **place** (town/village/region/mountain)?\n2. Is it in **Europe** (e.g., Alps / Mediterranean)?\n3. Does 😠🛶 mean **whitewater/rafting** (a river activity) rather than part of a name?\n4. Is 🌰 literally **chestnut** (the tree/food), as in a place known for chestnuts?\n\nIf you can, tell me the country in one emoji (🇮🇹🇫🇷🇩🇪🇦🇹🇨🇭🇪🇸🇵🇹🇸🇰🇸🇮🇭🇷🇬🇷🇹🇷🇬🇪🇺🇸🇨🇦🇧🇷 etc.).",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>✅ 🚫 ✅ 🚫\n🌰🌰🌰 🦅 😠🛶</msg>",
+      "delivered": "✅ 🚫 ✅ 🚫\n🌰🌰🌰 🦅 😠🛶",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Thanks — that helps! So far I have: a **place** (not in Europe), **mountain + ski + cable car/gondola**, **whitewater rafting** (😠🛶 = rapids, got it), plus **eagle** and **chestnut ×3** (not literal chestnut trees/food — so maybe a name meaning, a color, or a substitute for a banned emoji).\n\nA few quick questions to pin it down (feel free to answer tersely):\n\n1. Is the article title a **settlement/town**, or is it a **mountain / river / ski resort**?\n2. Does the title literally contain a word meaning **\"eagle\"** (águila/águia/adler/kartal/…)?\n3. Does the title contain a word meaning **\"chestnut\"** — or is 🌰 standing in for something else (e.g., a color, a nut generally, or a banned emoji like a tree/bird)?\n4. Continent: is it in **South America**, **Asia**, or **North America**?\n\nMy working guesses to test: is it somewhere like \"Kartalkaya\" (eagle rock, Turkey) or a \"Castaños/Castanheira\"-type place in the Americas?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>✅ 🚫 🌰🌰🌰 🍁🗺️</msg>",
+      "delivered": "✅ 🚫 🌰🌰🌰 🍁🗺️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Good — so: a **town in Canada** (🍁), with **mountain + ski + gondola + whitewater rafting**, and an **eagle** connection, and 🌰🌰🌰 = chestnut(s)?\n\nMy best theory right now: the gondola is the **\"Golden Eagle\" Express** (Kicking Horse Mtn Resort), the rafting is the **Kicking Horse River**, the town is in the BC Rockies… and 🌰🌰🌰 is your substitute for a \"gold/golden\" emoji (or possibly \"horse chestnut\" → Kicking Horse).\n\nQuick clarifications (answer briefly):\n1. Is the town in **British Columbia**?\n2. Does the title literally contain a word meaning **\"chestnut\"** (or is 🌰 just a stand-in for a color like gold/brown)?\n3. Is the eagle part of a proper name (like a lift/resort), rather than the town's name?\n\nGuessing my leading candidate:\n\nGUESS: Golden",
+      "guess": "Golden",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🗽 ✅ 🍁 🚫 🌰🌰🌰 🅾️</msg>",
+      "delivered": "🗽 ✅ 🍁 🚫 🌰🌰🌰",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Progress: the place is (probably) in **British Columbia / Canada**, the title has **\"chestnut\"** in it, the eagle is context (not in the title), and the 😠🛶 = rafting is real.\n\nTo pin the exact title, please answer in these fixed formats so there's no ambiguity:\n\n1. Does the title literally contain the English word **\"Chestnut\"**? → reply ✅ or 🚫\n2. How many words are in the title? → reply 1️⃣ 2️⃣ 3️⃣ or 4️⃣\n3. Is the place in the **USA** (🇺🇸) or **Canada** (🇨🇦)?\n4. Is the title's second/last word a **landform** like Mountain/Ridge/Hill/Creek? → 🚻🗻🌿💧 style hint is fine\n\nMeanwhile, a stab in the dark:\n\nGUESS: Chestnut Mountain",
+      "guess": "Chestnut Mountain",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>🚫 3️⃣ 🗽 🗻\n😠🛶🎿🚠🌰🌰🌰</msg>",
+      "delivered": "🚫 🗽 🗻\n😠🛶🎿🚠🌰🌰🌰",
+      "dropped_chars": 2,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Good — that clarifies a lot: a **mountain in the USA**, no literal \"Chestnut\" in the title, ski + gondola + whitewater rafting, eagle as context.\n\nNow I want to nail what 🌰🌰🌰 encodes. Three options I can think of:\n(a) the title is a word **meaning \"chestnut\" in another language** (Spanish *Castaño*, Italian *Castagna*, Algonquian *Chinquapin*...), \n(b) 🌰 is standing in for a banned **tree/nut** emoji (so the title contains a tree name like \"Tamarack\", \"Beech\", \"Buckeye\", \"Roan\"...), or \n(c) the title contains **\"nut\"**.\n\nPlease answer exactly like this:\n1. Which one: (a) → 🅰️, (b) → 🅱️, (c) → ©️\n2. How many words in the title: 1️⃣ 2️⃣ 3️⃣\n3. What state? (one emoji, e.g., 🏔️=CO, 🌲=WA/OR, 🤠=MT/WY, 🌶️=NM, 🐻=CA, 🍁=VT/NH, 🎿=ID, 🐟=AK, 🦌=NC/TN, ⛰️=PA/NY/WV)\n\nAnd if you can, is the title's meaning literally a **color** (like \"red/chestnut-brown\")? 👍/👎",
+      "guess": null,
+      "correct": null
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 7,
+    "round": 1,
+    "n_banned": 12,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

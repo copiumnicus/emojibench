@@ -1,0 +1,294 @@
+{
+  "model": "openrouter:minimax/minimax-m3@minimax",
+  "model_id": "minimax/minimax-m3",
+  "guesser_model": "openrouter:minimax/minimax-m3@minimax",
+  "guesser_model_id": "minimax/minimax-m3",
+  "effort": null,
+  "article": {
+    "title": "Mike Pieciak",
+    "description": "American politician (born 1983)",
+    "extract": "Michael Sullivan Pieciak is an American politician from Vermont. A member of the Democratic Party, Pieciak has served as Vermont State Treasurer since January 2023.",
+    "url": "https://en.wikipedia.org/wiki/Mike_Pieciak"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 2291.3,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1901,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 4515,
+      "output_tokens": 10484,
+      "thinking_tokens": 10175,
+      "cost_usd": 0.013422,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 2179,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 3712,
+      "output_tokens": 234165,
+      "thinking_tokens": 232599,
+      "cost_usd": 0.28187442,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 873,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 20,
+      "thinking_tokens": 0,
+      "cost_usd": 9.730000000000001e-05,
+      "calls": 5
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 416,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 128,
+        "output_tokens": 843,
+        "thinking_tokens": 804,
+        "cost_usd": 0.00114408,
+        "duration_ms": 10396
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 338,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 544,
+        "output_tokens": 1966,
+        "thinking_tokens": 1899,
+        "cost_usd": 0.00249324,
+        "duration_ms": 24349
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 425,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 882,
+        "output_tokens": 1859,
+        "thinking_tokens": 1823,
+        "cost_usd": 0.00241122,
+        "duration_ms": 28563
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 347,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1307,
+        "output_tokens": 1377,
+        "thinking_tokens": 1302,
+        "cost_usd": 0.00183492,
+        "duration_ms": 15195
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 375,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1654,
+        "output_tokens": 4439,
+        "thinking_tokens": 4347,
+        "cost_usd": 0.00553854,
+        "duration_ms": 47173
+      }
+    ],
+    "guesser": [
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 313,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 128,
+        "output_tokens": 21642,
+        "thinking_tokens": 21375,
+        "cost_usd": 0.02607198,
+        "duration_ms": 188389
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 669,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 128,
+        "output_tokens": 48491,
+        "thinking_tokens": 48166,
+        "cost_usd": 0.05839758,
+        "duration_ms": 556659
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 413,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 768,
+        "output_tokens": 58765,
+        "thinking_tokens": 58487,
+        "cost_usd": 0.07068798,
+        "duration_ms": 547596
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 405,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1152,
+        "output_tokens": 56495,
+        "thinking_tokens": 56229,
+        "cost_usd": 0.06798462,
+        "duration_ms": 483016
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 379,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1536,
+        "output_tokens": 48772,
+        "thinking_tokens": 48342,
+        "cost_usd": 0.05873226,
+        "duration_ms": 384918
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 172,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.92e-05,
+        "duration_ms": 960
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 173,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.93e-05,
+        "duration_ms": 1020
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 175,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.95e-05,
+        "duration_ms": 934
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 178,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.98e-05,
+        "duration_ms": 1131
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 175,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.95e-05,
+        "duration_ms": 1009
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🎤 🥧 👁️ ✅ 🇺🇸 🏔️ 🌲 💰 🏛️ 🗓️ 🔵</msg>",
+      "delivered": "🎤 🥧 👁️ ✅ 🇺🇸 🏔️ 🌲 💰 🏛️ 🗓️ 🔵",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "**Working reading of your emoji string:** 🎤 = music/song, 🥧 = pie, 👁️ = eye/\"I\", ✅ = yes/true, 🇺🇸 = American/U.S., 🏔️ = rock/mountain, 🌲 = tree/Holly, 💰 = money/price, 🏛️ = king/government/court, 🗓️ = day/date, 🔵 = blue.\n\nMy leading hypothesis: a **song** about America + a pie (\"day the music died\", Buddy **Holly**, the \"price that I had to pay\", rock 'n' roll, the king, a date).\n\nQuick yes/no questions (please answer with one emoji per item, ✅/❌ or a better emoji):\n1. Is the subject a **song** (🎵)? 2. A **film** (🎬)? 3. A **person** (👤)? 4. A **place** (📍)?\n2. Does the title contain a word meaning **pie** (🥧) and one meaning **American** (🇺🇸)?\n3. Are 💰🏛️🗓️🔵 about *price / king / the day / blue*, or something else?\n\nGUESS: American Pie",
+      "guess": "American Pie",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>❌❌✅❌\n💰🏛️🗓️🔵\n🇺🇸🧑🗳️👶🐖🐇\n🧀🍁🏔️\n👁️🔑🥧👁️✅</msg>",
+      "delivered": "❌❌✅❌\n💰🏛️🗓️🔵\n🇺🇸🧑🗳️👶🐖🐇\n🧀🍁🏔️\n👁️🔑🥧👁️✅",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Reading your second message as: **U.S. man + voting + baby + pig + rabbit + cheese + maple + mountain**, with earlier hints **money, court/capitol, date, blue, tree/pine, music/song, pie, \"I\"/yes**. First turn's ✅/❌/✅/❌ tells me: **person, not song, not film, not place**.\n\nPlease answer each numbered item with **✅ or ❌** (one per line), and for the last item give up to **6 emojis that literally appear in the title**:\n\n1. Real historical person (not a fictional character)? \n2. Primarily a singer/songwriter/musician? \n3. Does the title literally contain the word \"pie\"? \n4. Does the title contain words meaning **blue** and **mountain/rock**? \n5. Are 🐖🐇🧀🍁🏔️ (pig, rabbit, cheese, maple, mountain) the titles of his songs/works, or names of characters he created? \n6. Is 👶🗳️ (baby, vote) = a nickname like \"Baby\"/\"Babe\" + a real election he won/ran in? \n7. 💰🏛️🗓️🔵 = money + court/capitol + a specific date + blue — all relevant to his story? \n8. Extra: can you spell his **first name** with letter emojis (🅰️🅱️🅲️…)?\n\nGUESS: Don McLean",
+      "guess": "Don McLean",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>✅\n❌\n❌\n❌\n❌\n❌\n✅\n🎤🥧👁️✅</msg>",
+      "delivered": "✅\n❌\n❌\n❌\n❌\n❌\n✅\n🎤🥧👁️✅",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Reading your last message as: the clues are a *concept web* (not necessarily title words) — e.g. a person nicknamed \"Baby\"/\"Babe\"-type, an American man who ran in a real election, plus money, a court/capitol, a date, \"blue\", and odd links to pig, rabbit, cheese, maple, mountain, eye, key, pie.\n\nPlease answer each numbered question with ✅ (yes) or ❌ (no), one per line, and add any extra emojis:\n\n1. Is the person's nickname exactly \"Bubba\"?\n2. Is the person's nickname exactly \"Babe\"?\n3. Is the person's nickname exactly \"Sonny\"?\n4. Is the person's nickname exactly \"Junior\"?\n5. Does the nickname contain the word \"Little\"?\n6. Did he run in / win a **U.S. presidential** election?\n7. Did he run in / win a **mayoral or other local** election?\n8. Was he a **judge or lawyer** (court = his own profession)?\n9. Was he mainly a **businessman / financier / banker** (money = his own wealth)?\n10. Is \"Blue\" part of his **name or nickname**?\n\nExtra: does the article title contain a nickname in parentheses, e.g. Name (\"Nickname\")?\n\nGUESS: Sonny Bono",
+      "guess": "Sonny Bono",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>❌\n❌\n❌\n❌\n❌\n❌\n❌\n❌\n❌\n❌\n\n🎤🥧👁️✅\n🧑🗳️💼💰🏛️🐴\n🍁⛰️🟢📅</msg>",
+      "delivered": "❌\n❌\n❌\n❌\n❌\n❌\n❌\n❌\n❌\n❌\n🎤🥧👁️✅\n🧑🗳️💼💰🏛️🐴\n🍁⛰️🟢📅",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I've decoded a lot of clusters (money/court/date/blue; man/vote/briefcase/capitol/horse; maple/mountain/green/date; baby/pig/rabbit/cheese; eye/key/pie/yes; America/music/pine). I need to pin down the subject's domain and get a per-word spelling.\n\nPlease answer with **one ✅ or ❌ per line, in this order** (12 lines):\n\n1. Real historical person (not a fictional/legendary figure)?\n2. Male?\n3. American (from the United States)?\n4. Politician / held public office?\n5. Served in Congress or a state legislature?\n6. Businessman, merchant, or store owner?\n7. Singer, musician, or actor?\n8. Writer, journalist, or poet?\n9. Lawman, sheriff, judge, or lawyer?\n10. Farmer, rancher, or cowboy?\n11. Has a nickname used in the title?\n12. Does the title contain \"the\"?\n\nThen, **after those lines**, please add one emoji per word of the title (one line per word, in title order) — or spell it with single-letter emojis (🇦🇧🇨 style) if you can.\n\nGUESS: Wild Bill Hickok",
+      "guess": "Wild Bill Hickok",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>✅\n✅\n✅\n✅\n✅\n❌\n❌\n❌\n❌\n❌\n❌\n❌\n\n🇲 🇮 🇰 🇪\n🇵 🇮 🇪 🇨 🇮 🇦 🇰\n\n🇺🇸 🔵 🗳️ 💰 🏛️ 🗓️ 🏔️ 🌲 🍁</msg>",
+      "delivered": "✅\n✅\n✅\n✅\n✅\n❌\n❌\n❌\n❌\n❌\n❌\n❌\n🇺🇸 🔵 🗳️ 💰 🏛️ 🗓️ 🏔️ 🌲 🍁",
+      "dropped_chars": 11,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "**Status:** I think the subject is a **real American male politician who served in Congress**, possibly nicknamed **\"Bubba\"**, possibly also a judge/lawyer. My word-list (🇺🇸🔵🗳️💰🏛️🗓️🏔️🌲🍁 + 🎤🥧👁️✅) may be *topics* rather than literal title words — so please help me pin down the **surname's meaning** and the **title's words**.\n\nPlease answer with **✅/❌**, one per line, in this order (12 lines):\n\n1. Was he a **U.S. Representative** (House member)?\n2. Was he a **U.S. Senator**?\n3. Was he a **state legislator / state representative**?\n4. Was he a **judge**?\n5. Was he a **lawyer**?\n6. Was he a **Democrat** (🔵 blue)?\n7. Is the nickname really **\"Bubba\"**?\n8. Does his **surname mean a tree** (Wood, Pine, Maple, Ash, Oak, Fir)?\n9. Does his **surname mean a hill / mountain / rock** (Hill, Mount, Rock, Stone, Peak)?\n10. Does his **surname mean money** (Cash, Dollar, Buck, Penny, Gold, Silver)?\n11. Does his **surname mean a color** (Blue, Green, Gray, White, Brown)?\n12. Does his **surname mean an animal** (Colt, Hare, Hog, Boar, Buck, Horse, Dog, Fox)?\n\nThen please add, in addition:\n- **How many words** does the title have? (write the number)\n- **First letter of each word** of the title, using single-letter emojis (🅰️🅱️🅲️…).\n- His **first name** (spelled with letter emojis) and **surname** (spelled with letter emojis) if you can.\n\nGUESS: Bubba Smith",
+      "guess": "Bubba Smith",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 4,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

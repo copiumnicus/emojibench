@@ -1,0 +1,106 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Iron(III) sulfate",
+    "description": "Chemical compound",
+    "extract": "Iron(III) sulfate or ferric sulfate is a family of inorganic compounds with the formula Fe2(SO4)3(H2O)n. A variety of hydrates are known, including the most commonly encountered form of \"ferric sulfate\". Solutions are used in dyeing as a mordant and as a coagulant for industrial wastes. Solutions of ferric sulfate are also used in the processing of aluminum and steel.",
+    "url": "https://en.wikipedia.org/wiki/Iron(III)_sulfate"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 15.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 501,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 275,
+      "thinking_tokens": 168,
+      "cost_usd": 0.003752,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 358,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 194,
+      "thinking_tokens": 180,
+      "cost_usd": 0.002656,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 501,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 275,
+        "thinking_tokens": 168,
+        "cost_usd": 0.003752,
+        "duration_ms": 8104
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 358,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 194,
+        "thinking_tokens": 180,
+        "cost_usd": 0.002656,
+        "duration_ms": 6926
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🔬⚛️\n🩸🗡️🛤️　⚡⚡⚡\n🗡️🗡️　🌋🌬️🌬️🌬️🌬️　🌋🌬️🌬️🌬️🌬️　🌋🌬️🌬️🌬️🌬️\n🧵🎨　🗑️🫧🧹</msg>",
+      "delivered": "🔬⚛️\n🩸🗡️🛤️ ⚡⚡⚡\n🗡️🗡️ 🌋🌬️🌬️🌬️🌬️ 🌋🌬️🌬️🌬️🌬️ 🌋🌬️🌬️🌬️🌬️\n🧵🎨 🗑️🫧🧹",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Iron(III) sulfate",
+      "guess": "Iron(III) sulfate",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 2,
+    "round": 1,
+    "n_banned": 10,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

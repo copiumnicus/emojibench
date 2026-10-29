@@ -1,0 +1,261 @@
+{
+  "model": "openrouter:deepseek/deepseek-v4-pro-0813@baidu/fp8",
+  "model_id": "deepseek/deepseek-v4-pro-0813",
+  "guesser_model": "openrouter:deepseek/deepseek-v4-pro-0813@baidu/fp8",
+  "guesser_model_id": "deepseek/deepseek-v4-pro-0813",
+  "effort": null,
+  "article": {
+    "title": "Proceratium silaceum",
+    "description": "Species of ant",
+    "extract": "Proceratium silaceum is a species of ant in the family Formicidae.",
+    "url": "https://en.wikipedia.org/wiki/Proceratium_silaceum"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 1365.4,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1252,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2560,
+      "output_tokens": 20856,
+      "thinking_tokens": 20693,
+      "cost_usd": 0.013227681216,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 1120,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1536,
+      "output_tokens": 53963,
+      "thinking_tokens": 53803,
+      "cost_usd": 0.034803002544,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 341,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 3.8100000000000005e-05,
+      "calls": 2
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 328,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 3224,
+        "thinking_tokens": 3204,
+        "cost_usd": 0.002272249344,
+        "duration_ms": 63212
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 163,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 2959,
+        "thinking_tokens": 2935,
+        "cost_usd": 0.001840962816,
+        "duration_ms": 56379
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 255,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 5860,
+        "thinking_tokens": 5827,
+        "cost_usd": 0.003628810416,
+        "duration_ms": 112709
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 353,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 4960,
+        "thinking_tokens": 4923,
+        "cost_usd": 0.003099875856,
+        "duration_ms": 90181
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 153,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 768,
+        "output_tokens": 3853,
+        "thinking_tokens": 3804,
+        "cost_usd": 0.002385782784,
+        "duration_ms": 70180
+      }
+    ],
+    "guesser": [
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 360,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 19477,
+        "thinking_tokens": 19418,
+        "cost_usd": 0.01334790864,
+        "duration_ms": 352650
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 189,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 3578,
+        "thinking_tokens": 3534,
+        "cost_usd": 0.002481807264,
+        "duration_ms": 69640
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 281,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 13766,
+        "thinking_tokens": 13729,
+        "cost_usd": 0.008453834928,
+        "duration_ms": 248659
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 116,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 10534,
+        "thinking_tokens": 10527,
+        "cost_usd": 0.006450946656,
+        "duration_ms": 185792
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 174,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 6608,
+        "thinking_tokens": 6595,
+        "cost_usd": 0.004068505056,
+        "duration_ms": 114295
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 170,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.9e-05,
+        "duration_ms": 853
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 171,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.91e-05,
+        "duration_ms": 869
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>👑🐝🚫🪽🕳️</msg>",
+      "delivered": "👑🐝🚫🪽🕳️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I read the emojis as “queen bee / no wings / hole” — maybe a queen-bee larva (no wings) inside a hole/cell. Is the article **Royal jelly**? If yes, send ✅; if not, please send another clue.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👎🚫🐝⏳🕳️👑</msg>",
+      "delivered": "👎🚫🐝⏳🕳️👑",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The second clue seems to clarify: not a bee, but something with an hourglass waist that lives in a hole and has a queen — likely an ant. I'll guess:\n\nGUESS: Queen ant",
+      "guess": "Queen ant",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>👎🚫👑 🥇🦌🟡🕳️🕷️🥚</msg>",
+      "delivered": "👎🚫👑 🥇🦌🟡🕳️🕷️🥚",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Based on the hourglass waist, no queen, and spider+egg in a hole, I think this is a spider-hunting wasp.\n\nGUESS: Spider wasp",
+      "guess": "Spider wasp",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>👎🕷️🐝 👍⌛️🟡🧵🍂🕷️🥚 🇺🇸</msg>",
+      "delivered": "👎🕷️🐝 👍⌛🟡🧵🍂🕷️🥚 🇺🇸",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is it a spider?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>👎🕷️ 🦵🦵🦵 👑⌛️🟡🧵🕳️🍂🕷️🥚 🇺🇸</msg>",
+      "delivered": "👎🕷️ 🦵🦵🦵 👑⌛🟡🧵🕳️🍂🕷️🥚 🇺🇸",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is it a type of mud dauber wasp?",
+      "guess": null,
+      "correct": null
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 1,
+    "round": 1,
+    "n_banned": 20,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

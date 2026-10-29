@@ -1,0 +1,186 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Ayribobo",
+    "description": "Highest mountain of Turkmenistan",
+    "extract": "Ayribobo or Aýrybaba, officially named the Great Saparmyrat Turkmenbashi Peak in Turkmenistan since 2004, is a mountain in Central Asia. At 3,138 metres (10,295 ft) Aýrybaba is the highest mountain in Turkmenistan. It is located in the Köýtendag Range of the Pamir-Alay chain in the southeast of Turkmenistan on the Uzbekistani border.",
+    "url": "https://en.wikipedia.org/wiki/Ayribobo"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 77.4,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2073,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1028,
+      "output_tokens": 2134,
+      "thinking_tokens": 1764,
+      "cost_usd": 0.013096149999999999,
+      "calls": 3
+    },
+    "guesser": {
+      "input_tokens": 1590,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 2189,
+      "thinking_tokens": 2083,
+      "cost_usd": 0.012535,
+      "calls": 3
+    },
+    "judge": {
+      "input_tokens": 181,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 375,
+      "thinking_tokens": 371,
+      "cost_usd": 0.0002056,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 860,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 960,
+        "thinking_tokens": 836,
+        "cost_usd": 0.00566,
+        "duration_ms": 18850
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 1031,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 607,
+        "thinking_tokens": 473,
+        "cost_usd": 0.004323,
+        "duration_ms": 10891
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 182,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1028,
+        "output_tokens": 567,
+        "thinking_tokens": 455,
+        "cost_usd": 0.00311315,
+        "duration_ms": 12052
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 375,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 1234,
+        "thinking_tokens": 1197,
+        "cost_usd": 0.006545,
+        "duration_ms": 16405
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 538,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 478,
+        "thinking_tokens": 443,
+        "cost_usd": 0.002928,
+        "duration_ms": 6636
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 677,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 477,
+        "thinking_tokens": 443,
+        "cost_usd": 0.003062,
+        "duration_ms": 9828
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 181,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 375,
+        "thinking_tokens": 371,
+        "cost_usd": 0.0002056,
+        "duration_ms": 2710
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n        🟤\n      🟤🟤🟤\n    🟤🟤🟤🟤🟤\n  🟤🟤🟤🟤🟤🟤🟤\n\n🌎 🇨🇳 🇮🇳 🇵🇰\n🐦 🔑 👬\n\n🧮 ⚫⚫⚫ ⚫ ⚫⚫⚫ ⚫⚫⚫⚫⚫⚫⚫⚫\n</msg>",
+      "delivered": "🟤\n🟤🟤🟤\n🟤🟤🟤🟤🟤\n🟤🟤🟤🟤🟤🟤🟤\n🌎 🇨🇳 🇮🇳 🇵🇰\n🐦 🔑 👬\n🧮 ⚫⚫⚫ ⚫ ⚫⚫⚫ ⚫⚫⚫⚫⚫⚫⚫⚫",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I see 1457 and 3138, and China, India and Pakistan. Is this a mountain or a bird? What do the numbers represent?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n        🏳️\n        🟤\n      🟤🟤🟤\n    🟤🟤🟤🟤🟤\n  🟤🟤🟤🟤🟤🟤🟤\n\n↕️ 📊\n⚫⚫⚫  ⚫  ⚫⚫⚫  ⚫⚫⚫⚫⚫⚫⚫⚫\n\n🌎 🌵\n🐦 🔑 👬 🕴️ 🏳️\n</msg>",
+      "delivered": "🏳️\n🟤\n🟤🟤🟤\n🟤🟤🟤🟤🟤\n🟤🟤🟤🟤🟤🟤🟤\n↕️ 📊\n⚫⚫⚫ ⚫ ⚫⚫⚫ ⚫⚫⚫⚫⚫⚫⚫⚫\n🌎 🌵\n🐦 🔑 👬 🕴️ 🏳️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Does the article concern a brown bird? What do 1457 and 3138 measure? Is a person’s name part of the title?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n🚶 🥾 🪜 🟤\n        🏳️\n        🟤\n      🟤🟤🟤\n    🟤🟤🟤🟤🟤\n\n↕️ 🕒 🕐 🕒 🕗\n📊 🌎 🌵\n🏳️ 🐓 🔑 👬\n\n🤵 💬 🏳️ 🟰 🟤\n</msg>",
+      "delivered": "🚶 🪜 🟤\n🏳️\n🟤\n🟤🟤🟤\n🟤🟤🟤🟤🟤\n↕️ 🕒 🕐 🕒 🕗\n📊 🌎 🌵\n🏳️ 🐓 🔑 👬\n🤵 💬 🏳️ 🟰 🟤",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🥾"
+      ],
+      "retried": false,
+      "guesser": "The turkey-key-men clue suggests Turkmenistan, and 3,138 m is the elevation.\n\nGUESS: Mount Ayrybaba",
+      "guess": "Mount Ayrybaba",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 11,
+    "round": 8,
+    "n_banned": 139,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

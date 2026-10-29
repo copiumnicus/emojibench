@@ -1,0 +1,143 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Dora Akunyili",
+    "description": "Nigerian pharmacist and government official (1954–2014)",
+    "extract": "Dora Nkem Akunyili was a Nigerian pharmacist and politician who served as the director-general of National Agency for Food and Drug Administration and Control (NAFDAC) of Nigeria from 2001 to 2008.",
+    "url": "https://en.wikipedia.org/wiki/Dora_Akunyili"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 41.1,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1930,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1374,
+      "thinking_tokens": 1176,
+      "cost_usd": 0.009073,
+      "calls": 2
+    },
+    "guesser": {
+      "input_tokens": 860,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 597,
+      "thinking_tokens": 497,
+      "cost_usd": 0.0038450000000000003,
+      "calls": 2
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 835,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 1047,
+        "thinking_tokens": 969,
+        "cost_usd": 0.00607,
+        "duration_ms": 21712
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 1095,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 327,
+        "thinking_tokens": 207,
+        "cost_usd": 0.003003,
+        "duration_ms": 6878
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 331,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 500,
+        "thinking_tokens": 413,
+        "cost_usd": 0.002831,
+        "duration_ms": 9835
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 529,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 97,
+        "thinking_tokens": 84,
+        "cost_usd": 0.001014,
+        "duration_ms": 2674
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🇳🇴 🇮🇳 🇬🇷 🇪🇬 🇷🇺 🇮🇹 🇦🇺\n\n👸🏿 👨‍⚕️ 🔴🔵 🧃\n🦹‍♂️ 🔴🔵 🚓\n\n🚪 🦖\n</msg>",
+      "delivered": "🇳🇴 🇮🇳 🇬🇷 🇪🇬 🇷🇺 🇮🇹 🇦🇺\n👸🏿 👨‍⚕️ 🔴🔵 🧃\n🦹‍♂️ 🔴🔵 🚓\n🦖",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🚪"
+      ],
+      "retried": false,
+      "guesser": "I read the flags as **NIGERIA**. Is the article about a Nigerian woman? What do the doctor, red-and-blue circles, police car, and dinosaur represent?\n\nI read the flags as **NIGERIA**. Is the article about a Nigerian woman? What do the doctor, red-and-blue circles, police car, and dinosaur represent?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n✔️ 🇳🇴 🇮🇳 🇬🇷 🇪🇬 🇷🇺 🇮🇹 🇦🇺 👸🏿\n\n👨‍⚕️ 🔴🔵 🧃\n🤥 🔴🔵 🚓\n\n🇩🇰 🇴🇲 🇷🇺 🇦🇺\n🇦🇺 🇰🇪 🇺🇬 🇳🇴 🇾🇪 🇮🇹 🇱🇧 🇮🇳\n</msg>",
+      "delivered": "✔️ 🇳🇴 🇮🇳 🇬🇷 🇪🇬 🇷🇺 🇮🇹 🇦🇺 👸🏿\n👨‍⚕️ 🔴🔵 🧃\n🔴🔵 🚓\n🇩🇰 🇴🇲 🇷🇺 🇦🇺\n🇦🇺 🇰🇪 🇺🇬 🇳🇴 🇾🇪 🇮🇹 🇱🇧 🇮🇳",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🤥"
+      ],
+      "retried": false,
+      "guesser": "GUESS: Dora Akunyili",
+      "guess": "Dora Akunyili",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 12,
+    "round": 7,
+    "n_banned": 147,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

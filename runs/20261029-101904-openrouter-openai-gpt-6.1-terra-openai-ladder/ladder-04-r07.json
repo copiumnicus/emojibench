@@ -1,0 +1,278 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Mike Pieciak",
+    "description": "American politician (born 1983)",
+    "extract": "Michael Sullivan Pieciak is an American politician from Vermont. A member of the Democratic Party, Pieciak has served as Vermont State Treasurer since January 2023.",
+    "url": "https://en.wikipedia.org/wiki/Mike_Pieciak"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 136.4,
+  "usage": {
+    "explainer": {
+      "input_tokens": 3326,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2323,
+      "output_tokens": 3469,
+      "thinking_tokens": 3103,
+      "cost_usd": 0.021169399999999998,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 2645,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 2969,
+      "thinking_tokens": 2772,
+      "cost_usd": 0.01749,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 538,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 12,
+      "thinking_tokens": 0,
+      "cost_usd": 5.9800000000000003e-05,
+      "calls": 3
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 849,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 893,
+        "thinking_tokens": 845,
+        "cost_usd": 0.005314,
+        "duration_ms": 18481
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 939,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 700,
+        "thinking_tokens": 638,
+        "cost_usd": 0.004439,
+        "duration_ms": 15539
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 1065,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 546,
+        "thinking_tokens": 477,
+        "cost_usd": 0.0040605,
+        "duration_ms": 13761
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 202,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1062,
+        "output_tokens": 750,
+        "thinking_tokens": 654,
+        "cost_usd": 0.00405485,
+        "duration_ms": 16352
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 271,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1261,
+        "output_tokens": 580,
+        "thinking_tokens": 489,
+        "cost_usd": 0.00330105,
+        "duration_ms": 12943
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 304,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 104,
+        "thinking_tokens": 72,
+        "cost_usd": 0.000824,
+        "duration_ms": 3630
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 399,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 690,
+        "thinking_tokens": 649,
+        "cost_usd": 0.003849,
+        "duration_ms": 12557
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 518,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 473,
+        "thinking_tokens": 437,
+        "cost_usd": 0.002883,
+        "duration_ms": 8954
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 640,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 967,
+        "thinking_tokens": 929,
+        "cost_usd": 0.005475,
+        "duration_ms": 17542
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 784,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 735,
+        "thinking_tokens": 685,
+        "cost_usd": 0.004459,
+        "duration_ms": 13951
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 176,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.96e-05,
+        "duration_ms": 867
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 181,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.01e-05,
+        "duration_ms": 907
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 181,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.01e-05,
+        "duration_ms": 933
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🌿🏕️🫎  \n🟦🐎 👱‍♂️ 💷🗝️  \n🔬 🫓🍒 🐤</msg>",
+      "delivered": "🌿🏕️🫎\n🟦🐎 👱‍♂️ 💷🗝️\n🔬 🫓🍒 🐤",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is the article about a person, place, species, or something else? What does each line represent? Please give more clues.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👱‍♂️\n\n🪱 🧗 🌿🏕️\n\n📮 🟦 🐎\n\n💷 🗝️ 👱‍♂️\n\n🔬 🍒🫓 🇨🇿</msg>",
+      "delivered": "👱‍♂️\n🪱 🧗 🌿🏕️\n📮 🟦 🐎\n💷 🗝️ 👱‍♂️\n🔬 🍒🫓 🇨🇿",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I see “Pony Express” and “Bill + code,” suggesting Buffalo Bill Cody. Is the article about him, or something named after him?\n\nGUESS: Buffalo Bill",
+      "guess": "Buffalo Bill",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🚫 🤠\n\n👱‍♂️\n🇺🇸🚫 🌿🧗\n🟦 📥\n🏴‍☠️💷 🗝️\n\n👼🐉\n🚰 🐝 🍒🫓</msg>",
+      "delivered": "🚫 🤠\n👱‍♂️\n🚫 🌿🧗\n🟦 📥\n🏴‍☠️💷 🗝️\n👼🐉\n🚰 🐝 🍒🫓",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🇺🇸"
+      ],
+      "retried": false,
+      "guesser": "Is the person a scientist or explorer? Does the last line mean a Czech water beetle? Please give clues to the person’s name and nationality.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🚫 🔬 🚫 🧭\n\n👱‍♂️ 📣 📜 📮\n🟦 🐎\n\n🇨🇦\n🔽\n🌿 🧗\n💷 📦 🗝️\n\n👱‍♂️ 🟰🚫\n🎵 🧟 🌙 🚶\n🔬\n🍒🫓 🛂</msg>",
+      "delivered": "🚫 🔬 🚫 🧭\n👱‍♂️ 📣 📜 📮\n🟦 🐎\n🔽\n🌿 🧗\n💷 📦 🗝️\n👱‍♂️ 🚫\n🎵 🌙 🚶\n🔬\n🍒🫓 🛂",
+      "dropped_chars": 3,
+      "off_keyboard": [
+        "🇨🇦",
+        "🟰",
+        "🧟"
+      ],
+      "retried": false,
+      "guesser": "The climbing plant is hops, and the final clues suggest beer. A writer named Michael Jackson, not the singer?\n\nGUESS: Michael Jackson (beer writer)",
+      "guess": "Michael Jackson (beer writer)",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>🎵 🌙🚶 👱‍♂️\n🥇 🎯\n🥈 🚫\n\n👱‍♂️ 📣 📜 📮\n💷 💎 📦 🗝️\n\n🇫🇷 🥗 🧗 🗾\n🏳️‍🌈 👱‍♂️\n\n🥈 🚰 🇨🇿</msg>",
+      "delivered": "🎵 🌙🚶 👱‍♂️\n🥇 🎯\n🥈 🚫\n👱‍♂️ 📣 📜 📮\n💷 💎 📦 🗝️\n🇫🇷 🥗 🧗 🗾\n🏳️‍🌈 👱‍♂️\n🥈 🚰 🇨🇿",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "So the name is Michael Jackson, but not the singer or the beer writer. Is he a journalist, broadcaster, or author? Can you indicate his birth year or country?\n\nGUESS: Michael Jackson (radio personality)",
+      "guess": "Michael Jackson (radio personality)",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 4,
+    "round": 7,
+    "n_banned": 158,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

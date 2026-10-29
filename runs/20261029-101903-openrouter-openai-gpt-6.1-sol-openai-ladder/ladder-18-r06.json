@@ -1,0 +1,260 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Motorchuna",
+    "description": "River in Yakutia (Sakha Republic), Russia",
+    "extract": "The Motorchuna is a river in Yakutia, Russia. It is a left tributary of the Lena with a length of 423 kilometres (263 mi). Its drainage basin area is 9,250 square kilometres (3,570 mi2). Since its river basin is uninhabited, the Motorchuna is one of the most untouched rivers in Yakutia; the waters are clean and there is abundant wildlife.",
+    "url": "https://en.wikipedia.org/wiki/Motorchuna"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 119.5,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2741,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 4000,
+      "output_tokens": 1619,
+      "thinking_tokens": 1338,
+      "cost_usd": 0.022952,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 2685,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1397,
+      "thinking_tokens": 1108,
+      "cost_usd": 0.01934,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 181,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 2.01e-05,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 969,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 527,
+        "thinking_tokens": 496,
+        "cost_usd": 0.007208,
+        "duration_ms": 20977
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1127,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 283,
+        "thinking_tokens": 219,
+        "cost_usd": 0.005646,
+        "duration_ms": 11821
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 212,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1124,
+        "output_tokens": 288,
+        "thinking_tokens": 231,
+        "cost_usd": 0.0035209,
+        "duration_ms": 10595
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 213,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1333,
+        "output_tokens": 292,
+        "thinking_tokens": 225,
+        "cost_usd": 0.0035843,
+        "duration_ms": 14174
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 220,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1543,
+        "output_tokens": 229,
+        "thinking_tokens": 167,
+        "cost_usd": 0.0029928,
+        "duration_ms": 9394
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 290,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 186,
+        "thinking_tokens": 115,
+        "cost_usd": 0.00244,
+        "duration_ms": 6455
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 418,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 235,
+        "thinking_tokens": 185,
+        "cost_usd": 0.003186,
+        "duration_ms": 8676
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 528,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 361,
+        "thinking_tokens": 296,
+        "cost_usd": 0.004666,
+        "duration_ms": 13373
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 663,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 311,
+        "thinking_tokens": 257,
+        "cost_usd": 0.004436,
+        "duration_ms": 11416
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 786,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 304,
+        "thinking_tokens": 255,
+        "cost_usd": 0.004612,
+        "duration_ms": 11708
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 181,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.01e-05,
+        "duration_ms": 905
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "🚿 🏞\n🧣 🐃 👂 🍵\n🛺 🚞 🧂",
+      "delivered": "🚿\n🧣 🐃 👂 🍵\n🛺 🚞 🧂",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🏞️"
+      ],
+      "retried": false,
+      "guesser": "Is this a place in South Asia, perhaps a town known for tea and a railway? Please give more clues about the country and the name.\n\nIs this a place in South Asia, perhaps a town known for tea and a railway? Please give more clues about the country and the name.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "🙅‍♂️ 🇮🇳 🙅‍♂️ 🇱🇰\n🏒 🩰 🪗 🥔 🚀\n🚿 🏞️ 🧤 🧣 🦠\n🚁 🔥 🍵 🐟",
+      "delivered": "🙅‍♂️ 🇮🇳 🙅‍♂️ 🇱🇰\n🏒 🩰 🪗 🥔 🚀\n🚿 🧤 🧣 🦠\n🚁 🔥 🍵",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🏞️",
+        "🐟"
+      ],
+      "retried": false,
+      "guesser": "Do you mean Russia or the Soviet Union? Is the article about a place 🏙️, a person 👤, or an event 💥? The helicopter and fire suggest Chernobyl—is that the connection?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "💯 🏒 🩰 🪗 🚀\n🙅‍♂️ ☢️\n♒ 🚿 🏞️\n🧣 🧤 🐃\n🛺 🔄 🍵 🌙",
+      "delivered": "💯 🏒 🩰 🪗 🚀\n🙅‍♂️ ☢️\n♒ 🚿\n🧣 🧤 🐃\n🛺 🔄 🍵 🌙",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🏞️"
+      ],
+      "retried": false,
+      "guesser": "I understand the Russia/Soviet clue, but not the subject yet. Is it a person 👤, a place 📍, a film 🎬, or an object 🛠️? Is 🚿 a literal shower/bath, or a clue to the sound of the name?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "💯 🏒 🩰 🚀\n🏠 🌳 🏜️\n☔ 🚿 ➿ ➿ ➿ 🐳\n🏠 🧤 🧣 🦭\n🛺 🔊 🛺\n🍵 🌙 🔊",
+      "delivered": "💯 🏒 🩰 🚀\n🏠 🌳 🏜️\n☔ 🚿 ➿ ➿ ➿ 🐳\n🏠 🧤 🧣 🦭\n🛺 🛺\n🍵 🌙",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🔊",
+        "🔊"
+      ],
+      "retried": false,
+      "guesser": "Is this a village or town in Russia’s far northeast—Yakutia or Chukotka? Are 🐃 👂 🍵 meant to sound out “Yakutia”? Please distinguish the region from the name of the actual article.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "💯 🐃 👂 🍵\n🙅‍♂️ 🏠\n☔ ➿➿➿ 🐳\n🗻 ➿➿➿ 🐳\n🛺 🔄 👄 🥩 🎵",
+      "delivered": "💯 🐃 👂 🍵\n🙅‍♂️ 🏠\n☔ ➿➿➿ 🐳\n🗻 ➿➿➿ 🐳\n🛺 🔄 👄 🥩 🎵",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "So this is a river in Yakutia, not a settlement? Do 🛺 🔄 mean reversing “tuk” to make “kut,” as a clue to its name?\n\nGUESS: Kolyma",
+      "guess": "Kolyma",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 18,
+    "round": 6,
+    "n_banned": 181,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

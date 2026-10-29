@@ -1,0 +1,272 @@
+{
+  "model": "openrouter:minimax/minimax-m3@minimax",
+  "model_id": "minimax/minimax-m3",
+  "guesser_model": "openrouter:minimax/minimax-m3@minimax",
+  "guesser_model_id": "minimax/minimax-m3",
+  "effort": null,
+  "article": {
+    "title": "Baggio–Yoshinari syndrome",
+    "description": "Medical condition",
+    "extract": "Baggio–Yoshinari syndrome (BYS), formerly known as the Brazilian Lyme disease-like illness (BLDLI) and Brazilian Human Borreliosis, is an anthropozoonotic infectious disease of infectious-reactional character transmitted by bites of ticks from Amblyomma, Rhipicephalus and Dermacentor genera, that clinically resembles the Lyme Disease (LD) seen in the northern hemisphere. It is postulated to be caused by mutant Borrelia burgdorferi sensu lato spirochetes that assumed atypical pleomorphic forms and latent behavior in an attempt to adapt to the Brazilian ecosystem, explaining many particularities of the condition relative to the classical Lyme Disease, such as being transmitted by ticks others than those within the Ixodes ricinus complex, the difficulty culturing the etiological agent in traditional medium (BSK-II) and the poor growing of the spirochetes in atypical medium (SP-4), the frequent reactivations due to evading and surviving antibiotic treatment and eliciting low and transient immune response to Borrelia burgdorferi sensu lato antigens because of the hiding from the immune system. The pleomorphic forms are thought to include round bodies resembling Chlamydia, non spiralled spirochete-like forms, blebs and cell wall deficient variants resembling Mycoplasma as seen in dark field microscopy and electron field microscopy searching bacteria in the blood of patients. Spirochete-like structures are seen in around 90% of the patients when analyzing their peripheral blood in dark field microscopy.",
+    "url": "https://en.wikipedia.org/wiki/Baggio%E2%80%93Yoshinari_syndrome"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 264.8,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1120,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 3979,
+      "output_tokens": 4373,
+      "thinking_tokens": 4147,
+      "cost_usd": 0.0058223400000000005,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 731,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2458,
+      "output_tokens": 22093,
+      "thinking_tokens": 21894,
+      "cost_usd": 0.02687838,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 545,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 261,
+      "thinking_tokens": 249,
+      "cost_usd": 0.000185,
+      "calls": 3
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 695,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 128,
+        "output_tokens": 1510,
+        "thinking_tokens": 1473,
+        "cost_usd": 0.00202818,
+        "duration_ms": 14739
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 89,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 823,
+        "output_tokens": 402,
+        "thinking_tokens": 355,
+        "cost_usd": 0.00055848,
+        "duration_ms": 4253
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 90,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 912,
+        "output_tokens": 40,
+        "thinking_tokens": 0,
+        "cost_usd": 0.00012972,
+        "duration_ms": 6834
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 112,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1002,
+        "output_tokens": 677,
+        "thinking_tokens": 629,
+        "cost_usd": 0.00090612,
+        "duration_ms": 6950
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 134,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1114,
+        "output_tokens": 1744,
+        "thinking_tokens": 1690,
+        "cost_usd": 0.00219984,
+        "duration_ms": 16783
+      }
+    ],
+    "guesser": [
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 324,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 128,
+        "output_tokens": 8938,
+        "thinking_tokens": 8903,
+        "cost_usd": 0.01083048,
+        "duration_ms": 84356
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 90,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 451,
+        "output_tokens": 6572,
+        "thinking_tokens": 6546,
+        "cost_usd": 0.00794046,
+        "duration_ms": 61039
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 76,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 540,
+        "output_tokens": 4892,
+        "thinking_tokens": 4854,
+        "cost_usd": 0.0059256,
+        "duration_ms": 46775
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 110,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 615,
+        "output_tokens": 1643,
+        "thinking_tokens": 1591,
+        "cost_usd": 0.0020415,
+        "duration_ms": 16335
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 131,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 724,
+        "output_tokens": 48,
+        "thinking_tokens": 0,
+        "cost_usd": 0.00014034,
+        "duration_ms": 2231
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 182,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.02e-05,
+        "duration_ms": 1353
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 182,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.02e-05,
+        "duration_ms": 1093
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 181,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 253,
+        "thinking_tokens": 249,
+        "cost_usd": 0.0001446,
+        "duration_ms": 2042
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇧🇷 🦟 🧬 🩺 🐺 ⚽ 🇮🇹 🇯🇵 👤</msg>",
+      "delivered": "🇧🇷 🦟 🧬 🩺 🐺 ⚽ 🇮🇹 🇯🇵 👤",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Are we looking for one person: a Brazilian doctor/researcher associated with mosquito genetics who also played football in Italy and Japan, possibly nicknamed “the Wolf”?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🇧🇷👨‍⚕️➕🇯🇵👨‍⚕️ 🦠🩺🧬 🪲 ❌⚽</msg>",
+      "delivered": "🇧🇷👨‍⚕️➕🇯🇵👨‍⚕️ 🦠🩺🧬 🪲 ❌⚽",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is this one dual Brazilian–Japanese doctor who researches microbes, medical genetics, and beetles, or two separate doctors?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🧑‍🤝‍🧑 🇧🇷➕🇯🇵 🦠 🧬 🪲 🩺</msg>",
+      "delivered": "🧑‍🤝‍🧑 🇧🇷➕🇯🇵 🦠 🧬 🪲 🩺",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is this **Bacillus thuringiensis**, associated with independent discoveries in Brazil and Japan, beetles, DNA/genetics, and mosquito control?\n\nGUESS: Bacillus thuringiensis",
+      "guess": "Bacillus thuringiensis",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🇧🇷👨‍⚕️➕🇯🇵👨‍⚕️ 🩺🤒 🦠🧬🪲 🦌</msg>",
+      "delivered": "🇧🇷👨‍⚕️➕🇯🇵👨‍⚕️ 🩺🤒 🦠🧬🪲 🦌",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Are we looking for a microorganism (possibly tick- or insect-borne) that causes disease in deer and was independently identified by a Brazilian doctor and a Japanese doctor, with DNA/medical research involved?\n\nGUESS: Rickettsia rickettsii",
+      "guess": "Rickettsia rickettsii",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>❌🦠 🩺🤒 🇮🇹⚽👨‍⚕️➕🇯🇵👨‍⚕️ 🇧🇷🪲🌀🧬</msg>",
+      "delivered": "❌🦠 🩺🤒 🇮🇹⚽👨‍⚕️➕🇯🇵👨‍⚕️ 🇧🇷🪲🌀🧬",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Could the title concern the **Brazilian spotted fever**, caused by a microorganism and researched medically and genetically, with separate Italian and Japanese/Brazilian doctor associations? The beetle may indicate a vector.\n\nGUESS: Brazilian spotted fever",
+      "guess": "Brazilian spotted fever",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 3,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

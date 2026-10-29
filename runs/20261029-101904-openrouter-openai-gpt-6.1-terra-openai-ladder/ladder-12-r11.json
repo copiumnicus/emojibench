@@ -1,0 +1,143 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Dora Akunyili",
+    "description": "Nigerian pharmacist and government official (1954–2014)",
+    "extract": "Dora Nkem Akunyili was a Nigerian pharmacist and politician who served as the director-general of National Agency for Food and Drug Administration and Control (NAFDAC) of Nigeria from 2001 to 2008.",
+    "url": "https://en.wikipedia.org/wiki/Dora_Akunyili"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 55.8,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1334,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1210,
+      "output_tokens": 1610,
+      "thinking_tokens": 1468,
+      "cost_usd": 0.0097765,
+      "calls": 2
+    },
+    "guesser": {
+      "input_tokens": 750,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1368,
+      "thinking_tokens": 1298,
+      "cost_usd": 0.0075899999999999995,
+      "calls": 2
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 1213,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 1049,
+        "thinking_tokens": 984,
+        "cost_usd": 0.0067605,
+        "duration_ms": 19619
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 121,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1210,
+        "output_tokens": 561,
+        "thinking_tokens": 484,
+        "cost_usd": 0.003016,
+        "duration_ms": 11120
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 320,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 851,
+        "thinking_tokens": 808,
+        "cost_usd": 0.004575,
+        "duration_ms": 16207
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 430,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 517,
+        "thinking_tokens": 490,
+        "cost_usd": 0.003015,
+        "duration_ms": 8878
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🍏📄🍏 🚩\n👩🏿‍🏫 ⚛️ 🟨🟦 🤧\n👩🏿‍⚖️ ⚖️ 🟨🟦\n🧗 🦥\n</msg>",
+      "delivered": "🍏📄🍏 🚩\n👩🏿‍🏫 ⚛️ 🟨🟦 🤧\n👩🏿‍⚖️ ⚖️ 🟨🟦\n🧗 🦥",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I read the first line as Nigeria and the yellow-blue squares as Ukraine. Is this a Nigerian woman connected to Ukraine, law, and environmental activism? What does the sneezing mean?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n🍏📄🍏 🟰 🇳🇬\n👩🏿‍🏫 🏴‍☠️ 🙅‍♀️ 🟥🟦\n🥘 🍇 🟥🟦 ⚖️\n🤧 🟥🟦 ➡️ 😌\n</msg>",
+      "delivered": "🍏📄🍏\n👩🏿‍🏫 🏴‍☠️ 🙅‍♀️ 🟥🟦\n🥘 🍇 🟥🟦 ⚖️\n🤧 🟥🟦 😌",
+      "dropped_chars": 3,
+      "off_keyboard": [
+        "🟰",
+        "🇳🇬",
+        "➡️"
+      ],
+      "retried": false,
+      "guesser": "A Nigerian professor who fought counterfeit medicines and led food and drug regulation?\n\nGUESS: Dora Akunyili",
+      "guess": "Dora Akunyili",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 12,
+    "round": 11,
+    "n_banned": 264,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

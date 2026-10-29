@@ -1,0 +1,272 @@
+{
+  "model": "openrouter:deepseek/deepseek-v4-pro-0813@baidu/fp8",
+  "model_id": "deepseek/deepseek-v4-pro-0813",
+  "guesser_model": "openrouter:deepseek/deepseek-v4-pro-0813@baidu/fp8",
+  "guesser_model_id": "deepseek/deepseek-v4-pro-0813",
+  "effort": null,
+  "article": {
+    "title": "Ayribobo",
+    "description": "Highest mountain of Turkmenistan",
+    "extract": "Ayribobo or Aýrybaba, officially named the Great Saparmyrat Turkmenbashi Peak in Turkmenistan since 2004, is a mountain in Central Asia. At 3,138 metres (10,295 ft) Aýrybaba is the highest mountain in Turkmenistan. It is located in the Köýtendag Range of the Pamir-Alay chain in the southeast of Turkmenistan on the Uzbekistani border.",
+    "url": "https://en.wikipedia.org/wiki/Ayribobo"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 1049.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1448,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2560,
+      "output_tokens": 11698,
+      "thinking_tokens": 11575,
+      "cost_usd": 0.0066713284800000005,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 844,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1792,
+      "output_tokens": 46841,
+      "thinking_tokens": 46639,
+      "cost_usd": 0.025761799152,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 538,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 537,
+      "thinking_tokens": 525,
+      "cost_usd": 0.0003223,
+      "calls": 3
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 329,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 2602,
+        "thinking_tokens": 2583,
+        "cost_usd": 0.001483355376,
+        "duration_ms": 49950
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 427,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 3298,
+        "thinking_tokens": 3270,
+        "cost_usd": 0.001881557136,
+        "duration_ms": 59493
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 289,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 2594,
+        "thinking_tokens": 2569,
+        "cost_usd": 0.001473180912,
+        "duration_ms": 48464
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 144,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 768,
+        "output_tokens": 1362,
+        "thinking_tokens": 1329,
+        "cost_usd": 0.000774988128,
+        "duration_ms": 26507
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 259,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 768,
+        "output_tokens": 1842,
+        "thinking_tokens": 1824,
+        "cost_usd": 0.001058246928,
+        "duration_ms": 36598
+      }
+    ],
+    "guesser": [
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 102,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 8551,
+        "thinking_tokens": 8529,
+        "cost_usd": 0.004693014576,
+        "duration_ms": 156337
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 169,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 12471,
+        "thinking_tokens": 12408,
+        "cost_usd": 0.006847420896,
+        "duration_ms": 212343
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 276,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 10425,
+        "thinking_tokens": 10351,
+        "cost_usd": 0.005748813936,
+        "duration_ms": 180438
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 121,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 10679,
+        "thinking_tokens": 10645,
+        "cost_usd": 0.005860868832,
+        "duration_ms": 191480
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 176,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 4715,
+        "thinking_tokens": 4706,
+        "cost_usd": 0.002611680912,
+        "duration_ms": 83504
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 179,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.99e-05,
+        "duration_ms": 859
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 182,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 315,
+        "thinking_tokens": 311,
+        "cost_usd": 0.0001757,
+        "duration_ms": 1994
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 177,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 218,
+        "thinking_tokens": 214,
+        "cost_usd": 0.0001267,
+        "duration_ms": 1590
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🔥🕳️⛰️🔝</msg>",
+      "delivered": "🔥🕳️⛰️",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I read the emojis as spelling “Firehole Mountain”.  \nGUESS: Firehole Mountain",
+      "guess": "Firehole Mountain",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🚫🔥🕳️ 🔥🚪😈 ⛰️🥇</msg>",
+      "delivered": "🚫🔥🕳️ 🔥🚪😈 ⛰️🥇",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The new clues look like “not Firehole” and then “Hell’s Gate” (🔥🚪😈) plus “Gold Mountain” or “Mount Gold” (⛰️🥇). I’ll guess a mountain name combining those.  \nGUESS: Hell's Gate Mountain",
+      "guess": "Hell's Gate Mountain",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🐎🏜️🔥🕳️ 🥇⛰️</msg>",
+      "delivered": "🐎🏜️🔥🕳️ 🥇⛰️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Please clarify:  \n(1) Is the article about a specific mountain/peak? ✅ or ❌  \n(2) If it is a mountain, please give a flag emoji for the country (e.g., 🇺🇸, 🇨🇦, 🇦🇺) and maybe a clue for the state/province/region.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>👍 🐎🌙⭐️⭐️⭐️⭐️⭐️ 🟩 ⛰️🔝</msg>",
+      "delivered": "👍 🐎🌙⭐⭐⭐⭐⭐ 🟩 ⛰️",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I think the country is Turkmenistan. Is the exact article title **Aýrybaba**?  \nReply 👍 for yes, 👎 for no.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>👎🤏 ⛰️🥇</msg>",
+      "delivered": "👎🤏 ⛰️🥇",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Altyndepe",
+      "guess": "Altyndepe",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 11,
+    "round": 1,
+    "n_banned": 2,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

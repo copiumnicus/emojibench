@@ -1,0 +1,279 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Proceratium silaceum",
+    "description": "Species of ant",
+    "extract": "Proceratium silaceum is a species of ant in the family Formicidae.",
+    "url": "https://en.wikipedia.org/wiki/Proceratium_silaceum"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 100.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2075,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 5830,
+      "output_tokens": 1657,
+      "thinking_tokens": 1214,
+      "cost_usd": 0.022333,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 2991,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 925,
+      "thinking_tokens": 630,
+      "cost_usd": 0.015231999999999999,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 349,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 3.89e-05,
+      "calls": 2
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1121,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 571,
+        "thinking_tokens": 516,
+        "cost_usd": 0.008511,
+        "duration_ms": 23446
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 218,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1118,
+        "output_tokens": 392,
+        "thinking_tokens": 320,
+        "cost_usd": 0.0045753,
+        "duration_ms": 15013
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 230,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1333,
+        "output_tokens": 184,
+        "thinking_tokens": 100,
+        "cost_usd": 0.0025468,
+        "duration_ms": 6462
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 262,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1560,
+        "output_tokens": 259,
+        "thinking_tokens": 173,
+        "cost_usd": 0.0033995,
+        "duration_ms": 9495
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 244,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1819,
+        "output_tokens": 251,
+        "thinking_tokens": 105,
+        "cost_usd": 0.0033004,
+        "duration_ms": 7314
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 301,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 188,
+        "thinking_tokens": 99,
+        "cost_usd": 0.002482,
+        "duration_ms": 6888
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 448,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 201,
+        "thinking_tokens": 144,
+        "cost_usd": 0.002906,
+        "duration_ms": 7728
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 588,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 149,
+        "thinking_tokens": 99,
+        "cost_usd": 0.002666,
+        "duration_ms": 6243
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 734,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 130,
+        "thinking_tokens": 86,
+        "cost_usd": 0.002768,
+        "duration_ms": 5802
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 920,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 257,
+        "thinking_tokens": 202,
+        "cost_usd": 0.00441,
+        "duration_ms": 10113
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 175,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.95e-05,
+        "duration_ms": 912
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 174,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.94e-05,
+        "duration_ms": 1235
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🧫 🔖\n🤏\n🚶🚶🚶\n🚶🚶🚶\n👸👑 🚫\n🇺🇲 🍁\n🔐 🏙️</msg>",
+      "delivered": "🧫 🔖\n🚶🚶🚶\n🚶🚶🚶\n🇺🇲 🍁\n🔐 🏙️",
+      "dropped_chars": 4,
+      "off_keyboard": [
+        "🤏",
+        "👸",
+        "👑",
+        "🚫"
+      ],
+      "retried": false,
+      "guesser": "Is this about a type of community or settlement—perhaps a closed religious community found in the United States and Canada? Please indicate whether it's a specific place, a group of people, or a general concept.\n\nMy first thought is a communal settlement, such as a Hutterite colony. Is the article about a specific place, a religious group, or a general type of community?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🚷 🏙️❎\n🦀 🦐 🐚\n👣👣👣\n🏰❎ 🏢❎\n👸❎\n🍞❎\n🌿 🍁 🪴\n📐 🤏❎</msg>",
+      "delivered": "🚷 🏙️❎\n🦀 🦐 🐚\n👣👣👣\n❎ 🏢❎\n❎\n❎\n🌿 🍁 🪴\n📐 ❎",
+      "dropped_chars": 4,
+      "off_keyboard": [
+        "🏰",
+        "👸",
+        "🍞",
+        "🤏"
+      ],
+      "retried": false,
+      "guesser": "So it's a biological organism, not a settlement. The crab/shrimp/shell clues suggest a crustacean, perhaps a land-dwelling woodlouse or pill bug. Is that right? Please give clues for its appearance and scientific name.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🦀❎ 🦐❎ 🐚❎\n📡📡\n🦯🦯🦯 🦯🦯🦯\n🐝❎\n🧁🍫🍩\n🤱 🥷🥷🥷🥷🥷\n🚜 🧫</msg>",
+      "delivered": "🦀❎ 🦐❎ 🐚❎\n📡📡\n🦯🦯🦯 🦯🦯🦯\n❎\n🧁🍫🍩\n🤱 🥷🥷🥷🥷🥷\n🚜 🧫",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🐝"
+      ],
+      "retried": false,
+      "guesser": "An ant: two antennae, six legs, sweets, a queen and workers, and colonies! Is it the pavement ant, common in cities in the United States and Canada?\n\nGUESS: Tetramorium immigrans",
+      "guess": "Tetramorium immigrans",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>❎\n🇺🇲 🌄 ↗️\n🌿 🪴 🍁\n🫥 🟫❎ 💛\n🦯🦯🦯🦯 🦯🦯🦯🦯\n🐥 🥄 😋❎\n🔄 🍤\n📉</msg>",
+      "delivered": "❎\n🇺🇲 🌄 ↗️\n🌿 🪴 🍁\n🫥 ❎ 💛\n🦯🦯🦯🦯 🦯🦯🦯🦯\n🐥 🥄 ❎\n🔄 🍤\n📉",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🟫",
+        "😋"
+      ],
+      "retried": false,
+      "guesser": "The eight legs suggest a spider or mite rather than an ant. Is this a small yellow spider found on plants in northeastern North America? Does it make a web, or hunt without one?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>🦯🦯🦯 🦯🦯🦯 💯\n📡📡 💯\n🤱 🥷🥷🥷 💯\n🦯🦯🦯🦯 🦯🦯🦯🦯 ❎\n\n🍽❎\n🦯🦯🦯🦯 🦯🦯🦯🦯 🥚❎\n🍼🍼🍼 🥄\n\n🇺🇲 🌄 ↗️\n🙃 🍤 🔄\n💛 🧡</msg>",
+      "delivered": "🦯🦯🦯 🦯🦯🦯 💯\n📡📡 💯\n🤱 🥷🥷🥷 💯\n🦯🦯🦯🦯 🦯🦯🦯🦯 ❎\n❎\n🦯🦯🦯🦯 🦯🦯🦯🦯 ❎\n🍼🍼🍼 🥄\n🇺🇲 🌄 ↗️\n🙃 🍤 🔄\n💛 🧡",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🍽️",
+        "🥚"
+      ],
+      "retried": false,
+      "guesser": "Confirmed: an ant with six legs, antennae, queen and workers; yellow/orange, in northeastern North America. Do the baby-and-spoon clues mean it steals and eats other ants' brood?\n\nGUESS: Solenopsis molesta",
+      "guess": "Solenopsis molesta",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 1,
+    "round": 9,
+    "n_banned": 245,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

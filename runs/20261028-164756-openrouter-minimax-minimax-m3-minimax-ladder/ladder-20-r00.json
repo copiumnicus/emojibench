@@ -1,0 +1,294 @@
+{
+  "model": "openrouter:minimax/minimax-m3@minimax",
+  "model_id": "minimax/minimax-m3",
+  "guesser_model": "openrouter:minimax/minimax-m3@minimax",
+  "guesser_model_id": "minimax/minimax-m3",
+  "effort": null,
+  "article": {
+    "title": "Franco Cozzo",
+    "description": "Australian businessman (1935–2023)",
+    "extract": "Franco Cozzo was an Italian-Australian businessman. After moving to Melbourne from Sicily in 1955, Cozzo became known for his television advertisements, in which he would speak in English, Greek, and Italian. He later produced Australia's first non-English TV show, Carosello, which was broadcast in Italian.",
+    "url": "https://en.wikipedia.org/wiki/Franco_Cozzo"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 449.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1057,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2944,
+      "output_tokens": 5698,
+      "thinking_tokens": 5445,
+      "cost_usd": 0.00733134,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 833,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2581,
+      "output_tokens": 45508,
+      "thinking_tokens": 45236,
+      "cost_usd": 0.05501436,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 893,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 20,
+      "thinking_tokens": 0,
+      "cost_usd": 9.93e-05,
+      "calls": 5
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 435,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 128,
+        "output_tokens": 576,
+        "thinking_tokens": 549,
+        "cost_usd": 0.00082938,
+        "duration_ms": 10299
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 137,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 897,
+        "thinking_tokens": 843,
+        "cost_usd": 0.00114822,
+        "duration_ms": 8250
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 145,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 640,
+        "output_tokens": 551,
+        "thinking_tokens": 509,
+        "cost_usd": 0.0007431,
+        "duration_ms": 6260
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 157,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 768,
+        "output_tokens": 1677,
+        "thinking_tokens": 1621,
+        "cost_usd": 0.00210558,
+        "duration_ms": 16353
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 183,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 896,
+        "output_tokens": 1997,
+        "thinking_tokens": 1923,
+        "cost_usd": 0.00250506,
+        "duration_ms": 27657
+      }
+    ],
+    "guesser": [
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 316,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 128,
+        "output_tokens": 758,
+        "thinking_tokens": 732,
+        "cost_usd": 0.00101208,
+        "duration_ms": 7640
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 104,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 443,
+        "output_tokens": 1847,
+        "thinking_tokens": 1801,
+        "cost_usd": 0.00227418,
+        "duration_ms": 17442
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 115,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 546,
+        "output_tokens": 9331,
+        "thinking_tokens": 9268,
+        "cost_usd": 0.01126446,
+        "duration_ms": 81162
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 145,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 660,
+        "output_tokens": 11607,
+        "thinking_tokens": 11541,
+        "cost_usd": 0.0140115,
+        "duration_ms": 96276
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 153,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 804,
+        "output_tokens": 21965,
+        "thinking_tokens": 21894,
+        "cost_usd": 0.02645214,
+        "duration_ms": 172922
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 178,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.98e-05,
+        "duration_ms": 931
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 182,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.02e-05,
+        "duration_ms": 955
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 178,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.98e-05,
+        "duration_ms": 1305
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 179,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.99e-05,
+        "duration_ms": 1184
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 176,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.96e-05,
+        "duration_ms": 992
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇦🇺 🇮🇹 💼 📺 📣 🎠 🗣️</msg>",
+      "delivered": "🇦🇺 🇮🇹 💼 📺 📣 🎠 🗣️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Does this describe an Australian-Italian television/radio personality, businessman, and speaker?\n\nGUESS: Marco Argento",
+      "guess": "Marco Argento",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🇮🇹 🏝️ ➡️ 🇦🇺 🏙️ 👨 💼 📣 📺 🗣️ 🇬🇷 🇬🇧 🇮🇹 🎠 🎪</msg>",
+      "delivered": "🇮🇹 🏝️ ➡️ 🇦🇺 🏙️ 👨 💼 📣 📺 🗣️ 🇬🇷 🇬🇧 🇮🇹 🎠 🎪",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Please answer with ✅/❌: (1) male individual, (2) showman or amusement-park owner, and (3) connected to Luna Park Sydney.\n\nGUESS: Ernest C. Rollier",
+      "guess": "Ernest C. Rollier",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>✅ ❌ ❌\n👨 💼 📺 🗣️ 🇬🇷 🇬🇧 🇮🇹 ➡️ 🇦🇺</msg>",
+      "delivered": "✅ ❌ ❌\n👨 💼 📺 🗣️ 🇬🇷 🇬🇧 🇮🇹 ➡️ 🇦🇺",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Please answer with one ✅/❌ for each, in order:\n\n1. Is he a comedian or entertainer?\n2. Was he born on an Italian island?\n3. Did he move to Sydney, Australia?\n4. Has he ever owned or operated a theme park?\n\nGUESS: Marco Argento",
+      "guess": "Marco Argento",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>❌ ✅ ❌ ❌\n🇫🇷 👨 💼 🇮🇹 📺 🗣️ 🇬🇷 🇬🇧 🇮🇹 ➡️ 🇦🇺 🏙️</msg>",
+      "delivered": "❌ ✅ ❌ ❌\n🇫🇷 👨 💼 🇮🇹 📺 🗣️ 🇬🇷 🇬🇧 🇮🇹 ➡️ 🇦🇺 🏙️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Please answer ✅/❌ in order:\n\n1. Is he a personal trainer/bodybuilder?\n2. Did he found the Gym Emporium fitness chain?\n3. Did he settle in Melbourne?\n4. Does he speak French, Greek, English, and Italian?\n\nGUESS: John Crescitelli",
+      "guess": "John Crescitelli",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>❌ ❌ ✅ ❌\n🇫🇷🇦🇳🇨🇴 🇨🇴🇿🇿🇴\n👨 💼 🇮🇹 🇦🇺 🏙️ 📺 🗣️ 🇬🇷 🇬🇧 🇮🇹 🎠</msg>",
+      "delivered": "❌ ❌ ✅ ❌\n🇫🇷🇳🇨 🇨🇴\n👨 💼 🇮🇹 🇦🇺 🏙️ 📺 🗣️ 🇬🇷 🇬🇧 🇮🇹 🎠",
+      "dropped_chars": 5,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Please answer ✅/❌ in order:\n\n1. Was he born in New Caledonia?\n2. Did he grow up in Colombia?\n3. Was he connected to a circus or carousel?\n4. Is he of Greek and Italian heritage and fluent in Greek, English, and Italian?\n\nGUESS: John Symond",
+      "guess": "John Symond",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 20,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

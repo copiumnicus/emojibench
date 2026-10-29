@@ -1,0 +1,186 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Grande Seca",
+    "description": "Brazilian drought (1877–1878)",
+    "extract": "The Grande Seca, or the Brazilian drought of 1877–1878, was the largest and most devastating drought in Brazilian history. It caused the deaths of between 400,000 and 500,000 people. Of the 800,000 people who lived in the affected Northeastern region, around 120,000 migrated to the Amazon while 68,000 migrated to other parts of Brazil.",
+    "url": "https://en.wikipedia.org/wiki/Grande_Seca"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 58.2,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2874,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 2030,
+      "thinking_tokens": 1783,
+      "cost_usd": 0.01330375,
+      "calls": 3
+    },
+    "guesser": {
+      "input_tokens": 1410,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 845,
+      "thinking_tokens": 762,
+      "cost_usd": 0.005635,
+      "calls": 3
+    },
+    "judge": {
+      "input_tokens": 185,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 2.05e-05,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 817,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 1083,
+        "thinking_tokens": 1008,
+        "cost_usd": 0.006232,
+        "duration_ms": 21724
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 935,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 653,
+        "thinking_tokens": 531,
+        "cost_usd": 0.0042,
+        "duration_ms": 12093
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 1122,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 294,
+        "thinking_tokens": 244,
+        "cost_usd": 0.00287175,
+        "duration_ms": 6286
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 331,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 293,
+        "thinking_tokens": 260,
+        "cost_usd": 0.001796,
+        "duration_ms": 6525
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 488,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 373,
+        "thinking_tokens": 335,
+        "cost_usd": 0.002353,
+        "duration_ms": 7232
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 591,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 179,
+        "thinking_tokens": 167,
+        "cost_usd": 0.001486,
+        "duration_ms": 3482
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 185,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.05e-05,
+        "duration_ms": 874
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🏳️ 🥬🍋🔷  🦶🥅 🎊 🫘\n\n🌤️ 🫠 🫗 🫙 🏝️ 🦴\n\n📚 🖐️🤟 🖐️✌️ 🖐️✌️</msg>",
+      "delivered": "🏳️ 🥬🍋🔷 🦶🥅 🎊 🫘\n🌤️ 🫠 🫗 🫙 🏝️ 🦴\n📚 🖐️🤟 🖐️✌️ 🖐️✌️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is this a Brazilian football-related article? What do the three hand groups represent? Can you give another clue for the article’s name?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🥅 ⛔\n\n🌐 🎊 🫘 🥩 🌲🌲🐍\n\n☂️ ⛔ 🫗 🫙 🏝️\n👥 🦴\n👥 🏃 🌲🌲🌲\n\n☝️ 🖐️🤟 🖐️✌️ 🖐️✌️\n☝️ 🖐️🤟 🖐️✌️ 🖐️🤟\n\n🦒 🫗</msg>",
+      "delivered": "🥅 ⛔\n🌐 🎊 🫘 🥩 🌲🌲🐍\n☂️ ⛔ 🫗 🫙 🏝️\n👥 🦴\n👥 🏃 🌲🌲🌲\n☝️ 🖐️🤟 🖐️✌️ 🖐️✌️\n☝️ 🖐️🤟 🖐️✌️ 🖐️🤟\n🦒 🫗",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "This appears to be a major Brazilian drought, causing deaths and migration in 1877–1878.\n\nGUESS: 1877–1879 Brazilian drought",
+      "guess": "1877–1879 Brazilian drought",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>👌 👌\n\n🏷️ ⛔\n🇪🇸 👅\n\n🦕 🫗\n🦕 🏝️\n🎹 🫗</msg>",
+      "delivered": "👌 👌\n⛔\n🇪🇸 👅\n🦕 🫗\n🦕 🏝️\n🎹 🫗",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🏷️"
+      ],
+      "retried": false,
+      "guesser": "GUESS: Grande Seca",
+      "guess": "Grande Seca",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 16,
+    "round": 6,
+    "n_banned": 124,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

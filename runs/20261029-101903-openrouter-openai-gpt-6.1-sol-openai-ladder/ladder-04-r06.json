@@ -1,0 +1,244 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Mike Pieciak",
+    "description": "American politician (born 1983)",
+    "extract": "Michael Sullivan Pieciak is an American politician from Vermont. A member of the Democratic Party, Pieciak has served as Vermont State Treasurer since January 2023.",
+    "url": "https://en.wikipedia.org/wiki/Mike_Pieciak"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 117.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 3179,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2235,
+      "output_tokens": 1421,
+      "thinking_tokens": 1083,
+      "cost_usd": 0.021512,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 2836,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1482,
+      "thinking_tokens": 1165,
+      "cost_usd": 0.020492,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 800,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 460,
+        "thinking_tokens": 403,
+        "cost_usd": 0.0062,
+        "duration_ms": 20147
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 929,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 195,
+        "thinking_tokens": 148,
+        "cost_usd": 0.003808,
+        "duration_ms": 8579
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1044,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 189,
+        "thinking_tokens": 116,
+        "cost_usd": 0.0044985,
+        "duration_ms": 7769
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 156,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1041,
+        "output_tokens": 259,
+        "thinking_tokens": 176,
+        "cost_usd": 0.0030826,
+        "duration_ms": 10539
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 250,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1194,
+        "output_tokens": 318,
+        "thinking_tokens": 240,
+        "cost_usd": 0.0039229,
+        "duration_ms": 10871
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 314,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 250,
+        "thinking_tokens": 181,
+        "cost_usd": 0.003128,
+        "duration_ms": 10309
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 424,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 179,
+        "thinking_tokens": 121,
+        "cost_usd": 0.002638,
+        "duration_ms": 7997
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 557,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 265,
+        "thinking_tokens": 195,
+        "cost_usd": 0.003764,
+        "duration_ms": 10590
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 705,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 435,
+        "thinking_tokens": 381,
+        "cost_usd": 0.00576,
+        "duration_ms": 18729
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 836,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 353,
+        "thinking_tokens": 287,
+        "cost_usd": 0.005202,
+        "duration_ms": 12175
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🏫 💼 🤑 🏺\n🧭 ↗️ ⛷️ 🥾 🌿\n👦 🇵🇱 🫱🏻‍🫲🏽 🫂</msg>",
+      "delivered": "🏫 💼 🤑 🏺\n🧭 ↗️ ⛷️ 🥾 🌿\n👦 🇵🇱 🫱🏻‍🫲🏽 🫂",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is the article about a school/university, a person, or a place? Please indicate which, and give its country or region if possible.\n\nWhat kind of article is it: 🏫 institution, 👤 person, or 📍 place? And is it in Poland?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👱\n🇵🇱 🚷\n🇺🇲 🧭↗️ 🥬🌄\n👱 💼 💹 🏆</msg>",
+      "delivered": "👱\n🇵🇱 🚷\n🇺🇲 🧭↗️ 🥬🌄\n👱 💼 💹 🏆",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I understand: a man, American rather than Polish, connected to the northeastern US—possibly Vermont—and successful in business/finance. Was he also an art or antiquities collector and a major donor to a school? Please give clues to his name and era.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🏺 🚷\n👱 💼 🏅 💹 🔏\n🇺🇲 🌿🌄 ⛷️\n📅 🕑🕛🕑🕒 ⏳\n👱 🔈🎚️\n🚽 🐥</msg>",
+      "delivered": "🏺 🚷\n👱 💼 🏅 💹 🔏\n🇺🇲 🌿🌄 ⛷️\n📅 🕑🕛🕑🕒 ⏳\n👱 🔈🎚️\n🚽 🐥",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Does 🚽 🐥 represent his name—“John” and “Duck/Donald”? Does 📅 🕑🕛🕑🕒 mean he died in 2023? Is the northeastern state Vermont (🌿🌄), and was his business in investment banking or private equity?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>⚰️ ❎\n🏦 ❎\n🌿🌄 ⛷️ 🤝\n🏫 ❎\n👱 💼 🏅 🤑 🔏\n✉️ ☑ ❎\n🔹 🐎\n👱 🔊 ❎ 🔈🎛️\n♟️ 🐂</msg>",
+      "delivered": "⚰️ ❎\n❎\n🌿🌄 ⛷️ 🤝\n🏫 ❎\n👱 💼 🏅 🤑 🔏\n✉️ ❎\n🔹 🐎\n👱 ❎ 🔈🎛️\n♟️ 🐂",
+      "dropped_chars": 3,
+      "off_keyboard": [
+        "🏦",
+        "☑️",
+        "🔊"
+      ],
+      "retried": false,
+      "guesser": "I'm not yet sure of the name clues. Is he a billionaire in finance or private equity? Does he own a ski resort, or is skiing just a hobby? Please give his first and last names separately as sound-alike emoji clues.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>🤑 👑 ❎\n⛷️ 🎿 ❎\n🌿🌄 🤝\n👥 💼 🤑 🔏\n🥇 🔬 🔈\n🥈 🕊️ 🐃\n📅 🕑🕛🕑🕒 🏁</msg>",
+      "delivered": "🤑 👑 ❎\n⛷️ ❎\n🌿🌄 🤝\n👥 💼 🤑 🔏\n🥇 🔬 🔈\n🥈 🕊️ 🐃\n📅 🕑🕛🕑🕒 🏁",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🎿"
+      ],
+      "retried": false,
+      "guesser": "Are the name clues “Mike/Michael” (🔬🔈 → microphone) and “Dove + bull” → “Duvall” or “Dobell”? What company or organization is he associated with? Is 🌿🌄 the name “Green Mountain,” rather than simply Vermont?",
+      "guess": null,
+      "correct": null
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 4,
+    "round": 6,
+    "n_banned": 137,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

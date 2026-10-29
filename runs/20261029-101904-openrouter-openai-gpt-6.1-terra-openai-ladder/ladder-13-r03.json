@@ -1,0 +1,274 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Dorothy Cottrell",
+    "description": "Australian writer",
+    "extract": "Ida Dorothy Ottley Cottrell was an Australian writer. Born in Picton, she contracted infantile paralysis as a child and spent the rest of her life in a wheelchair. Cottrell married Walter Mackenzie Cottrell on 23 May 1922. Her first novel, The Singing Gold, was published in 1928. She wrote a story Wilderness Orphan (1936) which was the basis for the feature film Orphan of the Wilderness (1936). She lived for a time in the US and also worked as an artist and cartoonist.",
+    "url": "https://en.wikipedia.org/wiki/Dorothy_Cottrell"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 150.3,
+  "usage": {
+    "explainer": {
+      "input_tokens": 3126,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2502,
+      "output_tokens": 2698,
+      "thinking_tokens": 2152,
+      "cost_usd": 0.0171176,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 3235,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 5256,
+      "thinking_tokens": 5120,
+      "cost_usd": 0.029515,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 523,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 12,
+      "thinking_tokens": 0,
+      "cost_usd": 5.83e-05,
+      "calls": 3
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 736,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 919,
+        "thinking_tokens": 830,
+        "cost_usd": 0.005331,
+        "duration_ms": 19712
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 875,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 422,
+        "thinking_tokens": 298,
+        "cost_usd": 0.002985,
+        "duration_ms": 8647
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 1186,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 322,
+        "thinking_tokens": 221,
+        "cost_usd": 0.00309175,
+        "duration_ms": 6771
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 139,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1183,
+        "output_tokens": 720,
+        "thinking_tokens": 586,
+        "cost_usd": 0.00383215,
+        "duration_ms": 13500
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 190,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1319,
+        "output_tokens": 315,
+        "thinking_tokens": 217,
+        "cost_usd": 0.0018777,
+        "duration_ms": 6683
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 343,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 818,
+        "thinking_tokens": 778,
+        "cost_usd": 0.004433,
+        "duration_ms": 14870
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 503,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 1012,
+        "thinking_tokens": 972,
+        "cost_usd": 0.005563,
+        "duration_ms": 19671
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 644,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 994,
+        "thinking_tokens": 982,
+        "cost_usd": 0.005614,
+        "duration_ms": 16968
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 802,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 418,
+        "thinking_tokens": 387,
+        "cost_usd": 0.002892,
+        "duration_ms": 7476
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 943,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 2014,
+        "thinking_tokens": 2001,
+        "cost_usd": 0.011013,
+        "duration_ms": 33249
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 173,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.93e-05,
+        "duration_ms": 869
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 174,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.94e-05,
+        "duration_ms": 1039
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 176,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.96e-05,
+        "duration_ms": 853
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n👸 🐩 🥫 🐅 🧙 🪄 🟩 🏰\n\n🐱 🔔\n\n👵 🖋️ 📜\n🗺️ 🏜️ 🦜 🏄\n🦵 🚫 🚶  🪑 🛞\n\n🎙️ 🟨 ✨\n</msg>",
+      "delivered": "👸 🐩 🥫 🐅 🧙 🪄 🟩 🏰\n🐱 🔔\n👵 🖋️ 📜\n🗺️ 🏜️ 🦜 🏄\n🦵 🚫 🚶 🪑 🛞\n🎙️ 🟨 ✨",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I think the first line points to the Wizard of Oz. Is the article about an Australian writer or performer associated with Oz? What does 🐱🔔 mean?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n🙆\n\n👸 🐩 🧙 🪄 🟩 🏰\n👸 💭 🗣️\n\n🐱 🛒 💭 🗣️\n\n🖋️ 📜\n🗺️ 🏜️ 🦜 🇺🇸\n🦵 🚫 🚶  🪑 🛞\n\n🎙️ 🟨 ✨\n🧒 🚫 👨‍👩‍👦 🏜️ 🦌 🎦\n</msg>",
+      "delivered": "🙆\n👸 🐩 🧙 🪄 🟩 🏰\n👸 💭 🗣️\n🐱 🛒 💭 🗣️\n🖋️ 📜\n🗺️ 🏜️ 🦜 🇺🇸\n🦵 🚫 🚶 🪑 🛞\n🎙️ 🟨 ✨\n🚫 👨‍👩‍👦 🏜️ 🦌 🎦",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🧒"
+      ],
+      "retried": false,
+      "guesser": "Is the subject a writer who created or wrote about Dorothy and a cat character? What does 🐱🛒 represent? Is the wheelchair clue about the subject?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n👸 🐩 🧙 🪄 🟩 🏰 🟰 💭 🗣️\n\n🐱 🎣 🟰 💭 🗣️\n\n🙆 🦵 🚫 🚶 🪑 🛞\n\n🖋️ 📜\n🎙️ 🟨 ✨\n🏜️ 🦌 🥚 🚫 👪 🎦\n</msg>",
+      "delivered": "👸 🐩 🧙 🪄 🟩 🏰 🟰 💭 🗣️\n🐱 🎣 🟰 💭 🗣️\n🙆 🦵 🚫 🚶 🪑 🛞\n🖋️ 📜\n🎙️ 🟨 ✨\n🏜️ 🦌 🥚 🚫 👪 🎦",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Bambi Lake",
+      "guess": "Bambi Lake",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>\n👸 🐩 🧙 🪄 🟩 🏰\n👸 💭 🗣️ 🟰 👵 🪪\n\n🧵 🛎️ 💭 🗣️ 🟰 👵 🪪\n\n👵 🖋️ 📜\n🦵 🚫 🚶 🪑 🛞\n🗺️ 🏜️ 🦜 🇺🇸\n\n📜 🎙️ 🎼 🟨 ✨\n📜 🏜️ 🚫 👪 🎦\n</msg>",
+      "delivered": "👸 🐩 🧙 🪄 🟩 🏰\n👸 💭 🗣️ 🟰 👵 🪪\n🧵 🛎️ 💭 🗣️ 🟰 👵 🪪\n👵 🖋️ 📜\n🦵 🚫 🚶 🪑 🛞\n🗺️ 🏜️ 🦜 🇺🇸\n📜 🎙️ 🎼 🟨 ✨\n📜 🏜️ 🚫 👪 🎦",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Dorothy Bell\n\nIs 🟨✨ the title “Yellow Star”? What is the desert clue referring to?",
+      "guess": "Dorothy Bell",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>\n🙅 🟨 ⭐\n\n📜 🎙️ 🎼 🏅\n📜 🏜️ 🚫 👪 🎦\n\n👸 🐩 🧙 🪄 🟩 🏰\n👸 💭 🗣️ 🟰 👵 🪪\n\n🛖 🚄 💭 🗣️ 🟰 👵 🪪\n</msg>",
+      "delivered": "🙅 🟨 ⭐\n📜 🎙️ 🎼 🏅\n📜 🏜️ 🚫 👪 🎦\n👸 🐩 🧙 🪄 🟩 🏰\n👸 💭 🗣️ 🟰 👵 🪪\n🛖 🚄 💭 🗣️ 🟰 👵 🪪",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Dorothy Treadwell",
+      "guess": "Dorothy Treadwell",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 13,
+    "round": 3,
+    "n_banned": 84,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

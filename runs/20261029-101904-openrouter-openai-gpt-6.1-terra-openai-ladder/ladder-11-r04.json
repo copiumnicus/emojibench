@@ -1,0 +1,167 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Ayribobo",
+    "description": "Highest mountain of Turkmenistan",
+    "extract": "Ayribobo or Aýrybaba, officially named the Great Saparmyrat Turkmenbashi Peak in Turkmenistan since 2004, is a mountain in Central Asia. At 3,138 metres (10,295 ft) Aýrybaba is the highest mountain in Turkmenistan. It is located in the Köýtendag Range of the Pamir-Alay chain in the southeast of Turkmenistan on the Uzbekistani border.",
+    "url": "https://en.wikipedia.org/wiki/Ayribobo"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 41.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1372,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1238,
+      "thinking_tokens": 1071,
+      "cost_usd": 0.007561999999999999,
+      "calls": 2
+    },
+    "guesser": {
+      "input_tokens": 775,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 756,
+      "thinking_tokens": 684,
+      "cost_usd": 0.004555,
+      "calls": 2
+    },
+    "judge": {
+      "input_tokens": 359,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 387,
+      "thinking_tokens": 379,
+      "cost_usd": 0.0002294,
+      "calls": 2
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 625,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 761,
+        "thinking_tokens": 704,
+        "cost_usd": 0.00443,
+        "duration_ms": 14174
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 747,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 477,
+        "thinking_tokens": 367,
+        "cost_usd": 0.003132,
+        "duration_ms": 10115
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 312,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 512,
+        "thinking_tokens": 470,
+        "cost_usd": 0.002872,
+        "duration_ms": 9070
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 463,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 244,
+        "thinking_tokens": 214,
+        "cost_usd": 0.001683,
+        "duration_ms": 5145
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 178,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 157,
+        "thinking_tokens": 153,
+        "cost_usd": 9.63e-05,
+        "duration_ms": 1407
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 181,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 230,
+        "thinking_tokens": 226,
+        "cost_usd": 0.0001331,
+        "duration_ms": 1823
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🇹🇯 🇰🇬 ➡️ 🟢 🟥 🧵 🌜 ✨\n🪨 🔺 📈 🏅\n✈️ 🏹 🏹\n</msg>",
+      "delivered": "🇹🇯 🇰🇬 ➡️ 🟢 🟥 🧵 🌜 ✨\n🪨 🔺 📈 🏅\n✈️ 🏹 🏹",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I see Tajikistan and Kyrgyzstan, a mountain peak, and possibly a flight or arrows. Is the article about a mountain on their border?\n\nGUESS: Lenin Peak",
+      "guess": "Lenin Peak",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n❌ 🇹🇯 🇰🇬\n\n🟩 🟥 🧵 🌜 ✨ = 🌐\n🇹🇯 ⬅️ 🟦 ⬜ 🟩 🌜 ✨ ⬅️ 🟩 🟥 🧵 🌜 ✨\n\n🟩 🟥 🧵 🌜 ✨\n🐪 🏛️ 🔥\n🪨 🔺 📈 🏅\n</msg>",
+      "delivered": "❌ 🇹🇯 🇰🇬\n🟥 🧵 🌜 ✨ 🌐\n🇹🇯 ⬅️ 🟦 ⬜ 🌜 ✨ ⬅️ 🟥 🧵 🌜 ✨\n🟥 🧵 🌜 ✨\n🐪 🏛️ 🔥\n🪨 🔺 📈 🏅",
+      "dropped_chars": 5,
+      "off_keyboard": [
+        "🟩",
+        "🟩",
+        "🟩",
+        "🟩"
+      ],
+      "retried": false,
+      "guesser": "The country is Turkmenistan, and the clue points to its highest mountain.\n\nGUESS: Mount Ayrybaba",
+      "guess": "Mount Ayrybaba",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 11,
+    "round": 4,
+    "n_banned": 50,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

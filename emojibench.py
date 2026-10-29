@@ -10,12 +10,14 @@ A model is picked by name, and the name picks the backend:
                                       --safe-mode so no plugins/hooks/CLAUDE.md leak into the game
   openrouter:<id>                     any model on OpenRouter, e.g. openrouter:deepseek/deepseek-v4-pro
                                       (needs OPENROUTER_API_KEY; `models` lists ids and prices)
+  openrouter:<id>@<host>              the same, with every call sent to one host, e.g. @baidu/fp8
 
 Usage:
   ./emojibench.py bench -m openrouter:<id>             # EMOJIBENCH @ $1 on the 20-article set
   ./emojibench.py report                               # leaderboard over runs/
   ./emojibench.py check                                # validate the runs, as CI does for a PR
   ./emojibench.py models qwen                          # search OpenRouter model ids and prices
+  ./emojibench.py hosts z-ai/glm-5.3                   # who serves a model, at what precision
   ./emojibench.py run -m sonnet                        # normal games only (no ladder)
   ./emojibench.py fetch -n 20 -o articles/set2.json    # freeze a new set of random articles
 """
@@ -252,11 +254,13 @@ def openrouter_price(model, prompt_tokens, cached, completion_tokens):
             + completion_tokens * f("completion"))
 
 
-def openrouter(model, messages, effort=None):
+def openrouter(model, messages, effort=None, host=None):
     """One chat completion through OpenRouter. Same return shape as claude()."""
     body = {"model": model, "messages": messages, "usage": {"include": True}}
     if effort:
         body["reasoning"] = {"effort": {"xhigh": "high", "max": "high"}.get(effort, effort)}
+    if host:  # every call from one host, so a run isn't a mix of hosts and quantizations
+        body["provider"] = {"order": [host], "allow_fallbacks": False}
     req = urllib.request.Request(
         f"{OPENROUTER_URL}/chat/completions", data=json.dumps(body).encode(),
         headers={"Authorization": f"Bearer {os.environ.get('OPENROUTER_API_KEY', '')}",
@@ -303,11 +307,24 @@ def openrouter(model, messages, effort=None):
 
 
 def backend(spec):
-    """("openrouter", id) for openrouter:<id> (or:<id> for short), else ("claude", spec)."""
+    """("openrouter", id) for openrouter:<id> (or:<id> for short), else ("claude", spec). A host pin is dropped."""
     for prefix in ("openrouter:", "or:"):
         if spec.startswith(prefix):
-            return "openrouter", spec[len(prefix):]
+            return "openrouter", spec[len(prefix):].partition("@")[0]
     return "claude", spec
+
+
+def host(spec):
+    """The OpenRouter host a spec pins, such as baidu/fp8 in openrouter:z-ai/glm-5.3@baidu/fp8, else None."""
+    return spec.partition("@")[2] or None
+
+
+def openrouter_hosts(model):
+    """The hosts serving an OpenRouter model, cheapest output first."""
+    req = urllib.request.Request(f"{OPENROUTER_URL}/models/{model}/endpoints", headers={"User-Agent": USER_AGENT})
+    with urllib.request.urlopen(req, timeout=60) as r:
+        eps = json.loads(r.read())["data"]["endpoints"]
+    return sorted(eps, key=lambda e: (float(e["pricing"]["completion"]), float(e["pricing"]["prompt"])))
 
 
 def safe_name(spec):
@@ -334,6 +351,14 @@ def check_model(spec):
         near = difflib.get_close_matches(model, ids, n=5, cutoff=0.5)
         sys.exit(f"{model!r} isn't an OpenRouter model id." + (f" Did you mean: {', '.join(near)}?" if near else "")
                  + " See ./emojibench.py models <search>")
+    if host(spec):
+        try:
+            tags = {e["tag"] for e in openrouter_hosts(model)}
+        except Exception as e:
+            log(f"couldn't fetch the hosts of {model} to check {host(spec)!r} ({e}); trying it anyway")
+            return
+        if host(spec) not in tags:
+            sys.exit(f"{host(spec)!r} doesn't serve {model}. See ./emojibench.py hosts {model}")
 
 
 class Chat:
@@ -342,6 +367,7 @@ class Chat:
 
     def __init__(self, spec, system=None, effort=None):
         self.kind, self.model = backend(spec)
+        self.host = host(spec)
         self.system, self.effort = system, effort
         self.session_id = str(uuid.uuid4()) if self.kind == "claude" else None
         self.messages = [{"role": "system", "content": system}] if system else []
@@ -358,7 +384,7 @@ class Chat:
             # total_cost_usd covers the whole resumed session, not just this turn: keep the difference.
             r["cost_usd"], self.billed = r["cost_usd"] - self.billed, r["cost_usd"]
         else:
-            r = openrouter(self.model, self.messages + [{"role": "user", "content": prompt}], self.effort)
+            r = openrouter(self.model, self.messages + [{"role": "user", "content": prompt}], self.effort, self.host)
             self.messages += [{"role": "user", "content": prompt}, {"role": "assistant", "content": r["text"]}]
         self.started = True
         return r
@@ -369,7 +395,8 @@ def ask(spec, system, prompt):
     kind, model = backend(spec)
     if kind == "claude":
         return claude(model, prompt, system_prompt=system)
-    return openrouter(model, [{"role": "system", "content": system}, {"role": "user", "content": prompt}])
+    return openrouter(model, [{"role": "system", "content": system}, {"role": "user", "content": prompt}],
+                      host=host(spec))
 
 
 # ---------------------------------------------------------------------------
@@ -846,6 +873,11 @@ def game_cost_capped(g, brk):
     return game_cost(g) * min(1, brk / max(1, len(g["turns"])))
 
 
+def game_minutes_capped(g, brk):
+    """A game's wall time in minutes, pro rata to the turn limit like its cost."""
+    return g.get("seconds", 0) / 60 * min(1, brk / max(1, len(g["turns"])))
+
+
 def entry(g):
     """A leaderboard entry: the model id, plus the reasoning effort if one was set."""
     return g["model_id"] + (f" ({g['effort']})" if g.get("effort") else "")
@@ -894,6 +926,7 @@ def ladder_data(paths, break_turns=None, max_rounds=None, budget=BUDGET):
         articles.append({
             "model": m, "title": title, "rungs": rungs_budget, "rungs_free": sum(ok),
             "still_climbing": ok[-1], "spend": sum(costs), "n_banned": gs[-1]["ladder"]["n_banned"],
+            "minutes": sum(game_minutes_capped(g, brk) for g in gs),
             # still climbing when the data ends, with money left: a low round cap or an error cut it short
             "capped": capped,
             "incomplete": ok[-1] and sum(costs) < budget and not capped,
@@ -910,6 +943,7 @@ def ladder_data(paths, break_turns=None, max_rounds=None, budget=BUDGET):
                       "rungs": statistics.mean(a["rungs"] for a in xs),
                       "rungs_free": statistics.mean(a["rungs_free"] for a in xs),
                       "spend": statistics.mean(a["spend"] for a in xs),
+                      "minutes": statistics.mean(a["minutes"] for a in xs),
                       "incomplete": sum(a["incomplete"] for a in xs)})
     board.sort(key=lambda b: -b["elo"])
     return {"budget": budget, "break_turns": brk, "anchor": ELO_ANCHOR, "board": board, "articles": articles}
@@ -920,13 +954,14 @@ def ladder_report(paths, break_turns=None, max_rounds=None, budget=BUDGET):
     if d is None:
         return
     print("\n## EMOJIBENCH\n")
-    print(f"| Rank | Model | **EMOJIBENCH** (Elo) | Head-to-heads W–D–L | Rungs @ ${budget:g} | $ per article | Articles |")
-    print("|---:|---|---:|---:|---:|---:|---:|")
+    print(f"| Rank | Model | **EMOJIBENCH** (Elo) | Head-to-heads W–D–L | Rungs @ ${budget:g} | $ per article "
+          f"| Minutes per article | Articles |")
+    print("|---:|---|---:|---:|---:|---:|---:|---:|")
     for rank, b in enumerate(d["board"], 1):
         w, dr, l = b["wdl"]
         inc = f" ({b['incomplete']} cut short)" if b["incomplete"] else ""
         print(f"| {rank} | {b['model']} | **{b['elo']:.0f}** | {w}–{dr}–{l} | {b['rungs']:.2f} "
-              f"| {b['spend']:.2f} | {b['articles']}{inc} |")
+              f"| {b['spend']:.2f} | {b['minutes']:.0f} | {b['articles']}{inc} |")
     print(f"\nEMOJIBENCH is an Elo rating ({ELO_ANCHOR[0]} = {ELO_ANCHOR[1]}). On every article two models both "
           f"played, the one that climbs more rungs with ${budget:g} to spend wins; equal rungs is a draw. Rung 1 is "
           f"the normal game; each next rung replays the article with every emoji used so far banned. A rung counts "
@@ -1137,6 +1172,16 @@ def cmd_models(args):
     log(f"{len(rows)} models. Run one with: ./emojibench.py bench -m openrouter:<id>")
 
 
+def cmd_hosts(args):
+    model = backend(args.model if ":" in args.model else "openrouter:" + args.model)[1]
+    print("| Host | Precision | $ / M input | $ / M output | Up |\n|---|---|---:|---:|---|")
+    for e in openrouter_hosts(model):
+        p = e["pricing"]
+        print(f"| {e['tag']} | {e.get('quantization') or 'unknown'} | {float(p['prompt']) * 1e6:.2f} "
+              f"| {float(p['completion']) * 1e6:.2f} | {'yes' if e.get('status', 0) == 0 else 'no'} |")
+    log(f"Pin one with: ./emojibench.py bench -m openrouter:{model}@<host>")
+
+
 JUDGE_HELP = (f"model that judges guesses (default: Claude Haiku 5.5, as {JUDGE_MODEL} through Claude Code if "
               f"it is installed, else {JUDGE_OPENROUTER})")
 
@@ -1197,6 +1242,10 @@ def main():
     mo = sub.add_parser("models", help="search OpenRouter model ids, with prices per million tokens")
     mo.add_argument("query", nargs="*", help="words that must all appear in the id or name")
     mo.set_defaults(fn=cmd_models)
+
+    ho = sub.add_parser("hosts", help="list the hosts serving an OpenRouter model, with precision and prices")
+    ho.add_argument("model", help="an OpenRouter model id, such as z-ai/glm-5.3")
+    ho.set_defaults(fn=cmd_hosts)
 
     ch = sub.add_parser("check", help="validate bench runs: the rules, the filter, completeness (CI runs this on PRs)")
     ch.add_argument("runs", nargs="*", help="run dirs (default: every bench run in runs/)")

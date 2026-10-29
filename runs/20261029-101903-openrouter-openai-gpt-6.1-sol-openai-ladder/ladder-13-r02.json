@@ -1,0 +1,139 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Dorothy Cottrell",
+    "description": "Australian writer",
+    "extract": "Ida Dorothy Ottley Cottrell was an Australian writer. Born in Picton, she contracted infantile paralysis as a child and spent the rest of her life in a wheelchair. Cottrell married Walter Mackenzie Cottrell on 23 May 1922. Her first novel, The Singing Gold, was published in 1928. She wrote a story Wilderness Orphan (1936) which was the basis for the feature film Orphan of the Wilderness (1936). She lived for a time in the US and also worked as an artist and cartoonist.",
+    "url": "https://en.wikipedia.org/wiki/Dorothy_Cottrell"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 38.9,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1464,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 436,
+      "thinking_tokens": 291,
+      "cost_usd": 0.007288,
+      "calls": 2
+    },
+    "guesser": {
+      "input_tokens": 850,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 621,
+      "thinking_tokens": 496,
+      "cost_usd": 0.00791,
+      "calls": 2
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 640,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 304,
+        "thinking_tokens": 235,
+        "cost_usd": 0.00432,
+        "duration_ms": 11423
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 824,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 132,
+        "thinking_tokens": 56,
+        "cost_usd": 0.002968,
+        "duration_ms": 4255
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 331,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 366,
+        "thinking_tokens": 254,
+        "cost_usd": 0.004322,
+        "duration_ms": 13022
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 519,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 255,
+        "thinking_tokens": 242,
+        "cost_usd": 0.003588,
+        "duration_ms": 10231
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "🖊️ 🧑‍🦽 🐑 🏏 🐊\n\n📗 🎼 🟡\n📗 🧒 🏜️ 📽️\n\n👒 🌪️ 🐶 🧙‍♀️\n🛏️ 🚂",
+      "delivered": "🖊️ 🧑‍🦽 🐑 🏏 🐊\n📗 🎼 🟡\n📗 🧒 🏜️ 📽️\n👒 🌪️ 🐶 🧙‍♀️\n🛏️ 🚂",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I’m reading this as a writer, possibly Australian and a wheelchair user, with clues to books and film adaptations. Are the last three lines titles of works they wrote? Is the Wizard of Oz line a direct connection to that story, or an adaptation they worked on?\n\n\nIs this an Australian writer who used a wheelchair? Do the lower lines represent their works—particularly a yellow-themed musical, a child in the desert adapted into a film, The Wizard of Oz, and a bed/train story?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "👍 🖊️ 🧑‍🦽 🐑 🏏 🐊\n\n📗 🎼 🟡\n📗 🧒 🏜️ 📽️\n\n👤 👒 🌪️ 🐶 🧙‍♀️\n👤 🛏️ 🛤️",
+      "delivered": "👍 🖊️ 🧑‍🦽 🐑 🏏 🐊\n📗 🎼 🟡\n📗 🧒 🏜️ 📽️\n👤 👒 🌪️ 🐶 🧙‍♀️\n👤 🛏️ 🛤️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Dorothy Cottrell",
+      "guess": "Dorothy Cottrell",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 13,
+    "round": 2,
+    "n_banned": 50,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

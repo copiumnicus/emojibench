@@ -1,0 +1,249 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Dora Akunyili",
+    "description": "Nigerian pharmacist and government official (1954–2014)",
+    "extract": "Dora Nkem Akunyili was a Nigerian pharmacist and politician who served as the director-general of National Agency for Food and Drug Administration and Control (NAFDAC) of Nigeria from 2001 to 2008.",
+    "url": "https://en.wikipedia.org/wiki/Dora_Akunyili"
+  },
+  "solved": true,
+  "turns_taken": 5,
+  "solved_turn": 5,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 103.9,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1948,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 5644,
+      "output_tokens": 2964,
+      "thinking_tokens": 2609,
+      "cost_usd": 0.01753345,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 2662,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1718,
+      "thinking_tokens": 1535,
+      "cost_usd": 0.011252,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 1127,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 947,
+        "thinking_tokens": 889,
+        "cost_usd": 0.006143,
+        "duration_ms": 20603
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 185,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1124,
+        "output_tokens": 519,
+        "thinking_tokens": 446,
+        "cost_usd": 0.0028817,
+        "duration_ms": 10966
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 212,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1306,
+        "output_tokens": 400,
+        "thinking_tokens": 341,
+        "cost_usd": 0.00232955,
+        "duration_ms": 9452
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 187,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1515,
+        "output_tokens": 578,
+        "thinking_tokens": 498,
+        "cost_usd": 0.00319875,
+        "duration_ms": 12333
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 237,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1699,
+        "output_tokens": 520,
+        "thinking_tokens": 435,
+        "cost_usd": 0.00298045,
+        "duration_ms": 11601
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 311,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 87,
+        "thinking_tokens": 46,
+        "cost_usd": 0.000746,
+        "duration_ms": 2498
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 423,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 576,
+        "thinking_tokens": 537,
+        "cost_usd": 0.003303,
+        "duration_ms": 12251
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 520,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 557,
+        "thinking_tokens": 516,
+        "cost_usd": 0.003305,
+        "duration_ms": 12716
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 639,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 406,
+        "thinking_tokens": 357,
+        "cost_usd": 0.002669,
+        "duration_ms": 8212
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 769,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 92,
+        "thinking_tokens": 79,
+        "cost_usd": 0.001229,
+        "duration_ms": 3235
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🌿◽🌿 🦵🐅\n🙎‍♀️ 🏦 🛂\n🍌🍕 🧴 😷\n🧗‍♀️🏞️ 🐠</msg>",
+      "delivered": "🌿◽🌿 🦵🐅\n🙎‍♀️ 🏦 🛂\n🍌🍕 😷\n🧗‍♀️🏞️ 🐠",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🧴"
+      ],
+      "retried": false,
+      "guesser": "What kind of article is it—person, place, species, or something else? Please give the answer in emojis, then break down the title syllable by syllable.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🙎‍♀️\n\n👂\n🥖 🌅\n😮 🐦 🦵 🥋\n\n🙎‍♀️ 🧗‍♀️ 🏞️\n🌿◽🌿\n🍌🍕 🧂 😷 🏦</msg>",
+      "delivered": "🙎‍♀️\n👂\n🥖 🌅\n🐦 🦵 🥋\n🙎‍♀️ 🧗‍♀️ 🏞️\n🌿◽🌿\n🍌🍕 🧂 😷 🏦",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "😮"
+      ],
+      "retried": false,
+      "guesser": "I think she’s a Nigerian woman mountaineer. Does 🥖🌅 sound like “Bunmi”? Please break down her surname into more sounds.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🙎‍♀️\n🌿◽🌿\n🍕🍌 🍼 😷\n🏦 🛂\n👂\n🚪 🌅\n😲 🐦 🦵 🥋</msg>",
+      "delivered": "🙎‍♀️\n🌿◽🌿\n🍕🍌 🍼 😷\n🏦 🛂\n👂\n🌅\n😲 🐦 🦵 🥋",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🚪"
+      ],
+      "retried": false,
+      "guesser": "Is she a real-life mountain climber, or does 🧗‍♀️🏞️ represent a different achievement? What does 🏦🛂 mean?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🧗‍♀️ ❎\n🏦 🛂 🟰 👩‍💻 🏦 🍕🥤 😷 🛒\n🌿◽🌿 🙎‍♀️\n👂 🥖 🌅\n👂 😲 🐦 🦵 🥋</msg>",
+      "delivered": "🧗‍♀️ ❎\n🏦 🛂 👩‍💻 🏦 🍕🥤 😷 🛒\n🌿◽🌿 🙎‍♀️\n👂 🥖 🌅\n👂 😲 🐦 🦵 🥋",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🟰"
+      ],
+      "retried": false,
+      "guesser": "I understand: Nigerian woman, banking and food business, with a COVID connection. Is her first name Bunmi? Is the last name “O-bi-ni-…”? Please spell it out with separate emoji sounds.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>❎ 🏦💵\n❎ 😷🦠\n🙎‍♀️ 🌿◽🌿\n🏦 🛂 🍕🥤 🔘😷\n❎ 🎭 🔘😷 ⚰️\n\n👂\n🥖 🐁\n😲 🐄 🦵 🌿</msg>",
+      "delivered": "❎ 🏦💵\n❎ 😷\n🙎‍♀️ 🌿◽🌿\n🏦 🛂 🍕🥤 🔘😷\n❎ 🔘😷 ⚰️\n👂\n🥖 🐁\n😲 🐄 🦵 🌿",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🦠",
+        "🎭"
+      ],
+      "retried": false,
+      "guesser": "GUESS: Dora Akunyili",
+      "guess": "Dora Akunyili",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 12,
+    "round": 10,
+    "n_banned": 234,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

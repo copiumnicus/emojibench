@@ -1,0 +1,139 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Motorchuna",
+    "description": "River in Yakutia (Sakha Republic), Russia",
+    "extract": "The Motorchuna is a river in Yakutia, Russia. It is a left tributary of the Lena with a length of 423 kilometres (263 mi). Its drainage basin area is 9,250 square kilometres (3,570 mi2). Since its river basin is uninhabited, the Motorchuna is one of the most untouched rivers in Yakutia; the waters are clean and there is abundant wildlife.",
+    "url": "https://en.wikipedia.org/wiki/Motorchuna"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 26.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 985,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 456,
+      "thinking_tokens": 310,
+      "cost_usd": 0.0032649999999999997,
+      "calls": 2
+    },
+    "guesser": {
+      "input_tokens": 744,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 867,
+      "thinking_tokens": 789,
+      "cost_usd": 0.005079,
+      "calls": 2
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 419,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 301,
+        "thinking_tokens": 223,
+        "cost_usd": 0.001924,
+        "duration_ms": 6438
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 566,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 155,
+        "thinking_tokens": 87,
+        "cost_usd": 0.001341,
+        "duration_ms": 3605
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 308,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 281,
+        "thinking_tokens": 215,
+        "cost_usd": 0.001713,
+        "duration_ms": 5063
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 436,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 586,
+        "thinking_tokens": 574,
+        "cost_usd": 0.003366,
+        "duration_ms": 10887
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🏞️ 🇷🇺 ❄️ 🥶\n\n🏞️ ➡️ 🏞️ 👩\n\n🏞️ 🌲 🐻 🦌 🐟 💧 ✨ 🚫 🏠\n\n🏍️ ⚙️  🚂💨  🐟</msg>",
+      "delivered": "🏞️ 🇷🇺 ❄️ 🥶\n🏞️ ➡️ 🏞️ 👩\n🏞️ 🌲 🐻 🦌 🐟 💧 ✨ 🚫 🏠\n🏍️ ⚙️ 🚂💨 🐟",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is this a river in Russia that flows into the Lena River? What does the motorcycle, gear, train and fish line mean?\n\nIs this a river in Russia that flows into the Lena River? What does the motorcycle, gear, train, and fish line mean?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👍 🇷🇺 ❄️ 🏞️ ➡️ 👩 🏞️\n\n🗣️ 🔊 🏍️ 🚂 🐟\n\n🏍️ 🔊 ➕ 🚂 🔊 ➕ 🐟 🔊</msg>",
+      "delivered": "👍 🇷🇺 ❄️ 🏞️ ➡️ 👩 🏞️\n🗣️ 🔊 🏍️ 🚂 🐟\n🏍️ 🔊 ➕ 🚂 🔊 ➕ 🐟 🔊",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Motorchuna",
+      "guess": "Motorchuna",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 18,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

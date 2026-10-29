@@ -1,0 +1,184 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Philadelphia Commercial Museum",
+    "description": "Former museum in Pennsylvania, USA",
+    "extract": "The Philadelphia Commercial Museum was established in Philadelphia, Pennsylvania in 1895. Its permanent home was a neo-classical building situated at 34th Street and Civic Center Blvd, erected as part of the 1899 National Export Exposition. The museum had business offices at 332 South Fourth Street.",
+    "url": "https://en.wikipedia.org/wiki/Philadelphia_Commercial_Museum"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 29.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1841,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 311,
+      "thinking_tokens": 154,
+      "cost_usd": 0.006792,
+      "calls": 3
+    },
+    "guesser": {
+      "input_tokens": 1283,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 309,
+      "thinking_tokens": 197,
+      "cost_usd": 0.0056560000000000004,
+      "calls": 3
+    },
+    "judge": {
+      "input_tokens": 185,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 2.05e-05,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 497,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 160,
+        "thinking_tokens": 112,
+        "cost_usd": 0.002594,
+        "duration_ms": 7322
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 623,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 84,
+        "thinking_tokens": 32,
+        "cost_usd": 0.002086,
+        "duration_ms": 3904
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 721,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 67,
+        "thinking_tokens": 10,
+        "cost_usd": 0.002112,
+        "duration_ms": 2429
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 310,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 176,
+        "thinking_tokens": 101,
+        "cost_usd": 0.00238,
+        "duration_ms": 6522
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 437,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 84,
+        "thinking_tokens": 59,
+        "cost_usd": 0.001714,
+        "duration_ms": 4476
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 536,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 49,
+        "thinking_tokens": 37,
+        "cost_usd": 0.001562,
+        "duration_ms": 3758
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 185,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.05e-05,
+        "duration_ms": 1168
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "🦅🏈 🏘️\n🛍️⚖️💼 🏺🗿\n📜🏗️ ➕ 🌐📈\n⌛🔒",
+      "delivered": "🦅🏈 🏘️\n🛍️⚖️💼 🏺🗿\n📜🏗️ ➕ 🌐📈\n⌛🔒",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is the article about a place in the United States, perhaps a historic town or commercial district? Please indicate the main category and, if it’s a place, its state or region.\n\nIs it a place in the United States—perhaps a historic town or commercial district? What state or region is it in?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "👍 🗺️\n🔑🪨 🌲\n🥊🏃🪜 🦅🏈\n🏺🦴🗿🎟️\n🛒💼📈",
+      "delivered": "👍 🗺️\n🔑🪨 🌲\n🥊🏃🪜 🦅🏈\n🏺🦴🗿🎟️\n🛒💼📈",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The keystone, Rocky steps, and Eagles point to Philadelphia, Pennsylvania.\n\nGUESS: Philadelphia",
+      "guess": "Philadelphia",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "👍 📍🥊🏃🪜🦅🏈\n🎯 🏺🗿🦴🎟️\n💼🛍️📊⚖️🌐\n📜⌛ 🔒",
+      "delivered": "👍 📍🥊🏃🪜🦅🏈\n🎯 🏺🗿🦴🎟️\n💼🛍️📊⚖️🌐\n📜⌛ 🔒",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Philadelphia Commercial Museum",
+      "guess": "Philadelphia Commercial Museum",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 14,
+    "round": 1,
+    "n_banned": 16,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

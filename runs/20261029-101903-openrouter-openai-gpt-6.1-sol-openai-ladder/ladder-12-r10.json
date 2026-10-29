@@ -1,0 +1,178 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Dora Akunyili",
+    "description": "Nigerian pharmacist and government official (1954–2014)",
+    "extract": "Dora Nkem Akunyili was a Nigerian pharmacist and politician who served as the director-general of National Agency for Food and Drug Administration and Control (NAFDAC) of Nigeria from 2001 to 2008.",
+    "url": "https://en.wikipedia.org/wiki/Dora_Akunyili"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 78.1,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2306,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1164,
+      "output_tokens": 1379,
+      "thinking_tokens": 1188,
+      "cost_usd": 0.019168400000000002,
+      "calls": 3
+    },
+    "guesser": {
+      "input_tokens": 1277,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 562,
+      "thinking_tokens": 416,
+      "cost_usd": 0.008174,
+      "calls": 3
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1000,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 550,
+        "thinking_tokens": 516,
+        "cost_usd": 0.0075,
+        "duration_ms": 21920
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1167,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 540,
+        "thinking_tokens": 467,
+        "cost_usd": 0.008316,
+        "duration_ms": 22249
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 139,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1164,
+        "output_tokens": 289,
+        "thinking_tokens": 205,
+        "cost_usd": 0.0033524,
+        "duration_ms": 11452
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 286,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 212,
+        "thinking_tokens": 132,
+        "cost_usd": 0.002692,
+        "duration_ms": 8062
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 433,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 265,
+        "thinking_tokens": 212,
+        "cost_usd": 0.003516,
+        "duration_ms": 10084
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 558,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 85,
+        "thinking_tokens": 72,
+        "cost_usd": 0.001966,
+        "duration_ms": 4289
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🥑 🦷 🥑\n👩‍🏫 ⚗ 🏆\n💊</msg>",
+      "delivered": "🥑 🦷 🥑\n👩‍🏫 🏆",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "⚗️",
+        "💊"
+      ],
+      "retried": false,
+      "guesser": "Is this a person, perhaps a teacher or academic who won an award? Does 🥑 🦷 🥑 encode their name, or describe their work?\n\nIs this a person—a teacher or academic who won an award? Does 🥑 🦷 🥑 sound out their name, or describe their work?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👤 👩‍🏫 🏆 👌\n🥑🦷🥑 🟰 🏁\n🦁 🦒 🐘\n🍅 🍌 🍇 ➕ 🏨 🩼\n🕵️‍♂️ 🚧</msg>",
+      "delivered": "👤 👩‍🏫 🏆 👌\n🥑🦷🥑 🟰 🏁\n🦁 🦒 🐘\n🍅 🍌 🍇 ➕ 🏨 🩼\n🕵️‍♂️ 🚧",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Does 🥑🦷🥑 mean Nigeria’s green-white-green flag? Is this a Nigerian woman professor whose research relates to food, agriculture, or health? What award did she win, and what is her research field?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>👌 🥑🦷🥑 🟰 🇳🇬\n👩‍🏫 ➕ 🏨 ➕ 🍅🍌🍇\n👮 🆚 🎰 🏴‍☠️\n📡 📻 📰\n👩‍🦰 🙈 👢 🏞️</msg>",
+      "delivered": "👌 🥑🦷🥑 🟰\n👩‍🏫 ➕ 🏨 ➕ 🍅🍌🍇\n👮 🎰\n📡 📻 📰\n👩‍🦰 🙈 👢 🏞️",
+      "dropped_chars": 3,
+      "off_keyboard": [
+        "🇳🇬",
+        "🏴‍☠️"
+      ],
+      "retried": false,
+      "guesser": "GUESS: Dora Akunyili",
+      "guess": "Dora Akunyili",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 12,
+    "round": 10,
+    "n_banned": 192,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

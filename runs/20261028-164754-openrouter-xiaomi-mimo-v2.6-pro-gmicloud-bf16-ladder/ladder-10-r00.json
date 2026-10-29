@@ -1,0 +1,238 @@
+{
+  "model": "openrouter:xiaomi/mimo-v2.6-pro@gmicloud/bf16",
+  "model_id": "xiaomi/mimo-v2.6-pro",
+  "guesser_model": "openrouter:xiaomi/mimo-v2.6-pro@gmicloud/bf16",
+  "guesser_model_id": "xiaomi/mimo-v2.6-pro",
+  "effort": null,
+  "article": {
+    "title": "Accord Pond",
+    "description": "Lake in Massachusetts, USA",
+    "extract": "Accord Pond is a 100-acre (0.40 km2) reservoir in Hingham, Norwell and Rockland, Massachusetts. The reservoir is located off Route 228 at its terminus with Route 3. The reservoir is visible from Route 3 northbound at Exit 14, the Route 228 off-ramp. The reservoir is a Class A source of water supply for the town of Hingham and Hull Ma. The outflow of the reservoir is Accord Brook, a tributary of the Weir River.",
+    "url": "https://en.wikipedia.org/wiki/Accord_Pond"
+  },
+  "solved": true,
+  "turns_taken": 5,
+  "solved_turn": 5,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 1457.5,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1470,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 3456,
+      "output_tokens": 2116,
+      "thinking_tokens": 1978,
+      "cost_usd": 0.0021200649,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 1440,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2304,
+      "output_tokens": 57138,
+      "thinking_tokens": 56303,
+      "cost_usd": 0.042793824599999995,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 195,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 481,
+        "thinking_tokens": 466,
+        "cost_usd": 0.00042867115,
+        "duration_ms": 19488
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 306,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 384,
+        "output_tokens": 220,
+        "thinking_tokens": 196,
+        "cost_usd": 0.0002771391,
+        "duration_ms": 9768
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 318,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 640,
+        "output_tokens": 1085,
+        "thinking_tokens": 1041,
+        "cost_usd": 0.000922114,
+        "duration_ms": 35698
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 410,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 896,
+        "output_tokens": 297,
+        "thinking_tokens": 251,
+        "cost_usd": 0.0003742754,
+        "duration_ms": 12868
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 241,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1280,
+        "output_tokens": 33,
+        "thinking_tokens": 24,
+        "cost_usd": 0.00011786525,
+        "duration_ms": 4281
+      }
+    ],
+    "guesser": [
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 258,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 1121,
+        "thinking_tokens": 916,
+        "cost_usd": 0.000924375,
+        "duration_ms": 34159
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 242,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 6625,
+        "thinking_tokens": 6400,
+        "cost_usd": 0.0049895374,
+        "duration_ms": 189437
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 378,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 384,
+        "output_tokens": 3878,
+        "thinking_tokens": 3632,
+        "cost_usd": 0.0030088521,
+        "duration_ms": 115447
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 408,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 640,
+        "output_tokens": 44592,
+        "thinking_tokens": 44482,
+        "cost_usd": 0.033128818,
+        "duration_ms": 1011736
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 154,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1024,
+        "output_tokens": 922,
+        "thinking_tokens": 873,
+        "cost_usd": 0.0007422421,
+        "duration_ms": 24595
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🤝🚗🏞️💧🇺🇸</msg>",
+      "delivered": "🤝🚗🏞️💧🇺🇸",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Interesting start! Let me check my read before guessing:\n\n- 🤝 = handshake → \"peace\", \"friendship\", \"agreement/treaty\", or \"meeting\"?\n- 🚗 = car / auto / road / travel\n- 🏞️ = park / landscape / nature\n- 💧 = water / river / lake / waterfall\n- 🇺🇸 = United States\n\nMy working hypothesis: a **place in the US** (maybe a park, river, dam, or town) whose name involves \"friendship/peace/agreement\" or a \"meeting\" of something.\n\nTwo quick questions:\n1. Is the article about a **physical place** (town, river, park, dam, lake) in the US, rather than a person or event?\n2. Does 🤝 represent **\"peace/friendship/treaty\"**, or is it something else (e.g., \"meeting/union/junction\", \"deal\", \"shake\")?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👍\n🤝➡️✅📜\n💧🏞️➖\n🔗🤝💧</msg>",
+      "delivered": "👍\n🤝➡️✅📜\n💧🏞️➖\n🔗🤝💧",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Let me test my reading of that:\n\n- 👍 = yes, a physical place in the US\n- 🤝 ➡️ ✅📜 = 🤝 means **\"treaty / agreement / covenant / pact\"** (a document)\n- 💧🏞️➖ = water and park are **not** in the title (drop those from the guess)\n- 🔗🤝💧 = but the treaty word is **linked to** a water word (so the title = [treaty-ish word] + [water word]?)\n\nThree quick clarifications:\n1. Is the title literally something like **\"Treaty ___\"** or **\"___ River/Creek/Lake\"** — i.e., a treaty-word combined with a water-word?\n2. What does **🚗** represent in the name — a road/trail, a wagon, a car, a crossing (like \"Ford\"), or is it just describing the setting?\n3. Is 🇺🇸 part of the name (e.g., \"American\"), or just indicating it's in the US?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n1️⃣👍\n2️⃣🚗➖\n3️⃣🇺🇸➖\n🤝🇫🇷\n🦆💧➖🏞️➖🌊\n</msg>",
+      "delivered": "👍\n🚗➖\n🇺🇸➖\n🤝🇫🇷\n🦆💧➖🏞️➖🌊",
+      "dropped_chars": 6,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Working reading:\n- 🤝 = \"treaty/agreement\" word (French-related? 🇫🇷)\n- Title = [agreement word] + [water word], where the water word involves a **duck** 🦆\n- Not \"lake\" 🏞️, not \"sea/river/wave\" 🌊\n\nQuestions:\n1. Does 🦆 mean the **literal word \"duck\"** (e.g., \"Duck Creek\"), or is it a *kind* of duck (mallard, teal, drake, eider...), or does it hint at \"bayou\" (French word, ducks in swamp water)?\n2. What does 🇫🇷 attach to — is the agreement word **French** (e.g., \"trêve\", \"paix\", \"traité\"), or is it a treaty *with France* (e.g., \"Treaty of Paris\", \"Louisiana Purchase\")?\n3. Is the title a **place in the US** of the form \"[agreement-ish word] + [water-body word]\", e.g., \"Concord Creek\", \"Amity Creek\", \"Peace River\"?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>\n1️⃣🦆➖, ➕➖➖➖, ➡️♒🔵\n2️⃣🇫🇷➡️🤝\n3️⃣👍\n</msg>",
+      "delivered": "🦆➖ ➕➖➖➖ ➡️♒🔵\n🇫🇷➡️🤝\n👍",
+      "dropped_chars": 8,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Thanks — I'm now fairly sure the title is **[French agreement word] + [water word related to ducks]**. But I'm stuck decoding the derivation 🦆➖➕➖➖➖➡️♒🔵.\n\nQuick question to help me narrow it down:\n\n**Is the water word in the title \"POND\"?** (Ducks → pond?)\n\nIf not, is it: POOL, CREEK, MARSH, SLOUGH, BAYOU, SPRING, FALLS, or something else entirely?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>👍</msg>",
+      "delivered": "👍",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Great — so the title is **[French agreement word] + \"Pond\"**! \n\nFrench for \"agreement/accord\" is \"accord\" → **Accord Pond**?\n\nGUESS: Accord Pond",
+      "guess": "Accord Pond",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 10,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

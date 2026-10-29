@@ -1,0 +1,139 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Jakob von Washington",
+    "description": "Bavarian general (1778–1848)",
+    "extract": "\nBaron Jacobus von Washington was a lieutenant general in the Bavarian Army and a distant relative of US President George Washington. Born in The Hague, Netherlands, he was christened James Washington. Most of his adult life was shaped by his participation in wars for and against Napoleonic France and his service to Ludwig I of Bavaria.",
+    "url": "https://en.wikipedia.org/wiki/Jakob_von_Washington"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 34.5,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1280,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 370,
+      "thinking_tokens": 176,
+      "cost_usd": 0.00626,
+      "calls": 2
+    },
+    "guesser": {
+      "input_tokens": 947,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 548,
+      "thinking_tokens": 373,
+      "cost_usd": 0.007374,
+      "calls": 2
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 515,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 153,
+        "thinking_tokens": 62,
+        "cost_usd": 0.00256,
+        "duration_ms": 7095
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 765,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 217,
+        "thinking_tokens": 114,
+        "cost_usd": 0.0037,
+        "duration_ms": 7272
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 347,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 420,
+        "thinking_tokens": 257,
+        "cost_usd": 0.004894,
+        "duration_ms": 15100
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 600,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 128,
+        "thinking_tokens": 116,
+        "cost_usd": 0.00248,
+        "duration_ms": 5030
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🪖 🦁 🔷⬜ 🔷⬜\n👨 📛 🪜 👼 ➕ 🏛️ 🌸 🪓🌳\n👨 🔗 🧑‍🦱 🏛️ 🪓🌳\n🌷 ⚖️ 🏠\n🐎 💥 🪖 🤏🎩</msg>",
+      "delivered": "🪖 🦁 🔷⬜ 🔷⬜\n👨 📛 🪜 👼 ➕ 🏛️ 🌸 🪓🌳\n👨 🔗 🧑‍🦱 🏛️ 🪓🌳\n🌷 ⚖️ 🏠\n🐎 💥 🪖 🤏🎩",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I’m reading this as a historical military man, possibly Finnish, Dutch, or Bavarian, with a noble family connection and a role in the Napoleonic wars. Which country is intended, and can you break his name into emoji clues?\n\n\nIs the name clue “Jacob” (ladder and angel), followed by something like “Rosen…” (flower)? And does 🪓🌳 mean “wood,” “forest,” or the name “Axel”?\n\n\nAre 🔷⬜ the colors of Bavaria, and is 👨📛🪜👼 pointing to a man named **Jacob**? Does 🌸🪓🌳 encode a surname like **Rosen…**?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🔷⬜ 🦁 👍\n🪜👼 📛 👍\n🌸 📛 👎\n\n🧼🧺 ➕ ⚖️🏋️ 🟰 🏛️🍒🌳🪓\n\n🪖👨 🔗 👨‍🦱🏛️🦅\n👨‍🦱🏛️🦅 💲🪙</msg>",
+      "delivered": "🔷⬜ 🦁 👍\n🪜👼 📛 👍\n🌸 📛 👎\n🧼🧺 ➕ ⚖️🏋️ 🟰 🏛️🍒🌳🪓\n🪖👨 🔗 👨‍🦱🏛️🦅\n👨‍🦱🏛️🦅 💲🪙",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Jakob von Washington",
+      "guess": "Jakob von Washington",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 6,
+    "round": 1,
+    "n_banned": 16,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

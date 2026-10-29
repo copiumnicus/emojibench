@@ -1,0 +1,242 @@
+{
+  "model": "openrouter:xiaomi/mimo-v2.6-pro@gmicloud/bf16",
+  "model_id": "xiaomi/mimo-v2.6-pro",
+  "guesser_model": "openrouter:xiaomi/mimo-v2.6-pro@gmicloud/bf16",
+  "guesser_model_id": "xiaomi/mimo-v2.6-pro",
+  "effort": null,
+  "article": {
+    "title": "Sage Derby",
+    "description": "Variety of cheese",
+    "extract": "Sage Derby is a variety of Derby cheese that is mild, mottled green and semi-hard, and has a sage flavour. The colour is from sage and sometimes other colouring added to the curds, producing a marbling effect and a subtle herb flavour. The colour is formed either by mixing sage leaves into the curd before it is pressed or by the addition of \"green curd\" from green corn or spinach juice. In the latter case, the flavour has to be created with colourless sage extract. Parsley, spinach and marigold leaves, bruised and steeped before use, can also be included instead of the sage leaves. It is aged for one to three months.",
+    "url": "https://en.wikipedia.org/wiki/Sage_Derby"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 529.8,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2216,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2688,
+      "output_tokens": 4268,
+      "thinking_tokens": 4102,
+      "cost_usd": 0.0039846911999999995,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 925,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2048,
+      "output_tokens": 9931,
+      "thinking_tokens": 9324,
+      "cost_usd": 0.00769295645,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 119,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 2809,
+        "thinking_tokens": 2783,
+        "cost_usd": 0.00212299655,
+        "duration_ms": 75243
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 277,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 66,
+        "thinking_tokens": 42,
+        "cost_usd": 0.00015296855,
+        "duration_ms": 6016
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 163,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 768,
+        "output_tokens": 373,
+        "thinking_tokens": 344,
+        "cost_usd": 0.00033871395,
+        "duration_ms": 15597
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 259,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 896,
+        "output_tokens": 169,
+        "thinking_tokens": 127,
+        "cost_usd": 0.00022378715,
+        "duration_ms": 13316
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 1398,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 851,
+        "thinking_tokens": 806,
+        "cost_usd": 0.001146225,
+        "duration_ms": 31506
+      }
+    ],
+    "guesser": [
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 36,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 2084,
+        "thinking_tokens": 1971,
+        "cost_usd": 0.0015552994,
+        "duration_ms": 68175
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 184,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 249,
+        "thinking_tokens": 149,
+        "cost_usd": 0.0002530399,
+        "duration_ms": 9607
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 194,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 384,
+        "output_tokens": 345,
+        "thinking_tokens": 218,
+        "cost_usd": 0.0003281646,
+        "duration_ms": 17825
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 235,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 414,
+        "thinking_tokens": 286,
+        "cost_usd": 0.00039478505,
+        "duration_ms": 17067
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 276,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 640,
+        "output_tokens": 6839,
+        "thinking_tokens": 6700,
+        "cost_usd": 0.0051616675,
+        "duration_ms": 275468
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🫕 🟢 ⬜ 🦉 🤔 ⏳</msg>",
+      "delivered": "🫕 🟢 ⬜ 🦉 🤔 ⏳",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Interesting puzzle. Let me ask a few yes/no questions to narrow it down (answer with 👍/👎 for each):\n\n1. Is the article about a **living organism / species**?\n2. Does the title literally contain the word **\"owl\"** (or a word for owl in some language)?\n3. Do the green and white refer to **colors** (flag, coat of arms, team kit)?\n\nAlso: is 🫕 a literal clue (cheese/Switzerland/melting) or a substitute for something banned?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👎 🦉🤔 🫕↕️ 🍵 🤢</msg>",
+      "delivered": "👎 🦉🤔 🫕↕️ 🍵 🤢",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Helpful! So not a species. Let me narrow the domain (👍/👎 each):\n\n1. Is the article about a **person**?\n2. Is it about a **place** (town, village, geography)?\n3. Is it about a **film/TV show/book/song**?\n4. Is it about **food or drink** (something you consume)?\n\nAnd does the title literally contain a word for **\"tea\"** or **\"green\"**?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>👎 👎 👎 👍 🍵👎 ⬜🟢 🫕 👞🦉</msg>",
+      "delivered": "👎 👎 👎 🍵👎 ⬜🟢 🫕 👞🦉",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "👍"
+      ],
+      "retried": false,
+      "guesser": "Noted. Let me probe the category and those last two emojis (👞🦉):\n\n1. Is it about a **work of art** (painting, sculpture, etc.)?\n2. Is it a **building or structure**?\n3. Is it a **company, organization, or institution**?\n4. Is it a **game, sport, or competition**?\n5. Is it a **mythological or legendary creature/being**?\n\nAnd: are 👞 and 🦉 part of ONE word/title (like \"shoe-owl\" / \"elf-shoe\") or two separate clues?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>👎 👎 👎 👎 👎 👞🦉 ➡️ 2️⃣ 🔤 🦉=👤🤔 👞=🏇🚫</msg>",
+      "delivered": "👎 👎 👎 👎 👎 👞🦉 ➡️ 🦉👤🤔 👞🚫",
+      "dropped_chars": 6,
+      "off_keyboard": [
+        "🏇"
+      ],
+      "retried": false,
+      "guesser": "Getting closer! So there's an \"owl-person\" figure but 👞 isn't literally a shoe. More category checks (👍/👎 each):\n\n1. Is it a **video game / comic / cartoon character**?\n2. Is it a **book or novel** (or its subject)?\n3. Is it a **song, album, or band**?\n4. Is it a **scientific concept** (chemical, physics, astronomy)?\n5. Is 🦉 also a substitute (not literally an owl)?\n\nAnd is the title roughly **\"Owl-man\" / \"Owl person\"**-like?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>👎 👎 👎 👎 👌 🦉=🧠🧑‍🏫 👞=2️⃣🔤 ➡️ 2️⃣🔤</msg>",
+      "delivered": "👎 👎 👎 👎 👌 🦉🧠🧑‍🏫 👞 ➡️",
+      "dropped_chars": 8,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Great clues. Let me get some structural info (can answer briefly):\n\n1. How many **words** are in the article title? (give a number)\n2. What is the **first letter** of the title?\n3. Does the title contain the word **\"owl\"** in *any* language (e.g., Eule, chouette, búho, gufo, uggla)?\n4. Is this a **concept/term/word** (like a dictionary entry, idiom, or technical term) rather than a physical object or place?\n\nAlso — is 👞 standing in for **a foot/boot/step**, or something else entirely?",
+      "guess": null,
+      "correct": null
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 19,
+    "round": 2,
+    "n_banned": 25,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

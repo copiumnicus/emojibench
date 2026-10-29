@@ -1,0 +1,294 @@
+{
+  "model": "openrouter:deepseek/deepseek-v4-pro-0813@baidu/fp8",
+  "model_id": "deepseek/deepseek-v4-pro-0813",
+  "guesser_model": "openrouter:deepseek/deepseek-v4-pro-0813@baidu/fp8",
+  "guesser_model_id": "deepseek/deepseek-v4-pro-0813",
+  "effort": null,
+  "article": {
+    "title": "UFC BJJ 2",
+    "description": "Martial arts event in 2025",
+    "extract": "UFC BJJ 2: Tackett vs. Canuto was a submission grappling event produced by UFC Brazilian Jiu-Jitsu. The event was held at the UFC Apex in Las Vegas, Nevada, United States, on July 31, 2025 and was streamed live on YouTube.",
+    "url": "https://en.wikipedia.org/wiki/UFC_BJJ_2"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 1100.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1343,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2048,
+      "output_tokens": 12836,
+      "thinking_tokens": 12652,
+      "cost_usd": 0.008114157744,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 1130,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1536,
+      "output_tokens": 50008,
+      "thinking_tokens": 49804,
+      "cost_usd": 0.030736519968,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 903,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 20,
+      "thinking_tokens": 0,
+      "cost_usd": 0.0001003,
+      "calls": 5
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 217,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 3082,
+        "thinking_tokens": 3056,
+        "cost_usd": 0.001925294448,
+        "duration_ms": 55945
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 303,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 997,
+        "thinking_tokens": 962,
+        "cost_usd": 0.000671260128,
+        "duration_ms": 19781
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 412,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 2427,
+        "thinking_tokens": 2390,
+        "cost_usd": 0.001565488848,
+        "duration_ms": 41963
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 281,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 1978,
+        "thinking_tokens": 1938,
+        "cost_usd": 0.001266696816,
+        "duration_ms": 34454
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 130,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 768,
+        "output_tokens": 4352,
+        "thinking_tokens": 4306,
+        "cost_usd": 0.002685417504,
+        "duration_ms": 77193
+      }
+    ],
+    "guesser": [
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 81,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 6215,
+        "thinking_tokens": 6182,
+        "cost_usd": 0.003808277088,
+        "duration_ms": 118338
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 166,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 11626,
+        "thinking_tokens": 11583,
+        "cost_usd": 0.007125400128,
+        "duration_ms": 199566
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 266,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 14539,
+        "thinking_tokens": 14479,
+        "cost_usd": 0.008922192048,
+        "duration_ms": 247893
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 386,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 14481,
+        "thinking_tokens": 14446,
+        "cost_usd": 0.008911214928,
+        "duration_ms": 247241
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 231,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 3147,
+        "thinking_tokens": 3114,
+        "cost_usd": 0.001969435776,
+        "duration_ms": 53088
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 176,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.96e-05,
+        "duration_ms": 1361
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 179,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.99e-05,
+        "duration_ms": 941
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 180,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2e-05,
+        "duration_ms": 942
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 187,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.07e-05,
+        "duration_ms": 878
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 181,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.01e-05,
+        "duration_ms": 1061
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>👊🤼‍♂️🏆 🇧🇷🥋 🥈</msg>",
+      "delivered": "👊🤼‍♂️🏆 🇧🇷🥋 🥈",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The clue suggests a Brazilian martial artist with a silver medal in judo. Guessing the recent Olympic silver medallist.\n\nGUESS: Willian Lima",
+      "guess": "Willian Lima",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>❌👤 🏟️ 🤼‍♂️ 🥊🏆 🇧🇷🥋 ✌️</msg>",
+      "delivered": "❌👤 🏟️ 🤼‍♂️ 🥊🏆 🇧🇷🥋 ✌️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The corrected clue seems to point to a venue, not a person. I’m thinking of the Rio 2016 arena used for judo and wrestling.\n\nGUESS: Arena Carioca 2",
+      "guess": "Arena Carioca 2",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>👊🥊🏆\n🇧🇷🥋\n✌️\n🤼‍♂️\n🎰▶️</msg>",
+      "delivered": "👊🥊🏆\n🇧🇷🥋\n✌️\n🤼‍♂️\n🎰▶️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The emojis now look like a mixed-martial-arts video game: fighting championship, Brazilian jiu-jitsu, wrestling, “2”, and a game/play icon. That points to the sequel in EA’s UFC series.\n\nGUESS: EA Sports UFC 2",
+      "guess": "EA Sports UFC 2",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🎮❌\n🗓️🥋🇧🇷✌️\n🤼‍♂️🥊❌\n🔴▶️</msg>",
+      "delivered": "🎮❌\n🗓️🥋🇧🇷✌️\n🤼‍♂️🥊❌\n🔴▶️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The Brazil flag and “2” seem to be pointing to a season title rather than a person or arena.\n\nGUESS: The Ultimate Fighter: Brazil 2",
+      "guess": "The Ultimate Fighter: Brazil 2",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>🥊🏆\n🥋🇧🇷✌️\n🔒🤼‍♂️\n🗓️🎰▶️\n❌🎮🎥</msg>",
+      "delivered": "🥊🏆\n🥋🇧🇷✌️\n🔒🤼‍♂️\n🗓️🎰▶️\n❌🎮🎥",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The clues point to the second UFC event, featuring Brazilian jiu-jitsu star Royce Gracie.\n\nGUESS: UFC 2: No Way Out",
+      "guess": "UFC 2: No Way Out",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 5,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Jovan Hadži-Vasiljević",
+    "description": "Serbian historian, ethnographer, journalist and writer",
+    "extract": "Jovan Hadži-Vasiljević was a Serbian historian, ethnographer, journalist and writer.",
+    "url": "https://en.wikipedia.org/wiki/Jovan_Had%C5%BEi-Vasiljevi%C4%87"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 60.2,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2126,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1055,
+      "output_tokens": 962,
+      "thinking_tokens": 725,
+      "cost_usd": 0.0146245,
+      "calls": 3
+    },
+    "guesser": {
+      "input_tokens": 1388,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 597,
+      "thinking_tokens": 488,
+      "cost_usd": 0.008746,
+      "calls": 3
+    },
+    "judge": {
+      "input_tokens": 385,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 4.25e-05,
+      "calls": 2
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 826,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 403,
+        "thinking_tokens": 327,
+        "cost_usd": 0.005682,
+        "duration_ms": 16048
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1058,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 272,
+        "thinking_tokens": 195,
+        "cost_usd": 0.0053635,
+        "duration_ms": 10016
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 242,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1055,
+        "output_tokens": 287,
+        "thinking_tokens": 203,
+        "cost_usd": 0.003579,
+        "duration_ms": 10820
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 329,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 289,
+        "thinking_tokens": 242,
+        "cost_usd": 0.003548,
+        "duration_ms": 10076
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 457,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 225,
+        "thinking_tokens": 180,
+        "cost_usd": 0.003164,
+        "duration_ms": 7909
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 602,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 83,
+        "thinking_tokens": 66,
+        "cost_usd": 0.002034,
+        "duration_ms": 3630
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 191,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.11e-05,
+        "duration_ms": 856
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 194,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.14e-05,
+        "duration_ms": 842
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🔺🔷◻️ 🦁🎾\n🧑‍💼 ⏮️🏰 🔍👥 🎎 📓🖌️ 📇\n🇽🇰 ☀️⛰️ 🧿\n🚼🏞️ 🏁🌉</msg>",
+      "delivered": "🔺🔷◻️ 🦁🎾\n🧑‍💼 ⏮️🏰 🔍👥 🎎 📓🖌️ 📇\n🇽🇰 ☀️⛰️ 🧿\n🚼 🏁🌉",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🏞️"
+      ],
+      "retried": false,
+      "guesser": "This looks like a British writer, artist, and ethnographer associated with Albania and Kosovo—possibly someone born in London.\nGUESS: Edith Durham\n\nGUESS: Edith Durham",
+      "guess": "Edith Durham",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🙅‍♀️ 👴\n🎾🏆 🃏 🏀🏆 🍎🔷◻️\n⏮️🔍 👥🎎 📓🖌️\n🇽🇰 ⛰️ ☀️\n🚽🚚 📿 🪴</msg>",
+      "delivered": "🙅‍♀️ 👴\n🎾🏆 🃏 🏀🏆 🍎🔷◻️\n⏮️🔍 👥🎎 📓🖌️\n🇽🇰 ⛰️ ☀️\n🚽🚚 📿",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🪴"
+      ],
+      "retried": false,
+      "guesser": "Are the tennis and basketball champions pointing to Serbia, and 🚽🚚 sounding out “Jovan”? Is he a Serbian geographer and ethnologist?\nGUESS: Jovan Cvijić",
+      "guess": "Jovan Cvijić",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>👌 🎾🏀 👌 🚽🚚\n🙅‍♀️ 🌐🧭\n👌 ⏮️🔍 👥🎎 📓🖌️\n🚽🚚 ➗ 🙏🛫🧎 ➗ 🍃🍝\n🇽🇰 ☀️⛰️</msg>",
+      "delivered": "👌 🎾🏀 👌 🚽🚚\n🙅‍♀️ 🌐🧭\n👌 ⏮️🔍 👥🎎 📓🖌️\n🚽🚚 ➗ 🙏🛫🧎 ➗ 🍃🍝\n🇽🇰 ☀️⛰️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Jovan Hadži Vasiljević",
+      "guess": "Jovan Hadži Vasiljević",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 9,
+    "round": 4,
+    "n_banned": 132,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

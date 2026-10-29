@@ -1,0 +1,238 @@
+{
+  "model": "openrouter:minimax/minimax-m3@minimax",
+  "model_id": "minimax/minimax-m3",
+  "guesser_model": "openrouter:minimax/minimax-m3@minimax",
+  "guesser_model_id": "minimax/minimax-m3",
+  "effort": null,
+  "article": {
+    "title": "Ayribobo",
+    "description": "Highest mountain of Turkmenistan",
+    "extract": "Ayribobo or Aýrybaba, officially named the Great Saparmyrat Turkmenbashi Peak in Turkmenistan since 2004, is a mountain in Central Asia. At 3,138 metres (10,295 ft) Aýrybaba is the highest mountain in Turkmenistan. It is located in the Köýtendag Range of the Pamir-Alay chain in the southeast of Turkmenistan on the Uzbekistani border.",
+    "url": "https://en.wikipedia.org/wiki/Ayribobo"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 290.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1260,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 3713,
+      "output_tokens": 1431,
+      "thinking_tokens": 1272,
+      "cost_usd": 0.00231798,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 1071,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 3046,
+      "output_tokens": 26376,
+      "thinking_tokens": 25685,
+      "cost_usd": 0.03215526,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 472,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 128,
+        "output_tokens": 415,
+        "thinking_tokens": 382,
+        "cost_usd": 0.00064728,
+        "duration_ms": 6279
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 201,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 600,
+        "output_tokens": 312,
+        "thinking_tokens": 278,
+        "cost_usd": 0.0004707,
+        "duration_ms": 3702
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 189,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 801,
+        "output_tokens": 288,
+        "thinking_tokens": 259,
+        "cost_usd": 0.00045036,
+        "duration_ms": 4592
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 204,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 990,
+        "output_tokens": 197,
+        "thinking_tokens": 166,
+        "cost_usd": 0.000357,
+        "duration_ms": 2567
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 194,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1194,
+        "output_tokens": 219,
+        "thinking_tokens": 187,
+        "cost_usd": 0.00039264,
+        "duration_ms": 2827
+      }
+    ],
+    "guesser": [
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 320,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 128,
+        "output_tokens": 5165,
+        "thinking_tokens": 5012,
+        "cost_usd": 0.00630168,
+        "duration_ms": 53187
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 193,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 448,
+        "output_tokens": 1241,
+        "thinking_tokens": 1103,
+        "cost_usd": 0.00157398,
+        "duration_ms": 13730
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 175,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 641,
+        "output_tokens": 3645,
+        "thinking_tokens": 3487,
+        "cost_usd": 0.00446496,
+        "duration_ms": 32564
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 197,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 816,
+        "output_tokens": 10461,
+        "thinking_tokens": 10315,
+        "cost_usd": 0.01266126,
+        "duration_ms": 113231
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 186,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1013,
+        "output_tokens": 5864,
+        "thinking_tokens": 5768,
+        "cost_usd": 0.00715338,
+        "duration_ms": 57967
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇹🇲🏔️🥇🚩🇺🇿🧔‍♂️📅⬆️</msg>",
+      "delivered": "🇹🇲🏔️🥇🚩🇺🇿🧔‍♂️📅⬆️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Please answer each numbered question with ✅ or ❌, in order:\n\n1️⃣ Is the article about a specific person?  \n2️⃣ Is it about a mountain or peak?  \n3️⃣ Does 🇺🇿 represent that person’s nationality?  \n4️⃣ Does 🇹🇲 represent that person’s nationality?  \n5️⃣ Does 🏔️ specifically represent Mount Kilimanjaro?  \n6️⃣ Does 🥇 literally represent an Olympic gold medal?  \n7️⃣ Does 🧔‍♂️ identify a particular named man?  \n8️⃣ Does ⬆️ mean “climbed” or “summited”?  \n9️⃣ Does 📅 give the person’s exact birth date?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>❌\n✅\n❌\n❌\n❌\n❌\n❌\n❌\n❌</msg>",
+      "delivered": "❌\n✅\n❌\n❌\n❌\n❌\n❌\n❌\n❌",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Please answer these in order with ✅ or ❌:\n\n1️⃣ Is the mountain located in Tanzania?  \n2️⃣ Is the mountain located in Uzbekistan?  \n3️⃣ Is it Tanzania’s highest mountain?  \n4️⃣ Is 🥇 simply “the highest mountain in its country”?  \n5️⃣ Is 🧔‍♂️ a namesake or someone associated with the mountain, rather than its location?  \n6️⃣ Does 📅 indicate the date of a first ascent?  \n7️⃣ Does ⬆️ indicate the mountain’s elevation above sea level?  \n8️⃣ Does 🚩 indicate that the mountain’s name or flag appears on a summit?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>❌\n❌\n❌\n✅\n✅\n❌\n✅\n❌</msg>",
+      "delivered": "❌\n❌\n❌\n✅\n✅\n❌\n✅\n❌",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Please answer in order with ✅ or ❌:\n\n1️⃣ Is the target Mount Khazret Sultan?  \n2️⃣ Is its summit in Tajikistan, while it counts as Uzbekistan’s highest point?  \n3️⃣ Is it depicted on Uzbekistan’s coat of arms and flag?  \n4️⃣ Is it named after the poet Khazret Sultan, who lived from 1796 to 1871?  \n5️⃣ Is its elevation 6,993 metres?  \n6️⃣ Is it in the Gissar Range?  \n7️⃣ Does 🇹🇲 refer to an analogy with Kilimanjaro, Tanzania’s highest mountain?  \n8️⃣ Is the target a separate mountain from the Khazret Sultan shown on Uzbekistan’s emblem?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>❌\n❌\n❌\n❌\n❌\n❌\n❌\n✅</msg>",
+      "delivered": "❌\n❌\n❌\n❌\n❌\n❌\n❌\n✅",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Please answer these in order with ✅ or ❌:\n\n1️⃣ Is the target Mount Ararat?  \n2️⃣ Is it Armenia’s highest mountain?  \n3️⃣ Is Mount Ararat depicted on Armenia’s coat of arms?  \n4️⃣ Is it traditionally associated with Noah’s Ark?  \n5️⃣ Was its first recorded ascent made by Khachatur Abovian on 13 June 1829?  \n6️⃣ Is its commonly stated elevation about 5,137 metres?  \n7️⃣ Is it in eastern Turkey, near the Armenia–Turkey border?  \n8️⃣ Does 📅 perhaps refer to the traditional landing date of Noah’s Ark rather than the first ascent?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>❌\n❌\n❌\n❌\n❌\n❌\n❌\n❌</msg>",
+      "delivered": "❌\n❌\n❌\n❌\n❌\n❌\n❌\n❌",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Please answer each with ✅ or ❌:\n\n1️⃣ Is it Dufourspitze?  \n2️⃣ Is it Ismoil Somoni Peak?  \n3️⃣ Is it Mount Wilhelm?  \n4️⃣ Is it Pico Bolívar?  \n5️⃣ Is it Aoraki / Mount Cook?  \n6️⃣ Is it Mount Kosciuszko?  \n7️⃣ Is it Denali?  \n8️⃣ Is it Mount Logan?",
+      "guess": null,
+      "correct": null
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 11,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

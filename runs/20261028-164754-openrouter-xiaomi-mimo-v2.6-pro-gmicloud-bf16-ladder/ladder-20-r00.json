@@ -1,0 +1,238 @@
+{
+  "model": "openrouter:xiaomi/mimo-v2.6-pro@gmicloud/bf16",
+  "model_id": "xiaomi/mimo-v2.6-pro",
+  "guesser_model": "openrouter:xiaomi/mimo-v2.6-pro@gmicloud/bf16",
+  "guesser_model_id": "xiaomi/mimo-v2.6-pro",
+  "effort": null,
+  "article": {
+    "title": "Franco Cozzo",
+    "description": "Australian businessman (1935–2023)",
+    "extract": "Franco Cozzo was an Italian-Australian businessman. After moving to Melbourne from Sicily in 1955, Cozzo became known for his television advertisements, in which he would speak in English, Greek, and Italian. He later produced Australia's first non-English TV show, Carosello, which was broadcast in Italian.",
+    "url": "https://en.wikipedia.org/wiki/Franco_Cozzo"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 1133.3,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1867,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 3456,
+      "output_tokens": 2331,
+      "thinking_tokens": 2187,
+      "cost_usd": 0.0024258481500000002,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 2415,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1792,
+      "output_tokens": 35087,
+      "thinking_tokens": 33795,
+      "cost_usd": 0.026845875550000002,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 155,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 527,
+        "thinking_tokens": 488,
+        "cost_usd": 0.00044789815,
+        "duration_ms": 16475
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 516,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 267,
+        "thinking_tokens": 239,
+        "cost_usd": 0.0003891079,
+        "duration_ms": 7227
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 246,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 768,
+        "output_tokens": 351,
+        "thinking_tokens": 329,
+        "cost_usd": 0.0003531342,
+        "duration_ms": 12030
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 479,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 896,
+        "output_tokens": 1147,
+        "thinking_tokens": 1118,
+        "cost_usd": 0.00102836315,
+        "duration_ms": 32194
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 471,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1280,
+        "output_tokens": 39,
+        "thinking_tokens": 13,
+        "cost_usd": 0.00020734475,
+        "duration_ms": 7083
+      }
+    ],
+    "guesser": [
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 280,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 16715,
+        "thinking_tokens": 16461,
+        "cost_usd": 0.0124642725,
+        "duration_ms": 473880
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 317,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 5247,
+        "thinking_tokens": 5053,
+        "cost_usd": 0.00399823765,
+        "duration_ms": 184221
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 287,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 5943,
+        "thinking_tokens": 5656,
+        "cost_usd": 0.00450270755,
+        "duration_ms": 177023
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 1115,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4611,
+        "thinking_tokens": 4312,
+        "cost_usd": 0.00382210575,
+        "duration_ms": 142155
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 416,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1024,
+        "output_tokens": 2571,
+        "thinking_tokens": 2313,
+        "cost_usd": 0.0020585521,
+        "duration_ms": 81005
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🇮🇹➡️🇦🇺🛋️🏬📺📣👴🗣️🇬🇷🇬🇧🇮🇹🤌✨\n🏆📺🗣️🚫🔤\n</msg>",
+      "delivered": "🇮🇹➡️🇦🇺🛋️🏬📺📣👴🗣️🇬🇷🇬🇧🇮🇹🤌✨\n🏆📺🗣️🚫",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Interesting — let me make sure I'm reading this correctly before I commit to a title. Could you answer with just one emoji per line?\n\n1. **What kind of article is it?** 🧑 person / 📺 TV show / 🎬 film / 🏢 company or brand / 📍 place / 💡 something else\n2. **If it's a person, what are they mainly famous for?** 🎭 acting/comedy / 📺 TV presenting / 💼 business (retail?) / 🍳 food / 🎨 art / 🎤 music / 🏈 sport / ⚖️ something else\n3. **The flags 🇬🇷🇬🇧🇮🇹:** do they mean languages he spoke (🗣️) or countries he lived/worked in (🗺️)?\n4. **The last line 🏆📺🗣️🚫:** is that an award he *won*, or something he was *banned from* / *not allowed to do* on TV? (🏆 for award, 🚫 for banned)\n\nAlso — is the \"🛋️🏬\" his own business (he owned a furniture shop), or the setting of a TV show/advertisement?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n🧑\n💼\n🗣️\n🥇\n🛋️🏬💼👴📺🛋️🏬📣\n</msg>",
+      "delivered": "🧑\n💼\n🗣️\n🥇\n🛋️🏬💼👴📺🛋️🏬📣",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Great, that clarifies a lot: **a person** — a multilingual (Greek/English/Italian) furniture retailer who appears in his own TV adverts and won some kind of gold medal/award.\n\nBefore I commit to a name, three quick taps (one emoji per line is fine):\n\n1. **The 🥇** — is it a *sport* medal (Olympics/Commonwealth/boxing/weightlifting)? → 🏋️\n   a *TV/media* award (e.g. Gold Logie)? → 📺\n   or a *business/honour* (OBE, Order of Australia, entrepreneur award)? → 💼\n2. **The furniture business** — one famous local shop he founded → 🏬 ... or a big national chain → 🏬🏬🏬\n3. **Is the article title basically his personal name?** → 🧑✅ or 🧑❌",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n🥇📺🗣️🚫🔤🇮🇹\n🏬\n🧑👍\n</msg>",
+      "delivered": "🥇📺🗣️🚫🇮🇹\n🏬\n🧑👍",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Good progress: **a person (title = his name)**, immigrant from Italy to Australia, owns one famous furniture shop, advertises it himself on TV in Greek/English/Italian, and has won some kind of TV award.\n\nA few quick taps to nail it (one emoji per line is fine):\n\n1. **Country he's mainly famous in** → 🇦🇺 (Australia) / 🇬🇧 (UK) / 🇳🇿 (NZ) / 🇮🇹 (Italy) / 🇺🇸 / 🇨🇦\n2. **Is the 🥇📺 the \"Gold Logie\"?** → ✅ or ❌\n3. **Is he alive today?** → ✅ (living) / ✝️ (died)\n4. **What decade is he mainly famous for?** → 1950s🎚️ / 1960s / 1970s / 1980s / 1990s / 2000s / 2010s / 2020s (reply with the number, e.g. \"8️⃣0️⃣\")\n5. **Is he mainly seen as a businessman/retailer, or mainly as an entertainer/TV personality?** → 💼 or 📺",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>\n🇦🇺\n❌\n✝️\n8️⃣0️⃣\n💼\n</msg>",
+      "delivered": "🇦🇺\n❌\n✝️\n💼",
+      "dropped_chars": 4,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Good — so: **a businessman (furniture retailer), Australian, deceased, title = his name, not famous as an entertainer** (the 🥇📺🗣️🚫 must mean something else — maybe an ad/award/claim he did *not* get, or he was *not allowed* on TV?).\n\nBefore I throw out names, three quick taps (one emoji per line):\n\n1. **City of his shop:** 🌉 Sydney / 🏉 Melbourne / 🌞 Brisbane / 🏖️ Perth / 🍷 Adelaide / 🗺️ elsewhere\n2. **Decade he became famous:** 5️⃣0️⃣ / 6️⃣0️⃣ / 7️⃣0️⃣ / 8️⃣0️⃣ / 9️⃣0️⃣ / 0️⃣0️⃣ (2000s)\n3. **Where was he born?** 🇬🇷 / 🇮🇹 / 🇬🇧 / 🇦🇺 / 🇱🇧 / 🇨🇳 / other\n\nAnd one clarification: the 🥇📺🗣️🚫 — is that “he was **not** on television” or “the 🥇 is **not** a TV award”? (reply 🚫 or ❌)",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>\n🏉\n8️⃣0️⃣\n🇮🇹\n❌\n</msg>",
+      "delivered": "🏉\n🇮🇹\n❌",
+      "dropped_chars": 4,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Getting closer: **Melbourne, born in Italy, businessman, deceased, and the 🥇 is *not* a TV award**. So the 🥇 must be a medal from something else!\n\nThree quick taps (one emoji per line):\n\n1. **What is the 🥇?** — a sport medal 🏅 / a business-industry award 🏆 / an art/craft prize 🎨 / a military medal 🎖️ / other 💡\n2. **If it's sport — which one?** 🚴 cycling / 🥊 boxing / 🤼 wrestling / 🏋️ weightlifting / 🏊 swimming / 🏃 athletics / ⚽ soccer / 🎯 shooting / ⛷️ winter / 🏇 horse\n3. **Roughly when did he become well-known?** 5️⃣ 1950s / 6️⃣ 1960s / 7️⃣ 1970s / 8️⃣ 1980s / 9️⃣ 1990s / 0️⃣ 2000s",
+      "guess": null,
+      "correct": null
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 20,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

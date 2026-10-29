@@ -1,0 +1,178 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Philadelphia Commercial Museum",
+    "description": "Former museum in Pennsylvania, USA",
+    "extract": "The Philadelphia Commercial Museum was established in Philadelphia, Pennsylvania in 1895. Its permanent home was a neo-classical building situated at 34th Street and Civic Center Blvd, erected as part of the 1899 National Export Exposition. The museum had business offices at 332 South Fourth Street.",
+    "url": "https://en.wikipedia.org/wiki/Philadelphia_Commercial_Museum"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 69.4,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1450,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2281,
+      "output_tokens": 1081,
+      "thinking_tokens": 862,
+      "cost_usd": 0.014658599999999999,
+      "calls": 3
+    },
+    "guesser": {
+      "input_tokens": 1292,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 675,
+      "thinking_tokens": 560,
+      "cost_usd": 0.009334,
+      "calls": 3
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1048,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 570,
+        "thinking_tokens": 516,
+        "cost_usd": 0.0083185,
+        "duration_ms": 22122
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 194,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1045,
+        "output_tokens": 294,
+        "thinking_tokens": 226,
+        "cost_usd": 0.003528,
+        "duration_ms": 12169
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 208,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1236,
+        "output_tokens": 217,
+        "thinking_tokens": 120,
+        "cost_usd": 0.0028121,
+        "duration_ms": 8263
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 302,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 283,
+        "thinking_tokens": 222,
+        "cost_usd": 0.003434,
+        "duration_ms": 10688
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 424,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 340,
+        "thinking_tokens": 298,
+        "cost_usd": 0.004248,
+        "duration_ms": 12250
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 566,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 52,
+        "thinking_tokens": 40,
+        "cost_usd": 0.001652,
+        "duration_ms": 3939
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "🏒 🟠 ⚫　👨‍❤️‍👨 🏙\n👔 🧮 🏧　🗄️ 🐘 🐅 🐊\n🕰 🏚",
+      "delivered": "🏒 🟠 ⚫ 👨‍❤️‍👨\n👔 🧮 🗄️ 🐘 🐅 🐊",
+      "dropped_chars": 4,
+      "off_keyboard": [
+        "🏙️",
+        "🕰️",
+        "🏚️"
+      ],
+      "retried": false,
+      "guesser": "Is this a person connected with ice hockey management and LGBTQ advocacy? Are the orange and black colors specifically the Philadelphia Flyers?\n\nIs this a person connected with ice hockey management and LGBTQ advocacy? Do 🟠⚫ represent the Philadelphia Flyers?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "🏒 🟠 ⚫ ✔️\n🧔 ✖️　👨‍❤️‍👨 🏘 ✖️\n🏤　🎭 🗄️　👔 🧮　🌾 🪵 🧱 🧴 🐘",
+      "delivered": "🏒 🟠 ⚫ ✔️\n🧔 ✖️ 👨‍❤️‍👨 ✖️\n🏤 🎭 🗄️ 👔 🧮 🌾 🪵 🧱 🧴 🐘",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🏘️"
+      ],
+      "retried": false,
+      "guesser": "Do the clues point to Philadelphia (“brotherly love”), rather than a person? Is the article a museum, a company, or an arena? Please emphasize its main purpose.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "👨‍❤️‍👨 🏒 🟠⚫ ✔️\n🏤 🗄️ 👁️ ✔️　🎭 ✖️\n👔 🧮　🔃　🇯🇵 🇨🇳 🇧🇷 🇮🇳\n🌾 🪵 🧱 🧴 🧷 🧺\n⏪ 👁️　🔃 👔",
+      "delivered": "👨‍❤️‍👨 🏒 🟠⚫ ✔️\n🏤 🗄️ 👁️ ✔️ 🎭 ✖️\n👔 🧮 🔃 🇯🇵 🇨🇳 🇧🇷 🇮🇳\n🌾 🪵 🧱 🧴 🧷 🧺\n⏪ 👁️ 🔃 👔",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Philadelphia Commercial Museum",
+      "guess": "Philadelphia Commercial Museum",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 14,
+    "round": 7,
+    "n_banned": 205,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

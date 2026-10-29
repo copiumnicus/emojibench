@@ -1,0 +1,250 @@
+{
+  "model": "openrouter:minimax/minimax-m3@minimax",
+  "model_id": "minimax/minimax-m3",
+  "guesser_model": "openrouter:minimax/minimax-m3@minimax",
+  "guesser_model_id": "minimax/minimax-m3",
+  "effort": null,
+  "article": {
+    "title": "Grande Seca",
+    "description": "Brazilian drought (1877–1878)",
+    "extract": "The Grande Seca, or the Brazilian drought of 1877–1878, was the largest and most devastating drought in Brazilian history. It caused the deaths of between 400,000 and 500,000 people. Of the 800,000 people who lived in the affected Northeastern region, around 120,000 migrated to the Amazon while 68,000 migrated to other parts of Brazil.",
+    "url": "https://en.wikipedia.org/wiki/Grande_Seca"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 123.2,
+  "usage": {
+    "explainer": {
+      "input_tokens": 967,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 3234,
+      "output_tokens": 1417,
+      "thinking_tokens": 1328,
+      "cost_usd": 0.00218454,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 774,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2552,
+      "output_tokens": 9550,
+      "thinking_tokens": 9145,
+      "cost_usd": 0.01184532,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 185,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 2.05e-05,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 463,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 128,
+        "output_tokens": 731,
+        "thinking_tokens": 708,
+        "cost_usd": 0.00102378,
+        "duration_ms": 7614
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 125,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 591,
+        "output_tokens": 160,
+        "thinking_tokens": 144,
+        "cost_usd": 0.00026496,
+        "duration_ms": 3470
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 115,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 716,
+        "output_tokens": 378,
+        "thinking_tokens": 362,
+        "cost_usd": 0.00053106,
+        "duration_ms": 4336
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 137,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 831,
+        "output_tokens": 131,
+        "thinking_tokens": 114,
+        "cost_usd": 0.00024816,
+        "duration_ms": 2282
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 127,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 968,
+        "output_tokens": 17,
+        "thinking_tokens": 0,
+        "cost_usd": 0.00011658,
+        "duration_ms": 1541
+      }
+    ],
+    "guesser": [
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 311,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 128,
+        "output_tokens": 824,
+        "thinking_tokens": 748,
+        "cost_usd": 0.00108978,
+        "duration_ms": 8595
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 109,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 439,
+        "output_tokens": 1061,
+        "thinking_tokens": 979,
+        "cost_usd": 0.00133224,
+        "duration_ms": 10137
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 106,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 548,
+        "output_tokens": 2643,
+        "thinking_tokens": 2538,
+        "cost_usd": 0.00323628,
+        "duration_ms": 23018
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 129,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 654,
+        "output_tokens": 2320,
+        "thinking_tokens": 2227,
+        "cost_usd": 0.00286194,
+        "duration_ms": 33103
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 119,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 783,
+        "output_tokens": 2702,
+        "thinking_tokens": 2653,
+        "cost_usd": 0.00332508,
+        "duration_ms": 28126
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 185,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.05e-05,
+        "duration_ms": 945
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🐘 🇧🇷 🏜️ 📜 💀</msg>",
+      "delivered": "🐘 🇧🇷 🏜️ 📜 💀",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Please answer each with ✅ or ❌:  \n1. Is it an article about an animal/ species?  \n2. Is Brazil central to the story?  \n3. Is a desert or dry region involved?  \n4. Is an old document/text important?  \n5. Is a skull or death involved?]<]minimax[>[<tool_call>\n{\"guessed_title\": false}",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>❌ ✅ ✅ ❌ ✅</msg>",
+      "delivered": "❌ ✅ ✅ ❌ ✅",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "My leading candidate is a historical conflict in Brazil’s dry interior, perhaps involving a mass death. Two clues please:  \n1. Is it the **War of Canudos**?  \n2. Does 🐘 represent a person’s name, an animal appearing in the story, or simply “large”?  \n3. Is the title likely the conflict/event itself rather than a person or place?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>❌ 🐘✅ ✅</msg>",
+      "delivered": "❌ 🐘✅ ✅",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Could you answer these in order with ✅/❌?\n\n1. Is the elephant a **literal animal appearing in the event**?  \n2. Were **humans killed**?  \n3. Is the article about a **battle, war, rebellion, massacre, or similar event**?  \n4. Is the animal perhaps a **jaguar, snake, armadillo, horse, ox, donkey, or dog**?  \n5. Is the event from the **19th century**?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>❌ ✅ ❌ ❌ ✅</msg>",
+      "delivered": "❌ ✅ ❌ ❌ ✅",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Let’s test the **Jeca Tatu** hypothesis. Please answer ✅/❌:\n\n1. Is the article about **one named man**?  \n2. Does his name or nickname refer to an **armadillo**?  \n3. Was he a **hired killer**?  \n4. Were several victims **hanged from a tree**?  \n5. Did the story involve a severe **drought in northeastern Brazil**?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>❌ ❌ ❌ ❌ ✅</msg>",
+      "delivered": "❌ ❌ ❌ ❌ ✅",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The clues suggest a Brazilian literary work: a “large” sertão, an armadillo-nicknamed killer, and deaths—likely *Grande Sertão: Veredas*.\n\nGUESS: The Devil to Pay in the Backlands",
+      "guess": "The Devil to Pay in the Backlands",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 16,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

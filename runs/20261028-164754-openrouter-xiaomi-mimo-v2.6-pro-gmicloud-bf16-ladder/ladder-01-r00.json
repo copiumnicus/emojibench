@@ -1,0 +1,283 @@
+{
+  "model": "openrouter:xiaomi/mimo-v2.6-pro@gmicloud/bf16",
+  "model_id": "xiaomi/mimo-v2.6-pro",
+  "guesser_model": "openrouter:xiaomi/mimo-v2.6-pro@gmicloud/bf16",
+  "guesser_model_id": "xiaomi/mimo-v2.6-pro",
+  "effort": null,
+  "article": {
+    "title": "Proceratium silaceum",
+    "description": "Species of ant",
+    "extract": "Proceratium silaceum is a species of ant in the family Formicidae.",
+    "url": "https://en.wikipedia.org/wiki/Proceratium_silaceum"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 519.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2025,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1664,
+      "output_tokens": 2169,
+      "thinking_tokens": 2074,
+      "cost_usd": 0.0023583768499999998,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 1831,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1280,
+      "output_tokens": 13429,
+      "thinking_tokens": 12612,
+      "cost_usd": 0.01061210975,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 696,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 16,
+      "thinking_tokens": 0,
+      "cost_usd": 7.76e-05,
+      "calls": 4
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 358,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 671,
+        "thinking_tokens": 654,
+        "cost_usd": 0.000628575,
+        "duration_ms": 23528
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 281,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 420,
+        "thinking_tokens": 405,
+        "cost_usd": 0.00041536015,
+        "duration_ms": 17064
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 719,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 333,
+        "thinking_tokens": 317,
+        "cost_usd": 0.00051210375,
+        "duration_ms": 14173
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 240,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 640,
+        "output_tokens": 388,
+        "thinking_tokens": 358,
+        "cost_usd": 0.000377842,
+        "duration_ms": 14469
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 427,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 768,
+        "output_tokens": 357,
+        "thinking_tokens": 340,
+        "cost_usd": 0.00042449595,
+        "duration_ms": 21225
+      }
+    ],
+    "guesser": [
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 259,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 882,
+        "thinking_tokens": 753,
+        "cost_usd": 0.00074800425,
+        "duration_ms": 23084
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 171,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 2377,
+        "thinking_tokens": 2242,
+        "cost_usd": 0.00182188915,
+        "duration_ms": 42330
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 217,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 384,
+        "output_tokens": 289,
+        "thinking_tokens": 179,
+        "cost_usd": 0.00029525685,
+        "duration_ms": 7822
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 766,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 6793,
+        "thinking_tokens": 6527,
+        "cost_usd": 0.005306652,
+        "duration_ms": 242468
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 418,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 640,
+        "output_tokens": 3088,
+        "thinking_tokens": 2911,
+        "cost_usd": 0.0024403075,
+        "duration_ms": 108916
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 172,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.92e-05,
+        "duration_ms": 930
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 175,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.95e-05,
+        "duration_ms": 892
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 172,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.92e-05,
+        "duration_ms": 990
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 177,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.97e-05,
+        "duration_ms": 1133
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🐜 🔬 🟡 🍂</msg>",
+      "delivered": "🐜 🔬 🟡 🍂",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "My read of the emojis: an ant (🐜) studied under a microscope (🔬), yellow (🟡), autumn/falling leaves (🍂). That suggests a small yellow ant species, possibly one associated with autumn.\n\nHypothesis: the yellow meadow ant (*Lasius flavus*)? Though 🍂 makes me wonder if it's about autumn activity (e.g., nuptial flights) instead.\n\nQuick question for you: is the article about an ant species specifically, or is the ant just a size/shape comparison (e.g., a tiny yellow object seen in autumn)?\n\nGUESS: Lasius flavus",
+      "guess": "Lasius flavus",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🐜 📯 🟡</msg>",
+      "delivered": "🐜 📯 🟡",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Hmm, so it seems ant + trumpet + yellow (my \"Lasius flavus\" guess was off). A couple of quick clarifications to narrow it down:\n\n1. Is 📯 describing a *sound/call* the thing makes, a *horn-shaped body part*, or is \"trumpet\" literally part of its name?\n2. Is the overall topic an animal species, a plant, a place, or something else (e.g., a person)?\n\nMy working hypotheses: some kind of \"yellow trumpeter\"/\"trumpetfish\" type animal, or an ant with a horn-like structure.\n\nGUESS: Yellow trumpetfish",
+      "guess": "Yellow trumpetfish",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🐜 🥚 🕷️</msg>",
+      "delivered": "🐜 🥚 🕷️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "🐜🥚🕷️ — ant, egg, spider. My best guess is some spider that mimics ants or one whose name involves eggs. A few quick yes/no questions to sharpen this:\n\n1. Is the article about a **spider species** specifically?\n2. Does it mimic ants (ant-mimic), or eat ant eggs / live with ants?\n3. Is \"egg\" describing something about its appearance/name (egg-shaped, egg-sac)?\n\nGuessing my top candidate:\n\nGUESS: Myrmarachne",
+      "guess": "Myrmarachne",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🐜 🇬🇷 📯 🕷️ 🥚 🍽️ 🟡</msg>",
+      "delivered": "🐜 🇬🇷 📯 🕷️ 🥚 🍽️ 🟡",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Lots more clues now — 🐜 🇬🇷 📯 🕷️ 🥚 🍽️ 🟡 (ant, Greek, trumpet, spider, egg, food, yellow). Before I keep throwing out names, a few sharp questions would help a lot:\n\n1. **What kind of thing is the article about?** (animal species / plant / food / myth / person / place?)\n2. If it's a species, which group: **insect, spider, snail/shellfish, or something else?**\n3. Does 📯 mean a **sound/call**, a **horn- or trumpet-shaped body part**, or is \"trumpet\" literally in the name?\n4. Does 🍽️ mean it **eats** the eggs/spiders, or that **it is eaten** (i.e., it's food)?\n\nMy current working hypotheses: a yellow creature from Greece named from Greek roots (myrmex = ant, arachne = spider, oon = egg, xanthos = yellow), possibly a myrmecophagous (ant/egg-eating) spider, or else a \"Triton's trumpet\"-style shellfish.\n\nI'll hold off on a blind guess until these come back.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>🐜 🦟 📯 🔝</msg>",
+      "delivered": "🐜 🦟 📯",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Excellent — this combination (🐜 🦟 📯) plus your earlier cluster gives me a strong picture: **very tiny** (ant-sized) + **biting pest** (mosquito) + **Greek word for \"trumpet\"** (trombos = trumpet), plus arachnid 🕷️ (mite), eggs in soil 🥚, parasitic feeding 🍽️, yellow-orange larva 🟡, and autumn 🍂.\n\nThat all points to a **harvest mite / chigger** — the ectoparasitic mite whose larva bites humans like a mosquito, whose adults are soil predators eating arthropod eggs, named from Greek *trombos* (\"trumpet\"). Its scientific name literally encodes \"autumn.\"\n\nGUESS: Neotrombicula autumnalis",
+      "guess": "Neotrombicula autumnalis",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 1,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

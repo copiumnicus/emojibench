@@ -1,0 +1,274 @@
+{
+  "model": "openrouter:xiaomi/mimo-v2.6-pro@gmicloud/bf16",
+  "model_id": "xiaomi/mimo-v2.6-pro",
+  "guesser_model": "openrouter:xiaomi/mimo-v2.6-pro@gmicloud/bf16",
+  "guesser_model_id": "xiaomi/mimo-v2.6-pro",
+  "effort": null,
+  "article": {
+    "title": "Ayribobo",
+    "description": "Highest mountain of Turkmenistan",
+    "extract": "Ayribobo or Aýrybaba, officially named the Great Saparmyrat Turkmenbashi Peak in Turkmenistan since 2004, is a mountain in Central Asia. At 3,138 metres (10,295 ft) Aýrybaba is the highest mountain in Turkmenistan. It is located in the Köýtendag Range of the Pamir-Alay chain in the southeast of Turkmenistan on the Uzbekistani border.",
+    "url": "https://en.wikipedia.org/wiki/Ayribobo"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 413.1,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1639,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 3456,
+      "output_tokens": 4248,
+      "thinking_tokens": 3913,
+      "cost_usd": 0.00375916665,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 1162,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1664,
+      "output_tokens": 7704,
+      "thinking_tokens": 7227,
+      "cost_usd": 0.0061324151,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 538,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 211,
+      "thinking_tokens": 199,
+      "cost_usd": 0.0001593,
+      "calls": 3
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 522,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 3268,
+        "thinking_tokens": 3060,
+        "cost_usd": 0.0026096955,
+        "duration_ms": 93259
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 382,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 226,
+        "thinking_tokens": 202,
+        "cost_usd": 0.0003101123,
+        "duration_ms": 30392
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 298,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 768,
+        "output_tokens": 419,
+        "thinking_tokens": 391,
+        "cost_usd": 0.0004226472,
+        "duration_ms": 17678
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 171,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1024,
+        "output_tokens": 149,
+        "thinking_tokens": 112,
+        "cost_usd": 0.00017689435,
+        "duration_ms": 6289
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 266,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1152,
+        "output_tokens": 186,
+        "thinking_tokens": 148,
+        "cost_usd": 0.0002398173,
+        "duration_ms": 9260
+      }
+    ],
+    "guesser": [
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 295,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 760,
+        "thinking_tokens": 643,
+        "cost_usd": 0.00067109625,
+        "duration_ms": 26740
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 183,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 236,
+        "thinking_tokens": 166,
+        "cost_usd": 0.00024305665,
+        "duration_ms": 9178
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 178,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 384,
+        "output_tokens": 769,
+        "thinking_tokens": 702,
+        "cost_usd": 0.0006357966,
+        "duration_ms": 30975
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 303,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 384,
+        "output_tokens": 413,
+        "thinking_tokens": 303,
+        "cost_usd": 0.00041875335,
+        "duration_ms": 14710
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 203,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 640,
+        "output_tokens": 5526,
+        "thinking_tokens": 5413,
+        "cost_usd": 0.00416371225,
+        "duration_ms": 171147
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 180,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2e-05,
+        "duration_ms": 876
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 178,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 203,
+        "thinking_tokens": 199,
+        "cost_usd": 0.0001193,
+        "duration_ms": 1494
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 180,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2e-05,
+        "duration_ms": 1142
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Looking at this article: Ayribobo (Aýrybaba) - highest mountain of Turkmenistan, on the Uzbek border, Köýtendag Range, Pamir-Alay, renamed after Turkmenbashi.\n\nBanned: ➖ 🇹🇲 🇺🇿 🏔️ 🥇. So no Turkmenistan flag, no snow-capped mountain, no gold medal. Need alternatives:\n- Mountain: ⛰️ (regular mountain, not banned)\n- Highest: ⬆️ 🆙 👑 📈\n- Turkmenistan hints (no flag): 🏜️ Karakum, 🐎 Akhal-Teke horse, 🧶 Turkmen carpets, 🛢️ natural gas\n- Central Asia: 🌏\n\nLet me start with strong country identification through distinctive national symbols.\n\n<msg>⛰️ 🆙 🏜️ 🧶 🐎 🛢️ 🌏</msg>",
+      "delivered": "⛰️ 🏜️ 🧶 🐎 🛢️ 🌏",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Quick read of the emojis: mountains, desert, wool/yarn, horse, oil, Asia/globe. This suggests a Central Asian place known for horses, textiles/wool, and oil.\n\nBefore I commit to a guess, two quick questions:\n\n1. Is the article about a **place** (country/region/city) rather than an animal, person, or product?\n2. Is it in **Central Asia** (e.g., Turkmenistan, Kazakhstan, Uzbekistan, Kyrgyzstan)?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👍 👍 ⛰️ 🆙 🧶 🐎 🔥 🕳️</msg>",
+      "delivered": "👍 👍 ⛰️ 🧶 🐎 🔥 🕳️",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The addition of 🔥 (fire) and 🕳️ (hole/crater) strongly suggests a **burning hole in the ground** — combined with the desert, horses, and oil from the first clue set, I'm thinking of the famous gas crater in Turkmenistan.\n\nGUESS: Darvaza gas crater",
+      "guess": "Darvaza gas crater",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>👎 ⛰️ 🗻 ⬆️ 👑 🧗 ❄️</msg>",
+      "delivered": "👎 ⛰️ 🗻 ⬆️ 👑 🧗 ❄️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "New clues point to a high, snow-covered mountain with climbing — plus a \"crown/king\" element. Combined with the earlier Central Asia + horses + wool hints, I'm thinking of the \"Lord of the Skies\" peak on the Kazakhstan/Kyrgyzstan border.\n\nGUESS: Khan Tengri",
+      "guess": "Khan Tengri",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>👎 🏜️ 🧶 🐎 🛢️ ⬆️ 📍 🇺🇿 ⛰️</msg>",
+      "delivered": "👎 🏜️ 🧶 🐎 🛢️ ⬆️ 📍 ⛰️",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🇺🇿"
+      ],
+      "retried": false,
+      "guesser": "Those core emojis keep repeating (desert, wool, horse, oil) with a location pin and \"up/north\" + mountain. Let me narrow this down:\n\n1. Is the article about a **breed of animal** (horse/sheep) rather than a place?\n2. Is it located in **Turkmenistan** specifically (rather than Kazakhstan/Kyrgyzstan/Afghanistan)?\n3. Does \"⬆️\" mean \"north\" as part of the name (e.g., \"Northern ...\")?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>👍 🏜️ 🧶 🐎 ⛰️ 🆙 👑 🤝 🇦🇫 🧔</msg>",
+      "delivered": "👍 🏜️ 🧶 🐎 ⛰️ 👑 🤝 🇦🇫 🧔",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Interesting shift! Let me re-read the whole picture: mountains, snow, north, desert, wool, horse (possibly a substitute for a horned/woolly animal?), oil and fire-crater (a place Marco Polo famously described — the eternal flames/oil springs of the Caspian), a crown/khan, trade (🤝), a bearded traveler-man, and Afghanistan (the Wakhan route). This sounds like a sheep named after a famous bearded Venetian merchant who served a great Khan.\n\nGUESS: Marco Polo sheep",
+      "guess": "Marco Polo sheep",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 11,
+    "round": 1,
+    "n_banned": 5,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Iglesia de Santa Ana (Santiago de Chile)",
+    "description": "National monument of Chile",
+    "extract": "The Iglesia de Santa Ana is a Catholic church in downtown Santiago de Chile. It is located at the northwest corner of Catedral and San Martín streets. The church was declared as a National Monument of Chile in 1970, within the category of Historic Monuments. Santa Ana metro station is named after the church.",
+    "url": "https://en.wikipedia.org/wiki/Iglesia_de_Santa_Ana_(Santiago_de_Chile)"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 56.9,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2251,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1146,
+      "output_tokens": 937,
+      "thinking_tokens": 710,
+      "cost_usd": 0.0146721,
+      "calls": 3
+    },
+    "guesser": {
+      "input_tokens": 1443,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 500,
+      "thinking_tokens": 317,
+      "cost_usd": 0.007886,
+      "calls": 3
+    },
+    "judge": {
+      "input_tokens": 197,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 2.17e-05,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 874,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 471,
+        "thinking_tokens": 401,
+        "cost_usd": 0.006458,
+        "duration_ms": 18870
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1149,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 253,
+        "thinking_tokens": 179,
+        "cost_usd": 0.005401,
+        "duration_ms": 10108
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 228,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1146,
+        "output_tokens": 213,
+        "thinking_tokens": 130,
+        "cost_usd": 0.0028131,
+        "duration_ms": 8176
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 322,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 230,
+        "thinking_tokens": 113,
+        "cost_usd": 0.002944,
+        "duration_ms": 7260
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 501,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 153,
+        "thinking_tokens": 103,
+        "cost_usd": 0.002532,
+        "duration_ms": 6453
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 620,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 117,
+        "thinking_tokens": 101,
+        "cost_usd": 0.00241,
+        "duration_ms": 5132
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 197,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.17e-05,
+        "duration_ms": 867
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>💙🤍🤍\n❤️❤️❤️\n\n🌋🫨 🏞️\n🏘️\n\n🛎️🛎️ 🎚️ 🍞🥂\n👰‍♀️🤵 ⚰️\n🚄🕳️</msg>",
+      "delivered": "💙🤍🤍\n❤️❤️❤️\n🌋🫨 🏞️\n🛎️🛎️ 🎚️ 🍞🥂\n👰‍♀️🤵 ⚰️\n🚄🕳️",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🏘️"
+      ],
+      "retried": false,
+      "guesser": "I read the flag as Chile, with volcanoes/earthquakes and a railway tunnel. Is the article a Chilean town or village? What do the bells, bread/toast, and wedding/funeral clues signify?\n\nIs this a **Chilean town or village**? 💙🤍🤍 / ❤️❤️❤️ looks like Chile’s flag. I also see volcanoes/earthquakes and a railway tunnel. Can you clarify the bells, bread/toast, and wedding/funeral clues?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>❎ 🏡\n👌 💙🤍🤍 ❤️❤️❤️\n💒 🛎️ 🪟 🍞🥂\n🏞️ 🏙 🌋\n🚄🕳️ 🏷\n👩‍🦳 👩‍🦱</msg>",
+      "delivered": "❎ 🏡\n👌 💙🤍🤍 ❤️❤️❤️\n💒 🛎️ 🪟 🍞🥂\n🏞️ 🌋\n🚄🕳️\n👩‍🦳 👩‍🦱",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🏙️",
+        "🏷️"
+      ],
+      "retried": false,
+      "guesser": "Is it a church or religious sanctuary in Chile? Do 👩‍🦳👩‍🦱 represent two female saints, or the name “Las ...”? Please give clues to its name or location.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🙆 💒 🇨🇱\n👩‍🦳 🔜 🧕 🔜 👨🪚\n👩‍🦳 💒\n💙🤍🤍\n❤️❤️❤️\n🥇 🏙️\n🚄🕳️ 🗣️ 👩‍🦳</msg>",
+      "delivered": "🙆 💒\n👩‍🦳 🧕 👨🪚\n👩‍🦳 💒\n💙🤍🤍\n❤️❤️❤️\n🚄🕳️ 🗣️ 👩‍🦳",
+      "dropped_chars": 5,
+      "off_keyboard": [
+        "🇨🇱",
+        "🥇",
+        "🏙️"
+      ],
+      "retried": false,
+      "guesser": "GUESS: Santa Ana Church, Santiago de Chile",
+      "guess": "Santa Ana Church, Santiago de Chile",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 15,
+    "round": 6,
+    "n_banned": 139,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

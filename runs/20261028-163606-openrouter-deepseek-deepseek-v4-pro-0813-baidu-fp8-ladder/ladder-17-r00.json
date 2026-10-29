@@ -1,0 +1,228 @@
+{
+  "model": "openrouter:deepseek/deepseek-v4-pro-0813@baidu/fp8",
+  "model_id": "deepseek/deepseek-v4-pro-0813",
+  "guesser_model": "openrouter:deepseek/deepseek-v4-pro-0813@baidu/fp8",
+  "guesser_model_id": "deepseek/deepseek-v4-pro-0813",
+  "effort": null,
+  "article": {
+    "title": "7's Football League",
+    "description": "Football league",
+    "extract": "The 7's Football League is a seven-a-side football league in the Philippines. Established in 2018, the league already had four seasons. It has a two-tiered men's division, a women's division, and youth divisions. The league is an open tournament with participation from representative sides of the domestic football competition, the Philippines Football League.",
+    "url": "https://en.wikipedia.org/wiki/7's_Football_League"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 489.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1372,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1280,
+      "output_tokens": 1779,
+      "thinking_tokens": 1690,
+      "cost_usd": 0.001141055808,
+      "calls": 4
+    },
+    "guesser": {
+      "input_tokens": 986,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1024,
+      "output_tokens": 25504,
+      "thinking_tokens": 25261,
+      "cost_usd": 0.013474980000000001,
+      "calls": 4
+    },
+    "judge": {
+      "input_tokens": 334,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 3.74e-05,
+      "calls": 2
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 223,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 577,
+        "thinking_tokens": 548,
+        "cost_usd": 0.000357424416,
+        "duration_ms": 10602
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 358,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 431,
+        "thinking_tokens": 405,
+        "cost_usd": 0.000271568928,
+        "duration_ms": 7915
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 478,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 696,
+        "thinking_tokens": 672,
+        "cost_usd": 0.000421336128,
+        "duration_ms": 13155
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 313,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 75,
+        "thinking_tokens": 65,
+        "cost_usd": 9.0726336e-05,
+        "duration_ms": 2359
+      }
+    ],
+    "guesser": [
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 83,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 14125,
+        "thinking_tokens": 14047,
+        "cost_usd": 0.007735633056,
+        "duration_ms": 256451
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 206,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 986,
+        "thinking_tokens": 919,
+        "cost_usd": 0.000519216768,
+        "duration_ms": 17291
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 315,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 8304,
+        "thinking_tokens": 8249,
+        "cost_usd": 0.004130488608,
+        "duration_ms": 143135
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 382,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 2089,
+        "thinking_tokens": 2046,
+        "cost_usd": 0.001089641568,
+        "duration_ms": 36300
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 167,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.87e-05,
+        "duration_ms": 863
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 167,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.87e-05,
+        "duration_ms": 881
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇵🇭⚽⚽⚽⚽⚽⚽⚽🏆</msg>",
+      "delivered": "🇵🇭⚽⚽⚽⚽⚽⚽⚽🏆",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "🇵🇭 + 7 × ⚽ + 🏆 — sounds like Philippine football. My first guess is the main national team article. If that's wrong, please reply with a category emoji: 👩 women's team, 🏟️ league/club, 🏢 federation, or 🏆 tournament.\n\nGUESS: Philippines national football team",
+      "guess": "Philippines national football team",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🏟️⚽⚽⚽⚽⚽⚽⚽</msg>",
+      "delivered": "🏟️⚽⚽⚽⚽⚽⚽⚽",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The 🏟️ category tells me it’s a league/club, and the 7 ⚽ emojis likely represent the 7 clubs in the league. The 🏆 from the first clue fits a league trophy. So I’ll guess the top-flight league.\n\nGUESS: Philippines Football League",
+      "guess": "Philippines Football League",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>👥⚽⚽⚽⚽⚽⚽⚽</msg>",
+      "delivered": "👥⚽⚽⚽⚽⚽⚽⚽",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I'm now thinking it may be a specific cup or competition rather than a team or player. To narrow down: Is the article about a specific football competition (e.g., a cup, tournament, or league)? Reply 👍 if yes, 👎 if no.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>👍</msg>",
+      "delivered": "👍",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "That matches: 7 ⚽ = seven-a-side, and 🏟️/👥 suggest the league/teams rather than the national side.\n\nGUESS: 7's Football League",
+      "guess": "7's Football League",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 17,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

@@ -1,0 +1,262 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Philadelphia Commercial Museum",
+    "description": "Former museum in Pennsylvania, USA",
+    "extract": "The Philadelphia Commercial Museum was established in Philadelphia, Pennsylvania in 1895. Its permanent home was a neo-classical building situated at 34th Street and Civic Center Blvd, erected as part of the 1899 National Export Exposition. The museum had business offices at 332 South Fourth Street.",
+    "url": "https://en.wikipedia.org/wiki/Philadelphia_Commercial_Museum"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 127.1,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1967,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 5896,
+      "output_tokens": 1747,
+      "thinking_tokens": 1391,
+      "cost_usd": 0.0229696,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 2884,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1514,
+      "thinking_tokens": 1212,
+      "cost_usd": 0.020908,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 185,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 2.05e-05,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1135,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 574,
+        "thinking_tokens": 516,
+        "cost_usd": 0.008576,
+        "duration_ms": 22587
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 245,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1132,
+        "output_tokens": 351,
+        "thinking_tokens": 289,
+        "cost_usd": 0.0042342,
+        "duration_ms": 14357
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 204,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1374,
+        "output_tokens": 445,
+        "thinking_tokens": 348,
+        "cost_usd": 0.0050959,
+        "duration_ms": 16912
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 243,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1575,
+        "output_tokens": 187,
+        "thinking_tokens": 123,
+        "cost_usd": 0.0026335,
+        "duration_ms": 7448
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 140,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1815,
+        "output_tokens": 190,
+        "thinking_tokens": 115,
+        "cost_usd": 0.00243,
+        "duration_ms": 7771
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 308,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 202,
+        "thinking_tokens": 92,
+        "cost_usd": 0.002636,
+        "duration_ms": 6490
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 465,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 274,
+        "thinking_tokens": 222,
+        "cost_usd": 0.00367,
+        "duration_ms": 10458
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 602,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 173,
+        "thinking_tokens": 163,
+        "cost_usd": 0.002934,
+        "duration_ms": 8911
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 687,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 476,
+        "thinking_tokens": 413,
+        "cost_usd": 0.006134,
+        "duration_ms": 16923
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 822,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 389,
+        "thinking_tokens": 322,
+        "cost_usd": 0.005534,
+        "duration_ms": 14358
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 185,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.05e-05,
+        "duration_ms": 853
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🤴🎤 🥯🥛 👨‍👦💗\n\n🏯 🏧 🔀 🚛 🚤 🌽 ☕ 🧂 🧸\n\n🕰 🕸️</msg>",
+      "delivered": "🤴🎤 🥯🥛 👨‍👦💗\n🏯 🔀 🚛 🚤 🌽 ☕ 🧂 🧸\n🕸️",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🕰️"
+      ],
+      "retried": false,
+      "guesser": "Is the article about a musician or song? Does 🤴🎤 mean Prince (the musician), and does 👨‍👦💗 refer to a father and son? Please distinguish: 👤 person, 🎵 song/album, 🎬 film, or 📍 place.\n\nIs this about 👤 a person, 🎵 a song/album, 🎬 a film, or 📍 a place? Does 🤴🎤 mean **Prince, the musician**?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🙅‍♀️ 🎵 🙅‍♀️ 🤴\n\n🌇 🗾\n👨 👨 💗\n🤜 🤛 🏃‍♂️\n🍖 🧅 🧀 🥖</msg>",
+      "delivered": "🙅‍♀️ 🎵 🙅‍♀️ 🤴\n🌇 🗾\n👨 👨 💗\n🤜 🤛 🏃‍♂️\n🍖",
+      "dropped_chars": 3,
+      "off_keyboard": [
+        "🧅",
+        "🧀",
+        "🥖"
+      ],
+      "retried": false,
+      "guesser": "Is 🌇🗾 the setting (a Japanese city), or is the subject a Japanese person? Is 👨👨💗 a gay romance? Are you describing a manga/anime, perhaps with boxing or running?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🙅‍♀️ 🇯🇵 🙅‍♀️ 🎎 🙅‍♀️ 🎵 🙅‍♀️ 👨‍❤️‍👨\n🌇\n🖋️ 🌴🌴🌴\n👨‍👦 💗\n🤜🤛 🧗 🥇\n🏯 🦎 💀 🏹 ⚔️ 🧫</msg>",
+      "delivered": "🙅‍♀️ 🙅‍♀️ 🙅‍♀️ 🎵 🙅‍♀️\n🌇\n🖋️ 🌴🌴🌴\n👨‍👦 💗\n🤜🤛 🧗 🥇\n🏯 🦎 💀 🏹 ⚔️ 🧫",
+      "dropped_chars": 3,
+      "off_keyboard": [
+        "🇯🇵",
+        "🎎",
+        "👨‍❤️‍👨"
+      ],
+      "retried": false,
+      "guesser": "GUESS: Philadelphia",
+      "guess": "Philadelphia",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>💯 🌇\n🔽\n🏯 🪧 🦎 💀 ⚔️ 🏹\n👨‍💼 👩‍💼 🔀 🚛 🚤 🛢️ 🧂 ☕ 💎</msg>",
+      "delivered": "💯 🌇\n🔽\n🏯 🪧 🦎 💀 ⚔️ 🏹\n👨‍💼 👩‍💼 🔀 🚛 🚤 🛢️ 🧂 ☕ 💎",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is this a real city, or a fictional city? Does 🏯🪧🦎💀⚔️🏹 describe its coat of arms? And is 🚛🚤🛢️🧂☕💎 about trade through a port?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>🌇 💯\n🚛 🚤 🛢️ 🧂 ☕ 💎 💯\n\n🏯 👩‍🏫 🎒 👧 👦\n🏯 🪧 🛢️ 🧂 ☕ 💎 🧸\n🕸️ 🔚</msg>",
+      "delivered": "🌇 💯\n🚛 🚤 🛢️ 🧂 ☕ 💎 💯\n🏯 👩‍🏫 🎒 👧\n🏯 🪧 🛢️ 🧂 ☕ 💎 🧸\n🕸️",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "👦"
+      ],
+      "retried": false,
+      "guesser": "A real trading/port city—understood. Which region? 🇮🇳 India, 🇱🇰 Sri Lanka, 🇲🇾 Malaysia, 🇮🇩 Indonesia, 🌍 Africa, or elsewhere? Is 🏯 a historic fort, and 🕸️ a museum?",
+      "guess": null,
+      "correct": null
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 14,
+    "round": 8,
+    "n_banned": 233,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

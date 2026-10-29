@@ -1,0 +1,151 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Jovan Hadži-Vasiljević",
+    "description": "Serbian historian, ethnographer, journalist and writer",
+    "extract": "Jovan Hadži-Vasiljević was a Serbian historian, ethnographer, journalist and writer.",
+    "url": "https://en.wikipedia.org/wiki/Jovan_Had%C5%BEi-Vasiljevi%C4%87"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 38.3,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1537,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 771,
+      "thinking_tokens": 557,
+      "cost_usd": 0.010783999999999998,
+      "calls": 2
+    },
+    "guesser": {
+      "input_tokens": 835,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 273,
+      "thinking_tokens": 243,
+      "cost_usd": 0.0044,
+      "calls": 2
+    },
+    "judge": {
+      "input_tokens": 193,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 2.13e-05,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 709,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 282,
+        "thinking_tokens": 201,
+        "cost_usd": 0.004238,
+        "duration_ms": 10140
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 828,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 489,
+        "thinking_tokens": 356,
+        "cost_usd": 0.006546,
+        "duration_ms": 14768
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 337,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 213,
+        "thinking_tokens": 200,
+        "cost_usd": 0.002804,
+        "duration_ms": 9803
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 498,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 60,
+        "thinking_tokens": 43,
+        "cost_usd": 0.001596,
+        "duration_ms": 2588
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 193,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.13e-05,
+        "duration_ms": 953
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🟥🟦⬜ 🇭🇷🤝🇦🇱\n🧑‍🦳 🪶📔\n⏪🌍🔬 👫🛖🔬 📑🖨️\n🇹🇷🛂 🕍🥾\n☕🚐</msg>",
+      "delivered": "🟥🟦⬜ 🇭🇷🤝🇦🇱\n🧑‍🦳 🪶📔\n⏪🌍🔬 👫🛖🔬 📑🖨️\n🇹🇷🛂 🕍🥾\n☕🚐",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Milan Šufflay",
+      "guess": "Milan Šufflay",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🙅 🇭🇷\n🟥🟦⬜\n\n🔐\n🇯🇵 🇴🇲 🇻🇳 🇦🇱 🇳🇴\n\n🇭🇳 🇦🇱 🇩🇰 🇿🇲 🇮🇹\n🇻🇳 🇦🇱 🇸🇪 🇮🇹 🇱🇻 🇯🇵 🇪🇪 🇻🇳 🇮🇹 🇨🇦\n\n🪶📔 ⏪🔬 👫🔬 📑🖨️</msg>",
+      "delivered": "🙅 🇭🇷\n🟥🟦⬜\n🔐\n🇯🇵 🇴🇲 🇻🇳 🇦🇱 🇳🇴\n🇭🇳 🇦🇱 🇩🇰 🇿🇲 🇮🇹\n🇻🇳 🇦🇱 🇸🇪 🇮🇹 🇱🇻 🇯🇵 🇪🇪 🇻🇳 🇮🇹 🇨🇦\n🪶📔 ⏪🔬 👫🔬 📑🖨️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Jovan Hadži Vasiljević",
+      "guess": "Jovan Hadži Vasiljević",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 9,
+    "round": 3,
+    "n_banned": 96,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

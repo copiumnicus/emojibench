@@ -1,0 +1,258 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Ayribobo",
+    "description": "Highest mountain of Turkmenistan",
+    "extract": "Ayribobo or Aýrybaba, officially named the Great Saparmyrat Turkmenbashi Peak in Turkmenistan since 2004, is a mountain in Central Asia. At 3,138 metres (10,295 ft) Aýrybaba is the highest mountain in Turkmenistan. It is located in the Köýtendag Range of the Pamir-Alay chain in the southeast of Turkmenistan on the Uzbekistani border.",
+    "url": "https://en.wikipedia.org/wiki/Ayribobo"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 127.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2638,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 3931,
+      "output_tokens": 3711,
+      "thinking_tokens": 3364,
+      "cost_usd": 0.02179855,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 2515,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 2996,
+      "thinking_tokens": 2843,
+      "cost_usd": 0.017495,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 178,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 1.98e-05,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 990,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 1180,
+        "thinking_tokens": 1124,
+        "cost_usd": 0.00689,
+        "duration_ms": 23344
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 1158,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 837,
+        "thinking_tokens": 778,
+        "cost_usd": 0.00563175,
+        "duration_ms": 17648
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 184,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1155,
+        "output_tokens": 583,
+        "thinking_tokens": 516,
+        "cost_usd": 0.003202,
+        "duration_ms": 12394
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 107,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1336,
+        "output_tokens": 584,
+        "thinking_tokens": 516,
+        "cost_usd": 0.0031198,
+        "duration_ms": 12130
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 199,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1440,
+        "output_tokens": 527,
+        "thinking_tokens": 430,
+        "cost_usd": 0.002955,
+        "duration_ms": 11451
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 310,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 89,
+        "thinking_tokens": 59,
+        "cost_usd": 0.000755,
+        "duration_ms": 3407
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 393,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 1213,
+        "thinking_tokens": 1175,
+        "cost_usd": 0.006458,
+        "duration_ms": 19101
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 499,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 181,
+        "thinking_tokens": 168,
+        "cost_usd": 0.001404,
+        "duration_ms": 4048
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 590,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 481,
+        "thinking_tokens": 446,
+        "cost_usd": 0.002995,
+        "duration_ms": 9245
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 723,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 1032,
+        "thinking_tokens": 995,
+        "cost_usd": 0.005883,
+        "duration_ms": 13376
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 178,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.98e-05,
+        "duration_ms": 807
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🐴 🟡 🗽 🤍 🏙️\n\n🚡 🦅 📌\n📌\n🥈\n🥉\n\n👄 🎵 🚁 🧋 🧋</msg>",
+      "delivered": "🐴 🟡 🗽 🤍 🏙️\n🚡 🦅 📌\n📌\n🥉\n👄 🎵 🚁 🧋 🧋",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🥈"
+      ],
+      "retried": false,
+      "guesser": "Is this a person, a place, or something else? Please give the category and break the name into syllables.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>📌 🏞️ 🚡 🦅 🌤️\n\n🇺🇳 🦤 🕺 🧱\n🏙️ 🤍 🐴\n\n🌫️ 🎵 👵 👵</msg>",
+      "delivered": "📌 🚡 🦅 🌤️\n🇺🇳 🦤 🕺\n🏙️ 🤍 🐴\n🌫️ 🎵 👵 👵",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🏞️",
+        "🧱"
+      ],
+      "retried": false,
+      "guesser": "I see “Whitehorse” or “White Horse.” Is that the article’s name, or a nearby city? Is the last line a state or province?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>📌 🚡 🦅\n\n🏙️ 🤍 🏢 🤍 🏢 🤍 🏢\n🏙️ 📛 ❓\n🏙️ ➖ 🐴\n\n🌪️ 🎵 🧓 🧓</msg>",
+      "delivered": "📌 🚡 🦅\n🏙️ 🤍 🏢 🤍 🏢 🤍 🏢\n🏙️ 📛 ❓\n🏙️ ➖ 🐴\n🌪️ 🎵 🧓 🧓",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: White City, Oregon",
+      "guess": "White City, Oregon",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🚪 🔑 🕺 🏟️\n🏙️ 🤍 🏢 🤍 🏢 🤍 🏢\n\n🚡 🦅 ⤴️ 🏁\n📌\n\n🌫️ 🎵 👵 👵</msg>",
+      "delivered": "🕺 🏟️\n🏙️ 🤍 🏢 🤍 🏢 🤍 🏢\n🚡 🦅 ⤴️ 🏁\n📌\n🌫️ 🎵 👵 👵",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🚪",
+        "🔑"
+      ],
+      "retried": false,
+      "guesser": "Is this about an event at White City Stadium in London? Is 🚡 🦅 a sport, such as high jump or ski jumping?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>🛑 🇬🇧 🏟️\n\n🏙️ 🧹 🦇\n🏙️ 🤍 🏢 🤍 🏢 🤍 🏢\n\n🏙️ ➖ 🚗 ➖ 🚡 🦅\n🚡 🦅 ⤴️ ⤴️ ⤴️\n📌 🌫️ 🎵 👵 👵</msg>",
+      "delivered": "🛑 🇬🇧 🏟️\n🏙️ 🧹 🦇\n🏙️ 🤍 🏢 🤍 🏢 🤍 🏢\n🏙️ ➖ 🚗 ➖ 🚡 🦅\n🚡 🦅 ⤴️ ⤴️ ⤴️\n📌 🌫️ 🎵 👵 👵",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is 🚡 🦅 a ski jump? What country is the city in? And what do the fog, music, and grandmothers represent?",
+      "guess": null,
+      "correct": null
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 11,
+    "round": 10,
+    "n_banned": 187,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

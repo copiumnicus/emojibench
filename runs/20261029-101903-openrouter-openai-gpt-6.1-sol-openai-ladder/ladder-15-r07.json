@@ -1,0 +1,295 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Iglesia de Santa Ana (Santiago de Chile)",
+    "description": "National monument of Chile",
+    "extract": "The Iglesia de Santa Ana is a Catholic church in downtown Santiago de Chile. It is located at the northwest corner of Catedral and San Martín streets. The church was declared as a National Monument of Chile in 1970, within the category of Historic Monuments. Santa Ana metro station is named after the church.",
+    "url": "https://en.wikipedia.org/wiki/Iglesia_de_Santa_Ana_(Santiago_de_Chile)"
+  },
+  "solved": true,
+  "turns_taken": 5,
+  "solved_turn": 5,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 110.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2829,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 4117,
+      "output_tokens": 1697,
+      "thinking_tokens": 1345,
+      "cost_usd": 0.0239712,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 2857,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1068,
+      "thinking_tokens": 810,
+      "cost_usd": 0.016394,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 765,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 16,
+      "thinking_tokens": 0,
+      "cost_usd": 8.45e-05,
+      "calls": 4
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 954,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 559,
+        "thinking_tokens": 509,
+        "cost_usd": 0.007498,
+        "duration_ms": 21915
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1138,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 434,
+        "thinking_tokens": 362,
+        "cost_usd": 0.0071835,
+        "duration_ms": 16688
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 232,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1135,
+        "output_tokens": 350,
+        "thinking_tokens": 270,
+        "cost_usd": 0.004192,
+        "duration_ms": 13619
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 257,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1364,
+        "output_tokens": 284,
+        "thinking_tokens": 204,
+        "cost_usd": 0.0036174,
+        "duration_ms": 11888
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 248,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1618,
+        "output_tokens": 70,
+        "thinking_tokens": 0,
+        "cost_usd": 0.0014803,
+        "duration_ms": 2617
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 296,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 258,
+        "thinking_tokens": 191,
+        "cost_usd": 0.003172,
+        "duration_ms": 9768
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 426,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 152,
+        "thinking_tokens": 94,
+        "cost_usd": 0.002372,
+        "duration_ms": 6118
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 571,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 363,
+        "thinking_tokens": 310,
+        "cost_usd": 0.004772,
+        "duration_ms": 12383
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 717,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 235,
+        "thinking_tokens": 189,
+        "cost_usd": 0.003784,
+        "duration_ms": 7470
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 847,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 60,
+        "thinking_tokens": 26,
+        "cost_usd": 0.002294,
+        "duration_ms": 3346
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 191,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.11e-05,
+        "duration_ms": 903
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 188,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.08e-05,
+        "duration_ms": 994
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 189,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.09e-05,
+        "duration_ms": 898
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 197,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.17e-05,
+        "duration_ms": 1957
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🧭 🌵 🔭 🎿 🥑 🥟 🍒\n🏫 🚫\n🙇 🪽 🕯 🚫\n🚞 🪧</msg>",
+      "delivered": "🧭 🌵 🔭 🎿 🥑 🥟 🍒\n🙇 🪽\n🚞 🪧",
+      "dropped_chars": 4,
+      "off_keyboard": [
+        "🏫",
+        "🚫",
+        "🕯️",
+        "🚫"
+      ],
+      "retried": false,
+      "guesser": "Is the article about a railway station? Which country is it in, and are the emojis clues to the place’s name or to facts about it?\n\nIs this a railway station? Please indicate the country, and whether the emojis describe the place or sound out its name.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🚞 ⛔\n🧱 ✖️ 🙇\n🌏 🧭 ⏬ 🌵 🔭 🎿 🥑 🍒\n🔷 🌠 ◻️\n🔻 🔻 🔻\n🚺 🦳 🚺 🧒</msg>",
+      "delivered": "🚞 ⛔\n🧱 ✖️ 🙇\n🌏 🧭 ⏬ 🌵 🔭 🎿 🥑 🍒\n🔷 🌠 ◻️\n🔻 🔻 🔻\n🚺 🚺 🧒",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The country looks like Chile: desert, observatories, skiing, avocados, cherries, and the blue-white-red flag. Is this a town or village in Chile? Does 🙇 🪽 hint at “Los Ángeles”?\n\nGUESS: Los Ángeles, Chile",
+      "guess": "Los Ángeles, Chile",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🇨🇱 🙂‍↕️\n🏘️ 🙅‍♀️\n🏦🏦🏦🏦 🏟️ 🏬 🏭\n🙇 📚 ✖️ 🪽\n🚺 👪 🚺 👪 🧒\n🚞 🪧 🟪</msg>",
+      "delivered": "🙂‍↕️\n🙅‍♀️\n🏦🏦🏦🏦 🏟️ 🏬 🏭\n🙇 📚 ✖️ 🪽\n🚺 👪 🚺 👪 🧒\n🚞 🪧 🟪",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🇨🇱",
+        "🏘️"
+      ],
+      "retried": false,
+      "guesser": "Chile seems confirmed. Is 🟪 the purple Line 6 of the Santiago Metro, and is the article about a person rather than a station? Inés de Suárez is one possibility.\n\nGUESS: Inés de Suárez",
+      "guess": "Inés de Suárez",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>📍 ⛔\n🕋 🙇 ✖️ 🧱 🪑🪑🪑\n🚺 👪 🚺 👪 🧒\n🚞 🟡 🟢 🔀\n🌵 🔭 🎿 🥑 🍒 🏦🏦🏦</msg>",
+      "delivered": "⛔\n🕋 🙇 ✖️ 🧱 🪑🪑🪑\n🚺 👪 🚺 👪 🧒\n🚞 🟡 🟢 🔀\n🌵 🔭 🎿 🥑 🍒 🏦🏦🏦",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "📍"
+      ],
+      "retried": false,
+      "guesser": "The two women and child suggest Saint Anne, mother of Mary and grandmother of Jesus. The yellow–green interchange would be Santiago Metro Lines 2 and 5.\n\nGUESS: Santa Ana metro station",
+      "guess": "Santa Ana metro station",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>🎯 ⛔ 🚞\n🙂‍↕️ 🚺 👪 🚺 👪 🧒\n🕋 🙇 ✖️ 🧱 🪑🪑🪑\n🛠️ 🧱 🏺 🏵️</msg>",
+      "delivered": "⛔ 🚞\n🙂‍↕️ 🚺 👪 🚺 👪 🧒\n🕋 🙇 ✖️ 🧱 🪑🪑🪑\n🛠️ 🧱 🏺 🏵️",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🎯"
+      ],
+      "retried": false,
+      "guesser": "So it is the church, not the metro station—Saint Anne in Santiago, Chile.\n\nGUESS: Santa Ana Church, Santiago de Chile",
+      "guess": "Santa Ana Church, Santiago de Chile",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 15,
+    "round": 7,
+    "n_banned": 166,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

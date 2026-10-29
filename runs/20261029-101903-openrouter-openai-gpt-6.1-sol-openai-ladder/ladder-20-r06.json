@@ -1,0 +1,225 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Franco Cozzo",
+    "description": "Australian businessman (1935–2023)",
+    "extract": "Franco Cozzo was an Italian-Australian businessman. After moving to Melbourne from Sicily in 1955, Cozzo became known for his television advertisements, in which he would speak in English, Greek, and Italian. He later produced Australia's first non-English TV show, Carosello, which was broadcast in Italian.",
+    "url": "https://en.wikipedia.org/wiki/Franco_Cozzo"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 121.3,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2634,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2505,
+      "output_tokens": 1788,
+      "thinking_tokens": 1411,
+      "cost_usd": 0.024217,
+      "calls": 4
+    },
+    "guesser": {
+      "input_tokens": 2183,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1419,
+      "thinking_tokens": 1278,
+      "cost_usd": 0.018556,
+      "calls": 4
+    },
+    "judge": {
+      "input_tokens": 180,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 2e-05,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 988,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 540,
+        "thinking_tokens": 470,
+        "cost_usd": 0.007376,
+        "duration_ms": 20854
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1136,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 480,
+        "thinking_tokens": 394,
+        "cost_usd": 0.0076385,
+        "duration_ms": 17996
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 242,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1133,
+        "output_tokens": 309,
+        "thinking_tokens": 203,
+        "cost_usd": 0.0038068,
+        "duration_ms": 10521
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 268,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1372,
+        "output_tokens": 459,
+        "thinking_tokens": 344,
+        "cost_usd": 0.0053957,
+        "duration_ms": 16886
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 326,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 239,
+        "thinking_tokens": 164,
+        "cost_usd": 0.003042,
+        "duration_ms": 9474
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 478,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 531,
+        "thinking_tokens": 490,
+        "cost_usd": 0.006266,
+        "duration_ms": 19417
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 621,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 448,
+        "thinking_tokens": 435,
+        "cost_usd": 0.005722,
+        "duration_ms": 16381
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 758,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 201,
+        "thinking_tokens": 189,
+        "cost_usd": 0.003526,
+        "duration_ms": 8860
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 180,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2e-05,
+        "duration_ms": 920
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🟩⬜🟥 🛶 🟩🟨\n🧓 🚚📦 🛕🛕 💎\n💻📶 🗨️🗨️🗨️\n🌭 🧥🦒</msg>",
+      "delivered": "🟩⬜🟥 🛶 🟩🟨\n🧓 🚚📦 🛕🛕 💎\n💻📶 🗨️🗨️🗨️\n🌭 🧥🦒",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is this a person—perhaps a Mexican or Brazilian businessman associated with telecommunications? What do 🛶 and 🌭🧥🦒 signify?\n\n\nIs this a person—perhaps a Mexican or Brazilian businessman associated with telecommunications? What do 🛶 and 🌭🧥🦒 signify?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🧓✔️ 🇲🇽❎ 🇧🇷❎ 📞❎\n💺💺💺 📦🚚 🛕💎\n🏟️🍊🔻 ⛴️ 🏄🪁🐪\n🧓🗨️ 💻📶 🛍❎</msg>",
+      "delivered": "🧓✔️ 🇲🇽❎ 🇧🇷❎ 📞❎\n💺💺💺 📦🚚 🛕💎\n🏟️🍊🔻 ⛴️ 🏄🪁🐪\n🧓🗨️ 💻📶 ❎",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🛍️"
+      ],
+      "retried": false,
+      "guesser": "Is he Italian, and involved in furniture or shipping businesses? Does 🏟️🍊🔻 indicate ownership of a football club? Please indicate the club or city.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🟩⬜🟥 ✔️ 💺🛏❎ 💺💺✔️\n⛴️❎ ⚽❎\n🟦✴️✴️✴️✴️✴️\n⚫🔴🟡\n🧓 💺💺💺 🚚📦\n🧓 🗨️🗨️🗨️ 💻📶</msg>",
+      "delivered": "🟩⬜🟥 ✔️ 💺❎ 💺💺✔️\n⛴️❎ ❎\n🟦✴️✴️✴️✴️✴️\n⚫🔴🟡\n🧓 💺💺💺 🚚📦\n🧓 🗨️🗨️🗨️ 💻📶",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🛏️",
+        "⚽"
+      ],
+      "retried": false,
+      "guesser": "GUESS: Flavio Briatore",
+      "guess": "Flavio Briatore",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>❎ 🏎❎\n🧓 🟩⬜🟥 ⛴️ ⬇️🌎 🟢🟡 🏄🦈🦂\n💺💺💺 🛕💎 🚚📦\n💻🗨️ 🟩⬜🟥 🟦⬜ 🟥⬜🟦\n🧓📢❎ 🧓🔔💺💺💺</msg>",
+      "delivered": "❎ ❎\n🧓 🟩⬜🟥 ⛴️ ⬇️🌎 🟢🟡 🏄🦈🦂\n💺💺💺 🛕💎 🚚📦\n💻🗨️ 🟩⬜🟥 🟦⬜ 🟥⬜🟦\n🧓❎ 🧓🔔💺💺💺",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🏎️",
+        "📢"
+      ],
+      "retried": false,
+      "guesser": "GUESS: Franco Cozzo",
+      "guess": "Franco Cozzo",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 20,
+    "round": 6,
+    "n_banned": 183,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

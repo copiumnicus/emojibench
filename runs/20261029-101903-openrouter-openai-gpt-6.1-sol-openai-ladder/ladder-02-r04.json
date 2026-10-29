@@ -1,0 +1,139 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Iron(III) sulfate",
+    "description": "Chemical compound",
+    "extract": "Iron(III) sulfate or ferric sulfate is a family of inorganic compounds with the formula Fe2(SO4)3(H2O)n. A variety of hydrates are known, including the most commonly encountered form of \"ferric sulfate\". Solutions are used in dyeing as a mordant and as a coagulant for industrial wastes. Solutions of ferric sulfate are also used in the processing of aluminum and steel.",
+    "url": "https://en.wikipedia.org/wiki/Iron(III)_sulfate"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 42.8,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1446,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 677,
+      "thinking_tokens": 502,
+      "cost_usd": 0.009662,
+      "calls": 2
+    },
+    "guesser": {
+      "input_tokens": 866,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 561,
+      "thinking_tokens": 428,
+      "cost_usd": 0.007342,
+      "calls": 2
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 639,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 463,
+        "thinking_tokens": 372,
+        "cost_usd": 0.005908,
+        "duration_ms": 15760
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 807,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 214,
+        "thinking_tokens": 130,
+        "cost_usd": 0.003754,
+        "duration_ms": 7193
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 354,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 279,
+        "thinking_tokens": 205,
+        "cost_usd": 0.003498,
+        "duration_ms": 10351
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 512,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 282,
+        "thinking_tokens": 223,
+        "cost_usd": 0.003844,
+        "duration_ms": 9449
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "🏋️‍♂️ ⚙️ 🦾\n🔋 🔋 🔋\n\n⚙️⚙️\n💛💨💨💨💨\n💛💨💨💨💨\n💛💨💨💨💨\n\n🟤🟠 💦\n👔 🧶\n🏞️ 🟫🔽 ✨",
+      "delivered": "🏋️‍♂️ ⚙️ 🦾\n🔋 🔋 🔋\n⚙️⚙️\n💛💨💨💨💨\n💛💨💨💨💨\n💛💨💨💨💨\n🟤🟠 💦\n👔 🧶\n🏞️ 🟫🔽 ✨",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is the article about a person, a machine/technology, or a place? Please give the main category and, if possible, a country clue.\n\nIs this about a **person**, a **machine/technology**, or a **place**? Please give the main category and a country clue if possible.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "👤 ❌ 🗺️ ❌ 🤖 ❌\n🧫 💊 🧴 ✅\n\n⚙️ 🦾 🏋️\n🔋🔋🔋\n\n💛 😮‍💨😮‍💨😮‍💨😮‍💨\n🧶 👔 💦 🟫🔽",
+      "delivered": "👤 ❌ 🗺️ ❌ 🤖 ❌\n🧫 💊 🧴 ✅\n⚙️ 🦾 🏋️\n🔋🔋🔋\n💛 😮‍💨😮‍💨😮‍💨😮‍💨\n🧶 👔 💦 🟫🔽",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The three 💛💨💨💨💨 groups look like three sulfate groups, (SO₄)₃, and 🏋️‍♂️⚙️🦾 may mean iron.\n\nGUESS: Iron(III) sulfate",
+      "guess": "Iron(III) sulfate",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 2,
+    "round": 4,
+    "n_banned": 57,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

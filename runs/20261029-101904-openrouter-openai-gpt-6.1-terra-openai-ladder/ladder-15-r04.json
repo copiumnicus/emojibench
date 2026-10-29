@@ -1,0 +1,245 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Iglesia de Santa Ana (Santiago de Chile)",
+    "description": "National monument of Chile",
+    "extract": "The Iglesia de Santa Ana is a Catholic church in downtown Santiago de Chile. It is located at the northwest corner of Catedral and San Martín streets. The church was declared as a National Monument of Chile in 1970, within the category of Historic Monuments. Santa Ana metro station is named after the church.",
+    "url": "https://en.wikipedia.org/wiki/Iglesia_de_Santa_Ana_(Santiago_de_Chile)"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 63.9,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2743,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1083,
+      "output_tokens": 1550,
+      "thinking_tokens": 1228,
+      "cost_usd": 0.0108709,
+      "calls": 4
+    },
+    "guesser": {
+      "input_tokens": 2055,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1358,
+      "thinking_tokens": 1243,
+      "cost_usd": 0.008845,
+      "calls": 4
+    },
+    "judge": {
+      "input_tokens": 584,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 117,
+      "thinking_tokens": 105,
+      "cost_usd": 0.0001169,
+      "calls": 3
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 671,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 537,
+        "thinking_tokens": 485,
+        "cost_usd": 0.003356,
+        "duration_ms": 13159
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 771,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 549,
+        "thinking_tokens": 436,
+        "cost_usd": 0.003516,
+        "duration_ms": 10996
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 1086,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 320,
+        "thinking_tokens": 240,
+        "cost_usd": 0.00295675,
+        "duration_ms": 7403
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 215,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1083,
+        "output_tokens": 144,
+        "thinking_tokens": 67,
+        "cost_usd": 0.00104215,
+        "duration_ms": 3573
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 308,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 160,
+        "thinking_tokens": 122,
+        "cost_usd": 0.001108,
+        "duration_ms": 3848
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 451,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 873,
+        "thinking_tokens": 824,
+        "cost_usd": 0.004816,
+        "duration_ms": 15196
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 596,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 153,
+        "thinking_tokens": 140,
+        "cost_usd": 0.001361,
+        "duration_ms": 3256
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 700,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 172,
+        "thinking_tokens": 157,
+        "cost_usd": 0.00156,
+        "duration_ms": 3586
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 201,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 109,
+        "thinking_tokens": 105,
+        "cost_usd": 7.46e-05,
+        "duration_ms": 1095
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 189,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.09e-05,
+        "duration_ms": 866
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 194,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.14e-05,
+        "duration_ms": 929
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🕍 🧎\n🚺 🤰 🚺 🤰 👼\n🇪🇸 🌍 🏜️ 🗿 🍇 🍷\n🚆 🚃</msg>",
+      "delivered": "🕍 🧎\n🚺 🤰 🚺 🤰 👼\n🇪🇸 🌍 🏜️ 🗿 🍇 🍷\n🚆 🚃",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is this a church dedicated to the Visitation of Mary and Elizabeth? What do the train and wine emojis signify? Please give more clues for the exact title.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>❎\n🚺 🤰 🚺 🤰 👼\n👼 🤱 ❎\n🚺 ➡️ 🤰 🚺 ➡️ 🤰 👼\n\n🛷 🦌 🎁  🐜\n🕍 🧎\n\n🇪🇸 🥾 🛤️ 🕍\n🇧🇷 ↙️ 🏜️ 🌋 🗿 🍇 🍷\n🚆 🚃 🕍</msg>",
+      "delivered": "❎\n🚺 🤰 🚺 🤰 👼\n👼 ❎\n🚺 🤰 🚺 🤰 👼\n🛷 🦌 🎁 🐜\n🕍 🧎\n🇪🇸 🥾 🛤️ 🕍\n🇧🇷 ↙️ 🏜️ 🌋 🗿 🍇 🍷\n🚆 🚃 🕍",
+      "dropped_chars": 3,
+      "off_keyboard": [
+        "🤱",
+        "➡️",
+        "➡️"
+      ],
+      "retried": false,
+      "guesser": "The mother of Jesus’s mother is Saint Anne; Santa + ant sounds like Santana. Is this a church dedicated to Saint Anne on Santiago, Cape Verde?\n\nGUESS: Church of Saint Anne, Santiago, Cape Verde",
+      "guess": "Church of Saint Anne, Santiago, Cape Verde",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>❎ 🇨🇻\n\n🕍 🛷 🦌 🎁 🐜\n\n🌐 🇧🇷 ↙️ 🏜️ 🌋 🗿 🍇 🍷 🥶\n🌃 🐚 🥾 🇪🇸\n🚆 👇 🕍</msg>",
+      "delivered": "❎ 🇨🇻\n🕍 🛷 🦌 🎁 🐜\n🌐 🇧🇷 ↙️ 🏜️ 🌋 🗿 🍇 🍷 🥶\n🌃 🥾 🇪🇸\n🚆 👇 🕍",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🐚"
+      ],
+      "retried": false,
+      "guesser": "GUESS: Santa Ana metro station",
+      "guess": "Santa Ana metro station",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🚆 👇 🕍\n🚆 ❎\n🕍 ☑️\n\n🕍 🛷 🦌 🎁 🐜\n🌃 🛷 🦌 🎁 🐜 🐯 🐐\n🌐 🗿 🍷 🥶</msg>",
+      "delivered": "🚆 👇 🕍\n🚆 ❎\n🕍 ☑️\n🕍 🛷 🦌 🎁 🐜\n🌃 🛷 🦌 🎁 🐜 🐯 🐐\n🌐 🗿 🍷 🥶",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Church of Santa Ana, Santiago",
+      "guess": "Church of Santa Ana, Santiago",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 15,
+    "round": 4,
+    "n_banned": 77,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

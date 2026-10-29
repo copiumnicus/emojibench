@@ -1,0 +1,162 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Grande Seca",
+    "description": "Brazilian drought (1877–1878)",
+    "extract": "The Grande Seca, or the Brazilian drought of 1877–1878, was the largest and most devastating drought in Brazilian history. It caused the deaths of between 400,000 and 500,000 people. Of the 800,000 people who lived in the affected Northeastern region, around 120,000 migrated to the Amazon while 68,000 migrated to other parts of Brazil.",
+    "url": "https://en.wikipedia.org/wiki/Grande_Seca"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 27.2,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1407,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 401,
+      "thinking_tokens": 228,
+      "cost_usd": 0.006824,
+      "calls": 2
+    },
+    "guesser": {
+      "input_tokens": 840,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 243,
+      "thinking_tokens": 175,
+      "cost_usd": 0.00411,
+      "calls": 2
+    },
+    "judge": {
+      "input_tokens": 353,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 3.93e-05,
+      "calls": 2
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 570,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 275,
+        "thinking_tokens": 180,
+        "cost_usd": 0.00389,
+        "duration_ms": 10338
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 837,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 126,
+        "thinking_tokens": 48,
+        "cost_usd": 0.002934,
+        "duration_ms": 3905
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 349,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 190,
+        "thinking_tokens": 134,
+        "cost_usd": 0.002598,
+        "duration_ms": 7111
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 491,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 53,
+        "thinking_tokens": 41,
+        "cost_usd": 0.001512,
+        "duration_ms": 3983
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 177,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.97e-05,
+        "duration_ms": 970
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 176,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.96e-05,
+        "duration_ms": 870
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇵🇹🗣️ ☕💃🏆\n🗺️📍🔼▶️\n⛅⏳⏳⏳ 🫗🏞️🟤\n😰🍽️🦴 🪦🪦🪦🪦🪦\n📖 « 🤲👐 🫗 »</msg>",
+      "delivered": "🇵🇹🗣️ ☕💃🏆\n🗺️📍🔼▶️\n⛅⏳⏳⏳ 🫗🏞️🟤\n😰🍽️🦴 🪦🪦🪦🪦🪦\n📖 🤲👐 🫗",
+      "dropped_chars": 2,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I read this as Portuguese-speaking Brazil, the northeast, a prolonged drought, hunger and many deaths, possibly a book about it.\nGUESS: Vidas secas\n\nIs this a historical drought rather than a novel?",
+      "guess": "Vidas secas",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👍 🏛️⏳ 🫗🏞️🟤\n👎📖✍️\n🤲👐👐👐 🫗\n🏆😰🍽️🦴🪦\n☕💃🗺️📍🔼▶️</msg>",
+      "delivered": "👍 🏛️⏳ 🫗🏞️🟤\n👎📖✍️\n🤲👐👐👐 🫗\n🏆😰🍽️🦴🪦\n☕💃🗺️📍🔼▶️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Great Drought",
+      "guess": "Great Drought",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 16,
+    "round": 2,
+    "n_banned": 33,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

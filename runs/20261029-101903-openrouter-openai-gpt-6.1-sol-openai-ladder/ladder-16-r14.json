@@ -1,0 +1,271 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Grande Seca",
+    "description": "Brazilian drought (1877–1878)",
+    "extract": "The Grande Seca, or the Brazilian drought of 1877–1878, was the largest and most devastating drought in Brazilian history. It caused the deaths of between 400,000 and 500,000 people. Of the 800,000 people who lived in the affected Northeastern region, around 120,000 migrated to the Amazon while 68,000 migrated to other parts of Brazil.",
+    "url": "https://en.wikipedia.org/wiki/Grande_Seca"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 190.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2268,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 6779,
+      "output_tokens": 3113,
+      "thinking_tokens": 2765,
+      "cost_usd": 0.0374704,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 2793,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1708,
+      "thinking_tokens": 1405,
+      "cost_usd": 0.022666,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 363,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 4.0300000000000004e-05,
+      "calls": 2
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1401,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 1084,
+        "thinking_tokens": 1034,
+        "cost_usd": 0.014341,
+        "duration_ms": 43505
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 184,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1398,
+        "output_tokens": 581,
+        "thinking_tokens": 516,
+        "cost_usd": 0.0064083,
+        "duration_ms": 23653
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 220,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1579,
+        "output_tokens": 462,
+        "thinking_tokens": 391,
+        "cost_usd": 0.0053264,
+        "duration_ms": 18800
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 213,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1796,
+        "output_tokens": 427,
+        "thinking_tokens": 349,
+        "cost_usd": 0.0049806,
+        "duration_ms": 17675
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 250,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 2006,
+        "output_tokens": 559,
+        "thinking_tokens": 475,
+        "cost_usd": 0.0064141,
+        "duration_ms": 24030
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 308,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 209,
+        "thinking_tokens": 138,
+        "cost_usd": 0.002706,
+        "duration_ms": 8470
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 430,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 275,
+        "thinking_tokens": 210,
+        "cost_usd": 0.00361,
+        "duration_ms": 10018
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 557,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 332,
+        "thinking_tokens": 283,
+        "cost_usd": 0.004434,
+        "duration_ms": 10774
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 673,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 385,
+        "thinking_tokens": 332,
+        "cost_usd": 0.005196,
+        "duration_ms": 13357
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 825,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 507,
+        "thinking_tokens": 442,
+        "cost_usd": 0.00672,
+        "duration_ms": 17501
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 185,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.05e-05,
+        "duration_ms": 1255
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 178,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.98e-05,
+        "duration_ms": 952
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "🍏🍋💎 🪗 🥩 🍹\n👄🧂 😮‍💨 🧃🔍\n🧑🧑🧑 🆘",
+      "delivered": "🍏🍋💎 🪗 🥩 🍹\n👄🧂 😮‍💨 🧃🔍\n🧑🧑🧑",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is this about food/drink or taste, or are the emojis clues to a musical group? Please indicate the main topic and break the name into parts.\n\nIs the article about food/drink or taste, or a musical group? Please indicate the main topic and break the name into parts.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🌈🔇 🧃🔍 👄😮‍💨\n🧑🧑🧑🆘 🧑🧑🧑🛌\n🍏🍋💎 🎭 🦜</msg>",
+      "delivered": "🌈🔇 🧃🔍 👄😮‍💨\n🧑🧑🧑 🧑🧑🧑🛌\n🍏🍋💎",
+      "dropped_chars": 3,
+      "off_keyboard": [
+        "🎭",
+        "🦜"
+      ],
+      "retried": false,
+      "guesser": "I’m reading clues about taste (sweet/sour/salty), breath or vocals, and a group of people. Is the subject a band, a drink, or a scientific concept? Please use 🎵 for music, 🍽️ for food, or 🧠 for science if possible.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🌪️ 🌋 🆚 🧻 👄😮‍💨\n🚑 🚑 🚑\n🐘 🧻\n🗣️ 🇫🇷 🆚 🇪🇸\n🏹 🐅 🐟 🦧</msg>",
+      "delivered": "🌪️ 🌋 🧻 👄😮‍💨\n🚑 🚑 🚑\n🐘 🧻\n🇫🇷 🇪🇸\n🏹 🐅 🐟 🦧",
+      "dropped_chars": 3,
+      "off_keyboard": [
+        "🗣️"
+      ],
+      "retried": false,
+      "guesser": "Are these examples of sounds or words that are difficult to pronounce—a tongue twister or a phonetics topic? The mouth/breath, French/Spanish, and repeated ambulance clues make me suspect language rather than food.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🟥 🗣️ 🟥 🎤 🟥 🍔\n🌪️ 🌋 🌀 🆘\n🌕 🌕 🌕 🏊‍♂️ 🚣‍♂️ 🟥\n👄 😮‍💨 🧑 🛌 🚑\n🇧🇷</msg>",
+      "delivered": "🟥 🟥 🎤 🟥 🍔\n🌪️ 🌋 🌀\n🌕 🌕 🌕 🏊‍♂️ 🚣‍♂️ 🟥\n👄 😮‍💨 🧑 🛌 🚑",
+      "dropped_chars": 3,
+      "off_keyboard": [
+        "🗣️",
+        "🇧🇷"
+      ],
+      "retried": false,
+      "guesser": "Is this a famous sentence used to demonstrate language or grammar, such as “Colorless green ideas sleep furiously”? The colors, group of people, and sleeping person seem to fit.\n\nGUESS: Colorless green ideas sleep furiously",
+      "guess": "Colorless green ideas sleep furiously",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>🔴 🧠 🔴 🎤 🔴 🍔\n📌 🌪️ 🌋 🌀\n🥤🔴 🛀🔴 🏊🔴\n👄🩹 🐟🛌 🐂🛌\n🍏🍋💎 🦵⚫ 🎎🎷</msg>",
+      "delivered": "🔴 🧠 🔴 🎤 🔴 🍔\n📌 🌪️ 🌋 🌀\n🔴 🛀🔴 🏊🔴\n👄🩹 🐟🛌 🐂🛌\n🍏🍋💎 🦵⚫ 🎎🎷",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🥤"
+      ],
+      "retried": false,
+      "guesser": "I may have gone down the wrong path. Is this a rock band—possibly Morphine, with albums such as “Cure for Pain,” “Like Swimming,” and “The Night”? Are the red symbols spelling out part of a band’s name?\n\nGUESS: Morphine (band)",
+      "guess": "Morphine (band)",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 16,
+    "round": 14,
+    "n_banned": 326,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

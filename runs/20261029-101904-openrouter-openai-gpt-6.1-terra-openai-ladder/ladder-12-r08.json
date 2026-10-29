@@ -1,0 +1,139 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Dora Akunyili",
+    "description": "Nigerian pharmacist and government official (1954–2014)",
+    "extract": "Dora Nkem Akunyili was a Nigerian pharmacist and politician who served as the director-general of National Agency for Food and Drug Administration and Control (NAFDAC) of Nigeria from 2001 to 2008.",
+    "url": "https://en.wikipedia.org/wiki/Dora_Akunyili"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 42.2,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1954,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1553,
+      "thinking_tokens": 1400,
+      "cost_usd": 0.009978,
+      "calls": 2
+    },
+    "guesser": {
+      "input_tokens": 778,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 593,
+      "thinking_tokens": 537,
+      "cost_usd": 0.0037430000000000002,
+      "calls": 2
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 915,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 1073,
+        "thinking_tokens": 1002,
+        "cost_usd": 0.00628,
+        "duration_ms": 21061
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 1039,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 480,
+        "thinking_tokens": 398,
+        "cost_usd": 0.003698,
+        "duration_ms": 8717
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 326,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 350,
+        "thinking_tokens": 307,
+        "cost_usd": 0.002076,
+        "duration_ms": 7695
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 452,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 243,
+        "thinking_tokens": 230,
+        "cost_usd": 0.001667,
+        "duration_ms": 4681
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🇳🇮 🇬🇪 🇷🇴 🇮🇸 🇦🇱\n🥬 🏳️ 🥬\n\n👱🏿‍♀️ 🐍🥣 🫘 🍔\n👔 📣 🤡🫘 🔥\n</msg>",
+      "delivered": "🇳🇮 🇬🇪 🇷🇴 🇮🇸 🇦🇱\n🥬 🏳️ 🥬\n👱🏿‍♀️ 🐍🥣 🫘 🍔\n👔 📣 🤡🫘 🔥",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I see Nigeria and a woman, perhaps connected to food, public speaking or comedy. What does the last line mean? Is she a chef? Please spell her name with emoji initials.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n🐬 🐙 🤖 🐜\n\n🐜 🪁 ☂️ 🪺 🪀 🧊 🍋 🧊\n\n🧑‍🍳 🚷\n\n🏬 🧑‍⚕️ 🟣 🟤\n🤡 🟣 🟤 🔥\n</msg>",
+      "delivered": "🐬 🐙 🤖 🐜\n🐜 🪁 ☂️ 🪺 🪀 🧊 🍋 🧊\n🧑‍🍳 🚷\n🏬 🧑‍⚕️ 🟣 🟤\n🤡 🟣 🟤 🔥",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Dora Akunyili",
+      "guess": "Dora Akunyili",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 12,
+    "round": 8,
+    "n_banned": 169,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

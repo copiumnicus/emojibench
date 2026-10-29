@@ -1,0 +1,184 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "UFC BJJ 2",
+    "description": "Martial arts event in 2025",
+    "extract": "UFC BJJ 2: Tackett vs. Canuto was a submission grappling event produced by UFC Brazilian Jiu-Jitsu. The event was held at the UFC Apex in Las Vegas, Nevada, United States, on July 31, 2025 and was streamed live on YouTube.",
+    "url": "https://en.wikipedia.org/wiki/UFC_BJJ_2"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 50.8,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2302,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 699,
+      "thinking_tokens": 454,
+      "cost_usd": 0.011594,
+      "calls": 3
+    },
+    "guesser": {
+      "input_tokens": 1495,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 591,
+      "thinking_tokens": 439,
+      "cost_usd": 0.0089,
+      "calls": 3
+    },
+    "judge": {
+      "input_tokens": 183,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 122,
+      "thinking_tokens": 118,
+      "cost_usd": 7.93e-05,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 523,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 195,
+        "thinking_tokens": 135,
+        "cost_usd": 0.002996,
+        "duration_ms": 7822
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 760,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 336,
+        "thinking_tokens": 240,
+        "cost_usd": 0.00488,
+        "duration_ms": 12183
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1019,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 168,
+        "thinking_tokens": 79,
+        "cost_usd": 0.003718,
+        "duration_ms": 6746
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 319,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 242,
+        "thinking_tokens": 137,
+        "cost_usd": 0.003058,
+        "duration_ms": 8821
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 518,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 213,
+        "thinking_tokens": 180,
+        "cost_usd": 0.003166,
+        "duration_ms": 9123
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 658,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 136,
+        "thinking_tokens": 122,
+        "cost_usd": 0.002676,
+        "duration_ms": 4877
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 183,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 122,
+        "thinking_tokens": 118,
+        "cost_usd": 7.93e-05,
+        "duration_ms": 1200
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "👊🦵🔗 🫂💪🦵 🔐🏳️\n🔔🔔\n📍🏜️🎲💸\n🎥⏯️ 🌐\n🆚 👨🏼👨🏻",
+      "delivered": "👊🦵🔗 🫂💪🦵 🔐🏳️\n🔔🔔\n📍🏜️🎲💸\n🎥⏯️ 🌐\n👨🏼👨🏻",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I’m reading combat sports: striking, grappling, submissions; an event in Las Vegas, shown on video/online. Is this a specific fight/event, a promotion, or a person? Can you indicate the name or date?\n\n\nI’m reading combat sports: striking, grappling, submissions; Las Vegas; video/online broadcasts. Is the article about a specific fight/event, a promotion, or a person? Please hint at its name or date.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "🎪 👍\n❌👊 ❌🦵\n🫂💪🔐🏳️\n🌎🌳⚽🎭 🗣️🇵🇹\n👊💥🔗 🎪 ●●\n🐍 📆 ☀️☀️☀️☀️☀️☀️☀️\n🏜️🎲💸 🌐🎥",
+      "delivered": "🎪 👍\n❌👊 ❌🦵\n🫂💪🔐🏳️\n🌎🌳⚽🎭 🗣️🇵🇹\n👊💥🔗 🎪\n🐍 📆 ☀️☀️☀️☀️☀️☀️☀️\n🏜️🎲💸 🌐🎥",
+      "dropped_chars": 2,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: UFC Fight Pass Invitational\n\nIs 🐍📆 indicating the year 2025, and seven suns indicating July?",
+      "guess": "UFC Fight Pass Invitational",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "🐍📆 👍 ☀️☀️☀️☀️☀️☀️☀️ 👍\n👊💥🔗 👍\n🎫📨 ❌\n🆕 🌳🦜⚽🎭 🗣️🇵🇹 🫂💪🔐\n🔔 🔔\n🟥▷ 🎥🌐",
+      "delivered": "🐍📆 👍 ☀️☀️☀️☀️☀️☀️☀️ 👍\n👊💥🔗 👍\n🎫📨 ❌\n🌳🦜⚽🎭 🗣️🇵🇹 🫂💪🔐\n🔔 🔔\n🟥 🎥🌐",
+      "dropped_chars": 2,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: UFC BJJ 2",
+      "guess": "UFC BJJ 2",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 5,
+    "round": 1,
+    "n_banned": 25,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

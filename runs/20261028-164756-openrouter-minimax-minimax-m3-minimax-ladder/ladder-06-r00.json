@@ -1,0 +1,283 @@
+{
+  "model": "openrouter:minimax/minimax-m3@minimax",
+  "model_id": "minimax/minimax-m3",
+  "guesser_model": "openrouter:minimax/minimax-m3@minimax",
+  "guesser_model_id": "minimax/minimax-m3",
+  "effort": null,
+  "article": {
+    "title": "Jakob von Washington",
+    "description": "Bavarian general (1778–1848)",
+    "extract": "\nBaron Jacobus von Washington was a lieutenant general in the Bavarian Army and a distant relative of US President George Washington. Born in The Hague, Netherlands, he was christened James Washington. Most of his adult life was shaped by his participation in wars for and against Napoleonic France and his service to Ludwig I of Bavaria.",
+    "url": "https://en.wikipedia.org/wiki/Jakob_von_Washington"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 734.5,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1271,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 3490,
+      "output_tokens": 5606,
+      "thinking_tokens": 5346,
+      "cost_usd": 0.0073179000000000004,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 1136,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2970,
+      "output_tokens": 61439,
+      "thinking_tokens": 60755,
+      "cost_usd": 0.0742458,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 726,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 16,
+      "thinking_tokens": 0,
+      "cost_usd": 8.06e-05,
+      "calls": 4
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 450,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 128,
+        "output_tokens": 509,
+        "thinking_tokens": 465,
+        "cost_usd": 0.00075348,
+        "duration_ms": 5924
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 125,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 578,
+        "output_tokens": 514,
+        "thinking_tokens": 451,
+        "cost_usd": 0.00068898,
+        "duration_ms": 8988
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 214,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 703,
+        "output_tokens": 409,
+        "thinking_tokens": 392,
+        "cost_usd": 0.00059718,
+        "duration_ms": 4378
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 247,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 917,
+        "output_tokens": 939,
+        "thinking_tokens": 871,
+        "cost_usd": 0.00125592,
+        "duration_ms": 8109
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 235,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1164,
+        "output_tokens": 3235,
+        "thinking_tokens": 3167,
+        "cost_usd": 0.00402234,
+        "duration_ms": 33328
+      }
+    ],
+    "guesser": [
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 331,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 128,
+        "output_tokens": 4120,
+        "thinking_tokens": 4072,
+        "cost_usd": 0.00505098,
+        "duration_ms": 37922
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 134,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 459,
+        "output_tokens": 20163,
+        "thinking_tokens": 20030,
+        "cost_usd": 0.02426334,
+        "duration_ms": 208267
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 158,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 593,
+        "output_tokens": 8601,
+        "thinking_tokens": 8404,
+        "cost_usd": 0.01040418,
+        "duration_ms": 100266
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 288,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 751,
+        "output_tokens": 9666,
+        "thinking_tokens": 9535,
+        "cost_usd": 0.01173066,
+        "duration_ms": 122127
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 225,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1039,
+        "output_tokens": 18889,
+        "thinking_tokens": 18714,
+        "cost_usd": 0.02279664,
+        "duration_ms": 201123
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 179,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.99e-05,
+        "duration_ms": 1258
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 185,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.05e-05,
+        "duration_ms": 936
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 183,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.03e-05,
+        "duration_ms": 1005
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 179,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.99e-05,
+        "duration_ms": 826
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>👤🗡️🎖️ 🇧🇪 🇳🇱 🇫🇷 👑 🇺🇸👴🏛️ ➡️</msg>",
+      "delivered": "👤🗡️🎖️ 🇧🇪 🇳🇱 🇫🇷 👑 🇺🇸👴🏛️ ➡️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Does this indicate a U.S. Army general who received decorations from Belgium, the Netherlands, and France, including an “Order of the Crown,” and later received a Congressional Gold Medal?\n\nGUESS: John J. Pershing",
+      "guess": "John J. Pershing",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👎🇺🇸🪖 🗡️🎖️🇧🇪 👴🔗🏛️🇺🇸 🇳🇱👶 ⚔️🇫🇷🇩🇪 👑🇧🇪</msg>",
+      "delivered": "👎🇺🇸🪖 🗡️🎖️🇧🇪 👴🔗🏛️🇺🇸 🇳🇱👶 ⚔️🇫🇷🇩🇪 👑🇧🇪",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Please answer these five questions with 👍 or 👎, in order:\n\nA. Is the subject a male European prince/military officer?  \nB. Does 👑🇧🇪 mean he received Belgium’s Order of the Crown?  \nC. Does ⚔️🇫🇷🇩🇪 mean he fought in the Franco-Prussian War?  \nD. Does 👴🔗🏛️🇺🇸 mean he was the grandson of someone connected to the U.S. government or military?  \nE. Does 🇳🇱👶 mean a child/son born in the Netherlands, or “Prince of Orange”?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>👍 👎 👎 👎 👍</msg>",
+      "delivered": "👍 👎 👎 👎 👍",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Please clarify these clues with emojis (one answer per line):\n\nA. Does 🇳🇱👶 mean **born in the Netherlands**, **Dutch prince/royal son**, or **held the title Prince of Orange**?  \nB. Does 👑🇧🇪 mean **received a Belgian royal decoration**, **held a Belgian royal title**, or **was related to Belgium’s monarch**?  \nC. Does 👴🔗🏛️🇺🇸➡️ mean **his own grandfather was American**, **his descendant’s grandfather was American**, or **his grandfather worked in a U.S. institution/building**?  \nD. Did he serve in the **Belgian**, **Dutch**, or **French** military?  \nE. Which conflict(s) involved France and Germany: **World War I**, **World War II**, **Napoleonic Wars**, or **Franco-Prussian War**?\n\nGUESS: Prince Henry of the Netherlands",
+      "guess": "Prince Henry of the Netherlands",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🇳🇱👶\n👑🟦⬜🟦👨\n🧬🔗👴🇺🇸\n🎖️🟦⬜🟦\n👤🎩⚔️🇫🇷🇩🇪</msg>",
+      "delivered": "🇳🇱👶\n👑🟦⬜🟦👨\n🧬🔗👴🇺🇸\n🎖️🟦⬜🟦\n👤🎩⚔️🇫🇷🇩🇪",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Please answer these five questions separately with 👍 or 👎:\n\n1. Was the subject himself a **Prince of Orange**?  \n2. Was his father a **Prince of Orange** or Dutch prince?  \n3. Did he serve in the **French armed forces**?  \n4. Did he fight **against France during the Napoleonic Wars**?  \n5. Is 🟦⬜🟦 an **award-ribbon color clue**, rather than a national flag?  \n6. Is 👴🔗🇺🇸 a **literal grandfather** of the subject?\n\nGUESS: William II, King of the Netherlands",
+      "guess": "William II, King of the Netherlands",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>👎\n👎\n👍\n👍\n👍\n👎\n\n🎖️🟦⬜🟦🇧🇪\n🪜🇩🇪👤 👴🇺🇸🧬 ⚔️🎖️🇧🇪</msg>",
+      "delivered": "👎\n👎\n👍\n👍\n👍\n👎\n🎖️🟦⬜🟦🇧🇪\n🪜🇩🇪👤 👴🇺🇸🧬 ⚔️🎖️🇧🇪",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Please answer these eight questions in order with 👍 or 👎:\n\n1. Is the subject **Henri de Merode**?  \n2. Was he born in **Megen**, in the present-day Netherlands?  \n3. Was his father **Prince Louis de Merode**?  \n4. Was his mother **Princess Wilhelmina of Hohenzollern-Hechingen**?  \n5. Did he serve in the **French émigré army**, initially under the Prince de Condé?  \n6. Did he later serve in **Austrian** forces and attain the rank of field marshal?  \n7. Was the blue-white-blue ribbon an award called the **Order of the Iron Crown**?  \n8. Was the American-connected person a **descendant of Henri**, rather than Henri’s own grandfather?\n\nGUESS: Henri de Merode",
+      "guess": "Henri de Merode",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 6,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

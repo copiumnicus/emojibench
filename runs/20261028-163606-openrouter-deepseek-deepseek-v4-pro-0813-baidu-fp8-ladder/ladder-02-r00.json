@@ -1,0 +1,283 @@
+{
+  "model": "openrouter:deepseek/deepseek-v4-pro-0813@baidu/fp8",
+  "model_id": "deepseek/deepseek-v4-pro-0813",
+  "guesser_model": "openrouter:deepseek/deepseek-v4-pro-0813@baidu/fp8",
+  "guesser_model_id": "deepseek/deepseek-v4-pro-0813",
+  "effort": null,
+  "article": {
+    "title": "Iron(III) sulfate",
+    "description": "Chemical compound",
+    "extract": "Iron(III) sulfate or ferric sulfate is a family of inorganic compounds with the formula Fe2(SO4)3(H2O)n. A variety of hydrates are known, including the most commonly encountered form of \"ferric sulfate\". Solutions are used in dyeing as a mordant and as a coagulant for industrial wastes. Solutions of ferric sulfate are also used in the processing of aluminum and steel.",
+    "url": "https://en.wikipedia.org/wiki/Iron(III)_sulfate"
+  },
+  "solved": true,
+  "turns_taken": 5,
+  "solved_turn": 5,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 747.3,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1678,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1792,
+      "output_tokens": 12386,
+      "thinking_tokens": 12247,
+      "cost_usd": 0.008619597408,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 1071,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1536,
+      "output_tokens": 28315,
+      "thinking_tokens": 28100,
+      "cost_usd": 0.0184190868,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 699,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 16,
+      "thinking_tokens": 0,
+      "cost_usd": 7.79e-05,
+      "calls": 4
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 492,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4355,
+        "thinking_tokens": 4335,
+        "cost_usd": 0.00307798128,
+        "duration_ms": 80068
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 328,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 2770,
+        "thinking_tokens": 2744,
+        "cost_usd": 0.001963020864,
+        "duration_ms": 52536
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 423,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 2464,
+        "thinking_tokens": 2439,
+        "cost_usd": 0.001776166944,
+        "duration_ms": 47973
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 292,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 1120,
+        "thinking_tokens": 1086,
+        "cost_usd": 0.000745690176,
+        "duration_ms": 21694
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 143,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 768,
+        "output_tokens": 1677,
+        "thinking_tokens": 1643,
+        "cost_usd": 0.001056738144,
+        "duration_ms": 31798
+      }
+    ],
+    "guesser": [
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 76,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 8851,
+        "thinking_tokens": 8806,
+        "cost_usd": 0.006047697504,
+        "duration_ms": 162354
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 164,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 4024,
+        "thinking_tokens": 3982,
+        "cost_usd": 0.002779910784,
+        "duration_ms": 71561
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 247,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 7313,
+        "thinking_tokens": 7240,
+        "cost_usd": 0.004511625888,
+        "duration_ms": 128942
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 371,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 5386,
+        "thinking_tokens": 5340,
+        "cost_usd": 0.003361670928,
+        "duration_ms": 95003
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 213,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 2741,
+        "thinking_tokens": 2732,
+        "cost_usd": 0.001718181696,
+        "duration_ms": 50965
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 175,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.95e-05,
+        "duration_ms": 1201
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 171,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.91e-05,
+        "duration_ms": 848
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 176,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.96e-05,
+        "duration_ms": 1226
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 177,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.97e-05,
+        "duration_ms": 1157
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🧪🧲🧲🧂🧂🧂</msg>",
+      "delivered": "🧪🧲🧲🧂🧂🧂",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I see 🧪 as chemistry/lab, 🧲 as magnetism, and 🧂 as salts/chemical compounds. That combination makes me think of the chemistry of magnetic materials.\n\nGUESS: Magnetochemistry",
+      "guess": "Magnetochemistry",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👎🧪⚙️⚙️🧂🧂🧂💧</msg>",
+      "delivered": "👎🧪⚙️⚙️🧂🧂🧂💧",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The emojis seem to point to a process involving chemistry, machinery, salt, and water. I'm thinking of desalination (removing salt from water).\n\nGUESS: Desalination",
+      "guess": "Desalination",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>👎💧❌ 🔩➕➕➕ 🧂🧪</msg>",
+      "delivered": "👎💧❌ 🔩➕➕➕ 🧂🧪",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The clues seem to point toward a specific chemical compound: iron (represented by 🧲 magnet, ⚙️ gear, 🔩 bolt — all metal/iron objects), chloride (🧂 salt), and a +3 charge (➕➕➕). The crossed-out 💧 suggests anhydrous. My guess:\n\nGUESS: Iron(III) chloride",
+      "guess": "Iron(III) chloride",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>👍🧲➕➕➕ ❌🧂 🟡⚪⚪⚪⚪➖➖</msg>",
+      "delivered": "👍🧲➕➕➕ ❌🧂 🟡⚪⚪⚪⚪➖➖",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The new clue strongly suggests the oxalate anion (C₂O₄²⁻): four oxygen atoms and a 2− charge, and iron(III) was confirmed.\n\nGUESS: Iron(III) oxalate",
+      "guess": "Iron(III) oxalate",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>🧲➕➕➕ 🧪🌋🟡⚪⚪⚪⚪➖➖</msg>",
+      "delivered": "🧲➕➕➕ 🧪🌋🟡⚪⚪⚪⚪➖➖",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Iron(III) sulfate",
+      "guess": "Iron(III) sulfate",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 2,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Proceratium silaceum",
+    "description": "Species of ant",
+    "extract": "Proceratium silaceum is a species of ant in the family Formicidae.",
+    "url": "https://en.wikipedia.org/wiki/Proceratium_silaceum"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 95.4,
+  "usage": {
+    "explainer": {
+      "input_tokens": 3217,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 2346,
+      "thinking_tokens": 2013,
+      "cost_usd": 0.015231,
+      "calls": 4
+    },
+    "guesser": {
+      "input_tokens": 2023,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 2946,
+      "thinking_tokens": 2744,
+      "cost_usd": 0.016752999999999997,
+      "calls": 4
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 583,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 728,
+        "thinking_tokens": 675,
+        "cost_usd": 0.004223,
+        "duration_ms": 13767
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 687,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 523,
+        "thinking_tokens": 457,
+        "cost_usd": 0.003302,
+        "duration_ms": 10642
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 808,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 520,
+        "thinking_tokens": 396,
+        "cost_usd": 0.003408,
+        "duration_ms": 10049
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 1139,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 575,
+        "thinking_tokens": 485,
+        "cost_usd": 0.004298,
+        "duration_ms": 11918
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 309,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 218,
+        "thinking_tokens": 177,
+        "cost_usd": 0.001399,
+        "duration_ms": 5288
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 417,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 630,
+        "thinking_tokens": 585,
+        "cost_usd": 0.003567,
+        "duration_ms": 10216
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 580,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 669,
+        "thinking_tokens": 613,
+        "cost_usd": 0.003925,
+        "duration_ms": 11101
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 717,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 1429,
+        "thinking_tokens": 1369,
+        "cost_usd": 0.007862,
+        "duration_ms": 22420
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🪳🪳🪳 🍞 🕳️⛰️\n\n🧬📖\n💼 🦄 ⚛️\n🤫 🎾 ⚛️</msg>",
+      "delivered": "🪳🪳🪳 🍞 🕳️⛰️\n🧬📖\n💼 🦄 ⚛️\n🤫 🎾 ⚛️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I think this is a cockroach species, perhaps associated with a cave or mountain. Is that right? Can you spell out the article title using sound-alike emoji clues?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🚫🪳\n\n🦗🦗🦗🦗 🍯\n👩‍👧‍👦 🔊 🦗\n\n🔊\n💼 🦄 ⚛️\n🤫 👗 ⚛️</msg>",
+      "delivered": "🚫🪳\n🦗🦗🦗🦗 🍯\n👩‍👧‍👦 🔊 🦗\n🔊\n💼 🦄 ⚛️\n🤫 👗 ⚛️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Are the last two lines phonetic clues to the genus and species? Please break down 💼 🦄 ⚛️ into smaller sound clues. Is this a cricket or a locust?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🚫🦗 🚫🦗🦗\n\n🐛➡️🚫\n👩‍👧 🔊 🐜🚫\n👩‍👧 🔊 🪳🚫\n👩‍👧 🔊 🐞\n\n🥪🍉🍗\n🐞🐞🐞🐞🐞\n🕳️⛰️\n\n🔊 🏌️ 🎩 🌞 ☕ ⚛️\n🔊 🤫 🛌 👓 ⚛️</msg>",
+      "delivered": "🚫🦗 🚫🦗🦗\n🚫\n👩‍👧 🔊 🚫\n👩‍👧 🔊 🪳🚫\n👩‍👧 🔊 🐞\n🥪🍉🍗\n🐞🐞🐞🐞🐞\n🕳️⛰️\n🔊 🏌️ 🎩 🌞 ☕ ⚛️\n🔊 🤫 🛌 👓 ⚛️",
+      "dropped_chars": 3,
+      "off_keyboard": [
+        "🐛",
+        "➡️",
+        "🐜"
+      ],
+      "retried": false,
+      "guesser": "I understand: a family or genus of beetles, perhaps associated with food and caves. What sound does each emoji in 🏌️ 🎩 🌞 ☕ ⚛️ represent? Can you give alternate rhymes for each syllable?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🚫🐞\n\n🧒 👩‍👧 👩‍👩‍👧 👩\n🧒 🔊 👩\n👩 🔊 🐞\n\n🔊\n🏌️💰  🎩👨  🐟  ☕  🤐\n🥈  🐴  🏖️  🤐</msg>",
+      "delivered": "🚫🐞\n🧒 👩‍👧 👩‍👩‍👧 👩\n🧒 🔊 👩\n👩 🔊 🐞\n🔊\n🏌️💰 🎩👨 🐟 ☕ 🤐\n🐴 🏖️ 🤐",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🥈"
+      ],
+      "retried": false,
+      "guesser": "The insect is an ant, and I think the genus is Proceratium. For 🐴 🏖️ 🤐, is the species name a sound-alike for “mare, sea, um”?\n\nGUESS: Proceratium silaceum",
+      "guess": "Proceratium silaceum",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 1,
+    "round": 2,
+    "n_banned": 60,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

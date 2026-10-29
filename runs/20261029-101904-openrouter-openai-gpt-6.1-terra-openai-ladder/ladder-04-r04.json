@@ -1,0 +1,176 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Mike Pieciak",
+    "description": "American politician (born 1983)",
+    "extract": "Michael Sullivan Pieciak is an American politician from Vermont. A member of the Democratic Party, Pieciak has served as Vermont State Treasurer since January 2023.",
+    "url": "https://en.wikipedia.org/wiki/Mike_Pieciak"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 52.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2081,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1577,
+      "thinking_tokens": 1382,
+      "cost_usd": 0.009966,
+      "calls": 3
+    },
+    "guesser": {
+      "input_tokens": 1183,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 750,
+      "thinking_tokens": 666,
+      "cost_usd": 0.004933,
+      "calls": 3
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 606,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 842,
+        "thinking_tokens": 802,
+        "cost_usd": 0.004816,
+        "duration_ms": 18129
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 680,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 514,
+        "thinking_tokens": 456,
+        "cost_usd": 0.00325,
+        "duration_ms": 11363
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 795,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 221,
+        "thinking_tokens": 124,
+        "cost_usd": 0.0019,
+        "duration_ms": 5354
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 295,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 76,
+        "thinking_tokens": 52,
+        "cost_usd": 0.000675,
+        "duration_ms": 3534
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 378,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 403,
+        "thinking_tokens": 356,
+        "cost_usd": 0.002393,
+        "duration_ms": 8169
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 510,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 271,
+        "thinking_tokens": 258,
+        "cost_usd": 0.001865,
+        "duration_ms": 6033
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🍃 🗻 ⚖️ 🔒 💴 👔\n\n🎃 🔪  🥐 ♟️ 👑</msg>",
+      "delivered": "🍃 🗻 ⚖️ 🔒 💴 👔\n🎃 🔪 🥐 ♟️ 👑",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is this a person? Please give clues for their nationality and occupation, then their name.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🙋\n\n🌎 🍔 🌭 🏈\n\n🥬 🗻 👔 🗣️ 💴 💶 🔒\n\n🥊 👂  \n🍕 ♟️ 👑 ⚠️</msg>",
+      "delivered": "🙋\n🌎 🍔 🌭 🏈\n🥬 🗻 👔 🗣️ 💴 💶 🔒\n🥊 👂\n🍕 ♟️ 👑 ⚠️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I understand: an American man connected to Vermont or a green mountain, politics or finance, and Mike Tyson or boxing. Is he a politician? What do the boxing-ear and pizza-chess clues mean?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🙋 👔 🗣️ 🏢 ❌\n\n🥊 🏆 👂 ✂️  🟰  🙋 🪪 ⬅️\n\n🍕 🟰 🥧 ❌\n🍕 ♟️ 👑 ⚠️  🟰  🙋 🪪 ➡️\n\n🥬 🗻 💴 🔒 👔</msg>",
+      "delivered": "🙋 👔 🗣️ ❌\n🥊 🏆 👂 ✂️ 🟰 🙋 🪪 ⬅️\n🍕 🟰 ❌\n🍕 ♟️ 👑 ⚠️ 🟰 🙋 🪪\n🥬 🗻 💴 🔒 👔",
+      "dropped_chars": 3,
+      "off_keyboard": [
+        "🏢",
+        "🥧",
+        "➡️"
+      ],
+      "retried": false,
+      "guesser": "GUESS: Mike Pieciak",
+      "guess": "Mike Pieciak",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 4,
+    "round": 4,
+    "n_banned": 66,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

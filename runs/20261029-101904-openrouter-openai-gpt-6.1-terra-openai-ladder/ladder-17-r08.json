@@ -1,0 +1,244 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "7's Football League",
+    "description": "Football league",
+    "extract": "The 7's Football League is a seven-a-side football league in the Philippines. Established in 2018, the league already had four seasons. It has a two-tiered men's division, a women's division, and youth divisions. The league is an open tournament with participation from representative sides of the domestic football competition, the Philippines Football League.",
+    "url": "https://en.wikipedia.org/wiki/7's_Football_League"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 74.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2540,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2368,
+      "output_tokens": 1970,
+      "thinking_tokens": 1649,
+      "cost_usd": 0.01290415,
+      "calls": 4
+    },
+    "guesser": {
+      "input_tokens": 2049,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1810,
+      "thinking_tokens": 1671,
+      "cost_usd": 0.011099,
+      "calls": 4
+    },
+    "judge": {
+      "input_tokens": 504,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 12,
+      "thinking_tokens": 0,
+      "cost_usd": 5.64e-05,
+      "calls": 3
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 948,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 1081,
+        "thinking_tokens": 1020,
+        "cost_usd": 0.006353,
+        "duration_ms": 22250
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 1061,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 474,
+        "thinking_tokens": 378,
+        "cost_usd": 0.0036955,
+        "duration_ms": 8022
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 255,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1058,
+        "output_tokens": 284,
+        "thinking_tokens": 190,
+        "cost_usd": 0.0017909,
+        "duration_ms": 5408
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 276,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1310,
+        "output_tokens": 131,
+        "thinking_tokens": 61,
+        "cost_usd": 0.00106475,
+        "duration_ms": 3032
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 317,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 373,
+        "thinking_tokens": 331,
+        "cost_usd": 0.002182,
+        "duration_ms": 7557
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 441,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 422,
+        "thinking_tokens": 394,
+        "cost_usd": 0.002551,
+        "duration_ms": 7516
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 574,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 694,
+        "thinking_tokens": 639,
+        "cost_usd": 0.004044,
+        "duration_ms": 12683
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 717,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 321,
+        "thinking_tokens": 307,
+        "cost_usd": 0.002322,
+        "duration_ms": 5583
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 167,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.87e-05,
+        "duration_ms": 842
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 171,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.91e-05,
+        "duration_ms": 919
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 166,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.86e-05,
+        "duration_ms": 913
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇫🇮 🫦 🫘\n\n🕺🕺🕺🕺🕺🕺🕺\n👢 🎱\n\n🚩 ⚡ 🚩\n🎖️ 📈</msg>",
+      "delivered": "🇫🇮 🫦 🫘\n🕺🕺🕺🕺🕺🕺🕺\n👢 🎱\n🚩 ⚡ 🚩\n🎖️ 📈",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is this a Finnish sports team or a music group? What do the lips and beans represent? And what does the seven-person count mean? Nouns or sounds are both helpful.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👂🗨️\n🇫🇮 👄 🫘\n🌍\n\n🕺🕺🕺🕺🕺🕺🕺 🆚 🕺🕺🕺🕺🕺🕺🕺\n👢 🎱 🟩\n🏟 🏟 🏟\n🏅</msg>",
+      "delivered": "👂🗨️\n🇫🇮 👄 🫘\n🌍\n🕺🕺🕺🕺🕺🕺🕺 🕺🕺🕺🕺🕺🕺🕺\n👢 🎱 🟩",
+      "dropped_chars": 5,
+      "off_keyboard": [
+        "🏟️",
+        "🏟️",
+        "🏟️",
+        "🏅"
+      ],
+      "retried": false,
+      "guesser": "🇫🇮👄🫘 sounds like “Philippines”!\n\nGUESS: Philippines national football team",
+      "guess": "Philippines national football team",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🇫🇮👄🫘 🌍\n\n🕺🕺🕺🕺🕺🕺🕺\n🆚\n🕺🕺🕺🕺🕺🕺🕺\n\n👢🎱 🟩\n📈🎖️\n👂🗨️ 🥬</msg>",
+      "delivered": "🇫🇮👄🫘 🌍\n🕺🕺🕺🕺🕺🕺🕺\n🕺🕺🕺🕺🕺🕺🕺\n👢🎱 🟩\n📈🎖️\n👂🗨️ 🥬",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I understand Philippines, football, fourteen men, and an achievement or ranking. Is fourteen an age, a score, or a number of players? Does 🥬 sound like the article title?\n\nGUESS: Philippines national under-14 football team",
+      "guess": "Philippines national under-14 football team",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🕺🕺🕺🕺🕺🕺🕺\n👂🗨️\n🍃\n\n👢🎱 🟩\n\n👂🗨️\n🥬\n\n🇫🇮👄🫘</msg>",
+      "delivered": "🕺🕺🕺🕺🕺🕺🕺\n👂🗨️\n🍃\n👢🎱 🟩\n👂🗨️\n🥬\n🇫🇮👄🫘",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: 7s Football League",
+      "guess": "7s Football League",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 17,
+    "round": 8,
+    "n_banned": 174,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

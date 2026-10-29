@@ -1,0 +1,213 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Grande Seca",
+    "description": "Brazilian drought (1877–1878)",
+    "extract": "The Grande Seca, or the Brazilian drought of 1877–1878, was the largest and most devastating drought in Brazilian history. It caused the deaths of between 400,000 and 500,000 people. Of the 800,000 people who lived in the affected Northeastern region, around 120,000 migrated to the Amazon while 68,000 migrated to other parts of Brazil.",
+    "url": "https://en.wikipedia.org/wiki/Grande_Seca"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 92.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2664,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2637,
+      "output_tokens": 1504,
+      "thinking_tokens": 1171,
+      "cost_usd": 0.0214617,
+      "calls": 4
+    },
+    "guesser": {
+      "input_tokens": 2028,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 772,
+      "thinking_tokens": 616,
+      "cost_usd": 0.011776,
+      "calls": 4
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 995,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 554,
+        "thinking_tokens": 480,
+        "cost_usd": 0.00753,
+        "duration_ms": 21921
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1221,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 436,
+        "thinking_tokens": 360,
+        "cost_usd": 0.007411,
+        "duration_ms": 17596
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 204,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1218,
+        "output_tokens": 350,
+        "thinking_tokens": 259,
+        "cost_usd": 0.0041303,
+        "duration_ms": 14831
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 244,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1419,
+        "output_tokens": 164,
+        "thinking_tokens": 72,
+        "cost_usd": 0.0023904,
+        "duration_ms": 6311
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 312,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 152,
+        "thinking_tokens": 81,
+        "cost_usd": 0.002144,
+        "duration_ms": 5297
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 449,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 264,
+        "thinking_tokens": 227,
+        "cost_usd": 0.003538,
+        "duration_ms": 10125
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 571,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 262,
+        "thinking_tokens": 226,
+        "cost_usd": 0.003762,
+        "duration_ms": 11457
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 696,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 94,
+        "thinking_tokens": 82,
+        "cost_usd": 0.002332,
+        "duration_ms": 5032
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>👯🎶🎆 🏙️🏔️🙏🗽\n🌅♨️♨️♨️ 🫠 🏞️\n🌻🍄 🥣\n🆘🆘🆘 🏴‍☠️\n</msg>",
+      "delivered": "👯🎶🎆 🏙️🏔️🙏🗽\n🌅♨️♨️♨️ 🫠\n🌻🍄\n🏴‍☠️",
+      "dropped_chars": 5,
+      "off_keyboard": [
+        "🏞️",
+        "🥣"
+      ],
+      "retried": false,
+      "guesser": "Is this a music festival? Which country/region, and does 🏴‍☠️ hint at its name or location?\n\nIs this a music festival? Which country/region is it in, and does 🏴‍☠️ hint at its name or its location?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🎶🎪 ✖️\n👯🪶🎺 🏔️🙏 🐒🐍🦋\n🌅♨️ 🫠 🏝️ 🪫\n🚨🆘 🤒🤒🤒 🏴‍☠️\n</msg>",
+      "delivered": "🎶🎪 ✖️\n👯🪶🎺 🏔️🙏 🐒🐍🦋\n🌅♨️ 🫠 🏝️ 🪫\n🚨 🤒🤒🤒 🏴‍☠️",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is the article about a musical band or group, rather than a festival? Are the heat and sick faces clues to a tropical disease such as dengue fever?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🎵 ✖️ 🦠 ✖️\n🇺🇸 🔽 🇲🇽 🔽 🇪🇨 🔽\n👯🪶🎺 ⚽️\n🌩️✖️ 🌅♨️ 🏝️ 🫠\n🚜🌻✖️ 🍚✖️ 🤒🪦\n</msg>",
+      "delivered": "🎵 ✖️ 🦠 ✖️\n🇺🇸 🔽 🇲🇽 🔽 🇪🇨 🔽\n👯🪶🎺\n🌩️✖️ 🌅♨️ 🏝️ 🫠\n🚜🌻✖️ 🍚✖️ 🤒",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "⚽",
+        "🪦"
+      ],
+      "retried": false,
+      "guesser": "Does 👯🪶🎺 identify Brazil or Rio de Janeiro? Is the subject a heat wave, drought, or another weather event there?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🙂‍↕️ 👯🪶🎺 🏔️🙏\n🌩️✖️ 🌩️✖️ 🌩️✖️\n♨️ 🏝️ 🚜✖️ 🍚✖️\n📯 📰 🕰 ✖️\n💯💯💯💯💯 🩻\n</msg>",
+      "delivered": "🙂‍↕️ 👯🪶🎺 🏔️🙏\n🌩️✖️ 🌩️✖️ 🌩️✖️\n♨️ 🏝️ 🚜✖️ 🍚✖️\n📯 📰 ✖️\n💯💯💯💯💯 🩻",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🕰️"
+      ],
+      "retried": false,
+      "guesser": "GUESS: Grande Seca",
+      "guess": "Grande Seca",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 16,
+    "round": 10,
+    "n_banned": 184,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

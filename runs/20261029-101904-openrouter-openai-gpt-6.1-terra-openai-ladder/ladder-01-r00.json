@@ -1,0 +1,205 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Proceratium silaceum",
+    "description": "Species of ant",
+    "extract": "Proceratium silaceum is a species of ant in the family Formicidae.",
+    "url": "https://en.wikipedia.org/wiki/Proceratium_silaceum"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 51.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1968,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1183,
+      "thinking_tokens": 977,
+      "cost_usd": 0.007883,
+      "calls": 4
+    },
+    "guesser": {
+      "input_tokens": 1665,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1287,
+      "thinking_tokens": 1151,
+      "cost_usd": 0.0081,
+      "calls": 4
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 346,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 507,
+        "thinking_tokens": 464,
+        "cost_usd": 0.002881,
+        "duration_ms": 9563
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 438,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 254,
+        "thinking_tokens": 203,
+        "cost_usd": 0.001708,
+        "duration_ms": 5360
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 540,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 262,
+        "thinking_tokens": 208,
+        "cost_usd": 0.00185,
+        "duration_ms": 6275
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 644,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 160,
+        "thinking_tokens": 102,
+        "cost_usd": 0.001444,
+        "duration_ms": 3795
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 275,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 170,
+        "thinking_tokens": 131,
+        "cost_usd": 0.001125,
+        "duration_ms": 4024
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 366,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 185,
+        "thinking_tokens": 144,
+        "cost_usd": 0.001291,
+        "duration_ms": 4742
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 462,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 310,
+        "thinking_tokens": 270,
+        "cost_usd": 0.002012,
+        "duration_ms": 6830
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 562,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 622,
+        "thinking_tokens": 606,
+        "cost_usd": 0.003672,
+        "duration_ms": 11099
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🐜 🔬\n\n🧑‍💼 🤵 ☀️ 🍵 🤔\n\n🦭 ☀️ 👀 🤔</msg>",
+      "delivered": "🐜 🔬\n🧑‍💼 🤵 ☀️ 🍵 🤔\n🦭 ☀️ 👀 🤔",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is this an ant species or a person who studies ants? Are the other emojis clues to the name’s pronunciation? Give me the first letter and more name clues.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👍 🐜 🔬 🌿\n\n🫛 ➡️ 🏆 🤵 ☀️ 🍵 🤔\n\n🪟 🪡 👁️ 🤔</msg>",
+      "delivered": "👍 🐜 🔬 🌿\n🫛 ➡️ 🏆 🤵 ☀️ 🍵 🤔\n🪟 🪡 👁️ 🤔",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is the article a species of ant in the genus Pheidole? Please spell the genus and species phonetically with separate emoji groups, and give clues to its habitat.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>👎\n\n🐜 🔬\n\n🏆 🫡 🗣️ 🍵 🤔\n\n😮‍💨 🛏️ 👀 🤔\n\n🌍 🌳 🤷</msg>",
+      "delivered": "👎\n🐜 🔬\n🏆 🫡 🗣️ 🍵 🤔\n😮‍💨 🛏️ 👀 🤔\n🌍 🌳 🤷",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Please give the genus and species initials using objects whose English names begin with those letters. Also, is the name a person's name (for example, named after a scientist)?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🐧 🐍\n\n🤷 👨‍🔬\n\n🤵 ➕ 🫡 ➕ 🍵 ➕ 🤔\n\n🦭 ➕ 👀 ➕ 🤔\n\n🐜 🔬</msg>",
+      "delivered": "🐧 🐍\n🤷 👨‍🔬\n🤵 ➕ 🫡 ➕ 🍵 ➕ 🤔\n🦭 ➕ 👀 ➕ 🤔\n🐜 🔬",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Proceratium silaceum",
+      "guess": "Proceratium silaceum",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 1,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

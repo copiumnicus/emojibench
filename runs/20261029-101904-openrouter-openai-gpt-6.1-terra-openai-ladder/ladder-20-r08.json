@@ -1,0 +1,256 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Franco Cozzo",
+    "description": "Australian businessman (1935–2023)",
+    "extract": "Franco Cozzo was an Italian-Australian businessman. After moving to Melbourne from Sicily in 1955, Cozzo became known for his television advertisements, in which he would speak in English, Greek, and Italian. He later produced Australia's first non-English TV show, Carosello, which was broadcast in Italian.",
+    "url": "https://en.wikipedia.org/wiki/Franco_Cozzo"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 129.5,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2287,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 6145,
+      "output_tokens": 3321,
+      "thinking_tokens": 2793,
+      "cost_usd": 0.01976725,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 2998,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 3235,
+      "thinking_tokens": 3025,
+      "cost_usd": 0.019173,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 1196,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 1258,
+        "thinking_tokens": 1185,
+        "cost_usd": 0.00778425,
+        "duration_ms": 25513
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 198,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1193,
+        "output_tokens": 594,
+        "thinking_tokens": 507,
+        "cost_usd": 0.0032764,
+        "duration_ms": 12810
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 240,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1388,
+        "output_tokens": 508,
+        "thinking_tokens": 380,
+        "cost_usd": 0.00290865,
+        "duration_ms": 10863
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 317,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1625,
+        "output_tokens": 549,
+        "thinking_tokens": 429,
+        "cost_usd": 0.00322175,
+        "duration_ms": 12654
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 336,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1939,
+        "output_tokens": 412,
+        "thinking_tokens": 292,
+        "cost_usd": 0.0025762,
+        "duration_ms": 8243
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 325,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 974,
+        "thinking_tokens": 949,
+        "cost_usd": 0.005195,
+        "duration_ms": 17771
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 435,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 417,
+        "thinking_tokens": 378,
+        "cost_usd": 0.00252,
+        "duration_ms": 7395
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 587,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 625,
+        "thinking_tokens": 589,
+        "cost_usd": 0.003712,
+        "duration_ms": 11887
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 732,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 682,
+        "thinking_tokens": 613,
+        "cost_usd": 0.004142,
+        "duration_ms": 12500
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 919,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 537,
+        "thinking_tokens": 496,
+        "cost_usd": 0.003604,
+        "duration_ms": 9894
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🇲🇹 ⬆️ 🇻🇦 🤵\n🧳 🚀 🇵🇬 ⬇️\n🚊 🌇\n🤵 📷 🔈 💲💲💲\n🇮🇪 🥙 🇻🇦 🔈\n</msg>",
+      "delivered": "🇲🇹 ⬆️ 🇻🇦 🤵\n🚀 🇵🇬 ⬇️\n🚊 🌇\n🤵 📷 🔈 💲💲💲\n🇮🇪 🥙 🇻🇦 🔈",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🧳"
+      ],
+      "retried": false,
+      "guesser": "Is the person a Maltese-born Australian actor or entertainer? What does the final line mean?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n❎ 🇲🇹\n🇲🇹 ⬆️ 🤵 🚢 🇵🇬 ⬇️ 🚊 🌇\n🤵 🏰 👼 😴 💲💲\n📷 🔈 💲💲💲\n🇮🇪 🔈 🥙 🔈 🇻🇦 🔈\n</msg>",
+      "delivered": "❎ 🇲🇹\n🇲🇹 ⬆️ 🤵 🇵🇬 ⬇️ 🚊 🌇\n🤵 🏰 👼 😴 💲💲\n📷 🔈 💲💲💲\n🇮🇪 🔈 🥙 🔈 🇻🇦 🔈",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🚢"
+      ],
+      "retried": false,
+      "guesser": "Does the castle, angel and sleeping mean Disney? Is the last line a phonetic clue to the person’s name? Can you break down the name syllables?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n❎ 🏰 👼\n❎ 🇲🇹\n🇲🇹 ⬆️ 🌋 ❎\n🇻🇦 ⬇️ 🤵\n🇵🇬 ⬇️ 🚊 🌇\n🤵 💲 💤 🏡\n🤵 📷 🔈 💲💲\n🗨️ ❎\n🇻🇦 🔈 🥙 🔈 🇮🇪 🔈\n\n🤵 📛\n🇲🇨 🪿\n🐔 💤\n</msg>",
+      "delivered": "❎ 🏰 👼\n❎ 🇲🇹\n🇲🇹 ⬆️ ❎\n🇻🇦 ⬇️ 🤵\n🇵🇬 ⬇️ 🚊 🌇\n🤵 💲\n🤵 📷 🔈 💲💲\n❎\n🇻🇦 🔈 🥙 🔈 🇮🇪 🔈\n🤵\n🇲🇨 🪿\n🐔",
+      "dropped_chars": 6,
+      "off_keyboard": [
+        "🌋",
+        "💤",
+        "🏡",
+        "🗨️",
+        "📛",
+        "💤"
+      ],
+      "retried": false,
+      "guesser": "Is he from Sicily, later in an Australian city, and a film producer? What do 🇲🇨 🪿 🐔 mean?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>\n🙌 🇲🇹 ⬆️ 🇻🇦 ⬇️ 🤵\n🙌 🇵🇬 ⬇️ 🚊 🌇\n❎ 🎦\n🤵 📷 🔈 💲 🛖 🪵\n🇻🇦 🔈 🥙 🔈 🇮🇪 🔈\n\n🤵 🟰\n🇲🇨 🔈 🪿 🔈\n🐃 🔈 🦔🦚🦛 🔈\n</msg>",
+      "delivered": "🙌 🇲🇹 ⬆️ 🇻🇦 ⬇️ 🤵\n🙌 🇵🇬 ⬇️ 🚊 🌇\n❎\n🤵 📷 🔈 💲 🛖\n🇻🇦 🔈 🥙 🔈 🇮🇪 🔈\n🤵\n🇲🇨 🔈 🪿 🔈\n🐃 🔈 🦔🦚 🔈",
+      "dropped_chars": 4,
+      "off_keyboard": [
+        "🎦",
+        "🪵",
+        "🟰",
+        "🦛"
+      ],
+      "retried": false,
+      "guesser": "I understand: an Italian man moved to an Australian city and owned cinemas. Is 🇻🇦 🥙 🇮🇪 his first name, and 🇲🇨 🪿 🐃 🦔🦚 his surname? Can you spell each syllable with more emoji sound clues?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>\n🙌 🇲🇹 ⬆️ 🇻🇦 ⬇️ 🤵\n🙌 🇵🇬 ⬇️ 🚊 🌇\n❎ 🎦\n🤵 📷 🔈 💲 😴 🛖\n\n🤵\n🍟 🔈 🇲🇨 🔈 🪿 🔈\n🍫 🔈 🦙🦥🦔 🔈\n\n🇻🇦 🔈 🥙 🔈 🇮🇪 🔈\n</msg>",
+      "delivered": "🙌 🇲🇹 ⬆️ 🇻🇦 ⬇️ 🤵\n🙌 🇵🇬 ⬇️ 🚊 🌇\n❎\n🤵 📷 🔈 💲 😴 🛖\n🤵\n🍟 🔈 🇲🇨 🔈 🪿 🔈\n🍫 🔈 🦙🦥🦔 🔈\n🇻🇦 🔈 🥙 🔈 🇮🇪 🔈",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🎦"
+      ],
+      "retried": false,
+      "guesser": "Is the man a cinema and hotel owner in Queensland? Are the emoji sound clues his name, places, or businesses? Please give his first name syllable by syllable.",
+      "guess": null,
+      "correct": null
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 20,
+    "round": 8,
+    "n_banned": 255,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

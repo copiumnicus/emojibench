@@ -1,0 +1,250 @@
+{
+  "model": "openrouter:minimax/minimax-m3@minimax",
+  "model_id": "minimax/minimax-m3",
+  "guesser_model": "openrouter:minimax/minimax-m3@minimax",
+  "guesser_model_id": "minimax/minimax-m3",
+  "effort": null,
+  "article": {
+    "title": "Mad River Mountain",
+    "description": "Ski resort in Ohio, United States",
+    "extract": "Mad River Mountain is a ski and snowboard resort in Valley Hi, Ohio, United States. The elevation of Mad River Mountain is 1,460 feet (450 m) with a vertical drop of 300 ft (91 m), and it has a ski season that runs from approximately mid-December through mid-March. The resort, which opened in 1962 as Valley Hi Ski Area, is owned by EPR Properties and operated by Vail Resorts, who bought the resort from Peak Resorts in 2019.",
+    "url": "https://en.wikipedia.org/wiki/Mad_River_Mountain"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 135.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 868,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 3081,
+      "output_tokens": 1014,
+      "thinking_tokens": 886,
+      "cost_usd": 0.00166206,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 667,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2338,
+      "output_tokens": 13189,
+      "thinking_tokens": 12917,
+      "cost_usd": 0.01616718,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 179,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 1.99e-05,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 483,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 128,
+        "output_tokens": 198,
+        "thinking_tokens": 176,
+        "cost_usd": 0.00039018,
+        "duration_ms": 3309
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 87,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 611,
+        "output_tokens": 27,
+        "thinking_tokens": 0,
+        "cost_usd": 9.516e-05,
+        "duration_ms": 1579
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 73,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 698,
+        "output_tokens": 212,
+        "thinking_tokens": 193,
+        "cost_usd": 0.00031818,
+        "duration_ms": 2863
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 102,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 771,
+        "output_tokens": 262,
+        "thinking_tokens": 234,
+        "cost_usd": 0.00039126,
+        "duration_ms": 3939
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 123,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 873,
+        "output_tokens": 315,
+        "thinking_tokens": 283,
+        "cost_usd": 0.00046728,
+        "duration_ms": 3803
+      }
+    ],
+    "guesser": [
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 309,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 128,
+        "output_tokens": 593,
+        "thinking_tokens": 545,
+        "cost_usd": 0.00081198,
+        "duration_ms": 6402
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 84,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 437,
+        "output_tokens": 1392,
+        "thinking_tokens": 1365,
+        "cost_usd": 0.00172182,
+        "duration_ms": 11314
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 54,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 521,
+        "output_tokens": 9238,
+        "thinking_tokens": 9171,
+        "cost_usd": 0.01113306,
+        "duration_ms": 81451
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 102,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 575,
+        "output_tokens": 77,
+        "thinking_tokens": 0,
+        "cost_usd": 0.0001575,
+        "duration_ms": 1926
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 118,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 677,
+        "output_tokens": 1889,
+        "thinking_tokens": 1836,
+        "cost_usd": 0.00234282,
+        "duration_ms": 17672
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 179,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.99e-05,
+        "duration_ms": 1417
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🤪🌊⛰️🎿🇺🇸</msg>",
+      "delivered": "🤪🌊⛰️🎿🇺🇸",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Are all five emojis literal clues to the title, and does the title itself contain a word meaning “crazy” (🤪)? Is the subject a U.S. place connected with both the sea/ocean and skiing?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🤪❌🌊❌⛰️🎿✅🇺🇸✅</msg>",
+      "delivered": "🤪❌🌊❌⛰️🎿✅🇺🇸✅",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is the article about a specific named mountain or ski area, rather than the general sport of skiing in the U.S.?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>✅🎿🏔️🤪🌊</msg>",
+      "delivered": "✅🎿🏔️🤪🌊",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Two candidates fit strongly: **Loon Mountain** (🤪 “loon” = crazy person; 🌊 loon = water bird) and **Mad River Glen** (🤪 mad; 🌊 river). Which is it? Please answer ✅ for Loon Mountain or ❌ for Mad River Glen.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>👎👎🤪🌊⛰️🎿🌰🇺🇸</msg>",
+      "delivered": "👎👎🤪🌊⛰️🎿🌰🇺🇸",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I understand 🤪 + 🌊 + ⛰️ + 🎿 + 🇺🇸, but what does 🌰 mean here—a place nickname like “Nutty”? Does “crazy” describe the skier rather than the mountain? Could this be **Mad Mountain**, **Crazy Horse**, or **Loon Mountain**? Please clarify the title’s key word.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>🤪➡️🌊➡️⛰️🎿🇺🇸❌❌❌</msg>",
+      "delivered": "🤪➡️🌊➡️⛰️🎿🇺🇸❌❌❌",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Could the 🌰 indicate a squirrel mascot? That fits **Bogus Basin**: “bogus” can mean crazy/false, it is a mountain ski area in the U.S., and its mascot is a squirrel.\n\nGUESS: Bogus Basin",
+      "guess": "Bogus Basin",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 7,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Jakob von Washington",
+    "description": "Bavarian general (1778–1848)",
+    "extract": "\nBaron Jacobus von Washington was a lieutenant general in the Bavarian Army and a distant relative of US President George Washington. Born in The Hague, Netherlands, he was christened James Washington. Most of his adult life was shaped by his participation in wars for and against Napoleonic France and his service to Ludwig I of Bavaria.",
+    "url": "https://en.wikipedia.org/wiki/Jakob_von_Washington"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 58.3,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2737,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 881,
+      "thinking_tokens": 622,
+      "cost_usd": 0.0148615,
+      "calls": 3
+    },
+    "guesser": {
+      "input_tokens": 1453,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 716,
+      "thinking_tokens": 552,
+      "cost_usd": 0.010066,
+      "calls": 3
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 663,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 314,
+        "thinking_tokens": 244,
+        "cost_usd": 0.004466,
+        "duration_ms": 11633
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 916,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 263,
+        "thinking_tokens": 178,
+        "cost_usd": 0.004462,
+        "duration_ms": 8562
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1158,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 304,
+        "thinking_tokens": 200,
+        "cost_usd": 0.0059335,
+        "duration_ms": 10938
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 318,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 206,
+        "thinking_tokens": 112,
+        "cost_usd": 0.002696,
+        "duration_ms": 7798
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 489,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 373,
+        "thinking_tokens": 315,
+        "cost_usd": 0.004708,
+        "duration_ms": 14271
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 646,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 137,
+        "thinking_tokens": 125,
+        "cost_usd": 0.002662,
+        "duration_ms": 5139
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🧑‍✈️ ⭐⭐⭐ 🏰🍻🔹🤍\n⚔ 🗡️ 🥁 🇫🇷\n👤 ↖️ 👔💰 🦃🏈\n📛 🧽🫧🚿</msg>",
+      "delivered": "🧑‍✈️ ⭐⭐⭐ 🏰🍻🔹🤍\n🗡️ 🥁\n👤 ↖️ 👔💰 🦃🏈\n🧽🫧🚿",
+      "dropped_chars": 3,
+      "off_keyboard": [
+        "⚔️",
+        "🇫🇷",
+        "📛"
+      ],
+      "retried": false,
+      "guesser": "I’m reading this as a military officer/general, possibly Bavarian (blue and white), with “Bath” as a name or place clue. Is the subject a person? Please clarify the country and the 🦃🏈 clue.\n\nIs this a military officer associated with Bavaria, with “Bath” as a name or place clue? Please clarify the country and what 🦃🏈 represents.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>☑️ 👤 🧑‍✈️ ⭐⭐⭐ 🏰🍻 🔹🤍🔹🤍\n\n🦃🏈🍔 🏙️ ☝️ 👔 🧑‍🦳\n👥 🌲 ⋯ 👤\n\n🧽🫧🚿 🏙️</msg>",
+      "delivered": "☑️ 👤 🧑‍✈️ ⭐⭐⭐ 🏰🍻 🔹🤍🔹🤍\n🦃🏈🍔 🏙️ ☝️ 👔 🧑‍🦳\n👥 🌲 👤\n🧽🫧🚿 🏙️",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is he a Bavarian lieutenant-general born in Bath, England? Does 👥🌲👤 mean he was a descendant of an American businessman—perhaps John Jacob Astor? Please give his name as a rebus or show his birth/death dates.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🙅 🛁🇬🇧\n☑️ 🏰🍻🔹🤍 🧑‍✈️⭐⭐⭐\n\n🧽🚿 ➕ 🏋️\n🧽🚿 🏙️ 🏢\n🦃🏈🍔 ☝️ 🧑‍🦳 👔 💸\n👤 👥 🌲 🧑‍🦳</msg>",
+      "delivered": "🙅 🛁🇬🇧\n☑️ 🏰🍻🔹🤍 🧑‍✈️⭐⭐⭐\n🧽🚿\n🧽🚿 🏙️ 🏢\n🦃🏈🍔 ☝️ 🧑‍🦳 👔 💸\n👤 👥 🌲 🧑‍🦳",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "➕",
+        "🏋️"
+      ],
+      "retried": false,
+      "guesser": "GUESS: Jakob von Washington",
+      "guess": "Jakob von Washington",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 6,
+    "round": 3,
+    "n_banned": 71,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

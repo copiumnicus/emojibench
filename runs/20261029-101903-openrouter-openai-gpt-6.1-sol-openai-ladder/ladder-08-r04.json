@@ -1,0 +1,268 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Richmond Hill South",
+    "description": "Federal electoral district in Ontario, Canada",
+    "extract": "Richmond Hill South is a federal electoral district in Ontario, Canada, that has been represented in the House of Commons of Canada since 2004.",
+    "url": "https://en.wikipedia.org/wiki/Richmond_Hill_South"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 67.3,
+  "usage": {
+    "explainer": {
+      "input_tokens": 3829,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1189,
+      "output_tokens": 955,
+      "thinking_tokens": 633,
+      "cost_usd": 0.0179884,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 2585,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 689,
+      "thinking_tokens": 510,
+      "cost_usd": 0.01206,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 369,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 212,
+      "thinking_tokens": 204,
+      "cost_usd": 0.0001429,
+      "calls": 2
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 694,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 273,
+        "thinking_tokens": 226,
+        "cost_usd": 0.004118,
+        "duration_ms": 10927
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 811,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 211,
+        "thinking_tokens": 143,
+        "cost_usd": 0.003732,
+        "duration_ms": 7521
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 995,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 165,
+        "thinking_tokens": 99,
+        "cost_usd": 0.00364,
+        "duration_ms": 5618
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1192,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 195,
+        "thinking_tokens": 113,
+        "cost_usd": 0.0049285,
+        "duration_ms": 6712
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 137,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1189,
+        "output_tokens": 111,
+        "thinking_tokens": 52,
+        "cost_usd": 0.0015699,
+        "duration_ms": 4579
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 301,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 176,
+        "thinking_tokens": 109,
+        "cost_usd": 0.002362,
+        "duration_ms": 5874
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 422,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 123,
+        "thinking_tokens": 111,
+        "cost_usd": 0.002074,
+        "duration_ms": 6104
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 508,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 187,
+        "thinking_tokens": 145,
+        "cost_usd": 0.002886,
+        "duration_ms": 7486
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 629,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 110,
+        "thinking_tokens": 68,
+        "cost_usd": 0.002358,
+        "duration_ms": 5133
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 725,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 93,
+        "thinking_tokens": 77,
+        "cost_usd": 0.00238,
+        "duration_ms": 4791
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 181,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.01e-05,
+        "duration_ms": 989
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 188,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 208,
+        "thinking_tokens": 204,
+        "cost_usd": 0.0001228,
+        "duration_ms": 1608
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🍂 🧊 🏑\n📋 ✔️ 🏫\n💷 💳 👛　🌳 🏞️ 📈　🔻</msg>",
+      "delivered": "🍂 🧊 🏑\n📋 ✔️ 🏫\n💷 💳 👛 🌳 🏞️ 📈 🔻",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is this a person, perhaps an ice hockey player who later worked in education or finance? Please indicate the article type and the country.\n\nIs this a **person**, perhaps an ice hockey player who later worked in education or finance? What country is associated with the article?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🙅 🚶\n✉️ 📦 ✔️　🏫\n❄️ 🐻‍❄️ 🍟 🧀　🇫🇷 🇬🇧\n💷 💳 👛　🏞️ 📈　🔻</msg>",
+      "delivered": "🚶\n✉️ 📦 ✔️ 🏫\n❄️ 🐻‍❄️ 🍟 🧀 🇫🇷\n💷 💳 👛 🏞️ 📈 🔻",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🙅",
+        "🇬🇧"
+      ],
+      "retried": false,
+      "guesser": "GUESS: Mark Carney",
+      "guess": "Mark Carney",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>⛔ 👤\n🗾 🧩　📄 ✔️ 📦　🏫\n❄️ 🐻‍❄️ 🏑 🧀 🍟\n💷 💳 👛　⛰　🔻</msg>",
+      "delivered": "⛔ 👤\n🗾 🧩 📄 ✔️ 📦 🏫\n❄️ 🐻‍❄️ 🏑 🧀 🍟\n💷 💳 👛 🔻",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "⛰️"
+      ],
+      "retried": false,
+      "guesser": "Is the article about a Canadian financial program, specifically saving money for education? Or is it a place in Quebec? Please clarify what 📄✔️📦🏫 means.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>⛔ 💳 🎓\n⛔ 🇫🇷\n📄 ⬛ ✔️ ✉️ 🗃️\n👫 👫 👫　✔️　👨‍⚖️\n🧩 🏞️\n💷 💷 💷　🌱 📈　🔻</msg>",
+      "delivered": "⛔ 💳 🎓\n⛔ 🇫🇷\n📄 ⬛ ✔️ ✉️ 🗃️\n👫 👫 👫 ✔️ 👨‍⚖️\n🧩 🏞️\n💷 💷 💷 🌱 📈 🔻",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is this a Canadian electoral district or riding? Are the money and growth/decline symbols clues to its name, or to its economy? Please give clues to the place name.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>✔️ ✔️ ✔️\n💷 💷 💷 🏰　🤏 🗻　🔻\n🏑 ❄️　🌆 🗼 ⛔　🏞️ 🧩</msg>",
+      "delivered": "✔️ ✔️ ✔️\n💷 💷 💷 🏰 🤏 🗻 🔻\n🏑 ❄️ 🌆 ⛔ 🏞️ 🧩",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🗼"
+      ],
+      "retried": false,
+      "guesser": "GUESS: Richmond Hill (electoral district)",
+      "guess": "Richmond Hill (electoral district)",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 8,
+    "round": 4,
+    "n_banned": 105,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

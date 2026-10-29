@@ -1,0 +1,250 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Richmond Hill South",
+    "description": "Federal electoral district in Ontario, Canada",
+    "extract": "Richmond Hill South is a federal electoral district in Ontario, Canada, that has been represented in the House of Commons of Canada since 2004.",
+    "url": "https://en.wikipedia.org/wiki/Richmond_Hill_South"
+  },
+  "solved": true,
+  "turns_taken": 5,
+  "solved_turn": 5,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 78.4,
+  "usage": {
+    "explainer": {
+      "input_tokens": 3828,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 864,
+      "thinking_tokens": 514,
+      "cost_usd": 0.0168245,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 2834,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1136,
+      "thinking_tokens": 915,
+      "cost_usd": 0.017028,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 181,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 2.01e-05,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 506,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 206,
+        "thinking_tokens": 159,
+        "cost_usd": 0.003072,
+        "duration_ms": 7882
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 615,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 239,
+        "thinking_tokens": 167,
+        "cost_usd": 0.00362,
+        "duration_ms": 9060
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 750,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 178,
+        "thinking_tokens": 99,
+        "cost_usd": 0.00328,
+        "duration_ms": 7291
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 897,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 179,
+        "thinking_tokens": 78,
+        "cost_usd": 0.003584,
+        "duration_ms": 6629
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1060,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 62,
+        "thinking_tokens": 11,
+        "cost_usd": 0.0032685,
+        "duration_ms": 2012
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 303,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 217,
+        "thinking_tokens": 171,
+        "cost_usd": 0.002776,
+        "duration_ms": 9515
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 427,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 157,
+        "thinking_tokens": 104,
+        "cost_usd": 0.002424,
+        "duration_ms": 5977
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 560,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 228,
+        "thinking_tokens": 170,
+        "cost_usd": 0.0034,
+        "duration_ms": 8454
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 720,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 432,
+        "thinking_tokens": 380,
+        "cost_usd": 0.00576,
+        "duration_ms": 15851
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 824,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 102,
+        "thinking_tokens": 90,
+        "cost_usd": 0.002668,
+        "duration_ms": 4891
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 181,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.01e-05,
+        "duration_ms": 858
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🟥⬜🟥 🏒\n✅ 📝 🏢\n🏦 👑 🌄 ⏬\n🌐 🇺🇸 🔺</msg>",
+      "delivered": "🟥⬜🟥 🏒\n✅ 📝 🏢\n🏦 👑 🌄 ⏬\n🌐 🇺🇸 🔺",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is this a hockey arena with a bank-sponsored name—perhaps in the Raleigh/Durham “Research Triangle” area of the USA?\n\nGUESS: PNC Arena",
+      "guess": "PNC Arena",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>❌ 🏟️ ❌ 🇺🇸\n🏒 🥌 🫎 🟥⬜🟥\n🦖🏀 🔵🐦⚾\n✅📝 👔🎤 🏢\n💲💲 🌄 ⏬</msg>",
+      "delivered": "❌ 🏟️ ❌ 🇺🇸\n🏒 🥌 🫎 🟥⬜🟥\n🦖🏀 🔵🐦⚾\n✅📝 👔🎤 🏢\n💲💲 🌄 ⏬",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I understand Canada, sports (including Toronto’s Raptors and Blue Jays), and a business or executive—not an arena. Is the article about a person, a company, or a financial transaction? What does 🌄⏬ represent?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>❌ 🧑 ❌ 🏭 ❌ 🤝\n✅ 🗣️👔 ✅ ✍️📃📮 ✅ 🪑\n🟥⬜🟥 🦖🏀 🔵🐦⚾\n🪙🪙🪙 🌄 ⏬</msg>",
+      "delivered": "❌ 🧑 ❌ 🏭 ❌ 🤝\n✅ 🗣️👔 ✅ ✍️📃📮 ✅ 🪑\n🟥⬜🟥 🦖🏀 🔵🐦⚾\n🪙🪙🪙 🌄 ⏬",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is this a corporate-governance topic—such as a proxy statement, shareholder vote, or “say on pay”—rather than a specific person or company? Does 🪙🪙🪙 🌄⏬ mean reducing executive pay?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>❌\n👑🇬🇧 🟥⬜🟥 🏒🥌\n🏢 👔🪑 🗣️ ⚖️\n📮✍️ ✅❎ 👨‍💼👩‍💼\n📌 🦖🏀 🔵🐦⚾\n🧐 🏦💲💲💲 ➕ 🌄 ➕ ⏬</msg>",
+      "delivered": "❌\n👑🇬🇧 🟥⬜🟥 🏒🥌\n🏢 👔🪑 🗣️ ⚖️\n📮✍️ ✅❎ 👨‍💼👩‍💼\n📌 🦖🏀 🔵🐦⚾\n🧐 🏦💲💲💲 ➕ 🌄 ➕ ⏬",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is this a Canadian electoral district (a riding) in Toronto? Are 🏦💲💲💲 + 🌄 + ⏬ clues to its name—perhaps “rich,” “hill,” and “south”?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>✅✅✅\n💲💲💲 🌄 ⏬\n🟥⬜🟥 👔🪑\n🦖🏀 ↗️ 🏡</msg>",
+      "delivered": "✅✅✅\n💲💲💲 🌄 ⏬\n🟥⬜🟥 👔🪑\n🦖🏀 ↗️ 🏡",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Richmond Hill South",
+      "guess": "Richmond Hill South",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 8,
+    "round": 2,
+    "n_banned": 31,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

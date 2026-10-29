@@ -1,0 +1,12 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "mode": "ladder",
+  "rounds": 30,
+  "break_turns": 5,
+  "budget": 1.0,
+  "articles": "articles/set1.json",
+  "reuse_round0": true,
+  "max_turns": 30,
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "harness": "c988606a2cb6"
+}

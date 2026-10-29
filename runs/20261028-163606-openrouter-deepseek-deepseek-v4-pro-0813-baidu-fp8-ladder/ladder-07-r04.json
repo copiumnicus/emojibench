@@ -1,0 +1,250 @@
+{
+  "model": "openrouter:deepseek/deepseek-v4-pro-0813@baidu/fp8",
+  "model_id": "deepseek/deepseek-v4-pro-0813",
+  "guesser_model": "openrouter:deepseek/deepseek-v4-pro-0813@baidu/fp8",
+  "guesser_model_id": "deepseek/deepseek-v4-pro-0813",
+  "effort": null,
+  "article": {
+    "title": "Mad River Mountain",
+    "description": "Ski resort in Ohio, United States",
+    "extract": "Mad River Mountain is a ski and snowboard resort in Valley Hi, Ohio, United States. The elevation of Mad River Mountain is 1,460 feet (450 m) with a vertical drop of 300 ft (91 m), and it has a ski season that runs from approximately mid-December through mid-March. The resort, which opened in 1962 as Valley Hi Ski Area, is owned by EPR Properties and operated by Vail Resorts, who bought the resort from Peak Resorts in 2019.",
+    "url": "https://en.wikipedia.org/wiki/Mad_River_Mountain"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 526.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1252,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2816,
+      "output_tokens": 8245,
+      "thinking_tokens": 8182,
+      "cost_usd": 0.004750113456,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 1176,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1280,
+      "output_tokens": 21213,
+      "thinking_tokens": 20952,
+      "cost_usd": 0.01181411928,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 175,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 1.95e-05,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 145,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 5896,
+        "thinking_tokens": 5879,
+        "cost_usd": 0.003251426832,
+        "duration_ms": 107359
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 235,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 1428,
+        "thinking_tokens": 1417,
+        "cost_usd": 0.000826148592,
+        "duration_ms": 26295
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 293,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 86,
+        "thinking_tokens": 74,
+        "cost_usd": 0.000103337712,
+        "duration_ms": 2269
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 371,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 103,
+        "thinking_tokens": 91,
+        "cost_usd": 0.000126836352,
+        "duration_ms": 2282
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 208,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 768,
+        "output_tokens": 732,
+        "thinking_tokens": 721,
+        "cost_usd": 0.000442363968,
+        "duration_ms": 12916
+      }
+    ],
+    "guesser": [
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 101,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 9390,
+        "thinking_tokens": 9328,
+        "cost_usd": 0.005151329136,
+        "duration_ms": 165758
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 176,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 1267,
+        "thinking_tokens": 1232,
+        "cost_usd": 0.000725934096,
+        "duration_ms": 22057
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 226,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 2023,
+        "thinking_tokens": 1969,
+        "cost_usd": 0.001148180976,
+        "duration_ms": 36416
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 295,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 2229,
+        "thinking_tokens": 2160,
+        "cost_usd": 0.001273324896,
+        "duration_ms": 36712
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 378,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 6304,
+        "thinking_tokens": 6263,
+        "cost_usd": 0.003515350176,
+        "duration_ms": 113134
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 175,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.95e-05,
+        "duration_ms": 1460
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🤬💦➡️🌄</msg>",
+      "delivered": "🤬💦➡️🌄",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I read the clue as something like “angry/curse + water/sweat → sunrise/mountain.”  \nIs the article a geographic/natural place (river, mountain, town, etc.)? And does 🌄 stand for “mountain” or “sunrise” here?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👎 👍</msg>",
+      "delivered": "👎 👍",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Turn 3/30.  \nIs the article about a person?  \nIs it about a creative work (film, book, song, album, etc.)?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>👎 👎</msg>",
+      "delivered": "👎 👎",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Turn 4/30.  \nIs the article about a living organism (animal, plant, fungus, microbe, etc.)?  \nIs it about an event, activity, or process (historical event, sport, festival, natural process, etc.)?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>👎 👎</msg>",
+      "delivered": "👎 👎",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Turn 5/30.  \nIs the article about a man-made object, structure, or product (building, monument, tool, machine, invention, food/drink, etc.)?  \nIs the article about a concept, idea, or abstract term (philosophy, theory, emotion, word, phrase, etc.)?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>👍 👎</msg>",
+      "delivered": "👍 👎",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is it maybe a dam (the barrier), since 🤬 could be “damn” and 💦➡️🌄 fits a dammed river in the mountains?\n\nGUESS: Dam",
+      "guess": "Dam",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 7,
+    "round": 4,
+    "n_banned": 21,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

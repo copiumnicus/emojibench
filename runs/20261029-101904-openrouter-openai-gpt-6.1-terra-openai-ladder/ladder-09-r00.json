@@ -1,0 +1,139 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Jovan Hadži-Vasiljević",
+    "description": "Serbian historian, ethnographer, journalist and writer",
+    "extract": "Jovan Hadži-Vasiljević was a Serbian historian, ethnographer, journalist and writer.",
+    "url": "https://en.wikipedia.org/wiki/Jovan_Had%C5%BEi-Vasiljevi%C4%87"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 21.8,
+  "usage": {
+    "explainer": {
+      "input_tokens": 823,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 513,
+      "thinking_tokens": 360,
+      "cost_usd": 0.003388,
+      "calls": 2
+    },
+    "guesser": {
+      "input_tokens": 718,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 403,
+      "thinking_tokens": 346,
+      "cost_usd": 0.002733,
+      "calls": 2
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 354,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 339,
+        "thinking_tokens": 274,
+        "cost_usd": 0.002049,
+        "duration_ms": 8247
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 469,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 174,
+        "thinking_tokens": 86,
+        "cost_usd": 0.001339,
+        "duration_ms": 4169
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 295,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 273,
+        "thinking_tokens": 233,
+        "cost_usd": 0.00166,
+        "duration_ms": 6333
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 423,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 130,
+        "thinking_tokens": 113,
+        "cost_usd": 0.001073,
+        "duration_ms": 3080
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🇷🇸 👨 📜 🕰️ 🌍 👥 📰 ✍️ 📚\n\n📛\n💧 ✝️ 👨\n🚶 ⛪ 🇮🇱\n🌿 👨‍👦\n</msg>",
+      "delivered": "🇷🇸 👨 📜 🕰️ 🌍 👥 📰 ✍️ 📚\n📛\n💧 ✝️ 👨\n🚶 ⛪ 🇮🇱\n🌿 👨‍👦",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is the person a Serbian historian and ethnographer? Do the last two lines describe their name, perhaps including a pilgrimage to Jerusalem? Please give more clues about their name.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n👍 👍\n\n🇷🇸 👨 📛\n💧 ✝️ 👨\n🚶 🕋 ⛪ 🇮🇱\n🌿 👑 👨‍👦\n\n✝️ 💧 👨 🟰 🇬🇧 👨 📛\n🌿 🟰 🇬🇧 🌱 🍃\n</msg>",
+      "delivered": "👍 👍\n🇷🇸 👨 📛\n💧 ✝️ 👨\n🚶 🕋 ⛪ 🇮🇱\n🌿 👑 👨‍👦\n✝️ 💧 👨 🟰 🇬🇧 👨 📛\n🌿 🟰 🇬🇧 🌱 🍃",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Jovan Hadži-Vasiljević",
+      "guess": "Jovan Hadži-Vasiljević",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 9,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

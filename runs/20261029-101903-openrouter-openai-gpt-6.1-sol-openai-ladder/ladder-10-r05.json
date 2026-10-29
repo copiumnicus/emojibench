@@ -1,0 +1,262 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Accord Pond",
+    "description": "Lake in Massachusetts, USA",
+    "extract": "Accord Pond is a 100-acre (0.40 km2) reservoir in Hingham, Norwell and Rockland, Massachusetts. The reservoir is located off Route 228 at its terminus with Route 3. The reservoir is visible from Route 3 northbound at Exit 14, the Route 228 off-ramp. The reservoir is a Class A source of water supply for the town of Hingham and Hull Ma. The outflow of the reservoir is Accord Brook, a tributary of the Weir River.",
+    "url": "https://en.wikipedia.org/wiki/Accord_Pond"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 87.8,
+  "usage": {
+    "explainer": {
+      "input_tokens": 3317,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2443,
+      "output_tokens": 1086,
+      "thinking_tokens": 795,
+      "cost_usd": 0.0184838,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 2548,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1204,
+      "thinking_tokens": 949,
+      "cost_usd": 0.017136000000000002,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 178,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 1.98e-05,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 836,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 242,
+        "thinking_tokens": 204,
+        "cost_usd": 0.004092,
+        "duration_ms": 10356
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 981,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 246,
+        "thinking_tokens": 192,
+        "cost_usd": 0.004422,
+        "duration_ms": 9317
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1168,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 200,
+        "thinking_tokens": 146,
+        "cost_usd": 0.0049185,
+        "duration_ms": 8630
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 116,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1165,
+        "output_tokens": 211,
+        "thinking_tokens": 154,
+        "cost_usd": 0.002515,
+        "duration_ms": 8167
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 216,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1278,
+        "output_tokens": 187,
+        "thinking_tokens": 99,
+        "cost_usd": 0.0025363,
+        "duration_ms": 7374
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 293,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 169,
+        "thinking_tokens": 127,
+        "cost_usd": 0.002276,
+        "duration_ms": 6514
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 387,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 291,
+        "thinking_tokens": 241,
+        "cost_usd": 0.003684,
+        "duration_ms": 9582
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 498,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 205,
+        "thinking_tokens": 155,
+        "cost_usd": 0.003046,
+        "duration_ms": 7620
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 609,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 210,
+        "thinking_tokens": 157,
+        "cost_usd": 0.003318,
+        "duration_ms": 8544
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 761,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 329,
+        "thinking_tokens": 269,
+        "cost_usd": 0.004812,
+        "duration_ms": 10761
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 178,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.98e-05,
+        "duration_ms": 899
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "🤗📄✒️ 🟢🚣🟢\n🇺🇳 ❄️ ☕ ⚾️\n🚰",
+      "delivered": "🤗📄✒️ 🟢🚣🟢\n🇺🇳 ❄️ ☕",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "⚾",
+        "🚰"
+      ],
+      "retried": false,
+      "guesser": "Is the article about a person—perhaps a writer connected with Greenland? What do 🟢🚣🟢 and 🇺🇳❄️☕ represent?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "🧔❎ ✍🏽❎\n🚣🟢 🏞️❎\n🏃🏅 ☕⚓ 🏈\n📑✒️🤗 🏎️",
+      "delivered": "🧔❎ ❎\n🚣🟢 ❎\n🏃🏅 ☕⚓ 🏈\n📑✒️🤗 🏎️",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "✍🏽",
+        "🏞️"
+      ],
+      "retried": false,
+      "guesser": "Is this an American football game or bowl, rather than a person? I’m reading ☕ as “bowl,” and 🟢🚣🟢 might mean “Green Bay.” Is either interpretation right?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "🏈❎ 🧔❎\n🐠🐡🚣🦩🪿\n🏃🏅 ☕⛴️⚓\n📄✒️🤗 🏎️",
+      "delivered": "🏈❎ 🧔❎\n🐠🐡🚣🦩🪿\n🏃🏅 ☕⛴️⚓\n📄✒️🤗 🏎️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is it a sailing competition, yacht race, or regatta? Does 📄✒️🤗 mean “agreement,” “charter,” or “sponsorship”? And is ☕ meant as “Cup”?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "🏁❎ 🏆❎\n📄✒️🤗 🟩\n☕ 🇬🇧⛴️💥 🏃🥇\n🚣 🐠 🪿 🏞️",
+      "delivered": "🏁❎ 🏆❎\n📄✒️🤗 🟩\n☕ 🇬🇧⛴️💥 🏃🥇\n🚣 🐠 🪿",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🏞️"
+      ],
+      "retried": false,
+      "guesser": "I suspect an environmental agreement concerning wetlands or waterbirds—possibly the Ramsar Convention. Is 📄✒️🤗 a treaty/convention, with 🚣🐠🪿 indicating wetlands?\n\nGUESS: Ramsar Convention",
+      "guess": "Ramsar Convention",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "❎\n📄✒️🤗 💡\n🚣🐠🪿 💡\n📄✒️🤗 🚣🐠🪿\n\n📍❎\n🇺🇳❎\n🗺️❎\n\n🦞❎ ☕⛴️💥 🏃🥇 🧙‍♀️🔥",
+      "delivered": "❎\n📄✒️🤗 💡\n🚣🐠🪿 💡\n📄✒️🤗 🚣🐠🪿\n❎\n🇺🇳❎\n❎\n❎ ☕⛴️💥 🏃🥇 🧙‍♀️🔥",
+      "dropped_chars": 3,
+      "off_keyboard": [
+        "📍",
+        "🗺️",
+        "🦞"
+      ],
+      "retried": false,
+      "guesser": "Do 📄✒️🤗 mean “peace” or “concord,” and 🚣🐠🪿 mean a river or pond? The other clues suggest Boston Tea Party, British ships, and Salem witches. Is the article a place in Massachusetts?",
+      "guess": null,
+      "correct": null
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 10,
+    "round": 5,
+    "n_banned": 124,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

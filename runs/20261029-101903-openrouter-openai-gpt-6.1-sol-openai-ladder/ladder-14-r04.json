@@ -1,0 +1,225 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Philadelphia Commercial Museum",
+    "description": "Former museum in Pennsylvania, USA",
+    "extract": "The Philadelphia Commercial Museum was established in Philadelphia, Pennsylvania in 1895. Its permanent home was a neo-classical building situated at 34th Street and Civic Center Blvd, erected as part of the 1899 National Export Exposition. The museum had business offices at 332 South Fourth Street.",
+    "url": "https://en.wikipedia.org/wiki/Philadelphia_Commercial_Museum"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 58.9,
+  "usage": {
+    "explainer": {
+      "input_tokens": 3027,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1148,
+      "output_tokens": 738,
+      "thinking_tokens": 471,
+      "cost_usd": 0.0142363,
+      "calls": 4
+    },
+    "guesser": {
+      "input_tokens": 2030,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 735,
+      "thinking_tokens": 532,
+      "cost_usd": 0.01141,
+      "calls": 4
+    },
+    "judge": {
+      "input_tokens": 189,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 2.09e-05,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 719,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 293,
+        "thinking_tokens": 237,
+        "cost_usd": 0.004368,
+        "duration_ms": 11070
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 927,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 181,
+        "thinking_tokens": 114,
+        "cost_usd": 0.003664,
+        "duration_ms": 7205
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1151,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 95,
+        "thinking_tokens": 26,
+        "cost_usd": 0.003826,
+        "duration_ms": 3957
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 230,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1148,
+        "output_tokens": 169,
+        "thinking_tokens": 94,
+        "cost_usd": 0.0023783,
+        "duration_ms": 6988
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 304,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 176,
+        "thinking_tokens": 97,
+        "cost_usd": 0.002368,
+        "duration_ms": 6500
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 443,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 235,
+        "thinking_tokens": 171,
+        "cost_usd": 0.003236,
+        "duration_ms": 8899
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 572,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 257,
+        "thinking_tokens": 209,
+        "cost_usd": 0.003714,
+        "duration_ms": 8908
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 711,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 67,
+        "thinking_tokens": 55,
+        "cost_usd": 0.002092,
+        "duration_ms": 4512
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 189,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.09e-05,
+        "duration_ms": 893
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🪁⚡ 🫂💕\n\n🏰 🗃️ 🎎 👘 🧭\n🪙 💸 ⚓ 🔄 🧳\n\n🕰  👴🏻</msg>",
+      "delivered": "🪁⚡ 🫂💕\n🏰 🗃️ 🎎 👘 🧭\n🪙 💸 ⚓ 🔄 🧳",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🕰️",
+        "👴🏻"
+      ],
+      "retried": false,
+      "guesser": "Is the article about a person, a place, or a work of fiction (film/book)? Please indicate the category and give a clue to its country or era.\n\nIs the article about a person, a place, or a work of fiction (film/book)? Please indicate the category and give a clue to its country or era.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🏰 📌\n🦃 🍔 ⚾\n🪁⚡ 👨‍🦲👓\n🫂💕\n🏰 🗃️ 🎎 👘 🧭 🪙\n💸 🔄 ⚓</msg>",
+      "delivered": "🏰\n🦃 🍔 ⚾\n🪁⚡ 👨‍🦲👓\n🫂💕\n🏰 🗃️ 🎎 👘 🧭 🪙\n💸 🔄 ⚓",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "📌"
+      ],
+      "retried": false,
+      "guesser": "I read 🪁⚡👨‍🦲👓 as Benjamin Franklin, and 🏰🗃️ as a museum or historic building in the United States. Is “Franklin” part of the article’s name? What does 🫂💕 represent?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>👨‍🦲👓 🚷\n🫂💕 🟰 👨‍👨‍👦 💕\n🔔🚷\n🏰 🗃️ 🎎 👘 🧭\n🪙 💸 🔄 ⚓</msg>",
+      "delivered": "👨‍🦲👓 🚷\n🫂💕 👨‍👨‍👦 💕\n🚷\n🏰 🗃️ 🎎 👘 🧭\n🪙 💸 🔄 ⚓",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🟰",
+        "🔔"
+      ],
+      "retried": false,
+      "guesser": "I think 🪁⚡ and 🫂💕 indicate Philadelphia—the city of Benjamin Franklin and brotherly love. Is this a Philadelphia museum with maritime and Asian collections?\n\nGUESS: Independence Seaport Museum",
+      "guess": "Independence Seaport Museum",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🪁⚡ 🫂💕 🙂‍↕️\n⚓ 🙅‍♂️\n\n🏰 🗃️ 🎎 👘 🧭\n🤑 💲 🪙 💸\n🤵 🔄 🤵\n🛳️ 🌉 🧳</msg>",
+      "delivered": "🪁⚡ 🫂💕 🙂‍↕️\n⚓ 🙅‍♂️\n🏰 🗃️ 🎎 👘 🧭\n🤑 💲 🪙 💸\n🤵 🔄 🤵\n🛳️ 🌉 🧳",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Philadelphia Commercial Museum",
+      "guess": "Philadelphia Commercial Museum",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 14,
+    "round": 4,
+    "n_banned": 97,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

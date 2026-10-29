@@ -1,0 +1,197 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Ayribobo",
+    "description": "Highest mountain of Turkmenistan",
+    "extract": "Ayribobo or Aýrybaba, officially named the Great Saparmyrat Turkmenbashi Peak in Turkmenistan since 2004, is a mountain in Central Asia. At 3,138 metres (10,295 ft) Aýrybaba is the highest mountain in Turkmenistan. It is located in the Köýtendag Range of the Pamir-Alay chain in the southeast of Turkmenistan on the Uzbekistani border.",
+    "url": "https://en.wikipedia.org/wiki/Ayribobo"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 71.1,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2300,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1071,
+      "output_tokens": 2121,
+      "thinking_tokens": 1795,
+      "cost_usd": 0.01330005,
+      "calls": 3
+    },
+    "guesser": {
+      "input_tokens": 1485,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1400,
+      "thinking_tokens": 1319,
+      "cost_usd": 0.008485,
+      "calls": 3
+    },
+    "judge": {
+      "input_tokens": 362,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 280,
+      "thinking_tokens": 272,
+      "cost_usd": 0.0001762,
+      "calls": 2
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 928,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 1132,
+        "thinking_tokens": 1034,
+        "cost_usd": 0.006588,
+        "duration_ms": 22102
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 1074,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 587,
+        "thinking_tokens": 471,
+        "cost_usd": 0.00427675,
+        "duration_ms": 11556
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 298,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1071,
+        "output_tokens": 402,
+        "thinking_tokens": 290,
+        "cost_usd": 0.0024353,
+        "duration_ms": 7492
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 350,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 986,
+        "thinking_tokens": 948,
+        "cost_usd": 0.00528,
+        "duration_ms": 15529
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 493,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 233,
+        "thinking_tokens": 204,
+        "cost_usd": 0.001658,
+        "duration_ms": 7381
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 642,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 181,
+        "thinking_tokens": 167,
+        "cost_usd": 0.001547,
+        "duration_ms": 3986
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 184,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.04e-05,
+        "duration_ms": 1127
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 178,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 276,
+        "thinking_tokens": 272,
+        "cost_usd": 0.0001558,
+        "duration_ms": 1922
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🥙 🚹 🥫\n🥦 🧱 🌒 ✳️✳️✳️✳️✳️\n\n        ⚪\n      🟠 🟠\n    🟠 🟠 🟠\n  🟠 🟠 🟠 🟠\n📶 🏵️\n\n🎈 👓 🐗 🐗\n</msg>",
+      "delivered": "🥙 🚹 🥫\n🥦 🧱 🌒 ✳️✳️✳️✳️✳️\n⚪\n🟠 🟠\n🟠 🟠 🟠\n🟠 🟠 🟠 🟠\n📶 🏵️\n🎈 👓 🐗 🐗",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I see Turkmenistan and ten-pin bowling. Is the article about a competition, a team, or an individual? What do the last four emojis mean?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n❎ 🎳\n🇹🇲\n🚵 ⛷️ 🚠 🐐\n\n              🟨\n            🟧🟧\n          🟧🟧🟧\n        🟧🟧🟧🟧\n      🟧🟧🟧🟧🟧\n    🟧🟧🟧🟧🟧🟧\n\n📉 📉 📉\n</msg>",
+      "delivered": "❎ 🎳\n🚵 ⛷️ 🚠 🐐\n🟨\n🟧🟧\n🟧🟧🟧\n🟧🟧🟧🟧\n🟧🟧🟧🟧🟧\n🟧🟧🟧🟧🟧🟧\n📉 📉 📉",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🇹🇲"
+      ],
+      "retried": false,
+      "guesser": "Are these mountains in Turkmenistan, listed by decreasing height?\n\nGUESS: List of mountains in Turkmenistan",
+      "guess": "List of mountains in Turkmenistan",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n❎ 📋\n🥙 🚹 🥫\n\n              🏵️\n              🟨\n            🟧🟧\n          🟧🟧🟧\n        🟧🟧🟧🟧\n      🟧🟧🟧🟧🟧\n\n   🟨\n 🟧🟧🟧\n\n🎈 👓 🐗 🐗\n</msg>",
+      "delivered": "❎ 📋\n🥙 🚹 🥫\n🏵️\n🟨\n🟧🟧\n🟧🟧🟧\n🟧🟧🟧🟧\n🟧🟧🟧🟧🟧\n🟨\n🟧🟧🟧\n🎈 👓 🐗 🐗",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Aýrybaba",
+      "guess": "Aýrybaba",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 11,
+    "round": 9,
+    "n_banned": 163,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

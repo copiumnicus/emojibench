@@ -1,0 +1,272 @@
+{
+  "model": "openrouter:xiaomi/mimo-v2.6-pro@gmicloud/bf16",
+  "model_id": "xiaomi/mimo-v2.6-pro",
+  "guesser_model": "openrouter:xiaomi/mimo-v2.6-pro@gmicloud/bf16",
+  "guesser_model_id": "xiaomi/mimo-v2.6-pro",
+  "effort": null,
+  "article": {
+    "title": "Iron(III) sulfate",
+    "description": "Chemical compound",
+    "extract": "Iron(III) sulfate or ferric sulfate is a family of inorganic compounds with the formula Fe2(SO4)3(H2O)n. A variety of hydrates are known, including the most commonly encountered form of \"ferric sulfate\". Solutions are used in dyeing as a mordant and as a coagulant for industrial wastes. Solutions of ferric sulfate are also used in the processing of aluminum and steel.",
+    "url": "https://en.wikipedia.org/wiki/Iron(III)_sulfate"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 1145.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2372,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2176,
+      "output_tokens": 2850,
+      "thinking_tokens": 2678,
+      "cost_usd": 0.0029920204,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 2057,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1664,
+      "output_tokens": 29810,
+      "thinking_tokens": 28854,
+      "cost_usd": 0.02281072835,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 512,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 12,
+      "thinking_tokens": 0,
+      "cost_usd": 5.72e-05,
+      "calls": 3
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 424,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 1659,
+        "thinking_tokens": 1626,
+        "cost_usd": 0.0013836045,
+        "duration_ms": 49315
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 294,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 384,
+        "output_tokens": 371,
+        "thinking_tokens": 336,
+        "cost_usd": 0.0003843666,
+        "duration_ms": 14640
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 292,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 640,
+        "output_tokens": 352,
+        "thinking_tokens": 322,
+        "cost_usd": 0.000370447,
+        "duration_ms": 14478
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 218,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 896,
+        "output_tokens": 83,
+        "thinking_tokens": 48,
+        "cost_usd": 0.0001450304,
+        "duration_ms": 5611
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 1144,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 385,
+        "thinking_tokens": 346,
+        "cost_usd": 0.0007085719,
+        "duration_ms": 9873
+      }
+    ],
+    "guesser": [
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 275,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 2369,
+        "thinking_tokens": 2167,
+        "cost_usd": 0.00185355675,
+        "duration_ms": 81677
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 266,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 618,
+        "thinking_tokens": 418,
+        "cost_usd": 0.0005562349,
+        "duration_ms": 20526
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 250,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 468,
+        "thinking_tokens": 345,
+        "cost_usd": 0.0004402643,
+        "duration_ms": 17312
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 940,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 17713,
+        "thinking_tokens": 17493,
+        "cost_usd": 0.0134463285,
+        "duration_ms": 210783
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 326,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 896,
+        "output_tokens": 8642,
+        "thinking_tokens": 8431,
+        "cost_usd": 0.0065143439,
+        "duration_ms": 157149
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 170,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.9e-05,
+        "duration_ms": 857
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 171,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.91e-05,
+        "duration_ms": 1052
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 171,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.91e-05,
+        "duration_ms": 1322
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n⚗️🧪🧂\n🩸✌️☝️\n🥚💛🫧\n💧\n🎨🏭\n</msg>",
+      "delivered": "⚗️🧪🧂\n🩸✌️☝️\n🥚💛🫧\n💧\n🎨🏭",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "My rough read of the emojis:\n\n- ⚗️🧪🧂 = alchemy / chemistry / salt\n- 🩸 = blood (or red?)\n- 🥚💛🫧 = egg + gold + bubbling/frothing\n- 💧 = water\n- 🎨🏭 = painting / paint industry\n\nTwo hypotheses: (A) **egg tempera** painting (egg yolk + water + pigments), or (B) something in **alchemy** (the \"philosopher's egg\", salt/sulfur/mercury, turning things to gold).\n\nQuestion 1: Is this article about **alchemy / the philosopher's stone / transmutation of gold**? (👍 = yes, 👎 = no)\n\nQuestion 2: Is the 🥚 a literal **egg** (as in the food/paint binder), or a metaphorical alchemical \"egg\"? (☝️ = literal egg, ✌️ = alchemical egg)",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n👎 🤷\n\n🩸🧲⚙️🏗️\n🌋💨\n🧪\n🟠🟤\n💧🏭\n</msg>",
+      "delivered": "👎 🤷\n🩸🧲⚙️🏗️\n🌋💨\n🧪\n🟠🟤\n💧🏭",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "My updated read: 🩸🧲⚙️🏗️🌋💨🧪🟠🟤💧🏭 — this looks like **iron** to me:\n- 🩸 = iron in blood (hemoglobin)\n- 🧲 = iron is magnetic\n- ⚙️🏗️ = gears, construction (steel/iron)\n- 🌋💨 = volcanic origin, gases\n- 🟠🟤 = rust colors (orange-brown)\n- 💧🏭 = water + industry (ironworks / smelting)\n\nQuestion: Is the article about **iron** (the element / the metal) or something derived from iron (like rust, iron ore, iron oxide, magnetite)?\n\n- 🪨 = the element/metal \"Iron\"\n- 🟠🟤 = rust / iron oxide\n- 🧲 = magnetite / a magnetic mineral\n- 🌑 = iron ore\n- 🤷 = something else (please hint)",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n👍\n\n🩸⚙️🧪🧂\n🔥💛💨\n💧🎨\n♻️🏭\n</msg>",
+      "delivered": "👍\n🩸⚙️🧪🧂\n🔥💛💨\n💧🎨\n♻️🏭",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The 👍 plus the recurring themes (blood/iron content, magnetism, gears/construction, volcanic origins, rust colors, water, industry, ♻️ recycling) all point strongly to iron. I'll go with the main article.\n\nGUESS: Iron\n\nIf that's not right, my next best candidates are \"Rust\" / \"Iron ore\" / \"Iron oxide\" / \"Hemoglobin\" — could you distinguish with a symbol? (🟠 = Rust, ⛏️ = Iron ore, 🔴 = Iron oxide, 🩸 = Hemoglobin)",
+      "guess": "Iron",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>\n👎\n\n🧪🧂\n🥚💛🫧💨\n🩸🔥\n🔗🧫\n💧🎨♻️\n</msg>",
+      "delivered": "👎\n🧪🧂\n🥚💛🫧💨\n🩸🔥\n🔗🧫\n💧🎨♻️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Great feedback! Let me reconsider. Since it's iron-related but not \"Iron\" itself, and I see recurring themes:\n\n- 🩸 = blood connection (hematite comes from Greek *haima* = \"blood\")\n- 🧲🧲🧲 = magnetic properties\n- 🌋🌋🌋 = volcanic/geological origin\n- 🟠🟤 = red-brown colors\n- 🧪🧪🧪 = chemistry (iron oxide)\n- 🎨🎨🎨 = pigment use\n- 🏭🏭🏭 = mining/industry\n- 🥚🫧 = oolitic structure (egg-shaped grains that look like bubbles!)\n- 💧 = forms in water\n- ⚙️🏗️ = iron/steel industry\n\nGUESS: Hematite\n\nIf wrong, my next candidates would be: Magnetite, Ochre, Iron oxide, Rust. Could you distinguish? (🔴 = Hematite, ⚫ = Magnetite, 🟡 = Ochre, 🟠 = Rust)",
+      "guess": "Hematite",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>\n⚗️🧪🧂\n🩸✌️☝️\n🟡💨💨💨💨\n💧\n👗🎨🧵\n💧♻️🏭\n</msg>",
+      "delivered": "⚗️🧪🧂\n🩸✌️☝️\n🟡💨💨💨💨\n💧\n👗🎨🧵\n💧♻️🏭",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Looking at the new emojis, I see some very telling clues:\n\n- 👗🎨🧵 = clothing + painting + thread (dyeing textiles! And saffron is sold as **threads**!)\n- 🟡💨💨💨💨 = yellow/gold + very strong aroma\n- 🩸✌️☝️ = deep red (blood-like) threads + 2+1 = **3 stigmas** per flower\n- 🥚💛🫧 = golden color like egg yolk when dissolved\n- 🧪⚗️ = chemistry (crocin, safranal)\n- 🏭♻️ = spice trade industry\n- 👗 = dyeing robes (Buddhist monks!)\n\nGUESS: Saffron\n\nIf wrong, my next candidates would be: Sulfur, Ochre, Turmeric. Could you distinguish? (🟡 = Sulfur, 🟤 = Ochre, 🟠 = Turmeric, or 🤷 = something else)",
+      "guess": "Saffron",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 2,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

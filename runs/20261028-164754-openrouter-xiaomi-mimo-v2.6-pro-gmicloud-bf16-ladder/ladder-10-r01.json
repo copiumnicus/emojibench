@@ -1,0 +1,238 @@
+{
+  "model": "openrouter:xiaomi/mimo-v2.6-pro@gmicloud/bf16",
+  "model_id": "xiaomi/mimo-v2.6-pro",
+  "guesser_model": "openrouter:xiaomi/mimo-v2.6-pro@gmicloud/bf16",
+  "guesser_model_id": "xiaomi/mimo-v2.6-pro",
+  "effort": null,
+  "article": {
+    "title": "Accord Pond",
+    "description": "Lake in Massachusetts, USA",
+    "extract": "Accord Pond is a 100-acre (0.40 km2) reservoir in Hingham, Norwell and Rockland, Massachusetts. The reservoir is located off Route 228 at its terminus with Route 3. The reservoir is visible from Route 3 northbound at Exit 14, the Route 228 off-ramp. The reservoir is a Class A source of water supply for the town of Hingham and Hull Ma. The outflow of the reservoir is Accord Brook, a tributary of the Weir River.",
+    "url": "https://en.wikipedia.org/wiki/Accord_Pond"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 392.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1386,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 3328,
+      "output_tokens": 3641,
+      "thinking_tokens": 3481,
+      "cost_usd": 0.0032163082,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 1279,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2048,
+      "output_tokens": 13473,
+      "thinking_tokens": 12781,
+      "cost_usd": 0.010443156949999999,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 307,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 1006,
+        "thinking_tokens": 975,
+        "cost_usd": 0.00085832065,
+        "duration_ms": 28222
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 249,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 796,
+        "thinking_tokens": 759,
+        "cost_usd": 0.00068245055,
+        "duration_ms": 23890
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 312,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 640,
+        "output_tokens": 725,
+        "thinking_tokens": 700,
+        "cost_usd": 0.0006536755,
+        "duration_ms": 21224
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 225,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 896,
+        "output_tokens": 853,
+        "thinking_tokens": 834,
+        "cost_usd": 0.00071703365,
+        "duration_ms": 24640
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 293,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1024,
+        "output_tokens": 261,
+        "thinking_tokens": 213,
+        "cost_usd": 0.00030482785,
+        "duration_ms": 8324
+      }
+    ],
+    "guesser": [
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 299,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 2787,
+        "thinking_tokens": 2639,
+        "cost_usd": 0.00217154175,
+        "duration_ms": 57272
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 240,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 2437,
+        "thinking_tokens": 2302,
+        "cost_usd": 0.0018917719,
+        "duration_ms": 54134
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 284,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 384,
+        "output_tokens": 5974,
+        "thinking_tokens": 5849,
+        "cost_usd": 0.0045240876,
+        "duration_ms": 122027
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 183,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 640,
+        "output_tokens": 826,
+        "thinking_tokens": 668,
+        "cost_usd": 0.00068066725,
+        "duration_ms": 20655
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 273,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 768,
+        "output_tokens": 1449,
+        "thinking_tokens": 1323,
+        "cost_usd": 0.00117508845,
+        "duration_ms": 31622
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🧑‍🤝‍🧑 🐸 🪷 🦞 🛣️ 🚰</msg>",
+      "delivered": "🧑‍🤝‍🧑 🐸 🪷 🦞 🛣️ 🚰",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Quick read: \"people/community\" + frog + lotus + lobster + road + tap water — sounds like it could be a place (a village/settlement near water with some wildlife theme), but the emojis might be stand-ins for synonyms.\n\nA few fast questions so I can pin it down:\n1. Is the article about a **place**, a **person**, a **species/organism**, a **work (film/song/book)**, or something else?\n2. Is the title in **English**, or a foreign-language name (if so, roughly which language family)?\n3. Do the emojis map roughly **word-by-word** to the title, or are they a more free-form description of the topic?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🗺️ 🏴󠁧󠁢󠁥󠁮󠁧󠁿 🙏 🐸</msg>",
+      "delivered": "🗺️ 🏴󠁧󠁢󠁥󠁮󠁧󠁿 🙏 🐸",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Good — so it's a **place in England**. Let me narrow it down:\n\n1. Does the article title literally contain the word **\"frog\"** (or \"toad\")? Or does 🐸 just describe the place?\n2. Does 🙏 represent a word in the title (e.g. \"pray\", \"grace\", \"hope\", \"church\", \"saint\") — or is it describing something about the place?\n3. How many words are in the title, and is it a **settlement/village**, a **building/structure**, or a **natural feature** (pond, hill, etc.)?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🗺️ 🗽 ✌️ 🌿 🙏 🐸</msg>",
+      "delivered": "🗺️ 🗽 ✌️ 🌿 🙏 🐸",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Getting closer — a place in England. Two clarifications to narrow it down:\n\n1. **How many words** are in the article title? (And is it a village/hamlet, a natural feature, or a building?)\n2. Does the title **literally contain** the word \"frog\" (or \"toad\")? Or is 🐸 describing something about the place rather than being in the title?\n\nAlso curious whether 🗽 and ✌️ correspond to words in the title (e.g. \"liberty\", \"peace\") or are describing the place's history/character.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>✌️ 🐸 🦞 🗽</msg>",
+      "delivered": "✌️ 🐸 🦞 🗽",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "It looks like the emojis might be spelling out pieces of the title. Let me ask directly so I can solve this efficiently:\n\n1. Do these emojis map **word-by-word to the title itself** (in order)? If so, how many words is the title?\n2. Are the words in the title **English** words (e.g. \"Liberty\", \"Frog\", \"Lobster\"), or is it a name where the emojis only *sound like* the syllables?\n3. Is this a **settlement/village** in England, or a different kind of place (hill, house, road, stream)?\n\nAlso: is 🦞 literally \"lobster\"/\"crayfish\" in the name, or a substitute for something else?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>🗺️ 🗽 🗽 ❌ 🏴󠁧󠁢󠁥󠁮󠁧󠁿 ✌️ 🐸 🪷</msg>",
+      "delivered": "🗺️ 🗽 🗽 ❌ 🏴󠁧󠁢󠁥󠁮󠁧󠁿 ✌️ 🐸 🪷",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Let me ask very simple yes/no questions to move faster:\n\n1. Is this about a **person**? (yes/no)\n2. Is it a **place**? (yes/no)\n3. If place — is it in the **United States**? (yes/no)\n4. Is the title **one word**? (yes/no)\n5. Does the title contain the word **\"frog\"**? (yes/no)\n\nAnd if you can, just tell me the word count via emojis like: 1️⃣ 2️⃣ 3️⃣ etc.",
+      "guess": null,
+      "correct": null
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 10,
+    "round": 1,
+    "n_banned": 17,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

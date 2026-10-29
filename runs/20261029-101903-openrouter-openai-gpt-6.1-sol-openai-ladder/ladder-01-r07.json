@@ -1,0 +1,230 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Proceratium silaceum",
+    "description": "Species of ant",
+    "extract": "Proceratium silaceum is a species of ant in the family Formicidae.",
+    "url": "https://en.wikipedia.org/wiki/Proceratium_silaceum"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 81.5,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2638,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2591,
+      "output_tokens": 1487,
+      "thinking_tokens": 1196,
+      "cost_usd": 0.021226599999999998,
+      "calls": 4
+    },
+    "guesser": {
+      "input_tokens": 2013,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 760,
+      "thinking_tokens": 573,
+      "cost_usd": 0.011626000000000001,
+      "calls": 4
+    },
+    "judge": {
+      "input_tokens": 173,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 1.93e-05,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 986,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 409,
+        "thinking_tokens": 365,
+        "cost_usd": 0.006062,
+        "duration_ms": 15804
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1176,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 589,
+        "thinking_tokens": 504,
+        "cost_usd": 0.0088285,
+        "duration_ms": 20626
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 248,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1173,
+        "output_tokens": 256,
+        "thinking_tokens": 181,
+        "cost_usd": 0.0032958,
+        "duration_ms": 8564
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 228,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1418,
+        "output_tokens": 233,
+        "thinking_tokens": 146,
+        "cost_usd": 0.0030403,
+        "duration_ms": 8331
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 294,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 187,
+        "thinking_tokens": 103,
+        "cost_usd": 0.002458,
+        "duration_ms": 6774
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 455,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 232,
+        "thinking_tokens": 182,
+        "cost_usd": 0.00323,
+        "duration_ms": 7843
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 564,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 192,
+        "thinking_tokens": 155,
+        "cost_usd": 0.003048,
+        "duration_ms": 7326
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 700,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 149,
+        "thinking_tokens": 133,
+        "cost_usd": 0.00289,
+        "duration_ms": 5331
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 173,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.93e-05,
+        "duration_ms": 913
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇦🇶🔪 🐜\n🔍 🐾\n🎓 🦌 ⏳\n🦅 🗺️</msg>",
+      "delivered": "🇦🇶🔪\n🔍\n🎓 🦌 ⏳\n🦅 🗺️",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🐜",
+        "🐾"
+      ],
+      "retried": false,
+      "guesser": "Is the article about a person, an Antarctic place, or an animal? Is 🇦🇶 the actual location, and does 🔪 mean “killer,” “cut,” or part of a name?\n\nIs this a person, a place in Antarctica, or an animal? Does 🔪 mean “killer,” “cut,” or part of the name?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🇦🇶 ⛔ 🔪 ⛔\n🐕 🐟 🪱 ✔️\n🔍 🪽 ⛔\n⚫⚫⚫\n🦾🦾🦾🦾🦾🦾\n🫅 👩‍👩‍👧 🏗️</msg>",
+      "delivered": "🇦🇶 ⛔ 🔪 ⛔\n🐕 🐟 🪱 ✔️\n🔍 ⛔\n⚫⚫⚫\n🦾🦾🦾🦾🦾🦾\n🫅 👩‍👩‍👧 🏗️",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🪽"
+      ],
+      "retried": false,
+      "guesser": "An insect with three body segments and six legs—probably an ant, living in a colony with a queen? Is the article an ant species? Please indicate its region and any distinctive color, behavior, or name clues.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>✔️ 🐜 ✔️\n🏈 🦅 🗺️\n🟨🟧🟫\n🍖 ⛔ 🍪 ⛔\n🧵 🕸️ 🥚 🍽️\n⚫⚫⚫ ⤴️</msg>",
+      "delivered": "✔️ ✔️\n🏈 🦅 🗺️\n🟨🟧🟫\n🍖 ⛔ 🍪 ⛔\n🧵\n⚫⚫⚫",
+      "dropped_chars": 5,
+      "off_keyboard": [
+        "🐜",
+        "🕸️",
+        "🥚",
+        "🍽️",
+        "⤴️"
+      ],
+      "retried": false,
+      "guesser": "GUESS: Leafcutter ant\n\nAre the food clues saying it farms fungus rather than eating meat or sweets? Does 🧵 represent fungal threads?",
+      "guess": "Leafcutter ant",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>⛔ 🍄 ⛔ 🥬\n🦾🦾🦾🦾🦾🦾🦾🦾 🧶 ⚪⚪⚪ 🍴\n🟨🟧🟫\n🌐 ⬆️ 🇨🇺\n⚫⚫🔃</msg>",
+      "delivered": "⛔ 🍄 ⛔ 🥬\n🦾🦾🦾🦾🦾🦾🦾🦾 🧶 ⚪⚪⚪\n🟨🟧🟫\n🌐 ⬆️ 🇨🇺\n⚫⚫🔃",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🍴"
+      ],
+      "retried": false,
+      "guesser": "GUESS: Proceratium silaceum",
+      "guess": "Proceratium silaceum",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 1,
+    "round": 7,
+    "n_banned": 198,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

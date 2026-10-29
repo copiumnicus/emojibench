@@ -158,7 +158,7 @@ def collect():
 
     # EMOJIBENCH @ $1: the ladder leaderboard, straight from the same scoring as `report`
     lad = eb.ladder_data([ROOT / "runs"])
-    grid, runs, per_game = {}, {}, {}
+    grid, runs = {}, {}
     for a in lad["articles"]:
         if a["incomplete"]:
             end = "cut"
@@ -171,8 +171,6 @@ def collect():
         grid.setdefault(a["title"], {})[a["model"]] = {
             "rungs": a["rungs"], "end": end, "last": rel(a["last_rung"].with_suffix(".md"))}
         runs[a["model"]] = rel(a["run"])
-        n, c = per_game.get(a["model"], (0, 0.0))
-        per_game[a["model"]] = (n + len(a["path"]), c + a["spend"])
 
     def ladder_game(model, title, rnd):
         for f in (ROOT / "runs").rglob("ladder-*.json"):
@@ -205,26 +203,29 @@ def collect():
         "max_turns": eb.MAX_TURNS,
         "ladder": ladder,
     }
-    data["notes"] = notes(data, {m: c / n for m, (n, c) in per_game.items()})
+    data["notes"] = notes(data)
     return data
 
 
-def notes(data, cost_per_game):
+def notes(data):
     """The sentences that interpret the numbers, written once for both the page and the README.
     Each claim is only made when the data supports it, so new models can't make them false."""
     name = data["names"].get
     L, st = data["ladder"], lambda e, g: data["stats"][f"{e}|{g}"]
     titles = [a["title"] for a in data["articles"] if a["title"] in L["grid"]]
-    a, b = (x["model"] for x in L["board"][:2])
-    count = {m: {end: sum(1 for t in titles if L["grid"][t].get(m, {}).get("end") == end)
-                 for end in ("fail", "money", "cut")} for m in (a, b)}
-    fails = lambda m: {0: "none", 1: "1 article"}.get(count[m]["fail"], f"{count[m]['fail']} articles")  # noqa: E731
-    ladder = f"Out of {len(titles)} articles, {name(a)} failed a rung on {fails(a)} and {name(b)} on {fails(b)}."
-    if all(count[m]["fail"] + count[m]["money"] == len(titles) for m in (a, b)):
-        ladder += " Every other climb of theirs ended because the dollar ran out."
-        if count[a]["fail"] >= count[b]["fail"] and cost_per_game[a] < cost_per_game[b]:
-            ladder += (f" What separates them is price: {name(a)} spends less per game, so the same $1 buys it "
-                       f"more rungs.")
+    top = L["board"][0]
+    broke = {b["model"]: sum(1 for t in titles if L["grid"][t].get(b["model"], {}).get("end") == "money")
+             for b in L["board"]}
+    broke = sorted(((m, n) for m, n in broke.items() if n), key=lambda x: -x[1])
+    arts = lambda n: f"all {n} articles" if n == len(titles) else "1 article" if n == 1 else f"{n} articles"  # noqa: E731
+    ladder = "Most climbs end on a rung that takes more than 5 turns."
+    if broke:
+        who = [f"{name(m)} on {arts(n)}" for m, n in broke]
+        ladder += (" The dollar ran out first for " + ", ".join(who[:-1]) + (" and " if len(who) > 1 else "")
+                   + who[-1] + (", and never for the other models." if len(broke) < len(L["board"]) else "."))
+    if top["model"] not in dict(broke):
+        ladder += (f" {name(top['model'])}, on top, spends {money(top['spend'])} per article, so money never "
+                   f"stopped its climb.")
 
     self_ = sorted((m for m in data["selfplay"] if st(m, m)["cost_per_solve"] is not None),
                    key=lambda m: st(m, m)["cost_per_solve"])
@@ -285,10 +286,10 @@ def readme_blocks(data):
     blocks["puzzles"] = "\n".join(items)
 
     blocks["board"] = table(
-        ["", "Model", "EMOJIBENCH", "Won–drawn–lost", "Rungs per article"],
+        ["", "Model", "EMOJIBENCH", "Won–drawn–lost", "Rungs per article", "Minutes per article"],
         [[k, f"[{md(name(b['model']))}]({b['run']})", f"**{b['elo']:.0f}**", "–".join(map(str, b["wdl"])),
-          f"{b['rungs']:.2f}"] for k, b in enumerate(L["board"], 1)],
-        "rlrrr")
+          f"{b['rungs']:.2f}", f"{b['minutes']:.0f}"] for k, b in enumerate(L["board"], 1)],
+        "rlrrrr")
 
     models = [b["model"] for b in L["board"]]
     ends = {"money": "", "fail": " ✗", "cut": " ⚠", "cap": " 🏁"}

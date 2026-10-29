@@ -1,0 +1,210 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Motorchuna",
+    "description": "River in Yakutia (Sakha Republic), Russia",
+    "extract": "The Motorchuna is a river in Yakutia, Russia. It is a left tributary of the Lena with a length of 423 kilometres (263 mi). Its drainage basin area is 9,250 square kilometres (3,570 mi2). Since its river basin is uninhabited, the Motorchuna is one of the most untouched rivers in Yakutia; the waters are clean and there is abundant wildlife.",
+    "url": "https://en.wikipedia.org/wiki/Motorchuna"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 95.5,
+  "usage": {
+    "explainer": {
+      "input_tokens": 3256,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1248,
+      "output_tokens": 1211,
+      "thinking_tokens": 762,
+      "cost_usd": 0.0195378,
+      "calls": 4
+    },
+    "guesser": {
+      "input_tokens": 2515,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1382,
+      "thinking_tokens": 1116,
+      "cost_usd": 0.01885,
+      "calls": 4
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 689,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 384,
+        "thinking_tokens": 304,
+        "cost_usd": 0.005218,
+        "duration_ms": 14688
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 979,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 242,
+        "thinking_tokens": 149,
+        "cost_usd": 0.004378,
+        "duration_ms": 8561
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1251,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 213,
+        "thinking_tokens": 91,
+        "cost_usd": 0.005256,
+        "duration_ms": 7216
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 337,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1248,
+        "output_tokens": 372,
+        "thinking_tokens": 218,
+        "cost_usd": 0.0046858,
+        "duration_ms": 11862
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 331,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 266,
+        "thinking_tokens": 148,
+        "cost_usd": 0.003322,
+        "duration_ms": 9733
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 527,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 515,
+        "thinking_tokens": 443,
+        "cost_usd": 0.006204,
+        "duration_ms": 20085
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 719,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 495,
+        "thinking_tokens": 431,
+        "cost_usd": 0.006388,
+        "duration_ms": 18626
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 938,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 106,
+        "thinking_tokens": 94,
+        "cost_usd": 0.002936,
+        "duration_ms": 4768
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🌍 ⚪🔵🔴 🧭↗️ 🌨️\n🏞️ ➰ 🏊 ↙️\n🚘💨 😗 🍣\n📏 🟠🟠🟠🟠 🟡🟡 🟢🟢🟢</msg>",
+      "delivered": "🌍 ⚪🔵🔴 🧭↗️ 🌨️\n➰ 🏊 ↙️\n🚘💨 😗 🍣\n🟠🟠🟠🟠 🟡🟡 🟢🟢🟢",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🏞️",
+        "📏"
+      ],
+      "retried": false,
+      "guesser": "I’m reading Russia, a snowy northeastern location, possibly drifting/racing or swimming, and counts of 4–2–3. Is the article about a person? Which emoji group identifies their main activity?\n\nCould you clarify whether 🏊 is literal swimming, or whether ➰🏊 and 🚘💨 are both describing drifting?\n\nIs this a Russian sportsperson? Please distinguish: 🏊 for swimming, 🚘 for motorsport, or 🎬 for film.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👤 ❎ 🏅 ❎\n🌧️ ⛰️ 🫗 ➰➰➰ 🌅\n🌍 ⚪🔵🔴 🧭↗️\n🚘💨 🔤❎\n🟠🟠🟠🟠 🟡🟡 🟢🟢🟢 📍</msg>",
+      "delivered": "👤 ❎ 🏅 ❎\n🌧️ ⛰️ 🫗 ➰➰➰ 🌅\n🌍 ⚪🔵🔴 🧭↗️\n🚘💨 ❎\n🟠🟠🟠🟠 🟡🟡 🟢🟢🟢 📍",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is this a river in northeastern Russia, flowing southwest toward a sea? Does 🟠🟠🟠🟠 🟡🟡 🟢🟢🟢 mean “423,” or are those digits part of its geographic coordinates? Is 🍣 pointing to the Sea of Japan?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>➰ 🫗 ☑️\n🟠🟠🟠🟠 🟡🟡 🟢🟢🟢 🛣️ ☑️\n📍 ❎ 🍣 ❎ 🌅 ❎\n🌍 ⚪🔵🔴 🧭↗️ 🦬 🌨️\n➰🫗 🔀 ➰➰➰🫗 🧭⬆️\n🚘💨 🫖 🥜</msg>",
+      "delivered": "➰ 🫗 ☑️\n🟠🟠🟠🟠 🟡🟡 🟢🟢🟢 🛣️ ☑️\n📍 ❎ 🍣 ❎ 🌅 ❎\n🌍 ⚪🔵🔴 🧭↗️ 🦬 🌨️\n➰🫗 🔀 ➰➰➰🫗 🧭\n🚘💨 🫖 🥜",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "⬆️"
+      ],
+      "retried": false,
+      "guesser": "A river in northeastern Russia, probably Yakutia/Sakha, and a tributary of another river. Is its length **423 km**? Do 🚘💨 🫖 🥜 sound out the river’s name? Please give a clue to the river it flows into.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🦬 🌨️ ☑️\n🟠🟠🟠🟠 🟡🟡 🟢🟢🟢 🛣️ ☑️\n🚘💨 🫖 🥜 🗯️ ☑️\n➰🫗 ↖️ 🔀 ➰➰➰🫗\n➰➰➰🫗 🟠🟠🟠🟠 🟡🟡🟡🟡 ⚪ ⚪ 🛣️\n➰➰➰🫗 🧭🔼 🌐 🌅</msg>",
+      "delivered": "🦬 🌨️ ☑️\n🟠🟠🟠🟠 🟡🟡 🟢🟢🟢 🛣️ ☑️\n🚘💨 🫖 🥜 🗯️ ☑️\n➰🫗 ↖️ 🔀 ➰➰➰🫗\n➰➰➰🫗 🟠🟠🟠🟠 🟡🟡🟡🟡 ⚪ ⚪ 🛣️\n➰➰➰🫗 🧭🔼 🌐 🌅",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Motorchuna",
+      "guess": "Motorchuna",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 18,
+    "round": 3,
+    "n_banned": 74,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

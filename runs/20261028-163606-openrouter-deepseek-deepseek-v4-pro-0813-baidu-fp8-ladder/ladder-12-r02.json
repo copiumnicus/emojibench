@@ -1,0 +1,151 @@
+{
+  "model": "openrouter:deepseek/deepseek-v4-pro-0813@baidu/fp8",
+  "model_id": "deepseek/deepseek-v4-pro-0813",
+  "guesser_model": "openrouter:deepseek/deepseek-v4-pro-0813@baidu/fp8",
+  "guesser_model_id": "deepseek/deepseek-v4-pro-0813",
+  "effort": null,
+  "article": {
+    "title": "Dora Akunyili",
+    "description": "Nigerian pharmacist and government official (1954–2014)",
+    "extract": "Dora Nkem Akunyili was a Nigerian pharmacist and politician who served as the director-general of National Agency for Food and Drug Administration and Control (NAFDAC) of Nigeria from 2001 to 2008.",
+    "url": "https://en.wikipedia.org/wiki/Dora_Akunyili"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 257.1,
+  "usage": {
+    "explainer": {
+      "input_tokens": 531,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 768,
+      "output_tokens": 7117,
+      "thinking_tokens": 7052,
+      "cost_usd": 0.003990476448,
+      "calls": 2
+    },
+    "guesser": {
+      "input_tokens": 326,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 512,
+      "output_tokens": 6441,
+      "thinking_tokens": 6339,
+      "cost_usd": 0.0035822293920000003,
+      "calls": 2
+    },
+    "judge": {
+      "input_tokens": 190,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 2.1e-05,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 86,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 4311,
+        "thinking_tokens": 4278,
+        "cost_usd": 0.002374508592,
+        "duration_ms": 81652
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 445,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 2806,
+        "thinking_tokens": 2774,
+        "cost_usd": 0.001615967856,
+        "duration_ms": 50437
+      }
+    ],
+    "guesser": [
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 117,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 1676,
+        "thinking_tokens": 1637,
+        "cost_usd": 0.000938696976,
+        "duration_ms": 32841
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 209,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 4765,
+        "thinking_tokens": 4702,
+        "cost_usd": 0.002643532416,
+        "duration_ms": 91118
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 190,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.1e-05,
+        "duration_ms": 1039
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>💚🤍💚 🚺 🩺 🧴 📜 🛡️ 🤥 🔥</msg>",
+      "delivered": "💚🤍💚 🚺 🩺 🧴 📜 🛡️ 🤥 🔥",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "This looks like Nigeria (green-white-green) + a female doctor. Could it be the physician who helped stop Ebola in Nigeria?  \nGUESS: Ameyo Adadevoh",
+      "guess": "Ameyo Adadevoh",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🙅 🚺 🧴 ☠️ ⛔ ⚖️ 🛡️ 📜</msg>",
+      "delivered": "🙅 🚺 🧴 ☠️ ⛔ ⚖️ 🛡️ 📜",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The clues look like a Nigerian woman in medicine/pharmacy, fighting counterfeit/fake drugs (skull, forbidden, scales, shield, documents). That strongly suggests **Dora Akunyili**, the former NAFDAC director who battled counterfeit drugs in Nigeria.\n\nGUESS: Dora Akunyili",
+      "guess": "Dora Akunyili",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 12,
+    "round": 2,
+    "n_banned": 21,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

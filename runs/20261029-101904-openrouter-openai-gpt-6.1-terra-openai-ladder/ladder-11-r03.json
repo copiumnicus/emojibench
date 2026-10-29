@@ -1,0 +1,184 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Ayribobo",
+    "description": "Highest mountain of Turkmenistan",
+    "extract": "Ayribobo or Aýrybaba, officially named the Great Saparmyrat Turkmenbashi Peak in Turkmenistan since 2004, is a mountain in Central Asia. At 3,138 metres (10,295 ft) Aýrybaba is the highest mountain in Turkmenistan. It is located in the Köýtendag Range of the Pamir-Alay chain in the southeast of Turkmenistan on the Uzbekistani border.",
+    "url": "https://en.wikipedia.org/wiki/Ayribobo"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 53.4,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2053,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1115,
+      "thinking_tokens": 935,
+      "cost_usd": 0.007628,
+      "calls": 3
+    },
+    "guesser": {
+      "input_tokens": 1232,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1631,
+      "thinking_tokens": 1528,
+      "cost_usd": 0.009387,
+      "calls": 3
+    },
+    "judge": {
+      "input_tokens": 178,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 292,
+      "thinking_tokens": 288,
+      "cost_usd": 0.0001638,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 578,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 568,
+        "thinking_tokens": 516,
+        "cost_usd": 0.003418,
+        "duration_ms": 10715
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 682,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 250,
+        "thinking_tokens": 196,
+        "cost_usd": 0.001932,
+        "duration_ms": 5961
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 793,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 297,
+        "thinking_tokens": 223,
+        "cost_usd": 0.002278,
+        "duration_ms": 6379
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 307,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 80,
+        "thinking_tokens": 38,
+        "cost_usd": 0.000707,
+        "duration_ms": 2446
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 403,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 1077,
+        "thinking_tokens": 1030,
+        "cost_usd": 0.005788,
+        "duration_ms": 17359
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 522,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 474,
+        "thinking_tokens": 460,
+        "cost_usd": 0.002892,
+        "duration_ms": 8609
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 178,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 292,
+        "thinking_tokens": 288,
+        "cost_usd": 0.0001638,
+        "duration_ms": 1940
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n🇹🇷 🧑🧑 🧍 🗺️\n🌄 🧗 ☝️\n🔊 👀 🌾 🐑 🐑\n</msg>",
+      "delivered": "🇹🇷 🧑🧑 🧍 🗺️\n🌄 🧗 ☝️\n🔊 👀 🌾 🐑 🐑",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is this a village in Turkey? Are the final emojis a sound-alike clue for its name? Can you spell the name using emoji sounds, one syllable at a time?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n👎 🇹🇷\n🇹🇷 🧑🧑 🌏\n🌄 🧗 ☝️\n\n👍 🔊\n👀 🌾 👻 👻\n</msg>",
+      "delivered": "👎 🇹🇷\n🇹🇷 🧑🧑 🌏\n🌄 🧗 ☝️\n👍 🔊\n👀 🌾 👻 👻",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is the article about the first person to climb a particular mountain, possibly Mount Elbrus? Does the person belong to a Turkic ethnic group?\n\nCould you break the name into separate emoji syllables?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n👎 🧑\n👍 🌄\n🌄 🔝 👎\n🌄 ☝️ 🗺️\n\n🇹🇷 🧔🧔 ➕ 🏞️\n🌏\n\n🔊\n👀\n🌾\n👻\n👻\n</msg>",
+      "delivered": "👎 🧑\n👍 🌄\n🌄 👎\n🌄 ☝️ 🗺️\n🇹🇷 🧔🧔 ➕ 🏞️\n🌏\n🔊\n👀\n🌾\n👻\n👻",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Aýrybaba",
+      "guess": "Aýrybaba",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 11,
+    "round": 3,
+    "n_banned": 32,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

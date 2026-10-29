@@ -1,0 +1,231 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Iron(III) sulfate",
+    "description": "Chemical compound",
+    "extract": "Iron(III) sulfate or ferric sulfate is a family of inorganic compounds with the formula Fe2(SO4)3(H2O)n. A variety of hydrates are known, including the most commonly encountered form of \"ferric sulfate\". Solutions are used in dyeing as a mordant and as a coagulant for industrial wastes. Solutions of ferric sulfate are also used in the processing of aluminum and steel.",
+    "url": "https://en.wikipedia.org/wiki/Iron(III)_sulfate"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 93.2,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2309,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 4860,
+      "output_tokens": 2097,
+      "thinking_tokens": 1493,
+      "cost_usd": 0.0272225,
+      "calls": 4
+    },
+    "guesser": {
+      "input_tokens": 2369,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 702,
+      "thinking_tokens": 527,
+      "cost_usd": 0.011758,
+      "calls": 4
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1336,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 654,
+        "thinking_tokens": 516,
+        "cost_usd": 0.0098785,
+        "duration_ms": 23215
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 336,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1333,
+        "output_tokens": 365,
+        "thinking_tokens": 269,
+        "cost_usd": 0.0046218,
+        "duration_ms": 13229
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 198,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1666,
+        "output_tokens": 582,
+        "thinking_tokens": 401,
+        "cost_usd": 0.0064801,
+        "duration_ms": 18403
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 439,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1861,
+        "output_tokens": 496,
+        "thinking_tokens": 307,
+        "cost_usd": 0.0062421,
+        "duration_ms": 13720
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 381,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 100,
+        "thinking_tokens": 61,
+        "cost_usd": 0.001762,
+        "duration_ms": 3904
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 449,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 90,
+        "thinking_tokens": 55,
+        "cost_usd": 0.001798,
+        "duration_ms": 4327
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 664,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 330,
+        "thinking_tokens": 281,
+        "cost_usd": 0.004628,
+        "duration_ms": 10875
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 875,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 182,
+        "thinking_tokens": 130,
+        "cost_usd": 0.00357,
+        "duration_ms": 5478
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🦾🛑\n\n▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️\n▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️\n▪️▪️▪️▪️▪️▪️\n\n☝🏻☝🏻☝🏻\n\n🧾\n▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️\n▪️▪️▪️▪️▪️▪️\n\n▪️▪️▪️▪️▪️▪️▪️▪️</msg>",
+      "delivered": "🛑\n▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️\n▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️\n▪️▪️▪️▪️▪️▪️\n🧾\n▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️\n▪️▪️▪️▪️▪️▪️\n▪️▪️▪️▪️▪️▪️▪️▪️",
+      "dropped_chars": 4,
+      "off_keyboard": [
+        "🦾",
+        "☝🏻",
+        "☝🏻",
+        "☝🏻"
+      ],
+      "retried": false,
+      "guesser": "Do the black-square counts encode letters or numbers? Please give more clues about the article’s category (person, place, film, species, object, or concept).",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👌🏻🚫\n🙇\n\n🧩⚒️🧩\n\n⚒️\n●●●●●●●●●●\n●●●●●●●●●●\n●●●●●●\n\n🟨\n●●●●●●●●●●\n●●●●●●\n\n🌬\n●●●●●●●●</msg>",
+      "delivered": "🙇\n🧩⚒️🧩\n⚒️",
+      "dropped_chars": 54,
+      "off_keyboard": [
+        "👌🏻",
+        "🚫",
+        "🟨",
+        "🌬️"
+      ],
+      "retried": false,
+      "guesser": "Is this about a puzzle or game, or about a tool/construction? If you can, show what it does or where it is found.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🧩🎲🛑\n\n⚒️🪖\n▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️\n▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️\n▪️▪️▪️▪️▪️▪️\n\n🌞\n▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️\n▪️▪️▪️▪️▪️▪️\n\n🌲😤\n▪️▪️▪️▪️▪️▪️▪️▪️\n\n⚒️⚒️\n🌞🌲🌲🌲🌲\n🌞🌲🌲🌲🌲\n🌞🌲🌲🌲🌲</msg>",
+      "delivered": "🧩🎲🛑\n⚒️🪖\n▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️\n▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️\n▪️▪️▪️▪️▪️▪️\n🌞\n▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️\n▪️▪️▪️▪️▪️▪️\n🌲\n▪️▪️▪️▪️▪️▪️▪️▪️\n⚒️⚒️\n🌞🌲🌲🌲🌲\n🌞🌲🌲🌲🌲\n🌞🌲🌲🌲🌲",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "😤"
+      ],
+      "retried": false,
+      "guesser": "Are the squares showing numbered military units—26, 16, and 8—with ⚒️🪖 meaning military engineers? Is the article about an engineer regiment or battalion? Please show its country.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🪖🛑 🌐🛑\n\n🧠🔭🪐\n⚒️ ▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️ ▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️ ▪️▪️▪️▪️▪️▪️\n🌞 ▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️ ▪️▪️▪️▪️▪️▪️\n🫁 ▪️▪️▪️▪️▪️▪️▪️▪️\n\n⚒️⚒️\n🌞🍃🍃🍃🍃\n🌞🍃🍃🍃🍃\n🌞🍃🍃🍃🍃</msg>",
+      "delivered": "🪖🛑 🌐🛑\n🧠🔭🪐\n⚒️ ▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️ ▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️ ▪️▪️▪️▪️▪️▪️\n🌞 ▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️ ▪️▪️▪️▪️▪️▪️\n▪️▪️▪️▪️▪️▪️▪️▪️\n⚒️⚒️\n🌞\n🌞\n🌞",
+      "dropped_chars": 13,
+      "off_keyboard": [
+        "🫁",
+        "🍃",
+        "🍃",
+        "🍃",
+        "🍃",
+        "🍃",
+        "🍃",
+        "🍃",
+        "🍃",
+        "🍃",
+        "🍃",
+        "🍃",
+        "🍃"
+      ],
+      "retried": false,
+      "guesser": "I think the squares are atomic numbers: 26 = iron, 16 = sulfur, 8 = oxygen. Your earlier formula looks like Fe₂(SO₄)₃.\n\nGUESS: Iron(III) sulfate",
+      "guess": "Iron(III) sulfate",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 2,
+    "round": 13,
+    "n_banned": 295,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

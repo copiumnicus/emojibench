@@ -1,0 +1,250 @@
+{
+  "model": "openrouter:deepseek/deepseek-v4-pro-0813@baidu/fp8",
+  "model_id": "deepseek/deepseek-v4-pro-0813",
+  "guesser_model": "openrouter:deepseek/deepseek-v4-pro-0813@baidu/fp8",
+  "guesser_model_id": "deepseek/deepseek-v4-pro-0813",
+  "effort": null,
+  "article": {
+    "title": "Mike Pieciak",
+    "description": "American politician (born 1983)",
+    "extract": "Michael Sullivan Pieciak is an American politician from Vermont. A member of the Democratic Party, Pieciak has served as Vermont State Treasurer since January 2023.",
+    "url": "https://en.wikipedia.org/wiki/Mike_Pieciak"
+  },
+  "solved": true,
+  "turns_taken": 5,
+  "solved_turn": 5,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 1168.8,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1711,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1536,
+      "output_tokens": 5618,
+      "thinking_tokens": 5509,
+      "cost_usd": 0.004044332688,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 1313,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1280,
+      "output_tokens": 58079,
+      "thinking_tokens": 57715,
+      "cost_usd": 0.038443712496,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 177,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 1.97e-05,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 446,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 3506,
+        "thinking_tokens": 3471,
+        "cost_usd": 0.00248926656,
+        "duration_ms": 68796
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 317,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 186,
+        "thinking_tokens": 174,
+        "cost_usd": 0.000179525808,
+        "duration_ms": 4415
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 130,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 106,
+        "thinking_tokens": 95,
+        "cost_usd": 9.4381056e-05,
+        "duration_ms": 2768
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 209,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 1626,
+        "thinking_tokens": 1592,
+        "cost_usd": 0.001037396976,
+        "duration_ms": 31902
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 609,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 194,
+        "thinking_tokens": 177,
+        "cost_usd": 0.000243762288,
+        "duration_ms": 4811
+      }
+    ],
+    "guesser": [
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 347,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 27011,
+        "thinking_tokens": 26931,
+        "cost_usd": 0.0184765152,
+        "duration_ms": 480776
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 185,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 5224,
+        "thinking_tokens": 5178,
+        "cost_usd": 0.003225066768,
+        "duration_ms": 99051
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 245,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 11364,
+        "thinking_tokens": 11321,
+        "cost_usd": 0.007797721824,
+        "duration_ms": 211349
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 337,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 9722,
+        "thinking_tokens": 9624,
+        "cost_usd": 0.005999025648,
+        "duration_ms": 179585
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 199,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 4758,
+        "thinking_tokens": 4661,
+        "cost_usd": 0.002945383056,
+        "duration_ms": 84448
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 177,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.97e-05,
+        "duration_ms": 909
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🎤🥧🎬 👨‍💼 🇺🇸🍁🏔️💰🏛️🫏</msg>",
+      "delivered": "🎤🥧🎬 👨‍💼 🇺🇸🍁🏔️💰🏛️🫏",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I'm trying to parse your emojis: 🎤🥧🎬 could be \"American Pie\" (song/film) or maybe something like \"Mike P...\" + film. The rest looks like US/Canada/mountain/money/capitol/donkey.\n\nIs the article about a **person**? And does the title include **\"American Pie\"**?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👍 👎</msg>",
+      "delivered": "👍 👎",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Yes to person, no to American Pie. I’ll narrow the domain.\n\nAre you a politician?  \nAre you from the United States?  \nIs the first word of the title “Mike” or “Michael”?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>👍 👍 👍</msg>",
+      "delivered": "👍 👍 👍",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Based on the clues — a businessman/politician from the US, money, Capitol, donkey (Democrat), and mountain/“berg” — I’ll guess:\n\nGUESS: Michael Bloomberg",
+      "guess": "Michael Bloomberg",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>👎 🎤🥧✅ 🚫🗽 🏔️🍁💰🏛️🫏</msg>",
+      "delivered": "👎 🎤🥧✅ 🚫🗽 🏔️🍁💰🏛️🫏",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Please answer yes/no with 👍/👎 for each:\n\n1. Are you a Democrat (is the donkey emoji your party)?  \n2. Are you from a Rocky Mountain state (Colorado, Montana, Wyoming, Idaho, New Mexico)?  \n3. Are you a current or former U.S. senator?  \n4. Does your last name have a money-related meaning (like pence, cash, bank, coin)?  \n5. Is your last name Pence?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>👍 👎 👎 👎 👎</msg>",
+      "delivered": "👍 👎 👎 👎 👎",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The emojis look like a rebus: 🎤 “mic” + 🥧 “pie” + 🎬 (movie clapper = “ciak” in Italian) = **Mike Pieciak**. The rest — 🍁 mountains, 💰 money, 🏛️ capitol, 🫏 donkey — fits Vermont (maple, Green Mountains, state treasurer, state capitol, Democrat).\n\nGUESS: Mike Pieciak",
+      "guess": "Mike Pieciak",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 4,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

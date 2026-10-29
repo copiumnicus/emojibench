@@ -1,0 +1,238 @@
+{
+  "model": "openrouter:xiaomi/mimo-v2.6-pro@gmicloud/bf16",
+  "model_id": "xiaomi/mimo-v2.6-pro",
+  "guesser_model": "openrouter:xiaomi/mimo-v2.6-pro@gmicloud/bf16",
+  "guesser_model_id": "xiaomi/mimo-v2.6-pro",
+  "effort": null,
+  "article": {
+    "title": "7's Football League",
+    "description": "Football league",
+    "extract": "The 7's Football League is a seven-a-side football league in the Philippines. Established in 2018, the league already had four seasons. It has a two-tiered men's division, a women's division, and youth divisions. The league is an open tournament with participation from representative sides of the domestic football competition, the Philippines Football League.",
+    "url": "https://en.wikipedia.org/wiki/7's_Football_League"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 171.4,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1246,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2816,
+      "output_tokens": 3214,
+      "thinking_tokens": 3011,
+      "cost_usd": 0.0028470359000000002,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 1047,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1920,
+      "output_tokens": 4284,
+      "thinking_tokens": 3641,
+      "cost_usd": 0.0035616742500000002,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 152,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 1810,
+        "thinking_tokens": 1732,
+        "cost_usd": 0.0013955674,
+        "duration_ms": 30528
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 232,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 384,
+        "output_tokens": 242,
+        "thinking_tokens": 214,
+        "cost_usd": 0.0002660466,
+        "duration_ms": 6004
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 408,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 384,
+        "output_tokens": 473,
+        "thinking_tokens": 438,
+        "cost_usd": 0.0005019471,
+        "duration_ms": 10407
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 269,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 768,
+        "output_tokens": 617,
+        "thinking_tokens": 577,
+        "cost_usd": 0.00055834545,
+        "duration_ms": 17367
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 185,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1024,
+        "output_tokens": 72,
+        "thinking_tokens": 50,
+        "cost_usd": 0.00012512935,
+        "duration_ms": 4138
+      }
+    ],
+    "guesser": [
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 265,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 471,
+        "thinking_tokens": 360,
+        "cost_usd": 0.00044628825,
+        "duration_ms": 12568
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 158,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 617,
+        "thinking_tokens": 488,
+        "cost_usd": 0.0005155624,
+        "duration_ms": 14369
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 203,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 384,
+        "output_tokens": 938,
+        "thinking_tokens": 791,
+        "cost_usd": 0.00077001585,
+        "duration_ms": 20909
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 268,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 1397,
+        "thinking_tokens": 1284,
+        "cost_usd": 0.0011339153,
+        "duration_ms": 33151
+      },
+      {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "served_by": "GMICloud",
+        "input_tokens": 153,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 768,
+        "output_tokens": 861,
+        "thinking_tokens": 718,
+        "cost_usd": 0.00069589245,
+        "duration_ms": 21925
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "Looking at the key elements: \"7's\", \"Football\", \"League\", \"Philippines\". Since I can't use 7️⃣ (filtered), I'll represent \"7\" with seven footballs, then show league/trophy and the Philippines flag.\n\n<msg>\n⚽⚽⚽⚽⚽⚽⚽ 🏆 🇵🇭\n</msg>",
+      "delivered": "⚽⚽⚽⚽⚽⚽⚽ 🏆 🇵🇭",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Quick read: Philippine football (soccer) + a trophy + the number 7.\n\nA few questions to narrow it down:\n1. Is this about a **person** (a player/coach) rather than a match or tournament?\n2. Does the 7️⃣⚽ represent **goals scored in a single match** (a record), or something else (caps, shirt number, titles)?\n3. Is the trophy a specific competition — e.g. the AFC Challenge Cup, AFF Championship, or a domestic Philippine league?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n👎 ⚽⚽⚽⚽⚽⚽⚽ 👥 🏆 🇵🇭\n</msg>",
+      "delivered": "👎 ⚽⚽⚽⚽⚽⚽⚽ 👥 🏆 🇵🇭",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Thanks, that helps — so it's a **team**, not a person.\n\nA couple of clarifications:\n\n1. Does 👎 mean something like **defunct / disbanded / no longer exists**, or **\"record defeat\" / \"first loss\"**, or something else entirely?\n2. Is the 🏆 the number of **titles won (7)** — and if so, is this a **Philippine domestic club** (like a UFL/PFL team) or the **national team**?\n3. Is the article title the name of the **club itself**, or a **competition/tournament**?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>\n👎 (🚫🙋)  🏟️ ⚽⚽⚽⚽⚽⚽⚽ 🇵🇭 🏆\n</msg>",
+      "delivered": "👎 🚫🙋 🏟️ ⚽⚽⚽⚽⚽⚽⚽ 🇵🇭 🏆",
+      "dropped_chars": 2,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Interesting — but I want to make sure I understand 🚫🙋 correctly.\n\nA few quick clarifications:\n\n1. Does 🚫🙋 mean something like **\"no manager/coach\"**, **\"no players / behind closed doors\"**, **\"not a person\"**, or something else?\n2. Is the article about **a specific match** (where a team won/lost 7-0), or about a **team/club**?\n3. Is 🇵🇭 the winning side or the losing side?\n4. Is the title likely to be something like a **match/competition name** (e.g. \"2015 AFF Championship...\") or a **club name**?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>\n🚫🙋  🏆🏟️  🇵🇭  ⚽⚽⚽⚽⚽⚽⚽  👥  🥇🥈\n</msg>",
+      "delivered": "🚫🙋 🏆🏟️ 🇵🇭 ⚽⚽⚽⚽⚽⚽⚽ 👥 🥇🥈",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Getting more pieces but I want to lock down the shape. Quick yes/no questions:\n\n1. Is the article about **a specific football match** (a single game)? \n2. Is it about a **tournament/competition**?\n3. Is it about a **club/team** (the entity itself)?\n4. Does the article title include a **year**?\n5. Is 🙋 meant to represent **a specific person (like a player or coach)** — i.e., 🚫🙋 = \"this is not about a person\"?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>\n👎  👍  👎  👎  👍\n</msg>",
+      "delivered": "👎 👍 👎 👎 👍",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Good — so it's a **tournament/competition** (not a match, not a club), title has **no year**, and it's **not about a person**.\n\nA few more:\n\n1. Is the sport actually **football/soccer**, or is ⚽ being used loosely (e.g. another sport)?\n2. Is this a **multi-sport event** (like the SEA Games / Asian Games) rather than a football-only tournament?\n3. Did the **Philippines win 🥇** in this competition (or is 🥇🥈 about medal standings)?\n4. Does the title contain a **place/city name** (as opposed to just a competition name)?",
+      "guess": null,
+      "correct": null
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 17,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

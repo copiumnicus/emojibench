@@ -1,0 +1,139 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Jovan Hadži-Vasiljević",
+    "description": "Serbian historian, ethnographer, journalist and writer",
+    "extract": "Jovan Hadži-Vasiljević was a Serbian historian, ethnographer, journalist and writer.",
+    "url": "https://en.wikipedia.org/wiki/Jovan_Had%C5%BEi-Vasiljevi%C4%87"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 38.2,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1103,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 855,
+      "thinking_tokens": 734,
+      "cost_usd": 0.005378,
+      "calls": 2
+    },
+    "guesser": {
+      "input_tokens": 763,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1142,
+      "thinking_tokens": 1082,
+      "cost_usd": 0.006473,
+      "calls": 2
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 482,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 536,
+        "thinking_tokens": 450,
+        "cost_usd": 0.003162,
+        "duration_ms": 11776
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 621,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 319,
+        "thinking_tokens": 284,
+        "cost_usd": 0.002216,
+        "duration_ms": 7289
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 342,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 738,
+        "thinking_tokens": 695,
+        "cost_usd": 0.004032,
+        "duration_ms": 11586
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 421,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 404,
+        "thinking_tokens": 387,
+        "cost_usd": 0.002441,
+        "duration_ms": 7555
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🟥🟦⬜ 🇧🇦🇲🇪🇲🇰\n🧔 🏺🔍 🌐🧑‍🤝‍🧑🔍 🗞️🎤 🖊️📖\n🔊 🚽 🚌 🕌 🚶‍➡️ 🇬🇷 🤴</msg>",
+      "delivered": "🟥🟦⬜ 🇧🇦🇲🇪🇲🇰\n🧔 🏺🔍 🌐🧑‍🤝‍🧑🔍 🗞️🎤 🖊️📖\n🔊 🚽 🚌 🕌 🚶‍➡️ 🇬🇷 🤴",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I see a Yugoslav or Balkan man connected with archaeology, anthropology, journalism and writing. Is the last line a phonetic clue to his name? Please break the name into parts.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>✅ 🔊\n🪀 🚐\n🕌 🤲\n🏺 🦁 🧙</msg>",
+      "delivered": "✅ 🔊\n🪀 🚐\n🕌 🤲\n🏺 🦁 🧙",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Jovan Hadži-Vasiljević",
+      "guess": "Jovan Hadži-Vasiljević",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 9,
+    "round": 1,
+    "n_banned": 24,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

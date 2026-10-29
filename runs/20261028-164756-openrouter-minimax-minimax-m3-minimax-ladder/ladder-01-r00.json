@@ -1,0 +1,261 @@
+{
+  "model": "openrouter:minimax/minimax-m3@minimax",
+  "model_id": "minimax/minimax-m3",
+  "guesser_model": "openrouter:minimax/minimax-m3@minimax",
+  "guesser_model_id": "minimax/minimax-m3",
+  "effort": null,
+  "article": {
+    "title": "Proceratium silaceum",
+    "description": "Species of ant",
+    "extract": "Proceratium silaceum is a species of ant in the family Formicidae.",
+    "url": "https://en.wikipedia.org/wiki/Proceratium_silaceum"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 649.3,
+  "usage": {
+    "explainer": {
+      "input_tokens": 869,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2807,
+      "output_tokens": 9160,
+      "thinking_tokens": 8965,
+      "cost_usd": 0.01142112,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 708,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2444,
+      "output_tokens": 43551,
+      "thinking_tokens": 43320,
+      "cost_usd": 0.05262024,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 345,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 3.85e-05,
+      "calls": 2
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 400,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 128,
+        "output_tokens": 1824,
+        "thinking_tokens": 1798,
+        "cost_usd": 0.00231648,
+        "duration_ms": 21443
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 95,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 528,
+        "output_tokens": 2055,
+        "thinking_tokens": 2032,
+        "cost_usd": 0.00252618,
+        "duration_ms": 20485
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 86,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 623,
+        "output_tokens": 1847,
+        "thinking_tokens": 1809,
+        "cost_usd": 0.00227958,
+        "duration_ms": 18814
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 110,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 709,
+        "output_tokens": 1356,
+        "thinking_tokens": 1301,
+        "cost_usd": 0.00170274,
+        "duration_ms": 14020
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 178,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 819,
+        "output_tokens": 2078,
+        "thinking_tokens": 2025,
+        "cost_usd": 0.00259614,
+        "duration_ms": 18941
+      }
+    ],
+    "guesser": [
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 314,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 128,
+        "output_tokens": 5779,
+        "thinking_tokens": 5726,
+        "cost_usd": 0.00703668,
+        "duration_ms": 64053
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 82,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 442,
+        "output_tokens": 5171,
+        "thinking_tokens": 5124,
+        "cost_usd": 0.00625632,
+        "duration_ms": 87555
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 93,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 524,
+        "output_tokens": 3945,
+        "thinking_tokens": 3890,
+        "cost_usd": 0.00479334,
+        "duration_ms": 59359
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 116,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 617,
+        "output_tokens": 2742,
+        "thinking_tokens": 2714,
+        "cost_usd": 0.00336222,
+        "duration_ms": 27350
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 103,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 733,
+        "output_tokens": 25914,
+        "thinking_tokens": 25866,
+        "cost_usd": 0.03117168,
+        "duration_ms": 315335
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 174,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.94e-05,
+        "duration_ms": 876
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 171,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.91e-05,
+        "duration_ms": 1075
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🐜 ➡️ 🐂 🏺 🪨 ⚗️</msg>",
+      "delivered": "🐜 ➡️ 🐂 🏺 🪨 ⚗️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I read this as a sequence of concrete nouns, with ➡️ meaning “to”: ant → bull → jug/pitcher → stone → alembic/still. Is that intended, and should the five nouns themselves form the title clue?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>✅🧬➡️🐂🪨🐜</msg>",
+      "delivered": "✅🧬➡️🐂🪨🐜",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Thanks. Is the intended chain “DNA → bull → stone → ant,” with the pottery vessel and alembic suggesting laboratory or archaeological analysis? If so, is this about a particular ancient specimen, artifact, or site?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>❌🏺🏛️🗿\n✅🐜🧬📚\n➡️➕🦌🪨</msg>",
+      "delivered": "❌🏺🏛️🗿\n✅🐜🧬📚\n➡️➕🦌🪨",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Are **ant, DNA, books, deer, and stone** literal title words, or do they stand for different words? Also, does the first emoji sequence mean “ant to bull, pot, stone, alembic,” and is that a separate clue?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>❌🔤🗿🏺🏛️❌🧬📚🦌\n✅🐜🔬🧬📚\n⏪🐂➕🧬🪨</msg>",
+      "delivered": "❌🗿🏺🏛️❌🧬📚🦌\n✅🐜🔬🧬📚\n⏪🐂➕🧬🪨",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The opening strongly suggests the sculpture title. I’ll test it as the article title.\n\nGUESS: The Ant and the Bull",
+      "guess": "The Ant and the Bull",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>❌🗿🏺🏛️\n✅🐜🔬📛\n🧬✌️\n➡️🐂🧬🧬\n🪨⚗️</msg>",
+      "delivered": "❌🗿🏺🏛️\n✅🐜🔬📛\n🧬✌️\n➡️🐂🧬🧬\n🪨⚗️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The strongest remaining interpretation is a taxonomically studied bull-ant genus: an ant identified microscopically and by its scientific name, with DNA evidence. I’ll test the likely genus.\n\nGUESS: Myrmecia",
+      "guess": "Myrmecia",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 1,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

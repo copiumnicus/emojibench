@@ -1,0 +1,139 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Franco Cozzo",
+    "description": "Australian businessman (1935–2023)",
+    "extract": "Franco Cozzo was an Italian-Australian businessman. After moving to Melbourne from Sicily in 1955, Cozzo became known for his television advertisements, in which he would speak in English, Greek, and Italian. He later produced Australia's first non-English TV show, Carosello, which was broadcast in Italian.",
+    "url": "https://en.wikipedia.org/wiki/Franco_Cozzo"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 29.7,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1243,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 898,
+      "thinking_tokens": 723,
+      "cost_usd": 0.005733,
+      "calls": 2
+    },
+    "guesser": {
+      "input_tokens": 806,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 421,
+      "thinking_tokens": 369,
+      "cost_usd": 0.002911,
+      "calls": 2
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 555,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 574,
+        "thinking_tokens": 491,
+        "cost_usd": 0.003425,
+        "duration_ms": 12370
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 688,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 324,
+        "thinking_tokens": 232,
+        "cost_usd": 0.002308,
+        "duration_ms": 6292
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 337,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 265,
+        "thinking_tokens": 225,
+        "cost_usd": 0.001662,
+        "duration_ms": 6373
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 469,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 156,
+        "thinking_tokens": 144,
+        "cost_usd": 0.001249,
+        "duration_ms": 4650
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n👨 🍕🍋🏝️ ⛴️ 🐨🪃 🌆\n🪵 💺 🗄️ 👑 ✨\n📹 🖥️ 🔊\n🍕 🏺🦉 ☕🫖\n\n🌭 😮  🐄 🦓\n</msg>",
+      "delivered": "👨 🍕🍋🏝️ ⛴️ 🐨🪃 🌆\n🪵 💺 🗄️ 👑 ✨\n📹 🖥️ 🔊\n🍕 🏺🦉 ☕🫖\n🌭 😮 🐄 🦓",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I’m reading an Italian or Sicilian man who traveled to Australia, perhaps a furniture maker and TV personality. Is that right? What do the final two lines mean?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>\n👍\n\n📹 🖥️ 🔊\n🍕 🍋🏝️\n🏺 🦉\n☕ 🫖\n\n👤 📛\n🌭 😮\n🧥 🦓🦒🦛\n\n🇪🇸 ⚔️ 🎖️ 👨\n🧥 🦓🦒🦛\n</msg>",
+      "delivered": "👍\n📹 🖥️ 🔊\n🍕 🍋🏝️\n🏺 🦉\n☕ 🫖\n👤 📛\n🌭 😮\n🧥 🦓🦒🦛\n🇪🇸 ⚔️ 🎖️ 👨\n🧥 🦓🦒🦛",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Franco Cozzo",
+      "guess": "Franco Cozzo",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 20,
+    "round": 2,
+    "n_banned": 31,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

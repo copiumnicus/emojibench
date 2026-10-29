@@ -1,0 +1,244 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Accord Pond",
+    "description": "Lake in Massachusetts, USA",
+    "extract": "Accord Pond is a 100-acre (0.40 km2) reservoir in Hingham, Norwell and Rockland, Massachusetts. The reservoir is located off Route 228 at its terminus with Route 3. The reservoir is visible from Route 3 northbound at Exit 14, the Route 228 off-ramp. The reservoir is a Class A source of water supply for the town of Hingham and Hull Ma. The outflow of the reservoir is Accord Brook, a tributary of the Weir River.",
+    "url": "https://en.wikipedia.org/wiki/Accord_Pond"
+  },
+  "solved": true,
+  "turns_taken": 5,
+  "solved_turn": 5,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 81.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 3260,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2337,
+      "output_tokens": 1233,
+      "thinking_tokens": 852,
+      "cost_usd": 0.009924599999999999,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 2923,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 3208,
+      "thinking_tokens": 2972,
+      "cost_usd": 0.018963,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 789,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 483,
+        "thinking_tokens": 411,
+        "cost_usd": 0.003204,
+        "duration_ms": 11088
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 931,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 178,
+        "thinking_tokens": 101,
+        "cost_usd": 0.001821,
+        "duration_ms": 3301
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 1076,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 169,
+        "thinking_tokens": 104,
+        "cost_usd": 0.00218925,
+        "duration_ms": 4452
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 194,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1073,
+        "output_tokens": 267,
+        "thinking_tokens": 176,
+        "cost_usd": 0.0016304,
+        "duration_ms": 6286
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 270,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1264,
+        "output_tokens": 136,
+        "thinking_tokens": 60,
+        "cost_usd": 0.00107995,
+        "duration_ms": 3921
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 327,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 227,
+        "thinking_tokens": 160,
+        "cost_usd": 0.001462,
+        "duration_ms": 5127
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 465,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 847,
+        "thinking_tokens": 789,
+        "cost_usd": 0.0047,
+        "duration_ms": 13397
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 580,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 956,
+        "thinking_tokens": 916,
+        "cost_usd": 0.00536,
+        "duration_ms": 15564
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 707,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 439,
+        "thinking_tokens": 379,
+        "cost_usd": 0.002902,
+        "duration_ms": 7114
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 844,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 739,
+        "thinking_tokens": 728,
+        "cost_usd": 0.004539,
+        "duration_ms": 10707
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "itsiaq <msg>🤜🤛 🎺🎻🎷 🚕\n🟩🟩🟩\n🟩🔵🟩 🐠\n🟩🟩🟩\n\n🇨🇦👇 🧹🎃 🏛️</msg>",
+      "delivered": "🤜🤛 🎺🎻🎷 🚕\n🟩🟩🟩\n🟩🔵🟩 🐠\n🟩🟩🟩\n🇨🇦👇 🧹🎃 🏛️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is this a place, a person, or a band? Please break the clue into smaller parts and indicate which part is the name.\n\nIs this a place, a person, or a band? Please break the clue into smaller parts and indicate which part is the name.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🧭 🌐\n\n💡\n🤜🤛 🎺🎻🎷 🚕\n🟩🟩🟩\n🟩🔵🟩\n🟩🟩🟩\n\n🧹🎃 🏛️ 🇨🇦👇</msg>",
+      "delivered": "🧭 🌐\n💡\n🤜🤛 🎺🎻🎷 🚕\n🟩🟩🟩\n🟩🔵🟩\n🟩🟩🟩\n🧹🎃 🏛️ 🇨🇦👇",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I think this is a lake or pond in the United States. Does 🧹🎃 🏛️ mean Salem, Massachusetts? And is 🤜🤛 🎺🎻🎷 🚕 a sound-alike for the lake’s name?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>💯\n\n🤜🤛 🟰 🚫\n🤜🤛 = 💡 🎺🎻🎷 = 🏎️\n🔵🌿 = 💡\n\n🧹🎃 🏛️ = 🧭</msg>",
+      "delivered": "💯\n🤜🤛\n🤜🤛 💡 🎺🎻🎷 🏎️\n🔵🌿 💡\n🧹🎃 🏛️ 🧭",
+      "dropped_chars": 6,
+      "off_keyboard": [
+        "🟰",
+        "🚫"
+      ],
+      "retried": false,
+      "guesser": "Does 🤜🤛 mean “buddy,” as in Buddy Rich or Buddy Holly? Is the article about a pond named Buddy Pond? And which Salem is it in?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>❎ 🧑‍🤝‍🧑\n\n🤜🤛 ☮️ 📃 💡\n🎻🎻🎻 💡\n🚕 💡\n🌿🔵🌿 💡\n\n🧹🎃 🏛️ 🌐\n❎ 🧭 🧹🎃\n✅ 🧭 🏘️</msg>",
+      "delivered": "❎ 🧑‍🤝‍🧑\n🤜🤛 ☮️ 📃 💡\n🎻🎻🎻 💡\n🚕 💡\n🌿🔵🌿 💡\n🧹🎃 🏛️ 🌐\n❎ 🧭 🧹🎃\n🧭",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "✅",
+        "🏘️"
+      ],
+      "retried": false,
+      "guesser": "I understand 🧹🎃 🏛️ as Massachusetts, not Salem itself. Is the name a combination of words for “treaty,” “orchestra,” “cab,” and “pond”? Can you give the first letter or number of syllables?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>☮️ 📃 💡\n🎻🎻🎻 💡\n🚕 💡\n🌿🔵🌿 💡\n\n☮️📃 ✌️\n🌿🔵🌿 ☝️\n\n🇨🇦👇 🧹🎃 🏛️</msg>",
+      "delivered": "☮️ 📃 💡\n🎻🎻🎻 💡\n🚕 💡\n🌿🔵🌿 💡\n☮️📃 ✌️\n🌿🔵🌿 ☝️\n🇨🇦👇 🧹🎃 🏛️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Accord Pond",
+      "guess": "Accord Pond",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 10,
+    "round": 4,
+    "n_banned": 109,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

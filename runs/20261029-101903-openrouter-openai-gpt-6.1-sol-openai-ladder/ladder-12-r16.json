@@ -1,0 +1,278 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Dora Akunyili",
+    "description": "Nigerian pharmacist and government official (1954–2014)",
+    "extract": "Dora Nkem Akunyili was a Nigerian pharmacist and politician who served as the director-general of National Agency for Food and Drug Administration and Control (NAFDAC) of Nigeria from 2001 to 2008.",
+    "url": "https://en.wikipedia.org/wiki/Dora_Akunyili"
+  },
+  "solved": true,
+  "turns_taken": 5,
+  "solved_turn": 5,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 123.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2343,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 7022,
+      "output_tokens": 2398,
+      "thinking_tokens": 1979,
+      "cost_usd": 0.0305322,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 2907,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 775,
+      "thinking_tokens": 554,
+      "cost_usd": 0.013564,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 377,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 8,
+      "thinking_tokens": 0,
+      "cost_usd": 4.17e-05,
+      "calls": 2
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1413,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 578,
+        "thinking_tokens": 516,
+        "cost_usd": 0.009311,
+        "duration_ms": 22550
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 229,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1410,
+        "output_tokens": 377,
+        "thinking_tokens": 302,
+        "cost_usd": 0.004482,
+        "duration_ms": 15483
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 234,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1636,
+        "output_tokens": 594,
+        "thinking_tokens": 516,
+        "cost_usd": 0.0066871,
+        "duration_ms": 22420
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 245,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1867,
+        "output_tokens": 405,
+        "thinking_tokens": 321,
+        "cost_usd": 0.0048477,
+        "duration_ms": 13726
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 222,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 2109,
+        "output_tokens": 444,
+        "thinking_tokens": 324,
+        "cost_usd": 0.0052044,
+        "duration_ms": 16154
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 310,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 233,
+        "thinking_tokens": 146,
+        "cost_usd": 0.00295,
+        "duration_ms": 7923
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 449,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 105,
+        "thinking_tokens": 62,
+        "cost_usd": 0.001948,
+        "duration_ms": 4424
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 572,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 234,
+        "thinking_tokens": 169,
+        "cost_usd": 0.003484,
+        "duration_ms": 9092
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 718,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 126,
+        "thinking_tokens": 113,
+        "cost_usd": 0.002696,
+        "duration_ms": 5506
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 858,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 77,
+        "thinking_tokens": 64,
+        "cost_usd": 0.002486,
+        "duration_ms": 3685
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 190,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.1e-05,
+        "duration_ms": 1097
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 187,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.07e-05,
+        "duration_ms": 899
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇳🇫 ➖ 🌲\n🧍‍♀️ 🧑‍🔧 🏩\n🥖 🍗 🧃 🚫\n🧍‍♀️ 🆚 🕴️ 💶</msg>",
+      "delivered": "🇳🇫 ➖ 🌲\n🧍‍♀️ 🧑‍🔧 🏩\n🥖 🍗\n🧍‍♀️ 🕴️ 💶",
+      "dropped_chars": 3,
+      "off_keyboard": [
+        "🧃",
+        "🚫"
+      ],
+      "retried": false,
+      "guesser": "Is this about prostitution or sex work, in a particular country or territory? Does 🇳🇫 ➖ 🌲 indicate Norfolk Island, or an island that lost its forests?\n\nIs this about **prostitution or sex work** in a particular place? Does 🇳🇫 ➖ 🌲 mean **Norfolk Island**, or an island that lost its forests?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🙅‍♂️\n🇳🇫 ✂️ 🌲 🟩\n🧍‍♀️ 👩‍✈️\n🤲 🏩 🛌 🩺\n🍉 🍖 🧂 🍯 👀\n💶 🎭 🛑</msg>",
+      "delivered": "🇳🇫 ✂️ 🌲\n🧍‍♀️ 👩‍✈️\n🤲 🏩 🛌\n🍉 🍖 🧂 🍯 👀\n💶",
+      "dropped_chars": 5,
+      "off_keyboard": [
+        "🙅‍♂️",
+        "🟩",
+        "🩺",
+        "🎭",
+        "🛑"
+      ],
+      "retried": false,
+      "guesser": "🇳🇫 with the tree removed looks like Nigeria’s flag. The other clues suggest women offering sexual services for money, hotels, or food.\n\nGUESS: Prostitution in Nigeria",
+      "guess": "Prostitution in Nigeria",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🇳🇫 ✂️ 🌲 💯\n🍆 🍑 💶 👎🏻\n🧍‍♀️ 👩‍🏭 🧠\n🍗 🥖 🍯 🍃 🎛️\n🦹 💷 🤺\n👩‍💻 👎🏻</msg>",
+      "delivered": "🇳🇫 ✂️ 🌲 💯\n🍆 🍑 💶\n🧍‍♀️ 👩‍🏭 🧠\n🍗 🥖 🍯 🍃 🎛️\n🦹 💷 🤺",
+      "dropped_chars": 3,
+      "off_keyboard": [
+        "👎🏻",
+        "👩‍💻",
+        "👎🏻"
+      ],
+      "retried": false,
+      "guesser": "Nigeria is confirmed, and sex work seems central. Is the article about **a particular woman**, an **organization**, or a **practice**? Do the food, honey, leaves, and controls represent **cooking**, **herbal medicine**, or **slang names for sex work**?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🧍‍♀️ 💯\n🍆 🍑 💶 ⛔️\n🍃 🧑‍🏭 🏩 💯\n🍗 🥖 🍯 👩‍✈️ 🎛️\n🦹 🧑‍🏭 💷 🤺\n🧔 🔫 💔</msg>",
+      "delivered": "🧍‍♀️ 💯\n🍆 🍑 💶\n🍃 🧑‍🏭 🏩 💯\n🍗 🥖 🍯 👩‍✈️ 🎛️\n🦹 🧑‍🏭 💷 🤺\n🧔 🔫 💔",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "⛔"
+      ],
+      "retried": false,
+      "guesser": "GUESS: Patoo Abraham",
+      "guess": "Patoo Abraham",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>🍆 🍑 💶 🙂‍↔️ 🙂‍↔️ 🙂‍↔️\n🧍‍♀️ 🇳🇫 ✂️ 🌲\n🧑‍🍳 🍖 🥖 🍯 🎛️\n🍃 🥵 🛌 🧑‍🔧 🎛️\n🦹 🏴‍☠️ 🙂‍↔️\n👨‍🏫 🏫 🧠\n🧔 🔫 💔</msg>",
+      "delivered": "🍆 🍑 💶 🙂‍↔️ 🙂‍↔️ 🙂‍↔️\n🧍‍♀️ 🇳🇫 ✂️ 🌲\n🧑‍🍳 🍖 🥖 🍯 🎛️\n🍃 🥵 🛌 🧑‍🔧 🎛️\n🦹 🙂‍↔️\n👨‍🏫 🏫 🧠\n🧔 🔫 💔",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🏴‍☠️"
+      ],
+      "retried": false,
+      "guesser": "GUESS: Dora Akunyili",
+      "guess": "Dora Akunyili",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 12,
+    "round": 16,
+    "n_banned": 322,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

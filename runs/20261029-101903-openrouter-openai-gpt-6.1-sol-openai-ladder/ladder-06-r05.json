@@ -1,0 +1,265 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Jakob von Washington",
+    "description": "Bavarian general (1778–1848)",
+    "extract": "\nBaron Jacobus von Washington was a lieutenant general in the Bavarian Army and a distant relative of US President George Washington. Born in The Hague, Netherlands, he was christened James Washington. Most of his adult life was shaped by his participation in wars for and against Napoleonic France and his service to Ludwig I of Bavaria.",
+    "url": "https://en.wikipedia.org/wiki/Jakob_von_Washington"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 127.8,
+  "usage": {
+    "explainer": {
+      "input_tokens": 3611,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2682,
+      "output_tokens": 1743,
+      "thinking_tokens": 1313,
+      "cost_usd": 0.0257917,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 3021,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1606,
+      "thinking_tokens": 1322,
+      "cost_usd": 0.022102,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 179,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 1.99e-05,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 844,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 410,
+        "thinking_tokens": 351,
+        "cost_usd": 0.005788,
+        "duration_ms": 16485
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1015,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 356,
+        "thinking_tokens": 280,
+        "cost_usd": 0.00559,
+        "duration_ms": 13773
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1212,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 390,
+        "thinking_tokens": 300,
+        "cost_usd": 0.0069285,
+        "duration_ms": 13620
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 267,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1209,
+        "output_tokens": 234,
+        "thinking_tokens": 135,
+        "cost_usd": 0.0031269,
+        "duration_ms": 9059
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 273,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1473,
+        "output_tokens": 353,
+        "thinking_tokens": 247,
+        "cost_usd": 0.0043583,
+        "duration_ms": 12431
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 315,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 255,
+        "thinking_tokens": 146,
+        "cost_usd": 0.00318,
+        "duration_ms": 8114
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 488,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 282,
+        "thinking_tokens": 271,
+        "cost_usd": 0.003796,
+        "duration_ms": 12868
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 598,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 299,
+        "thinking_tokens": 240,
+        "cost_usd": 0.004186,
+        "duration_ms": 10877
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 737,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 346,
+        "thinking_tokens": 298,
+        "cost_usd": 0.004934,
+        "duration_ms": 13621
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 883,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 424,
+        "thinking_tokens": 367,
+        "cost_usd": 0.006006,
+        "duration_ms": 15998
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 179,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.99e-05,
+        "duration_ms": 945
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🤺 🇪🇺 💠💠💠\n👕💧🌀 ⚓\n🧑‍🤝‍🧑 🤵 🏦\n🕰️ 🎠 🦴</msg>",
+      "delivered": "🤺 🇪🇺 💠💠💠\n👕💧🌀 ⚓\n🧑‍🤝‍🧑 🤵 🏦\n🕰️ 🎠 🦴",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is this a person, an organization, or a place? I’m reading 🤺 as fencing, 🇪🇺 as Europe, and 💠💠💠 as three titles or medals. Please identify the category and, if possible, country and era.\n\nIs this a **person, organization, or place**? I’m reading 🤺 as fencing and 💠💠💠 as three titles or medals. Can you indicate the category, country, and era?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🧑 🤺 💠💠💠\n🖤❤️💛 💠◽💠◽\n🕰️ 🐓 🤺 🌍\n👕 🚰 🧽\n🧑‍🤝‍🧑 🗳️ 🦳</msg>",
+      "delivered": "🧑 🤺 💠💠💠\n🖤❤️💛 💠◽💠◽\n🕰️ 🐓 🤺 🌍\n👕 🚰\n🧑‍🤝‍🧑 🗳️",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🧽"
+      ],
+      "retried": false,
+      "guesser": "GUESS: Thomas Bach",
+      "guess": "Thomas Bach",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🙅‍♂️ 🤺🏆\n🧑 🪖 🚶🚶🚶\n🖤❤️💛 💠◽💠◽\n🧑‍🤝‍🧑 🗳️ 👆 🤵\n🟥◽🟥◽🟥\n✨✨✨\n👕💧🤲</msg>",
+      "delivered": "🙅‍♂️ 🤺🏆\n🧑 🚶🚶🚶\n🖤❤️💛 💠◽💠◽\n🧑‍🤝‍🧑 🗳️ 👆 🤵\n🟥◽🟥◽🟥\n✨✨✨\n👕💧🤲",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🪖"
+      ],
+      "retried": false,
+      "guesser": "A German politician from Bavaria, rather than a competitive fencer? Does 🟥◽🟥◽🟥 mean Franconia? Please show their city or political party, and whether 🤺 refers to military service, duelling, or their name.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🗳️ ⛔\n🤺 🟢 🚶🚶🚶 🧑 💫💫💫\n💠◽💠◽ 💠◽💠◽\n🧑‍🤝‍🧑 🇺🇸\n👕💧🫳🫴 🏋️\n🦷🪵 🪓 🍒</msg>",
+      "delivered": "🗳️ ⛔\n🤺 🟢 🚶🚶🚶 🧑 💫💫💫\n💠◽💠◽ 💠◽💠◽\n🧑‍🤝‍🧑\n👕💧🫳🫴",
+      "dropped_chars": 6,
+      "off_keyboard": [
+        "🇺🇸",
+        "🏋️",
+        "🦷",
+        "🪵",
+        "🪓",
+        "🍒"
+      ],
+      "retried": false,
+      "guesser": "Does 🤺 mean a knight or the name “Ritter,” rather than fencing? And is 👕💧 a clue to laundry, soap, or a detergent business? Is the subject connected to Bavaria?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>💠◽💠◽ 🟢\n🤺 🟢 🚶🚶🚶 🧑 💫💫💫\n🧴 🧽 🧺 ⛔\n🧑‍🤝‍🧑 🌎 🗳️ 👆 ◽🏡\n👕💧🌀 ⚓\n🕰️ ⏳ 🐓 🤺 🇪🇺</msg>",
+      "delivered": "💠◽💠◽ 🟢\n🤺 🟢 🚶🚶🚶 🧑 💫💫💫\n⛔\n🧑‍🤝‍🧑 🌎 🗳️ 👆 ◽🏡\n👕💧🌀 ⚓\n🕰️ ⏳ 🐓 🤺 🇪🇺",
+      "dropped_chars": 3,
+      "off_keyboard": [
+        "🧴",
+        "🧽",
+        "🧺"
+      ],
+      "retried": false,
+      "guesser": "Is the person a Bavarian fencer who won three Olympic medals and later led an international sports organization? Does 👕💧🌀⚓ represent their surname, their job, or a place? Please give birth/death dates in emoji digits.",
+      "guess": null,
+      "correct": null
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 6,
+    "round": 5,
+    "n_banned": 135,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

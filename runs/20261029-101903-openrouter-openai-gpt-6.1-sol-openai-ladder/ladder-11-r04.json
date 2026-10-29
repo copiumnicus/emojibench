@@ -1,0 +1,151 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Ayribobo",
+    "description": "Highest mountain of Turkmenistan",
+    "extract": "Ayribobo or Aýrybaba, officially named the Great Saparmyrat Turkmenbashi Peak in Turkmenistan since 2004, is a mountain in Central Asia. At 3,138 metres (10,295 ft) Aýrybaba is the highest mountain in Turkmenistan. It is located in the Köýtendag Range of the Pamir-Alay chain in the southeast of Turkmenistan on the Uzbekistani border.",
+    "url": "https://en.wikipedia.org/wiki/Ayribobo"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 30.9,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1553,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 473,
+      "thinking_tokens": 361,
+      "cost_usd": 0.007836,
+      "calls": 2
+    },
+    "guesser": {
+      "input_tokens": 744,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 259,
+      "thinking_tokens": 158,
+      "cost_usd": 0.004078,
+      "calls": 2
+    },
+    "judge": {
+      "input_tokens": 178,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 219,
+      "thinking_tokens": 215,
+      "cost_usd": 0.0001273,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 689,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 308,
+        "thinking_tokens": 268,
+        "cost_usd": 0.004458,
+        "duration_ms": 13044
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 864,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 165,
+        "thinking_tokens": 93,
+        "cost_usd": 0.003378,
+        "duration_ms": 5789
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 295,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 210,
+        "thinking_tokens": 123,
+        "cost_usd": 0.00269,
+        "duration_ms": 6983
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 449,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 49,
+        "thinking_tokens": 35,
+        "cost_usd": 0.001388,
+        "duration_ms": 3364
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 178,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 219,
+        "thinking_tokens": 215,
+        "cost_usd": 0.0001273,
+        "duration_ms": 1757
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🏞️ 🔼🔼🔼\n🦃👨 🕋 🏳️\n🏞️ 🔝</msg>",
+      "delivered": "🏞️ 🔼🔼🔼\n🦃👨 🕋 🏳️\n🏞️",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is this a geographical place, especially a mountain, valley, or highland? Does 🦃👨 mean “Turkmen,” and does 🕋🏳️ indicate Afghanistan?\n\n\nIs this a geographical place—a mountain, valley, or highland? Does 🦃👨 mean “Turkmen,” and does 🕋🏳️ mean Afghanistan?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🏞️🔼 ✅\n🦃👨 ✅\n🕋🏳️ ❌\n\n🦃👨 🏞️ 🔼🔼🔼 ✅\n🥈❌ 🥉❌\n🇺🇳 🌐 🏞️</msg>",
+      "delivered": "🏞️🔼 ✅\n🦃👨 ✅\n🕋🏳️ ❌\n🦃👨 🏞️ 🔼🔼🔼 ✅\n🥈❌ 🥉❌\n🇺🇳 🌐 🏞️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Aýrybaba",
+      "guess": "Aýrybaba",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 11,
+    "round": 4,
+    "n_banned": 70,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

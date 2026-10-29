@@ -1,0 +1,142 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Baggio–Yoshinari syndrome",
+    "description": "Medical condition",
+    "extract": "Baggio–Yoshinari syndrome (BYS), formerly known as the Brazilian Lyme disease-like illness (BLDLI) and Brazilian Human Borreliosis, is an anthropozoonotic infectious disease of infectious-reactional character transmitted by bites of ticks from Amblyomma, Rhipicephalus and Dermacentor genera, that clinically resembles the Lyme Disease (LD) seen in the northern hemisphere. It is postulated to be caused by mutant Borrelia burgdorferi sensu lato spirochetes that assumed atypical pleomorphic forms and latent behavior in an attempt to adapt to the Brazilian ecosystem, explaining many particularities of the condition relative to the classical Lyme Disease, such as being transmitted by ticks others than those within the Ixodes ricinus complex, the difficulty culturing the etiological agent in traditional medium (BSK-II) and the poor growing of the spirochetes in atypical medium (SP-4), the frequent reactivations due to evading and surviving antibiotic treatment and eliciting low and transient immune response to Borrelia burgdorferi sensu lato antigens because of the hiding from the immune system. The pleomorphic forms are thought to include round bodies resembling Chlamydia, non spiralled spirochete-like forms, blebs and cell wall deficient variants resembling Mycoplasma as seen in dark field microscopy and electron field microscopy searching bacteria in the blood of patients. Spirochete-like structures are seen in around 90% of the patients when analyzing their peripheral blood in dark field microscopy.",
+    "url": "https://en.wikipedia.org/wiki/Baggio%E2%80%93Yoshinari_syndrome"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 23.1,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1883,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 321,
+      "thinking_tokens": 189,
+      "cost_usd": 0.0075065,
+      "calls": 2
+    },
+    "guesser": {
+      "input_tokens": 804,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 266,
+      "thinking_tokens": 141,
+      "cost_usd": 0.004268,
+      "calls": 2
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 819,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 193,
+        "thinking_tokens": 137,
+        "cost_usd": 0.003568,
+        "duration_ms": 7759
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1064,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 128,
+        "thinking_tokens": 52,
+        "cost_usd": 0.0039385,
+        "duration_ms": 4984
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 310,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 221,
+        "thinking_tokens": 113,
+        "cost_usd": 0.00283,
+        "duration_ms": 7592
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 494,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 45,
+        "thinking_tokens": 28,
+        "cost_usd": 0.001438,
+        "duration_ms": 2722
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "💚💛💙 🦜☕🥁\n🐜🫦 🧬 🤧 💊\n🍈🦟🟠 ⭕️\n👨‍⚕➡️🍝🍣",
+      "delivered": "💚💛💙 🦜☕🥁\n🐜🫦 🧬 🤧 💊\n🍈🦟🟠 ⭕\n🍝🍣",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "👨‍⚕️",
+        "➡️"
+      ],
+      "retried": false,
+      "guesser": "I read Brazil, then an insect/bite, genetics, allergy/medicine, and foods. Is the article about a species, a disease/allergy, or a food? Please indicate the main category and clarify what 🐜🫦 represents.\n\nIs this about **Brazil**? Is the main subject an **insect species**, a **disease/allergy**, or a **food**? What does 🐜🫦 mean—an ant bite?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "💚💛💙 👍\n🤧🤢🤮💊 👍\n🐜 👎 🐞🫦\n🍽️ 👎\n🐞🫦 🔄 ⭕🩹 🦴🔥 💊\n🍝👨‍🏫 ➕ 🍣👨‍🏫",
+      "delivered": "💚💛💙 👍\n🤧🤢🤮💊 👍\n🐜 👎 🐞🫦\n🍽️ 👎\n🐞🫦 🔄 ⭕🩹 🦴🔥 💊\n🍝👨‍🏫 ➕ 🍣👨‍🏫",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Baggio–Yoshinari syndrome",
+      "guess": "Baggio–Yoshinari syndrome",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 3,
+    "round": 2,
+    "n_banned": 39,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

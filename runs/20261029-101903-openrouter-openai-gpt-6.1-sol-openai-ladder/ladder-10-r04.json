@@ -1,0 +1,258 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Accord Pond",
+    "description": "Lake in Massachusetts, USA",
+    "extract": "Accord Pond is a 100-acre (0.40 km2) reservoir in Hingham, Norwell and Rockland, Massachusetts. The reservoir is located off Route 228 at its terminus with Route 3. The reservoir is visible from Route 3 northbound at Exit 14, the Route 228 off-ramp. The reservoir is a Class A source of water supply for the town of Hingham and Hull Ma. The outflow of the reservoir is Accord Brook, a tributary of the Weir River.",
+    "url": "https://en.wikipedia.org/wiki/Accord_Pond"
+  },
+  "solved": true,
+  "turns_taken": 5,
+  "solved_turn": 5,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 76.4,
+  "usage": {
+    "explainer": {
+      "input_tokens": 3182,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2393,
+      "output_tokens": 988,
+      "thinking_tokens": 616,
+      "cost_usd": 0.0172193,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 2858,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1070,
+      "thinking_tokens": 837,
+      "cost_usd": 0.016416,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 186,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 2.06e-05,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 758,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 316,
+        "thinking_tokens": 272,
+        "cost_usd": 0.004676,
+        "duration_ms": 11980
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 943,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 247,
+        "thinking_tokens": 191,
+        "cost_usd": 0.004356,
+        "duration_ms": 8397
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1067,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 149,
+        "thinking_tokens": 58,
+        "cost_usd": 0.004156,
+        "duration_ms": 5274
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 268,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1064,
+        "output_tokens": 152,
+        "thinking_tokens": 62,
+        "cost_usd": 0.0022949,
+        "duration_ms": 5437
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 146,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1329,
+        "output_tokens": 124,
+        "thinking_tokens": 33,
+        "cost_usd": 0.0017364,
+        "duration_ms": 4196
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 297,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 227,
+        "thinking_tokens": 149,
+        "cost_usd": 0.002864,
+        "duration_ms": 7529
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 425,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 257,
+        "thinking_tokens": 199,
+        "cost_usd": 0.00342,
+        "duration_ms": 8587
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 567,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 262,
+        "thinking_tokens": 219,
+        "cost_usd": 0.003754,
+        "duration_ms": 8871
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 718,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 264,
+        "thinking_tokens": 221,
+        "cost_usd": 0.004076,
+        "duration_ms": 10720
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 851,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 60,
+        "thinking_tokens": 49,
+        "cost_usd": 0.002302,
+        "duration_ms": 4520
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 186,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.06e-05,
+        "duration_ms": 867
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>📃🖊️⚖️ 💦\n\n💦🏞️\n\n🫘🍀🏀 🦐\n🚿🥤</msg>",
+      "delivered": "📃🖊️⚖️ 💦\n💦\n🫘🍀🏀 🦐\n🚿🥤",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🏞️"
+      ],
+      "retried": false,
+      "guesser": "Is this a law or legal document concerning water? What do 🫘🍀🏀🦐 represent—places, people, or uses of water?\n\nIs this an article about a law concerning water? Please clarify 🫘🍀🏀🦐—are these places, people, or uses of water?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>⚖️📃 ⛔\n\n📌🫘🍀🏀 🏛️\n\n💦🌿🐢 🥤🚿\n\n📛 🚙 📃🖊️</msg>",
+      "delivered": "⚖️📃 ⛔\n📌🫘🍀🏀 🏛️\n💦🌿🐢 🥤🚿\n📛 🚙 📃🖊️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "🫘🍀🏀 looks like Boston (Beantown, Irish, Celtics). Is this a Boston institution studying water, ecology, and drinking water? Does 🚙📃🖊️ indicate someone’s name, such as Ford or Carson?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🫘🍀🏀 🎯\n🏛️🔬 ⛔\n💦🌿🐢 🥤 🎯\n\n🚙📛 🕊️⛔\n📃🖊️ 🙆‍♀️🙆‍♂️ ⚖️\n\n🫘🍀🏀\n⬇️\n💦🌿🐢</msg>",
+      "delivered": "🫘🍀🏀\n🏛️🔬 ⛔\n💦🌿🐢 🥤\n🚙📛 ⛔\n📃🖊️ 🙆‍♀️🙆‍♂️ ⚖️\n🫘🍀🏀\n⬇️\n💦🌿🐢",
+      "dropped_chars": 3,
+      "off_keyboard": [
+        "🎯",
+        "🎯",
+        "🕊️"
+      ],
+      "retried": false,
+      "guesser": "Is it a lawsuit rather than a law—perhaps a Boston-area case about polluted drinking water, depicted in “A Civil Action”?\n\nGUESS: Anderson v. Cryovac, Inc.",
+      "guess": "Anderson v. Cryovac, Inc.",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>⛔ ⚖️ ⛔ 📃\n\n📚📛\n💑🙆‍♀️🙆‍♂️ 🕯️\n💦🌱🐢\n\n🚙📛 💑🙆‍♀️🙆‍♂️\n\n📌 🫘🍀🏀 ⬇️\n💦 🥤🚿</msg>",
+      "delivered": "⛔ ⚖️ ⛔ 📃\n📚📛\n💑🙆‍♀️🙆‍♂️ 🕯️\n💦🌱🐢\n🚙📛 💑🙆‍♀️🙆‍♂️\n📌 🫘🍀🏀 ⬇️\n💦 🥤🚿",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is the article about a freshwater pond or nature reserve south of Boston, named in memory of a married couple? Does 🚙 suggest the surname Ford, Dodge, or another car brand?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>💦🌱🐢 ☑️\n🫘🍀🏀⬇️ ☑️\n💑🕯️ ⛔\n\n🚙📛 ☑️\n🚙 📛 🗾\n📛 📝⛔ 🤲 ⚖️ 📃🖊️\n\n💦🌱🐢 🥤🚿</msg>",
+      "delivered": "💦🌱🐢 ☑️\n🫘🍀🏀⬇️ ☑️\n💑🕯️ ⛔\n🚙📛 ☑️\n🚙 📛 🗾\n📛 ⛔ 🤲 ⚖️ 📃🖊️\n💦🌱🐢 🥤🚿",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "📝"
+      ],
+      "retried": false,
+      "guesser": "GUESS: Accord Pond",
+      "guess": "Accord Pond",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 10,
+    "round": 4,
+    "n_banned": 96,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

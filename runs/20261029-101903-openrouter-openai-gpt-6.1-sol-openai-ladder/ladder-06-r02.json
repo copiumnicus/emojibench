@@ -1,0 +1,141 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Jakob von Washington",
+    "description": "Bavarian general (1778–1848)",
+    "extract": "\nBaron Jacobus von Washington was a lieutenant general in the Bavarian Army and a distant relative of US President George Washington. Born in The Hague, Netherlands, he was christened James Washington. Most of his adult life was shaped by his participation in wars for and against Napoleonic France and his service to Ludwig I of Bavaria.",
+    "url": "https://en.wikipedia.org/wiki/Jakob_von_Washington"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 31.3,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1380,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 416,
+      "thinking_tokens": 264,
+      "cost_usd": 0.006920000000000001,
+      "calls": 2
+    },
+    "guesser": {
+      "input_tokens": 820,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 536,
+      "thinking_tokens": 428,
+      "cost_usd": 0.006999999999999999,
+      "calls": 2
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 606,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 309,
+        "thinking_tokens": 240,
+        "cost_usd": 0.004302,
+        "duration_ms": 11080
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 774,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 107,
+        "thinking_tokens": 24,
+        "cost_usd": 0.002618,
+        "duration_ms": 3339
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 325,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 398,
+        "thinking_tokens": 302,
+        "cost_usd": 0.00463,
+        "duration_ms": 11464
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 495,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 138,
+        "thinking_tokens": 126,
+        "cost_usd": 0.00237,
+        "duration_ms": 5449
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🫡🛡️ 🔵⚪🏔️\n👪↔️🗽🥇🦷🪵\n🐣🧀🚲🌊\n🥖🥐💣 🔄 🥖🥐💣</msg>",
+      "delivered": "🫡🛡️ 🔵⚪🏔️\n👪↔️🗽🥇🦷🪵\n🐣🧀🚲🌊\n🥖🥐💣 🔄 🥖🥐💣",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is this a military person's biography? Does 🔵⚪🏔️ mean Switzerland, Bavaria, or Finland? And does 🗽🥇🦷🪵 point to George Washington?\n\nIs this a military person’s biography? Does 🔵⚪🏔️ mean Switzerland, Bavaria, or Finland? And does 🗽🥇🦷🪵 point to George Washington?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>✅ 🫡📜\n🔵⚪🏔️ ✅ 🥨🚫\n🗽🥇🦷🪵 ✅\n👪↔️🗽🥇🦷🪵\n🐣 🧀🚲🌊\n🫡 🔵⚪🏔️</msg>",
+      "delivered": "✅ 🫡📜\n🔵⚪🏔️ ✅ 🚫\n🗽🥇🦷🪵 ✅\n👪↔️🗽🥇🦷🪵\n🐣 🧀🚲🌊\n🫡 🔵⚪🏔️",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🥨"
+      ],
+      "retried": false,
+      "guesser": "GUESS: Jakob von Washington",
+      "guess": "Jakob von Washington",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 6,
+    "round": 2,
+    "n_banned": 49,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Iglesia de Santa Ana (Santiago de Chile)",
+    "description": "National monument of Chile",
+    "extract": "The Iglesia de Santa Ana is a Catholic church in downtown Santiago de Chile. It is located at the northwest corner of Catedral and San Martín streets. The church was declared as a National Monument of Chile in 1970, within the category of Historic Monuments. Santa Ana metro station is named after the church.",
+    "url": "https://en.wikipedia.org/wiki/Iglesia_de_Santa_Ana_(Santiago_de_Chile)"
+  },
+  "solved": true,
+  "turns_taken": 1,
+  "solved_turn": 1,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 18.2,
+  "usage": {
+    "explainer": {
+      "input_tokens": 493,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 462,
+      "thinking_tokens": 397,
+      "cost_usd": 0.002803,
+      "calls": 1
+    },
+    "guesser": {
+      "input_tokens": 320,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 398,
+      "thinking_tokens": 346,
+      "cost_usd": 0.00231,
+      "calls": 1
+    },
+    "judge": {
+      "input_tokens": 198,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 2.18e-05,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 493,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 462,
+        "thinking_tokens": 397,
+        "cost_usd": 0.002803,
+        "duration_ms": 10542
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 320,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 398,
+        "thinking_tokens": 346,
+        "cost_usd": 0.00231,
+        "duration_ms": 6714
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 198,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.18e-05,
+        "duration_ms": 902
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>\n✝️🛐🏠\n\n🎅 ❄️👸\n\n🌆 🌶️ 🌎\n🐚🚶\n\n🧑‍🦳 🤱 👸 🤱 ✝️\n\n🚉⬇️\n</msg>",
+      "delivered": "✝️🛐🏠\n🎅 ❄️👸\n🌆 🌶️ 🌎\n🐚🚶\n🧑‍🦳 🤱 👸 🤱 ✝️\n🚉⬇️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I read this as the Church of Santa Ana in Santiago, Chile: Ana from *Frozen*, Santiago from the pilgrim’s shell, and Saint Anne as Mary’s mother.\n\nGUESS: Church of Santa Ana, Santiago de Chile",
+      "guess": "Church of Santa Ana, Santiago de Chile",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 15,
+    "round": 1,
+    "n_banned": 14,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Ayribobo",
+    "description": "Highest mountain of Turkmenistan",
+    "extract": "Ayribobo or Aýrybaba, officially named the Great Saparmyrat Turkmenbashi Peak in Turkmenistan since 2004, is a mountain in Central Asia. At 3,138 metres (10,295 ft) Aýrybaba is the highest mountain in Turkmenistan. It is located in the Köýtendag Range of the Pamir-Alay chain in the southeast of Turkmenistan on the Uzbekistani border.",
+    "url": "https://en.wikipedia.org/wiki/Ayribobo"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 27.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1161,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 305,
+      "thinking_tokens": 167,
+      "cost_usd": 0.005372,
+      "calls": 2
+    },
+    "guesser": {
+      "input_tokens": 772,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 285,
+      "thinking_tokens": 203,
+      "cost_usd": 0.004394,
+      "calls": 2
+    },
+    "judge": {
+      "input_tokens": 356,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 333,
+      "thinking_tokens": 325,
+      "cost_usd": 0.0002021,
+      "calls": 2
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 511,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 157,
+        "thinking_tokens": 103,
+        "cost_usd": 0.002592,
+        "duration_ms": 5529
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 650,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 148,
+        "thinking_tokens": 64,
+        "cost_usd": 0.00278,
+        "duration_ms": 5116
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 310,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 210,
+        "thinking_tokens": 142,
+        "cost_usd": 0.00272,
+        "duration_ms": 8152
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 462,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 75,
+        "thinking_tokens": 61,
+        "cost_usd": 0.001674,
+        "duration_ms": 5129
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 178,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.98e-05,
+        "duration_ms": 871
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 178,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 329,
+        "thinking_tokens": 325,
+        "cost_usd": 0.0001823,
+        "duration_ms": 2155
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>⛰️⬆️🥇\n🏜️🔥🕳️🐎\n🇮🇷🇦🇫🇰🇿\n⛰️👴🏻🗿</msg>",
+      "delivered": "⛰️⬆️🥇\n🏜️🔥🕳️🐎\n🇮🇷🇦🇫🇰🇿\n⛰️👴🏻🗿",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is this a mountain or mountain range? Do ⬆️🥇 mean “highest peak,” and do 🇮🇷🇦🇫🇰🇿 indicate Central Asia?\n\n\nMy first candidate is the highest volcano in Asia.\n\nGUESS: Mount Damavand",
+      "guess": "Mount Damavand",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👎🌋\n👍⛰️⬆️🥇\n🇮🇷👎 🇦🇫👎 🇰🇿👎\n🟩🌙⭐️⭐️⭐️⭐️⭐️\n🏜️🔥🕳️🐎\n⛰️📛👴🏻🗿</msg>",
+      "delivered": "👎🌋\n👍⛰️⬆️🥇\n🇮🇷👎 🇦🇫👎 🇰🇿👎\n🟩🌙⭐⭐⭐⭐⭐\n🏜️🔥🕳️🐎\n⛰️📛👴🏻🗿",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Aýrybaba",
+      "guess": "Aýrybaba",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 11,
+    "round": 1,
+    "n_banned": 8,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

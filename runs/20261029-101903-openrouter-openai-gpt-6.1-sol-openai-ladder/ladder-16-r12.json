@@ -1,0 +1,234 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Grande Seca",
+    "description": "Brazilian drought (1877–1878)",
+    "extract": "The Grande Seca, or the Brazilian drought of 1877–1878, was the largest and most devastating drought in Brazilian history. It caused the deaths of between 400,000 and 500,000 people. Of the 800,000 people who lived in the affected Northeastern region, around 120,000 migrated to the Amazon while 68,000 migrated to other parts of Brazil.",
+    "url": "https://en.wikipedia.org/wiki/Grande_Seca"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 123.9,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1951,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 4333,
+      "output_tokens": 2267,
+      "thinking_tokens": 1927,
+      "cost_usd": 0.0279748,
+      "calls": 4
+    },
+    "guesser": {
+      "input_tokens": 2083,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 998,
+      "thinking_tokens": 720,
+      "cost_usd": 0.014146,
+      "calls": 4
+    },
+    "judge": {
+      "input_tokens": 182,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 2.02e-05,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1210,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 963,
+        "thinking_tokens": 889,
+        "cost_usd": 0.0126535,
+        "duration_ms": 35888
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 240,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1207,
+        "output_tokens": 534,
+        "thinking_tokens": 456,
+        "cost_usd": 0.0060592,
+        "duration_ms": 20996
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 241,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1444,
+        "output_tokens": 476,
+        "thinking_tokens": 389,
+        "cost_usd": 0.0055054,
+        "duration_ms": 19849
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 260,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1682,
+        "output_tokens": 294,
+        "thinking_tokens": 193,
+        "cost_usd": 0.0037567,
+        "duration_ms": 11235
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 305,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 241,
+        "thinking_tokens": 154,
+        "cost_usd": 0.00302,
+        "duration_ms": 7043
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 446,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 220,
+        "thinking_tokens": 161,
+        "cost_usd": 0.003092,
+        "duration_ms": 8275
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 586,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 366,
+        "thinking_tokens": 306,
+        "cost_usd": 0.004832,
+        "duration_ms": 12040
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 746,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 171,
+        "thinking_tokens": 99,
+        "cost_usd": 0.003202,
+        "duration_ms": 7710
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 182,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.02e-05,
+        "duration_ms": 835
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🏳️ 🥬 🔸 💠\n😓 🫧 ⭕ 🥛 ⭕ 🍖 ⭕ 👻👻👻\n⌚\n🕐 🕗 🕖 🕖\n🕐 🕗 🕖 🕗</msg>",
+      "delivered": "🏳️ 🥬 🔸 💠\n😓 🫧 ⭕ 🥛 ⭕ 🍖 ⭕ 👻👻👻\n⌚",
+      "dropped_chars": 8,
+      "off_keyboard": [
+        "🕐",
+        "🕗",
+        "🕖",
+        "🕖",
+        "🕐",
+        "🕗",
+        "🕖",
+        "🕗"
+      ],
+      "retried": false,
+      "guesser": "Is the first line indicating India? Is the article about a film, a person, a place, or a food? Please indicate the category and any date or word-by-word clues.\n\nIs the first line indicating India? Is the article about a film, a person, a place, or a food? Please indicate the category and any date or word-by-word clues.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🇮🇳 🤦\n🥬🔸💠 🦚 ☕️\n👑 ⛪ ⛱️\n😓 👅 🥛⭕\n🧑‍🤝‍🧑 👻👻👻\n🍖⭕ 🥖⭕\n🌵</msg>",
+      "delivered": "🇮🇳 🤦\n🥬🔸💠 🦚\n⛪ ⛱️\n😓 👅 🥛⭕\n👻👻👻\n🍖⭕ 🥖⭕",
+      "dropped_chars": 4,
+      "off_keyboard": [
+        "☕",
+        "👑",
+        "🧑‍🤝‍🧑",
+        "🌵"
+      ],
+      "retried": false,
+      "guesser": "Do ⛪⛱️ mean Goa, and 👻👻👻 mean ghosts or zombies? Is this a film set in Goa, or a Goan festival/custom? If it is a film, please give its release year using number emojis.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🇮🇳 🚮 🎬 🚮\n🥬 🔶 🔹 ✨\n🥋 🏎️ 🏁\n😓😓😓 🥛🫙 🤏\n🥖 🤏 🍖 🤏\n👶👩👨👵 👻👻👻\n🏠 🔜 🚢</msg>",
+      "delivered": "🇮🇳 🚮 🎬 🚮\n🥬 🔹 ✨\n🥋 🏎️ 🏁\n😓😓😓 🥛 🤏\n🥖 🤏 🍖 🤏\n👶👩👨👵 👻👻👻\n🏠 🚢",
+      "dropped_chars": 3,
+      "off_keyboard": [
+        "🔶",
+        "🫙"
+      ],
+      "retried": false,
+      "guesser": "I think the country is Brazil: green flag, yellow diamond, blue centre and stars. Correct? Is the subject a religion/spiritual practice involving spirits and going without food or drink, rather than a film? What does 🥋🏎️🏁 represent?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>☑️ 🥬🔸🔹✨\n🛐 🚮 🎬 🚮\n🔅🔅🔅 😓😓😓 🐫\n🥛📭 🛁📭 🥖📭\n👶👩👨👵 👻👻👻👻👻\n🏠 🔙 🚢\n🔅🔅🔅🔅🔅</msg>",
+      "delivered": "☑️ 🥬🔸🔹✨\n🛐 🚮 🎬 🚮\n🔅🔅🔅 😓😓😓 🐫\n🥛📭 🛁📭 🥖📭\n👶👩👨👵 👻👻👻👻👻\n🏠 🚢\n🔅🔅🔅🔅🔅",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Brazil is confirmed. Is this a drought or a ghost town abandoned because of drought or flooding? My leading idea is the Great Drought of 1877–1878 in Brazil. Please show the year with number emojis, and indicate whether 👻 means deaths or an abandoned town.\n\nGUESS: Great Drought (Brazil)",
+      "guess": "Great Drought (Brazil)",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 16,
+    "round": 12,
+    "n_banned": 254,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Proceratium silaceum",
+    "description": "Species of ant",
+    "extract": "Proceratium silaceum is a species of ant in the family Formicidae.",
+    "url": "https://en.wikipedia.org/wiki/Proceratium_silaceum"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 97.5,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2992,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2394,
+      "output_tokens": 2204,
+      "thinking_tokens": 1689,
+      "cost_usd": 0.01450895,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 2783,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 2512,
+      "thinking_tokens": 2307,
+      "cost_usd": 0.015343,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 173,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 1.93e-05,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 690,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 608,
+        "thinking_tokens": 555,
+        "cost_usd": 0.00373,
+        "duration_ms": 11722
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 784,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 405,
+        "thinking_tokens": 300,
+        "cost_usd": 0.002809,
+        "duration_ms": 9953
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 1047,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 409,
+        "thinking_tokens": 279,
+        "cost_usd": 0.003353,
+        "duration_ms": 10008
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 309,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1044,
+        "output_tokens": 420,
+        "thinking_tokens": 312,
+        "cost_usd": 0.0025377,
+        "duration_ms": 9627
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 162,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1350,
+        "output_tokens": 362,
+        "thinking_tokens": 243,
+        "cost_usd": 0.00207925,
+        "duration_ms": 8631
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 309,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 541,
+        "thinking_tokens": 510,
+        "cost_usd": 0.003014,
+        "duration_ms": 9563
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 428,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 408,
+        "thinking_tokens": 377,
+        "cost_usd": 0.002468,
+        "duration_ms": 7980
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 519,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 626,
+        "thinking_tokens": 572,
+        "cost_usd": 0.003649,
+        "duration_ms": 10941
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 696,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 519,
+        "thinking_tokens": 478,
+        "cost_usd": 0.003291,
+        "duration_ms": 9587
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 831,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 418,
+        "thinking_tokens": 370,
+        "cost_usd": 0.002921,
+        "duration_ms": 8237
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 173,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.93e-05,
+        "duration_ms": 1229
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🦟🦟🦟 🍭 🟫\n🏀👔 🔺🦖\n🌅 🧵 🖼️\n⏳ 🧵</msg>",
+      "delivered": "🦟🦟🦟 🍭 🟫\n🏀👔 🔺🦖\n🌅 🧵 🖼️\n⏳ 🧵",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is this a person associated with the Toronto Raptors? What does the first line represent? What do the last two lines mean?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🙅 🧍 🏀 🇨🇦\n\n🦟🦟🦟 🟤🔺\n🦟🦟🦟 🍰\n🦟🦟🦟 🐛 🪵\n🐞 🪲 🐝 🐜\n\n🧪 🌱 🦟\n🔤 🏟️ 🦖\n🏜️ 🧵</msg>",
+      "delivered": "🙅 🧍 🏀 🇨🇦\n🦟🦟🦟 🟤🔺\n🦟🦟🦟 🍰\n🦟🦟🦟 🪵\n🧪 🌱 🦟\n🏟️ 🦖\n🏜️ 🧵",
+      "dropped_chars": 6,
+      "off_keyboard": [
+        "🐛",
+        "🐞",
+        "🪲",
+        "🐝",
+        "🐜"
+      ],
+      "retried": false,
+      "guesser": "Is the article about a prehistoric insect, perhaps a fly found in Jurassic deposits? What do the cake and wood emojis represent?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🙅 🦖 🙅 🦟\n🦋 🦟 🦗 🪲 🐝 🐞 🐜 🟰 🐛\n🤏 🟤 🐛 🐛 🐛 🐛 🐛\n🍰 🍭 ⬅️ 🐛 🐛 🐛 🐛\n🪵 🌱 🟤⛰️ 🐛 🐛\n👸 🐛 ➕ 🐛 🐛 🐛 🐛</msg>",
+      "delivered": "🙅 🦖 🙅 🦟\n🦋 🦟 🟰\n🤏 🟤\n🍰 🍭 ⬅️\n🪵 🌱 🟤\n👸",
+      "dropped_chars": 24,
+      "off_keyboard": [
+        "🦗",
+        "🪲",
+        "🐝",
+        "🐞",
+        "🐜",
+        "🐛",
+        "🐛",
+        "🐛",
+        "🐛",
+        "🐛",
+        "🐛",
+        "🐛",
+        "🐛",
+        "🐛",
+        "🐛",
+        "⛰️",
+        "🐛",
+        "🐛",
+        "🐛",
+        "➕",
+        "🐛",
+        "🐛",
+        "🐛",
+        "🐛"
+      ],
+      "retried": false,
+      "guesser": "I think this is a small brown moth. Does 🍰🍭 mean sugar, and 🪵🌱 mean a plant it feeds on? Is 👸 part of the moth’s name?\n\nGUESS: Sugarcane borer",
+      "guess": "Sugarcane borer",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🙅 🦋 🙅 🦟\n👩‍🍼 👭 👩‍🦰\n👶 🫱 👩‍🦰 🔉\n👸 🏠 🤏🤏🤏🤏🤏\n🤏🤏🤏🤏🤏 🍰 🍭\n🤏🤏🤏🤏🤏 🪵 🌱\n🪨 🏜️ 🏠</msg>",
+      "delivered": "🙅 🦋 🙅 🦟\n👩‍🍼 👭 👩‍🦰\n👶 🫱 👩‍🦰 🔉\n👸 🏠 🤏🤏🤏🤏🤏\n🤏🤏🤏🤏🤏 🍰 🍭\n🤏🤏🤏🤏🤏 🪵 🌱\n🪨 🏜️ 🏠",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Are the tiny things dwarfs, as in Snow White and the Seven Dwarfs? Is this a fairy tale? What does the woman in the first two lines represent?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>🙅 📚 🧚 👸\n🧒 👩‍👧\n👩‍👧 👩‍🦰 🟰 👭\n🧒 👩‍🦰 🟰 ❓\n\n👩‍🦰 🟰 🔉 🟰 🤏 🟤 🪲\n🤏 🟤 🏘️ 🏜️\n🤏 🟤 🍬 🍰\n🐻 👅 🤏 🟤</msg>",
+      "delivered": "🙅 📚 🧚 👸\n👩‍🦰 🟰 👭\n👩‍🦰 🟰 ❓\n👩‍🦰 🟰 🔉 🟰 🤏 🟤\n🤏 🟤 🏜️\n🤏 🟤 🍰\n🐻 👅 🤏 🟤",
+      "dropped_chars": 7,
+      "off_keyboard": [
+        "🧒",
+        "👩‍👧",
+        "👩‍👧",
+        "🧒",
+        "🪲",
+        "🏘️",
+        "🍬"
+      ],
+      "retried": false,
+      "guesser": "The tiny brown things are ants (aunts sound the same). Is the article about an ant species, or something else with “ant” in its name? What do the basketball coach and dinosaur refer to?",
+      "guess": null,
+      "correct": null
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 1,
+    "round": 3,
+    "n_banned": 97,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Sage Derby",
+    "description": "Variety of cheese",
+    "extract": "Sage Derby is a variety of Derby cheese that is mild, mottled green and semi-hard, and has a sage flavour. The colour is from sage and sometimes other colouring added to the curds, producing a marbling effect and a subtle herb flavour. The colour is formed either by mixing sage leaves into the curd before it is pressed or by the addition of \"green curd\" from green corn or spinach juice. In the latter case, the flavour has to be created with colourless sage extract. Parsley, spinach and marigold leaves, bruised and steeped before use, can also be included instead of the sage leaves. It is aged for one to three months.",
+    "url": "https://en.wikipedia.org/wiki/Sage_Derby"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 24.5,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1304,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 594,
+      "thinking_tokens": 453,
+      "cost_usd": 0.004274,
+      "calls": 2
+    },
+    "guesser": {
+      "input_tokens": 744,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 447,
+      "thinking_tokens": 401,
+      "cost_usd": 0.002979,
+      "calls": 2
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 602,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 340,
+        "thinking_tokens": 285,
+        "cost_usd": 0.002302,
+        "duration_ms": 8047
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 702,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 254,
+        "thinking_tokens": 168,
+        "cost_usd": 0.001972,
+        "duration_ms": 6062
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 312,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 291,
+        "thinking_tokens": 256,
+        "cost_usd": 0.001767,
+        "duration_ms": 6153
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 432,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 156,
+        "thinking_tokens": 145,
+        "cost_usd": 0.001212,
+        "duration_ms": 4215
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🐄 🫕 🍕 🐭\n\n🧓 💡 🌱 🪴\n\n🎩 🏎️ 💥 🐏 ⚽\n\n🐸 🟡 🌀</msg>",
+      "delivered": "🐄 🫕 🍕 🐭\n🧓 💡 🌱 🪴\n🎩 🏎️ 💥 🐏 ⚽\n🐸 🟡 🌀",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I see cheese and an elderly inventor growing plants. Is this about a person or a fictional character? Can you give more clues about the title?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👎 🧑\n\n🍕 🐭 🐄 🥪\n\n🧓 💡 🟰 🌱 🍗\n\n🫏 🏆 🌹 🟰 🎩 🏙️ 🐏 ⚽\n\n🌱 + 🎩 🏙️ 🐏 ⚽ + 🍕 🐭</msg>",
+      "delivered": "👎 🧑\n🍕 🐭 🐄 🥪\n🧓 💡 🟰 🌱 🍗\n🫏 🏆 🌹 🟰 🎩 🏙️ 🐏 ⚽\n🌱 🎩 🏙️ 🐏 ⚽ 🍕 🐭",
+      "dropped_chars": 2,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Sage Derby",
+      "guess": "Sage Derby",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 19,
+    "round": 2,
+    "n_banned": 17,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

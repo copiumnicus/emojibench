@@ -1,0 +1,249 @@
+{
+  "model": "openrouter:deepseek/deepseek-v4-pro-0813@baidu/fp8",
+  "model_id": "deepseek/deepseek-v4-pro-0813",
+  "guesser_model": "openrouter:deepseek/deepseek-v4-pro-0813@baidu/fp8",
+  "guesser_model_id": "deepseek/deepseek-v4-pro-0813",
+  "effort": null,
+  "article": {
+    "title": "Mike Pieciak",
+    "description": "American politician (born 1983)",
+    "extract": "Michael Sullivan Pieciak is an American politician from Vermont. A member of the Democratic Party, Pieciak has served as Vermont State Treasurer since January 2023.",
+    "url": "https://en.wikipedia.org/wiki/Mike_Pieciak"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 588.0,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1391,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 3328,
+      "output_tokens": 8613,
+      "thinking_tokens": 8537,
+      "cost_usd": 0.004979505888,
+      "calls": 6
+    },
+    "guesser": {
+      "input_tokens": 1112,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1280,
+      "output_tokens": 24817,
+      "thinking_tokens": 24638,
+      "cost_usd": 0.013771974959999999,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 365,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 3519,
+        "thinking_tokens": 3499,
+        "cost_usd": 0.001991035296,
+        "duration_ms": 63830
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 472,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 1885,
+        "thinking_tokens": 1869,
+        "cost_usd": 0.001117578096,
+        "duration_ms": 31945
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 257,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 512,
+        "output_tokens": 267,
+        "thinking_tokens": 258,
+        "cost_usd": 0.000195692832,
+        "duration_ms": 6123
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 44,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 768,
+        "output_tokens": 331,
+        "thinking_tokens": 321,
+        "cost_usd": 0.000193351248,
+        "duration_ms": 7113
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 99,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 768,
+        "output_tokens": 1415,
+        "thinking_tokens": 1404,
+        "cost_usd": 0.000795754368,
+        "duration_ms": 23981
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 154,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 768,
+        "output_tokens": 1196,
+        "thinking_tokens": 1186,
+        "cost_usd": 0.000686094048,
+        "duration_ms": 20881
+      }
+    ],
+    "guesser": [
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 104,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 13173,
+        "thinking_tokens": 13097,
+        "cost_usd": 0.007219209456,
+        "duration_ms": 230256
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 198,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 5585,
+        "thinking_tokens": 5572,
+        "cost_usd": 0.003089642256,
+        "duration_ms": 95173
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 224,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 1884,
+        "thinking_tokens": 1851,
+        "cost_usd": 0.001071855936,
+        "duration_ms": 33685
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 270,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 2525,
+        "thinking_tokens": 2492,
+        "cost_usd": 0.001430528976,
+        "duration_ms": 44205
+      },
+      {
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "served_by": "Baidu",
+        "input_tokens": 316,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 256,
+        "output_tokens": 1650,
+        "thinking_tokens": 1626,
+        "cost_usd": 0.000960738336,
+        "duration_ms": 30848
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🟢⛰️\n👔💲</msg>",
+      "delivered": "🟢⛰️\n👔💲",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I read 🟢⛰️ as “Green Mountain” or “Greenhill,” and 👔💲 as business/finance. Is it a company? If so, please send one clarifying emoji: ☕ for coffee, 🏦 for investment bank, ⚡ for power/utility, or another disambiguating emoji.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🙅‍♂️ 🧍</msg>",
+      "delivered": "🙅‍♂️ 🧍",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is the person from Vermont (the Green Mountain State)?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>✅</msg>\n\n[RETRY]\n<msg>👌</msg>",
+      "delivered": "👌",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": true,
+      "guesser": "Thanks. To narrow it down: is this person primarily known as a politician?\n\nSend 🏛️ for yes, or 🚫 for no.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>👌</msg>",
+      "delivered": "👌",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Did this person serve in the U.S. House of Representatives at any point? Send 🏠 for yes, 🙅‍♂️ for no.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>🙅</msg>",
+      "delivered": "🙅",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Did this person serve in the U.S. Senate? Send 👌 for yes, 🙅 for no.",
+      "guess": null,
+      "correct": null
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 4,
+    "round": 2,
+    "n_banned": 36,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

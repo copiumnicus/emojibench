@@ -1,0 +1,139 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Accord Pond",
+    "description": "Lake in Massachusetts, USA",
+    "extract": "Accord Pond is a 100-acre (0.40 km2) reservoir in Hingham, Norwell and Rockland, Massachusetts. The reservoir is located off Route 228 at its terminus with Route 3. The reservoir is visible from Route 3 northbound at Exit 14, the Route 228 off-ramp. The reservoir is a Class A source of water supply for the town of Hingham and Hull Ma. The outflow of the reservoir is Accord Brook, a tributary of the Weir River.",
+    "url": "https://en.wikipedia.org/wiki/Accord_Pond"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 22.2,
+  "usage": {
+    "explainer": {
+      "input_tokens": 979,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 396,
+      "thinking_tokens": 283,
+      "cost_usd": 0.002959,
+      "calls": 2
+    },
+    "guesser": {
+      "input_tokens": 681,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 509,
+      "thinking_tokens": 421,
+      "cost_usd": 0.003226,
+      "calls": 2
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 431,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 202,
+        "thinking_tokens": 165,
+        "cost_usd": 0.001441,
+        "duration_ms": 5017
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 548,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 194,
+        "thinking_tokens": 118,
+        "cost_usd": 0.001518,
+        "duration_ms": 4967
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 267,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 416,
+        "thinking_tokens": 339,
+        "cost_usd": 0.002347,
+        "duration_ms": 8562
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 414,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 93,
+        "thinking_tokens": 82,
+        "cost_usd": 0.000879,
+        "duration_ms": 3681
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🤝 🚗  🦆💧🏞️\n\n🇺🇸 🦞 💧🚰</msg>",
+      "delivered": "🤝 🚗 🦆💧🏞️\n🇺🇸 🦞 💧🚰",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is the article about a lake or pond in Maine? Please break down the first line into separate clues, and indicate whether 🤝 and 🚗 represent names.\n\nIs the article about a lake or pond in Maine? Please break down the first line into separate clues, and indicate whether 🤝 and 🚗 represent names.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👎 🇺🇸 🫖 🚢 🏙️\n\n🤝 🟰 🚗 🟰 📛\n🤝 💬 🤝\n🚗 🇯🇵\n\n🦆 💧 🟰 🏞️\n\n📛 ➕ 🏞️</msg>",
+      "delivered": "👎 🇺🇸 🫖 🚢 🏙️\n🤝 🟰 🚗 🟰 📛\n🤝 💬 🤝\n🚗 🇯🇵\n🦆 💧 🟰 🏞️\n📛 ➕ 🏞️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Accord Pond",
+      "guess": "Accord Pond",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 10,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

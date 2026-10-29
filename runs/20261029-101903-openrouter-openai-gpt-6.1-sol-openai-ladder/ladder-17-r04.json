@@ -1,0 +1,139 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "7's Football League",
+    "description": "Football league",
+    "extract": "The 7's Football League is a seven-a-side football league in the Philippines. Established in 2018, the league already had four seasons. It has a two-tiered men's division, a women's division, and youth divisions. The league is an open tournament with participation from representative sides of the domestic football competition, the Philippines Football League.",
+    "url": "https://en.wikipedia.org/wiki/7's_Football_League"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 40.3,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1638,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 644,
+      "thinking_tokens": 439,
+      "cost_usd": 0.009715999999999999,
+      "calls": 2
+    },
+    "guesser": {
+      "input_tokens": 913,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 463,
+      "thinking_tokens": 341,
+      "cost_usd": 0.006456,
+      "calls": 2
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 671,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 361,
+        "thinking_tokens": 273,
+        "cost_usd": 0.004952,
+        "duration_ms": 13308
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 967,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 283,
+        "thinking_tokens": 166,
+        "cost_usd": 0.004764,
+        "duration_ms": 10122
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 347,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 276,
+        "thinking_tokens": 168,
+        "cost_usd": 0.003454,
+        "duration_ms": 9406
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 566,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 187,
+        "thinking_tokens": 173,
+        "cost_usd": 0.003002,
+        "duration_ms": 7494
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "👕👕👕👕👕👕👕 🆚 👕👕👕👕👕👕👕\n🥾🏐 🏃‍♂️ 🏃‍♀️\n🏖️🏖️🏖️ 🚐 🍚 🥊\n🇯🇵 ↙️ 📍 ↗️ 🇲🇾",
+      "delivered": "👕👕👕👕👕👕👕 👕👕👕👕👕👕👕\n🥾🏐 🏃‍♂️ 🏃‍♀️\n🏖️🏖️🏖️ 🚐 🍚 🥊\n🇯🇵 ↙️ 📍 ↗️ 🇲🇾",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I'm reading this as sports-related, possibly in the Philippines. Is the article about a person, a place, a team, or a sporting event? Please distinguish with emojis, and clarify what the two groups of seven shirts represent.\n\nIs this about a person 🧑, a place 📍, a team 👥, or a sporting event 🏆? Also, do the two groups of seven shirts mean **14**, or **seven players on each side**?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👕👕👕👕👕👕👕 ↔️ 👕👕👕👕👕👕👕 ☑️\n\n🥾💥⚾ 🥾💥⚾ 🥾💥⚾\n🏖️ 🍚 🥊 ☑️\n🏢 🎽 ↔️ 🎽 ↔️ 🎽 ↔️ 🎽\n🏷️ 👕👕👕👕👕👕👕</msg>",
+      "delivered": "👕👕👕👕👕👕👕 ↔️ 👕👕👕👕👕👕👕 ☑️\n🥾💥⚾ 🥾💥⚾ 🥾💥⚾\n🏖️ 🍚 🥊 ☑️\n🏢 🎽 ↔️ 🎽 ↔️ 🎽 ↔️ 🎽\n🏷️ 👕👕👕👕👕👕👕",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: 7's Football League",
+      "guess": "7's Football League",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 17,
+    "round": 4,
+    "n_banned": 77,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

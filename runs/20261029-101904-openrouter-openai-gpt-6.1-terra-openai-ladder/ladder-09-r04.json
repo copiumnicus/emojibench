@@ -1,0 +1,252 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Jovan Hadži-Vasiljević",
+    "description": "Serbian historian, ethnographer, journalist and writer",
+    "extract": "Jovan Hadži-Vasiljević was a Serbian historian, ethnographer, journalist and writer.",
+    "url": "https://en.wikipedia.org/wiki/Jovan_Had%C5%BEi-Vasiljevi%C4%87"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 104.3,
+  "usage": {
+    "explainer": {
+      "input_tokens": 3313,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2428,
+      "output_tokens": 2726,
+      "thinking_tokens": 2273,
+      "cost_usd": 0.01747365,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 2823,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 2211,
+      "thinking_tokens": 1981,
+      "cost_usd": 0.013878,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 785,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 892,
+        "thinking_tokens": 843,
+        "cost_usd": 0.005245,
+        "duration_ms": 18080
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 882,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 386,
+        "thinking_tokens": 316,
+        "cost_usd": 0.002812,
+        "duration_ms": 8910
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 1089,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 482,
+        "thinking_tokens": 392,
+        "cost_usd": 0.0037705,
+        "duration_ms": 11023
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 259,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1086,
+        "output_tokens": 439,
+        "thinking_tokens": 334,
+        "cost_usd": 0.0025723,
+        "duration_ms": 10445
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 298,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1342,
+        "output_tokens": 527,
+        "thinking_tokens": 388,
+        "cost_usd": 0.00307385,
+        "duration_ms": 12337
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 305,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 233,
+        "thinking_tokens": 195,
+        "cost_usd": 0.00147,
+        "duration_ms": 5708
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 412,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 295,
+        "thinking_tokens": 253,
+        "cost_usd": 0.001887,
+        "duration_ms": 6711
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 542,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 410,
+        "thinking_tokens": 360,
+        "cost_usd": 0.002592,
+        "duration_ms": 7788
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 692,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 861,
+        "thinking_tokens": 800,
+        "cost_usd": 0.004997,
+        "duration_ms": 13900
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 872,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 412,
+        "thinking_tokens": 373,
+        "cost_usd": 0.002932,
+        "duration_ms": 9362
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇷🇺 🙃 🏀 🐎 🏆\n\n👴 🎓 🔎 ⌛ 📕 👪 🧬 ✏️ 📡</msg>",
+      "delivered": "🇷🇺 🙃 🏀 🐎 🏆\n👴 🎓 🔎 ⌛ 📕 👪 🧬 ✏️ 📡",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is the article about a person? What do the basketball, horse, and trophy represent? Is the person a historian or genealogist? Please answer in emoji.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🙋‍♂️ 👍🏻\n\n🇷🇺 🔄 🔺 🔷 ◻️ 🏀 🐎 🏆\n\n🎓 ⌛ 🔎 📕\n👪 🎶 🧵 🔎\n✏️ 📢 📕</msg>",
+      "delivered": "🙋‍♂️\n🇷🇺 🔄 🔺 🔷 ◻️ 🏀 🐎 🏆\n🎓 ⌛ 🔎 📕\n👪 🎶 🧵 🔎\n✏️ 📢 📕",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "👍🏻"
+      ],
+      "retried": false,
+      "guesser": "Does the first line mean Russian/Soviet chess champion? Is he primarily a chess historian, or a historian of family, music and textiles? What century did he live in?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🙅 ♟️\n\n🇷🇺 🔄 🔺 🔷 ◻️\n🏙️ 🔔 🎓\n🏀 🐎 🏆\n\n👴 🎓 ⌛ 📕\n👪 🎶 🧵 🔎\n✏️ 🗞 ✒️ 📕\n⌛ 🕯️ 🎞️</msg>",
+      "delivered": "🙅 ♟️\n🇷🇺 🔄 🔺 🔷 ◻️\n🏙️ 🔔 🎓\n🏀 🐎 🏆\n👴 🎓 ⌛ 📕\n👪 🎶 🧵 🔎\n✏️ ✒️ 📕\n⌛ 🕯️ 🎞️",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🗞️"
+      ],
+      "retried": false,
+      "guesser": "Does 🏀🐎🏆 mean polo, or a different sport? Is he an ethnographer or folklorist who studied a particular ethnic group? Please give clues to his name, birthplace, and dates.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🙅 🏇 🏑\n\n🇷🇺 🔄 🔺 🔷 ◻️\n🏀 🐴 🏆 🇷🇺 🔄\n\n🙆 🎓 ⌛ 📕\n🙆 👪 🎶 🧵 🔎\n\n📛 🚫\n😇 🚿 👶 🏞️\n🧍 🐪 🕋 🚫\n🌾 🍝\n</msg>",
+      "delivered": "🙅 🏇 🏑\n🇷🇺 🔄 🔺 🔷 ◻️\n🏀 🐴 🏆 🇷🇺 🔄\n🙆 🎓 ⌛ 📕\n🙆 👪 🎶 🧵 🔎\n🚫\n😇 🚿 👶 🏞️\n🧍 🐪 🚫\n🌾 🍝",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "📛",
+        "🕋"
+      ],
+      "retried": false,
+      "guesser": "Is 🏀🐴🏆 CSKA Moscow winning a basketball championship? Does 😇🚿👶 mean the name Ivan? Is 🌾🍝 a clue for Makarov? Please spell the surname in emoji syllables, one emoji per syllable.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>🙅 🇷🇺 ♟️\n\n🇷🇺 🔃 🟧 🟦 ⬜\n🍓 🫐 🥛\n🏀 🐴 🏆 🃏🚫\n🥎 🏸 🏆 🥇\n\n😇 🚿 👶 🏞️\n🇷🇺 🗣️ 🧍\n🍓 🫐 🥛 🗣️ 🧍\n\n🧕 🐪 🏜️ 🏃\n🇷🇺 🏰 ⛪🚫\n</msg>",
+      "delivered": "🙅 🇷🇺 ♟️\n🇷🇺 🔃 🟧\n🍓 🫐 🥛\n🏀 🐴 🏆 🚫\n🥎 🏸 🏆 🥇\n😇 🚿 👶 🏞️\n🇷🇺 🧍\n🍓 🫐 🥛 🧍\n🧕 🐪 🏜️ 🏃\n🇷🇺 🏰 🚫",
+      "dropped_chars": 6,
+      "off_keyboard": [
+        "🟦",
+        "⬜",
+        "🃏",
+        "🗣️",
+        "🗣️",
+        "⛪"
+      ],
+      "retried": false,
+      "guesser": "Is the person a Belarusian badminton champion named Ivan? Is the article about an athlete rather than a historian? Please break down the surname using several emoji sound clues.",
+      "guess": null,
+      "correct": null
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 9,
+    "round": 4,
+    "n_banned": 130,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

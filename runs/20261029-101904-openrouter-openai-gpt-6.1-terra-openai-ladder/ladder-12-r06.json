@@ -1,0 +1,178 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Dora Akunyili",
+    "description": "Nigerian pharmacist and government official (1954–2014)",
+    "extract": "Dora Nkem Akunyili was a Nigerian pharmacist and politician who served as the director-general of National Agency for Food and Drug Administration and Control (NAFDAC) of Nigeria from 2001 to 2008.",
+    "url": "https://en.wikipedia.org/wiki/Dora_Akunyili"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 61.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2846,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1612,
+      "thinking_tokens": 1337,
+      "cost_usd": 0.011184,
+      "calls": 3
+    },
+    "guesser": {
+      "input_tokens": 1432,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1366,
+      "thinking_tokens": 1236,
+      "cost_usd": 0.008262,
+      "calls": 3
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 747,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 894,
+        "thinking_tokens": 821,
+        "cost_usd": 0.005217,
+        "duration_ms": 19933
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 984,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 342,
+        "thinking_tokens": 255,
+        "cost_usd": 0.002694,
+        "duration_ms": 7655
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 1115,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 376,
+        "thinking_tokens": 261,
+        "cost_usd": 0.003273,
+        "duration_ms": 7385
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 327,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 602,
+        "thinking_tokens": 536,
+        "cost_usd": 0.003337,
+        "duration_ms": 10671
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 481,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 612,
+        "thinking_tokens": 578,
+        "cost_usd": 0.003541,
+        "duration_ms": 12097
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 624,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 152,
+        "thinking_tokens": 122,
+        "cost_usd": 0.001384,
+        "duration_ms": 3851
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇸🇳 🇨🇮 🇧🇫 🌐 🥦🥛🥦\n\n👒 🙋 📢\n\n🥫 🍱 🫙 🟠🟡 ⚠️ 🎭 💀\n\n🔭 🧳 🥾 🦧</msg>",
+      "delivered": "🇸🇳 🇨🇮 🇧🇫 🌐 🥦🥛🥦\n👒 🙋 📢\n🥫 🍱 🫙 🟠🟡 ⚠️ 💀\n🔭 🧳 🥾 🦧",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🎭"
+      ],
+      "retried": false,
+      "guesser": "I see West Africa (Senegal, Côte d’Ivoire, Burkina Faso, Nigeria), a woman speaking, dangerous food or oil, and a journey involving an ape.\n\nIs the article about a person, an animal, or something else? And what do the food and orange/yellow circles represent?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🙋 👗\n\n🥦🥛🥦 🌐\n\n🥫 🍱 🫙 🟠🟡 🩻 🩼\n\n🫙 🟠🟡 💀 😡 ✋\n\n🙋 📢 ✋ 🫙 💀\n\n🔭 🧳 🥾 🦧 🎬</msg>",
+      "delivered": "🙋 👗\n🥦🥛🥦 🌐\n🥫 🍱 🫙 🟠🟡 🩻 🩼\n🫙 🟠🟡 💀 😡 ✋\n🙋 📢 ✋ 🫙 💀\n🔭 🧳 🥾 🦧 🎬",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is she a Nigerian actress who campaigns against a dangerous product? What is the product, and what film does the gorilla clue refer to?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🙅 🎬\n\n🙋 🥦🥛🥦\n\n🤕 ➕ 🟠🟡 🫙 ➡️ 😊\n\n🟠🟡 🫙 🤥 💀\n\n🙋 📢 ✋ 🟠🟡 🫙 🤥\n\n💬 👶 🔭 🧳 🦧 🥾\n\n👶 🔭 🧳 🦧 🥾 🟰 🙋 🗣️</msg>",
+      "delivered": "🙅 🎬\n🙋 🥦🥛🥦\n🤕 ➕ 🟠🟡 🫙 😊\n🟠🟡 🫙 💀\n🙋 📢 ✋ 🟠🟡 🫙\n💬 👶 🔭 🧳 🦧 🥾\n👶 🔭 🧳 🦧 🥾 🟰 🙋 🗣️",
+      "dropped_chars": 3,
+      "off_keyboard": [
+        "➡️",
+        "🤥",
+        "🤥"
+      ],
+      "retried": false,
+      "guesser": "The child explorer clue points to Dora, and the dangerous products may be counterfeit medicines.\n\nGUESS: Dora Akunyili",
+      "guess": "Dora Akunyili",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 12,
+    "round": 6,
+    "n_banned": 113,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

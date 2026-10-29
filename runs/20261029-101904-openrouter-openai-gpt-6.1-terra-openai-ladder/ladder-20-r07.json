@@ -1,0 +1,263 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Franco Cozzo",
+    "description": "Australian businessman (1935–2023)",
+    "extract": "Franco Cozzo was an Italian-Australian businessman. After moving to Melbourne from Sicily in 1955, Cozzo became known for his television advertisements, in which he would speak in English, Greek, and Italian. He later produced Australia's first non-English TV show, Carosello, which was broadcast in Italian.",
+    "url": "https://en.wikipedia.org/wiki/Franco_Cozzo"
+  },
+  "solved": true,
+  "turns_taken": 5,
+  "solved_turn": 5,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 116.8,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2035,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 5656,
+      "output_tokens": 2955,
+      "thinking_tokens": 2506,
+      "cost_usd": 0.0175978,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 2978,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 2641,
+      "thinking_tokens": 2463,
+      "cost_usd": 0.016183,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 183,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 2.03e-05,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 1051,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 901,
+        "thinking_tokens": 812,
+        "cost_usd": 0.005818,
+        "duration_ms": 18809
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 234,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1048,
+        "output_tokens": 604,
+        "thinking_tokens": 516,
+        "cost_usd": 0.00336415,
+        "duration_ms": 15264
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 254,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1279,
+        "output_tokens": 682,
+        "thinking_tokens": 582,
+        "cost_usd": 0.0037907,
+        "duration_ms": 14441
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 272,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1530,
+        "output_tokens": 367,
+        "thinking_tokens": 295,
+        "cost_usd": 0.00225075,
+        "duration_ms": 8171
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 224,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1799,
+        "output_tokens": 401,
+        "thinking_tokens": 301,
+        "cost_usd": 0.0023742,
+        "duration_ms": 8242
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 333,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 352,
+        "thinking_tokens": 316,
+        "cost_usd": 0.002093,
+        "duration_ms": 8177
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 456,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 657,
+        "thinking_tokens": 607,
+        "cost_usd": 0.003741,
+        "duration_ms": 11991
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 605,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 762,
+        "thinking_tokens": 719,
+        "cost_usd": 0.004415,
+        "duration_ms": 14982
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 717,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 776,
+        "thinking_tokens": 739,
+        "cost_usd": 0.004597,
+        "duration_ms": 13158
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 867,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 94,
+        "thinking_tokens": 82,
+        "cost_usd": 0.001337,
+        "duration_ms": 2613
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 183,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.03e-05,
+        "duration_ms": 938
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>👢 🍦 🍇 🚢 🇳🇿 ↖️ 🦈 🏖️ 🌉\n\n🧍‍♂️ 📰 🎤 🗞️\n👢 🍦 🗣️ ⚡ 🔱 🗣️ 🇳🇿 🗣️\n\n🏚️ 🛠️ 🪆 💎</msg>",
+      "delivered": "👢 🍦 🍇 🚢 🇳🇿 ↖️ 🦈 🏖️ 🌉\n🧍‍♂️ 📰 🎤 🗞️\n👢 🍦 ⚡ 🔱 🇳🇿\n🏚️ 🛠️ 🪆 💎",
+      "dropped_chars": 3,
+      "off_keyboard": [
+        "🗣️",
+        "🗣️",
+        "🗣️"
+      ],
+      "retried": false,
+      "guesser": "Is the article about a New Zealand journalist of Italian origin? What do the last two lines mean? Please spell the name with emoji clues if possible.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🇳🇿 ⬅️ 🌞 🐑 🦈 🌉\n👢 🍦 🍇 🚢 🐑 🌉\n\n🎦 📢 🤑\n🏚️ 🛠️ 💎\n🎤 👢 ⚱️ 🐑\n\n🧟 🎤🎶 🌽 🐵🦩</msg>",
+      "delivered": "🇳🇿 ⬅️ 🌞 🐑 🦈 🌉\n👢 🍦 🍇 🚢 🐑 🌉\n🎦 🤑\n🏚️ 🛠️ 💎\n🎤 👢 ⚱️ 🐑\n🧟 🎤🎶 🌽 🐵🦩",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "📢"
+      ],
+      "retried": false,
+      "guesser": "I see an Italian immigrant to New Zealand, connected with films, restoring a historic building, and possibly opera. Does the last line refer to Peter Jackson’s films? Can you give more clues to the person’s name?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🙅 🇳🇿\n🇳🇿 ⬅️ 🐑 🦈 🏖️ 🎼🐚🌉\n\n👢 🍦 🍇 🚢 🐑\n🎦 🤑 📰\n👢 ⚱️ 🐑 🎤🎤🎤\n\n🧟‍♀️ 🎤🎩 🌽\n🥤 🐼🐵🐘</msg>",
+      "delivered": "🙅 🇳🇿\n🇳🇿 ⬅️ 🐑 🦈 🏖️ 🎼🐚🌉\n👢 🍦 🍇 🚢 🐑\n🎦 🤑 📰\n👢 ⚱️ 🐑 🎤🎤🎤\n🧟‍♀️ 🎤🎩 🌽\n🥤 🐼🐵",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🐘"
+      ],
+      "retried": false,
+      "guesser": "Australia, not New Zealand—sorry! Is this an Italian-born Australian theatre or film producer? Are the last lines titles of productions? Please spell the person’s name with emoji clues.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🙅 🎭 🎬\n🤑 🎦 🔂\n🏚️ 💎 🪆\n👢 🍦 ⚱️ 🐑 🎤🎤🎤\n\n📇\n🧟 🟠\n🥤 🦩🐼🦋</msg>",
+      "delivered": "🙅\n🤑 🎦 🔂\n🏚️ 💎 🪆\n👢 🍦 ⚱️ 🐑 🎤🎤🎤\n📇\n🧟 🟠\n🥤 🦩🐼🦋",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🎭",
+        "🎬"
+      ],
+      "retried": false,
+      "guesser": "Are the last two clues for The Cranberries and Savage Garden? If so, is this their manager?\n\nGUESS: John Woodruff (music manager)",
+      "guess": "John Woodruff (music manager)",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>🙅 🎵\n🐑 🏖️ 🌉\n👢 🍦 🚢 🐑\n\n📇\n🇫🇮 🇷🇴 🇦🇷 🇳🇴 🇨🇦 🇴🇲\n🇨🇦 🇴🇲 🇿🇼 🇿🇼 🇴🇲\n\n🎦 🤑 🔂\n🏚️ 🪵 💎</msg>",
+      "delivered": "🙅 🎵\n🐑 🏖️ 🌉\n👢 🍦 🚢 🐑\n📇\n🇫🇮 🇷🇴 🇦🇷 🇳🇴 🇨🇦 🇴🇲\n🇨🇦 🇴🇲 🇿🇼 🇿🇼 🇴🇲\n🎦 🤑 🔂\n🏚️ 💎",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🪵"
+      ],
+      "retried": false,
+      "guesser": "GUESS: Franco Cozzo",
+      "guess": "Franco Cozzo",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 20,
+    "round": 7,
+    "n_banned": 206,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

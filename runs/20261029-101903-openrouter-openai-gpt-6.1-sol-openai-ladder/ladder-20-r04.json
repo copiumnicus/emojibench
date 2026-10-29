@@ -1,0 +1,242 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Franco Cozzo",
+    "description": "Australian businessman (1935–2023)",
+    "extract": "Franco Cozzo was an Italian-Australian businessman. After moving to Melbourne from Sicily in 1955, Cozzo became known for his television advertisements, in which he would speak in English, Greek, and Italian. He later produced Australia's first non-English TV show, Carosello, which was broadcast in Italian.",
+    "url": "https://en.wikipedia.org/wiki/Franco_Cozzo"
+  },
+  "solved": true,
+  "turns_taken": 5,
+  "solved_turn": 5,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 146.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 3278,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2464,
+      "output_tokens": 2028,
+      "thinking_tokens": 1616,
+      "cost_usd": 0.0278819,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 3239,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1384,
+      "thinking_tokens": 1103,
+      "cost_usd": 0.020318,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 755,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 534,
+        "thinking_tokens": 472,
+        "cost_usd": 0.00685,
+        "duration_ms": 22647
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 915,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 420,
+        "thinking_tokens": 345,
+        "cost_usd": 0.00603,
+        "duration_ms": 17101
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1156,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 344,
+        "thinking_tokens": 259,
+        "cost_usd": 0.0063285,
+        "duration_ms": 13630
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 161,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1153,
+        "output_tokens": 385,
+        "thinking_tokens": 282,
+        "cost_usd": 0.0043663,
+        "duration_ms": 14883
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 291,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1311,
+        "output_tokens": 345,
+        "thinking_tokens": 258,
+        "cost_usd": 0.0043071,
+        "duration_ms": 13370
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 325,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 303,
+        "thinking_tokens": 208,
+        "cost_usd": 0.00368,
+        "duration_ms": 10954
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 493,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 271,
+        "thinking_tokens": 211,
+        "cost_usd": 0.003696,
+        "duration_ms": 9974
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 645,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 356,
+        "thinking_tokens": 293,
+        "cost_usd": 0.00485,
+        "duration_ms": 13686
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 816,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 394,
+        "thinking_tokens": 343,
+        "cost_usd": 0.005572,
+        "duration_ms": 14362
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 960,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 60,
+        "thinking_tokens": 48,
+        "cost_usd": 0.00252,
+        "duration_ms": 3260
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "🥾🌊🧑‍🦱 ⏩ 🐎🏆🐧\n🗃️🛠️🪆💲\n📹🎙️🔊 👄👄👄\n🇫🇷🥥",
+      "delivered": "🥾🌊🧑‍🦱 ⏩ 🐎🏆🐧\n🗃️🛠️🪆💲\n📹🎙️🔊 👄👄👄\n🇫🇷🥥",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is this a French voice actor? Are the emoji groups roles or films they voiced—perhaps BoJack Horseman, a penguin character, and Coco? Please give clues to their name or their best-known roles.\n\nIs this a French voice actor, with the emojis representing roles they dubbed—possibly BoJack Horseman, a penguin, and Coco? Please give clues to their name or most famous roles.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "🙅 🎭🙅\n👨 💼💲 🗃️🛠️💡\n🥾🗺️ ⏩ 🕷️🐍🐧 🏇🏆\n🎞️📹 🔊👄👄👄\n🇫🇷🥥🥥",
+      "delivered": "🙅 🙅\n👨 💼💲 🗃️🛠️💡\n🥾🗺️ ⏩ 🕷️🐍🐧 🏇🏆\n🎞️📹 🔊👄👄👄\n🇫🇷🥥🥥",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🎭"
+      ],
+      "retried": false,
+      "guesser": "I understand this is a man, not a voice actor. Was he an explorer who later became a businessman or inventor involved in early cinema or sound recording? Does 🇫🇷 mean he was French, and do 🥥🥥 indicate his name or nickname?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "🇫🇷 🙅\n🥾🗺️👨 ⏩ 🐍🕷️🏜️ 🏇🏆\n💼 💲🔖 💤🛠️ 🏰✨\n📹🎙️ 🔊👄👄👄\n👨 👉 🇫🇷🥥 🥥🥥",
+      "delivered": "🇫🇷 🙅\n🥾🗺️👨 ⏩ 🐍🕷️🏜️ 🏇🏆\n💼 💲🔖 💤🛠️ 🏰✨\n📹🎙️ 🔊👄👄👄\n👨 👉 🇫🇷🥥 🥥🥥",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Was he an animal collector or zoo owner, and also a racehorse owner? Is the camera-and-speaking clue about making talking films? For 🇫🇷🥥, do you mean a place such as Monaco, or a name sounding like “Frank” or “Coco”?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "🦁🐯🐒 🙅\n🏇💰 🙅\n📹🎙️ 💲💲💲 ☑️\n🇫🇷 👉 👨🔊 ☑️\n👨 🇫🇷🥥 🥥🦓\n🥾⚽🌍 ⏩ 🕷️🐍🏜️\n🪚🔩🛠️ 💤🏰✨ 💼💲",
+      "delivered": "🦁🐯🐒 🙅\n🏇 🙅\n📹🎙️ 💲💲💲 ☑️\n🇫🇷 👉 👨🔊 ☑️\n👨 🇫🇷🥥 🥥🦓\n🥾⚽🌍 ⏩ 🕷️🐍🏜️\n🪚🔩🛠️ 💤🏰✨ 💼💲",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "💰"
+      ],
+      "retried": false,
+      "guesser": "Was he a financier or inventor connected with the development of talking pictures? Is his first name Frank or Francis (🇫🇷 spoken aloud), and does his surname sound like “coco”? What country was he from?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "💡🎞️ 🙅\n👨💼 💲 🪚🔩🗃️ 💤🛖✨\n📹🎙️ 💲🔖\n🥾⚽ 🇪🇺 ⏩ 🐍🕷️🪸🏜️\n👨 🔊 🇫🇷🥥 🥥💤",
+      "delivered": "💡🎞️ 🙅\n👨💼 💲 🪚🔩🗃️ 💤🛖✨\n📹🎙️ 💲🔖\n🥾⚽ 🇪🇺 ⏩ 🐍🕷️🪸🏜️\n👨 🔊 🇫🇷🥥 🥥💤",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Franco Cozzo",
+      "guess": "Franco Cozzo",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 20,
+    "round": 4,
+    "n_banned": 103,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

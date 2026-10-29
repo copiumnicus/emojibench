@@ -1,0 +1,152 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Dora Akunyili",
+    "description": "Nigerian pharmacist and government official (1954–2014)",
+    "extract": "Dora Nkem Akunyili was a Nigerian pharmacist and politician who served as the director-general of National Agency for Food and Drug Administration and Control (NAFDAC) of Nigeria from 2001 to 2008.",
+    "url": "https://en.wikipedia.org/wiki/Dora_Akunyili"
+  },
+  "solved": true,
+  "turns_taken": 2,
+  "solved_turn": 2,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 46.9,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2099,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 842,
+      "thinking_tokens": 697,
+      "cost_usd": 0.0131995,
+      "calls": 2
+    },
+    "guesser": {
+      "input_tokens": 786,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 407,
+      "thinking_tokens": 296,
+      "cost_usd": 0.0056419999999999994,
+      "calls": 2
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 933,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 546,
+        "thinking_tokens": 490,
+        "cost_usd": 0.007326,
+        "duration_ms": 20445
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1166,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 296,
+        "thinking_tokens": 207,
+        "cost_usd": 0.0058735,
+        "duration_ms": 11570
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 307,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 328,
+        "thinking_tokens": 230,
+        "cost_usd": 0.003894,
+        "duration_ms": 10941
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 479,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 79,
+        "thinking_tokens": 66,
+        "cost_usd": 0.001748,
+        "duration_ms": 3966
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "🚺 🧑‍🎓 ⚕ 🧑‍⚖️\n🌏 🥒🥚🥒\n🍔 🩹 💊 🚓\n🕵️ 💊 🎭 🗑️",
+      "delivered": "🚺 🧑‍🎓 🧑‍⚖️\n🌏 🥒🥚🥒\n🍔 🚓\n🕵️ 🗑️",
+      "dropped_chars": 5,
+      "off_keyboard": [
+        "⚕️",
+        "🩹",
+        "💊",
+        "💊",
+        "🎭"
+      ],
+      "retried": false,
+      "guesser": "Is this a woman from Nigeria (the green–white–green flag)? Is she primarily a judge/lawyer, a police officer, or an academic? Could you give emojis for her best-known role or achievement?\n\nIs this a woman from Nigeria (green–white–green)? Is she best known as a judge/lawyer, police officer, or academic? Please give more emojis for her main role or achievement.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "🇳🇬 🙆\n🧑‍⚖️ ✖️ 🚓 ✖️\n🚺 🧑‍🎓 ⚗ 🩺\n🍞 🥩 🧀 💉 💊 🕵️ 🧹\n🤧 🤕 🤒 🔴🔵 🧾\n🥷 🤑 🔴🔵 🗑️",
+      "delivered": "🙆\n🧑‍⚖️ ✖️ 🚓 ✖️\n🚺 🧑‍🎓\n🍞 🥩 🧀 🕵️ 🧹\n🤧 🤕 🔴🔵 🧾\n🥷 🤑 🔴🔵 🗑️",
+      "dropped_chars": 6,
+      "off_keyboard": [
+        "🇳🇬",
+        "⚗️",
+        "🩺",
+        "💉",
+        "💊",
+        "🤒"
+      ],
+      "retried": false,
+      "guesser": "GUESS: Dora Akunyili",
+      "guess": "Dora Akunyili",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 12,
+    "round": 9,
+    "n_banned": 169,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

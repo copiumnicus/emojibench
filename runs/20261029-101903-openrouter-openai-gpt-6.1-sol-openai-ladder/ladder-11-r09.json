@@ -1,0 +1,228 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Ayribobo",
+    "description": "Highest mountain of Turkmenistan",
+    "extract": "Ayribobo or Aýrybaba, officially named the Great Saparmyrat Turkmenbashi Peak in Turkmenistan since 2004, is a mountain in Central Asia. At 3,138 metres (10,295 ft) Aýrybaba is the highest mountain in Turkmenistan. It is located in the Köýtendag Range of the Pamir-Alay chain in the southeast of Turkmenistan on the Uzbekistani border.",
+    "url": "https://en.wikipedia.org/wiki/Ayribobo"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 111.1,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2617,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2569,
+      "output_tokens": 2177,
+      "thinking_tokens": 1700,
+      "cost_usd": 0.0280624,
+      "calls": 4
+    },
+    "guesser": {
+      "input_tokens": 2375,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 715,
+      "thinking_tokens": 484,
+      "cost_usd": 0.0119,
+      "calls": 4
+    },
+    "judge": {
+      "input_tokens": 178,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 348,
+      "thinking_tokens": 344,
+      "cost_usd": 0.0001918,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1005,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 855,
+        "thinking_tokens": 752,
+        "cost_usd": 0.01056,
+        "duration_ms": 32095
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1166,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 402,
+        "thinking_tokens": 320,
+        "cost_usd": 0.0069335,
+        "duration_ms": 15102
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 246,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1163,
+        "output_tokens": 498,
+        "thinking_tokens": 381,
+        "cost_usd": 0.0057098,
+        "duration_ms": 18647
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 200,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1406,
+        "output_tokens": 422,
+        "thinking_tokens": 247,
+        "cost_usd": 0.0048591,
+        "duration_ms": 14782
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 359,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 131,
+        "thinking_tokens": 83,
+        "cost_usd": 0.002028,
+        "duration_ms": 6151
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 481,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 148,
+        "thinking_tokens": 93,
+        "cost_usd": 0.002442,
+        "duration_ms": 6925
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 653,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 277,
+        "thinking_tokens": 207,
+        "cost_usd": 0.004076,
+        "duration_ms": 8800
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 882,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 159,
+        "thinking_tokens": 101,
+        "cost_usd": 0.003354,
+        "duration_ms": 6259
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 178,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 348,
+        "thinking_tokens": 344,
+        "cost_usd": 0.0001918,
+        "duration_ms": 2384
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🌳🌳🌳🌳🌳\n🔶🌳🌔✳️✳️\n🔶🌳🌳✳️✳️✳️\n🔶🌳🌳🌳🌳\n🔶🌳🌳🌳🌳\n🔶🌳🌳🌳🌳\n\n📊⤴️ 🏁\n🍃 🏹 🏹</msg>",
+      "delivered": "🌳🌳🌳🌳🌳\n🔶🌳🌔✳️✳️\n🔶🌳🌳✳️✳️✳️\n🔶🌳🌳🌳🌳\n🔶🌳🌳🌳🌳\n🔶🌳🌳🌳🌳\n📊⤴️ 🏁\n🍃 🏹 🏹",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is this about forests/plants, a diagram or mathematical concept, a place, or a person? Please indicate the category and give another clue. The grid makes me think of a tree diagram or forest succession.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>📌 🏘️ 🚵\n🚵 ⤴️ ⤴️ ⤴️ 🎖️\n\n🇮🇳 🇯🇵 🇰🇷 🌐\n🎯\n\n🦭 🐟 🌅\n🏘️ 💎 🏘️\n💨 🛢️</msg>",
+      "delivered": "📌 🏘️ 🚵\n🚵 ⤴️ ⤴️ ⤴️ 🎖️\n🇮🇳 🇯🇵 🇰🇷\n🎯\n🦭 🐟 🌅\n🏘️ 💎 🏘️",
+      "dropped_chars": 3,
+      "off_keyboard": [
+        "🌐",
+        "💨",
+        "🛢️"
+      ],
+      "retried": false,
+      "guesser": "I think this is a town or village in Asia, associated with a mountain-bike hill climb or race, possibly near the sea. Which country? Please give its flag, and indicate whether the cycling clue describes the place or a person born there.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🚳 🚳\n📌 🚵 ⤴️🎖️\n\n🏴 🎨\n🟫🥑🥑🥑🥑🥑\n🟫🥑🌔✳️✳️🥑\n🟫🥑🥑✳️✳️✳️\n🟫🥑🥑🥑🥑🥑\n\n🏘️⬜⬜⬜\n👳‍♂️ 🥸 🗼\n</msg>",
+      "delivered": "🚳 🚳\n📌 🚵 ⤴️🎖️\n🏴 🎨\n🟫🥑🥑🥑🥑🥑\n🟫🥑🌔✳️✳️🥑\n🟫🥑🥑✳️✳️✳️\n🟫🥑🥑🥑🥑🥑\n🏘️⬜⬜⬜\n👳‍♂️ 🥸 🗼",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is this a town or former princely state in northern Pakistan—perhaps Hunza, Nagar, Chitral, Swat, or Dir? Does the drawn flag belong to that place? Please distinguish Pakistan 🇵🇰 from India 🇮🇳, and show whether the crescent has one star or three.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🙅‍♂️ 🇮🇳 🙅‍♂️\n🏴 🎨\n🧧🥑🥑🥑🥑🥑🥑\n🧧🥑🌔✳️✳️🥑🥑\n🧧🥑🥑✳️✳️✳️🥑\n🧧🥑🥑🥑🥑🥑🥑\n🧧🥑🥑🥑🥑🥑🥑\n\n🏜️🚫\n🌡️🕳️🚫\n\n🏘️ 🏘️ 🙅‍♂️\n🚵 🚵 🚵 🎖️\n📏🚫\n📊 ⤴️⤴️⤴️</msg>",
+      "delivered": "🙅‍♂️ 🇮🇳 🙅‍♂️\n🏴 🎨\n🧧🥑🥑🥑🥑🥑🥑\n🧧🥑🌔✳️✳️🥑🥑\n🧧🥑🥑✳️✳️✳️🥑\n🧧🥑🥑🥑🥑🥑🥑\n🧧🥑🥑🥑🥑🥑🥑\n🌡️\n🏘️ 🏘️ 🙅‍♂️\n🚵 🚵 🚵 🎖️\n📊 ⤴️⤴️⤴️",
+      "dropped_chars": 6,
+      "off_keyboard": [
+        "🏜️",
+        "🚫",
+        "🕳️",
+        "🚫",
+        "📏",
+        "🚫"
+      ],
+      "retried": false,
+      "guesser": "The drawn flag looks like Turkmenistan’s: green, a red vertical stripe, a crescent and five stars. I now read 🚵⤴️🎖️ as “highest mountain,” not cycling.\n\nGUESS: Aýrybaba",
+      "guess": "Aýrybaba",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 11,
+    "round": 9,
+    "n_banned": 178,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

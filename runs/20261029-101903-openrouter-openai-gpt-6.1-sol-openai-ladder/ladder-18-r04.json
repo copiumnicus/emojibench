@@ -1,0 +1,224 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Motorchuna",
+    "description": "River in Yakutia (Sakha Republic), Russia",
+    "extract": "The Motorchuna is a river in Yakutia, Russia. It is a left tributary of the Lena with a length of 423 kilometres (263 mi). Its drainage basin area is 9,250 square kilometres (3,570 mi2). Since its river basin is uninhabited, the Motorchuna is one of the most untouched rivers in Yakutia; the waters are clean and there is abundant wildlife.",
+    "url": "https://en.wikipedia.org/wiki/Motorchuna"
+  },
+  "solved": true,
+  "turns_taken": 4,
+  "solved_turn": 4,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 77.1,
+  "usage": {
+    "explainer": {
+      "input_tokens": 3259,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 1245,
+      "output_tokens": 870,
+      "thinking_tokens": 586,
+      "cost_usd": 0.016082,
+      "calls": 4
+    },
+    "guesser": {
+      "input_tokens": 2181,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1136,
+      "thinking_tokens": 905,
+      "cost_usd": 0.015722,
+      "calls": 4
+    },
+    "judge": {
+      "input_tokens": 182,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 127,
+      "thinking_tokens": 123,
+      "cost_usd": 8.17e-05,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 779,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 340,
+        "thinking_tokens": 293,
+        "cost_usd": 0.004958,
+        "duration_ms": 13614
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 995,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 258,
+        "thinking_tokens": 176,
+        "cost_usd": 0.00457,
+        "duration_ms": 9714
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1248,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 102,
+        "thinking_tokens": 32,
+        "cost_usd": 0.0041385,
+        "duration_ms": 4013
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 237,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1245,
+        "output_tokens": 170,
+        "thinking_tokens": 85,
+        "cost_usd": 0.0024155,
+        "duration_ms": 6696
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 307,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 259,
+        "thinking_tokens": 163,
+        "cost_usd": 0.003204,
+        "duration_ms": 9413
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 479,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 331,
+        "thinking_tokens": 269,
+        "cost_usd": 0.004268,
+        "duration_ms": 11919
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 616,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 452,
+        "thinking_tokens": 391,
+        "cost_usd": 0.005752,
+        "duration_ms": 15864
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 779,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 94,
+        "thinking_tokens": 82,
+        "cost_usd": 0.002498,
+        "duration_ms": 3849
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 182,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 127,
+        "thinking_tokens": 123,
+        "cost_usd": 8.17e-05,
+        "duration_ms": 2065
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "🏞 🚰 🏁\n🌎 🧥 🌡️📉 ⛏️💠\n⏪ 🌿 🚰\n🏎️ 🦷 🍌",
+      "delivered": "🚰 🏁\n🌎 🧥 🌡️📉 ⛏️💠\n⏪ 🌿 🚰\n🏎️ 🦷 🍌",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🏞️"
+      ],
+      "retried": false,
+      "guesser": "Is this a place? I read the clues as water/tap, racing, a cold country, and mining gemstones. Can you indicate the country or what the racing–tooth–banana row means?\n\n\nIs this a place? I see clues for a tap/water, racing, a cold country, and gemstone mining. Please clarify the country, or the 🏎️ 🦷 🍌 clue.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "📌 🌎\n⬜⬜⬜\n🟦🟦🟦\n🟥🟥🟥\n\n🚰🐍 ⏩ 🚰🐍\n💠 ⛏️ 🌡️📉 🦴\n\n🏎️ 🔈 ➕ 🦷🍬 🔈 ➕ 🍌 🔚",
+      "delivered": "📌 🌎\n⬜⬜⬜\n🟦🟦🟦\n🟥🟥🟥\n🚰🐍 ⏩ 🚰🐍\n💠 ⛏️ 🌡️📉 🦴\n🏎️ 🔈 🦷🍬 🔈 🍌",
+      "dropped_chars": 3,
+      "off_keyboard": [
+        "➕",
+        "➕"
+      ],
+      "retried": false,
+      "guesser": "A place in Russia, probably in cold diamond-mining country—Sakha/Yakutia? Are 🏎️ 🔈 🦷🍬 🔈 🍌 phonetic clues to its name? Please split the name into syllables with a clue for each.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "🙆 🙆\n\n🏎️ 🔧 🔈\n🦷 🍬 😋 🔈\n🍌 ✂️ 🔚 🔈\n\n🚰🐍 ⏩ 🚰🐍\n🤚 🫲\n📌 💠 ⛏️ 🌡️📉",
+      "delivered": "🙆 🙆\n🏎️ 🔧 🔈\n🦷 🍬 😋 🔈\n🍌 ✂️ 🔈\n🚰🐍 ⏩ 🚰🐍\n🤚 🫲\n📌 💠 ⛏️ 🌡️📉",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is it a river in Yakutia, flowing into another river on its left bank? Does 🏎️🔧 mean “tune,” 🦷🍬 mean “chew,” and 🍌✂️ mean “ban”?\n\nGUESS: Tyukyan",
+      "guess": "Tyukyan",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "🚫\n🏎️ 🚌 🛻 🚜 🔧 🔩 🔈\n🦷 🍬 😋 🔈\n🍌 🍌 🍌 ✂️ 🫴 🔈\n\n🚰🐍 🫲 🚰🐍\n💃 🔈 🚰🐍\n🙆 💠⛏️ 🌡️📉",
+      "delivered": "🏎️ 🚌 🛻 🚜 🔧 🔩 🔈\n🦷 🍬 😋 🔈\n🍌 🍌 🍌 ✂️ 🫴 🔈\n🚰🐍 🫲 🚰🐍\n💃 🔈 🚰🐍\n🙆 💠⛏️ 🌡️📉",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🚫"
+      ],
+      "retried": false,
+      "guesser": "GUESS: Motorchuna",
+      "guess": "Motorchuna",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 18,
+    "round": 4,
+    "n_banned": 109,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

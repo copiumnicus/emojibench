@@ -1,0 +1,294 @@
+{
+  "model": "openrouter:minimax/minimax-m3@minimax",
+  "model_id": "minimax/minimax-m3",
+  "guesser_model": "openrouter:minimax/minimax-m3@minimax",
+  "guesser_model_id": "minimax/minimax-m3",
+  "effort": null,
+  "article": {
+    "title": "Richmond Hill South",
+    "description": "Federal electoral district in Ontario, Canada",
+    "extract": "Richmond Hill South is a federal electoral district in Ontario, Canada, that has been represented in the House of Commons of Canada since 2004.",
+    "url": "https://en.wikipedia.org/wiki/Richmond_Hill_South"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 171.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 887,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 3039,
+      "output_tokens": 2523,
+      "thinking_tokens": 2388,
+      "cost_usd": 0.0034760399999999997,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 752,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2603,
+      "output_tokens": 14359,
+      "thinking_tokens": 14054,
+      "cost_usd": 0.01761258,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 952,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 199,
+      "thinking_tokens": 179,
+      "cost_usd": 0.00019470000000000002,
+      "calls": 5
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 410,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 128,
+        "output_tokens": 734,
+        "thinking_tokens": 704,
+        "cost_usd": 0.00101148,
+        "duration_ms": 9277
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 127,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 538,
+        "output_tokens": 321,
+        "thinking_tokens": 296,
+        "cost_usd": 0.00045558,
+        "duration_ms": 3931
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 136,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 665,
+        "output_tokens": 499,
+        "thinking_tokens": 471,
+        "cost_usd": 0.0006795,
+        "duration_ms": 5186
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 106,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 801,
+        "output_tokens": 491,
+        "thinking_tokens": 464,
+        "cost_usd": 0.00066906,
+        "duration_ms": 5321
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 108,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 907,
+        "output_tokens": 478,
+        "thinking_tokens": 453,
+        "cost_usd": 0.00066042,
+        "duration_ms": 5075
+      }
+    ],
+    "guesser": [
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 317,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 128,
+        "output_tokens": 2657,
+        "thinking_tokens": 2593,
+        "cost_usd": 0.00329118,
+        "duration_ms": 24129
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 113,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 445,
+        "output_tokens": 4837,
+        "thinking_tokens": 4764,
+        "cost_usd": 0.005865,
+        "duration_ms": 37769
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 130,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 558,
+        "output_tokens": 676,
+        "thinking_tokens": 632,
+        "cost_usd": 0.00088368,
+        "duration_ms": 5650
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 96,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 688,
+        "output_tokens": 1109,
+        "thinking_tokens": 1061,
+        "cost_usd": 0.00140088,
+        "duration_ms": 10630
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 96,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 784,
+        "output_tokens": 5080,
+        "thinking_tokens": 5004,
+        "cost_usd": 0.00617184,
+        "duration_ms": 59321
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 188,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.08e-05,
+        "duration_ms": 976
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 196,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.16e-05,
+        "duration_ms": 902
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 190,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 183,
+        "thinking_tokens": 179,
+        "cost_usd": 0.0001105,
+        "duration_ms": 1478
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 187,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.07e-05,
+        "duration_ms": 952
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 191,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.11e-05,
+        "duration_ms": 951
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇨🇦🗺️🏛️🗳️📍🌳⬇️</msg>",
+      "delivered": "🇨🇦🗺️🏛️🗳️📍🌳⬇️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "My leading hypothesis is **Willowdale**—the tree plus “down/valley” suggests *willow + dale*, while the map and ballot suggest a Canadian electoral district. Is this the **federal** riding rather than the provincial one?\n\nGUESS: Willowdale (federal electoral district)",
+      "guess": "Willowdale (federal electoral district)",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🇨🇦🗳️💰⛰️⬇️</msg>",
+      "delivered": "🇨🇦🗳️💰⛰️⬇️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The clues now suggest **Willowdale—Richmond Hill**: 🌳⬇️ ≈ “willow + dale,” while 💰⛰️ ≈ “rich + hill.” Since it is a Canadian federal electoral district, I’ll use Wikipedia’s likely parenthetical title.\n\nGUESS: Willowdale—Richmond Hill (federal electoral district)",
+      "guess": "Willowdale—Richmond Hill (federal electoral district)",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>💰⛰️⬇️🇨🇦🗳️🏛️</msg>",
+      "delivered": "💰⛰️⬇️🇨🇦🗳️🏛️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "💰⛰️ likely encodes **Richmond Hill** (rich + hill), and the Canadian ballot/Parliament icons indicate a federal electoral district.\n\nGUESS: Richmond Hill (federal electoral district)",
+      "guess": "Richmond Hill (federal electoral district)",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>💰⛰️➡️⬇️🇨🇦🗳️</msg>",
+      "delivered": "💰⛰️➡️⬇️🇨🇦🗳️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "💰⛰️ likely gives “Richmond Hill,” while the ballot/capitol icons may indicate municipal government rather than a federal riding. Is the article about the Ontario city itself?\n\nGUESS: Richmond Hill, Ontario",
+      "guess": "Richmond Hill, Ontario",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>💰⛰️⬇️🇨🇦🗳️</msg>",
+      "delivered": "💰⛰️⬇️🇨🇦🗳️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The repeated “money + hill” clue likely names **Richmond Hill**, while 🌳⬇️ identifies **Willowdale** as a community in the riding. Since the “Willowdale—Richmond Hill” title did not work, the disambiguator may be provincial rather than federal.\n\nGUESS: Richmond Hill (provincial electoral district)",
+      "guess": "Richmond Hill (provincial electoral district)",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 8,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

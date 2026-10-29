@@ -1,0 +1,294 @@
+{
+  "model": "openrouter:minimax/minimax-m3@minimax",
+  "model_id": "minimax/minimax-m3",
+  "guesser_model": "openrouter:minimax/minimax-m3@minimax",
+  "guesser_model_id": "minimax/minimax-m3",
+  "effort": null,
+  "article": {
+    "title": "Dorothy Cottrell",
+    "description": "Australian writer",
+    "extract": "Ida Dorothy Ottley Cottrell was an Australian writer. Born in Picton, she contracted infantile paralysis as a child and spent the rest of her life in a wheelchair. Cottrell married Walter Mackenzie Cottrell on 23 May 1922. Her first novel, The Singing Gold, was published in 1928. She wrote a story Wilderness Orphan (1936) which was the basis for the feature film Orphan of the Wilderness (1936). She lived for a time in the US and also worked as an artist and cartoonist.",
+    "url": "https://en.wikipedia.org/wiki/Dorothy_Cottrell"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 212.3,
+  "usage": {
+    "explainer": {
+      "input_tokens": 996,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 3303,
+      "output_tokens": 3582,
+      "thinking_tokens": 3375,
+      "cost_usd": 0.00479538,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 797,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 2607,
+      "output_tokens": 16894,
+      "thinking_tokens": 16630,
+      "cost_usd": 0.02066832,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 877,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 336,
+      "thinking_tokens": 316,
+      "cost_usd": 0.00025570000000000004,
+      "calls": 5
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 488,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 128,
+        "output_tokens": 415,
+        "thinking_tokens": 380,
+        "cost_usd": 0.00065208,
+        "duration_ms": 5666
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 117,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 616,
+        "output_tokens": 38,
+        "thinking_tokens": 0,
+        "cost_usd": 0.00011766,
+        "duration_ms": 1562
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 118,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 733,
+        "output_tokens": 648,
+        "thinking_tokens": 607,
+        "cost_usd": 0.00085698,
+        "duration_ms": 6712
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 124,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 851,
+        "output_tokens": 1505,
+        "thinking_tokens": 1449,
+        "cost_usd": 0.00189426,
+        "duration_ms": 14589
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 149,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 975,
+        "output_tokens": 976,
+        "thinking_tokens": 939,
+        "cost_usd": 0.0012744,
+        "duration_ms": 10338
+      }
+    ],
+    "guesser": [
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 323,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 128,
+        "output_tokens": 3481,
+        "thinking_tokens": 3435,
+        "cost_usd": 0.00428178,
+        "duration_ms": 35699
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 111,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 450,
+        "output_tokens": 2455,
+        "thinking_tokens": 2406,
+        "cost_usd": 0.0030063,
+        "duration_ms": 26272
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 111,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 560,
+        "output_tokens": 6080,
+        "thinking_tokens": 6030,
+        "cost_usd": 0.0073629,
+        "duration_ms": 59061
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 130,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 670,
+        "output_tokens": 500,
+        "thinking_tokens": 437,
+        "cost_usd": 0.0006792,
+        "duration_ms": 5919
+      },
+      {
+        "model": "minimax/minimax-m3",
+        "served_by": "Minimax",
+        "input_tokens": 122,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 799,
+        "output_tokens": 4378,
+        "thinking_tokens": 4322,
+        "cost_usd": 0.00533814,
+        "duration_ms": 40378
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 178,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 320,
+        "thinking_tokens": 316,
+        "cost_usd": 0.0001778,
+        "duration_ms": 2321
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 174,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.94e-05,
+        "duration_ms": 941
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 177,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.97e-05,
+        "duration_ms": 854
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 172,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.92e-05,
+        "duration_ms": 1026
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 176,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 1.96e-05,
+        "duration_ms": 932
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🇦🇺 👩‍🦽 ✍️ 📚 🎨 🎬 🪙 🎵 🌲 👶</msg>",
+      "delivered": "🇦🇺 👩‍🦽 ✍️ 📚 🎨 🎬 🪙 🎵 🌲 👶",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is this one person, and are these clues to her life and works, or to an article’s subject/title? Is she an Australian woman who uses a wheelchair?\n\nGUESS: Australian writer and artist with a disability",
+      "guess": "Australian writer and artist with a disability",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>👩 🇦🇺 🦽 ♿ ✍️ 📖 🎨 ✏️ 🎬 🌲 👶 🪙</msg>",
+      "delivered": "👩 🇦🇺 🦽 ♿ ✍️ 📖 🎨 ✏️ 🎬 🌲 👶 🪙",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The coin likely indicates the first name **Penny**, while the writing, art, wheelchair, and film clues suggest Australian author and illustrator Penny Sparrow, whose novel *Angel’s Gate* was filmed.\n\nGUESS: Penny Sparrow",
+      "guess": "Penny Sparrow",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🇦🇺👩‍🦽✍️🎨✏️🎬🇺🇸🎵🥇🏜️👶</msg>",
+      "delivered": "🇦🇺👩‍🦽✍️🎨✏️🎬🇺🇸🎵🥇🏜️👶",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Are the gold and desert clues a **Gold Logie** and **Alice Springs**, with the baby referring to her having three children? I think the subject is the Australian comedian and disability advocate.\n\nGUESS: Mary Lee (comedian)",
+      "guess": "Mary Lee (comedian)",
+      "correct": false
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>👩‍🦽♿👶📍🇦🇺✍️🎨🖍️💍👨🎶🪙📕🏜️👶🎬🇺🇸</msg>",
+      "delivered": "👩‍🦽♿👶📍🇦🇺✍️🎨🖍️💍👨🎶🪙📕🏜️👶🎬🇺🇸",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The clues strongly fit Australian children’s author and poet **Alison Lester**, who was born with spina bifida, uses a wheelchair, is married to musician Paul Lester, and has three children. The Australian outback and adapted-film clues may refer to her picture books.\n\nGUESS: Alison Lester",
+      "guess": "Alison Lester",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>👠🌈👩‍🦽🇦🇺✍️🎨🎤🥇🌲👶🎬</msg>",
+      "delivered": "👠🌈👩‍🦽🇦🇺✍️🎨🎤🥇🌲👶🎬",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "The coin clue likely encodes “Penny,” while the disabled writer/artist and baby point to Penny Sparrow’s *Angel’s Gate*, adapted into a film. Is the Wikipedia article about the film rather than Sparrow herself?\n\nGUESS: Angel's Gate (film)",
+      "guess": "Angel's Gate (film)",
+      "correct": false
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 13,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

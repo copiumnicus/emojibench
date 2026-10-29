@@ -1,0 +1,195 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "UFC BJJ 2",
+    "description": "Martial arts event in 2025",
+    "extract": "UFC BJJ 2: Tackett vs. Canuto was a submission grappling event produced by UFC Brazilian Jiu-Jitsu. The event was held at the UFC Apex in Las Vegas, Nevada, United States, on July 31, 2025 and was streamed live on YouTube.",
+    "url": "https://en.wikipedia.org/wiki/UFC_BJJ_2"
+  },
+  "solved": true,
+  "turns_taken": 3,
+  "solved_turn": 3,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 41.4,
+  "usage": {
+    "explainer": {
+      "input_tokens": 1520,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 405,
+      "thinking_tokens": 219,
+      "cost_usd": 0.00709,
+      "calls": 3
+    },
+    "guesser": {
+      "input_tokens": 1240,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 528,
+      "thinking_tokens": 441,
+      "cost_usd": 0.0077599999999999995,
+      "calls": 3
+    },
+    "judge": {
+      "input_tokens": 365,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 370,
+      "thinking_tokens": 362,
+      "cost_usd": 0.0002215,
+      "calls": 2
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 389,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 164,
+        "thinking_tokens": 113,
+        "cost_usd": 0.002418,
+        "duration_ms": 7234
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 515,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 122,
+        "thinking_tokens": 62,
+        "cost_usd": 0.00225,
+        "duration_ms": 4953
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 616,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 119,
+        "thinking_tokens": 44,
+        "cost_usd": 0.002422,
+        "duration_ms": 5181
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 289,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 272,
+        "thinking_tokens": 214,
+        "cost_usd": 0.003298,
+        "duration_ms": 9689
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 419,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 133,
+        "thinking_tokens": 118,
+        "cost_usd": 0.002168,
+        "duration_ms": 5181
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 532,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 123,
+        "thinking_tokens": 109,
+        "cost_usd": 0.002294,
+        "duration_ms": 5341
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 180,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2e-05,
+        "duration_ms": 1723
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 185,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 366,
+        "thinking_tokens": 362,
+        "cost_usd": 0.0002015,
+        "duration_ms": 2109
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "🥋🇧🇷🤼‍♂️ 🚫🥊\n🏟️🇺🇸🎰\n🥋🥇➡️🥋🥈\n📅🌞 ▶️🔴",
+      "delivered": "🥋🇧🇷🤼‍♂️ 🚫🥊\n🏟️🇺🇸🎰\n🥋🥇➡️🥋🥈\n📅🌞 ▶️🔴",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "I’m reading this as Brazilian jiu-jitsu/submission grappling (no striking), an event in Las Vegas, held in summer and streamed on YouTube.\nGUESS: Craig Jones Invitational\n\nGUESS: Craig Jones Invitational",
+      "guess": "Craig Jones Invitational",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "👎\n🛑🥊🏆 ➡️ 🇧🇷🥋🤼\n✌️\n🇺🇸🎰 🏟️\n📅🌞🌞🌞🌞🌞🌞🌞",
+      "delivered": "👎\n🛑🥊🏆 ➡️ 🇧🇷🥋🤼\n✌️\n🇺🇸🎰 🏟️\n📅🌞🌞🌞🌞🌞🌞🌞",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: UFC Fight Pass Invitational 2",
+      "guess": "UFC Fight Pass Invitational 2",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "👎 🎟️👎\n✅ 🥊🏆 ➡️ 🇧🇷🥋\n🇧🇷🥋 ✌️\n📺 ▶️🔴\n📅 🌞🌞🌞🌞🌞🌞🌞 🗓️ 🌙🌙🌙 🌞",
+      "delivered": "👎 🎟️👎\n✅ 🥊🏆 ➡️ 🇧🇷🥋\n🇧🇷🥋 ✌️\n📺 ▶️🔴\n📅 🌞🌞🌞🌞🌞🌞🌞 🗓️ 🌙🌙🌙 🌞",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: UFC BJJ 2",
+      "guess": "UFC BJJ 2",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 5,
+    "round": 0,
+    "n_banned": 0,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Ayribobo",
+    "description": "Highest mountain of Turkmenistan",
+    "extract": "Ayribobo or Aýrybaba, officially named the Great Saparmyrat Turkmenbashi Peak in Turkmenistan since 2004, is a mountain in Central Asia. At 3,138 metres (10,295 ft) Aýrybaba is the highest mountain in Turkmenistan. It is located in the Köýtendag Range of the Pamir-Alay chain in the southeast of Turkmenistan on the Uzbekistani border.",
+    "url": "https://en.wikipedia.org/wiki/Ayribobo"
+  },
+  "solved": false,
+  "turns_taken": 5,
+  "solved_turn": null,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": 5,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 160.1,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2148,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 5691,
+      "output_tokens": 2591,
+      "thinking_tokens": 2076,
+      "cost_usd": 0.0318416,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 3249,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1854,
+      "thinking_tokens": 1589,
+      "cost_usd": 0.025037999999999998,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cost_usd": 0,
+      "calls": 0
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1101,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 569,
+        "thinking_tokens": 516,
+        "cost_usd": 0.008441,
+        "duration_ms": 22448
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 204,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1098,
+        "output_tokens": 580,
+        "thinking_tokens": 476,
+        "cost_usd": 0.0064183,
+        "duration_ms": 20458
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 172,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1299,
+        "output_tokens": 553,
+        "thinking_tokens": 412,
+        "cost_usd": 0.0060884,
+        "duration_ms": 20421
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 361,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1468,
+        "output_tokens": 469,
+        "thinking_tokens": 346,
+        "cost_usd": 0.0057378,
+        "duration_ms": 17057
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 310,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1826,
+        "output_tokens": 420,
+        "thinking_tokens": 326,
+        "cost_usd": 0.0051561,
+        "duration_ms": 14892
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 306,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 231,
+        "thinking_tokens": 155,
+        "cost_usd": 0.002922,
+        "duration_ms": 8767
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 480,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 564,
+        "thinking_tokens": 509,
+        "cost_usd": 0.0066,
+        "duration_ms": 18524
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 675,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 325,
+        "thinking_tokens": 274,
+        "cost_usd": 0.0046,
+        "duration_ms": 11661
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 836,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 324,
+        "thinking_tokens": 288,
+        "cost_usd": 0.004912,
+        "duration_ms": 11739
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 952,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 410,
+        "thinking_tokens": 363,
+        "cost_usd": 0.006004,
+        "duration_ms": 14133
+      }
+    ],
+    "judge": []
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>⛺ 🗾 ↖️\n🐑 🧿 🧿 🧿 🧿 🧿 🛢\n🛫 🦴 🍼 🍼</msg>",
+      "delivered": "⛺ 🗾 ↖️\n🐑 🧿 🧿 🧿 🧿 🧿\n🛫 🦴 🍼 🍼",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🛢️"
+      ],
+      "retried": false,
+      "guesser": "Is this a place in northwestern Japan, perhaps Hokkaido? Please clarify the article type: a place, person, species, or something else.\n\nIs this a place in northwestern Japan, perhaps Hokkaido? What kind of article is it: a place, person, species, or something else?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>🍣 ✖️\n🏠 ✔️\n🏖️ 🐑 🧿 🧿 🧿 🧿 🧿\n🌨️ ⛺\n🧮\n🟦🟦🟦\n🟦\n🟦🟦🟦\n🟦🟦🟦🟦🟦🟦🟦🟦</msg>",
+      "delivered": "🍣 ✖️\n🏠 ✔️\n🏖️ 🐑 🧿 🧿 🧿 🧿 🧿\n🌨️ ⛺\n🧮\n🟦🟦🟦\n🟦\n🟦🟦🟦\n🟦🟦🟦🟦🟦🟦🟦🟦",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Does 🐑🧿🧿🧿🧿🧿 mean the Faroe Islands, Iceland, or New Zealand? Is the blue diagram a population number (3,138), or the shape of something?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🇫🇴 🇮🇸 🇳🇿 ✖️\n🧮 ✔️\n🟦🟦🟦\n🟦\n🟦🟦🟦\n🟦🟦🟦🟦🟦🟦🟦🟦\n📉 🔃\n🌨️ 🧤 ⛺\n🕉️ 🕌 ✖️\n🧿 🌗 🧿 🧿 🧿 🧿\n🧎 🧎 🧎 🧎 🧎</msg>",
+      "delivered": "🇫🇴 🇮🇸 🇳🇿 ✖️\n🧮 ✔️\n🟦🟦🟦\n🟦\n🟦🟦🟦\n🟦🟦🟦🟦🟦🟦🟦🟦\n📉 🔃\n🌨️ 🧤 ⛺\n🕉️ ✖️\n🧿 🌗 🧿 🧿 🧿 🧿\n🧎 🧎 🧎 🧎 🧎",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🕌"
+      ],
+      "retried": false,
+      "guesser": "I think this is a settlement in northwestern Turkey, with a population of 3,138, and a mostly Muslim population. Is Turkey correct? Do ⛺ and 🌨️ hint at the settlement’s name?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🇹🇷 ✖️\n🏘 ✖️\n👥 ✖️\n📏\n🟦🟦🟦\n🟦\n🟦🟦🟦\n🟦🟦🟦🟦🟦🟦🟦🟦\n🌨️\n🔻 🙃\n⛺ 🧗‍♀️\n🌗 💫💫💫💫💫 🧎\n🛢️</msg>",
+      "delivered": "✖️\n✖️\n👥 ✖️\n🟦🟦🟦\n🟦\n🟦🟦🟦\n🟦🟦🟦🟦🟦🟦🟦🟦\n🌨️\n🔻 🙃\n⛺ 🧗‍♀️\n🌗 💫💫💫💫💫 🧎",
+      "dropped_chars": 4,
+      "off_keyboard": [
+        "🇹🇷",
+        "🏘️",
+        "📏",
+        "🛢️"
+      ],
+      "retried": false,
+      "guesser": "Is the country Pakistan? Does 3,138 indicate elevation in metres, and is the article a mountain campsite or hill station rather than a town?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>🇵🇰 ✖️\n🧗‍♀️ ✔️\n🧮 ✔️\n👥 ✖️\n⏏️ ⏏️ ⏏️\n\n🧎 🪢 🌗 🌠🌠🌠🌠🌠\n🦄 🏭 🏚️\n🇺🇿 🤝 🇹🇲</msg>",
+      "delivered": "✖️\n🧗‍♀️ ✔️\n🧮 ✔️\n👥 ✖️\n⏏️ ⏏️ ⏏️\n🧎 🪢 🌗 🌠🌠🌠🌠🌠\n🦄 🏭 🏚️",
+      "dropped_chars": 4,
+      "off_keyboard": [
+        "🇵🇰",
+        "🇺🇿",
+        "🤝",
+        "🇹🇲"
+      ],
+      "retried": false,
+      "guesser": "Is this a mountain or volcano whose summit elevation is 3,138 metres? Does ⏏️⏏️⏏️ mean volcanic eruptions? Please indicate its continent or country.",
+      "guess": null,
+      "correct": null
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 11,
+    "round": 10,
+    "n_banned": 211,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "model": "openrouter:openai/gpt-6.1-sol@openai",
+  "model_id": "openai/gpt-6.1-sol",
+  "guesser_model": "openrouter:openai/gpt-6.1-sol@openai",
+  "guesser_model_id": "openai/gpt-6.1-sol",
+  "effort": null,
+  "article": {
+    "title": "Motorchuna",
+    "description": "River in Yakutia (Sakha Republic), Russia",
+    "extract": "The Motorchuna is a river in Yakutia, Russia. It is a left tributary of the Lena with a length of 423 kilometres (263 mi). Its drainage basin area is 9,250 square kilometres (3,570 mi2). Since its river basin is uninhabited, the Motorchuna is one of the most untouched rivers in Yakutia; the waters are clean and there is abundant wildlife.",
+    "url": "https://en.wikipedia.org/wiki/Motorchuna"
+  },
+  "solved": true,
+  "turns_taken": 5,
+  "solved_turn": 5,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 121.6,
+  "usage": {
+    "explainer": {
+      "input_tokens": 2754,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 3954,
+      "output_tokens": 1354,
+      "thinking_tokens": 922,
+      "cost_usd": 0.0203819,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 3015,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1690,
+      "thinking_tokens": 1487,
+      "cost_usd": 0.022930000000000002,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 547,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 151,
+      "thinking_tokens": 139,
+      "cost_usd": 0.0001302,
+      "calls": 3
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 865,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 397,
+        "thinking_tokens": 335,
+        "cost_usd": 0.0057,
+        "duration_ms": 17891
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 1075,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 350,
+        "thinking_tokens": 278,
+        "cost_usd": 0.006186,
+        "duration_ms": 13729
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 230,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1072,
+        "output_tokens": 282,
+        "thinking_tokens": 179,
+        "cost_usd": 0.0035007,
+        "duration_ms": 13355
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 287,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1299,
+        "output_tokens": 155,
+        "thinking_tokens": 59,
+        "cost_usd": 0.0023959,
+        "duration_ms": 5228
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 297,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1583,
+        "output_tokens": 170,
+        "thinking_tokens": 71,
+        "cost_usd": 0.0025993,
+        "duration_ms": 6045
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 318,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 262,
+        "thinking_tokens": 214,
+        "cost_usd": 0.003256,
+        "duration_ms": 9061
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 443,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 269,
+        "thinking_tokens": 231,
+        "cost_usd": 0.003576,
+        "duration_ms": 9266
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 597,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 546,
+        "thinking_tokens": 499,
+        "cost_usd": 0.006654,
+        "duration_ms": 20285
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 741,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 437,
+        "thinking_tokens": 379,
+        "cost_usd": 0.005852,
+        "duration_ms": 15677
+      },
+      {
+        "model": "openai/gpt-6.1-sol",
+        "served_by": "OpenAI",
+        "input_tokens": 916,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 176,
+        "thinking_tokens": 164,
+        "cost_usd": 0.003592,
+        "duration_ms": 7655
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 182,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.02e-05,
+        "duration_ms": 944
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 183,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.03e-05,
+        "duration_ms": 1151
+      },
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 182,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 143,
+        "thinking_tokens": 139,
+        "cost_usd": 8.97e-05,
+        "duration_ms": 1341
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "🚣 🏞️ 🛷 ☃️ 🌬️ 🏰\n🚙🛞 ➖ 🐡\n📏 🔹🔹🔹🔹 ▪️ 🔹🔹 ▪️ 🔹🔹🔹",
+      "delivered": "🚣 🛷 ☃️ 🌬️ 🏰\n🚙🛞 ➖ 🐡\n🔹🔹🔹🔹 ▪️ 🔹🔹 ▪️ 🔹🔹🔹",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🏞️",
+        "📏"
+      ],
+      "retried": false,
+      "guesser": "Do the blue symbols mean the title has three words of lengths 4–2–3? Is this a geographical place, perhaps an island?\nGUESS: Isle of Man",
+      "guess": "Isle of Man",
+      "correct": false
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "⛔ 🏝️ ⛔ 📚\n🚣 🏞 🚣\n🇫🇮 🇨🇳 🇰🇵 🪆\n🛷 ☃️ 🐻‍❄️ 💎\n🚙🛞 🎣\n☝️ 📝",
+      "delivered": "⛔ 🏝️ ⛔ 📚\n🚣 🚣\n🇫🇮 🇨🇳 🇰🇵\n🛷 ☃️ 🐻‍❄️\n🚙🛞 🎣\n☝️ 📝",
+      "dropped_chars": 3,
+      "off_keyboard": [
+        "🏞️",
+        "🪆",
+        "💎"
+      ],
+      "retried": false,
+      "guesser": "Is this about a winter sport or athlete? I’m reading the final symbols as a 4–2–3-letter title.\nGUESS: Tour de Ski",
+      "guess": "Tour de Ski",
+      "correct": false
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "⛔ 🎿 ⛔ 🏝️ ⛔ 🏅\n🚣 🏄 🦦 🐊\n🤍💙❤️ 🐻‍❄️ 🥃\n🛷 ☃️ 🌬️\n🚙 🛞 🏁 ⛔\n🚣 🔹🔹🔹🔹 ▪️ 🔹🔹 ▪️ 🔹🔹🔹 📊",
+      "delivered": "⛔ 🎿 ⛔ 🏝️ ⛔\n🚣 🏄 🦦 🐊\n🤍💙❤️ 🐻‍❄️ 🥃\n🛷 ☃️ 🌬️\n🚙 🛞 ⛔\n🚣 🔹🔹🔹🔹 ▪️ 🔹🔹 ▪️ 🔹🔹🔹 📊",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🏅",
+        "🏁"
+      ],
+      "retried": false,
+      "guesser": "Is it a river in Russia? Do the blue dots mean its length is 423 kilometres, rather than word lengths? What does 🚙🛞 represent—its name, or something about transportation?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "✔️ 🚣 🤍💙❤️\n✔️ 🔹🔹🔹🔹 ▪️ 🔹🔹 ▪️ 🔹🔹🔹 📊\n🚙🛞 🗯️ ⛔\n🚙🛞 ➕ 🐡 📝\n🛷 ☃️ 🐻‍❄️ 🏹\n🚣 🤝 🚣 👸",
+      "delivered": "✔️ 🚣 🤍💙❤️\n✔️ 🔹🔹🔹🔹 ▪️ 🔹🔹 ▪️ 🔹🔹🔹 📊\n🚙🛞 ⛔\n🚙🛞 🐡 📝\n🛷 ☃️ 🐻‍❄️ 🏹\n🚣 🤝 🚣 👸",
+      "dropped_chars": 2,
+      "off_keyboard": [
+        "🗯️",
+        "➕"
+      ],
+      "retried": false,
+      "guesser": "Is the river exactly 423 km long? Does 🚙🛞 clue the river’s name by a car brand, or by the word “tire”? Is it a tributary of the Lena (👸)?\nGUESS: Kara (river)",
+      "guess": "Kara (river)",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "✔️ 🚣 🔹🔹🔹🔹 ▪️ 🔹🔹 ▪️ 🔹🔹🔹\n✔️ 🚣 🤝 👸\n⛔ 🚙 🏷️ ⛔ 🛞\n🚙 🔊 ⛔\n🚙 💪 📝\n🚙💪 🚃🔔 📝\n🏹 🛷 ☃️ 🤍💙❤️",
+      "delivered": "✔️ 🚣 🔹🔹🔹🔹 ▪️ 🔹🔹 ▪️ 🔹🔹🔹\n✔️ 🚣 🤝 👸\n⛔ 🚙 🏷️ ⛔ 🛞\n🚙 ⛔\n🚙 💪 📝\n🚙💪 🚃🔔 📝\n🏹 🛷 ☃️ 🤍💙❤️",
+      "dropped_chars": 1,
+      "off_keyboard": [
+        "🔊"
+      ],
+      "retried": false,
+      "guesser": "GUESS: Motorchuna",
+      "guess": "Motorchuna",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 18,
+    "round": 5,
+    "n_banned": 143,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}

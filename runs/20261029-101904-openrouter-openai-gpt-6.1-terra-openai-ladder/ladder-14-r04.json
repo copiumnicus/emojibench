@@ -1,0 +1,250 @@
+{
+  "model": "openrouter:openai/gpt-6.1-terra@openai",
+  "model_id": "openai/gpt-6.1-terra",
+  "guesser_model": "openrouter:openai/gpt-6.1-terra@openai",
+  "guesser_model_id": "openai/gpt-6.1-terra",
+  "effort": null,
+  "article": {
+    "title": "Philadelphia Commercial Museum",
+    "description": "Former museum in Pennsylvania, USA",
+    "extract": "The Philadelphia Commercial Museum was established in Philadelphia, Pennsylvania in 1895. Its permanent home was a neo-classical building situated at 34th Street and Civic Center Blvd, erected as part of the 1899 National Export Exposition. The museum had business offices at 332 South Fourth Street.",
+    "url": "https://en.wikipedia.org/wiki/Philadelphia_Commercial_Museum"
+  },
+  "solved": true,
+  "turns_taken": 5,
+  "solved_turn": 5,
+  "error": null,
+  "keyboard": null,
+  "stopped_after": null,
+  "out_of_budget": false,
+  "max_turns": 30,
+  "seconds": 75.8,
+  "usage": {
+    "explainer": {
+      "input_tokens": 4426,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1609,
+      "thinking_tokens": 1227,
+      "cost_usd": 0.012751750000000001,
+      "calls": 5
+    },
+    "guesser": {
+      "input_tokens": 2647,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 1810,
+      "thinking_tokens": 1663,
+      "cost_usd": 0.011696999999999999,
+      "calls": 5
+    },
+    "judge": {
+      "input_tokens": 189,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 4,
+      "thinking_tokens": 0,
+      "cost_usd": 2.09e-05,
+      "calls": 1
+    }
+  },
+  "calls": {
+    "explainer": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 670,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 752,
+        "thinking_tokens": 702,
+        "cost_usd": 0.00443,
+        "duration_ms": 17459
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 763,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 286,
+        "thinking_tokens": 225,
+        "cost_usd": 0.002193,
+        "duration_ms": 5651
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 872,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 248,
+        "thinking_tokens": 169,
+        "cost_usd": 0.002112,
+        "duration_ms": 5555
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 995,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 147,
+        "thinking_tokens": 71,
+        "cost_usd": 0.00173,
+        "duration_ms": 3513
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 1126,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 176,
+        "thinking_tokens": 60,
+        "cost_usd": 0.00228675,
+        "duration_ms": 3319
+      }
+    ],
+    "guesser": [
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 306,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 87,
+        "thinking_tokens": 54,
+        "cost_usd": 0.000741,
+        "duration_ms": 3623
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 401,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 332,
+        "thinking_tokens": 294,
+        "cost_usd": 0.002061,
+        "duration_ms": 7414
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 519,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 940,
+        "thinking_tokens": 906,
+        "cost_usd": 0.005219,
+        "duration_ms": 18062
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 630,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 317,
+        "thinking_tokens": 287,
+        "cost_usd": 0.002215,
+        "duration_ms": 6536
+      },
+      {
+        "model": "openai/gpt-6.1-terra",
+        "served_by": "OpenAI",
+        "input_tokens": 791,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 134,
+        "thinking_tokens": 122,
+        "cost_usd": 0.001461,
+        "duration_ms": 3767
+      }
+    ],
+    "judge": [
+      {
+        "model": "anthropic/claude-haiku-5.5",
+        "served_by": "Claude Platform on AWS",
+        "input_tokens": 189,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4,
+        "thinking_tokens": 0,
+        "cost_usd": 2.09e-05,
+        "duration_ms": 855
+      }
+    ]
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "explainer_raw": "<msg>🛎️💥 🖊️🩸🌲\n\n🏠 👁️ ⚱️\n\n🪙 🔁 🛳️ 🏷️</msg>",
+      "delivered": "🛎️💥 🖊️🩸🌲\n🏠 👁️ ⚱️\n🪙 🔁 🛳️ 🏷️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is this a person, a place, a creative work, or something else? What does each line represent? Use emojis to clarify.",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 2,
+      "explainer_raw": "<msg>📌 🏠\n\n🛎️💥 🌲\n👦👦 💞\n\n🏠 👁️ ⚱️ 🦖\n\n🪙 🏷️ 🔁 🌏 🛳️</msg>",
+      "delivered": "📌 🏠\n🛎️💥 🌲\n👦👦 💞\n🏠 👁️ ⚱️ 🦖\n🪙 🏷️ 🔁 🌏 🛳️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is 🛎️💥 🌲 the name “Ringwood”? Which country is the house in? What do the two boys and the coins mean?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 3,
+      "explainer_raw": "<msg>🚫 🌲\n\n🇨🇦 ⬇️\n🇲🇽 ⬆️\n\n🏠 📌\n🔓 🛎️💥\n👦👦 💞\n\n🏠 👁️ ⚱️ 🦖\n🪙 🏷️ 🔁 🌏</msg>",
+      "delivered": "🚫 🌲\n🇨🇦 ⬇️\n🇲🇽 ⬆️\n🏠 📌\n🔓 🛎️💥\n👦👦 💞\n🏠 👁️ ⚱️ 🦖\n🪙 🏷️ 🔁 🌏",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Philadelphia! Is it a historic house museum, an antique shop, or another kind of building? Can you give a clue to its name?",
+      "guess": null,
+      "correct": null
+    },
+    {
+      "turn": 4,
+      "explainer_raw": "<msg>🎯 📌 🔓🛎️💥 👦👦💞\n\n🏠 👁️ ⚱️ 🦖\n\n📺 🎞️ ⏸️ 📣 🧴 🏷️ 🪙\n🪙 🔁 🌏 🛳️</msg>",
+      "delivered": "🎯 📌 🔓🛎️💥 👦👦💞\n🏠 👁️ ⚱️ 🦖\n📺 🎞️ ⏸️ 📣 🧴 🏷️ 🪙\n🪙 🔁 🌏 🛳️",
+      "dropped_chars": 0,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "Is it an auction house in Philadelphia that sells antiques and other objects internationally?\n\nGUESS: Freeman's (auction house)",
+      "guess": "Freeman's (auction house)",
+      "correct": false
+    },
+    {
+      "turn": 5,
+      "explainer_raw": "<msg>🚫 🔨 🪙\n🚫 🏷️ 🪙\n\n🏠 👁️ ⚱️ 🦖\n🇬🇧 🏠 👁️ ⚱️ 🦖 = 🇬🇧 💂 🏠 👁️ ⚱️ 🦖\n\n🔓🛎️💥 👦👦💞\n📺 ⏸️ 📣 🧴\n🏠 👁️ ⚱️ 🦖</msg>",
+      "delivered": "🚫 🔨 🪙\n🚫 🏷️ 🪙\n🏠 👁️ ⚱️ 🦖\n🇬🇧 🏠 👁️ ⚱️ 🦖 🇬🇧 💂 🏠 👁️ ⚱️ 🦖\n🔓🛎️💥 👦👦💞\n📺 ⏸️ 📣 🧴\n🏠 👁️ ⚱️ 🦖",
+      "dropped_chars": 1,
+      "off_keyboard": [],
+      "retried": false,
+      "guesser": "GUESS: Philadelphia Commercial Museum",
+      "guess": "Philadelphia Commercial Museum",
+      "correct": true
+    }
+  ],
+  "sessions": {
+    "explainer": null,
+    "guesser": null
+  },
+  "harness": "c988606a2cb6",
+  "judge": "openrouter:anthropic/claude-haiku-5.5",
+  "ladder": {
+    "article_no": 14,
+    "round": 4,
+    "n_banned": 83,
+    "break_turns": 5,
+    "reused_from": null
+  }
+}
